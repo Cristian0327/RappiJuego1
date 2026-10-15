@@ -1,0 +1,255 @@
+[
+  {
+    "Name": "MarketLocal",
+    "Category": 0,
+    "Title": "Mercado Don Lucho",
+    "FrontMesh": "/Game/Delivery/Stores/SM_MarketFront_Voxel.SM_MarketFront_Voxel",
+    "InteriorMesh": "/Game/Delivery/Stores/SM_MarketInterior_Voxel.SM_MarketInterior_Voxel",
+    "ProductMeshes": [
+      "SM_Milk",
+      "SM_Rice",
+      "SM_Apples"
+    ],
+    "ProductNames": [
+      "leche",
+      "arroz",
+      "manzanas"
+    ],
+    "PurchaseBudget": 18500,
+    "WidthMeters": 24,
+    "DepthMeters": 32,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "MarketFresh",
+    "Category": 0,
+    "Title": "La Canasta Verde",
+    "FrontMesh": "/Game/Delivery/Stores/SM_FreshMarketFront_Voxel.SM_FreshMarketFront_Voxel",
+    "InteriorMesh": "/Game/Delivery/Stores/SM_FreshMarketInterior_Voxel.SM_FreshMarketInterior_Voxel",
+    "ProductMeshes": [
+      "SM_Bread",
+      "SM_Carrots",
+      "SM_Bananas"
+    ],
+    "ProductNames": [
+      "pan artesanal",
+      "zanahorias",
+      "bananos"
+    ],
+    "PurchaseBudget": 24500,
+    "WidthMeters": 24,
+    "DepthMeters": 32,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "BurgerGrill",
+    "Category": 1,
+    "Title": "La Plancha del Barrio",
+    "FrontMesh": "/Game/Delivery/Stores/SM_RestaurantFront_Voxel.SM_RestaurantFront_Voxel",
+    "InteriorMesh": "/Game/Delivery/Stores/SM_RestaurantInterior_Voxel.SM_RestaurantInterior_Voxel",
+    "ProductMeshes": [
+      "SM_Burger"
+    ],
+    "ProductNames": [
+      "hamburguesa a la parrilla"
+    ],
+    "PurchaseBudget": 22000,
+    "WidthMeters": 24,
+    "DepthMeters": 28,
+    "CounterDistanceMeters": 20
+  },
+  {
+    "Name": "QuickMeals",
+    "Category": 1,
+    "Title": "Parada Amarilla",
+    "FrontMesh": "/Game/Delivery/Stores/SM_FastFoodFront_Voxel.SM_FastFoodFront_Voxel",
+    "InteriorMesh": "/Game/Delivery/Stores/SM_FastFoodInterior_Voxel.SM_FastFoodInterior_Voxel",
+    "ProductMeshes": [
+      "SM_Nuggets"
+    ],
+    "ProductNames": [
+      "nuggets recién preparados"
+    ],
+    "PurchaseBudget": 19000,
+    "WidthMeters": 24,
+    "DepthMeters": 28,
+    "CounterDistanceMeters": 20
+  },
+  {
+    "Name": "TechRetail",
+    "Category": 2,
+    "Title": "Circuito 7",
+    "FrontMesh": "/Game/Delivery/Stores/SM_TechFront_Voxel.SM_TechFront_Voxel",
+    "InteriorMesh": "/Game/Delivery/Stores/SM_TechInterior_Voxel.SM_TechInterior_Voxel",
+    "ProductMeshes": [
+      "SM_Headphones",
+      "SM_Keyboard",
+      "SM_PhoneBox"
+    ],
+    "ProductNames": [
+      "audífonos",
+      "teclado",
+      "celular"
+    ],
+    "PurchaseBudget": 265000,
+    "WidthMeters": 24,
+    "DepthMeters": 30,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "TechComponents",
+    "Category": 2,
+    "Title": "Laboratorio 24",
+    "FrontMesh": "/Game/Delivery/Stores/SM_ComponentsFront_Voxel.SM_ComponentsFront_Voxel",
+    "InteriorMesh": "/Game/Delivery/Stores/SM_ComponentsInterior_Voxel.SM_ComponentsInterior_Voxel",
+    "ProductMeshes": [
+      "SM_GPU",
+      "SM_RAM",
+      "SM_CircuitBoard"
+    ],
+    "ProductNames": [
+      "tarjeta gráfica",
+      "memoria RAM",
+      "placa de desarrollo"
+    ],
+    "PurchaseBudget": 485000,
+    "WidthMeters": 24,
+    "DepthMeters": 30,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "Pharmacy",
+    "Category": 3,
+    "Title": "Droguería Buen Vecino",
+    "FrontMesh": "/Game/Delivery/Stores/SM_PharmacyFront_Voxel.SM_PharmacyFront_Voxel",
+    "InteriorMesh": "/Game/Delivery/Stores/SM_PharmacyInterior_Voxel.SM_PharmacyInterior_Voxel",
+    "ProductMeshes": [
+      "SM_FirstAid",
+      "SM_Medicine",
+      "SM_Medicine"
+    ],
+    "ProductNames": [
+      "botiquín",
+      "medicamento sellado",
+      "medicamento de la receta"
+    ],
+    "PurchaseBudget": 32000,
+    "WidthMeters": 24,
+    "DepthMeters": 30,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "Florist",
+    "Category": 4,
+    "Title": "Flores de la Sabana",
+    "FrontMesh": "/Game/Delivery/Stores/SM_FloristFront_Voxel.SM_FloristFront_Voxel",
+    "InteriorMesh": "/Game/Delivery/Stores/SM_FloristInterior_Voxel.SM_FloristInterior_Voxel",
+    "ProductMeshes": [
+      "SM_Bouquet",
+      "SM_Bouquet",
+      "SM_Bouquet"
+    ],
+    "ProductNames": [
+      "ramo rojo",
+      "ramo mixto",
+      "ramo de regalo"
+    ],
+    "PurchaseBudget": 45000,
+    "WidthMeters": 24,
+    "DepthMeters": 24,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "Bakery",
+    "Category": 1,
+    "Title": "Horno de la Esquina",
+    "FrontMesh": "/Game/Delivery/Stores/SM_BakeryFront_Voxel.SM_BakeryFront_Voxel",
+    "InteriorMesh": "/Game/Delivery/Stores/SM_BakeryInterior_Voxel.SM_BakeryInterior_Voxel",
+    "ProductMeshes": [
+      "SM_Bread"
+    ],
+    "ProductNames": [
+      "pan artesanal recién horneado"
+    ],
+    "PurchaseBudget": 12000,
+    "WidthMeters": 24,
+    "DepthMeters": 24,
+    "CounterDistanceMeters": 16
+  },
+  {
+    "Name": "Cafe",
+    "Category": 1,
+    "Title": "Café de los Cerros",
+    "FrontMesh": "/Game/Delivery/Stores/SM_CafeFront_Voxel.SM_CafeFront_Voxel",
+    "InteriorMesh": "/Game/Delivery/Stores/SM_CafeInterior_Voxel.SM_CafeInterior_Voxel",
+    "ProductMeshes": [
+      "SM_Coffee"
+    ],
+    "ProductNames": [
+      "café de origen preparado"
+    ],
+    "PurchaseBudget": 14000,
+    "WidthMeters": 24,
+    "DepthMeters": 24,
+    "CounterDistanceMeters": 16
+  },
+  {
+    "Name": "Hardware",
+    "Category": 2,
+    "Title": "Ferretería del Barrio",
+    "FrontMesh": "/Game/Delivery/Stores/SM_HardwareFront_Voxel.SM_HardwareFront_Voxel",
+    "InteriorMesh": "/Game/Delivery/Stores/SM_HardwareInterior_Voxel.SM_HardwareInterior_Voxel",
+    "ProductMeshes": [
+      "SM_ToolKit",
+      "SM_Drill",
+      "SM_PaintCan"
+    ],
+    "ProductNames": [
+      "caja de herramientas",
+      "taladro",
+      "pintura sellada"
+    ],
+    "PurchaseBudget": 185000,
+    "WidthMeters": 24,
+    "DepthMeters": 30,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "PetShop",
+    "Category": 0,
+    "Title": "Huellas de Barrio",
+    "FrontMesh": "/Game/Delivery/Stores/SM_PetShopFront_Voxel.SM_PetShopFront_Voxel",
+    "InteriorMesh": "/Game/Delivery/Stores/SM_PetShopInterior_Voxel.SM_PetShopInterior_Voxel",
+    "ProductMeshes": [
+      "SM_PetFood",
+      "SM_PetBowl",
+      "SM_PetToy"
+    ],
+    "ProductNames": [
+      "alimento para mascota",
+      "comedero",
+      "juguete"
+    ],
+    "PurchaseBudget": 78000,
+    "WidthMeters": 24,
+    "DepthMeters": 26,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "Pizza",
+    "Category": 1,
+    "Title": "Horno de la Cuadra",
+    "FrontMesh": "/Game/Delivery/Stores/SM_PizzaFront_Voxel.SM_PizzaFront_Voxel",
+    "InteriorMesh": "/Game/Delivery/Stores/SM_PizzaInterior_Voxel.SM_PizzaInterior_Voxel",
+    "ProductMeshes": [
+      "SM_Pizza"
+    ],
+    "ProductNames": [
+      "pizza artesanal recién horneada"
+    ],
+    "PurchaseBudget": 29000,
+    "WidthMeters": 24,
+    "DepthMeters": 28,
+    "CounterDistanceMeters": 20
+  }
+]

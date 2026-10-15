@@ -1,0 +1,7 @@
+Name,Title,Description,Motorcycle,Price,Prerequisite,ModelIndex
+BikeCity,Cicla de barrio,Tu primera companera de ruta. Ligera y directa.,False,0,None,0
+BikeCargo,Reforzada,Marco robusto y guardabarros. Las maletas van en el repartidor.,False,85000,BikePedals,1
+BikeBMX,Callejera,Marco reforzado y pegs. Hecha para la calle.,False,160000,BikeFrame,2
+MotoStreet,Moto de calle,El siguiente paso del taller. Motor y faro voxel.,True,350000,BikeMotor,0
+MotoCargo,Mensajera,Cajon termico y parrilla para jornadas de reparto.,True,480000,MotoTurbo,1
+MotoSport,Deportiva,Carenado por bloques y colin de competicion.,True,950000,MotoInjection,2

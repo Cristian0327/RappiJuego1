@@ -1,0 +1,14 @@
+Name,Title,Price,Prerequisite,Effect,Magnitude,SortIndex
+BikePedals,"Pedales de lujo",15000,None,BikeCapacity,0.10,0
+BikeFrame,"Marco de aluminio",40000,BikePedals,BikeCapacity,0.15,1
+BikeGears,"Discos de velocidades",85000,BikeFrame,BikeDrain,0.20,2
+BikeMotor,"Motor para bicicletas",180000,BikeGears,BikeInfinite,1,3
+Motorcycle,"Moto",350000,BikeMotor,Motorcycle,1,4
+MotoTurbo,"Turbo",150000,Motorcycle,Turbo,1,5
+MotoAero,"Aerodinámica",240000,MotoTurbo,MotoCapacity,0.15,6
+MotoDisplacement,"Cilindraje",400000,MotoAero,MotoDrain,0.15,7
+MotoInjection,"Sistema de inyección",650000,MotoDisplacement,MotoRegen,0.20,8
+MotoSportEngine,"Motor deportivo",1200000,MotoInjection,MotoInfinite,1,9
+CargoBackpack,"Mochila expandible",80000,None,Cargo,1,10
+CargoWaist,"Cangurera de reparto",160000,CargoBackpack,Cargo,1,11
+CargoPanniers,"Maletas laterales de moto",450000,CargoWaist,Cargo,2,12

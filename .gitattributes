@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+*.uasset binary
+*.umap binary
+*.dll binary
+*.ico binary
+*.png binary
+*.ttf binary
+*.fbx binary
+*.blend binary

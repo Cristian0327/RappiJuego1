@@ -1,0 +1,2571 @@
+{
+  "status": "PASS",
+  "engine": "5.8.2",
+  "files": [
+    {
+      "path": "Content/Crowd/AN_CrowdBoard.uasset",
+      "bytes": 41171
+    },
+    {
+      "path": "Content/Crowd/AN_CrowdCane.uasset",
+      "bytes": 123245
+    },
+    {
+      "path": "Content/Crowd/AN_CrowdEnterCar.uasset",
+      "bytes": 54213
+    },
+    {
+      "path": "Content/Crowd/AN_CrowdIdle.uasset",
+      "bytes": 36365
+    },
+    {
+      "path": "Content/Crowd/AN_CrowdWalk_Mixamo.uasset",
+      "bytes": 120585
+    },
+    {
+      "path": "Content/Crowd/MI_Crowd.uasset",
+      "bytes": 4506
+    },
+    {
+      "path": "Content/Crowd/M_CrowdPixel.uasset",
+      "bytes": 6465
+    },
+    {
+      "path": "Content/Crowd/SKEL_Crowd.uasset",
+      "bytes": 6789
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen00.uasset",
+      "bytes": 2873786
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen01.uasset",
+      "bytes": 2548574
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen02.uasset",
+      "bytes": 2584583
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen03.uasset",
+      "bytes": 2789730
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen04.uasset",
+      "bytes": 2347997
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen05.uasset",
+      "bytes": 2450756
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen06.uasset",
+      "bytes": 2375435
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen07.uasset",
+      "bytes": 2479447
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen08.uasset",
+      "bytes": 2290610
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen09.uasset",
+      "bytes": 2152307
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen10.uasset",
+      "bytes": 2381846
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen11.uasset",
+      "bytes": 2342511
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen12.uasset",
+      "bytes": 2366905
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen13.uasset",
+      "bytes": 2274830
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen14.uasset",
+      "bytes": 2468099
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen15.uasset",
+      "bytes": 2713145
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen16.uasset",
+      "bytes": 2400463
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen17.uasset",
+      "bytes": 2477876
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen18.uasset",
+      "bytes": 2271511
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen19.uasset",
+      "bytes": 2347855
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen20.uasset",
+      "bytes": 2480620
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen21.uasset",
+      "bytes": 2441409
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen22.uasset",
+      "bytes": 2549907
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen23.uasset",
+      "bytes": 2575173
+    },
+    {
+      "path": "Content/Crowd/SK_CrowdRig.uasset",
+      "bytes": 2486854
+    },
+    {
+      "path": "Content/Crowd/T_CrowdPixelAtlas.uasset",
+      "bytes": 48138
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen00.uasset",
+      "bytes": 2914959
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen01.uasset",
+      "bytes": 2555645
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen02.uasset",
+      "bytes": 2603254
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen03.uasset",
+      "bytes": 2830109
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen04.uasset",
+      "bytes": 2412687
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen05.uasset",
+      "bytes": 2501266
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen06.uasset",
+      "bytes": 2486832
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen07.uasset",
+      "bytes": 2595910
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen08.uasset",
+      "bytes": 2531875
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen09.uasset",
+      "bytes": 2280840
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen10.uasset",
+      "bytes": 2464839
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen11.uasset",
+      "bytes": 2579128
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen12.uasset",
+      "bytes": 2461156
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen13.uasset",
+      "bytes": 2397519
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen14.uasset",
+      "bytes": 2545341
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen15.uasset",
+      "bytes": 2849340
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen16.uasset",
+      "bytes": 2525074
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen17.uasset",
+      "bytes": 2482124
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen18.uasset",
+      "bytes": 2383980
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen19.uasset",
+      "bytes": 2412871
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen20.uasset",
+      "bytes": 2604459
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen21.uasset",
+      "bytes": 2491406
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen22.uasset",
+      "bytes": 2527559
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen23.uasset",
+      "bytes": 2594942
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen24.uasset",
+      "bytes": 2805366
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen25.uasset",
+      "bytes": 2715758
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen26.uasset",
+      "bytes": 2609291
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen27.uasset",
+      "bytes": 2670349
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen28.uasset",
+      "bytes": 2810799
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen29.uasset",
+      "bytes": 2928087
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen30.uasset",
+      "bytes": 2521010
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen31.uasset",
+      "bytes": 2510319
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen32.uasset",
+      "bytes": 2603304
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen33.uasset",
+      "bytes": 2600042
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen34.uasset",
+      "bytes": 2836101
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen35.uasset",
+      "bytes": 2778699
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen36.uasset",
+      "bytes": 2526273
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen37.uasset",
+      "bytes": 2576598
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen38.uasset",
+      "bytes": 2609565
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen39.uasset",
+      "bytes": 2486717
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen40.uasset",
+      "bytes": 3084889
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen41.uasset",
+      "bytes": 3032555
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen42.uasset",
+      "bytes": 3034362
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen43.uasset",
+      "bytes": 3042148
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen44.uasset",
+      "bytes": 3104940
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen45.uasset",
+      "bytes": 2954894
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen46.uasset",
+      "bytes": 2836114
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen47.uasset",
+      "bytes": 2716970
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen48.uasset",
+      "bytes": 2804970
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen49.uasset",
+      "bytes": 2716075
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen50.uasset",
+      "bytes": 2607864
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen51.uasset",
+      "bytes": 2518966
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen52.uasset",
+      "bytes": 2603339
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen53.uasset",
+      "bytes": 2457454
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen54.uasset",
+      "bytes": 2617316
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen55.uasset",
+      "bytes": 2584146
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen56.uasset",
+      "bytes": 2604232
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen57.uasset",
+      "bytes": 3073046
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen58.uasset",
+      "bytes": 2581128
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen59.uasset",
+      "bytes": 2594716
+    },
+    {
+      "path": "Content/Delivery/Animation/ABP_Cashier.uasset",
+      "bytes": 278526
+    },
+    {
+      "path": "Content/Delivery/Animation/ABP_Chef.uasset",
+      "bytes": 278442
+    },
+    {
+      "path": "Content/Delivery/Animation/ABP_CustomerNeighbor.uasset",
+      "bytes": 278778
+    },
+    {
+      "path": "Content/Delivery/Animation/ABP_CustomerOffice.uasset",
+      "bytes": 278722
+    },
+    {
+      "path": "Content/Delivery/Animation/ABP_CustomerStudent.uasset",
+      "bytes": 278750
+    },
+    {
+      "path": "Content/Delivery/Animation/ABP_DeliveryRider.uasset",
+      "bytes": 280166
+    },
+    {
+      "path": "Content/Delivery/Animation/ABP_Florist.uasset",
+      "bytes": 278526
+    },
+    {
+      "path": "Content/Delivery/Animation/ABP_Pharmacist.uasset",
+      "bytes": 278610
+    },
+    {
+      "path": "Content/Delivery/Animation/ABP_TechClerk.uasset",
+      "bytes": 278582
+    },
+    {
+      "path": "Content/Delivery/Art/CargoInk.uasset",
+      "bytes": 4917
+    },
+    {
+      "path": "Content/Delivery/Art/CargoMetal.uasset",
+      "bytes": 4927
+    },
+    {
+      "path": "Content/Delivery/Art/CargoOrange.uasset",
+      "bytes": 4932
+    },
+    {
+      "path": "Content/Delivery/Art/CargoReflector.uasset",
+      "bytes": 4947
+    },
+    {
+      "path": "Content/Delivery/Art/CargoTeal.uasset",
+      "bytes": 4922
+    },
+    {
+      "path": "Content/Delivery/Art/M_VehiclePaint.uasset",
+      "bytes": 5565
+    },
+    {
+      "path": "Content/Delivery/Art/SK_CargoBackpack.uasset",
+      "bytes": 58949
+    },
+    {
+      "path": "Content/Delivery/Art/SK_CargoWaist.uasset",
+      "bytes": 53951
+    },
+    {
+      "path": "Content/Delivery/Art/SM_BikeBMXStage0.uasset",
+      "bytes": 47790
+    },
+    {
+      "path": "Content/Delivery/Art/SM_BikeBMXStage1.uasset",
+      "bytes": 47790
+    },
+    {
+      "path": "Content/Delivery/Art/SM_BikeBMXStage2.uasset",
+      "bytes": 48028
+    },
+    {
+      "path": "Content/Delivery/Art/SM_BikeBMXStage3.uasset",
+      "bytes": 46184
+    },
+    {
+      "path": "Content/Delivery/Art/SM_BikeBMXStage4.uasset",
+      "bytes": 44173
+    },
+    {
+      "path": "Content/Delivery/Art/SM_BikeCargoStage0.uasset",
+      "bytes": 45480
+    },
+    {
+      "path": "Content/Delivery/Art/SM_BikeCargoStage1.uasset",
+      "bytes": 45480
+    },
+    {
+      "path": "Content/Delivery/Art/SM_BikeCargoStage2.uasset",
+      "bytes": 45542
+    },
+    {
+      "path": "Content/Delivery/Art/SM_BikeCargoStage3.uasset",
+      "bytes": 43202
+    },
+    {
+      "path": "Content/Delivery/Art/SM_BikeCargoStage4.uasset",
+      "bytes": 52061
+    },
+    {
+      "path": "Content/Delivery/Art/SM_BikeStage0.uasset",
+      "bytes": 43848
+    },
+    {
+      "path": "Content/Delivery/Art/SM_BikeStage1.uasset",
+      "bytes": 43848
+    },
+    {
+      "path": "Content/Delivery/Art/SM_BikeStage2.uasset",
+      "bytes": 43868
+    },
+    {
+      "path": "Content/Delivery/Art/SM_BikeStage3.uasset",
+      "bytes": 45001
+    },
+    {
+      "path": "Content/Delivery/Art/SM_BikeStage4.uasset",
+      "bytes": 47631
+    },
+    {
+      "path": "Content/Delivery/Art/SM_CargoPanniers.uasset",
+      "bytes": 20702
+    },
+    {
+      "path": "Content/Delivery/Art/SM_LuxuryPedal.uasset",
+      "bytes": 18815
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoCargoStage0.uasset",
+      "bytes": 32013
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoCargoStage1.uasset",
+      "bytes": 32312
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoCargoStage2.uasset",
+      "bytes": 33312
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoCargoStage3.uasset",
+      "bytes": 33492
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoCargoStage4.uasset",
+      "bytes": 33684
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoCargoStage5.uasset",
+      "bytes": 34370
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotorcycleBodyVoxel.uasset",
+      "bytes": 24593
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoSportStage0.uasset",
+      "bytes": 32436
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoSportStage1.uasset",
+      "bytes": 32781
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoSportStage2.uasset",
+      "bytes": 33609
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoSportStage3.uasset",
+      "bytes": 33845
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoSportStage4.uasset",
+      "bytes": 34302
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoSportStage5.uasset",
+      "bytes": 34445
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoStage0.uasset",
+      "bytes": 30092
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoStage1.uasset",
+      "bytes": 31279
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoStage2.uasset",
+      "bytes": 31852
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoStage3.uasset",
+      "bytes": 32044
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoStage4.uasset",
+      "bytes": 32925
+    },
+    {
+      "path": "Content/Delivery/Art/SM_MotoStage5.uasset",
+      "bytes": 33169
+    },
+    {
+      "path": "Content/Delivery/Art/SM_PhoneVoxel.uasset",
+      "bytes": 22143
+    },
+    {
+      "path": "Content/Delivery/Art/SM_UrbanPhoneVoxel.uasset",
+      "bytes": 24087
+    },
+    {
+      "path": "Content/Delivery/Art/T_AppMap.uasset",
+      "bytes": 12825
+    },
+    {
+      "path": "Content/Delivery/Art/T_AppOrders.uasset",
+      "bytes": 11748
+    },
+    {
+      "path": "Content/Delivery/Art/T_AppWorkshop.uasset",
+      "bytes": 12481
+    },
+    {
+      "path": "Content/Delivery/Art/T_BogotaWallpaper.uasset",
+      "bytes": 3134006
+    },
+    {
+      "path": "Content/Delivery/Art/T_CargoBackpack.uasset",
+      "bytes": 193604
+    },
+    {
+      "path": "Content/Delivery/Art/T_CargoPanniers.uasset",
+      "bytes": 183517
+    },
+    {
+      "path": "Content/Delivery/Art/T_CargoWaist.uasset",
+      "bytes": 124881
+    },
+    {
+      "path": "Content/Delivery/Art/T_CityStamp.uasset",
+      "bytes": 11623
+    },
+    {
+      "path": "Content/Delivery/Art/T_ParcelCoffee.uasset",
+      "bytes": 11577
+    },
+    {
+      "path": "Content/Delivery/Art/T_ParcelFood.uasset",
+      "bytes": 11553
+    },
+    {
+      "path": "Content/Delivery/Art/T_ParcelMarket.uasset",
+      "bytes": 11763
+    },
+    {
+      "path": "Content/Delivery/Art/T_PhoneShell.uasset",
+      "bytes": 137406
+    },
+    {
+      "path": "Content/Delivery/Art/T_RutaBog.uasset",
+      "bytes": 11426
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_BikeBMXStage0.uasset",
+      "bytes": 86333
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_BikeBMXStage1.uasset",
+      "bytes": 86333
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_BikeBMXStage2.uasset",
+      "bytes": 86740
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_BikeBMXStage3.uasset",
+      "bytes": 87915
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_BikeBMXStage4.uasset",
+      "bytes": 89547
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_BikeCargoStage0.uasset",
+      "bytes": 97397
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_BikeCargoStage1.uasset",
+      "bytes": 97397
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_BikeCargoStage2.uasset",
+      "bytes": 98035
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_BikeCargoStage3.uasset",
+      "bytes": 99684
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_BikeCargoStage4.uasset",
+      "bytes": 101156
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_BikeStage0.uasset",
+      "bytes": 84200
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_BikeStage1.uasset",
+      "bytes": 84200
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_BikeStage2.uasset",
+      "bytes": 84826
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_BikeStage3.uasset",
+      "bytes": 86574
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_BikeStage4.uasset",
+      "bytes": 88146
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoCargoStage0.uasset",
+      "bytes": 102428
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoCargoStage1.uasset",
+      "bytes": 103546
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoCargoStage2.uasset",
+      "bytes": 105215
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoCargoStage3.uasset",
+      "bytes": 104796
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoCargoStage4.uasset",
+      "bytes": 105152
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoCargoStage5.uasset",
+      "bytes": 104485
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoSportStage0.uasset",
+      "bytes": 98818
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoSportStage1.uasset",
+      "bytes": 98903
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoSportStage2.uasset",
+      "bytes": 98903
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoSportStage3.uasset",
+      "bytes": 99025
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoSportStage4.uasset",
+      "bytes": 99444
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoSportStage5.uasset",
+      "bytes": 98635
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoStage0.uasset",
+      "bytes": 93509
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoStage1.uasset",
+      "bytes": 94573
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoStage2.uasset",
+      "bytes": 96391
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoStage3.uasset",
+      "bytes": 95691
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoStage4.uasset",
+      "bytes": 96218
+    },
+    {
+      "path": "Content/Delivery/Art/T_SM_MotoStage5.uasset",
+      "bytes": 95714
+    },
+    {
+      "path": "Content/Delivery/Art/T_UrbanShell.uasset",
+      "bytes": 12666
+    },
+    {
+      "path": "Content/Delivery/Art/Voxel_Chrome.uasset",
+      "bytes": 4915
+    },
+    {
+      "path": "Content/Delivery/Art/Voxel_Edge.uasset",
+      "bytes": 4905
+    },
+    {
+      "path": "Content/Delivery/Art/Voxel_Gold.uasset",
+      "bytes": 4905
+    },
+    {
+      "path": "Content/Delivery/Art/Voxel_Ink.uasset",
+      "bytes": 4900
+    },
+    {
+      "path": "Content/Delivery/Art/Voxel_Lamp.uasset",
+      "bytes": 4905
+    },
+    {
+      "path": "Content/Delivery/Art/Voxel_Mint.uasset",
+      "bytes": 4905
+    },
+    {
+      "path": "Content/Delivery/Art/Voxel_Orange.uasset",
+      "bytes": 4915
+    },
+    {
+      "path": "Content/Delivery/Art/Voxel_Paint.uasset",
+      "bytes": 4910
+    },
+    {
+      "path": "Content/Delivery/Art/Voxel_Paper.uasset",
+      "bytes": 4910
+    },
+    {
+      "path": "Content/Delivery/Art/Voxel_Red.uasset",
+      "bytes": 4900
+    },
+    {
+      "path": "Content/Delivery/Art/Voxel_Rubber.uasset",
+      "bytes": 4915
+    },
+    {
+      "path": "Content/Delivery/Art/Voxel_Screen.uasset",
+      "bytes": 4915
+    },
+    {
+      "path": "Content/Delivery/Art/Voxel_Shell.uasset",
+      "bytes": 4910
+    },
+    {
+      "path": "Content/Delivery/Art/Voxel_Steel.uasset",
+      "bytes": 4910
+    },
+    {
+      "path": "Content/Delivery/Core/BPC_DeliveryGameplay.uasset",
+      "bytes": 2402796
+    },
+    {
+      "path": "Content/Delivery/Core/BP_DeliveryGameMode.uasset",
+      "bytes": 21889
+    },
+    {
+      "path": "Content/Delivery/Data/DT_StoreThemes.uasset",
+      "bytes": 24792
+    },
+    {
+      "path": "Content/Delivery/Data/DT_Upgrades.uasset",
+      "bytes": 9371
+    },
+    {
+      "path": "Content/Delivery/Data/DT_Vehicles.uasset",
+      "bytes": 7062
+    },
+    {
+      "path": "Content/Delivery/Orders/BP_DeliveryBuilding.uasset",
+      "bytes": 299274
+    },
+    {
+      "path": "Content/Delivery/Orders/BP_VoxelCustomer.uasset",
+      "bytes": 78672
+    },
+    {
+      "path": "Content/Delivery/People/A_Cashier_Walk.uasset",
+      "bytes": 56075
+    },
+    {
+      "path": "Content/Delivery/People/A_Cashier_Work.uasset",
+      "bytes": 47611
+    },
+    {
+      "path": "Content/Delivery/People/A_Chef_Walk.uasset",
+      "bytes": 56042
+    },
+    {
+      "path": "Content/Delivery/People/A_Chef_Work.uasset",
+      "bytes": 47578
+    },
+    {
+      "path": "Content/Delivery/People/A_CustomerNeighbor_Walk.uasset",
+      "bytes": 56123
+    },
+    {
+      "path": "Content/Delivery/People/A_CustomerNeighbor_Work.uasset",
+      "bytes": 47710
+    },
+    {
+      "path": "Content/Delivery/People/A_CustomerOffice_Walk.uasset",
+      "bytes": 56101
+    },
+    {
+      "path": "Content/Delivery/People/A_CustomerOffice_Work.uasset",
+      "bytes": 47688
+    },
+    {
+      "path": "Content/Delivery/People/A_CustomerStudent_Walk.uasset",
+      "bytes": 56112
+    },
+    {
+      "path": "Content/Delivery/People/A_CustomerStudent_Work.uasset",
+      "bytes": 47699
+    },
+    {
+      "path": "Content/Delivery/People/A_Florist_Walk.uasset",
+      "bytes": 56075
+    },
+    {
+      "path": "Content/Delivery/People/A_Florist_Work.uasset",
+      "bytes": 47611
+    },
+    {
+      "path": "Content/Delivery/People/A_Pharmacist_Walk.uasset",
+      "bytes": 56108
+    },
+    {
+      "path": "Content/Delivery/People/A_Pharmacist_Work.uasset",
+      "bytes": 47644
+    },
+    {
+      "path": "Content/Delivery/People/A_TechClerk_Walk.uasset",
+      "bytes": 56097
+    },
+    {
+      "path": "Content/Delivery/People/A_TechClerk_Work.uasset",
+      "bytes": 47633
+    },
+    {
+      "path": "Content/Delivery/People/NPCPalette.uasset",
+      "bytes": 11102
+    },
+    {
+      "path": "Content/Delivery/People/NPC_Atlas.uasset",
+      "bytes": 6601
+    },
+    {
+      "path": "Content/Delivery/People/SK_Cashier.uasset",
+      "bytes": 869795
+    },
+    {
+      "path": "Content/Delivery/People/SK_Cashier_Skeleton.uasset",
+      "bytes": 5239
+    },
+    {
+      "path": "Content/Delivery/People/SK_Chef.uasset",
+      "bytes": 764277
+    },
+    {
+      "path": "Content/Delivery/People/SK_Chef_Skeleton.uasset",
+      "bytes": 5221
+    },
+    {
+      "path": "Content/Delivery/People/SK_CustomerNeighbor.uasset",
+      "bytes": 486286
+    },
+    {
+      "path": "Content/Delivery/People/SK_CustomerNeighbor_Anim.uasset",
+      "bytes": 46408
+    },
+    {
+      "path": "Content/Delivery/People/SK_CustomerNeighbor_Skeleton.uasset",
+      "bytes": 5293
+    },
+    {
+      "path": "Content/Delivery/People/SK_CustomerOffice.uasset",
+      "bytes": 416749
+    },
+    {
+      "path": "Content/Delivery/People/SK_CustomerOffice_Anim.uasset",
+      "bytes": 46386
+    },
+    {
+      "path": "Content/Delivery/People/SK_CustomerOffice_Skeleton.uasset",
+      "bytes": 5281
+    },
+    {
+      "path": "Content/Delivery/People/SK_CustomerStudent.uasset",
+      "bytes": 613643
+    },
+    {
+      "path": "Content/Delivery/People/SK_CustomerStudent_Anim.uasset",
+      "bytes": 46397
+    },
+    {
+      "path": "Content/Delivery/People/SK_CustomerStudent_Skeleton.uasset",
+      "bytes": 5287
+    },
+    {
+      "path": "Content/Delivery/People/SK_Florist.uasset",
+      "bytes": 890947
+    },
+    {
+      "path": "Content/Delivery/People/SK_Florist_Skeleton.uasset",
+      "bytes": 5239
+    },
+    {
+      "path": "Content/Delivery/People/SK_Pharmacist.uasset",
+      "bytes": 631681
+    },
+    {
+      "path": "Content/Delivery/People/SK_Pharmacist_Skeleton.uasset",
+      "bytes": 5257
+    },
+    {
+      "path": "Content/Delivery/People/SK_TechClerk.uasset",
+      "bytes": 887006
+    },
+    {
+      "path": "Content/Delivery/People/SK_TechClerk_Skeleton.uasset",
+      "bytes": 5251
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_black.uasset",
+      "bytes": 5533
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_brick.uasset",
+      "bytes": 5533
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_brickLight.uasset",
+      "bytes": 5558
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_coffee.uasset",
+      "bytes": 5538
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_cream.uasset",
+      "bytes": 5533
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_gold.uasset",
+      "bytes": 5528
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_leaf.uasset",
+      "bytes": 5528
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_metal.uasset",
+      "bytes": 5533
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_mint.uasset",
+      "bytes": 5528
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_mortar.uasset",
+      "bytes": 5538
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_navy.uasset",
+      "bytes": 5528
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_ochre.uasset",
+      "bytes": 5533
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_pink.uasset",
+      "bytes": 5528
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_red.uasset",
+      "bytes": 5523
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_sage.uasset",
+      "bytes": 5528
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_white.uasset",
+      "bytes": 5533
+    },
+    {
+      "path": "Content/Delivery/Stores/Detail_wood.uasset",
+      "bytes": 5528
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_blue.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_brick.uasset",
+      "bytes": 5189
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_bricklight.uasset",
+      "bytes": 5214
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_cobalt.uasset",
+      "bytes": 5194
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_cream.uasset",
+      "bytes": 5518
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_cyan.uasset",
+      "bytes": 5184
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_glass.uasset",
+      "bytes": 6208
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_gold.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_graphite.uasset",
+      "bytes": 5204
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_honey.uasset",
+      "bytes": 5518
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_ink.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_ivory.uasset",
+      "bytes": 5518
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_leaf.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_mortar.uasset",
+      "bytes": 5194
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_oak.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_pink.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_red.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_sage.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_steel.uasset",
+      "bytes": 5518
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_tile.uasset",
+      "bytes": 5184
+    },
+    {
+      "path": "Content/Delivery/Stores/ENV_warm.uasset",
+      "bytes": 5184
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_brown.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_charcoal.uasset",
+      "bytes": 5528
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_cream.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_curl.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_cyan.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_darkHighlight.uasset",
+      "bytes": 5553
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_darkSkin.uasset",
+      "bytes": 5528
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_eye.uasset",
+      "bytes": 5503
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_gold.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_hair.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_ink.uasset",
+      "bytes": 5503
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_metal.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_mustard.uasset",
+      "bytes": 5523
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_navy.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_navyLight.uasset",
+      "bytes": 5533
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_olive.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_pink.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_plum.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_plumLight.uasset",
+      "bytes": 5533
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_red.uasset",
+      "bytes": 5503
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_rust.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_rustLight.uasset",
+      "bytes": 5533
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_sage.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_sageLight.uasset",
+      "bytes": 5533
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_silver.uasset",
+      "bytes": 5518
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_silverLight.uasset",
+      "bytes": 5543
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_skin.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_skinLight.uasset",
+      "bytes": 5533
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_skinShade.uasset",
+      "bytes": 5533
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_skirt.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_sole.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_teal.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/HF_white.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/Masonry.uasset",
+      "bytes": 25077
+    },
+    {
+      "path": "Content/Delivery/Stores/Metal.uasset",
+      "bytes": 24722
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_blue.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_blue_shade.uasset",
+      "bytes": 5543
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_denim.uasset",
+      "bytes": 5518
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_denim_shade.uasset",
+      "bytes": 5548
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_gold.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_gold_shade.uasset",
+      "bytes": 5543
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_gray.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_gray_shade.uasset",
+      "bytes": 5543
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_green.uasset",
+      "bytes": 5518
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_green_shade.uasset",
+      "bytes": 5548
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_hair.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_hair_shade.uasset",
+      "bytes": 5543
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_ink.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_ink_shade.uasset",
+      "bytes": 5538
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_purple.uasset",
+      "bytes": 5523
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_purple_shade.uasset",
+      "bytes": 5553
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_red.uasset",
+      "bytes": 5508
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_red_shade.uasset",
+      "bytes": 5538
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_skin.uasset",
+      "bytes": 5513
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_skinDark.uasset",
+      "bytes": 5533
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_skinDark_shade.uasset",
+      "bytes": 5563
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_skinLight.uasset",
+      "bytes": 5538
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_skinLight_shade.uasset",
+      "bytes": 5568
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_skin_shade.uasset",
+      "bytes": 5543
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_white.uasset",
+      "bytes": 5518
+    },
+    {
+      "path": "Content/Delivery/Stores/NPC_white_shade.uasset",
+      "bytes": 5548
+    },
+    {
+      "path": "Content/Delivery/Stores/Paper.uasset",
+      "bytes": 24435
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Apples.uasset",
+      "bytes": 34468
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_BakeryFront_Voxel.uasset",
+      "bytes": 343561
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_BakeryInterior_Voxel.uasset",
+      "bytes": 246178
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Bananas.uasset",
+      "bytes": 18077
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Bouquet.uasset",
+      "bytes": 63393
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Bread.uasset",
+      "bytes": 14837
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Burger.uasset",
+      "bytes": 46564
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_CafeFront_Voxel.uasset",
+      "bytes": 344512
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_CafeInterior_Voxel.uasset",
+      "bytes": 582767
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Carrots.uasset",
+      "bytes": 16638
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_CircuitBoard.uasset",
+      "bytes": 24819
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Coffee.uasset",
+      "bytes": 35458
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_ComponentsFront_Voxel.uasset",
+      "bytes": 125741
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_ComponentsInterior_Voxel.uasset",
+      "bytes": 1138469
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Drill.uasset",
+      "bytes": 17232
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_FastFoodFront_Voxel.uasset",
+      "bytes": 137676
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_FastFoodInterior_Voxel.uasset",
+      "bytes": 465131
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_FirstAid.uasset",
+      "bytes": 17868
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_FloristFront_Voxel.uasset",
+      "bytes": 343576
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_FloristInterior_Voxel.uasset",
+      "bytes": 3416273
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_FreshMarketFront_Voxel.uasset",
+      "bytes": 132216
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_FreshMarketInterior_Voxel.uasset",
+      "bytes": 2046199
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_GPU.uasset",
+      "bytes": 27994
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_HardwareFront_Voxel.uasset",
+      "bytes": 95468
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_HardwareInterior_Voxel.uasset",
+      "bytes": 1598377
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Headphones.uasset",
+      "bytes": 19568
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Keyboard.uasset",
+      "bytes": 26861
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_MarketFront_Voxel.uasset",
+      "bytes": 94870
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_MarketInterior_Voxel.uasset",
+      "bytes": 2017272
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Medicine.uasset",
+      "bytes": 17863
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Milk.uasset",
+      "bytes": 16528
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Nuggets.uasset",
+      "bytes": 16878
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_PaintCan.uasset",
+      "bytes": 24350
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_PetBowl.uasset",
+      "bytes": 23828
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_PetFood.uasset",
+      "bytes": 15709
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_PetShopFront_Voxel.uasset",
+      "bytes": 117519
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_PetShopInterior_Voxel.uasset",
+      "bytes": 1084618
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_PetToy.uasset",
+      "bytes": 13146
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_PharmacyFront_Voxel.uasset",
+      "bytes": 123257
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_PharmacyInterior_Voxel.uasset",
+      "bytes": 1584630
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_PhoneBox.uasset",
+      "bytes": 22654
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Pizza.uasset",
+      "bytes": 146671
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_PizzaFront_Voxel.uasset",
+      "bytes": 426205
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_PizzaInterior_Voxel.uasset",
+      "bytes": 1166070
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_RAM.uasset",
+      "bytes": 18658
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_RestaurantFront_Voxel.uasset",
+      "bytes": 406112
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_RestaurantInterior_Voxel.uasset",
+      "bytes": 502025
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Rice.uasset",
+      "bytes": 24091
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_Salad.uasset",
+      "bytes": 40435
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_TechFront_Voxel.uasset",
+      "bytes": 124738
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_TechInterior_Voxel.uasset",
+      "bytes": 730193
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_ToolKit.uasset",
+      "bytes": 16245
+    },
+    {
+      "path": "Content/Delivery/Stores/Store_bread.uasset",
+      "bytes": 5528
+    },
+    {
+      "path": "Content/Delivery/Stores/Store_cream.uasset",
+      "bytes": 5528
+    },
+    {
+      "path": "Content/Delivery/Stores/Store_dark.uasset",
+      "bytes": 5523
+    },
+    {
+      "path": "Content/Delivery/Stores/Store_green.uasset",
+      "bytes": 5528
+    },
+    {
+      "path": "Content/Delivery/Stores/Store_lettuce.uasset",
+      "bytes": 5538
+    },
+    {
+      "path": "Content/Delivery/Stores/Store_milk.uasset",
+      "bytes": 5523
+    },
+    {
+      "path": "Content/Delivery/Stores/Store_orange.uasset",
+      "bytes": 5533
+    },
+    {
+      "path": "Content/Delivery/Stores/Store_red.uasset",
+      "bytes": 5518
+    },
+    {
+      "path": "Content/Delivery/Stores/Store_skin.uasset",
+      "bytes": 5523
+    },
+    {
+      "path": "Content/Delivery/Stores/Store_steel.uasset",
+      "bytes": 5528
+    },
+    {
+      "path": "Content/Delivery/Stores/Store_white.uasset",
+      "bytes": 5528
+    },
+    {
+      "path": "Content/Delivery/Stores/Store_wood.uasset",
+      "bytes": 5523
+    },
+    {
+      "path": "Content/Delivery/Stores/Timber.uasset",
+      "bytes": 24704
+    },
+    {
+      "path": "Content/Delivery/UI/WBP_VoxelPhone.uasset",
+      "bytes": 1522637
+    },
+    {
+      "path": "Content/Delivery/UI/Fonts/RutaPixel_Bold.uasset",
+      "bytes": 53205
+    },
+    {
+      "path": "Content/Delivery/UI/Fonts/RutaPixel_Bold_Font.uasset",
+      "bytes": 2462
+    },
+    {
+      "path": "Content/Delivery/UI/Fonts/RutaPixel_Regular.uasset",
+      "bytes": 53454
+    },
+    {
+      "path": "Content/Delivery/UI/Fonts/RutaPixel_Regular_Font.uasset",
+      "bytes": 2483
+    },
+    {
+      "path": "Content/Delivery/Vehicles/BP_DeliveryRider.uasset",
+      "bytes": 407946
+    },
+    {
+      "path": "Content/Maps/Bogota.umap",
+      "bytes": 2461411
+    },
+    {
+      "path": "Content/Traffic/Blue_003.uasset",
+      "bytes": 4940
+    },
+    {
+      "path": "Content/Traffic/Glass.uasset",
+      "bytes": 4925
+    },
+    {
+      "path": "Content/Traffic/Glass_001.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/Glass_002.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/Glass_003.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/Lamp.uasset",
+      "bytes": 4920
+    },
+    {
+      "path": "Content/Traffic/Lamp_001.uasset",
+      "bytes": 4940
+    },
+    {
+      "path": "Content/Traffic/Lamp_002.uasset",
+      "bytes": 4940
+    },
+    {
+      "path": "Content/Traffic/Lamp_003.uasset",
+      "bytes": 4940
+    },
+    {
+      "path": "Content/Traffic/Red_003.uasset",
+      "bytes": 4935
+    },
+    {
+      "path": "Content/Traffic/Rubber.uasset",
+      "bytes": 4930
+    },
+    {
+      "path": "Content/Traffic/Rubber_001.uasset",
+      "bytes": 4950
+    },
+    {
+      "path": "Content/Traffic/Rubber_002.uasset",
+      "bytes": 4950
+    },
+    {
+      "path": "Content/Traffic/Rubber_003.uasset",
+      "bytes": 4950
+    },
+    {
+      "path": "Content/Traffic/SK_Private.uasset",
+      "bytes": 19744673
+    },
+    {
+      "path": "Content/Traffic/SK_Private_Skeleton.uasset",
+      "bytes": 3076
+    },
+    {
+      "path": "Content/Traffic/SK_SITP.uasset",
+      "bytes": 245903
+    },
+    {
+      "path": "Content/Traffic/SK_SITP_Skeleton.uasset",
+      "bytes": 3058
+    },
+    {
+      "path": "Content/Traffic/SK_TaxiCompact.uasset",
+      "bytes": 172376
+    },
+    {
+      "path": "Content/Traffic/SK_TaxiCompact_Skeleton.uasset",
+      "bytes": 3100
+    },
+    {
+      "path": "Content/Traffic/SK_TaxiSedan.uasset",
+      "bytes": 171808
+    },
+    {
+      "path": "Content/Traffic/SK_TaxiSedan_Skeleton.uasset",
+      "bytes": 3088
+    },
+    {
+      "path": "Content/Traffic/SK_TransMilenio.uasset",
+      "bytes": 438697
+    },
+    {
+      "path": "Content/Traffic/SK_TransMilenio_Skeleton.uasset",
+      "bytes": 3715
+    },
+    {
+      "path": "Content/Traffic/Steel.uasset",
+      "bytes": 4925
+    },
+    {
+      "path": "Content/Traffic/Steel_001.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/Steel_002.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/Steel_003.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/Tail.uasset",
+      "bytes": 4920
+    },
+    {
+      "path": "Content/Traffic/Tail_001.uasset",
+      "bytes": 4940
+    },
+    {
+      "path": "Content/Traffic/Tail_002.uasset",
+      "bytes": 4940
+    },
+    {
+      "path": "Content/Traffic/Tail_003.uasset",
+      "bytes": 4940
+    },
+    {
+      "path": "Content/Traffic/White_002.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/White_003.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/Yellow.uasset",
+      "bytes": 4930
+    },
+    {
+      "path": "Content/Traffic/Yellow_001.uasset",
+      "bytes": 4950
+    },
+    {
+      "path": "Content/Traffic/Yellow_003.uasset",
+      "bytes": 4950
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Amber.uasset",
+      "bytes": 4382
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Black.uasset",
+      "bytes": 4382
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Chrome.uasset",
+      "bytes": 4387
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Glass.uasset",
+      "bytes": 4382
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_GlassDark.uasset",
+      "bytes": 4402
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_GlassLight.uasset",
+      "bytes": 4407
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Lamp.uasset",
+      "bytes": 4377
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintBlue.uasset",
+      "bytes": 4402
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintBlue0.uasset",
+      "bytes": 4407
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintBlue1.uasset",
+      "bytes": 4407
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintBlue2.uasset",
+      "bytes": 4407
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintBlue3.uasset",
+      "bytes": 4407
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintGray.uasset",
+      "bytes": 4402
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintGray0.uasset",
+      "bytes": 4407
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintGray1.uasset",
+      "bytes": 4407
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintGray2.uasset",
+      "bytes": 4407
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintGray3.uasset",
+      "bytes": 4407
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintRed.uasset",
+      "bytes": 4397
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintRed0.uasset",
+      "bytes": 4402
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintRed1.uasset",
+      "bytes": 4402
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintRed2.uasset",
+      "bytes": 4402
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintRed3.uasset",
+      "bytes": 4402
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintWhite.uasset",
+      "bytes": 4407
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintWhite0.uasset",
+      "bytes": 4412
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintWhite1.uasset",
+      "bytes": 4412
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintWhite2.uasset",
+      "bytes": 4412
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintWhite3.uasset",
+      "bytes": 4412
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintYellow.uasset",
+      "bytes": 4412
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintYellow0.uasset",
+      "bytes": 4417
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintYellow1.uasset",
+      "bytes": 4417
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintYellow2.uasset",
+      "bytes": 4417
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_PaintYellow3.uasset",
+      "bytes": 4417
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Plate.uasset",
+      "bytes": 4382
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Rim.uasset",
+      "bytes": 4372
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Roof.uasset",
+      "bytes": 4377
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Roof0.uasset",
+      "bytes": 4382
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Roof1.uasset",
+      "bytes": 4382
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Roof2.uasset",
+      "bytes": 4382
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Roof3.uasset",
+      "bytes": 4382
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Rubber.uasset",
+      "bytes": 4387
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Rubber0.uasset",
+      "bytes": 4392
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Rubber1.uasset",
+      "bytes": 4392
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Rubber2.uasset",
+      "bytes": 4392
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Rubber3.uasset",
+      "bytes": 4392
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Seal.uasset",
+      "bytes": 4377
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Seam.uasset",
+      "bytes": 4377
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Seat.uasset",
+      "bytes": 4377
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Steel.uasset",
+      "bytes": 4382
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Tail.uasset",
+      "bytes": 4377
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_TailLight.uasset",
+      "bytes": 4402
+    },
+    {
+      "path": "Content/Traffic/Detailed/MI_TV_Tread.uasset",
+      "bytes": 4382
+    },
+    {
+      "path": "Content/Traffic/Detailed/M_TrafficVoxel.uasset",
+      "bytes": 6803
+    },
+    {
+      "path": "Content/Traffic/Detailed/M_TrafficVoxelVertex.uasset",
+      "bytes": 10892
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_Private.uasset",
+      "bytes": 2380226
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateAveo.uasset",
+      "bytes": 2346701
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateAveo_Skeleton.uasset",
+      "bytes": 3118
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateBeetle.uasset",
+      "bytes": 3801514
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateBeetle_Skeleton.uasset",
+      "bytes": 3130
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateChevette.uasset",
+      "bytes": 2223830
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateChevette_Skeleton.uasset",
+      "bytes": 3142
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateClio.uasset",
+      "bytes": 2282258
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateClio_Skeleton.uasset",
+      "bytes": 3118
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateHatch.uasset",
+      "bytes": 2275216
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateHatch_Skeleton.uasset",
+      "bytes": 3124
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateMazda323.uasset",
+      "bytes": 2041629
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateMazda323_Skeleton.uasset",
+      "bytes": 3142
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivatePicanto.uasset",
+      "bytes": 2141675
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivatePicanto_Skeleton.uasset",
+      "bytes": 3136
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivatePickup.uasset",
+      "bytes": 2857978
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivatePickup_Skeleton.uasset",
+      "bytes": 3130
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivatePrado.uasset",
+      "bytes": 2995583
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivatePrado_Skeleton.uasset",
+      "bytes": 3124
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateRenault12.uasset",
+      "bytes": 2042466
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateRenault12_Skeleton.uasset",
+      "bytes": 3148
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateRenault4.uasset",
+      "bytes": 2022621
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateRenault4_Skeleton.uasset",
+      "bytes": 3142
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateRenault9.uasset",
+      "bytes": 2040791
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateRenault9_Skeleton.uasset",
+      "bytes": 3142
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSandero.uasset",
+      "bytes": 2442695
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSandero_Skeleton.uasset",
+      "bytes": 3136
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSingleCab.uasset",
+      "bytes": 2667589
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSingleCab_Skeleton.uasset",
+      "bytes": 3148
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSprint.uasset",
+      "bytes": 1997989
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSprint_Skeleton.uasset",
+      "bytes": 3130
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSUV.uasset",
+      "bytes": 2577812
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSUV_Skeleton.uasset",
+      "bytes": 3112
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateVan.uasset",
+      "bytes": 1886846
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateVan_Skeleton.uasset",
+      "bytes": 3112
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateVitara.uasset",
+      "bytes": 2672354
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateVitara_Skeleton.uasset",
+      "bytes": 3130
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateWagon.uasset",
+      "bytes": 2445387
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateWagon_Skeleton.uasset",
+      "bytes": 3124
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_Private_Skeleton.uasset",
+      "bytes": 3094
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_TaxiCompact.uasset",
+      "bytes": 2298206
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_TaxiCompact_Skeleton.uasset",
+      "bytes": 3118
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_TaxiSedan.uasset",
+      "bytes": 2445350
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_TaxiSedan_Skeleton.uasset",
+      "bytes": 3106
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_TransMilenio.uasset",
+      "bytes": 4320125
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_TransMilenioG66.uasset",
+      "bytes": 4297367
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_TransMilenioG66_Skeleton.uasset",
+      "bytes": 3751
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_TransMilenio_Skeleton.uasset",
+      "bytes": 3733
+    },
+    {
+      "path": "Content/Traffic/Detailed/T_TrafficPixelAtlas.uasset",
+      "bytes": 16733
+    },
+    {
+      "path": "Content/VoxelExplorer/AN_BikePedal.uasset",
+      "bytes": 68402
+    },
+    {
+      "path": "Content/VoxelExplorer/AN_Idle.uasset",
+      "bytes": 35628
+    },
+    {
+      "path": "Content/VoxelExplorer/AN_MixamoJump.uasset",
+      "bytes": 181968
+    },
+    {
+      "path": "Content/VoxelExplorer/AN_MixamoWalk.uasset",
+      "bytes": 119792
+    },
+    {
+      "path": "Content/VoxelExplorer/AN_MotoRide.uasset",
+      "bytes": 49664
+    },
+    {
+      "path": "Content/VoxelExplorer/AN_Rig_Test.uasset",
+      "bytes": 103972
+    },
+    {
+      "path": "Content/VoxelExplorer/AN_Walk_InPlace.uasset",
+      "bytes": 51644
+    },
+    {
+      "path": "Content/VoxelExplorer/IK_VoxelExplorer.uasset",
+      "bytes": 20909
+    },
+    {
+      "path": "Content/VoxelExplorer/M_VoxelExplorer.uasset",
+      "bytes": 5565
+    },
+    {
+      "path": "Content/VoxelExplorer/M_VoxelExplorerRuntime.uasset",
+      "bytes": 7577
+    },
+    {
+      "path": "Content/VoxelExplorer/M_VoxelExplorerRuntimeRGB.uasset",
+      "bytes": 7757
+    },
+    {
+      "path": "Content/VoxelExplorer/SK_VoxelExplorer.uasset",
+      "bytes": 1724687
+    },
+    {
+      "path": "Content/VoxelExplorer/SK_VoxelExplorer_PhysicsAsset.uasset",
+      "bytes": 25078
+    },
+    {
+      "path": "Content/VoxelExplorer/SK_VoxelExplorer_Skeleton.uasset",
+      "bytes": 6455
+    },
+    {
+      "path": "Content/VoxelExplorer/T_VoxelExplorer_BaseColor.uasset",
+      "bytes": 74638
+    },
+    {
+      "path": "Content/World/M_Asphalt.uasset",
+      "bytes": 4360
+    },
+    {
+      "path": "Content/World/M_Blue.uasset",
+      "bytes": 4345
+    },
+    {
+      "path": "Content/World/M_Brick.uasset",
+      "bytes": 4350
+    },
+    {
+      "path": "Content/World/M_Charcoal.uasset",
+      "bytes": 4365
+    },
+    {
+      "path": "Content/World/M_ColorMaster.uasset",
+      "bytes": 7249
+    },
+    {
+      "path": "Content/World/M_ColorMasterRuntime.uasset",
+      "bytes": 7901
+    },
+    {
+      "path": "Content/World/M_Concrete.uasset",
+      "bytes": 4365
+    },
+    {
+      "path": "Content/World/M_Cream.uasset",
+      "bytes": 4350
+    },
+    {
+      "path": "Content/World/M_Earth.uasset",
+      "bytes": 4350
+    },
+    {
+      "path": "Content/World/M_Glass.uasset",
+      "bytes": 4350
+    },
+    {
+      "path": "Content/World/M_Glow.uasset",
+      "bytes": 4345
+    },
+    {
+      "path": "Content/World/M_Grass.uasset",
+      "bytes": 4350
+    },
+    {
+      "path": "Content/World/M_Green.uasset",
+      "bytes": 4350
+    },
+    {
+      "path": "Content/World/M_Leaf.uasset",
+      "bytes": 4345
+    },
+    {
+      "path": "Content/World/M_Ochre.uasset",
+      "bytes": 4350
+    },
+    {
+      "path": "Content/World/M_Orange.uasset",
+      "bytes": 4355
+    },
+    {
+      "path": "Content/World/M_Red.uasset",
+      "bytes": 4340
+    },
+    {
+      "path": "Content/World/M_Roof.uasset",
+      "bytes": 4345
+    },
+    {
+      "path": "Content/World/M_Sky.uasset",
+      "bytes": 17990
+    },
+    {
+      "path": "Content/World/M_Steel.uasset",
+      "bytes": 4350
+    },
+    {
+      "path": "Content/World/M_Stone.uasset",
+      "bytes": 4350
+    },
+    {
+      "path": "Content/World/M_Teal.uasset",
+      "bytes": 4345
+    },
+    {
+      "path": "Content/World/M_Trunk.uasset",
+      "bytes": 4350
+    },
+    {
+      "path": "Content/World/M_White.uasset",
+      "bytes": 4350
+    },
+    {
+      "path": "Content/World/M_Yellow.uasset",
+      "bytes": 4355
+    },
+    {
+      "path": "Content/World/SM_Bicycle.uasset",
+      "bytes": 105817
+    },
+    {
+      "path": "Content/World/SM_BicycleFrame.uasset",
+      "bytes": 37781
+    },
+    {
+      "path": "Content/World/SM_BicycleWheel.uasset",
+      "bytes": 51088
+    },
+    {
+      "path": "Source/BogotaVoxel.Target.cs",
+      "bytes": 292
+    },
+    {
+      "path": "Source/BogotaVoxelEditor.Target.cs",
+      "bytes": 345
+    },
+    {
+      "path": "Source/BogotaVoxel/BogotaCity.cpp",
+      "bytes": 33794
+    },
+    {
+      "path": "Source/BogotaVoxel/BogotaGame.h",
+      "bytes": 13222
+    },
+    {
+      "path": "Source/BogotaVoxel/BogotaHUD.cpp",
+      "bytes": 9968
+    },
+    {
+      "path": "Source/BogotaVoxel/BogotaPedestrianBehaviors.inl",
+      "bytes": 10126
+    },
+    {
+      "path": "Source/BogotaVoxel/BogotaPlayer.cpp",
+      "bytes": 22192
+    },
+    {
+      "path": "Source/BogotaVoxel/BogotaTraffic.cpp",
+      "bytes": 43779
+    },
+    {
+      "path": "Source/BogotaVoxel/BogotaVoxel.Build.cs",
+      "bytes": 354
+    },
+    {
+      "path": "Source/BogotaVoxel/BogotaVoxel.cpp",
+      "bytes": 118
+    },
+    {
+      "path": "Source/BogotaVoxel/CrowdCatalog.inl",
+      "bytes": 3158
+    },
+    {
+      "path": "Source/BogotaVoxel/DeliveryAnimInstance.cpp",
+      "bytes": 2183
+    },
+    {
+      "path": "Source/BogotaVoxel/DeliveryAnimInstance.h",
+      "bytes": 1751
+    },
+    {
+      "path": "Source/BogotaVoxel/DeliveryCargo.cpp",
+      "bytes": 2462
+    },
+    {
+      "path": "Source/BogotaVoxel/DeliveryNavigation.cpp",
+      "bytes": 4107
+    },
+    {
+      "path": "Source/BogotaVoxel/DeliveryStores.cpp",
+      "bytes": 15654
+    },
+    {
+      "path": "Source/BogotaVoxel/DeliverySystem.cpp",
+      "bytes": 68284
+    },
+    {
+      "path": "Source/BogotaVoxel/DeliverySystem.h",
+      "bytes": 27448
+    },
+    {
+      "path": "Source/BogotaVoxel/DeliveryUI.cpp",
+      "bytes": 62221
+    },
+    {
+      "path": "Source/BogotaVoxel/DeliveryUsability.cpp",
+      "bytes": 16000
+    },
+    {
+      "path": "Source/BogotaVoxel/DeliveryVehicleArt.cpp",
+      "bytes": 14447
+    },
+    {
+      "path": "Source/BogotaVoxel/TrafficModelCatalog.inl",
+      "bytes": 1351
+    },
+    {
+      "path": "Source/BogotaVoxelEditor/BogotaVoxelEditor.Build.cs",
+      "bytes": 485
+    },
+    {
+      "path": "Source/BogotaVoxelEditor/DeliveryEditorLibrary.cpp",
+      "bytes": 16483
+    },
+    {
+      "path": "Source/BogotaVoxelEditor/DeliveryEditorLibrary.h",
+      "bytes": 1779
+    },
+    {
+      "path": "Source/BogotaVoxelEditor/DeliveryPhoneDesigner.cpp",
+      "bytes": 5588
+    },
+    {
+      "path": "Source/BogotaVoxelEditor/DeliveryPhoneLauncher.cpp",
+      "bytes": 7468
+    },
+    {
+      "path": "Config/DefaultEngine.ini",
+      "bytes": 1422
+    },
+    {
+      "path": "Config/DefaultGame.ini",
+      "bytes": 785
+    },
+    {
+      "path": "Config/DefaultInput.ini",
+      "bytes": 11475
+    },
+    {
+      "path": "DeliveryData/StoreThemes.json",
+      "bytes": 7159
+    },
+    {
+      "path": "DeliveryData/Upgrades.csv",
+      "bytes": 900
+    },
+    {
+      "path": "DeliveryData/Vehicles.csv",
+      "bytes": 643
+    }
+  ],
+  "config_cleanup": "Generated Android file-server credentials omitted; Windows settings preserved."
+}
