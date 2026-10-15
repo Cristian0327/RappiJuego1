@@ -1,0 +1,297 @@
+{
+	"status": "PASS",
+	"checks": [
+		{
+			"id": "fresh_profile_isolated",
+			"passed": true
+		},
+		{
+			"id": "new_player_starts_with_one_slot",
+			"passed": true
+		},
+		{
+			"id": "market_requires_explicit_selection",
+			"passed": true
+		},
+		{
+			"id": "phone_opens_home",
+			"passed": true
+		},
+		{
+			"id": "phone_blocks_walk_boost_and_jump",
+			"passed": true
+		},
+		{
+			"id": "keyboard_shortcut_opens_map",
+			"passed": true
+		},
+		{
+			"id": "map_does_not_cover_its_instructions",
+			"passed": true
+		},
+		{
+			"id": "map_click_sets_bounded_waypoint",
+			"passed": true
+		},
+		{
+			"id": "map_clear_button_works",
+			"passed": true
+		},
+		{
+			"id": "keyboard_down_selects_first_offer",
+			"passed": true
+		},
+		{
+			"id": "keyboard_up_selects_previous_offer",
+			"passed": true
+		},
+		{
+			"id": "selected_offer_shows_full_origin_and_destination",
+			"passed": true
+		},
+		{
+			"id": "offer_text_contrast_normal_at_least_4_5",
+			"passed": true
+		},
+		{
+			"id": "offer_text_contrast_hover_at_least_4_5",
+			"passed": true
+		},
+		{
+			"id": "accept_button_begins_hold",
+			"passed": true
+		},
+		{
+			"id": "hold_progress_is_at_accept_button",
+			"passed": true
+		},
+		{
+			"id": "long_route_details_fit_without_hiding_reward",
+			"passed": true
+		},
+		{
+			"id": "release_cancels_without_accepting",
+			"passed": true
+		},
+		{
+			"id": "changing_page_cancels_hold",
+			"passed": true
+		},
+		{
+			"id": "changing_selection_cancels_hold",
+			"passed": true
+		},
+		{
+			"id": "alt_tab_cancels_pending_acceptance",
+			"passed": true
+		},
+		{
+			"id": "enter_supports_hold_to_accept",
+			"passed": true
+		},
+		{
+			"id": "key_repeat_does_not_switch_order",
+			"passed": true
+		},
+		{
+			"id": "enter_release_cancels_hold",
+			"passed": true
+		},
+		{
+			"id": "confirm_without_selection_cannot_accept",
+			"passed": true
+		},
+		{
+			"id": "expired_offer_cancels_pending_acceptance",
+			"passed": true
+		},
+		{
+			"id": "unaffordable_upgrade_disabled",
+			"passed": true
+		},
+		{
+			"id": "unaffordable_purchase_preserves_money",
+			"passed": true
+		},
+		{
+			"id": "locked_motorcycle_cannot_switch",
+			"passed": true
+		},
+		{
+			"id": "bike_progression_four_readable_nodes",
+			"passed": true
+		},
+		{
+			"id": "progression_arrow_right_follows_spatial_node",
+			"passed": true
+		},
+		{
+			"id": "progression_arrow_down_follows_spatial_node",
+			"passed": true
+		},
+		{
+			"id": "progression_arrow_left_follows_spatial_node",
+			"passed": true
+		},
+		{
+			"id": "garage_preserves_original_phone_dimensions",
+			"passed": true
+		},
+		{
+			"id": "garage_explains_exact_upgrade_requirement",
+			"passed": true
+		},
+		{
+			"id": "unowned_vehicle_cannot_offer_equip_action",
+			"passed": true
+		},
+		{
+			"id": "locked_catalog_purchase_disabled",
+			"passed": true
+		},
+		{
+			"id": "unowned_vehicle_equip_rejected",
+			"passed": true
+		},
+		{
+			"id": "empty_active_orders_explains_next_action",
+			"passed": true
+		},
+		{
+			"id": "keyboard_hints_have_readable_physical_size",
+			"passed": true
+		},
+		{
+			"id": "cargo_page_selection_is_sanitized",
+			"passed": true
+		},
+		{
+			"id": "cargo_preview_loaded_after_page_changes",
+			"passed": true
+		},
+		{
+			"id": "reopening_pages_does_not_leak_widgets",
+			"passed": true
+		},
+		{
+			"id": "closing_phone_cancels_hold",
+			"passed": true
+		},
+		{
+			"id": "pause_cancels_held_action",
+			"passed": true
+		},
+		{
+			"id": "pause_can_resume",
+			"passed": true
+		},
+		{
+			"id": "valid_purchase_charges_once",
+			"passed": true
+		},
+		{
+			"id": "duplicate_purchase_cannot_charge_twice",
+			"passed": true
+		},
+		{
+			"id": "qa_profile_saves",
+			"passed": true
+		},
+		{
+			"id": "saved_progress_matches_purchase",
+			"passed": true
+		},
+		{
+			"id": "cargo_capacity_five_after_unlocks",
+			"passed": true
+		},
+		{
+			"id": "accept_order_with_free_cargo_slot",
+			"passed": true
+		},
+		{
+			"id": "accept_order_with_free_cargo_slot",
+			"passed": true
+		},
+		{
+			"id": "accept_order_with_free_cargo_slot",
+			"passed": true
+		},
+		{
+			"id": "accept_order_with_free_cargo_slot",
+			"passed": true
+		},
+		{
+			"id": "accept_order_with_free_cargo_slot",
+			"passed": true
+		},
+		{
+			"id": "five_orders_can_coexist",
+			"passed": true
+		},
+		{
+			"id": "sixth_order_rejected_at_capacity",
+			"passed": true
+		},
+		{
+			"id": "overloaded_vehicle_change_rejected",
+			"passed": true
+		},
+		{
+			"id": "all_five_active_orders_visible",
+			"passed": true
+		},
+		{
+			"id": "active_order_selection_preserves_shopping_state",
+			"passed": true
+		},
+		{
+			"id": "closed_phone_hides_app_controls",
+			"passed": true
+		},
+		{
+			"id": "closed_phone_hides_app_controls",
+			"passed": true
+		},
+		{
+			"id": "closed_phone_hides_app_controls",
+			"passed": true
+		},
+		{
+			"id": "closed_phone_hides_app_controls",
+			"passed": true
+		},
+		{
+			"id": "closed_phone_hides_app_controls",
+			"passed": true
+		},
+		{
+			"id": "closed_phone_hides_app_controls",
+			"passed": true
+		},
+		{
+			"id": "closed_phone_hides_app_controls",
+			"passed": true
+		},
+		{
+			"id": "closed_phone_hides_app_controls",
+			"passed": true
+		},
+		{
+			"id": "closed_phone_hides_app_controls",
+			"passed": true
+		},
+		{
+			"id": "closed_phone_hides_app_controls",
+			"passed": true
+		},
+		{
+			"id": "closed_phone_hides_app_controls",
+			"passed": true
+		}
+	],
+	"total": 72,
+	"failures": [],
+	"viewport_width": 1280,
+	"viewport_height": 720
+}

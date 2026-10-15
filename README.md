@@ -20,7 +20,6 @@ Si Unreal pide recompilar módulos, o si cambias código C++, instala Visual Stu
 - `Source`: lógica de juego, interfaz, tráfico, personajes y herramientas de editor.
 - `Config`: mapa inicial, controles y configuración visual.
 - `DeliveryData`: catálogos editables de mejoras, vehículos y locales.
-- `Build`: recursos de compilación del proyecto.
 - `Binaries/Win64`: módulos de editor para abrir esta versión en Windows.
 - `Docs` y `Capturas`: guía de colaboración y referencias del aspecto actual.
 
