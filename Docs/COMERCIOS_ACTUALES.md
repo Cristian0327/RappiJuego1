@@ -12,7 +12,7 @@ La limpieza de esta revisión eliminó 124 archivos (79.4 MB): pruebas de rig de
 
 Validación automatizada: `Saved/delivery_test.json`; incluye acceso y recogida en los 13 temas, presupuesto del cliente, entregas múltiples, vehículos y animaciones. La ausencia de solapes se comprueba contra las huellas físicas de los edificios existentes.
 
-La migración total a Blueprints sigue pendiente: consultar `Blueprints_Estado.md`. El motor instalado y utilizado es Unreal Engine 5.8.2.
+La migración total a Blueprints sigue pendiente: consultar `Blueprints_Estado.md`. El motor instalado y utilizado es Unreal Engine 5.8.3.
 
 ## Distribución y materiales actuales
 

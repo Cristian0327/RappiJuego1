@@ -243,19 +243,29 @@ void UDeliveryPhoneWidget::BuildPage(int32 NewPage){
  for(auto* B:{H,M,O,S}){const bool Current=(B==H&&Page==0)||(B==M&&Page==1)||(B==O&&(Page==2||Page==5))||(B==S&&(Page==3||Page==4||Page==6));if(Current){auto Style=B->GetStyle();Style.Normal.TintColor=Mint;Style.Hovered.TintColor=Mint;Style.Pressed.TintColor=Mint;B->SetStyle(Style);if(auto* T=Cast<UTextBlock>(B->GetContent())){T->SetColorAndOpacity(Ink);T->SetShadowOffset(FVector2D::ZeroVector);}}}
  RefreshText();
 }
-void UDeliveryPhoneWidget::OpenActiveOrders_Implementation(){BuildPage(5);}
-void UDeliveryPhoneWidget::OpenCargo_Implementation(){Selection=10;BuildPage(6);}
-void UDeliveryPhoneWidget::OpenHome_Implementation(){BuildPage(0);}void UDeliveryPhoneWidget::OpenMap_Implementation(){BuildPage(1);}void UDeliveryPhoneWidget::OpenOrders_Implementation(){BuildPage(2);}void UDeliveryPhoneWidget::OpenShop_Implementation(){Selection=PreviewMoto?4:0;BuildPage(3);}void UDeliveryPhoneWidget::OpenCatalog_Implementation(){CatalogSelection=PreviewMoto?3:0;BuildPage(4);}
-void UDeliveryPhoneWidget::GarageBike_Implementation(){PreviewMoto=false;PaintSelection=Delivery?Delivery->BikeColor:0;Selection=0;CatalogSelection=0;BuildPage(Page);}void UDeliveryPhoneWidget::GarageMoto_Implementation(){PreviewMoto=true;PaintSelection=Delivery?Delivery->MotoColor:0;Selection=4;CatalogSelection=3;BuildPage(Page);}
-void UDeliveryPhoneWidget::AcceptPressed_Implementation(){if(Delivery)Delivery->BeginAction(false);}void UDeliveryPhoneWidget::AcceptReleased_Implementation(){if(Delivery)Delivery->EndAction();}void UDeliveryPhoneWidget::IgnorePressed_Implementation(){if(Delivery)Delivery->IgnoreOffer();}
-void UDeliveryPhoneWidget::BuySelected_Implementation(){if(Delivery&&UpgradeIDs.IsValidIndex(Selection))Delivery->PurchaseUpgrade(UpgradeIDs[Selection]);RefreshText();}
-void UDeliveryPhoneWidget::SelectPrevious_Implementation(){if(Page==5){SelectEntry(FMath::Max(0,OrderSelection-1));return;}if(Page==6){SelectEntry(FMath::Max(10,Selection-1));return;}SelectEntry(Page==2?FMath::Max(0,OrderSelection-1):Page==4?FMath::Max(PreviewMoto?3:0,CatalogSelection-1):FMath::Max(PreviewMoto?4:0,Selection-1));}
-void UDeliveryPhoneWidget::SelectNext_Implementation(){if(Page==5){SelectEntry(FMath::Clamp(OrderSelection+1,0,Delivery?FMath::Max(0,Delivery->ActiveOrders.Num()-1):0));return;}if(Page==6){SelectEntry(FMath::Min(12,Selection+1));return;}SelectEntry(Page==2?FMath::Min(5,OrderSelection+1):Page==4?FMath::Min(PreviewMoto?5:2,CatalogSelection+1):FMath::Min(PreviewMoto?9:3,Selection+1));}
-void UDeliveryPhoneWidget::SelectEntry_Implementation(int32 Index){if(Index>=100){PaintSelection=FMath::Clamp(Index-100,0,5);}else if(Page==2){if(Delivery&&Delivery->SelectOffer(Index))OrderSelection=Index;}else if(Page==5){if(Delivery&&Delivery->SelectActiveOrder(Index))OrderSelection=Index;}else if(Page==3||Page==6){Selection=Index;}else if(Page==4){CatalogSelection=Index;if(Delivery&&ModelIDs.IsValidIndex(Index))PaintSelection=Delivery->ModelColors.FindRef(ModelIDs[Index]);}RefreshText();}
-void UDeliveryPhoneWidget::NextColor_Implementation(){PaintSelection=(PaintSelection+1)%6;RefreshText();}void UDeliveryPhoneWidget::PaintSelected_Implementation(){if(Delivery)Delivery->PaintVehicle(PreviewMoto,PaintSelection);RefreshText();}
-void UDeliveryPhoneWidget::BuyModel_Implementation(){if(Delivery&&ModelIDs.IsValidIndex(CatalogSelection))Delivery->BuyVehicle(ModelIDs[CatalogSelection]);RefreshText();}
-void UDeliveryPhoneWidget::EquipModel_Implementation(){if(Delivery&&ModelIDs.IsValidIndex(CatalogSelection)&&Delivery->EquipVehicle(ModelIDs[CatalogSelection])){PaintSelection=PreviewMoto?Delivery->MotoColor:Delivery->BikeColor;}RefreshText();}
-void UDeliveryPhoneWidget::ClearPoint_Implementation(){if(Delivery)Delivery->ClearWaypoint();}void UDeliveryPhoneWidget::SwitchPressed_Implementation(){if(Delivery)Delivery->EquipVehicle(PreviewMoto?Delivery->MotoModel:Delivery->BikeModel);RefreshText();}void UDeliveryPhoneWidget::ClosePressed_Implementation(){if(Delivery&&Delivery->PhoneOpen)Delivery->TogglePhone();}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 void UDeliveryPhoneWidget::RefreshText(){
  if(!Delivery||!Details)return;FString T;const TCHAR* Titles[]={TEXT(""),TEXT("MIS CALLES"),TEXT("PEDIDOS"),TEXT("MIS MEJORAS"),TEXT("MI GARAJE"),TEXT("PEDIDOS"),TEXT("EQUIPO DE CARGA")};PageTitle->SetText(FText::FromString(Titles[FMath::Clamp(Page,0,6)]));
  Header->SetText(FText::FromString(FString::Printf(TEXT("BOG   /   BOLSILLO  $%s"),*FText::AsNumber(Delivery->Balance).ToString())));

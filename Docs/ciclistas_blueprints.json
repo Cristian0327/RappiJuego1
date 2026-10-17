@@ -1,0 +1,122 @@
+[
+  {
+    "actor": "Ciclista_Propietario_01",
+    "position": [
+      -25410.389940580946,
+      -20914.32771950677,
+      150.0
+    ],
+    "model": 0,
+    "lifecycle": "ride_park_dismount_walk_return_mount"
+  },
+  {
+    "actor": "Ciclista_Propietario_02",
+    "position": [
+      -1085.6722804932278,
+      -12410.389940580946,
+      150.0
+    ],
+    "model": 1,
+    "lifecycle": "ride_park_dismount_walk_return_mount"
+  },
+  {
+    "actor": "Ciclista_Propietario_03",
+    "position": [
+      13410.389940580946,
+      -12085.672280493229,
+      150.0
+    ],
+    "model": 2,
+    "lifecycle": "ride_park_dismount_walk_return_mount"
+  },
+  {
+    "actor": "Ciclista_Propietario_04",
+    "position": [
+      -22914.32771950677,
+      -9589.610059419054,
+      150.0
+    ],
+    "model": 0,
+    "lifecycle": "ride_park_dismount_walk_return_mount"
+  },
+  {
+    "actor": "Ciclista_Propietario_05",
+    "position": [
+      22589.610059419054,
+      -9914.327719506771,
+      150.0
+    ],
+    "model": 1,
+    "lifecycle": "ride_park_dismount_walk_return_mount"
+  },
+  {
+    "actor": "Ciclista_Propietario_06",
+    "position": [
+      -25085.67228049323,
+      9589.610059419054,
+      150.0
+    ],
+    "model": 2,
+    "lifecycle": "ride_park_dismount_walk_return_mount"
+  },
+  {
+    "actor": "Ciclista_Propietario_07",
+    "position": [
+      -10589.610059419054,
+      20914.32771950677,
+      150.0
+    ],
+    "model": 0,
+    "lifecycle": "ride_park_dismount_walk_return_mount"
+  },
+  {
+    "actor": "Ciclista_Propietario_08",
+    "position": [
+      25085.67228049323,
+      12410.389940580946,
+      150.0
+    ],
+    "model": 1,
+    "lifecycle": "ride_park_dismount_walk_return_mount"
+  },
+  {
+    "actor": "Motociclista_Propietario_01",
+    "position": [
+      -12703.987995825259,
+      11814.743142594767,
+      150.0
+    ],
+    "kind": "civil_motorcycle",
+    "lifecycle": "ride_park_dismount_walk_return_mount"
+  },
+  {
+    "actor": "Motociclista_Propietario_02",
+    "position": [
+      23296.01200417474,
+      11814.743142594767,
+      150.0
+    ],
+    "kind": "civil_motorcycle",
+    "lifecycle": "ride_park_dismount_walk_return_mount"
+  },
+  {
+    "actor": "Motociclista_Propietario_03",
+    "position": [
+      -24703.98799582526,
+      -10185.256857405233,
+      150.0
+    ],
+    "kind": "police_motorcycle",
+    "lifecycle": "ride_park_dismount_walk_return_mount"
+  },
+  {
+    "actor": "Motociclista_Propietario_04",
+    "position": [
+      35296.01200417474,
+      -21185.25685740523,
+      150.0
+    ],
+    "kind": "police_motorcycle",
+    "lifecycle": "ride_park_dismount_walk_return_mount"
+  }
+]

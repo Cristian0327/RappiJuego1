@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "engine": "5.8.3",
+  "blueprint_rule_checks": 58,
+  "usability_checks": 77,
+  "usability_failures": [],
+  "traffic_paint": {
+    "private_models": 20,
+    "private_colors": 12,
+    "minimum_colors_per_model": 4,
+    "invalid_paint_masks": 0,
+    "invalid_material_parents": 0,
+    "preserved_taxis_and_buses": 20,
+    "colored_parked_cars": 12,
+    "blueprint_city": true,
+    "status": "PASS"
+  },
+  "removed_cpp_implementations": 93,
+  "additional_cpp_functions_migrated": 5,
+  "removed_legacy_wrapper_graphs": 12,
+  "blueprints": 16,
+  "regression_checks": 1976,
+  "regression_status": "PASS",
+  "visual_review": {
+    "day": "PASS",
+    "night": "PASS",
+    "invalid_material_parent_warnings": 0
+  },
+  "latest_color_validation": "four_color_rules.log: PASS; CuatroColoresQA: PASS"
+}

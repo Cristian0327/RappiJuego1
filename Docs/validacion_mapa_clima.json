@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "date": "2026-10-15",
+  "engine": "5.8.3",
+  "checks": {
+    "pedestrian_vehicle_contact_samples": true,
+    "moving_vehicle_overlap_samples": true,
+    "pedestrian_close_contact_samples": true,
+    "parked_vehicle_overlap_samples": true,
+    "wall_penetration_samples": true,
+    "airborne_samples": true,
+    "invalid_positions": true,
+    "unplanned_stalls": true,
+    "static_vehicle_overlap_samples": true,
+    "illegal_crossings": true,
+    "right_hand_traffic": true,
+    "live_collision_control": true,
+    "all_vehicles_progress": true,
+    "vehicles_no_deadlock": true,
+    "crossings_continue": true,
+    "avoidance_scenarios": true,
+    "isolated_car_contacts": true,
+    "render_cadence": true,
+    "rain_transitions": true,
+    "rain_under_roofs": true,
+    "weather_policy": true
+  },
+  "map": {
+    "seconds": 600,
+    "wall_collision_positive_control": true,
+    "right_hand_traffic_straight_segments": 392,
+    "wrong_side_traffic_segments": 0,
+    "pedestrian_vehicle_contact_samples": 0,
+    "moving_vehicle_overlap_samples": 0,
+    "pedestrian_close_contact_samples": 0,
+    "parked_vehicle_overlap_samples": 0,
+    "minimum_vehicle_travel_cm": 173749.265625,
+    "longest_vehicle_stop_seconds": 60.93309020996094,
+    "pedestrians": 864,
+    "vehicles": 100,
+    "wall_penetration_samples": 0,
+    "airborne_samples": 0,
+    "invalid_positions": 0,
+    "maximum_street_foot_height_cm": 32.400001525878906,
+    "injected_invalid_heights": 24,
+    "unplanned_stalls": 0,
+    "longest_unplanned_stop_seconds": 2.933333158493042,
+    "static_vehicle_overlap_samples": 0,
+    "crossings_completed": 113,
+    "illegal_crossings": 0,
+    "avoidance_scenarios": {
+      "passed_stationary_player": 6,
+      "passed_slow_walker": 6,
+      "passed_blocked_corner": 6,
+      "minimum_player_clearance_cm": 135,
+      "crossing_routes": 44,
+      "short_return_routes": 0,
+      "incorrect_crossing_keys": 0,
+      "failures": 0
+    },
+    "isolated_traffic_and_render_cadence": {
+      "seconds": 180,
+      "vehicles": 100,
+      "missing_models": 0,
+      "invalid_rigs": 0,
+      "missing_vertex_colors": 0,
+      "overlap_frames": 0,
+      "minimum_travel_cm": 46266.3,
+      "longest_stop_seconds": 24.13,
+      "private_model_variants": 20,
+      "moving_render_frames": 118,
+      "render_frames": 120,
+      "hitch_time_loss_cm": 0
+    },
+    "weather_rendering": {
+      "rain_started_gradually": true,
+      "rain_stopped_gradually": true,
+      "roof_occlusion_probes": 1800,
+      "roof_hits": 1800,
+      "visible_drops_below_surface": 0
+    }
+  },
+  "weather_policy": {
+    "status": "PASS",
+    "rule": "probabilistic adjacent-state transitions",
+    "samples": 4000,
+    "transition_probabilities": [
+      {
+        "0": 0.65,
+        "1": 0.35
+      },
+      {
+        "0": 0.25,
+        "1": 0.4,
+        "2": 0.35
+      },
+      {
+        "1": 0.35,
+        "2": 0.4,
+        "3": 0.25
+      },
+      {
+        "2": 0.7,
+        "3": 0.3
+      }
+    ],
+    "dry_hold_seconds": [
+      90,
+      180
+    ],
+    "wet_hold_seconds": [
+      45,
+      100
+    ]
+  }
+}

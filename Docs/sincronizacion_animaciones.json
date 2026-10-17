@@ -1,0 +1,74 @@
+[
+  {
+    "asset": "/Game/Delivery/People/A_Cashier_Walk",
+    "stance_speed_cm_s": 38.933693915605545,
+    "reference_cm_s": 50,
+    "rate_scale": 1.2842346813631988
+  },
+  {
+    "asset": "/Game/Delivery/People/A_Chef_Walk",
+    "stance_speed_cm_s": 44.072345942258835,
+    "reference_cm_s": 50,
+    "rate_scale": 1.1344982648644857
+  },
+  {
+    "asset": "/Game/Crowd/AN_CrowdWalk_Mixamo",
+    "stance_speed_cm_s": 51.755032539367676,
+    "reference_cm_s": 140,
+    "rate_scale": 2.7050509511999326
+  },
+  {
+    "asset": "/Game/Delivery/People/A_CustomerNeighbor_Walk",
+    "stance_speed_cm_s": 43.49729463458061,
+    "reference_cm_s": 50,
+    "rate_scale": 1.1494967772145006
+  },
+  {
+    "asset": "/Game/Delivery/People/A_CustomerOffice_Walk",
+    "stance_speed_cm_s": 47.93266296386719,
+    "reference_cm_s": 50,
+    "rate_scale": 1.0431300267563106
+  },
+  {
+    "asset": "/Game/Delivery/People/A_CustomerStudent_Walk",
+    "stance_speed_cm_s": 51.414899826049805,
+    "reference_cm_s": 50,
+    "rate_scale": 0.9724807433091033
+  },
+  {
+    "asset": "/Game/Delivery/People/A_Florist_Walk",
+    "stance_speed_cm_s": 44.639647006988525,
+    "reference_cm_s": 50,
+    "rate_scale": 1.120080541680186
+  },
+  {
+    "asset": "/Game/VoxelExplorer/AN_Walk_InPlace",
+    "stance_speed_cm_s": 51.755032539367676,
+    "reference_cm_s": 390,
+    "rate_scale": 7.53549907834267
+  },
+  {
+    "asset": "/Game/Delivery/People/A_Pharmacist_Walk",
+    "stance_speed_cm_s": 47.93266296386719,
+    "reference_cm_s": 50,
+    "rate_scale": 1.0431300267563106
+  },
+  {
+    "asset": "/Game/Delivery/People/A_TechClerk_Walk",
+    "stance_speed_cm_s": 51.414899826049805,
+    "reference_cm_s": 50,
+    "rate_scale": 0.9724807433091033
+  },
+  {
+    "asset": "/Game/VoxelExplorer/AN_MixamoWalk",
+    "stance_speed_cm_s": 126.7213225364685,
+    "reference_cm_s": 390,
+    "rate_scale": 3.0776193950135253
+  },
+  {
+    "asset": "/Game/Crowd/AN_CrowdCane",
+    "stance_speed_cm_s": 51.755075454711914,
+    "reference_cm_s": 40.0,
+    "rate_scale": 0.7728710594770913
+  }
+]

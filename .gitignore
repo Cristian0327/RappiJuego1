@@ -24,3 +24,4 @@ Thumbs.db
 *.key
 # Local builds and installers are not the editable project
 *.exe
+/Config/DefaultEditor.ini

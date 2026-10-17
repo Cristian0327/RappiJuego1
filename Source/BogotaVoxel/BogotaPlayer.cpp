@@ -46,7 +46,7 @@ ABogotaPlayer::ABogotaPlayer(){
  static ConstructorHelpers::FObjectFinder<UStaticMesh> PedalCube(TEXT("/Engine/BasicShapes/Cube.Cube"));static ConstructorHelpers::FObjectFinder<UMaterialInterface> PedalMat(TEXT("/Game/World/M_Orange.M_Orange"));
  for(auto* PComp:{LeftPedal.Get(),RightPedal.Get()}){PComp->SetupAttachment(Bicycle);PComp->SetStaticMesh(PedalCube.Object);PComp->SetMaterial(0,PedalMat.Object);PComp->SetRelativeScale3D(FVector(.2,.13,.05));PComp->SetCollisionEnabled(ECollisionEnabled::NoCollision);PComp->SetHiddenInGame(true);}
 }
-void ABogotaPlayer::BeginPlay(){Super::BeginPlay();Bicycle->SetHiddenInGame(true,true);if(auto* A=LoadObject<UAnimationAsset>(nullptr,TEXT("/Game/VoxelExplorer/AN_MixamoWalk.AN_MixamoWalk")))Walk=A;JumpClip=LoadObject<UAnimationAsset>(nullptr,TEXT("/Game/VoxelExplorer/AN_MixamoJump.AN_MixamoJump"));GetMesh()->SetRelativeRotation(FRotator(0,-90,0));MotoRide=LoadObject<UAnimationAsset>(nullptr,TEXT("/Game/VoxelExplorer/AN_MotoRide.AN_MotoRide"));City=Cast<ABogotaCity>(UGameplayStatics::GetActorOfClass(this,ABogotaCity::StaticClass()));if(auto* PC=Cast<APlayerController>(Controller)){PC->SetControlRotation(FRotator(-14,95,0));PC->SetViewTarget(this);}else if(Controller){Controller->SetControlRotation(FRotator(-14,95,0));}Camera->SetActive(true);Camera->Activate();if(UMaterialInterface* M=LoadObject<UMaterialInterface>(nullptr,TEXT("/Game/VoxelExplorer/M_VoxelExplorerRuntimeRGB.M_VoxelExplorerRuntimeRGB")))GetMesh()->SetMaterial(0,M);GetMesh()->PlayAnimation(Idle,true);CurrentClip=Idle;if(auto* AnimClass=LoadClass<UAnimInstance>(nullptr,TEXT("/Game/Delivery/Animation/ABP_DeliveryRider.ABP_DeliveryRider_C")))GetMesh()->SetAnimInstanceClass(AnimClass);TestHarness=FParse::Param(FCommandLine::Get(),TEXT("BogotaTest"));UE_LOG(LogTemp,Display,TEXT("BOGOTA_CAMERA player=%s camera=%s active=%d loc=%s rot=%s city=%s mat=%s"),*GetActorLocation().ToString(),*Camera->GetName(),Camera->IsActive()?1:0,*Camera->GetComponentLocation().ToString(),*Camera->GetComponentRotation().ToString(),*GetNameSafe(City),*GetNameSafe(GetMesh()->GetMaterial(0)));}
+void ABogotaPlayer::BeginPlay(){Super::BeginPlay();Bicycle->SetHiddenInGame(true,true);if(auto* A=LoadObject<UAnimationAsset>(nullptr,TEXT("/Game/VoxelExplorer/AN_MixamoWalk.AN_MixamoWalk")))Walk=A;JumpClip=LoadObject<UAnimationAsset>(nullptr,TEXT("/Game/VoxelExplorer/AN_MixamoJump.AN_MixamoJump"));GetMesh()->SetRelativeRotation(FRotator(0,-90,0));MotoRide=LoadObject<UAnimationAsset>(nullptr,TEXT("/Game/VoxelExplorer/AN_MotoRide.AN_MotoRide"));City=Cast<ABogotaCity>(UGameplayStatics::GetActorOfClass(this,ABogotaCity::StaticClass()));if(auto* PC=Cast<APlayerController>(Controller)){PC->SetControlRotation(FRotator(-14,95,0));PC->SetViewTarget(this);}else if(Controller){Controller->SetControlRotation(FRotator(-14,95,0));}Camera->SetActive(true);Camera->Activate();if(UMaterialInterface* M=LoadObject<UMaterialInterface>(nullptr,TEXT("/Game/VoxelExplorer/M_VoxelExplorerRuntimeRGB.M_VoxelExplorerRuntimeRGB")))GetMesh()->SetMaterial(0,M);GetMesh()->PlayAnimation(Idle,true);CurrentClip=Idle;if(auto* AnimClass=LoadClass<UAnimInstance>(nullptr,TEXT("/Game/Delivery/Animation/ABP_DeliveryRider.ABP_DeliveryRider_C")))GetMesh()->SetAnimInstanceClass(AnimClass);UE_LOG(LogTemp,Display,TEXT("BOGOTA_CAMERA player=%s camera=%s active=%d loc=%s rot=%s city=%s mat=%s"),*GetActorLocation().ToString(),*Camera->GetName(),Camera->IsActive()?1:0,*Camera->GetComponentLocation().ToString(),*Camera->GetComponentRotation().ToString(),*GetNameSafe(City),*GetNameSafe(GetMesh()->GetMaterial(0)));}
 void ABogotaPlayer::SetupPlayerInputComponent(UInputComponent* I){
  FInputKeyBinding CheatBinding(FInputChord(EKeys::AnyKey),IE_Pressed);CheatBinding.bConsumeInput=false;
  CheatBinding.KeyDelegate.GetDelegateWithKeyForManualSet().BindLambda([this](FKey Key){if(Delivery)Delivery->DeveloperKey(Key);});I->KeyBindings.Add(CheatBinding);
@@ -54,29 +54,31 @@ void ABogotaPlayer::SetupPlayerInputComponent(UInputComponent* I){
  I->BindAction("KeyboardAction",IE_Pressed,this,&ABogotaPlayer::KeyboardActionPressed);I->BindAction("KeyboardAction",IE_Released,this,&ABogotaPlayer::ActionReleased);
  I->BindAction("Interact",IE_Pressed,this,&ABogotaPlayer::ActionPressed);I->BindAction("Interact",IE_Released,this,&ABogotaPlayer::ActionReleased);I->BindAction("Pickup",IE_Pressed,this,&ABogotaPlayer::PickupPressed);I->BindAction("Pickup",IE_Released,this,&ABogotaPlayer::PickupReleased);I->BindAction("Phone",IE_Pressed,this,&ABogotaPlayer::PhonePressed);I->BindAction("Vehicle",IE_Pressed,this,&ABogotaPlayer::VehiclePressed);I->BindAction("Mount",IE_Pressed,this,&ABogotaPlayer::Interact);I->BindAction("Jump",IE_Pressed,this,&ABogotaPlayer::JumpOrBrake);I->BindAction("Jump",IE_Released,this,&ABogotaPlayer::StopJump);I->BindAction("Sprint",IE_Pressed,this,&ABogotaPlayer::StartSprint);I->BindAction("Sprint",IE_Released,this,&ABogotaPlayer::EndSprint);I->BindAction("Map",IE_Pressed,this,&ABogotaPlayer::PhonePressed);I->BindAction("Time",IE_Pressed,this,&ABogotaPlayer::SkipTime);I->BindAction("Quality",IE_Pressed,this,&ABogotaPlayer::ToggleQuality);auto& PauseBind=I->BindAction("Pause",IE_Pressed,this,&ABogotaPlayer::TogglePause);PauseBind.bExecuteWhenPaused=true;
 }
-void ABogotaPlayer::MoveForward_Implementation(float V){if(Delivery&&Delivery->PhoneOpen){ForwardInput=0;return;}ForwardInput=V;if(!Riding&&Controller){FRotator R(0,Controller->GetControlRotation().Yaw,0);AddMovementInput(FRotationMatrix(R).GetUnitAxis(EAxis::X),V);}}
-void ABogotaPlayer::MoveRight_Implementation(float V){if(Delivery&&Delivery->PhoneOpen){SideInput=0;return;}SideInput=V;if(!Riding&&Controller){FRotator R(0,Controller->GetControlRotation().Yaw,0);AddMovementInput(FRotationMatrix(R).GetUnitAxis(EAxis::Y),V);}}
-void ABogotaPlayer::Turn_Implementation(float V){if(!Delivery||!Delivery->PhoneOpen)AddControllerYawInput(V);}
-void ABogotaPlayer::Look_Implementation(float V){if(!Delivery||!Delivery->PhoneOpen)AddControllerPitchInput(V);}
-void ABogotaPlayer::StopForPhone_Implementation(){ForwardInput=0;SideInput=0;Sprint=false;BikeSpeed=0;GetCharacterMovement()->StopMovementImmediately();}
-void ABogotaPlayer::ActionPressed(){if(!Delivery||Delivery->PhoneOpen)return;if(Delivery->State!=EDeliveryState::Idle){Delivery->BeginAction(false);return;}Interact();}
-void ABogotaPlayer::KeyboardActionPressed(){if(Delivery&&Delivery->PhoneOpen)return;if(Delivery&&Delivery->State==EDeliveryState::Pickup){Delivery->BeginAction(true);return;}if(Delivery&&Delivery->State==EDeliveryState::Dropoff){ActionPressed();return;}if(Delivery&&Delivery->StoreDoorAction())return;ActionPressed();}
-void ABogotaPlayer::ActionReleased_Implementation(){if(Delivery)Delivery->EndAction();}
-void ABogotaPlayer::PickupPressed_Implementation(){if(Delivery)Delivery->BeginAction(true);}
-void ABogotaPlayer::PickupReleased_Implementation(){if(Delivery)Delivery->EndAction();}
-void ABogotaPlayer::PhonePressed_Implementation(){if(Delivery)Delivery->TogglePhone();}
-void ABogotaPlayer::VehiclePressed_Implementation(){if(Delivery)Delivery->SwitchVehicle();}
-void ABogotaPlayer::StartSprint_Implementation(){Sprint=true;}
-void ABogotaPlayer::EndSprint_Implementation(){Sprint=false;}
-void ABogotaPlayer::JumpOrBrake_Implementation(){if(Riding)BikeSpeed=0;else Jump();}
-void ABogotaPlayer::StopJump_Implementation(){StopJumping();}
-void ABogotaPlayer::ToggleMap(){FullMap=!FullMap;}
-void ABogotaPlayer::SkipTime(){if(City)City->AdvanceTime();}
-void ABogotaPlayer::ToggleQuality(){Quality=Quality==2?0:2;if(City)City->SetDetail(Quality);if(auto* C=IConsoleManager::Get().FindConsoleVariable(TEXT("r.Shadow.MaxResolution")))C->Set(Quality==0?1024:2048);}
-void ABogotaPlayer::TogglePause(){if(Delivery)Delivery->EndAction();Sprint=false;Paused=!Paused;UGameplayStatics::SetGamePaused(this,Paused);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  FString ABogotaPlayer::InteractionText()const{if(!Riding&&BikeSpeed<0)return TEXT("SUBIENDO A LA CICLA...");if(Riding)return TEXT("F  Bajar de la cicla     ESPACIO  Frenar");if(City)for(FVector B:City->ParkedBikes)if(FVector::DistSquared2D(B,GetActorLocation())<550*550)return TEXT("F  Subir a la cicla");return TEXT("Encuentra una cicla en el mapa");}
 void ABogotaPlayer::Interact(){
   if(Delivery&&Delivery->PhoneOpen)return;
+  if(DeveloperCarIndex!=INDEX_NONE){LeaveDeveloperCar();return;}
+  if(Delivery&&Delivery->DeveloperMode&&EnterDeveloperCar())return;
   if(!City)return;
   if(!Riding&&BikeSpeed<0)return;
  if(Riding){
@@ -100,9 +102,10 @@ void ABogotaPlayer::Interact(){
 }
 void ABogotaPlayer::Tick(float Dt){
   Super::Tick(Dt);if(!City)City=Cast<ABogotaCity>(UGameplayStatics::GetActorOfClass(this,ABogotaCity::StaticClass()));
+  if(DeveloperCarIndex!=INDEX_NONE){UpdateDeveloperCarView(Dt);return;}
   if(!Riding&&BikeSpeed<0){BikeSpeed+=Dt;if(BikeSpeed>=0){Riding=true;BikeSpeed=0;if(!Cast<UDeliveryAnimInstance>(GetMesh()->GetAnimInstance()))GetMesh()->PlayAnimation(Idle,true);CurrentClip=Idle;}return;}
  if(Delivery){ADeliveryPoint* Entered=nullptr;for(TActorIterator<ADeliveryPoint> It(GetWorld());It;++It)if(It->ContainsVisitor(GetActorLocation())){Entered=*It;break;}if(Entered!=Delivery->InsideStore){Delivery->EndAction();Delivery->InsideStore=Entered;if(Entered&&Riding)Interact();}}
- if(TestHarness)TickValidation(Dt);
+
  if(Riding){
   BikeSpeed=AdvanceDriveSpeed(Dt,Delivery?Delivery->GetTopSpeed():1100);AddActorWorldRotation(FRotator(0,SteeringAngle(Dt),0));GetCharacterMovement()->MaxWalkSpeed=FMath::Abs(BikeSpeed);AddMovementInput(GetActorForwardVector(),BikeSpeed<0?-1:1);
   WheelAngle+=GetVelocity().Size2D()/33*180/PI*Dt;FrontWheel->SetRelativeRotation(FRotator(WheelAngle,SideInput*18,0));RearWheel->SetRelativeRotation(FRotator(WheelAngle,0,0));
@@ -127,35 +130,14 @@ void ABogotaPlayer::Tick(float Dt){
  if(P.Z<-500&&(!Delivery||!Delivery->InsideStore)){SetActorLocation(FVector(-6500,14000,150));GetCharacterMovement()->StopMovementImmediately();}
  if(FMath::Abs(P.X)>45500||P.Y<-32000||P.Y>39000){P.X=FMath::Clamp(P.X,-45000.,45000.);P.Y=FMath::Clamp(P.Y,-31500.,38500.);SetActorLocation(P);BikeSpeed=0;}
 }
-void ABogotaPlayer::UpdateCameraRig_Implementation(float Dt){
- CameraBoom->bEnableCameraLag=!(Delivery&&Delivery->InsideStore);
- CameraBoom->TargetArmLength=FMath::FInterpTo(CameraBoom->TargetArmLength,Delivery&&Delivery->InsideStore?240.f:Riding?670.f:570.f,Dt,3.f);
- Camera->SetFieldOfView(Delivery&&Delivery->InsideStore?78.f:60.f); CameraBoom->SocketOffset=FVector(0,Delivery&&Delivery->InsideStore?0.f:45.f,70); GetMesh()->SetOwnerNoSee(false);
-}
-float ABogotaPlayer::AdvanceDriveSpeed_Implementation(float Dt,float TopSpeed){return FMath::FInterpConstantTo(BikeSpeed,ForwardInput*TopSpeed,Dt,ForwardInput==0?350:600);}
-float ABogotaPlayer::SteeringAngle_Implementation(float Dt)const{return SideInput*Dt*75.f*FMath::Clamp(FMath::Abs(BikeSpeed)/200.f,0.f,1.f)*(BikeSpeed<0?-1.f:1.f);}
-float ABogotaPlayer::WalkingSpeed_Implementation()const{return Sprint?650.f:390.f;}
-float ABogotaPlayer::GetWalkPlayRate_Implementation(float Speed)const{return FMath::Clamp(Speed/FMath::Max(1.f,WalkReferenceSpeed),MinimumWalkRate,FMath::Max(MinimumWalkRate,MaximumWalkRate));}
+
+
+
+
+
 ABogotaGameMode::ABogotaGameMode(){DefaultPawnClass=ABogotaPlayer::StaticClass();HUDClass=ABogotaHUD::StaticClass();}
 void ABogotaGameMode::BeginPlay(){Super::BeginPlay();if(!UGameplayStatics::GetActorOfClass(this,ABogotaCity::StaticClass()))GetWorld()->SpawnActor<ABogotaCity>();}
 
-void ABogotaPlayer::TickValidation(float Dt){
- if(!City)return;TestTime+=Dt;
- auto Shot=[&](const TCHAR* Name){FScreenshotRequest::RequestScreenshot(FPaths::ProjectSavedDir()/TEXT("Screenshots")/Name,true,false);};
- if(TestStage==0&&TestTime>3){Shot(TEXT("01_Plaza.png"));TestStart=GetActorLocation();UE_LOG(LogTemp,Warning,TEXT("TEST walk start=%s mode=%d controller=%s"),*TestStart.ToString(),int32(GetCharacterMovement()->MovementMode),*GetNameSafe(Controller));TestStage++;}
- if(TestTime>3&&TestTime<6)AddMovementInput(FVector(1,0,0),1);
-  if(TestStage==1&&TestTime>6){TestWalk=FVector::Dist2D(TestStart,GetActorLocation())>300;UE_LOG(LogTemp,Warning,TEXT("TEST walk end=%s velocity=%s distance=%f floor=%s input=%s"),*GetActorLocation().ToString(),*GetVelocity().ToString(),FVector::Dist2D(TestStart,GetActorLocation()),*GetNameSafe(GetCharacterMovement()->CurrentFloor.HitResult.GetComponent()),*GetLastMovementInputVector().ToString());SetActorLocation(City->ParkedBikes[0]+FVector(0,0,130));Interact();TestStart=GetActorLocation();TestStage++;}
-  ForwardInput=TestTime>7&&TestTime<12?1:0;
-  if(TestStage==2&&Riding)TestMount=true;
- if(TestStage==2&&TestTime>10){Shot(TEXT("02_Cicla.png"));TestStage++;}
- if(TestStage==3&&TestTime>13){TestRide=FVector::Dist2D(TestStart,GetActorLocation())>500;Interact();TestDismount=!Riding;City->AdvanceTime();City->AdvanceTime();City->AdvanceTime();TestStage++;}
- if(TestStage==4&&TestTime>16){Shot(TEXT("03_Noche.png"));TestStage++;}
- if(TestStage==5&&TestTime>18){FullMap=true;Shot(TEXT("04_Mapa.png"));TestStage++;}
- if(TestStage==6&&TestTime>22){
-  const bool Pass=TestWalk&&TestMount&&TestRide&&TestDismount&&City->Vehicles.Num()==38&&City->Walkers.Num()==864&&GetMesh()->GetNumBones()==23;
-  FString Report=FString::Printf(TEXT("{\"status\":\"%s\",\"walk\":%s,\"mount\":%s,\"cycle_movement\":%s,\"dismount\":%s,\"bones\":%d,\"vehicles\":%d,\"pedestrians\":%d,\"static_instances\":%d,\"hour_night\":%.2f,\"engine\":\"5.8.2\",\"target\":\"Windows PC\"}"),Pass?TEXT("PASS"):TEXT("FAIL"),TestWalk?TEXT("true"):TEXT("false"),TestMount?TEXT("true"):TEXT("false"),TestRide?TEXT("true"):TEXT("false"),TestDismount?TEXT("true"):TEXT("false"),GetMesh()->GetNumBones(),City->Vehicles.Num(),City->Walkers.Num(),City->StaticVoxelCount,City->Hour);
-  FFileHelper::SaveStringToFile(Report,*(FPaths::ProjectSavedDir()/TEXT("playtest.json")));UE_LOG(LogTemp,Display,TEXT("BOGOTA_PLAYTEST %s"),*Report);TestStage++;FPlatformMisc::RequestExit(false);
- }
-}
+
 
 

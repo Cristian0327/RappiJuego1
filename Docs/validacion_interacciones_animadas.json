@@ -1,0 +1,139 @@
+{
+  "player_interactions": {
+    "BIKE_ENTER": "true",
+    "BIKE_READY": "true",
+    "BIKE_EXIT": "true",
+    "BIKE_ON_FOOT": "true",
+    "MOTO_ENTER": "true",
+    "MOTO_READY": "true",
+    "MOTO_EXIT": "true",
+    "MOTO_ON_FOOT": "true",
+    "CAR_ENTER": "true",
+    "CAR_READY": "true",
+    "CAR_EXIT": "true",
+    "CAR_ON_FOOT": "true"
+  },
+  "isolated_npc_lifecycle": {
+    "0": {
+      "state": 4.0,
+      "cycles": 3.0,
+      "parks": 3.0,
+      "travel_cm": 6782.249512
+    },
+    "1": {
+      "state": 2.0,
+      "cycles": 3.0,
+      "parks": 4.0,
+      "travel_cm": 9019.742188
+    },
+    "2": {
+      "state": 4.0,
+      "cycles": 3.0,
+      "parks": 3.0,
+      "travel_cm": 9477.959961
+    },
+    "3": {
+      "state": 2.0,
+      "cycles": 3.0,
+      "parks": 4.0,
+      "travel_cm": 12643.105469
+    }
+  },
+  "animation_source": "Mixamo Idle + Entering Car, voxel vehicle contacts and mounting adapted in Blender",
+  "new_logic": "Blueprint graphs",
+  "project_full_migration_complete": false,
+  "city_runtime_validation": {
+    "duration_seconds": 120,
+    "agents": {
+      "100": {
+        "state": 0.0,
+        "cycles": 2.0,
+        "parks": 2.0,
+        "state_seconds": 12.594066,
+        "distance_cm": 32675.619141
+      },
+      "101": {
+        "state": 0.0,
+        "cycles": 2.0,
+        "parks": 2.0,
+        "state_seconds": 9.918761,
+        "distance_cm": 33211.386719
+      },
+      "102": {
+        "state": 0.0,
+        "cycles": 1.0,
+        "parks": 1.0,
+        "state_seconds": 6.073518,
+        "distance_cm": 34479.757812
+      },
+      "103": {
+        "state": 0.0,
+        "cycles": 1.0,
+        "parks": 1.0,
+        "state_seconds": 23.845406,
+        "distance_cm": 37709.660156
+      },
+      "104": {
+        "state": 0.0,
+        "cycles": 1.0,
+        "parks": 1.0,
+        "state_seconds": 49.652527,
+        "distance_cm": 37771.042969
+      },
+      "105": {
+        "state": 0.0,
+        "cycles": 1.0,
+        "parks": 1.0,
+        "state_seconds": 26.336571,
+        "distance_cm": 38130.015625
+      },
+      "106": {
+        "state": 0.0,
+        "cycles": 0.0,
+        "parks": 0.0,
+        "state_seconds": 119.917404,
+        "distance_cm": 24417.228516
+      },
+      "107": {
+        "state": 0.0,
+        "cycles": 0.0,
+        "parks": 0.0,
+        "state_seconds": 44.577602,
+        "distance_cm": 38329.855469
+      },
+      "200": {
+        "state": 2.0,
+        "cycles": 1.0,
+        "parks": 2.0,
+        "state_seconds": 2.123279,
+        "distance_cm": 42643.273438
+      },
+      "201": {
+        "state": 0.0,
+        "cycles": 1.0,
+        "parks": 1.0,
+        "state_seconds": 40.581772,
+        "distance_cm": 50825.152344
+      },
+      "202": {
+        "state": 0.0,
+        "cycles": 1.0,
+        "parks": 1.0,
+        "state_seconds": 40.581772,
+        "distance_cm": 50825.175781
+      },
+      "203": {
+        "state": 0.0,
+        "cycles": 1.0,
+        "parks": 1.0,
+        "state_seconds": 40.581772,
+        "distance_cm": 50863.09375
+      }
+    },
+    "moving_agents": 12,
+    "completed_parking_cycles_agents": 10,
+    "runtime_blueprint_errors": 0,
+    "parking_policy": "Only when ground, approach and exit are free; otherwise continue route",
+    "all_project_cpp_removed": false
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "runtime_integration": "PASS",
+  "models": [
+    {
+      "asset": "/Game/Traffic/Services/SK_PolicePatrol",
+      "bounds_cm": [
+        504.0,
+        255.99999237060547,
+        208.0
+      ],
+      "material": "/Game/Traffic/Services/M_ServiceVoxel",
+      "blender": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Services\\SK_PolicePatrol.blend"
+    },
+    {
+      "asset": "/Game/Traffic/Services/SK_MotoCivilBlue",
+      "bounds_cm": [
+        216.00001525878906,
+        88.0,
+        144.0
+      ],
+      "material": "/Game/Traffic/Services/M_ServiceVoxel",
+      "blender": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Services\\SK_MotoCivilBlue.blend"
+    },
+    {
+      "asset": "/Game/Traffic/Services/SK_MotoCivilRed",
+      "bounds_cm": [
+        216.00001525878906,
+        88.0,
+        144.0
+      ],
+      "material": "/Game/Traffic/Services/M_ServiceVoxel",
+      "blender": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Services\\SK_MotoCivilRed.blend"
+    },
+    {
+      "asset": "/Game/Traffic/Services/SK_MotoCourier",
+      "bounds_cm": [
+        216.00001525878906,
+        88.0,
+        144.0
+      ],
+      "material": "/Game/Traffic/Services/M_ServiceVoxel",
+      "blender": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Services\\SK_MotoCourier.blend"
+    },
+    {
+      "asset": "/Game/Traffic/Services/SK_MotoPolice",
+      "bounds_cm": [
+        216.00001525878906,
+        96.0,
+        144.0
+      ],
+      "material": "/Game/Traffic/Services/M_ServiceVoxel",
+      "blender": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Services\\SK_MotoPolice.blend"
+    },
+    {
+      "asset": "/Game/Traffic/Services/SK_MotoCivilYellow",
+      "bounds_cm": [
+        216.00001525878906,
+        88.0,
+        144.0
+      ],
+      "material": "/Game/Traffic/Services/M_ServiceVoxel",
+      "blender": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Services\\SK_MotoCivilYellow.blend"
+    },
+    {
+      "asset": "/Game/Traffic/Services/SK_MotoCivilPurple",
+      "bounds_cm": [
+        216.00001525878906,
+        88.0,
+        144.0
+      ],
+      "material": "/Game/Traffic/Services/M_ServiceVoxel",
+      "blender": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Services\\SK_MotoCivilPurple.blend"
+    },
+    {
+      "asset": "/Game/Traffic/Services/SK_MotoCivilWhite",
+      "bounds_cm": [
+        216.00001525878906,
+        88.0,
+        144.0
+      ],
+      "material": "/Game/Traffic/Services/M_ServiceVoxel",
+      "blender": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Services\\SK_MotoCivilWhite.blend"
+    },
+    {
+      "asset": "/Game/Traffic/Services/SK_MotoPoliceGreen",
+      "bounds_cm": [
+        216.00001525878906,
+        96.0,
+        144.0
+      ],
+      "material": "/Game/Traffic/Services/M_ServiceVoxel",
+      "blender": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Services\\SK_MotoPoliceGreen.blend"
+    },
+    {
+      "asset": "/Game/Traffic/Services/SK_PoliceOfficer",
+      "bounds_cm": [
+        45.000003814697266,
+        127.88472747802734,
+        173.25
+      ],
+      "material": "/Game/Traffic/Services/M_ServiceVoxel",
+      "blender": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Services\\SK_PoliceOfficer.blend"
+    },
+    {
+      "asset": "/Game/Traffic/Services/SK_PoliceOfficerMale02",
+      "bounds_cm": [
+        45.000003814697266,
+        119.10832214355469,
+        177.75
+      ],
+      "material": "/Game/Traffic/Services/M_ServiceVoxel",
+      "blender": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Services\\SK_PoliceOfficerMale02.blend"
+    },
+    {
+      "asset": "/Game/Traffic/Services/SK_PoliceOfficerFemale01",
+      "bounds_cm": [
+        45.000003814697266,
+        123.49652099609375,
+        182.25
+      ],
+      "material": "/Game/Traffic/Services/M_ServiceVoxel",
+      "blender": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Services\\SK_PoliceOfficerFemale01.blend"
+    },
+    {
+      "asset": "/Game/Traffic/Services/SK_PoliceOfficerFemale02",
+      "bounds_cm": [
+        51.750003814697266,
+        132.27293395996094,
+        177.75
+      ],
+      "material": "/Game/Traffic/Services/M_ServiceVoxel",
+      "blender": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Services\\SK_PoliceOfficerFemale02.blend"
+    }
+  ],
+  "runtime_validation_report": "validacion_circulacion_servicios_final.json"
+}

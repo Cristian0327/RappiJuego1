@@ -7,6 +7,11 @@ class UAnimSequence;
 UCLASS() class UDeliveryEditorLibrary:public UBlueprintFunctionLibrary {
  GENERATED_BODY()
 public:
+ UFUNCTION(BlueprintCallable,Category="Delivery|Editor") static int32 CleanCityDuplicateBikes();
+ UFUNCTION(BlueprintCallable,Category="Delivery|Editor") static int32 CleanBlueprint(UBlueprint* Blueprint);
+ UFUNCTION(BlueprintCallable,Category="Delivery|Editor") static FString AuditBlueprint(UBlueprint* Blueprint);
+ UFUNCTION(BlueprintCallable,Category="Delivery|Editor") static FString ValidateTrafficPaint(UClass* CityClass);
+ UFUNCTION(BlueprintCallable,Category="Delivery|Editor") static FString ValidateMapRoutes(float Seconds);
  UFUNCTION(BlueprintCallable,Category="Delivery|Editor") static bool RemoveDeliveriesApp(UBlueprint* Blueprint);
  UFUNCTION(BlueprintCallable,Category="Delivery|Editor") static bool StylePhoneTypography(UBlueprint* Blueprint,class UFont* Font);
  UFUNCTION(BlueprintCallable,Category="Delivery|Editor") static bool BuildPhoneDesigner(UBlueprint* Blueprint);

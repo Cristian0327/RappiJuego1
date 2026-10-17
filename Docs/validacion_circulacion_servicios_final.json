@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "duration_seconds": 90,
+  "criterion": "Cada vehículo recorre al menos el 50% de su distancia nominal; permite paradas en semáforos y cesión de paso. No certifica ausencia de todas las colisiones.",
+  "vehicles": [
+    {
+      "actor": "Moto_Civil_Sector_1_1",
+      "distance_cm": 52190.367188
+    },
+    {
+      "actor": "Moto_Civil_Sector_1_2",
+      "distance_cm": 57850.582031
+    },
+    {
+      "actor": "Moto_Policia_Sector_1_3",
+      "distance_cm": 49284.105469
+    },
+    {
+      "actor": "Patrulla_Sector_1_4",
+      "distance_cm": 40173.382812
+    },
+    {
+      "actor": "Moto_Civil_Sector_2_1",
+      "distance_cm": 52190.367188
+    },
+    {
+      "actor": "Moto_Civil_Sector_2_2",
+      "distance_cm": 57850.582031
+    },
+    {
+      "actor": "Moto_Policia_Sector_2_3",
+      "distance_cm": 49284.105469
+    },
+    {
+      "actor": "Patrulla_Sector_2_4",
+      "distance_cm": 40173.382812
+    },
+    {
+      "actor": "Moto_Civil_Sector_3_1",
+      "distance_cm": 52190.367188
+    },
+    {
+      "actor": "Moto_Civil_Sector_3_2",
+      "distance_cm": 57850.582031
+    },
+    {
+      "actor": "Moto_Policia_Sector_3_3",
+      "distance_cm": 49284.105469
+    },
+    {
+      "actor": "Patrulla_Sector_3_4",
+      "distance_cm": 40173.382812
+    },
+    {
+      "actor": "Moto_Civil_Sector_4_1",
+      "distance_cm": 52418.921875
+    },
+    {
+      "actor": "Moto_Civil_Sector_4_2",
+      "distance_cm": 57850.582031
+    },
+    {
+      "actor": "Moto_Policia_Sector_4_3",
+      "distance_cm": 49382.140625
+    },
+    {
+      "actor": "Patrulla_Sector_4_4",
+      "distance_cm": 40285.816406
+    },
+    {
+      "actor": "Moto_Civil_Sector_5_1",
+      "distance_cm": 52532.285156
+    },
+    {
+      "actor": "Moto_Civil_Sector_5_2",
+      "distance_cm": 53500.5
+    },
+    {
+      "actor": "Moto_Policia_Sector_5_3",
+      "distance_cm": 44033.089844
+    },
+    {
+      "actor": "Patrulla_Sector_5_4",
+      "distance_cm": 34158.789062
+    },
+    {
+      "actor": "Moto_Civil_Sector_6_1",
+      "distance_cm": 52190.367188
+    },
+    {
+      "actor": "Moto_Civil_Sector_6_2",
+      "distance_cm": 57850.582031
+    },
+    {
+      "actor": "Moto_Policia_Sector_6_3",
+      "distance_cm": 52190.367188
+    },
+    {
+      "actor": "Moto_Civil_Sector_6_4",
+      "distance_cm": 57850.582031
+    }
+  ],
+  "foot_officer_heights_cm": [
+    118.150003,
+    118.150001,
+    118.309446,
+    118.149997,
+    118.150001,
+    118.150001,
+    118.150001,
+    118.187106,
+    118.149999,
+    118.309463,
+    118.150001,
+    118.187106,
+    118.309466,
+    118.150002,
+    118.150003,
+    118.150003,
+    118.309466,
+    118.150002,
+    118.149997,
+    118.309443,
+    118.150004,
+    118.309446,
+    118.149997,
+    118.309442
+  ],
+  "blueprint_runtime_errors": [],
+  "log": "../../work/FinalAnimationServicesQA.log",
+  "scope": "24 nuevos vehículos y 24 policías. No certifica la migración completa del tráfico original."
+}

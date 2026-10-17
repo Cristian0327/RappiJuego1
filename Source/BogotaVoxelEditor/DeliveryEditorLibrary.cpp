@@ -121,3 +121,62 @@ UBlueprint* UDeliveryEditorLibrary::BuildCharacterAnimationBlueprint(FName Asset
 
 
 
+
+FString UDeliveryEditorLibrary::AuditBlueprint(UBlueprint* BP){
+ TSharedRef<FJsonObject> Report=MakeShared<FJsonObject>();if(!BP)return TEXT("{}");
+ Report->SetStringField(TEXT("asset"),BP->GetPathName());Report->SetStringField(TEXT("parent"),GetPathNameSafe(BP->ParentClass));
+ TArray<TSharedPtr<FJsonValue>> Graphs;int32 Total=0;
+ for(auto Graph:BP->FunctionGraphs){TSharedRef<FJsonObject> G=MakeShared<FJsonObject>();G->SetStringField(TEXT("name"),Graph->GetName());G->SetNumberField(TEXT("nodes"),Graph->Nodes.Num());if(auto* Function=BP->GeneratedClass->FindFunctionByName(Graph->GetFName())){G->SetStringField(TEXT("function_owner"),Function->GetOwnerClass()->GetPathName());G->SetNumberField(TEXT("bytecode"),Function->Script.Num());}TArray<TSharedPtr<FJsonValue>> Pins;for(auto N:Graph->Nodes)for(auto* Pin:N->Pins){FString Line=N->GetClass()->GetName()+TEXT(".")+Pin->GetName()+TEXT("=")+Pin->DefaultValue+FString::Printf(TEXT(" links:%d"),Pin->LinkedTo.Num());Pins.Add(MakeShared<FJsonValueString>(Line));}G->SetArrayField(TEXT("pins"),Pins);Total+=Graph->Nodes.Num();TArray<TSharedPtr<FJsonValue>> Calls;
+ for(auto N:Graph->Nodes)if(auto* Call=Cast<UK2Node_CallFunction>(N))if(auto* F=Call->GetTargetFunction()){FString Owner=F->GetOwnerClass()->GetPathName();if(Owner.StartsWith(TEXT("/Script/BogotaVoxel")))Calls.Add(MakeShared<FJsonValueString>(F->GetName()));}
+ G->SetArrayField(TEXT("native_calls"),Calls);Graphs.Add(MakeShared<FJsonValueObject>(G));}
+ Report->SetArrayField(TEXT("graphs"),Graphs);Report->SetNumberField(TEXT("logic_nodes"),Total);Report->SetBoolField(TEXT("compiled"),BP->Status!=BS_Error);
+ FString Result;auto Writer=TJsonWriterFactory<>::Create(&Result);FJsonSerializer::Serialize(Report,Writer);return Result;
+}
+
+#include "Editor.h"
+#include "Engine/StaticMeshActor.h"
+#include "Components/StaticMeshComponent.h"
+#include "EngineUtils.h"
+#include "UObject/Script.h"
+#include "../BogotaVoxel/BogotaGame.h"
+#include "Components/PoseableMeshComponent.h"
+#include "Materials/MaterialInstanceDynamic.h"
+#include "Rendering/SkeletalMeshRenderData.h"
+#include "Rendering/SkeletalMeshLODRenderData.h"
+FString UDeliveryEditorLibrary::ValidateTrafficPaint(UClass* CityClass){
+ FEditorScriptExecutionGuard Guard;UWorld* World=GEditor->GetEditorWorldContext().World();TSet<AActor*> Before;for(TActorIterator<AActor> It(World);It;++It)Before.Add(*It);
+ auto* City=World->SpawnActor<ABogotaCity>(CityClass);if(!City)return TEXT("{}");City->ValidateTraffic(0);
+ TMap<FString,TSet<FString>> ColorsByModel;TSet<FString> Colors;int32 InvalidMasks=0,PreservedLiveries=0,ColoredParked=0,InvalidMaterialParents=0;
+ for(const auto& Car:City->Vehicles)if(Car.Visual.IsValid()){
+  FString Model=GetNameSafe(Car.Visual->GetSkinnedAsset());auto* Material=Cast<UMaterialInstanceDynamic>(Car.Visual->GetMaterial(0));
+  if(Model.StartsWith(TEXT("SK_Private"))&&Material){if(Cast<UMaterialInstanceDynamic>(Material->Parent))InvalidMaterialParents++;FString Color=Material->K2_GetVectorParameterValue(TEXT("BodyPaint")).ToString();ColorsByModel.FindOrAdd(Model).Add(Color);Colors.Add(Color);}
+  else if(Car.Visual->GetMaterial(0))PreservedLiveries++;
+ }
+ for(const auto& Car:City->ParkedCars)if(Car.Visual.IsValid())if(auto* Material=Cast<UMaterialInstanceDynamic>(Car.Visual->GetMaterial(0)))if(Material->K2_GetScalarParameterValue(TEXT("PaintEnabled"))>.5f)ColoredParked++;
+ int32 Minimum=1000;for(const auto& Entry:ColorsByModel){Minimum=FMath::Min(Minimum,Entry.Value.Num());auto* Mesh=LoadObject<USkeletalMesh>(nullptr,*FString::Printf(TEXT("/Game/Traffic/Detailed/%s.%s"),*Entry.Key,*Entry.Key));auto* Data=Mesh?Mesh->GetResourceForRendering():nullptr;int32 Body=0,Detail=0;
+  if(!Data||Data->LODRenderData.IsEmpty())InvalidMasks++;
+  else{const auto& Buffer=Data->LODRenderData[0].StaticVertexBuffers.StaticMeshVertexBuffer;if(Buffer.GetNumTexCoords()<2)InvalidMasks++;else{for(uint32 V=0;V<Buffer.GetNumVertices();V++){auto UV=Buffer.GetVertexUV(V,1);if(UV.X>.5f)Body++;else Detail++;}if(Body==0||Detail==0)InvalidMasks++;}}
+ }
+ TSharedRef<FJsonObject> Report=MakeShared<FJsonObject>();Report->SetNumberField(TEXT("private_models"),ColorsByModel.Num());Report->SetNumberField(TEXT("private_colors"),Colors.Num());Report->SetNumberField(TEXT("minimum_colors_per_model"),Minimum);Report->SetNumberField(TEXT("invalid_paint_masks"),InvalidMasks);Report->SetNumberField(TEXT("invalid_material_parents"),InvalidMaterialParents);Report->SetNumberField(TEXT("preserved_taxis_and_buses"),PreservedLiveries);Report->SetNumberField(TEXT("colored_parked_cars"),ColoredParked);Report->SetBoolField(TEXT("blueprint_city"),City->GetClass()!=ABogotaCity::StaticClass());
+ TArray<AActor*> Created;for(TActorIterator<AActor> It(World);It;++It)if(!Before.Contains(*It))Created.Add(*It);for(auto* Actor:Created)Actor->Destroy();
+ FString Result;FJsonSerializer::Serialize(Report,TJsonWriterFactory<>::Create(&Result));return Result;
+}
+
+int32 UDeliveryEditorLibrary::CleanBlueprint(UBlueprint* BP){
+ if(!BP)return 0;int32 Removed=0;
+ for(auto Graph:BP->FunctionGraphs){auto Nodes=Graph->Nodes;for(auto Node:Nodes)if(auto* Parent=Cast<UK2Node_CallParentFunction>(Node)){bool Used=false;for(auto* Pin:Parent->Pins)if(Pin->Direction==EGPD_Output&&!Pin->LinkedTo.IsEmpty())Used=true;if(!Used){Parent->BreakAllNodeLinks();Graph->RemoveNode(Parent);Removed++;}}}
+ if(Removed){FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified(BP);FKismetEditorUtilities::CompileBlueprint(BP);BP->MarkPackageDirty();}return Removed;
+}
+
+int32 UDeliveryEditorLibrary::CleanCityDuplicateBikes(){
+ UWorld* World=GEditor->GetEditorWorldContext().World();int32 Removed=0;TArray<AActor*> Extras;
+ for(TActorIterator<ABogotaCity> City(World);City;++City){TSet<AActor*> Linked;for(auto Bike:City->BikeActors)if(Bike.IsValid())Linked.Add(Bike.Get());
+ for(TActorIterator<AStaticMeshActor> It(World);It;++It)if(!Linked.Contains(*It)&&GetNameSafe(It->GetStaticMeshComponent()->GetStaticMesh())==TEXT("SM_Bicycle")){for(auto* Bike:Linked)if(FVector::DistSquared(Bike->GetActorLocation(),It->GetActorLocation())<1){Extras.AddUnique(*It);break;}}}
+ for(auto* Actor:Extras)if(GEditor->GetEditorWorldContext().World()->EditorDestroyActor(Actor,true))Removed++;return Removed;
+}
+
+FString UDeliveryEditorLibrary::ValidateMapRoutes(float Seconds){
+ FEditorScriptExecutionGuard Guard;UWorld* World=GEditor->GetEditorWorldContext().World();
+ for(TActorIterator<ABogotaCity> It(World);It;++It)return It->ValidateMapRoutes(Seconds);
+ return TEXT("{}");
+}

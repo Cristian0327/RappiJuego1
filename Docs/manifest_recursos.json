@@ -1,142 +1,34 @@
 {
   "status": "PASS",
-  "engine": "5.8.2",
+  "engine": "5.8.3",
   "files": [
     {
       "path": "Content/Crowd/AN_CrowdBoard.uasset",
-      "bytes": 41171
+      "bytes": 120625
     },
     {
       "path": "Content/Crowd/AN_CrowdCane.uasset",
-      "bytes": 123245
+      "bytes": 123356
     },
     {
       "path": "Content/Crowd/AN_CrowdEnterCar.uasset",
-      "bytes": 54213
+      "bytes": 161381
     },
     {
       "path": "Content/Crowd/AN_CrowdIdle.uasset",
-      "bytes": 36365
+      "bytes": 536561
     },
     {
       "path": "Content/Crowd/AN_CrowdWalk_Mixamo.uasset",
-      "bytes": 120585
-    },
-    {
-      "path": "Content/Crowd/MI_Crowd.uasset",
-      "bytes": 4506
+      "bytes": 120696
     },
     {
       "path": "Content/Crowd/M_CrowdPixel.uasset",
       "bytes": 6465
     },
     {
-      "path": "Content/Crowd/SKEL_Crowd.uasset",
-      "bytes": 6789
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen00.uasset",
-      "bytes": 2873786
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen01.uasset",
-      "bytes": 2548574
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen02.uasset",
-      "bytes": 2584583
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen03.uasset",
-      "bytes": 2789730
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen04.uasset",
-      "bytes": 2347997
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen05.uasset",
-      "bytes": 2450756
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen06.uasset",
-      "bytes": 2375435
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen07.uasset",
-      "bytes": 2479447
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen08.uasset",
-      "bytes": 2290610
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen09.uasset",
-      "bytes": 2152307
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen10.uasset",
-      "bytes": 2381846
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen11.uasset",
-      "bytes": 2342511
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen12.uasset",
-      "bytes": 2366905
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen13.uasset",
-      "bytes": 2274830
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen14.uasset",
-      "bytes": 2468099
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen15.uasset",
-      "bytes": 2713145
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen16.uasset",
-      "bytes": 2400463
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen17.uasset",
-      "bytes": 2477876
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen18.uasset",
-      "bytes": 2271511
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen19.uasset",
-      "bytes": 2347855
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen20.uasset",
-      "bytes": 2480620
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen21.uasset",
-      "bytes": 2441409
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen22.uasset",
-      "bytes": 2549907
-    },
-    {
-      "path": "Content/Crowd/SK_Citizen23.uasset",
-      "bytes": 2575173
-    },
-    {
-      "path": "Content/Crowd/SK_CrowdRig.uasset",
-      "bytes": 2486854
-    },
-    {
-      "path": "Content/Crowd/T_CrowdPixelAtlas.uasset",
-      "bytes": 48138
+      "path": "Content/Crowd/MI_Crowd.uasset",
+      "bytes": 4506
     },
     {
       "path": "Content/Crowd/People/SK_Citizen00.uasset",
@@ -379,40 +271,148 @@
       "bytes": 2594716
     },
     {
+      "path": "Content/Crowd/SK_Citizen00.uasset",
+      "bytes": 2873786
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen01.uasset",
+      "bytes": 2548574
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen02.uasset",
+      "bytes": 2584583
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen03.uasset",
+      "bytes": 2789730
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen04.uasset",
+      "bytes": 2347997
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen05.uasset",
+      "bytes": 2450756
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen06.uasset",
+      "bytes": 2375435
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen07.uasset",
+      "bytes": 2479447
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen08.uasset",
+      "bytes": 2290610
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen09.uasset",
+      "bytes": 2152307
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen10.uasset",
+      "bytes": 2381846
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen11.uasset",
+      "bytes": 2342511
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen12.uasset",
+      "bytes": 2366905
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen13.uasset",
+      "bytes": 2274830
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen14.uasset",
+      "bytes": 2468099
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen15.uasset",
+      "bytes": 2713145
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen16.uasset",
+      "bytes": 2400463
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen17.uasset",
+      "bytes": 2477876
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen18.uasset",
+      "bytes": 2271511
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen19.uasset",
+      "bytes": 2347855
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen20.uasset",
+      "bytes": 2480620
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen21.uasset",
+      "bytes": 2441409
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen22.uasset",
+      "bytes": 2549907
+    },
+    {
+      "path": "Content/Crowd/SK_Citizen23.uasset",
+      "bytes": 2575173
+    },
+    {
+      "path": "Content/Crowd/SK_CrowdRig.uasset",
+      "bytes": 2486854
+    },
+    {
+      "path": "Content/Crowd/SKEL_Crowd.uasset",
+      "bytes": 6789
+    },
+    {
+      "path": "Content/Crowd/T_CrowdPixelAtlas.uasset",
+      "bytes": 48138
+    },
+    {
       "path": "Content/Delivery/Animation/ABP_Cashier.uasset",
-      "bytes": 278526
+      "bytes": 235986
     },
     {
       "path": "Content/Delivery/Animation/ABP_Chef.uasset",
-      "bytes": 278442
+      "bytes": 235907
     },
     {
       "path": "Content/Delivery/Animation/ABP_CustomerNeighbor.uasset",
-      "bytes": 278778
+      "bytes": 236313
     },
     {
       "path": "Content/Delivery/Animation/ABP_CustomerOffice.uasset",
-      "bytes": 278722
+      "bytes": 236255
     },
     {
       "path": "Content/Delivery/Animation/ABP_CustomerStudent.uasset",
-      "bytes": 278750
+      "bytes": 236304
     },
     {
       "path": "Content/Delivery/Animation/ABP_DeliveryRider.uasset",
-      "bytes": 280166
+      "bytes": 277804
     },
     {
       "path": "Content/Delivery/Animation/ABP_Florist.uasset",
-      "bytes": 278526
+      "bytes": 236004
     },
     {
       "path": "Content/Delivery/Animation/ABP_Pharmacist.uasset",
-      "bytes": 278610
+      "bytes": 236109
     },
     {
       "path": "Content/Delivery/Animation/ABP_TechClerk.uasset",
-      "bytes": 278582
+      "bytes": 236088
     },
     {
       "path": "Content/Delivery/Art/CargoInk.uasset",
@@ -843,12 +843,12 @@
       "bytes": 4910
     },
     {
-      "path": "Content/Delivery/Core/BPC_DeliveryGameplay.uasset",
-      "bytes": 2402796
+      "path": "Content/Delivery/Core/BP_DeliveryGameMode.uasset",
+      "bytes": 47631
     },
     {
-      "path": "Content/Delivery/Core/BP_DeliveryGameMode.uasset",
-      "bytes": 21889
+      "path": "Content/Delivery/Core/BPC_DeliveryGameplay.uasset",
+      "bytes": 2526309
     },
     {
       "path": "Content/Delivery/Data/DT_StoreThemes.uasset",
@@ -863,84 +863,88 @@
       "bytes": 7062
     },
     {
+      "path": "Content/Delivery/Developer/BP_DeveloperVehicleDoors.uasset",
+      "bytes": 339057
+    },
+    {
       "path": "Content/Delivery/Orders/BP_DeliveryBuilding.uasset",
-      "bytes": 299274
+      "bytes": 291479
     },
     {
       "path": "Content/Delivery/Orders/BP_VoxelCustomer.uasset",
-      "bytes": 78672
+      "bytes": 78053
     },
     {
       "path": "Content/Delivery/People/A_Cashier_Walk.uasset",
-      "bytes": 56075
+      "bytes": 86360
     },
     {
       "path": "Content/Delivery/People/A_Cashier_Work.uasset",
-      "bytes": 47611
+      "bytes": 371834
     },
     {
       "path": "Content/Delivery/People/A_Chef_Walk.uasset",
-      "bytes": 56042
+      "bytes": 86327
     },
     {
       "path": "Content/Delivery/People/A_Chef_Work.uasset",
-      "bytes": 47578
+      "bytes": 371801
     },
     {
       "path": "Content/Delivery/People/A_CustomerNeighbor_Walk.uasset",
-      "bytes": 56123
+      "bytes": 86408
     },
     {
       "path": "Content/Delivery/People/A_CustomerNeighbor_Work.uasset",
-      "bytes": 47710
+      "bytes": 371933
     },
     {
       "path": "Content/Delivery/People/A_CustomerOffice_Walk.uasset",
-      "bytes": 56101
+      "bytes": 86386
     },
     {
       "path": "Content/Delivery/People/A_CustomerOffice_Work.uasset",
-      "bytes": 47688
+      "bytes": 371911
     },
     {
       "path": "Content/Delivery/People/A_CustomerStudent_Walk.uasset",
-      "bytes": 56112
+      "bytes": 86397
     },
     {
       "path": "Content/Delivery/People/A_CustomerStudent_Work.uasset",
-      "bytes": 47699
+      "bytes": 371922
     },
     {
       "path": "Content/Delivery/People/A_Florist_Walk.uasset",
-      "bytes": 56075
+      "bytes": 86360
     },
     {
       "path": "Content/Delivery/People/A_Florist_Work.uasset",
-      "bytes": 47611
+      "bytes": 371834
     },
     {
       "path": "Content/Delivery/People/A_Pharmacist_Walk.uasset",
-      "bytes": 56108
+      "bytes": 86393
     },
     {
       "path": "Content/Delivery/People/A_Pharmacist_Work.uasset",
-      "bytes": 47644
+      "bytes": 371867
     },
     {
       "path": "Content/Delivery/People/A_TechClerk_Walk.uasset",
-      "bytes": 56097
+      "bytes": 86382
     },
     {
       "path": "Content/Delivery/People/A_TechClerk_Work.uasset",
-      "bytes": 47633
-    },
-    {
-      "path": "Content/Delivery/People/NPCPalette.uasset",
-      "bytes": 11102
+      "bytes": 371856
     },
     {
       "path": "Content/Delivery/People/NPC_Atlas.uasset",
       "bytes": 6601
+    },
+    {
+      "path": "Content/Delivery/People/NPCPalette.uasset",
+      "bytes": 11102
     },
     {
       "path": "Content/Delivery/People/SK_Cashier.uasset",
@@ -1387,6 +1391,10 @@
       "bytes": 5513
     },
     {
+      "path": "Content/Delivery/Stores/NPC_skin_shade.uasset",
+      "bytes": 5543
+    },
+    {
       "path": "Content/Delivery/Stores/NPC_skinDark.uasset",
       "bytes": 5533
     },
@@ -1401,10 +1409,6 @@
     {
       "path": "Content/Delivery/Stores/NPC_skinLight_shade.uasset",
       "bytes": 5568
-    },
-    {
-      "path": "Content/Delivery/Stores/NPC_skin_shade.uasset",
-      "bytes": 5543
     },
     {
       "path": "Content/Delivery/Stores/NPC_white.uasset",
@@ -1679,10 +1683,6 @@
       "bytes": 24704
     },
     {
-      "path": "Content/Delivery/UI/WBP_VoxelPhone.uasset",
-      "bytes": 1522637
-    },
-    {
       "path": "Content/Delivery/UI/Fonts/RutaPixel_Bold.uasset",
       "bytes": 53205
     },
@@ -1699,160 +1699,28 @@
       "bytes": 2483
     },
     {
+      "path": "Content/Delivery/UI/WBP_VoxelPhone.uasset",
+      "bytes": 1519642
+    },
+    {
       "path": "Content/Delivery/Vehicles/BP_DeliveryRider.uasset",
-      "bytes": 407946
+      "bytes": 588093
     },
     {
       "path": "Content/Maps/Bogota.umap",
-      "bytes": 2461411
+      "bytes": 2618090
     },
     {
       "path": "Content/Traffic/Blue_003.uasset",
       "bytes": 4940
     },
     {
-      "path": "Content/Traffic/Glass.uasset",
-      "bytes": 4925
+      "path": "Content/Traffic/Detailed/M_TrafficVoxel.uasset",
+      "bytes": 6803
     },
     {
-      "path": "Content/Traffic/Glass_001.uasset",
-      "bytes": 4945
-    },
-    {
-      "path": "Content/Traffic/Glass_002.uasset",
-      "bytes": 4945
-    },
-    {
-      "path": "Content/Traffic/Glass_003.uasset",
-      "bytes": 4945
-    },
-    {
-      "path": "Content/Traffic/Lamp.uasset",
-      "bytes": 4920
-    },
-    {
-      "path": "Content/Traffic/Lamp_001.uasset",
-      "bytes": 4940
-    },
-    {
-      "path": "Content/Traffic/Lamp_002.uasset",
-      "bytes": 4940
-    },
-    {
-      "path": "Content/Traffic/Lamp_003.uasset",
-      "bytes": 4940
-    },
-    {
-      "path": "Content/Traffic/Red_003.uasset",
-      "bytes": 4935
-    },
-    {
-      "path": "Content/Traffic/Rubber.uasset",
-      "bytes": 4930
-    },
-    {
-      "path": "Content/Traffic/Rubber_001.uasset",
-      "bytes": 4950
-    },
-    {
-      "path": "Content/Traffic/Rubber_002.uasset",
-      "bytes": 4950
-    },
-    {
-      "path": "Content/Traffic/Rubber_003.uasset",
-      "bytes": 4950
-    },
-    {
-      "path": "Content/Traffic/SK_Private.uasset",
-      "bytes": 19744673
-    },
-    {
-      "path": "Content/Traffic/SK_Private_Skeleton.uasset",
-      "bytes": 3076
-    },
-    {
-      "path": "Content/Traffic/SK_SITP.uasset",
-      "bytes": 245903
-    },
-    {
-      "path": "Content/Traffic/SK_SITP_Skeleton.uasset",
-      "bytes": 3058
-    },
-    {
-      "path": "Content/Traffic/SK_TaxiCompact.uasset",
-      "bytes": 172376
-    },
-    {
-      "path": "Content/Traffic/SK_TaxiCompact_Skeleton.uasset",
-      "bytes": 3100
-    },
-    {
-      "path": "Content/Traffic/SK_TaxiSedan.uasset",
-      "bytes": 171808
-    },
-    {
-      "path": "Content/Traffic/SK_TaxiSedan_Skeleton.uasset",
-      "bytes": 3088
-    },
-    {
-      "path": "Content/Traffic/SK_TransMilenio.uasset",
-      "bytes": 438697
-    },
-    {
-      "path": "Content/Traffic/SK_TransMilenio_Skeleton.uasset",
-      "bytes": 3715
-    },
-    {
-      "path": "Content/Traffic/Steel.uasset",
-      "bytes": 4925
-    },
-    {
-      "path": "Content/Traffic/Steel_001.uasset",
-      "bytes": 4945
-    },
-    {
-      "path": "Content/Traffic/Steel_002.uasset",
-      "bytes": 4945
-    },
-    {
-      "path": "Content/Traffic/Steel_003.uasset",
-      "bytes": 4945
-    },
-    {
-      "path": "Content/Traffic/Tail.uasset",
-      "bytes": 4920
-    },
-    {
-      "path": "Content/Traffic/Tail_001.uasset",
-      "bytes": 4940
-    },
-    {
-      "path": "Content/Traffic/Tail_002.uasset",
-      "bytes": 4940
-    },
-    {
-      "path": "Content/Traffic/Tail_003.uasset",
-      "bytes": 4940
-    },
-    {
-      "path": "Content/Traffic/White_002.uasset",
-      "bytes": 4945
-    },
-    {
-      "path": "Content/Traffic/White_003.uasset",
-      "bytes": 4945
-    },
-    {
-      "path": "Content/Traffic/Yellow.uasset",
-      "bytes": 4930
-    },
-    {
-      "path": "Content/Traffic/Yellow_001.uasset",
-      "bytes": 4950
-    },
-    {
-      "path": "Content/Traffic/Yellow_003.uasset",
-      "bytes": 4950
+      "path": "Content/Traffic/Detailed/M_TrafficVoxelVertex.uasset",
+      "bytes": 16592
     },
     {
       "path": "Content/Traffic/Detailed/MI_TV_Amber.uasset",
@@ -2059,236 +1927,500 @@
       "bytes": 4382
     },
     {
-      "path": "Content/Traffic/Detailed/M_TrafficVoxel.uasset",
-      "bytes": 6803
-    },
-    {
-      "path": "Content/Traffic/Detailed/M_TrafficVoxelVertex.uasset",
-      "bytes": 10892
-    },
-    {
       "path": "Content/Traffic/Detailed/SK_Private.uasset",
-      "bytes": 2380226
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateAveo.uasset",
-      "bytes": 2346701
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateAveo_Skeleton.uasset",
-      "bytes": 3118
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateBeetle.uasset",
-      "bytes": 3801514
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateBeetle_Skeleton.uasset",
-      "bytes": 3130
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateChevette.uasset",
-      "bytes": 2223830
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateChevette_Skeleton.uasset",
-      "bytes": 3142
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateClio.uasset",
-      "bytes": 2282258
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateClio_Skeleton.uasset",
-      "bytes": 3118
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateHatch.uasset",
-      "bytes": 2275216
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateHatch_Skeleton.uasset",
-      "bytes": 3124
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateMazda323.uasset",
-      "bytes": 2041629
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateMazda323_Skeleton.uasset",
-      "bytes": 3142
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivatePicanto.uasset",
-      "bytes": 2141675
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivatePicanto_Skeleton.uasset",
-      "bytes": 3136
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivatePickup.uasset",
-      "bytes": 2857978
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivatePickup_Skeleton.uasset",
-      "bytes": 3130
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivatePrado.uasset",
-      "bytes": 2995583
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivatePrado_Skeleton.uasset",
-      "bytes": 3124
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateRenault12.uasset",
-      "bytes": 2042466
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateRenault12_Skeleton.uasset",
-      "bytes": 3148
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateRenault4.uasset",
-      "bytes": 2022621
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateRenault4_Skeleton.uasset",
-      "bytes": 3142
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateRenault9.uasset",
-      "bytes": 2040791
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateRenault9_Skeleton.uasset",
-      "bytes": 3142
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateSandero.uasset",
-      "bytes": 2442695
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateSandero_Skeleton.uasset",
-      "bytes": 3136
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateSingleCab.uasset",
-      "bytes": 2667589
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateSingleCab_Skeleton.uasset",
-      "bytes": 3148
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateSprint.uasset",
-      "bytes": 1997989
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateSprint_Skeleton.uasset",
-      "bytes": 3130
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateSUV.uasset",
-      "bytes": 2577812
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateSUV_Skeleton.uasset",
-      "bytes": 3112
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateVan.uasset",
-      "bytes": 1886846
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateVan_Skeleton.uasset",
-      "bytes": 3112
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateVitara.uasset",
-      "bytes": 2672354
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateVitara_Skeleton.uasset",
-      "bytes": 3130
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateWagon.uasset",
-      "bytes": 2445387
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_PrivateWagon_Skeleton.uasset",
-      "bytes": 3124
+      "bytes": 2663344
     },
     {
       "path": "Content/Traffic/Detailed/SK_Private_Skeleton.uasset",
-      "bytes": 3094
+      "bytes": 3504
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateAveo.uasset",
+      "bytes": 2634597
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateAveo_Skeleton.uasset",
+      "bytes": 3528
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateBeetle.uasset",
+      "bytes": 4043253
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateBeetle_Skeleton.uasset",
+      "bytes": 3540
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateChevette.uasset",
+      "bytes": 2479321
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateChevette_Skeleton.uasset",
+      "bytes": 3552
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateClio.uasset",
+      "bytes": 2555269
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateClio_Skeleton.uasset",
+      "bytes": 3528
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateHatch.uasset",
+      "bytes": 2547674
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateHatch_Skeleton.uasset",
+      "bytes": 3534
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateMazda323.uasset",
+      "bytes": 2336314
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateMazda323_Skeleton.uasset",
+      "bytes": 3552
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivatePicanto.uasset",
+      "bytes": 2428383
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivatePicanto_Skeleton.uasset",
+      "bytes": 3546
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivatePickup.uasset",
+      "bytes": 3198515
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivatePickup_Skeleton.uasset",
+      "bytes": 3540
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivatePrado.uasset",
+      "bytes": 3334101
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivatePrado_Skeleton.uasset",
+      "bytes": 3534
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateRenault12.uasset",
+      "bytes": 2346562
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateRenault12_Skeleton.uasset",
+      "bytes": 3558
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateRenault4.uasset",
+      "bytes": 2316409
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateRenault4_Skeleton.uasset",
+      "bytes": 3552
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateRenault9.uasset",
+      "bytes": 2314069
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateRenault9_Skeleton.uasset",
+      "bytes": 3552
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSandero.uasset",
+      "bytes": 2761038
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSandero_Skeleton.uasset",
+      "bytes": 3546
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSingleCab.uasset",
+      "bytes": 2956835
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSingleCab_Skeleton.uasset",
+      "bytes": 3558
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSprint.uasset",
+      "bytes": 2312291
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSprint_Skeleton.uasset",
+      "bytes": 3540
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSUV.uasset",
+      "bytes": 2959370
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSUV_Skeleton.uasset",
+      "bytes": 3522
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateVan.uasset",
+      "bytes": 2204465
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateVan_Skeleton.uasset",
+      "bytes": 3522
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateVitara.uasset",
+      "bytes": 2988715
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateVitara_Skeleton.uasset",
+      "bytes": 3540
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateWagon.uasset",
+      "bytes": 2730014
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateWagon_Skeleton.uasset",
+      "bytes": 3534
     },
     {
       "path": "Content/Traffic/Detailed/SK_TaxiCompact.uasset",
-      "bytes": 2298206
+      "bytes": 2557457
     },
     {
       "path": "Content/Traffic/Detailed/SK_TaxiCompact_Skeleton.uasset",
-      "bytes": 3118
+      "bytes": 3528
     },
     {
       "path": "Content/Traffic/Detailed/SK_TaxiSedan.uasset",
-      "bytes": 2445350
+      "bytes": 2719164
     },
     {
       "path": "Content/Traffic/Detailed/SK_TaxiSedan_Skeleton.uasset",
-      "bytes": 3106
+      "bytes": 3516
     },
     {
       "path": "Content/Traffic/Detailed/SK_TransMilenio.uasset",
-      "bytes": 4320125
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_TransMilenioG66.uasset",
-      "bytes": 4297367
-    },
-    {
-      "path": "Content/Traffic/Detailed/SK_TransMilenioG66_Skeleton.uasset",
-      "bytes": 3751
+      "bytes": 5195709
     },
     {
       "path": "Content/Traffic/Detailed/SK_TransMilenio_Skeleton.uasset",
-      "bytes": 3733
+      "bytes": 4159
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_TransMilenioG66.uasset",
+      "bytes": 5168897
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_TransMilenioG66_Skeleton.uasset",
+      "bytes": 4177
     },
     {
       "path": "Content/Traffic/Detailed/T_TrafficPixelAtlas.uasset",
-      "bytes": 16733
+      "bytes": 16870
+    },
+    {
+      "path": "Content/Traffic/Glass.uasset",
+      "bytes": 4925
+    },
+    {
+      "path": "Content/Traffic/Glass_001.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/Glass_002.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/Glass_003.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/Lamp.uasset",
+      "bytes": 4920
+    },
+    {
+      "path": "Content/Traffic/Lamp_001.uasset",
+      "bytes": 4940
+    },
+    {
+      "path": "Content/Traffic/Lamp_002.uasset",
+      "bytes": 4940
+    },
+    {
+      "path": "Content/Traffic/Lamp_003.uasset",
+      "bytes": 4940
+    },
+    {
+      "path": "Content/Traffic/Red_003.uasset",
+      "bytes": 4935
+    },
+    {
+      "path": "Content/Traffic/Rubber.uasset",
+      "bytes": 4930
+    },
+    {
+      "path": "Content/Traffic/Rubber_001.uasset",
+      "bytes": 4950
+    },
+    {
+      "path": "Content/Traffic/Rubber_002.uasset",
+      "bytes": 4950
+    },
+    {
+      "path": "Content/Traffic/Rubber_003.uasset",
+      "bytes": 4950
+    },
+    {
+      "path": "Content/Traffic/Services/AN_MotorcycleRider.uasset",
+      "bytes": 57507
+    },
+    {
+      "path": "Content/Traffic/Services/AN_PatrolDriver.uasset",
+      "bytes": 395003
+    },
+    {
+      "path": "Content/Traffic/Services/BP_CivilMotorcycle.uasset",
+      "bytes": 35280
+    },
+    {
+      "path": "Content/Traffic/Services/BP_PoliceMotorcycle.uasset",
+      "bytes": 35988
+    },
+    {
+      "path": "Content/Traffic/Services/BP_PoliceOfficer.uasset",
+      "bytes": 201983
+    },
+    {
+      "path": "Content/Traffic/Services/BP_PoliceRoadPatrol.uasset",
+      "bytes": 36712
+    },
+    {
+      "path": "Content/Traffic/Services/BP_ServiceTrafficCache.uasset",
+      "bytes": 102738
+    },
+    {
+      "path": "Content/Traffic/Services/BP_VoxelRoadVehicle.uasset",
+      "bytes": 573576
+    },
+    {
+      "path": "Content/Traffic/Services/M_ServiceVoxel.uasset",
+      "bytes": 11304
+    },
+    {
+      "path": "Content/Traffic/Services/M_ServiceWindow.uasset",
+      "bytes": 6285
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCivilBlue.uasset",
+      "bytes": 530450
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCivilBlue_Skeleton.uasset",
+      "bytes": 2953
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCivilPurple.uasset",
+      "bytes": 530477
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCivilPurple_Skeleton.uasset",
+      "bytes": 2965
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCivilRed.uasset",
+      "bytes": 530442
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCivilRed_Skeleton.uasset",
+      "bytes": 2947
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCivilWhite.uasset",
+      "bytes": 541764
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCivilWhite_Skeleton.uasset",
+      "bytes": 2959
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCivilYellow.uasset",
+      "bytes": 530477
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCivilYellow_Skeleton.uasset",
+      "bytes": 2965
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCourier.uasset",
+      "bytes": 541717
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCourier_Skeleton.uasset",
+      "bytes": 2941
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoPolice.uasset",
+      "bytes": 576179
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoPolice_Skeleton.uasset",
+      "bytes": 2935
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoPoliceGreen.uasset",
+      "bytes": 576572
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoPoliceGreen_Skeleton.uasset",
+      "bytes": 2965
+    },
+    {
+      "path": "Content/Traffic/Services/SK_PoliceOfficer.uasset",
+      "bytes": 2491654
+    },
+    {
+      "path": "Content/Traffic/Services/SK_PoliceOfficerFemale01.uasset",
+      "bytes": 2582763
+    },
+    {
+      "path": "Content/Traffic/Services/SK_PoliceOfficerFemale02.uasset",
+      "bytes": 2632207
+    },
+    {
+      "path": "Content/Traffic/Services/SK_PoliceOfficerMale02.uasset",
+      "bytes": 2617781
+    },
+    {
+      "path": "Content/Traffic/Services/SK_PolicePatrol.uasset",
+      "bytes": 2857393
+    },
+    {
+      "path": "Content/Traffic/Services/SK_PolicePatrol_Skeleton.uasset",
+      "bytes": 3540
+    },
+    {
+      "path": "Content/Traffic/Services/T_ServicePixelAtlas.uasset",
+      "bytes": 14553
+    },
+    {
+      "path": "Content/Traffic/SK_Private.uasset",
+      "bytes": 19744673
+    },
+    {
+      "path": "Content/Traffic/SK_Private_Skeleton.uasset",
+      "bytes": 3076
+    },
+    {
+      "path": "Content/Traffic/SK_SITP.uasset",
+      "bytes": 245903
+    },
+    {
+      "path": "Content/Traffic/SK_SITP_Skeleton.uasset",
+      "bytes": 3058
+    },
+    {
+      "path": "Content/Traffic/SK_TaxiCompact.uasset",
+      "bytes": 172376
+    },
+    {
+      "path": "Content/Traffic/SK_TaxiCompact_Skeleton.uasset",
+      "bytes": 3100
+    },
+    {
+      "path": "Content/Traffic/SK_TaxiSedan.uasset",
+      "bytes": 171808
+    },
+    {
+      "path": "Content/Traffic/SK_TaxiSedan_Skeleton.uasset",
+      "bytes": 3088
+    },
+    {
+      "path": "Content/Traffic/SK_TransMilenio.uasset",
+      "bytes": 438697
+    },
+    {
+      "path": "Content/Traffic/SK_TransMilenio_Skeleton.uasset",
+      "bytes": 3715
+    },
+    {
+      "path": "Content/Traffic/Steel.uasset",
+      "bytes": 4925
+    },
+    {
+      "path": "Content/Traffic/Steel_001.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/Steel_002.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/Steel_003.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/Tail.uasset",
+      "bytes": 4920
+    },
+    {
+      "path": "Content/Traffic/Tail_001.uasset",
+      "bytes": 4940
+    },
+    {
+      "path": "Content/Traffic/Tail_002.uasset",
+      "bytes": 4940
+    },
+    {
+      "path": "Content/Traffic/Tail_003.uasset",
+      "bytes": 4940
+    },
+    {
+      "path": "Content/Traffic/White_002.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/White_003.uasset",
+      "bytes": 4945
+    },
+    {
+      "path": "Content/Traffic/Yellow.uasset",
+      "bytes": 4930
+    },
+    {
+      "path": "Content/Traffic/Yellow_001.uasset",
+      "bytes": 4950
+    },
+    {
+      "path": "Content/Traffic/Yellow_003.uasset",
+      "bytes": 4950
     },
     {
       "path": "Content/VoxelExplorer/AN_BikePedal.uasset",
-      "bytes": 68402
+      "bytes": 63530
     },
     {
       "path": "Content/VoxelExplorer/AN_Idle.uasset",
-      "bytes": 35628
+      "bytes": 535760
     },
     {
       "path": "Content/VoxelExplorer/AN_MixamoJump.uasset",
-      "bytes": 181968
+      "bytes": 182020
     },
     {
       "path": "Content/VoxelExplorer/AN_MixamoWalk.uasset",
-      "bytes": 119792
+      "bytes": 83441
     },
     {
       "path": "Content/VoxelExplorer/AN_MotoRide.uasset",
-      "bytes": 49664
-    },
-    {
-      "path": "Content/VoxelExplorer/AN_Rig_Test.uasset",
-      "bytes": 103972
+      "bytes": 45668
     },
     {
       "path": "Content/VoxelExplorer/AN_Walk_InPlace.uasset",
-      "bytes": 51644
+      "bytes": 119899
     },
     {
       "path": "Content/VoxelExplorer/IK_VoxelExplorer.uasset",
@@ -2321,6 +2453,14 @@
     {
       "path": "Content/VoxelExplorer/T_VoxelExplorer_BaseColor.uasset",
       "bytes": 74638
+    },
+    {
+      "path": "Content/World/Audio/S_Thunder.uasset",
+      "bytes": 162338
+    },
+    {
+      "path": "Content/World/BP_BogotaCity.uasset",
+      "bytes": 571995
     },
     {
       "path": "Content/World/M_Asphalt.uasset",
@@ -2375,6 +2515,10 @@
       "bytes": 4350
     },
     {
+      "path": "Content/World/M_Hail.uasset",
+      "bytes": 4971
+    },
+    {
       "path": "Content/World/M_Leaf.uasset",
       "bytes": 4345
     },
@@ -2385,6 +2529,10 @@
     {
       "path": "Content/World/M_Orange.uasset",
       "bytes": 4355
+    },
+    {
+      "path": "Content/World/M_Rain.uasset",
+      "bytes": 4971
     },
     {
       "path": "Content/World/M_Red.uasset",
@@ -2435,36 +2583,52 @@
       "bytes": 51088
     },
     {
-      "path": "Source/BogotaVoxel.Target.cs",
-      "bytes": 292
+      "path": "Config/DefaultEditor.ini",
+      "bytes": 58476
     },
     {
-      "path": "Source/BogotaVoxelEditor.Target.cs",
-      "bytes": 345
+      "path": "Config/DefaultEngine.ini",
+      "bytes": 1449
+    },
+    {
+      "path": "Config/DefaultGame.ini",
+      "bytes": 785
+    },
+    {
+      "path": "Config/DefaultInput.ini",
+      "bytes": 11513
     },
     {
       "path": "Source/BogotaVoxel/BogotaCity.cpp",
-      "bytes": 33794
+      "bytes": 39365
+    },
+    {
+      "path": "Source/BogotaVoxel/BogotaDeveloper.cpp",
+      "bytes": 30084
     },
     {
       "path": "Source/BogotaVoxel/BogotaGame.h",
-      "bytes": 13222
+      "bytes": 19975
     },
     {
       "path": "Source/BogotaVoxel/BogotaHUD.cpp",
-      "bytes": 9968
+      "bytes": 6288
     },
     {
       "path": "Source/BogotaVoxel/BogotaPedestrianBehaviors.inl",
-      "bytes": 10126
+      "bytes": 13278
     },
     {
       "path": "Source/BogotaVoxel/BogotaPlayer.cpp",
-      "bytes": 22192
+      "bytes": 16168
     },
     {
       "path": "Source/BogotaVoxel/BogotaTraffic.cpp",
-      "bytes": 43779
+      "bytes": 67307
+    },
+    {
+      "path": "Source/BogotaVoxel/BogotaVehicleDynamics.cpp",
+      "bytes": 14369
     },
     {
       "path": "Source/BogotaVoxel/BogotaVoxel.Build.cs",
@@ -2475,20 +2639,24 @@
       "bytes": 118
     },
     {
+      "path": "Source/BogotaVoxel/BogotaWeather.cpp",
+      "bytes": 8612
+    },
+    {
       "path": "Source/BogotaVoxel/CrowdCatalog.inl",
       "bytes": 3158
     },
     {
       "path": "Source/BogotaVoxel/DeliveryAnimInstance.cpp",
-      "bytes": 2183
+      "bytes": 1391
     },
     {
       "path": "Source/BogotaVoxel/DeliveryAnimInstance.h",
-      "bytes": 1751
+      "bytes": 1785
     },
     {
       "path": "Source/BogotaVoxel/DeliveryCargo.cpp",
-      "bytes": 2462
+      "bytes": 1528
     },
     {
       "path": "Source/BogotaVoxel/DeliveryNavigation.cpp",
@@ -2496,23 +2664,23 @@
     },
     {
       "path": "Source/BogotaVoxel/DeliveryStores.cpp",
-      "bytes": 15654
+      "bytes": 14304
     },
     {
       "path": "Source/BogotaVoxel/DeliverySystem.cpp",
-      "bytes": 68284
+      "bytes": 52703
     },
     {
       "path": "Source/BogotaVoxel/DeliverySystem.h",
-      "bytes": 27448
+      "bytes": 27986
     },
     {
       "path": "Source/BogotaVoxel/DeliveryUI.cpp",
-      "bytes": 62221
+      "bytes": 58659
     },
     {
       "path": "Source/BogotaVoxel/DeliveryUsability.cpp",
-      "bytes": 16000
+      "bytes": 16598
     },
     {
       "path": "Source/BogotaVoxel/DeliveryVehicleArt.cpp",
@@ -2523,16 +2691,20 @@
       "bytes": 1351
     },
     {
+      "path": "Source/BogotaVoxel.Target.cs",
+      "bytes": 292
+    },
+    {
       "path": "Source/BogotaVoxelEditor/BogotaVoxelEditor.Build.cs",
       "bytes": 485
     },
     {
       "path": "Source/BogotaVoxelEditor/DeliveryEditorLibrary.cpp",
-      "bytes": 16483
+      "bytes": 23058
     },
     {
       "path": "Source/BogotaVoxelEditor/DeliveryEditorLibrary.h",
-      "bytes": 1779
+      "bytes": 2320
     },
     {
       "path": "Source/BogotaVoxelEditor/DeliveryPhoneDesigner.cpp",
@@ -2543,16 +2715,8 @@
       "bytes": 7468
     },
     {
-      "path": "Config/DefaultEngine.ini",
-      "bytes": 1422
-    },
-    {
-      "path": "Config/DefaultGame.ini",
-      "bytes": 785
-    },
-    {
-      "path": "Config/DefaultInput.ini",
-      "bytes": 11475
+      "path": "Source/BogotaVoxelEditor.Target.cs",
+      "bytes": 345
     },
     {
       "path": "DeliveryData/StoreThemes.json",
@@ -2565,7 +2729,42 @@
     {
       "path": "DeliveryData/Vehicles.csv",
       "bytes": 643
+    },
+    {
+      "path": "Binaries/Win64/BogotaVoxelEditor.target",
+      "bytes": 945638
+    },
+    {
+      "path": "Binaries/Win64/tbb12.dll",
+      "bytes": 342456
+    },
+    {
+      "path": "Binaries/Win64/tbbmalloc.dll",
+      "bytes": 117176
+    },
+    {
+      "path": "Binaries/Win64/UnrealEditor-BogotaVoxel.dll",
+      "bytes": 1342464
+    },
+    {
+      "path": "Binaries/Win64/UnrealEditor-BogotaVoxel.pdb",
+      "bytes": 71667712
+    },
+    {
+      "path": "Binaries/Win64/UnrealEditor-BogotaVoxelEditor.dll",
+      "bytes": 323072
+    },
+    {
+      "path": "Binaries/Win64/UnrealEditor-BogotaVoxelEditor.pdb",
+      "bytes": 66080768
+    },
+    {
+      "path": "Binaries/Win64/UnrealEditor.modules",
+      "bytes": 162
+    },
+    {
+      "path": "BogotaVoxel.uproject",
+      "bytes": 824
     }
-  ],
-  "config_cleanup": "Generated Android file-server credentials omitted; Windows settings preserved."
+  ]
 }

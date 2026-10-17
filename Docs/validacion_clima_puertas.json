@@ -1,0 +1,238 @@
+{
+  "checks": [
+    {
+      "id": "rain_requires_developer_mode",
+      "passed": true
+    },
+    {
+      "id": "developer_console_command",
+      "passed": true
+    },
+    {
+      "id": "rain_on_immediately",
+      "passed": true
+    },
+    {
+      "id": "rain_off_immediately",
+      "passed": true
+    },
+    {
+      "id": "rain_automatic",
+      "passed": true
+    },
+    {
+      "id": "enter_traffic_car",
+      "passed": true
+    },
+    {
+      "id": "camera_ignores_own_car",
+      "passed": true
+    },
+    {
+      "id": "blueprint_inputs_reach_developer_car",
+      "passed": true
+    },
+    {
+      "id": "car_drives_from_input",
+      "passed": true
+    },
+    {
+      "id": "phone_stops_developer_car",
+      "passed": true
+    },
+    {
+      "id": "developer_car_stops_for_pedestrian",
+      "passed": true
+    },
+    {
+      "id": "developer_car_cannot_drive_through_wall",
+      "passed": true
+    },
+    {
+      "id": "blocked_exit_keeps_player_inside",
+      "passed": true
+    },
+    {
+      "id": "exit_does_not_cross_thin_wall",
+      "passed": true
+    },
+    {
+      "id": "safe_exit_restores_walking",
+      "passed": true
+    },
+    {
+      "id": "exit_restores_car_camera_collision",
+      "passed": true
+    },
+    {
+      "id": "bus_is_drivable",
+      "passed": true
+    },
+    {
+      "id": "varied_cars_taxis_and_buses_enter",
+      "passed": true
+    },
+    {
+      "id": "varied_cars_taxis_and_buses_exit",
+      "passed": true
+    },
+    {
+      "id": "F_enters_parked_car",
+      "passed": true
+    },
+    {
+      "id": "parked_car_is_drivable",
+      "passed": true
+    },
+    {
+      "id": "F_exits_parked_car",
+      "passed": true
+    },
+    {
+      "id": "traffic_stops_for_perpendicular_parked_car",
+      "passed": true
+    },
+    {
+      "id": "developer_exit_restores_balance",
+      "passed": true
+    },
+    {
+      "id": "legacy_developer_exit_restores_auto_weather",
+      "passed": true
+    },
+    {
+      "id": "typed_rain_code",
+      "passed": true
+    },
+    {
+      "id": "typed_clear_code",
+      "passed": true
+    },
+    {
+      "id": "typed_auto_weather_code",
+      "passed": true
+    },
+    {
+      "id": "typed_enter_car_code",
+      "passed": true
+    },
+    {
+      "id": "typed_exit_car_code",
+      "passed": true
+    },
+    {
+      "id": "typed_light_rain",
+      "passed": true
+    },
+    {
+      "id": "typed_hail_storm",
+      "passed": true
+    },
+    {
+      "id": "storm_has_hail",
+      "passed": true
+    },
+    {
+      "id": "storm_lightning_and_delayed_thunder",
+      "passed": true
+    },
+    {
+      "id": "hail_roof_occlusion",
+      "passed": true
+    },
+    {
+      "id": "clear_stops_hail_and_lightning",
+      "passed": true
+    },
+    {
+      "id": "typed_purple_bus_spawn",
+      "passed": true
+    },
+    {
+      "id": "purple_code_reuses_single_bus",
+      "passed": true
+    },
+    {
+      "id": "purple_bus_is_enterable",
+      "passed": true
+    },
+    {
+      "id": "typed_exit_developer_code",
+      "passed": true
+    }
+  ],
+  "pedestrians": {
+    "visible_npcs_with_animation_throttling": 0,
+    "moving_render_frames": 116,
+    "render_frames": 120,
+    "maximum_render_step_cm": 1.8666672706604004,
+    "hitch_time_loss_cm": 9.5367431640625e-06,
+    "confined_sidewalk_scenarios": 2,
+    "yielded_without_entering_road": 2,
+    "resumed_after_player_leaves": 2,
+    "road_intrusion_frames": 0,
+    "minimum_player_clearance_cm": 143.55856323242188,
+    "maximum_waiting_turn_degrees": 0
+  },
+  "status": "PASS",
+  "engine": "5.8.3",
+  "date": "2026-10-15",
+  "visual": {
+    "hail_intensity": 1.0,
+    "hail_particles": 200,
+    "lightning_events": 1,
+    "thunder_events": 1,
+    "flash_captured": true
+  },
+  "visual_review": "PASS after doors and texture updates",
+  "weather_policy": {
+    "status": "PASS",
+    "rule": "probabilistic adjacent-state transitions",
+    "samples": 4000,
+    "transition_probabilities": [
+      {
+        "0": 0.65,
+        "1": 0.35
+      },
+      {
+        "0": 0.25,
+        "1": 0.4,
+        "2": 0.35
+      },
+      {
+        "1": 0.35,
+        "2": 0.4,
+        "3": 0.25
+      },
+      {
+        "2": 0.7,
+        "3": 0.3
+      }
+    ],
+    "dry_hold_seconds": [
+      90,
+      180
+    ],
+    "wet_hold_seconds": [
+      45,
+      100
+    ]
+  },
+  "dynamic_weather": {
+    "checks": {
+      "probability_matches_35_percent": true,
+      "no_weather_level_skipped": true,
+      "all_weather_types_occur": true,
+      "rain_intensifies_and_eases": true,
+      "seed_reproducible_for_testing": true,
+      "new_seed_changes_weather_sequence": true,
+      "developer_override_pauses_random_decisions": true,
+      "automatic_resumes_current_storm": true
+    },
+    "sampled_rain_start_probability": 0.3509500026702881,
+    "sampled_transitions": 80000,
+    "simulated_seconds": 86400,
+    "intensifications": 287,
+    "reductions": 285
+  }
+}

@@ -24,7 +24,7 @@ class BOGOTAVOXEL_API UDeliveryAnimInstance:public UAnimInstance {
  GENERATED_BODY()
 public:
  virtual void NativeUpdateAnimation(float DeltaSeconds) override;
- UFUNCTION(BlueprintNativeEvent,BlueprintCallable,Category="Motion") void UpdateMotion(FDeliveryMotionInput Motion,float Dt);
+ UFUNCTION(BlueprintImplementableEvent,BlueprintCallable,Category="Motion") void UpdateMotion(FDeliveryMotionInput Motion,float Dt);
  UPROPERTY(BlueprintReadWrite,Category="Motion") bool Walking=false;
  UPROPERTY(BlueprintReadWrite,Category="Motion") bool Mounted=false;
  UPROPERTY(BlueprintReadWrite,Category="Motion") bool Motorcycle=false;

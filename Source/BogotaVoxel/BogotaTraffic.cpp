@@ -16,6 +16,10 @@
 #include "Engine/World.h"
 #include "Engine/SkeletalMesh.h"
 #include "Algo/Reverse.h"
+#include "Json.h"
+#include "Engine/OverlapResult.h"
+#include "Engine/StaticMeshActor.h"
+#include "Components/StaticMeshComponent.h"
 
 namespace {
 #include "TrafficModelCatalog.inl"
@@ -58,8 +62,8 @@ void PlaceOnPath(FStreetAgent& A,float Distance){
  for(int32 I=0;I<A.Route.Num();I++){float L=FVector::Dist2D(A.Route[I],A.Route[(I+1)%A.Route.Num()]);if(Distance<L){A.Segment=I;A.Position=FMath::Lerp(A.Route[I],A.Route[(I+1)%A.Route.Num()],Distance/L);A.Heading=(A.Route[(I+1)%A.Route.Num()]-A.Position).Rotation().Yaw;return;}Distance-=L;}
 }
 }
-bool ABogotaCity::TrafficNSGreen()const{return FMath::Fmod(Elapsed,32.f)<13;}
-bool ABogotaCity::TrafficEWGreen()const{float T=FMath::Fmod(Elapsed,32.f);return T>=16&&T<29;}
+
+
 void ABogotaCity::BuildTraffic(){
  for(auto& A:Vehicles)if(A.Visual.IsValid())A.Visual->GetOwner()->Destroy();
  for(auto& C:VehicleCollision)if(C)C->DestroyComponent();VehicleCollision.Empty();Vehicles.Empty();for(auto& W:Walkers)if(W.Visual.IsValid())W.Visual->Destroy();Walkers.Empty();TrafficReservations.Empty();
@@ -72,16 +76,17 @@ void ABogotaCity::BuildTraffic(){
  CrowdMaterial=LoadObject<UMaterialInterface>(nullptr,TEXT("/Game/Crowd/MI_Crowd.MI_Crowd"));
  CrowdClips.Empty();for(const TCHAR* Path:{TEXT("/Game/Crowd/AN_CrowdWalk_Mixamo.AN_CrowdWalk_Mixamo"),TEXT("/Game/Crowd/AN_CrowdIdle.AN_CrowdIdle"),TEXT("/Game/Crowd/AN_CrowdEnterCar.AN_CrowdEnterCar"),TEXT("/Game/Crowd/AN_CrowdEnterCar.AN_CrowdEnterCar"),TEXT("/Game/Crowd/AN_CrowdBoard.AN_CrowdBoard"),TEXT("/Game/Crowd/AN_CrowdBoard.AN_CrowdBoard"),TEXT("/Game/Crowd/AN_CrowdCane.AN_CrowdCane"),TEXT("/Game/Crowd/AN_CrowdCane.AN_CrowdCane")})CrowdClips.Add(LoadObject<UAnimationAsset>(nullptr,Path));
  G66Random.Initialize(int32(FDateTime::Now().GetTicks()));
- constexpr int32 PrivateCount=96,BusCount=4;
+ constexpr int32 PrivateCount=96,BusCount=4;int32 PrivateOrdinal=0;
  for(int32 I=0;I<PrivateCount+BusCount;I++){
-  const FTrafficModelSpec& ModelSpec=TrafficCarModels[I%12<10?I%20:20+I%2];
+  const bool Taxi=I<PrivateCount&&I%6==5;const int32 PaintKey=PrivateOrdinal;const int32 ModelIndex=I>=PrivateCount?0:Taxi?20+(I/6)%2:(PrivateOrdinal++%20);
+  const FTrafficModelSpec& ModelSpec=TrafficCarModels[ModelIndex];
   FStreetAgent A;A.Articulated=I>=PrivateCount;A.Bus=A.Articulated;A.ModelScale=A.Bus?1.f:TrafficModelScale(ModelSpec);A.HalfLength=A.Bus?915:ModelSpec.HalfLength;A.HalfWidth=A.Bus?135:ModelSpec.HalfWidth;A.WheelRadius=A.Bus?49:ModelSpec.WheelRadius;A.Speed=A.Bus?850:R.FRandRange(850,1100);
   A.HalfLength*=A.ModelScale;A.HalfWidth*=A.ModelScale;A.WheelRadius*=A.ModelScale;A.LaneGroup=A.Articulated?6:I%6;
   // Opposite directions have separate lanes. Rounded corners remove instant turns.
-  if(A.Articulated)A.Route=RoundedLoop(-33500,33500,-330,330,330,false);
+  if(A.Articulated)A.Route=RoundedLoop(-33500,35000,-330,330,330,true);
   else {const int32 Circuit=A.LaneGroup/2;const bool Reverse=(A.LaneGroup%2)!=0;
    const float X0[]={-36000,-24000,-12000},X1[]={36000,24000,12000},Y0[]={-22000,-11000,-22000},Y1[]={22000,11000,22000};
-   const float Lane=Reverse?420.f:-420.f;
+   const float Lane=Reverse?-270.f:270.f;
    A.Route=RoundedLoop(X0[Circuit]+Lane,X1[Circuit]-Lane,Y0[Circuit]+Lane,Y1[Circuit]-Lane,420,Reverse);
   }
   int32 Ordinal=A.Articulated?I-PrivateCount:I/6,Count=A.Articulated?BusCount:PrivateCount/6;
@@ -98,7 +103,7 @@ void ABogotaCity::BuildTraffic(){
   A.Position.Z=AsphaltHeight(A.Position,NorthRoads,EastRoads);A.PathDistance=SpawnDistance;A.LoopLength=LoopLength;A.PreviousPosition=A.Position;A.PreviousHeading=A.Heading;
   FString Model=A.Articulated?TEXT("TransMilenio"):ModelSpec.Name;
   auto* Mesh=LoadObject<USkeletalMesh>(nullptr,*FString::Printf(TEXT("/Game/Traffic/Detailed/SK_%s.SK_%s"),*Model,*Model));
-  if(Mesh){auto* Actor=GetWorld()->SpawnActor<AActor>();auto* Visual=NewObject<UPoseableMeshComponent>(Actor);Actor->SetRootComponent(Visual);Actor->AddInstanceComponent(Visual);Visual->SetMobility(EComponentMobility::Movable);Visual->SetSkinnedAssetAndUpdate(Mesh);Visual->SetMaterial(0,TrafficMaterial);Visual->SetWorldScale3D(FVector(A.ModelScale));Visual->SetCullDistance(24000);Visual->SetCollisionEnabled(ECollisionEnabled::NoCollision);Visual->RegisterComponent();Actor->SetActorLocationAndRotation(A.Position,FRotator(0,A.Heading,0));A.Visual=Visual;Visual->RefreshBoneTransforms();for(int32 Axle=0;Axle<(A.Articulated?3:2);Axle++)for(const TCHAR* Side:{TEXT("L"),TEXT("R")})A.WheelRest.Add(Visual->GetBoneTransformByName(FName(*FString::Printf(TEXT("wheel_%d_%s"),Axle,Side)),EBoneSpaces::ComponentSpace));if(A.Articulated)A.ArticulationRest=Visual->GetBoneTransformByName(TEXT("articulation"),EBoneSpaces::ComponentSpace);
+  if(Mesh){auto* Actor=GetWorld()->SpawnActor<AActor>();auto* Visual=NewObject<UPoseableMeshComponent>(Actor);Actor->SetRootComponent(Visual);Actor->AddInstanceComponent(Visual);Visual->SetMobility(EComponentMobility::Movable);Visual->SetSkinnedAssetAndUpdate(Mesh);Visual->SetMaterial(0,TrafficMaterial);if(Model.StartsWith(TEXT("Private"))){auto* Paint=UMaterialInstanceDynamic::Create(TrafficMaterial->Parent,Visual);Visual->SetMaterial(0,Paint);Paint->SetVectorParameterValue(TEXT("BodyPaint"),TrafficPaintFor(PaintKey));Paint->SetScalarParameterValue(TEXT("PaintEnabled"),1.f);}Visual->SetWorldScale3D(FVector(A.ModelScale));Visual->SetCullDistance(24000);Visual->SetCollisionEnabled(ECollisionEnabled::NoCollision);Visual->RegisterComponent();Actor->SetActorLocationAndRotation(A.Position,FRotator(0,A.Heading,0));A.Visual=Visual;Visual->RefreshBoneTransforms();for(int32 Axle=0;Axle<(A.Articulated?3:2);Axle++)for(const TCHAR* Side:{TEXT("L"),TEXT("R")})A.WheelRest.Add(Visual->GetBoneTransformByName(FName(*FString::Printf(TEXT("wheel_%d_%s"),Axle,Side)),EBoneSpaces::ComponentSpace));if(A.Articulated)A.ArticulationRest=Visual->GetBoneTransformByName(TEXT("articulation"),EBoneSpaces::ComponentSpace);
   A.Headlights=CreateTrafficHeadlights(Actor,Visual,A.HalfLength/A.ModelScale,A.HalfWidth/A.ModelScale,A.Bus?115.f:65.f);}
 
   else UE_LOG(LogTemp,Error,TEXT("TRAFFIC_MISSING_MODEL %s"),*Model);
@@ -124,11 +129,14 @@ void ABogotaCity::SimulateTraffic(float Dt){
  // Release only after the rear clears; a signal change cannot strand an admitted bus.
  for(auto It=TrafficReservations.CreateIterator();It;++It){const int32 X=It.Key()/100,Y=It.Key()%100;const auto& A=Vehicles[It.Value()];if(FMath::Abs(A.Position.X-NorthRoads[X])>1550+A.HalfLength||FMath::Abs(A.Position.Y-EastRoads[Y])>(EastRoads[Y]==0?1925:1550)+A.HalfLength)It.RemoveCurrent();}
  for(int32 Index=0;Index<Vehicles.Num();Index++){
-  auto& A=Vehicles[Index];A.PreviousPosition=A.Position;A.PreviousHeading=A.Heading;A.PreviousWheelAngle=A.WheelAngle;FVector Target=A.Route[(A.Segment+1)%A.Route.Num()];FVector Dir=(Target-A.Position).GetSafeNormal2D();float Desired=A.Speed,Limit=1e8f;bool NS=FMath::Abs(Dir.X)>.9,EW=FMath::Abs(Dir.Y)>.9;
+  auto& A=Vehicles[Index];if(A.PlayerControlled||A.DevParked){SimulateDeveloperCar(Index,Dt);continue;}A.PreviousPosition=A.Position;A.PreviousHeading=A.Heading;A.PreviousWheelAngle=A.WheelAngle;FVector Target=A.Route[(A.Segment+1)%A.Route.Num()];FVector Dir=(Target-A.Position).GetSafeNormal2D();float Desired=A.Speed,Limit=1e8f;bool NS=FMath::Abs(Dir.X)>.9,EW=FMath::Abs(Dir.Y)>.9;
   A.StopCooldown=FMath::Max(0.f,A.StopCooldown-Dt);A.Wait=FMath::Max(0.f,A.Wait-Dt);
+  bool StationDwell=false;if(A.Bus&&A.Velocity<2&&A.Wait>0)for(float Station:{-27000.f,-7000.f,17000.f,32000.f})if(FMath::Abs(A.Position.X-Station)<80&&FMath::Abs(A.Position.Y)<400)StationDwell=true;
+  A.DoorOpen=FMath::FInterpConstantTo(A.DoorOpen,StationDwell?1.f:0.f,Dt,1.8f);
   // Car following uses the actual front/rear lengths and the same lane and direction.
-  for(int32 J=0;J<Vehicles.Num();J++)if(J!=Index){const auto& B=Vehicles[J];if(B.LaneGroup!=A.LaneGroup)continue;float Ahead=FMath::Fmod(OldPath[J]-OldPath[Index]+A.LoopLength,A.LoopLength);float Gap=Ahead-A.HalfLength-B.HalfLength-190;Limit=FMath::Min(Limit,FMath::Max(0.f,Gap));Desired=FMath::Min(Desired,FMath::Max(0.f,Gap/1.25f));}
-  for(int32 J=0;J<Vehicles.Num();J++)if(J!=Index&&Vehicles[J].LaneGroup!=A.LaneGroup){const auto& B=Vehicles[J];FVector D=Old[J]-A.Position;float Ahead=FVector::DotProduct(D,Dir),Side=FMath::Abs(FVector::CrossProduct(D,Dir).Z);
+  for(int32 J=0;J<Vehicles.Num();J++)if(J!=Index){const auto& B=Vehicles[J];if(B.LaneGroup!=A.LaneGroup||B.PlayerControlled||B.DevParked)continue;float Ahead=FMath::Fmod(OldPath[J]-OldPath[Index]+A.LoopLength,A.LoopLength);float Gap=Ahead-A.HalfLength-B.HalfLength-190;Limit=FMath::Min(Limit,FMath::Max(0.f,Gap));Desired=FMath::Min(Desired,FMath::Max(0.f,Gap/1.25f));}
+  for(int32 J=0;J<Vehicles.Num();J++)if(J!=Index&&(Vehicles[J].LaneGroup!=A.LaneGroup||Vehicles[J].PlayerControlled||Vehicles[J].DevParked)){const auto& B=Vehicles[J];FVector D=Old[J]-A.Position;float Ahead=FVector::DotProduct(D,Dir),Side=FMath::Abs(FVector::CrossProduct(D,Dir).Z);
+   if(B.PlayerControlled||B.DevParked){FVector BF=FRotator(0,B.Heading,0).Vector();float Along=B.HalfLength*FMath::Abs(FVector::DotProduct(BF,Dir))+B.HalfWidth*FMath::Abs(FVector::CrossProduct(BF,Dir).Z),Across=B.HalfLength*FMath::Abs(FVector::CrossProduct(BF,Dir).Z)+B.HalfWidth*FMath::Abs(FVector::DotProduct(BF,Dir));if(Ahead>=0&&Ahead<5000&&Side<A.HalfWidth+Across+50){float Gap=FMath::Max(0.f,Ahead-A.HalfLength-Along-180);Limit=FMath::Min(Limit,Gap);Desired=FMath::Min(Desired,FMath::Sqrt(1300*Gap));}}
    if(Ahead>0&&Ahead<5000&&Side<A.HalfWidth+B.HalfWidth+40&&FVector::DotProduct(Dir,FRotator(0,B.Heading,0).Vector())>.9f){float Gap=FMath::Max(0.f,Ahead-A.HalfLength-B.HalfLength-190);Limit=FMath::Min(Limit,Gap);Desired=FMath::Min(Desired,Gap/1.25f);}
   }
   for(int32 X=0;X<NorthRoads.Num();X++)for(int32 Y=0;Y<EastRoads.Num();Y++){
@@ -151,12 +159,12 @@ void ABogotaCity::SimulateTraffic(float Dt){
   for(const auto& W:Walkers){if(PedHidden(W))continue;FVector D=W.Position-A.Position;float Ahead=FVector::DotProduct(D,Dir);if(Ahead>A.HalfLength&&Ahead<A.HalfLength+900&&FMath::Abs(FVector::CrossProduct(D,Dir).Z)<180){float Gap=FMath::Max(0.f,Ahead-A.HalfLength-150);Limit=FMath::Min(Limit,Gap);Desired=FMath::Min(Desired,FMath::Sqrt(1300*Gap));}}
   // One dwell per station pass, with cooldown measured in time rather than every frame.
   if(A.Articulated&&NS&&A.StopCooldown==0)for(float Station:{-27000.f,-7000.f,17000.f,32000.f}){float D=(Station-A.Position.X)*Dir.X;if(D>=-12&&D<3000){Limit=FMath::Min(Limit,FMath::Max(0.f,D));Desired=FMath::Min(Desired,FMath::Sqrt(1300.f*FMath::Max(0.f,D)));if(D<=12&&A.Velocity<80){A.Wait=4.5f;A.StopCooldown=20;}}}
-  if(A.Wait>0)Desired=0;
+  if(A.Wait>0||A.DoorOpen>.001f)Desired=0;
   A.Velocity=FMath::FInterpConstantTo(A.Velocity,Desired,Dt,Desired>A.Velocity?240:650);float Move=FMath::Min(A.Velocity*Dt,Limit);if(Move<A.Velocity*Dt)A.Velocity=Move/Dt;
   if(FParse::Param(FCommandLine::Get(),TEXT("TrafficDebug"))&&A.Velocity<1&&FMath::Fmod(Elapsed,10.f)<Dt){FString Owners;for(auto& Entry:TrafficReservations)Owners+=FString::Printf(TEXT(" %d:%d"),Entry.Key,Entry.Value);float Gap=1e8;int32 AheadIndex=-1;for(int32 J=0;J<Vehicles.Num();J++)if(J!=Index&&Vehicles[J].LaneGroup==A.LaneGroup){float D=FMath::Fmod(OldPath[J]-OldPath[Index]+A.LoopLength,A.LoopLength)-A.HalfLength-Vehicles[J].HalfLength-190;if(D<Gap){Gap=D;AheadIndex=J;}}UE_LOG(LogTemp,Display,TEXT("TRAFFIC_WAIT time=%.1f car=%d pos=%s heading=%.1f wait=%.1f desired=%.1f limit=%.1f ahead=%d gap=%.1f owners=%s"),Elapsed,Index,*A.Position.ToString(),A.Heading,A.Wait,Desired,Limit,AheadIndex,Gap,*Owners);}
   A.Travelled+=Move;A.PathDistance=FMath::Fmod(A.PathDistance+Move,A.LoopLength);float Remaining=Move;
   while(Remaining>0){Target=A.Route[(A.Segment+1)%A.Route.Num()];float Distance=FVector::Dist2D(Target,A.Position);if(Distance<=Remaining+.001f){A.Position=Target;A.Segment=(A.Segment+1)%A.Route.Num();Remaining=FMath::Max(0.f,Remaining-Distance);}else{A.Position+=(Target-A.Position).GetSafeNormal2D()*Remaining;Remaining=0;}}
-  A.Position.Z=AsphaltHeight(A.Position,NorthRoads,EastRoads);float OldHeading=A.Heading;A.Heading=FMath::FixedTurn(A.Heading,(A.Route[(A.Segment+1)%A.Route.Num()]-A.Position).Rotation().Yaw,Dt*100);float Turn=FMath::FindDeltaAngleDegrees(OldHeading,A.Heading);A.WheelAngle=FMath::Fmod(A.WheelAngle+FMath::RadiansToDegrees(Move/A.WheelRadius),360.f);
+  A.Position.Z=AsphaltHeight(A.Position,NorthRoads,EastRoads);float OldHeading=A.Heading;A.Heading=FMath::FixedTurn(A.Heading,(A.Route[(A.Segment+1)%A.Route.Num()]-A.Position).Rotation().Yaw,Dt*240);float Turn=FMath::FindDeltaAngleDegrees(OldHeading,A.Heading);A.WheelAngle=FMath::Fmod(A.WheelAngle+FMath::RadiansToDegrees(Move/A.WheelRadius),360.f);
   A.SteeringRate=Turn/FMath::Max(Dt,.001f);
   auto* C=VehicleCollision[Index].Get();bool Near=FVector::DistSquared2D(PlayerPos,A.Position)<8000*8000;C->SetCollisionEnabled(Near?ECollisionEnabled::QueryOnly:ECollisionEnabled::NoCollision);C->SetWorldLocationAndRotation(A.Position+FVector(0,0,A.Bus?150:88),FRotator(0,A.Heading,0));
  }
@@ -168,7 +176,8 @@ void ABogotaCity::UpdateTrafficVisuals(float Alpha){
    FVector Position=FMath::Lerp(A.PreviousPosition,A.Position,Alpha);float Heading=A.PreviousHeading+FMath::FindDeltaAngleDegrees(A.PreviousHeading,A.Heading)*Alpha;
    float WheelAngle=A.PreviousWheelAngle+FMath::FindDeltaAngleDegrees(A.PreviousWheelAngle,A.WheelAngle)*Alpha;
    bool Near=FVector::DistSquared2D(CameraPosition,Position)<FMath::Square(24000.f);A.Visual->GetOwner()->SetActorHiddenInGame(!Near);A.Visual->SetComponentTickEnabled(Near);if(!Near)continue;
-   auto* V=A.Visual.Get();V->GetOwner()->SetActorLocationAndRotation(Position,FRotator(0,Heading,0));
+   auto* V=A.Visual.Get();bool GroundDetail=A.PlayerControlled||A.DevParked||FVector::DistSquared2D(CameraPosition,Position)<FMath::Square(6500.f);if(GroundDetail)UpdateVehicleGroundVisual(A,Position,Heading,GetWorld()->GetDeltaSeconds());else V->GetOwner()->SetActorLocationAndRotation(Position,FRotator(0,Heading,0));
+   A.VisualDoorOpen=FMath::FInterpConstantTo(A.VisualDoorOpen,A.DoorOpen,GetWorld()->GetDeltaSeconds(),2.5f);ApplyVehicleDoors(V,A.Bus,A.VisualDoorOpen,0,A.DoorRest);
    const FQuat JointRotation(FVector::UpVector,FMath::DegreesToRadians(FMath::Clamp(-A.SteeringRate*.32f,-32.f,32.f)));
    if(A.Articulated){FTransform Joint=A.ArticulationRest;Joint.SetRotation(JointRotation*Joint.GetRotation());V->SetBoneTransformByName(TEXT("articulation"),Joint,EBoneSpaces::ComponentSpace);}
    for(int32 Axle=0;Axle<(A.Articulated?3:2);Axle++)for(int32 Side=0;Side<2;Side++){
@@ -176,6 +185,7 @@ void ABogotaCity::UpdateTrafficVisuals(float Alpha){
     const FQuat Spin(FVector(0,1,0),FMath::DegreesToRadians(WheelAngle));const FQuat Steer(FVector::UpVector,FMath::DegreesToRadians(Axle==0?FMath::Clamp(A.SteeringRate*.25f,-25.f,25.f):0));
     Pose.SetRotation(Steer*Spin*Pose.GetRotation());
     if(A.Articulated&&Axle==2){Pose.SetLocation(A.ArticulationRest.GetLocation()+JointRotation.RotateVector(Pose.GetLocation()-A.ArticulationRest.GetLocation()));Pose.SetRotation(JointRotation*Pose.GetRotation());}
+    FVector Hub=V->GetOwner()->GetActorTransform().TransformPosition(Pose.GetLocation());FHitResult Support;FCollisionQueryParams GroundQuery;GroundQuery.AddIgnoredActor(V->GetOwner());if(GroundDetail&&GetWorld()->LineTraceSingleByObjectType(Support,Hub+FVector(0,0,80),Hub-FVector(0,0,A.WheelRadius+160),FCollisionObjectQueryParams(ECC_WorldStatic),GroundQuery)&&Support.ImpactNormal.Z>.65f){Hub.Z+=FMath::Clamp(Support.ImpactPoint.Z+A.WheelRadius-Hub.Z,-18.f,18.f);Pose.SetLocation(V->GetOwner()->GetActorTransform().InverseTransformPosition(Hub));}
     V->SetBoneTransformByName(Bone,Pose,EBoneSpaces::ComponentSpace);
    }
   }
@@ -207,6 +217,7 @@ FString ABogotaCity::ValidateTraffic(float Seconds){
 }
 
 void ABogotaCity::SimulateWalkers(float Dt){
+ for(auto& P:ParkedCars)P.DoorOpen=FMath::FInterpConstantTo(P.DoorOpen,P.DoorTarget,Dt,1.8f);
  auto* Player=UGameplayStatics::GetPlayerPawn(this,0);FVector PP=PedestrianTestObstacle.IsSet()?PedestrianTestObstacle.GetValue():Player?Player->GetActorLocation():FVector::ZeroVector;
  PedestrianJunctions.Empty();for(const auto& W:Walkers)if(W.Crossing)PedestrianJunctions.Add(W.CrossJunction);
  TArray<int32> Nearest;for(int32 I=0;I<Walkers.Num();I++)if(!PedHidden(Walkers[I])&&FVector::DistSquared2D(PP,Walkers[I].Position)<FMath::Square(DetailLevel==0?6500.f:10000.f))Nearest.Add(I);
@@ -215,7 +226,19 @@ void ABogotaCity::SimulateWalkers(float Dt){
  auto Cell=[](FVector P){return FIntPoint(FMath::FloorToInt(P.X/250),FMath::FloorToInt(P.Y/250));};
  for(int32 I=0;I<Walkers.Num();I++)if(!PedHidden(Walkers[I]))PedGrid.FindOrAdd(Cell(Walkers[I].Position)).Add(I);
  for(int32 I=0;I<Walkers.Num();I++){
-  auto& W=Walkers[I];const FVector PreviousPosition=W.Position;float Move=0;
+  auto& W=Walkers[I];W.PreviousPosition=W.Position;W.PreviousHeading=W.Heading;
+  if(!W.TransitPassenger&&!PedHidden(W)&&W.Activity==EPedActivity::Walking){
+   if(W.Position.Z>60||W.Position.Z< -10)W.Position.Z=WalkerGroundHeight(W.Position);
+   if(!WalkerStepClear(W.Position,W.Position)){
+    bool Found=false;for(float Radius:{60.f,120.f,180.f,240.f,320.f,450.f,650.f}){for(int32 Direction=0;Direction<16;Direction++){
+     FVector Candidate=W.Position+FVector(Radius,0,0).RotateAngleAxis(Direction*22.5f,FVector::UpVector);Candidate.Z=WalkerGroundHeight(Candidate);
+     if(WalkerStepClear(Candidate,Candidate)&&StreetClearance(Candidate)>=40){W.Position=Candidate;Found=true;break;}}
+     if(Found)break;
+    }
+   }
+  }
+  if(FVector::DistSquared(W.PreviousPosition,W.Position)>FMath::Square(250.f))W.PreviousPosition=W.Position;
+  const FVector PreviousPosition=W.Position;float Move=0;
   if(!UpdateWalkerInteraction(W,Dt)){
    FVector Target=W.Route[(W.Segment+1)%W.Route.Num()];
    FVector SegmentDirection=(Target-W.Route[W.Segment]).GetSafeNormal2D();
@@ -241,6 +264,17 @@ void ABogotaCity::SimulateWalkers(float Dt){
    for(int32 X=-2;X<=2;X++)for(int32 Y=-2;Y<=2;Y++)if(const auto* Nearby=PedGrid.Find(GridCell+FIntPoint(X,Y)))NearbyAgents.Append(*Nearby);
    FVector BestDir=Dir;float BestScore=-1e9;const FVector RouteStart=W.Route[W.Segment],RouteDir=(Target-RouteStart).GetSafeNormal2D();
    const float Corridor=W.Crossing?150.f:230.f;
+   bool Yield=false,Retreat=false;
+   if(!W.Crossing&&(Player||PedestrianTestObstacle.IsSet())&&FMath::Abs(PP.Z-W.Position.Z)<300){
+    FVector D=PP-W.Position,Right(-Dir.Y,Dir.X,0);float Ahead=FVector::DotProduct(D,Dir);
+    bool Left=WalkerStreetStepClear(W,W.Position,W.Position+Right*170)&&FVector::Dist2D(PP,W.Position+Right*170)>=145;
+    bool RightFree=WalkerStreetStepClear(W,W.Position,W.Position-Right*170)&&FVector::Dist2D(PP,W.Position-Right*170)>=145;
+    if(W.YieldingToPlayer&&((D.Size2D()>350)||Left||RightFree))W.YieldingToPlayer=false;
+    if(Ahead> -35&&Ahead<240&&FMath::Abs(FVector::CrossProduct(D,Dir).Z)<145&&!Left&&!RightFree)W.YieldingToPlayer=true;
+    Yield=W.YieldingToPlayer;
+    Retreat=Yield&&D.Size2D()<140&&WalkerStreetStepClear(W,W.Position,W.Position-Dir*W.Speed*Dt);
+   }else W.YieldingToPlayer=false;
+
    for(float Angle:{0.f,-25.f,25.f,-45.f,45.f,-70.f,70.f,-90.f,90.f,-115.f,115.f,-150.f,150.f,180.f}){
     FVector Candidate=Dir.RotateAngleAxis(Angle,FVector::UpVector),Velocity=Candidate*W.Speed;
     float Score=FVector::DotProduct(Candidate,Dir)*3.f+(Angle<0?.04f:0.f);bool Safe=true;
@@ -258,38 +292,63 @@ void ABogotaCity::SimulateWalkers(float Dt){
     }
     FVector Next=W.Position+Candidate*W.Speed*.8f;float CurrentSide=FMath::Abs(FVector::CrossProduct(W.Position-RouteStart,RouteDir).Z),NextSide=FMath::Abs(FVector::CrossProduct(Next-RouteStart,RouteDir).Z);
     if(NextSide>Corridor&&NextSide>CurrentSide)Safe=false;
+    if(Safe&&Score>BestScore&&!WalkerStreetStepClear(W,W.Position,W.Position+Candidate*FMath::Max(Move,W.Speed*.8f)))Safe=false;
     if(!Safe)Score-=100;
     if(Score>BestScore){BestScore=Score;BestDir=Candidate;}
    }
-   if(BestScore< -50)Move=0;
+   if(BestScore< -50||Yield)Move=0;
+   if(Retreat){BestDir=-Dir;Move=W.Speed*Dt;}
    Dir=BestDir;if(Move>0)W.Heading=FMath::FixedTurn(W.Heading,Dir.Rotation().Yaw,Dt*300);
    bool WaitingSignal=W.CrossSegments.IsValidIndex(W.Segment)&&W.CrossSegments[W.Segment]&&!W.Crossing;
    W.BlockedTime=Move<.01f&&!WaitingSignal?W.BlockedTime+Dt:0;
-   float Distance=FVector::Dist2D(SteeringTarget,W.Position);Move=FMath::Min(Move,Distance);W.Position+=Dir*Move;W.Travelled+=Move;
+   float Distance=FVector::Dist2D(SteeringTarget,W.Position);Move=FMath::Min(Move,Distance);
+   if(Move>0&&!WalkerStreetStepClear(W,W.Position,W.Position+Dir*Move))Move=0;
+   W.Position+=Dir*Move;W.Travelled+=Move;
    // Advance only after actually reaching the endpoint, never after a sideways step.
    if(FVector::Dist2D(Target,W.Position)<18||(EndpointBlocked&&FVector::DotProduct(W.Position-Target,SegmentDirection)>=0)){if(!EndpointBlocked)W.Position=Target;if(W.Crossing){W.Crossing=false;PedestrianCrossings++;PedestrianNextAdmission.Add(W.CrossJunction,Elapsed+2);}W.Segment=(W.Segment+1)%W.Route.Num();}
   }else Move=W.FrameMoved;
   W.Velocity=(W.Position-PreviousPosition)/FMath::Max(.001f,Dt);
-  if(Nearest.Contains(I)&&(W.Activity==EPedActivity::Walking||W.Activity==EPedActivity::ApproachCar||W.Activity==EPedActivity::ReturningRoute)){FHitResult Ground;FCollisionQueryParams Query;if(Player)Query.AddIgnoredActor(Player);if(W.Visual.IsValid())Query.AddIgnoredActor(W.Visual.Get());if(GetWorld()->LineTraceSingleByChannel(Ground,W.Position+FVector(0,0,100),W.Position-FVector(0,0,100),ECC_Visibility,Query)&&Ground.ImpactNormal.Z>.7f)W.Position.Z=Ground.ImpactPoint.Z;}
+  // Anchor outdoor pedestrians to the street layer, never to their previous height.
+  // Nearby roofs, other characters and cars cannot become a new walking floor.
+  if(!W.TransitPassenger&&!PedHidden(W)&&W.Activity!=EPedActivity::EnteringCar&&W.Activity!=EPedActivity::LeavingCar)W.Position.Z=WalkerGroundHeight(W.Position);
+
   int32 Rank=Nearest.Find(I);bool Near=!PedHidden(W)&&Rank!=INDEX_NONE&&Rank<(DetailLevel==0?48:120);
   if(Near){
    if(!W.Visual.IsValid()){
     const FString Name=CrowdModels[W.ModelIndex].Name;auto* Mesh=CrowdMeshes.IsValidIndex(W.ModelIndex)?CrowdMeshes[W.ModelIndex].Get():nullptr;
-    if(!Mesh)continue;auto* A=GetWorld()->SpawnActor<AActor>();auto* S=NewObject<USkeletalMeshComponent>(A);A->SetRootComponent(S);A->AddInstanceComponent(S);S->SetSkeletalMeshAsset(Mesh);S->SetMaterial(0,CrowdMaterial);S->SetCollisionEnabled(ECollisionEnabled::NoCollision);S->bEnableUpdateRateOptimizations=true;S->VisibilityBasedAnimTickOption=EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered;S->RegisterComponent();S->PlayAnimation(CrowdClips[CrowdModels[W.ModelIndex].Cane?6:0],true);S->SetPosition((I%17)*.07f,false);A->SetActorScale3D(FVector(W.Scale));W.Visual=A;
+    if(!Mesh)continue;auto* A=GetWorld()->SpawnActor<AActor>();auto* S=NewObject<USkeletalMeshComponent>(A);A->SetRootComponent(S);A->AddInstanceComponent(S);S->SetSkeletalMeshAsset(Mesh);S->SetMaterial(0,CrowdMaterial);S->SetCollisionEnabled(ECollisionEnabled::NoCollision);S->bEnableUpdateRateOptimizations=false;S->VisibilityBasedAnimTickOption=EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered;S->RegisterComponent();S->PlayAnimation(CrowdClips[CrowdModels[W.ModelIndex].Cane?6:0],true);S->SetPosition((I%17)*.07f,false);A->SetActorScale3D(FVector(W.Scale));W.Visual=A;W.PreviousPosition=W.Position;W.PreviousHeading=W.Heading;
    }
    W.Visual->SetActorHiddenInGame(false);W.Visual->SetActorLocationAndRotation(W.Position,FRotator(0,W.Heading-90,0));
    if(auto* S=Cast<USkeletalMeshComponent>(W.Visual->GetRootComponent())){
-    uint8 Clip=W.Activity==EPedActivity::EnteringCar?2:W.Activity==EPedActivity::LeavingCar?3:W.Activity==EPedActivity::BoardingTransit?4:W.Activity==EPedActivity::AlightingTransit?5:Move>0?(CrowdModels[W.ModelIndex].Cane?6:0):(CrowdModels[W.ModelIndex].Cane?7:1);
+    uint8 Clip=W.Activity==EPedActivity::EnteringCar?2:W.Activity==EPedActivity::LeavingCar?3:(W.Activity==EPedActivity::BoardingTransit||W.Activity==EPedActivity::AlightingTransit)?(Move>0?0:1):Move>0?(CrowdModels[W.ModelIndex].Cane?6:0):(CrowdModels[W.ModelIndex].Cane?7:1);
     if(W.VisualAnimation!=Clip){auto* A=CrowdClips[Clip].Get();S->PlayAnimation(A,Clip==0||Clip==1||Clip==6||Clip==7);if(Clip==3||Clip==5)if(auto* Sequence=Cast<UAnimSequence>(A))S->SetPosition(Sequence->GetPlayLength(),false);if(Clip==7)S->SetPosition(0,false);W.VisualAnimation=Clip;}
-    S->SetPlayRate(Clip==3||Clip==5?-1.f:Clip==7?0.f:Clip==6?.95f:Clip==0?W.Speed/(140.f*W.Scale):1.f);
+    S->SetPlayRate(Clip==3||Clip==5?-1.f:Clip==7?0.f:Clip==2?.55f:Clip==6?.95f:Clip==0?W.Speed/(140.f*W.Scale):1.f);
    }
   }else if(W.Visual.IsValid())W.Visual->SetActorHiddenInGame(true);
  }
+ // Reciprocal velocity estimates alone can leave two walkers shoulder-to-shoulder
+ // after an abrupt turn. Resolve the small residual overlap against real positions.
+ for(int32 Pass=0;Pass<2;Pass++)for(int32 I=0;I<Walkers.Num();I++){
+  auto& A=Walkers[I];if(PedHidden(A)||A.TransitPassenger||A.Activity!=EPedActivity::Walking)continue;
+  const auto GridCell=Cell(A.Position);
+  for(int32 X=-1;X<=1;X++)for(int32 Y=-1;Y<=1;Y++)if(auto* Nearby=PedGrid.Find(GridCell+FIntPoint(X,Y)))for(int32 J:*Nearby)if(J>I){
+   auto& B=Walkers[J];if(PedHidden(B)||B.TransitPassenger||B.Activity!=EPedActivity::Walking||FMath::Abs(A.Position.Z-B.Position.Z)>100)continue;
+   FVector D=A.Position-B.Position;float Distance=D.Size2D();if(Distance>=76)continue;
+   FVector Normal=Distance>.01f?D.GetSafeNormal2D():FVector(1,0,0);float Push=(76-Distance)*.5f+.1f;
+   auto Clear=[&](const FWalker& Walker,FVector From,FVector To){if((Player||PedestrianTestObstacle.IsSet())&&FMath::Abs(PP.Z-To.Z)<300&&FVector::DistSquared2D(To,PP)<FMath::Square(135.f)&&FVector::DistSquared2D(To,PP)<FVector::DistSquared2D(From,PP))return false;return WalkerStreetStepClear(Walker,From,To);};
+   bool MoveA=Clear(A,A.Position,A.Position+Normal*Push),MoveB=Clear(B,B.Position,B.Position-Normal*Push);
+   if(MoveA&&MoveB){A.Position+=Normal*Push;B.Position-=Normal*Push;}
+   else if(MoveA&&Clear(A,A.Position,A.Position+Normal*(Push*2)))A.Position+=Normal*(Push*2);
+   else if(MoveB&&Clear(B,B.Position,B.Position-Normal*(Push*2)))B.Position-=Normal*(Push*2);
+   if(A.Visual.IsValid())A.Visual->SetActorLocation(A.Position);if(B.Visual.IsValid())B.Visual->SetActorLocation(B.Position);
+  }
+ }
+
 }
 FString ABogotaCity::ValidateStreetFlow(){
  if(Walkers.IsEmpty())BuildTraffic();
  auto SavedWalkers=Walkers;auto SavedVehicles=Vehicles;auto SavedJunctions=PedestrianJunctions;auto SavedAdmission=PedestrianNextAdmission;float SavedElapsed=Elapsed;
- const FVector Start(-8000,-8000,27);int32 Failures=0,PassedPlayer=0,PassedSlow=0,PassedCorner=0;float MinPlayerDistance=1e9;
+ const FVector Start(-8000,-45000,27);int32 Failures=0,PassedPlayer=0,PassedSlow=0,PassedCorner=0;float MinPlayerDistance=1e9;
  for(int32 Scenario=0;Scenario<3;Scenario++){
   Walkers.Empty();Vehicles.Empty();PedestrianJunctions.Empty();PedestrianNextAdmission.Empty();PedestrianTestObstacle.Reset();
   for(int32 I=0;I<6;I++){FWalker W;W.Route={Start+FVector(-2000,0,0),Start+FVector(6000,0,0),Start+FVector(6000,1500,0),Start+FVector(-2000,1500,0)};W.Position=Start+FVector(-I*120,0,0);W.Speed=112;W.ModelIndex=0;Walkers.Add(W);}
@@ -324,7 +383,7 @@ FString ABogotaCity::ValidateCrowd(float Seconds){
  int32 PedestrianVehicleOverlaps=0;TArray<float> Start,LastTravel,Still,Longest;for(const auto& W:Walkers){Start.Add(W.Travelled);LastTravel.Add(W.Travelled);Still.Add(0);Longest.Add(0);}
  for(int32 Step=0;Step<FMath::CeilToInt(Seconds*15);Step++){Elapsed+=1.f/15;SimulateTraffic(1.f/15);SimulateWalkers(1.f/15);
  for(int32 I=0;I<Walkers.Num();I++){const auto& W=Walkers[I];bool SignalWait=W.CrossSegments.IsValidIndex(W.Segment)&&W.CrossSegments[W.Segment]&&!W.Crossing;
-  Still[I]=W.Activity==EPedActivity::Walking&&!SignalWait&&W.Travelled-LastTravel[I]<.01f?Still[I]+1.f/15:0;Longest[I]=FMath::Max(Longest[I],Still[I]);LastTravel[I]=W.Travelled;}
+  Still[I]=W.Activity==EPedActivity::Walking&&!SignalWait&&!W.YieldingToPlayer&&W.Travelled-LastTravel[I]<.01f?Still[I]+1.f/15:0;Longest[I]=FMath::Max(Longest[I],Still[I]);LastTravel[I]=W.Travelled;}
  for(const auto& W:Walkers)if(W.Crossing)for(const auto& A:Vehicles){FVector D=W.Position-A.Position,Forward=FRotator(0,A.Heading,0).Vector(),Right(-Forward.Y,Forward.X,0);if(FMath::Abs(FVector::DotProduct(D,Forward))<A.HalfLength+30&&FMath::Abs(FVector::DotProduct(D,Right))<A.HalfWidth+30)PedestrianVehicleOverlaps++;}}
  float Minimum=1e9;int32 Invalid=0;for(int32 I=0;I<Walkers.Num();I++){if(!Walkers[I].TransitPassenger)Minimum=FMath::Min(Minimum,Walkers[I].Travelled-Start[I]);if(Walkers[I].Position.ContainsNaN())Invalid++;}
  float LongestUnplannedStop=0;int32 StalledWalkers=0;for(int32 I=0;I<Longest.Num();I++){LongestUnplannedStop=FMath::Max(LongestUnplannedStop,Longest[I]);if(Longest[I]>20){StalledWalkers++;if(StalledWalkers<=8)UE_LOG(LogTemp,Warning,TEXT("PEDESTRIAN_STALL id=%d duration=%.1f segment=%d position=%s"),I,Longest[I],Walkers[I].Segment,*Walkers[I].Position.ToString());}}
@@ -335,9 +394,11 @@ FString ABogotaCity::ValidateCrowd(float Seconds){
 
 void ABogotaCity::UpdateTrafficNight(){
  const bool Night=Hour<6||Hour>=18;if(TrafficMaterial)TrafficMaterial->SetScalarParameterValue(TEXT("NightLights"),Night?1.f:0.f);
+ for(auto& Car:Vehicles)if(Car.Visual.IsValid())if(auto* Paint=Cast<UMaterialInstanceDynamic>(Car.Visual->GetMaterial(0)))Paint->SetScalarParameterValue(TEXT("NightLights"),Night?1.f:0.f);
+ for(auto& Car:ParkedCars)if(Car.Visual.IsValid())if(auto* Paint=Cast<UMaterialInstanceDynamic>(Car.Visual->GetMaterial(0)))Paint->SetScalarParameterValue(TEXT("NightLights"),Night?1.f:0.f);
  if(Hour>=2&&Hour<3&&G66CheckedNight!=GameDay){G66CheckedNight=GameDay;G66Scheduled=GameDay-G66LastNight>=3&&G66Random.FRand()<.08f;G66StartHour=G66Random.FRandRange(2.05f,2.65f);}
  const bool Active=Hour>=2&&Hour<3&&((G66Scheduled&&Hour>=G66StartHour)||FParse::Param(FCommandLine::Get(),TEXT("ForceG66")));
- if(Active!=G66Active&&Vehicles.Num()>=38){auto& A=Vehicles.Last();if(A.Visual.IsValid()){
+ if(Active!=G66Active&&Vehicles.IsValidIndex(99)){auto& A=Vehicles[99];if(A.Visual.IsValid()){
  auto* Mesh=LoadObject<USkeletalMesh>(nullptr,Active?TEXT("/Game/Traffic/Detailed/SK_TransMilenioG66.SK_TransMilenioG66"):TEXT("/Game/Traffic/Detailed/SK_TransMilenio.SK_TransMilenio"));
  if(Mesh){A.Visual->SetSkinnedAssetAndUpdate(Mesh);A.Visual->SetMaterial(0,TrafficMaterial);A.Visual->SetWorldScale3D(FVector(A.ModelScale));G66Active=Active;if(Active)G66LastNight=GameDay;}}
  }
@@ -372,3 +433,130 @@ FString ABogotaCity::ValidateG66(){
 
 
 
+
+bool ABogotaCity::WalkerStepClear(FVector From,FVector To) const{
+ FHitResult Hit;FCollisionQueryParams Query(SCENE_QUERY_STAT(PedestrianWalls),false);
+ From.Z=26;To.Z=26;
+ return !GetWorld()->SweepSingleByObjectType(Hit,From+FVector(0,0,100),To+FVector(0,0,100),FQuat::Identity,FCollisionObjectQueryParams(ECC_WorldStatic),FCollisionShape::MakeCapsule(34,65),Query);
+}
+float ABogotaCity::WalkerGroundHeight(FVector At) const{
+ // All outdoor street routes are on the ground layer. Query a fixed 80 cm band;
+ // never trace from the previous foot height (which used to climb walls/roofs).
+ FHitResult Hit;FCollisionQueryParams Query(SCENE_QUERY_STAT(PedestrianFloor),false);
+ if(GetWorld()->LineTraceSingleByObjectType(Hit,FVector(At.X,At.Y,80),FVector(At.X,At.Y,-20),FCollisionObjectQueryParams(ECC_WorldStatic),Query)&&Hit.ImpactNormal.Z>.7f&&Hit.ImpactPoint.Z<=60)return Hit.ImpactPoint.Z;
+ return 26.f;
+}
+FString ABogotaCity::ValidateMapRoutes(float Seconds){
+ if(!GetWorld()->IsGameWorld())return TEXT("{\"error\":\"Run this audit in a standalone game using -MapRouteTest\"}");
+ if(Vehicles.IsEmpty())BuildTraffic();
+ auto Report=MakeShared<FJsonObject>();Report->SetNumberField(TEXT("seconds"),Seconds);
+ bool WallControl=false;FVector WallProbe;for(auto C:Solid){for(int32 I=0;I<C->GetInstanceCount();I++){FTransform T;C->GetInstanceTransform(I,T,true);FVector S=T.GetScale3D().GetAbs()*100;if(S.X>1000&&S.Y>1000&&S.Z>300&&T.GetLocation().Z<3000&&T.GetLocation().Z-S.Z*.5f<50){WallProbe=T.GetLocation();WallProbe.Z=26;WallControl=!WalkerStepClear(WallProbe,WallProbe);break;}}if(WallControl)break;}
+ Report->SetBoolField(TEXT("wall_collision_positive_control"),WallControl);
+ int32 WrongSideSegments=0,StraightSegments=0;
+ for(const auto& A:Vehicles)for(int32 I=0;I<A.Route.Num();I++){FVector D=(A.Route[(I+1)%A.Route.Num()]-A.Route[I]).GetSafeNormal2D(),Mid=(A.Route[(I+1)%A.Route.Num()]+A.Route[I])*.5f;
+  if(FMath::Abs(D.X)>.999f){float Y=EastRoads[0];for(float Road:EastRoads)if(FMath::Abs(Mid.Y-Road)<FMath::Abs(Mid.Y-Y))Y=Road;StraightSegments++;if((Mid.Y-Y)*D.X<=0)WrongSideSegments++;}
+  else if(FMath::Abs(D.Y)>.999f&&!A.Bus){float X=NorthRoads[0];for(float Road:NorthRoads)if(FMath::Abs(Mid.X-Road)<FMath::Abs(Mid.X-X))X=Road;StraightSegments++;if(-(Mid.X-X)*D.Y<=0)WrongSideSegments++;}
+ }
+ Report->SetNumberField(TEXT("right_hand_traffic_straight_segments"),StraightSegments);Report->SetNumberField(TEXT("wrong_side_traffic_segments"),WrongSideSegments);
+
+
+ int32 InsideWalls=0,Airborne=0,Invalid=0,StaticCarHits=0,ParkedHits=0,PedestrianContacts=0,PedestrianCarContacts=0,MovingCarContacts=0;float MaxHeight=0;
+ TArray<float> CarStart,CarStill,CarLongest;for(const auto& A:Vehicles){CarStart.Add(A.Travelled);CarStill.Add(0);CarLongest.Add(0);}
+ TArray<float> PreviousTravel,Still,Longest;for(const auto& W:Walkers){PreviousTravel.Add(W.Travelled);Still.Add(0);Longest.Add(0);}
+ int32 HeightRecoveries=0;for(int32 I=0;I<Walkers.Num();I+=37)if(!Walkers[I].TransitPassenger){Walkers[I].Position.Z=5000;HeightRecoveries++;}
+ const int32 Steps=FMath::CeilToInt(Seconds*15);
+ for(int32 Step=0;Step<Steps;Step++){
+  Elapsed+=1.f/15;SimulateTraffic(1.f/30);SimulateTraffic(1.f/30);SimulateWalkers(1.f/15);
+  for(int32 I=0;I<Walkers.Num();I++){const auto& W=Walkers[I];bool SignalWait=W.CrossSegments.IsValidIndex(W.Segment)&&W.CrossSegments[W.Segment]&&!W.Crossing;
+   Still[I]=W.Activity==EPedActivity::Walking&&!SignalWait&&!W.YieldingToPlayer&&W.Travelled-PreviousTravel[I]<.01f?Still[I]+1.f/15:0;Longest[I]=FMath::Max(Longest[I],Still[I]);PreviousTravel[I]=W.Travelled;
+   if(Step%15==0&&!W.TransitPassenger&&!PedHidden(W)&&W.Activity==EPedActivity::Walking){if(!WalkerStepClear(W.Position,W.Position)){InsideWalls++;if(InsideWalls<6)UE_LOG(LogTemp,Warning,TEXT("MAP_WALL id=%d pos=%s"),I,*W.Position.ToString());}if(W.Position.Z>65)Airborne++;if(W.Position.ContainsNaN())Invalid++;MaxHeight=FMath::Max(MaxHeight,float(W.Position.Z));}
+  }
+  if(Step%15==0&&Step>75){
+   TMap<FIntPoint,TArray<int32>> Grid;
+   for(int32 I=0;I<Walkers.Num();I++){const auto& W=Walkers[I];if(W.Activity!=EPedActivity::Walking||W.TransitPassenger)continue;
+    FIntPoint Cell(FMath::FloorToInt(W.Position.X/150),FMath::FloorToInt(W.Position.Y/150));
+    for(int32 X=-1;X<=1;X++)for(int32 Y=-1;Y<=1;Y++)if(auto* Others=Grid.Find(Cell+FIntPoint(X,Y)))for(int32 J:*Others)if(FVector::DistSquared2D(W.Position,Walkers[J].Position)<FMath::Square(60.f)){PedestrianContacts++;if(PedestrianContacts<=6)UE_LOG(LogTemp,Warning,TEXT("MAP_PEDESTRIAN_CONTACT pair=%d,%d distance=%.1f"),I,J,FVector::Dist2D(W.Position,Walkers[J].Position));}
+    Grid.FindOrAdd(Cell).Add(I);
+   }
+  }
+  if(Step%15==0){
+   for(const auto& W:Walkers)if(!W.TransitPassenger&&!PedHidden(W))for(const auto& A:Vehicles){FVector D=W.Position-A.Position;if(D.SizeSquared2D()>FMath::Square(A.HalfLength+150))continue;FVector F=FRotator(0,A.Heading,0).Vector(),R(-F.Y,F.X,0);if(FMath::Abs(FVector::DotProduct(D,F))<A.HalfLength+28&&FMath::Abs(FVector::DotProduct(D,R))<A.HalfWidth+28){PedestrianCarContacts++;if(PedestrianCarContacts<5)UE_LOG(LogTemp,Warning,TEXT("MAP_PEDESTRIAN_CAR ped=%s car=%s"),*W.Position.ToString(),*A.Position.ToString());}}
+   for(int32 I=0;I<Vehicles.Num();I++)for(int32 J=I+1;J<Vehicles.Num();J++){
+    const auto& A=Vehicles[I];const auto& B=Vehicles[J];FVector D=B.Position-A.Position;if(D.SizeSquared2D()>FMath::Square(A.HalfLength+B.HalfLength+100))continue;
+    FVector F=FRotator(0,A.Heading,0).Vector(),G=FRotator(0,B.Heading,0).Vector(),R(-F.Y,F.X,0),S(-G.Y,G.X,0);bool Hit=true;
+    for(FVector Axis:{F,G,R,S}){float E=A.HalfLength*FMath::Abs(FVector::DotProduct(F,Axis))+A.HalfWidth*FMath::Abs(FVector::DotProduct(R,Axis))+B.HalfLength*FMath::Abs(FVector::DotProduct(G,Axis))+B.HalfWidth*FMath::Abs(FVector::DotProduct(S,Axis));if(FMath::Abs(FVector::DotProduct(D,Axis))>=E-10){Hit=false;break;}}
+    if(Hit){MovingCarContacts++;if(MovingCarContacts<5)UE_LOG(LogTemp,Warning,TEXT("MAP_MOVING_CAR pair=%d,%d"),I,J);}
+   }
+  }
+  for(int32 I=0;I<Vehicles.Num();I++){CarStill[I]=Vehicles[I].Velocity<1?CarStill[I]+1.f/15:0;CarLongest[I]=FMath::Max(CarLongest[I],CarStill[I]);}
+  if(Step%15==0)for(const auto& A:Vehicles){
+   for(const auto& P:ParkedCars){if(!P.Visual.IsValid())continue;auto Bounds=P.Visual->Bounds.GetBox();FVector F=FRotator(0,A.Heading,0).Vector(),R(-F.Y,F.X,0),D=P.Position-A.Position;float Along=FMath::Abs(FVector::DotProduct(D,F)),Side=FMath::Abs(FVector::DotProduct(D,R));auto E=Bounds.GetExtent();float L=FMath::Abs(F.X)*E.X+FMath::Abs(F.Y)*E.Y,W=FMath::Abs(R.X)*E.X+FMath::Abs(R.Y)*E.Y;if(Along<A.HalfLength+L-10&&Side<A.HalfWidth+W-10){ParkedHits++;if(ParkedHits<4)UE_LOG(LogTemp,Warning,TEXT("MAP_PARKED_HIT moving=%s parked=%s"),*A.Position.ToString(),*P.Position.ToString());}}
+   FHitResult Hit;FVector P=A.Position+FVector(0,0,100);TArray<FOverlapResult> Contacts;if(GetWorld()->OverlapMultiByObjectType(Contacts,P,FRotator(0,A.Heading,0).Quaternion(),FCollisionObjectQueryParams(ECC_WorldStatic),FCollisionShape::MakeBox(FVector(A.HalfLength*.9f,A.HalfWidth*.9f,60)),FCollisionQueryParams())){StaticCarHits++;if(StaticCarHits<=12)for(const auto& Contact:Contacts)UE_LOG(LogTemp,Warning,TEXT("MAP_CAR_STATIC car=%s pos=%s heading=%.1f actor=%s component=%s instance=%d"),*GetNameSafe(A.Visual.IsValid()?A.Visual->GetSkinnedAsset():nullptr),*A.Position.ToString(),A.Heading,*GetNameSafe(Contact.GetActor()),*GetNameSafe(Contact.GetComponent()),Contact.ItemIndex);}}
+ }
+ int32 Stalled=0;float MaxStop=0;for(int32 I=0;I<Longest.Num();I++){MaxStop=FMath::Max(MaxStop,Longest[I]);if(Longest[I]>25){Stalled++;if(Stalled<=12)UE_LOG(LogTemp,Warning,TEXT("MAP_STALL id=%d seconds=%.1f pos=%s segment=%d"),I,Longest[I],*Walkers[I].Position.ToString(),Walkers[I].Segment);}}
+ float MinCarTravel=1e9,MaxCarStop=0;for(int32 I=0;I<Vehicles.Num();I++){MinCarTravel=FMath::Min(MinCarTravel,Vehicles[I].Travelled-CarStart[I]);MaxCarStop=FMath::Max(MaxCarStop,CarLongest[I]);}
+ Report->SetNumberField(TEXT("pedestrian_vehicle_contact_samples"),PedestrianCarContacts);Report->SetNumberField(TEXT("moving_vehicle_overlap_samples"),MovingCarContacts);Report->SetNumberField(TEXT("pedestrian_close_contact_samples"),PedestrianContacts);Report->SetNumberField(TEXT("parked_vehicle_overlap_samples"),ParkedHits);Report->SetNumberField(TEXT("minimum_vehicle_travel_cm"),MinCarTravel);Report->SetNumberField(TEXT("longest_vehicle_stop_seconds"),MaxCarStop);
+ Report->SetNumberField(TEXT("pedestrians"),Walkers.Num());Report->SetNumberField(TEXT("vehicles"),Vehicles.Num());Report->SetNumberField(TEXT("wall_penetration_samples"),InsideWalls);Report->SetNumberField(TEXT("airborne_samples"),Airborne);Report->SetNumberField(TEXT("invalid_positions"),Invalid);Report->SetNumberField(TEXT("maximum_street_foot_height_cm"),MaxHeight);Report->SetNumberField(TEXT("injected_invalid_heights"),HeightRecoveries);Report->SetNumberField(TEXT("unplanned_stalls"),Stalled);Report->SetNumberField(TEXT("longest_unplanned_stop_seconds"),MaxStop);Report->SetNumberField(TEXT("static_vehicle_overlap_samples"),StaticCarHits);Report->SetNumberField(TEXT("crossings_completed"),PedestrianCrossings);Report->SetNumberField(TEXT("illegal_crossings"),IllegalCrossings);
+ TSharedPtr<FJsonObject> Avoidance;FJsonSerializer::Deserialize(TJsonReaderFactory<>::Create(ValidateStreetFlow()),Avoidance);if(Avoidance)Report->SetObjectField(TEXT("avoidance_scenarios"),Avoidance);
+ auto RestoreWalkers=Walkers;auto RestorePedJunctions=PedestrianJunctions;Walkers.Empty();PedestrianJunctions.Empty();
+ TSharedPtr<FJsonObject> Traffic;FJsonSerializer::Deserialize(TJsonReaderFactory<>::Create(ValidateTraffic(180)),Traffic);if(Traffic)Report->SetObjectField(TEXT("isolated_traffic_and_render_cadence"),Traffic);
+ Walkers=MoveTemp(RestoreWalkers);PedestrianJunctions=MoveTemp(RestorePedJunctions);
+ const float SavedCycle=CycleSeconds,SavedRain=RainIntensity;const int32 SavedDay=GameDay,SavedOverride=DeveloperRainOverride;DeveloperRainOverride=1;
+ RainIntensity=0;for(int32 I=0;I<900;I++)UpdateWeather(1.f/30);const bool RainStarted=RainIntensity>.6f&&RainMesh&&RainDrops.Num()==1800;
+ FVector Eye=FVector::ZeroVector;if(auto* PC=GetWorld()->GetFirstPlayerController())if(PC->PlayerCameraManager)Eye=PC->PlayerCameraManager->GetCameraLocation();
+ auto* TestRoof=GetWorld()->SpawnActor<AStaticMeshActor>();TestRoof->SetMobility(EComponentMobility::Movable);TestRoof->GetStaticMeshComponent()->SetStaticMesh(Cube);TestRoof->GetStaticMeshComponent()->SetCollisionProfileName(TEXT("BlockAll"));TestRoof->SetActorLocation(Eye+FVector(0,0,500));TestRoof->SetActorScale3D(FVector(50,50,1));
+ RainOrigin=FVector(1e9);UpdateWeather(1.f/30);int32 RoofHits=0,RainUnderRoof=0;
+ for(int32 I=0;I<RainFloors.Num();I++){if(RainFloors[I]>=Eye.Z+549)RoofHits++;FTransform T;RainMesh->GetInstanceTransform(I,T);if(!T.GetScale3D().IsNearlyZero()&&RainDrops[I].Z<RainFloors[I]+25)RainUnderRoof++;}
+ TestRoof->Destroy();DeveloperRainOverride=0;for(int32 I=0;I<900;I++)UpdateWeather(1.f/30);const bool RainStopped=RainIntensity<.001f;
+ auto Weather=MakeShared<FJsonObject>();Weather->SetBoolField(TEXT("rain_started_gradually"),RainStarted);Weather->SetBoolField(TEXT("rain_stopped_gradually"),RainStopped);Weather->SetNumberField(TEXT("roof_occlusion_probes"),RainFloors.Num());Weather->SetNumberField(TEXT("roof_hits"),RoofHits);Weather->SetNumberField(TEXT("visible_drops_below_surface"),RainUnderRoof);Report->SetObjectField(TEXT("weather_rendering"),Weather);
+ CycleSeconds=SavedCycle;GameDay=SavedDay;RainIntensity=SavedRain;DeveloperRainOverride=SavedOverride;if(RainMesh)RainMesh->SetVisibility(SavedRain>.005f);
+ FString Result;FJsonSerializer::Serialize(Report,TJsonWriterFactory<>::Create(&Result));return Result;
+}
+
+
+
+float ABogotaCity::StreetClearance(FVector At)const{
+ float Clearance=1e9;for(float X:NorthRoads)Clearance=FMath::Min(Clearance,float(FMath::Abs(At.X-X)-750));for(float Y:EastRoads)Clearance=FMath::Min(Clearance,float(FMath::Abs(At.Y-Y)-(Y==0?1150:750)));return Clearance;
+}
+bool ABogotaCity::WalkerStreetStepClear(const FWalker& W,FVector From,FVector To)const{
+ if(!WalkerStepClear(From,To))return false;
+ if(W.Crossing||W.TransitPassenger||W.Activity!=EPedActivity::Walking)return true;
+ const float Before=StreetClearance(From),After=StreetClearance(To);return After>=40||(Before<40&&After>Before+.01f);
+}
+void ABogotaCity::UpdateWalkerVisuals(float Alpha){
+ for(auto& W:Walkers)if(W.Visual.IsValid()&&!W.Visual->IsHidden()){
+  FVector P=FMath::Lerp(W.PreviousPosition,W.Position,Alpha);float H=W.PreviousHeading+FMath::FindDeltaAngleDegrees(W.PreviousHeading,W.Heading)*Alpha;
+  W.Visual->SetActorLocationAndRotation(P,FRotator(0,H-90,0));
+ }
+}
+
+FString ABogotaCity::ValidatePedestrianPresentation(){
+ auto Saved=Walkers;auto SavedJunctions=PedestrianJunctions;auto SavedAdmission=PedestrianNextAdmission;auto SavedObstacle=PedestrianTestObstacle;float SavedElapsed=Elapsed;
+ auto R=MakeShared<FJsonObject>();int32 URO=0;for(const auto& W:Walkers)if(W.Visual.IsValid())if(auto* S=Cast<USkeletalMeshComponent>(W.Visual->GetRootComponent()))if(S->bEnableUpdateRateOptimizations)URO++;
+ R->SetNumberField(TEXT("visible_npcs_with_animation_throttling"),URO);
+ Walkers.Empty();PedestrianJunctions.Empty();PedestrianNextAdmission.Empty();
+ const FVector Start(-8000,-45000,26);FWalker P;P.Route={Start,Start+FVector(6000,0,0),Start+FVector(6000,1500,0),Start+FVector(0,1500,0)};P.Position=P.PreviousPosition=Start;P.Speed=112;
+ auto* Probe=GetWorld()->SpawnActor<AStaticMeshActor>();Probe->SetMobility(EComponentMobility::Movable);Probe->GetStaticMeshComponent()->SetStaticMesh(Cube);Probe->GetStaticMeshComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);Probe->SetActorLocation(Start);P.Visual=Probe;Walkers.Add(P);PedestrianTestObstacle=Start+FVector(0,2000,0);
+ float Acc=0,MaxJump=0;int32 MovingFrames=0;FVector Last=Start;
+ for(int32 Frame=0;Frame<120;Frame++){Acc+=1.f/60;while(Acc>=1.f/15){Elapsed+=1.f/15;SimulateWalkers(1.f/15);Acc-=1.f/15;}UpdateWalkerVisuals(Acc*15);FVector At=Probe->GetActorLocation();float D=FVector::Dist2D(At,Last);if(D>.1f)MovingFrames++;MaxJump=FMath::Max(MaxJump,D);Last=At;}
+ float Before=Walkers[0].Travelled+Acc*P.Speed;Acc+=.2f;while(Acc>=1.f/15){SimulateWalkers(1.f/15);Acc-=1.f/15;}float Loss=FMath::Abs(Walkers[0].Travelled+Acc*P.Speed-Before-.2f*P.Speed);
+ R->SetNumberField(TEXT("moving_render_frames"),MovingFrames);R->SetNumberField(TEXT("render_frames"),120);R->SetNumberField(TEXT("maximum_render_step_cm"),MaxJump);R->SetNumberField(TEXT("hitch_time_loss_cm"),Loss);Probe->Destroy();Walkers.Empty();
+ int32 Yielded=0,Resumed=0,RoadIntrusions=0;float MinPlayerDistance=1e9,MaxWaitingTurn=0;
+ for(float Side:{-1.f,1.f}){
+  auto* Wall=GetWorld()->SpawnActor<AStaticMeshActor>();Wall->SetMobility(EComponentMobility::Movable);Wall->GetStaticMeshComponent()->SetStaticMesh(Cube);Wall->GetStaticMeshComponent()->SetCollisionProfileName(TEXT("BlockAll"));Wall->SetActorLocation(FVector(Side*1160,-4000,150));Wall->SetActorScale3D(FVector(1,20,3));
+  PedestrianTestObstacle=FVector(Side*950,-4100,116);Walkers.Empty();
+  for(int32 I=0;I<6;I++){FWalker W;W.Route={FVector(Side*950,-6000,26),FVector(Side*950,-2000,26),FVector(Side*1020,-2000,26),FVector(Side*1020,-6000,26)};W.Position=W.PreviousPosition=FVector(Side*950,-4300-I*125,26);W.Heading=90;W.Speed=112;W.ModelIndex=0;Walkers.Add(W);}
+  bool DidYield=false;
+  for(int32 Step=0;Step<225;Step++){Elapsed+=1.f/15;float Previous=Walkers[0].Heading;SimulateWalkers(1.f/15);DidYield|=Walkers[0].YieldingToPlayer;
+   for(const auto& W:Walkers){if(StreetClearance(W.Position)<39)RoadIntrusions++;MinPlayerDistance=FMath::Min(MinPlayerDistance,FVector::Dist2D(W.Position,PedestrianTestObstacle.GetValue()));}
+   if(Step>150)MaxWaitingTurn=FMath::Max(MaxWaitingTurn,FMath::Abs(FMath::FindDeltaAngleDegrees(Previous,Walkers[0].Heading)));
+  }
+  if(DidYield)Yielded++;TArray<float> Travel;for(auto& W:Walkers)Travel.Add(W.Travelled);PedestrianTestObstacle=FVector(1e8);
+  for(int32 Step=0;Step<300;Step++){Elapsed+=1.f/15;SimulateWalkers(1.f/15);}
+  bool All=true;for(int32 I=0;I<Walkers.Num();I++)if(Walkers[I].Travelled-Travel[I]<500)All=false;if(All)Resumed++;
+  for(auto& W:Walkers)if(W.Visual.IsValid())W.Visual->Destroy();Walkers.Empty();Wall->Destroy();
+ }
+ R->SetNumberField(TEXT("confined_sidewalk_scenarios"),2);R->SetNumberField(TEXT("yielded_without_entering_road"),Yielded);R->SetNumberField(TEXT("resumed_after_player_leaves"),Resumed);R->SetNumberField(TEXT("road_intrusion_frames"),RoadIntrusions);R->SetNumberField(TEXT("minimum_player_clearance_cm"),MinPlayerDistance);R->SetNumberField(TEXT("maximum_waiting_turn_degrees"),MaxWaitingTurn);
+ Walkers=MoveTemp(Saved);PedestrianJunctions=MoveTemp(SavedJunctions);PedestrianNextAdmission=MoveTemp(SavedAdmission);PedestrianTestObstacle=SavedObstacle;Elapsed=SavedElapsed;
+ FString Result;FJsonSerializer::Serialize(R,TJsonWriterFactory<>::Create(&Result));return Result;
+}

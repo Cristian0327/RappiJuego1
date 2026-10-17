@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "date": "2026-10-15",
+  "engine": "5.8.3",
+  "checks_per_run": 63,
+  "parking_seeds": [
+    2026,
+    2027
+  ],
+  "weather": {
+    "checks": {
+      "probability_matches_35_percent": true,
+      "no_weather_level_skipped": true,
+      "all_weather_types_occur": true,
+      "rain_intensifies_and_eases": true,
+      "seed_reproducible_for_testing": true,
+      "new_seed_changes_weather_sequence": true,
+      "developer_override_pauses_random_decisions": true,
+      "automatic_resumes_current_storm": true
+    },
+    "sampled_rain_start_probability": 0.3509500026702881,
+    "sampled_transitions": 80000,
+    "simulated_seconds": 86400,
+    "intensifications": 287,
+    "reductions": 285
+  },
+  "vehicle_dynamics": {
+    "checks": {
+      "mixed_curb_and_street_parking": true,
+      "curb_parked_cars_follow_terrain": true,
+      "four_wheels_on_flat_ground": true,
+      "body_leans_on_cross_slope": true,
+      "parked_vehicle_retains_ground_lean": true,
+      "unsupported_wheels_rejected": true,
+      "car_door_hinge_moves": true,
+      "opening_door_preserves_wheel_pose": true,
+      "bus_door_faces_platform": true,
+      "bus_door_slides_open": true,
+      "passenger_waits_for_open_door": true,
+      "walks_into_bus_both_directions": true,
+      "walks_out_at_next_station": true,
+      "boarding_has_no_position_jump": true,
+      "bus_cannot_depart_with_open_door": true
+    },
+    "maximum_boarding_step_cm": 3.6666667461395264,
+    "boarding_directions": 2
+  },
+  "blueprint_policy": {
+    "status": "PASS",
+    "rule": "probabilistic adjacent-state transitions",
+    "samples": 4000,
+    "transition_probabilities": [
+      {
+        "0": 0.65,
+        "1": 0.35
+      },
+      {
+        "0": 0.25,
+        "1": 0.4,
+        "2": 0.35
+      },
+      {
+        "1": 0.35,
+        "2": 0.4,
+        "3": 0.25
+      },
+      {
+        "2": 0.7,
+        "3": 0.3
+      }
+    ],
+    "dry_hold_seconds": [
+      90,
+      180
+    ],
+    "wet_hold_seconds": [
+      45,
+      100
+    ]
+  },
+  "map_regression": {
+    "status": "PASS",
+    "seconds": 600,
+    "pedestrians": 864,
+    "vehicles": 100,
+    "checks": {
+      "pedestrian_vehicle_contact_samples": true,
+      "moving_vehicle_overlap_samples": true,
+      "pedestrian_close_contact_samples": true,
+      "parked_vehicle_overlap_samples": true,
+      "wall_penetration_samples": true,
+      "airborne_samples": true,
+      "invalid_positions": true,
+      "unplanned_stalls": true,
+      "static_vehicle_overlap_samples": true,
+      "illegal_crossings": true,
+      "right_hand_traffic": true,
+      "live_collision_control": true,
+      "all_vehicles_progress": true,
+      "vehicles_no_deadlock": true,
+      "crossings_continue": true,
+      "avoidance_scenarios": true,
+      "isolated_car_contacts": true,
+      "render_cadence": true,
+      "rain_transitions": true,
+      "rain_under_roofs": true,
+      "weather_policy": true
+    }
+  }
+}

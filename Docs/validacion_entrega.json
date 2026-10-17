@@ -2,6 +2,26 @@
 	"status": "PASS",
 	"checks": [
 		{
+			"id": "blueprint_pause_stops_game",
+			"passed": true
+		},
+		{
+			"id": "blueprint_pause_resumes_game",
+			"passed": true
+		},
+		{
+			"id": "blueprint_quality_toggle",
+			"passed": true
+		},
+		{
+			"id": "blueprint_quality_restores",
+			"passed": true
+		},
+		{
+			"id": "keyboard_interaction_runs_blueprint",
+			"passed": true
+		},
+		{
 			"id": "fresh_profile_isolated",
 			"passed": true
 		},
@@ -290,7 +310,7 @@
 			"passed": true
 		}
 	],
-	"total": 72,
+	"total": 77,
 	"failures": [],
 	"viewport_width": 1280,
 	"viewport_height": 720

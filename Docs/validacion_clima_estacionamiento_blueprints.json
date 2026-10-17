@@ -1,0 +1,679 @@
+{
+  "status": "PASS",
+  "scope": "Weather scheduling and parking placement rules execute in BP_BogotaCity",
+  "blueprint": "/Game/World/BP_BogotaCity",
+  "graphs": [
+    {
+      "name": "WeatherStateForIntensity",
+      "nodes": 9,
+      "function_owner": "/Game/World/BP_BogotaCity.BP_BogotaCity_C",
+      "bytecode": 388
+    },
+    {
+      "name": "WeatherIntensityForState",
+      "nodes": 12,
+      "function_owner": "/Game/World/BP_BogotaCity.BP_BogotaCity_C",
+      "bytecode": 457
+    },
+    {
+      "name": "ChooseWeatherHold",
+      "nodes": 18,
+      "function_owner": "/Game/World/BP_BogotaCity.BP_BogotaCity_C",
+      "bytecode": 602
+    },
+    {
+      "name": "AdvanceDynamicWeather",
+      "nodes": 48,
+      "function_owner": "/Game/World/BP_BogotaCity.BP_BogotaCity_C",
+      "bytecode": 1654
+    },
+    {
+      "name": "InitializeParkingPlan",
+      "nodes": 12,
+      "function_owner": "/Game/World/BP_BogotaCity.BP_BogotaCity_C",
+      "bytecode": 335
+    },
+    {
+      "name": "ParkingPoseFor",
+      "nodes": 18,
+      "function_owner": "/Game/World/BP_BogotaCity.BP_BogotaCity_C",
+      "bytecode": 689
+    }
+  ],
+  "parking_seeds": {
+    "status": "PASS",
+    "seeds": 100,
+    "poses": 1200,
+    "unique_curb_slots": 4,
+    "reproducible": true
+  },
+  "runs": [
+    {
+      "profile": "BlueprintFinalQA",
+      "status": "PASS",
+      "checks": [
+        {
+          "id": "rain_requires_developer_mode",
+          "passed": true
+        },
+        {
+          "id": "developer_console_command",
+          "passed": true
+        },
+        {
+          "id": "rain_on_immediately",
+          "passed": true
+        },
+        {
+          "id": "rain_off_immediately",
+          "passed": true
+        },
+        {
+          "id": "rain_automatic",
+          "passed": true
+        },
+        {
+          "id": "enter_traffic_car",
+          "passed": true
+        },
+        {
+          "id": "camera_ignores_own_car",
+          "passed": true
+        },
+        {
+          "id": "blueprint_inputs_reach_developer_car",
+          "passed": true
+        },
+        {
+          "id": "car_drives_from_input",
+          "passed": true
+        },
+        {
+          "id": "phone_stops_developer_car",
+          "passed": true
+        },
+        {
+          "id": "developer_car_stops_for_pedestrian",
+          "passed": true
+        },
+        {
+          "id": "developer_car_cannot_drive_through_wall",
+          "passed": true
+        },
+        {
+          "id": "blocked_exit_keeps_player_inside",
+          "passed": true
+        },
+        {
+          "id": "exit_does_not_cross_thin_wall",
+          "passed": true
+        },
+        {
+          "id": "safe_exit_restores_walking",
+          "passed": true
+        },
+        {
+          "id": "exit_restores_car_camera_collision",
+          "passed": true
+        },
+        {
+          "id": "bus_is_drivable",
+          "passed": true
+        },
+        {
+          "id": "varied_cars_taxis_and_buses_enter",
+          "passed": true
+        },
+        {
+          "id": "varied_cars_taxis_and_buses_exit",
+          "passed": true
+        },
+        {
+          "id": "F_enters_parked_car",
+          "passed": true
+        },
+        {
+          "id": "parked_car_is_drivable",
+          "passed": true
+        },
+        {
+          "id": "F_exits_parked_car",
+          "passed": true
+        },
+        {
+          "id": "traffic_stops_for_perpendicular_parked_car",
+          "passed": true
+        },
+        {
+          "id": "developer_exit_restores_balance",
+          "passed": true
+        },
+        {
+          "id": "legacy_developer_exit_restores_auto_weather",
+          "passed": true
+        },
+        {
+          "id": "typed_rain_code",
+          "passed": true
+        },
+        {
+          "id": "typed_clear_code",
+          "passed": true
+        },
+        {
+          "id": "typed_auto_weather_code",
+          "passed": true
+        },
+        {
+          "id": "typed_enter_car_code",
+          "passed": true
+        },
+        {
+          "id": "typed_exit_car_code",
+          "passed": true
+        },
+        {
+          "id": "typed_light_rain",
+          "passed": true
+        },
+        {
+          "id": "typed_hail_storm",
+          "passed": true
+        },
+        {
+          "id": "storm_has_hail",
+          "passed": true
+        },
+        {
+          "id": "storm_lightning_and_delayed_thunder",
+          "passed": true
+        },
+        {
+          "id": "hail_roof_occlusion",
+          "passed": true
+        },
+        {
+          "id": "clear_stops_hail_and_lightning",
+          "passed": true
+        },
+        {
+          "id": "typed_purple_bus_spawn",
+          "passed": true
+        },
+        {
+          "id": "purple_code_reuses_single_bus",
+          "passed": true
+        },
+        {
+          "id": "purple_bus_is_enterable",
+          "passed": true
+        },
+        {
+          "id": "typed_exit_developer_code",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/mixed_curb_and_street_parking",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/curb_parked_cars_follow_terrain",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/four_wheels_on_flat_ground",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/body_leans_on_cross_slope",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/parked_vehicle_retains_ground_lean",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/unsupported_wheels_rejected",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/car_door_hinge_moves",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/opening_door_preserves_wheel_pose",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/bus_door_faces_platform",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/bus_door_slides_open",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/passenger_waits_for_open_door",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/walks_into_bus_both_directions",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/walks_out_at_next_station",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/boarding_has_no_position_jump",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/bus_cannot_depart_with_open_door",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/probability_matches_35_percent",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/no_weather_level_skipped",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/all_weather_types_occur",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/rain_intensifies_and_eases",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/seed_reproducible_for_testing",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/new_seed_changes_weather_sequence",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/developer_override_pauses_random_decisions",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/automatic_resumes_current_storm",
+          "passed": true
+        }
+      ],
+      "dynamic_weather": {
+        "checks": {
+          "probability_matches_35_percent": true,
+          "no_weather_level_skipped": true,
+          "all_weather_types_occur": true,
+          "rain_intensifies_and_eases": true,
+          "seed_reproducible_for_testing": true,
+          "new_seed_changes_weather_sequence": true,
+          "developer_override_pauses_random_decisions": true,
+          "automatic_resumes_current_storm": true
+        },
+        "sampled_rain_start_probability": 0.3509500026702881,
+        "sampled_transitions": 80000,
+        "simulated_seconds": 86400,
+        "intensifications": 287,
+        "reductions": 285
+      },
+      "vehicle_dynamics": {
+        "checks": {
+          "mixed_curb_and_street_parking": true,
+          "curb_parked_cars_follow_terrain": true,
+          "four_wheels_on_flat_ground": true,
+          "body_leans_on_cross_slope": true,
+          "parked_vehicle_retains_ground_lean": true,
+          "unsupported_wheels_rejected": true,
+          "car_door_hinge_moves": true,
+          "opening_door_preserves_wheel_pose": true,
+          "bus_door_faces_platform": true,
+          "bus_door_slides_open": true,
+          "passenger_waits_for_open_door": true,
+          "walks_into_bus_both_directions": true,
+          "walks_out_at_next_station": true,
+          "boarding_has_no_position_jump": true,
+          "bus_cannot_depart_with_open_door": true
+        },
+        "maximum_boarding_step_cm": 3.6666667461395264,
+        "boarding_directions": 2
+      }
+    },
+    {
+      "profile": "BlueprintFinalSeed2QA",
+      "status": "PASS",
+      "checks": [
+        {
+          "id": "rain_requires_developer_mode",
+          "passed": true
+        },
+        {
+          "id": "developer_console_command",
+          "passed": true
+        },
+        {
+          "id": "rain_on_immediately",
+          "passed": true
+        },
+        {
+          "id": "rain_off_immediately",
+          "passed": true
+        },
+        {
+          "id": "rain_automatic",
+          "passed": true
+        },
+        {
+          "id": "enter_traffic_car",
+          "passed": true
+        },
+        {
+          "id": "camera_ignores_own_car",
+          "passed": true
+        },
+        {
+          "id": "blueprint_inputs_reach_developer_car",
+          "passed": true
+        },
+        {
+          "id": "car_drives_from_input",
+          "passed": true
+        },
+        {
+          "id": "phone_stops_developer_car",
+          "passed": true
+        },
+        {
+          "id": "developer_car_stops_for_pedestrian",
+          "passed": true
+        },
+        {
+          "id": "developer_car_cannot_drive_through_wall",
+          "passed": true
+        },
+        {
+          "id": "blocked_exit_keeps_player_inside",
+          "passed": true
+        },
+        {
+          "id": "exit_does_not_cross_thin_wall",
+          "passed": true
+        },
+        {
+          "id": "safe_exit_restores_walking",
+          "passed": true
+        },
+        {
+          "id": "exit_restores_car_camera_collision",
+          "passed": true
+        },
+        {
+          "id": "bus_is_drivable",
+          "passed": true
+        },
+        {
+          "id": "varied_cars_taxis_and_buses_enter",
+          "passed": true
+        },
+        {
+          "id": "varied_cars_taxis_and_buses_exit",
+          "passed": true
+        },
+        {
+          "id": "F_enters_parked_car",
+          "passed": true
+        },
+        {
+          "id": "parked_car_is_drivable",
+          "passed": true
+        },
+        {
+          "id": "F_exits_parked_car",
+          "passed": true
+        },
+        {
+          "id": "traffic_stops_for_perpendicular_parked_car",
+          "passed": true
+        },
+        {
+          "id": "developer_exit_restores_balance",
+          "passed": true
+        },
+        {
+          "id": "legacy_developer_exit_restores_auto_weather",
+          "passed": true
+        },
+        {
+          "id": "typed_rain_code",
+          "passed": true
+        },
+        {
+          "id": "typed_clear_code",
+          "passed": true
+        },
+        {
+          "id": "typed_auto_weather_code",
+          "passed": true
+        },
+        {
+          "id": "typed_enter_car_code",
+          "passed": true
+        },
+        {
+          "id": "typed_exit_car_code",
+          "passed": true
+        },
+        {
+          "id": "typed_light_rain",
+          "passed": true
+        },
+        {
+          "id": "typed_hail_storm",
+          "passed": true
+        },
+        {
+          "id": "storm_has_hail",
+          "passed": true
+        },
+        {
+          "id": "storm_lightning_and_delayed_thunder",
+          "passed": true
+        },
+        {
+          "id": "hail_roof_occlusion",
+          "passed": true
+        },
+        {
+          "id": "clear_stops_hail_and_lightning",
+          "passed": true
+        },
+        {
+          "id": "typed_purple_bus_spawn",
+          "passed": true
+        },
+        {
+          "id": "purple_code_reuses_single_bus",
+          "passed": true
+        },
+        {
+          "id": "purple_bus_is_enterable",
+          "passed": true
+        },
+        {
+          "id": "typed_exit_developer_code",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/mixed_curb_and_street_parking",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/curb_parked_cars_follow_terrain",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/four_wheels_on_flat_ground",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/body_leans_on_cross_slope",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/parked_vehicle_retains_ground_lean",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/unsupported_wheels_rejected",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/car_door_hinge_moves",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/opening_door_preserves_wheel_pose",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/bus_door_faces_platform",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/bus_door_slides_open",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/passenger_waits_for_open_door",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/walks_into_bus_both_directions",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/walks_out_at_next_station",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/boarding_has_no_position_jump",
+          "passed": true
+        },
+        {
+          "id": "vehicle_dynamics/bus_cannot_depart_with_open_door",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/probability_matches_35_percent",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/no_weather_level_skipped",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/all_weather_types_occur",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/rain_intensifies_and_eases",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/seed_reproducible_for_testing",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/new_seed_changes_weather_sequence",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/developer_override_pauses_random_decisions",
+          "passed": true
+        },
+        {
+          "id": "dynamic_weather/automatic_resumes_current_storm",
+          "passed": true
+        }
+      ],
+      "dynamic_weather": {
+        "checks": {
+          "probability_matches_35_percent": true,
+          "no_weather_level_skipped": true,
+          "all_weather_types_occur": true,
+          "rain_intensifies_and_eases": true,
+          "seed_reproducible_for_testing": true,
+          "new_seed_changes_weather_sequence": true,
+          "developer_override_pauses_random_decisions": true,
+          "automatic_resumes_current_storm": true
+        },
+        "sampled_rain_start_probability": 0.3509500026702881,
+        "sampled_transitions": 80000,
+        "simulated_seconds": 86400,
+        "intensifications": 287,
+        "reductions": 285
+      },
+      "vehicle_dynamics": {
+        "checks": {
+          "mixed_curb_and_street_parking": true,
+          "curb_parked_cars_follow_terrain": true,
+          "four_wheels_on_flat_ground": true,
+          "body_leans_on_cross_slope": true,
+          "parked_vehicle_retains_ground_lean": true,
+          "unsupported_wheels_rejected": true,
+          "car_door_hinge_moves": true,
+          "opening_door_preserves_wheel_pose": true,
+          "bus_door_faces_platform": true,
+          "bus_door_slides_open": true,
+          "passenger_waits_for_open_door": true,
+          "walks_into_bus_both_directions": true,
+          "walks_out_at_next_station": true,
+          "boarding_has_no_position_jump": true,
+          "bus_cannot_depart_with_open_door": true
+        },
+        "maximum_boarding_step_cm": 3.6666667461395264,
+        "boarding_directions": 2
+      }
+    }
+  ],
+  "native_support_remaining": [
+    "Terrain queries and wheel support",
+    "Mesh and particle rendering",
+    "Mass traffic and pedestrian simulation",
+    "Editor authoring and validation utilities"
+  ],
+  "map_regression": {
+    "status": "PASS",
+    "profile": "BlueprintFinalMapQA",
+    "seconds": 600,
+    "report": "validacion_mapa_clima.json",
+    "checks": {
+      "pedestrian_vehicle_contact_samples": true,
+      "moving_vehicle_overlap_samples": true,
+      "pedestrian_close_contact_samples": true,
+      "parked_vehicle_overlap_samples": true,
+      "wall_penetration_samples": true,
+      "airborne_samples": true,
+      "invalid_positions": true,
+      "unplanned_stalls": true,
+      "static_vehicle_overlap_samples": true,
+      "illegal_crossings": true,
+      "right_hand_traffic": true,
+      "live_collision_control": true,
+      "all_vehicles_progress": true,
+      "vehicles_no_deadlock": true,
+      "crossings_continue": true,
+      "avoidance_scenarios": true,
+      "isolated_car_contacts": true,
+      "render_cadence": true,
+      "rain_transitions": true,
+      "rain_under_roofs": true,
+      "weather_policy": true
+    }
+  }
+}

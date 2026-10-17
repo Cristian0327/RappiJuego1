@@ -1,0 +1,372 @@
+{
+  "status": "PASS",
+  "police_blueprint": {
+    "asset": "/Game/Traffic/Services/BP_PoliceOfficer",
+    "parent": "/Script/Engine.Character",
+    "travel_cm": 7439.482422,
+    "maximum_turn_degrees": 94.007729,
+    "height_cm": 147.150002,
+    "minimum_player_clearance_cm": 229.739029,
+    "blocked_route_resumed": true
+  },
+  "patrol_blueprint": {
+    "asset": "/Game/Traffic/Services/BP_PoliceRoadPatrol",
+    "parent": "/Game/Traffic/Services/BP_VoxelRoadVehicle",
+    "state": "driving_blueprint_visible_seated_police_driver",
+    "count": 5
+  },
+  "npc_animation_migration": {
+    "parent": "/Script/Engine.AnimInstance",
+    "assets": [
+      "/Game/Delivery/Animation/ABP_Cashier.ABP_Cashier",
+      "/Game/Delivery/Animation/ABP_Chef.ABP_Chef",
+      "/Game/Delivery/Animation/ABP_TechClerk.ABP_TechClerk",
+      "/Game/Delivery/Animation/ABP_Pharmacist.ABP_Pharmacist",
+      "/Game/Delivery/Animation/ABP_Florist.ABP_Florist",
+      "/Game/Delivery/Animation/ABP_CustomerStudent.ABP_CustomerStudent",
+      "/Game/Delivery/Animation/ABP_CustomerOffice.ABP_CustomerOffice",
+      "/Game/Delivery/Animation/ABP_CustomerNeighbor.ABP_CustomerNeighbor"
+    ],
+    "runtime_samples": [
+      {
+        "role": "Cashier",
+        "phase": "walking",
+        "passed": true
+      },
+      {
+        "role": "Chef",
+        "phase": "walking",
+        "passed": true
+      },
+      {
+        "role": "TechClerk",
+        "phase": "walking",
+        "passed": true
+      },
+      {
+        "role": "Pharmacist",
+        "phase": "walking",
+        "passed": true
+      },
+      {
+        "role": "Florist",
+        "phase": "walking",
+        "passed": true
+      },
+      {
+        "role": "CustomerStudent",
+        "phase": "walking",
+        "passed": true
+      },
+      {
+        "role": "CustomerOffice",
+        "phase": "walking",
+        "passed": true
+      },
+      {
+        "role": "CustomerNeighbor",
+        "phase": "walking",
+        "passed": true
+      },
+      {
+        "role": "Cashier",
+        "phase": "idle",
+        "passed": true
+      },
+      {
+        "role": "Chef",
+        "phase": "idle",
+        "passed": true
+      },
+      {
+        "role": "TechClerk",
+        "phase": "idle",
+        "passed": true
+      },
+      {
+        "role": "Pharmacist",
+        "phase": "idle",
+        "passed": true
+      },
+      {
+        "role": "Florist",
+        "phase": "idle",
+        "passed": true
+      },
+      {
+        "role": "CustomerStudent",
+        "phase": "idle",
+        "passed": true
+      },
+      {
+        "role": "CustomerOffice",
+        "phase": "idle",
+        "passed": true
+      },
+      {
+        "role": "CustomerNeighbor",
+        "phase": "idle",
+        "passed": true
+      }
+    ]
+  },
+  "pending": [
+    "Full project migration: seven Blueprints still use custom native parent classes",
+    "Visible TransMilenio boarding, seating and alighting integration",
+    "Complete taxi lifecycle, rear doors and turn indicators"
+  ],
+  "final_regression": {
+    "profile": "DoorsAndAnimationRegressionQA",
+    "checks_passed": 65,
+    "temporary_test_assets_removed": true,
+    "material_compile_errors": 0
+  },
+  "new_services_runtime": {
+    "status": "PASS",
+    "duration_seconds": 90,
+    "criterion": "Cada vehículo recorre al menos el 50% de su distancia nominal; permite paradas en semáforos y cesión de paso. No certifica ausencia de todas las colisiones.",
+    "vehicles": [
+      {
+        "actor": "Moto_Civil_Sector_1_1",
+        "distance_cm": 52190.367188
+      },
+      {
+        "actor": "Moto_Civil_Sector_1_2",
+        "distance_cm": 57850.582031
+      },
+      {
+        "actor": "Moto_Policia_Sector_1_3",
+        "distance_cm": 49284.105469
+      },
+      {
+        "actor": "Patrulla_Sector_1_4",
+        "distance_cm": 40173.382812
+      },
+      {
+        "actor": "Moto_Civil_Sector_2_1",
+        "distance_cm": 52190.367188
+      },
+      {
+        "actor": "Moto_Civil_Sector_2_2",
+        "distance_cm": 57850.582031
+      },
+      {
+        "actor": "Moto_Policia_Sector_2_3",
+        "distance_cm": 49284.105469
+      },
+      {
+        "actor": "Patrulla_Sector_2_4",
+        "distance_cm": 40173.382812
+      },
+      {
+        "actor": "Moto_Civil_Sector_3_1",
+        "distance_cm": 52190.367188
+      },
+      {
+        "actor": "Moto_Civil_Sector_3_2",
+        "distance_cm": 57850.582031
+      },
+      {
+        "actor": "Moto_Policia_Sector_3_3",
+        "distance_cm": 49284.105469
+      },
+      {
+        "actor": "Patrulla_Sector_3_4",
+        "distance_cm": 40173.382812
+      },
+      {
+        "actor": "Moto_Civil_Sector_4_1",
+        "distance_cm": 52418.921875
+      },
+      {
+        "actor": "Moto_Civil_Sector_4_2",
+        "distance_cm": 57850.582031
+      },
+      {
+        "actor": "Moto_Policia_Sector_4_3",
+        "distance_cm": 49382.140625
+      },
+      {
+        "actor": "Patrulla_Sector_4_4",
+        "distance_cm": 40285.816406
+      },
+      {
+        "actor": "Moto_Civil_Sector_5_1",
+        "distance_cm": 52532.285156
+      },
+      {
+        "actor": "Moto_Civil_Sector_5_2",
+        "distance_cm": 53500.5
+      },
+      {
+        "actor": "Moto_Policia_Sector_5_3",
+        "distance_cm": 44033.089844
+      },
+      {
+        "actor": "Patrulla_Sector_5_4",
+        "distance_cm": 34158.789062
+      },
+      {
+        "actor": "Moto_Civil_Sector_6_1",
+        "distance_cm": 52190.367188
+      },
+      {
+        "actor": "Moto_Civil_Sector_6_2",
+        "distance_cm": 57850.582031
+      },
+      {
+        "actor": "Moto_Policia_Sector_6_3",
+        "distance_cm": 52190.367188
+      },
+      {
+        "actor": "Moto_Civil_Sector_6_4",
+        "distance_cm": 57850.582031
+      }
+    ],
+    "foot_officer_heights_cm": [
+      118.150003,
+      118.150001,
+      118.309446,
+      118.149997,
+      118.150001,
+      118.150001,
+      118.150001,
+      118.187106,
+      118.149999,
+      118.309463,
+      118.150001,
+      118.187106,
+      118.309466,
+      118.150002,
+      118.150003,
+      118.150003,
+      118.309466,
+      118.150002,
+      118.149997,
+      118.309443,
+      118.150004,
+      118.309446,
+      118.149997,
+      118.309442
+    ],
+    "blueprint_runtime_errors": [],
+    "log": "../../work/FinalAnimationServicesQA.log",
+    "scope": "24 nuevos vehículos y 24 policías. No certifica la migración completa del tráfico original."
+  },
+  "animation_assets_validated": 29,
+  "riding_contacts": {
+    "status": "PASS",
+    "clips": [
+      {
+        "clip": "HeroBikePedal",
+        "frames_checked": 31,
+        "maximum_sole_support_error_cm": 1.9740848401283984e-05,
+        "maximum_seat_contact_error_cm": 2.6744232177734375,
+        "signed_seat_min": -2.6744232177734375,
+        "signed_seat_max": -2.3891067504882812,
+        "maximum_reverse_knee_cm": -4.053441524505615
+      },
+      {
+        "clip": "HeroMotoRide",
+        "frames_checked": 31,
+        "maximum_sole_support_error_cm": 1.1444091796875e-05,
+        "maximum_seat_contact_error_cm": 2.70831298828125,
+        "signed_seat_min": -2.70831298828125,
+        "signed_seat_max": -2.70831298828125,
+        "maximum_reverse_knee_cm": -13.713607788085938
+      },
+      {
+        "clip": "CrowdMotoRide",
+        "frames_checked": 60,
+        "maximum_sole_support_error_cm": 3.814697265625e-06,
+        "maximum_seat_contact_error_cm": 2.5493392944335938,
+        "signed_seat_min": -2.5493392944335938,
+        "signed_seat_max": -2.5493392944335938,
+        "maximum_reverse_knee_cm": -14.939130783081055
+      }
+    ]
+  },
+  "all_police_driver_fit": {
+    "status": "PASS",
+    "models": [
+      {
+        "model": "SK_PoliceOfficer",
+        "roof_limit_cm": 180,
+        "max_head_cm": 169.59823608398438,
+        "minimum_foot_cm": 36.749961853027344,
+        "fits_roof": true,
+        "feet_above_floor": true
+      },
+      {
+        "model": "SK_PoliceOfficerMale02",
+        "roof_limit_cm": 180,
+        "max_head_cm": 174.05633544921875,
+        "minimum_foot_cm": 36.749961853027344,
+        "fits_roof": true,
+        "feet_above_floor": true
+      },
+      {
+        "model": "SK_PoliceOfficerFemale01",
+        "roof_limit_cm": 180,
+        "max_head_cm": 178.514404296875,
+        "minimum_foot_cm": 36.749961853027344,
+        "fits_roof": true,
+        "feet_above_floor": true
+      },
+      {
+        "model": "SK_PoliceOfficerFemale02",
+        "roof_limit_cm": 180,
+        "max_head_cm": 174.05633544921875,
+        "minimum_foot_cm": 36.749961853027344,
+        "fits_roof": true,
+        "feet_above_floor": true
+      }
+    ]
+  },
+  "material_slots_verified": {
+    "slots": [
+      {
+        "slot": "ServiceVoxel",
+        "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+      },
+      {
+        "slot": "ServiceWindow",
+        "material": "/Game/Traffic/Services/M_ServiceWindow.M_ServiceWindow"
+      }
+    ],
+    "child_defaults": {
+      "BP_VoxelRoadVehicle": {
+        "RiderModel": "<Object '/Game/Crowd/People/SK_Citizen12.SK_Citizen12' (0x000001A71B7D6E00) Class 'SkeletalMesh'>",
+        "RiderAnimation": "<Object '/Game/Traffic/Services/AN_MotorcycleRider.AN_MotorcycleRider' (0x000001A71C684600) Class 'AnimSequence'>",
+        "RiderMaterial": "<Object '/Game/Crowd/MI_Crowd.MI_Crowd' (0x000001A71ABE8000) Class 'MaterialInstanceConstant'>"
+      },
+      "BP_PoliceRoadPatrol": {
+        "RiderModel": "<Object '/Game/Traffic/Services/SK_PoliceOfficer.SK_PoliceOfficer' (0x000001A7157FC800) Class 'SkeletalMesh'>",
+        "RiderAnimation": "<Object '/Game/Traffic/Services/AN_PatrolDriver.AN_PatrolDriver' (0x000001A719F57700) Class 'AnimSequence'>",
+        "RiderMaterial": "<Object '/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel' (0x000001A70B5B6200) Class 'Material'>"
+      }
+    },
+    "window_blend": "<BlendMode.BLEND_TRANSLUCENT: 2>"
+  },
+  "removed_overlap": "MotorcycleParts 1..5 hidden by Blueprint BeginPlay; Blender mesh 0 remains visible",
+  "developer_doors": {
+    "status": "PASS",
+    "checks": {
+      "REQUIRES_DEVELOPER": true,
+      "CAR_OPEN": true,
+      "CAR_CLOSED": true,
+      "DISABLE_CLEANS_UP": true,
+      "BUS_OPEN": true,
+      "BUS_CLOSED": true,
+      "MOVEMENT_CLOSES": true,
+      "MOVEMENT_RELEASES_CONTROL": true,
+      "NO_VEHICLE_NO_CONTROLLER": true
+    },
+    "profile": "DeveloperDoorsVerifiedQA",
+    "command": "PUERTAS",
+    "blueprint": "/Game/Delivery/Developer/BP_DeveloperVehicleDoors",
+    "parent": "/Script/Engine.Actor",
+    "custom_native_function_calls": 0,
+    "scope": "Developer visual inspection on stationary vehicles; automatic passenger lifecycle remains pending."
+  }
+}

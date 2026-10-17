@@ -1,0 +1,877 @@
+{
+  "status": "PASS",
+  "counts": {
+    "foot_police": 24,
+    "civil_motorcycles": 13,
+    "police_motorcycles": 6,
+    "road_patrols": 5
+  },
+  "actors": [
+    {
+      "label": "Policia_Sector_01",
+      "kind": "foot_police",
+      "route": [
+        [
+          -34580.0,
+          -20550.0,
+          155.0
+        ],
+        [
+          -25420.0,
+          -20550.0,
+          155.0
+        ],
+        [
+          -25420.0,
+          -12450.0,
+          155.0
+        ],
+        [
+          -34580.0,
+          -12450.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_02",
+      "kind": "foot_police",
+      "route": [
+        [
+          -22580.0,
+          -20550.0,
+          155.0
+        ],
+        [
+          -13420.0,
+          -20550.0,
+          155.0
+        ],
+        [
+          -13420.0,
+          -12450.0,
+          155.0
+        ],
+        [
+          -22580.0,
+          -12450.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_03",
+      "kind": "foot_police",
+      "route": [
+        [
+          -10580.0,
+          -20550.0,
+          155.0
+        ],
+        [
+          -1420.0,
+          -20550.0,
+          155.0
+        ],
+        [
+          -1420.0,
+          -12450.0,
+          155.0
+        ],
+        [
+          -10580.0,
+          -12450.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_04",
+      "kind": "foot_police",
+      "route": [
+        [
+          1420.0,
+          -20550.0,
+          155.0
+        ],
+        [
+          10580.0,
+          -20550.0,
+          155.0
+        ],
+        [
+          10580.0,
+          -12450.0,
+          155.0
+        ],
+        [
+          1420.0,
+          -12450.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_05",
+      "kind": "foot_police",
+      "route": [
+        [
+          13420.0,
+          -20550.0,
+          155.0
+        ],
+        [
+          22580.0,
+          -20550.0,
+          155.0
+        ],
+        [
+          22580.0,
+          -12450.0,
+          155.0
+        ],
+        [
+          13420.0,
+          -12450.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_06",
+      "kind": "foot_police",
+      "route": [
+        [
+          25420.0,
+          -20550.0,
+          155.0
+        ],
+        [
+          34580.0,
+          -20550.0,
+          155.0
+        ],
+        [
+          34580.0,
+          -12450.0,
+          155.0
+        ],
+        [
+          25420.0,
+          -12450.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_07",
+      "kind": "foot_police",
+      "route": [
+        [
+          -34580.0,
+          -9550.0,
+          155.0
+        ],
+        [
+          -25420.0,
+          -9550.0,
+          155.0
+        ],
+        [
+          -25420.0,
+          -1850.0,
+          155.0
+        ],
+        [
+          -34580.0,
+          -1850.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_08",
+      "kind": "foot_police",
+      "route": [
+        [
+          -22580.0,
+          -9550.0,
+          155.0
+        ],
+        [
+          -13420.0,
+          -9550.0,
+          155.0
+        ],
+        [
+          -13420.0,
+          -1850.0,
+          155.0
+        ],
+        [
+          -22580.0,
+          -1850.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_09",
+      "kind": "foot_police",
+      "route": [
+        [
+          -10580.0,
+          -9550.0,
+          155.0
+        ],
+        [
+          -1420.0,
+          -9550.0,
+          155.0
+        ],
+        [
+          -1420.0,
+          -1850.0,
+          155.0
+        ],
+        [
+          -10580.0,
+          -1850.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_10",
+      "kind": "foot_police",
+      "route": [
+        [
+          1420.0,
+          -9550.0,
+          155.0
+        ],
+        [
+          10580.0,
+          -9550.0,
+          155.0
+        ],
+        [
+          10580.0,
+          -1850.0,
+          155.0
+        ],
+        [
+          1420.0,
+          -1850.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_11",
+      "kind": "foot_police",
+      "route": [
+        [
+          13420.0,
+          -9550.0,
+          155.0
+        ],
+        [
+          22580.0,
+          -9550.0,
+          155.0
+        ],
+        [
+          22580.0,
+          -1850.0,
+          155.0
+        ],
+        [
+          13420.0,
+          -1850.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_12",
+      "kind": "foot_police",
+      "route": [
+        [
+          25420.0,
+          -9550.0,
+          155.0
+        ],
+        [
+          34580.0,
+          -9550.0,
+          155.0
+        ],
+        [
+          34580.0,
+          -1850.0,
+          155.0
+        ],
+        [
+          25420.0,
+          -1850.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_13",
+      "kind": "foot_police",
+      "route": [
+        [
+          -34580.0,
+          1850.0,
+          155.0
+        ],
+        [
+          -25420.0,
+          1850.0,
+          155.0
+        ],
+        [
+          -25420.0,
+          9550.0,
+          155.0
+        ],
+        [
+          -34580.0,
+          9550.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_14",
+      "kind": "foot_police",
+      "route": [
+        [
+          -22580.0,
+          1850.0,
+          155.0
+        ],
+        [
+          -13420.0,
+          1850.0,
+          155.0
+        ],
+        [
+          -13420.0,
+          9550.0,
+          155.0
+        ],
+        [
+          -22580.0,
+          9550.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_15",
+      "kind": "foot_police",
+      "route": [
+        [
+          -10580.0,
+          1850.0,
+          155.0
+        ],
+        [
+          -1420.0,
+          1850.0,
+          155.0
+        ],
+        [
+          -1420.0,
+          9550.0,
+          155.0
+        ],
+        [
+          -10580.0,
+          9550.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_16",
+      "kind": "foot_police",
+      "route": [
+        [
+          1420.0,
+          1850.0,
+          155.0
+        ],
+        [
+          10580.0,
+          1850.0,
+          155.0
+        ],
+        [
+          10580.0,
+          9550.0,
+          155.0
+        ],
+        [
+          1420.0,
+          9550.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_17",
+      "kind": "foot_police",
+      "route": [
+        [
+          13420.0,
+          1850.0,
+          155.0
+        ],
+        [
+          22580.0,
+          1850.0,
+          155.0
+        ],
+        [
+          22580.0,
+          9550.0,
+          155.0
+        ],
+        [
+          13420.0,
+          9550.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_18",
+      "kind": "foot_police",
+      "route": [
+        [
+          25420.0,
+          1850.0,
+          155.0
+        ],
+        [
+          34580.0,
+          1850.0,
+          155.0
+        ],
+        [
+          34580.0,
+          9550.0,
+          155.0
+        ],
+        [
+          25420.0,
+          9550.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_19",
+      "kind": "foot_police",
+      "route": [
+        [
+          -34580.0,
+          12450.0,
+          155.0
+        ],
+        [
+          -25420.0,
+          12450.0,
+          155.0
+        ],
+        [
+          -25420.0,
+          20550.0,
+          155.0
+        ],
+        [
+          -34580.0,
+          20550.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_20",
+      "kind": "foot_police",
+      "route": [
+        [
+          -22580.0,
+          12450.0,
+          155.0
+        ],
+        [
+          -13420.0,
+          12450.0,
+          155.0
+        ],
+        [
+          -13420.0,
+          20550.0,
+          155.0
+        ],
+        [
+          -22580.0,
+          20550.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_21",
+      "kind": "foot_police",
+      "route": [
+        [
+          -10580.0,
+          12450.0,
+          155.0
+        ],
+        [
+          -1420.0,
+          12450.0,
+          155.0
+        ],
+        [
+          -1420.0,
+          20550.0,
+          155.0
+        ],
+        [
+          -10580.0,
+          20550.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_22",
+      "kind": "foot_police",
+      "route": [
+        [
+          1420.0,
+          12450.0,
+          155.0
+        ],
+        [
+          10580.0,
+          12450.0,
+          155.0
+        ],
+        [
+          10580.0,
+          20550.0,
+          155.0
+        ],
+        [
+          1420.0,
+          20550.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_23",
+      "kind": "foot_police",
+      "route": [
+        [
+          13420.0,
+          12450.0,
+          155.0
+        ],
+        [
+          22580.0,
+          12450.0,
+          155.0
+        ],
+        [
+          22580.0,
+          20550.0,
+          155.0
+        ],
+        [
+          13420.0,
+          20550.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Policia_Sector_24",
+      "kind": "foot_police",
+      "route": [
+        [
+          25420.0,
+          12450.0,
+          155.0
+        ],
+        [
+          34580.0,
+          12450.0,
+          155.0
+        ],
+        [
+          34580.0,
+          20550.0,
+          155.0
+        ],
+        [
+          25420.0,
+          20550.0,
+          155.0
+        ]
+      ]
+    },
+    {
+      "label": "Moto_Civil_Sector_1_1",
+      "kind": "civil_motorcycles",
+      "initial_position": [
+        -580.0,
+        12687.043314593557,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Civil_Sector_1_2",
+      "kind": "civil_motorcycles",
+      "initial_position": [
+        -2187.043314593553,
+        21420.0,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Policia_Sector_1_3",
+      "kind": "police_motorcycles",
+      "initial_position": [
+        -11420.0,
+        20312.956685406454,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Patrulla_Sector_1_4",
+      "kind": "road_patrols",
+      "initial_position": [
+        -9812.956685406452,
+        11580.0,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Civil_Sector_2_1",
+      "kind": "civil_motorcycles",
+      "initial_position": [
+        -24580.0,
+        12687.043314593557,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Civil_Sector_2_2",
+      "kind": "civil_motorcycles",
+      "initial_position": [
+        -26187.043314593553,
+        21420.0,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Policia_Sector_2_3",
+      "kind": "police_motorcycles",
+      "initial_position": [
+        -35420.0,
+        20312.956685406436,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Patrulla_Sector_2_4",
+      "kind": "road_patrols",
+      "initial_position": [
+        -33812.95668540643,
+        11580.0,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Civil_Sector_3_1",
+      "kind": "civil_motorcycles",
+      "initial_position": [
+        35420.0,
+        12687.043314593557,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Civil_Sector_3_2",
+      "kind": "civil_motorcycles",
+      "initial_position": [
+        33812.95668540645,
+        21420.0,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Policia_Sector_3_3",
+      "kind": "police_motorcycles",
+      "initial_position": [
+        24580.0,
+        20312.956685406454,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Patrulla_Sector_3_4",
+      "kind": "road_patrols",
+      "initial_position": [
+        26187.043314593546,
+        11580.0,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Civil_Sector_4_1",
+      "kind": "civil_motorcycles",
+      "initial_position": [
+        -12580.0,
+        -20312.956685406443,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Civil_Sector_4_2",
+      "kind": "civil_motorcycles",
+      "initial_position": [
+        -14187.043314593551,
+        -11580.0,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Policia_Sector_4_3",
+      "kind": "police_motorcycles",
+      "initial_position": [
+        -23420.0,
+        -12687.043314593551,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Patrulla_Sector_4_4",
+      "kind": "road_patrols",
+      "initial_position": [
+        -21812.956685406443,
+        -21420.0,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Civil_Sector_5_1",
+      "kind": "civil_motorcycles",
+      "initial_position": [
+        11420.0,
+        -20312.956685406443,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Civil_Sector_5_2",
+      "kind": "civil_motorcycles",
+      "initial_position": [
+        9812.956685406441,
+        -11580.0,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Policia_Sector_5_3",
+      "kind": "police_motorcycles",
+      "initial_position": [
+        580.0,
+        -12687.043314593562,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Patrulla_Sector_5_4",
+      "kind": "road_patrols",
+      "initial_position": [
+        2187.043314593573,
+        -21420.0,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Civil_Sector_6_1",
+      "kind": "civil_motorcycles",
+      "initial_position": [
+        23420.0,
+        1687.0433145935572,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Civil_Sector_6_2",
+      "kind": "civil_motorcycles",
+      "initial_position": [
+        21812.95668540644,
+        10420.0,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Policia_Sector_6_3",
+      "kind": "police_motorcycles",
+      "initial_position": [
+        12580.0,
+        9312.95668540644,
+        180.0
+      ],
+      "route_points": 52
+    },
+    {
+      "label": "Moto_Civil_Sector_6_4",
+      "kind": "civil_motorcycles",
+      "initial_position": [
+        14187.04331459357,
+        580.0,
+        180.0
+      ],
+      "route_points": 52
+    }
+  ],
+  "runtime_integration": "PASS",
+  "runtime_validation_report": "validacion_circulacion_servicios_final.json"
+}

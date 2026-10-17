@@ -21,12 +21,4 @@ void UDeliveryAnimInstance::NativeUpdateAnimation(float Dt){
  }
  UpdateMotion(Input,Dt);
 }
-void UDeliveryAnimInstance::UpdateMotion_Implementation(FDeliveryMotionInput Motion,float Dt){
- Walking=Motion.Speed>(Motion.HasRider?(Walking?8.f:25.f):(Walking?3.f:8.f));Mounted=Motion.Riding;Motorcycle=Motion.Moto;
- Jumping=!Mounted&&(Motion.Falling||Motion.LandingTime>0);
- const float Rate=Motion.HasRider?Motion.TargetWalkRate:FMath::Clamp(Motion.Speed/50.f,.3f,1.6f);
- WalkRate=FMath::FInterpTo(WalkRate,Rate,Dt,Motion.WalkResponse);
- PedalTime=FMath::Fmod(Motion.CrankAngle/(2*PI),1.f)*Motion.PedalLength;
- const float Phase=Motion.Falling?FMath::GetMappedRangeValueClamped(FVector2D(Motion.JumpVelocity,-Motion.JumpVelocity),FVector2D(.30f,.70f),Motion.VerticalSpeed):FMath::Lerp(.70f,1.f,FMath::Clamp(1.f-Motion.LandingTime/.18f,0.f,1.f));
- JumpTime=FMath::Clamp(Phase,0.f,1.f)*Motion.JumpLength;
-}
+

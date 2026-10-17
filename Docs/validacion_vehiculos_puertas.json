@@ -1,0 +1,470 @@
+{
+  "vehicle_dynamics": {
+    "checks": {
+      "four_wheels_on_flat_ground": true,
+      "body_leans_on_cross_slope": true,
+      "parked_vehicle_retains_ground_lean": true,
+      "unsupported_wheels_rejected": true,
+      "car_door_hinge_moves": true,
+      "opening_door_preserves_wheel_pose": true,
+      "bus_door_faces_platform": true,
+      "bus_door_slides_open": true,
+      "passenger_waits_for_open_door": true,
+      "walks_into_bus_both_directions": true,
+      "walks_out_at_next_station": true,
+      "boarding_has_no_position_jump": true,
+      "bus_cannot_depart_with_open_door": true
+    },
+    "maximum_boarding_step_cm": 3.6666667461395264,
+    "boarding_directions": 2
+  },
+  "checks": [
+    {
+      "id": "rain_requires_developer_mode",
+      "passed": true
+    },
+    {
+      "id": "developer_console_command",
+      "passed": true
+    },
+    {
+      "id": "rain_on_immediately",
+      "passed": true
+    },
+    {
+      "id": "rain_off_immediately",
+      "passed": true
+    },
+    {
+      "id": "rain_automatic",
+      "passed": true
+    },
+    {
+      "id": "enter_traffic_car",
+      "passed": true
+    },
+    {
+      "id": "camera_ignores_own_car",
+      "passed": true
+    },
+    {
+      "id": "blueprint_inputs_reach_developer_car",
+      "passed": true
+    },
+    {
+      "id": "car_drives_from_input",
+      "passed": true
+    },
+    {
+      "id": "phone_stops_developer_car",
+      "passed": true
+    },
+    {
+      "id": "developer_car_stops_for_pedestrian",
+      "passed": true
+    },
+    {
+      "id": "developer_car_cannot_drive_through_wall",
+      "passed": true
+    },
+    {
+      "id": "blocked_exit_keeps_player_inside",
+      "passed": true
+    },
+    {
+      "id": "exit_does_not_cross_thin_wall",
+      "passed": true
+    },
+    {
+      "id": "safe_exit_restores_walking",
+      "passed": true
+    },
+    {
+      "id": "exit_restores_car_camera_collision",
+      "passed": true
+    },
+    {
+      "id": "bus_is_drivable",
+      "passed": true
+    },
+    {
+      "id": "varied_cars_taxis_and_buses_enter",
+      "passed": true
+    },
+    {
+      "id": "varied_cars_taxis_and_buses_exit",
+      "passed": true
+    },
+    {
+      "id": "F_enters_parked_car",
+      "passed": true
+    },
+    {
+      "id": "parked_car_is_drivable",
+      "passed": true
+    },
+    {
+      "id": "F_exits_parked_car",
+      "passed": true
+    },
+    {
+      "id": "traffic_stops_for_perpendicular_parked_car",
+      "passed": true
+    },
+    {
+      "id": "developer_exit_restores_balance",
+      "passed": true
+    },
+    {
+      "id": "legacy_developer_exit_restores_auto_weather",
+      "passed": true
+    },
+    {
+      "id": "typed_rain_code",
+      "passed": true
+    },
+    {
+      "id": "typed_clear_code",
+      "passed": true
+    },
+    {
+      "id": "typed_auto_weather_code",
+      "passed": true
+    },
+    {
+      "id": "typed_enter_car_code",
+      "passed": true
+    },
+    {
+      "id": "typed_exit_car_code",
+      "passed": true
+    },
+    {
+      "id": "typed_light_rain",
+      "passed": true
+    },
+    {
+      "id": "typed_hail_storm",
+      "passed": true
+    },
+    {
+      "id": "storm_has_hail",
+      "passed": true
+    },
+    {
+      "id": "storm_lightning_and_delayed_thunder",
+      "passed": true
+    },
+    {
+      "id": "hail_roof_occlusion",
+      "passed": true
+    },
+    {
+      "id": "clear_stops_hail_and_lightning",
+      "passed": true
+    },
+    {
+      "id": "typed_purple_bus_spawn",
+      "passed": true
+    },
+    {
+      "id": "purple_code_reuses_single_bus",
+      "passed": true
+    },
+    {
+      "id": "purple_bus_is_enterable",
+      "passed": true
+    },
+    {
+      "id": "typed_exit_developer_code",
+      "passed": true
+    }
+  ],
+  "pedestrians": {
+    "visible_npcs_with_animation_throttling": 0,
+    "moving_render_frames": 116,
+    "render_frames": 120,
+    "maximum_render_step_cm": 1.8666672706604004,
+    "hitch_time_loss_cm": 9.5367431640625e-06,
+    "confined_sidewalk_scenarios": 2,
+    "yielded_without_entering_road": 2,
+    "resumed_after_player_leaves": 2,
+    "road_intrusion_frames": 0,
+    "minimum_player_clearance_cm": 143.55856323242188,
+    "maximum_waiting_turn_degrees": 0
+  },
+  "status": "PASS",
+  "engine": "5.8.3",
+  "date": "2026-10-15",
+  "visual": {
+    "curb_lean_degrees": 6.188,
+    "bus_door_open": 1.0,
+    "passenger_inside": true
+  },
+  "geometry": [
+    {
+      "mesh": "SK_Private",
+      "door_faces": {
+        "door_L": 105,
+        "door_R": 105
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateAveo",
+      "door_faces": {
+        "door_L": 101,
+        "door_R": 101
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateBeetle",
+      "door_faces": {
+        "door_L": 109,
+        "door_R": 109
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateChevette",
+      "door_faces": {
+        "door_L": 110,
+        "door_R": 111
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateClio",
+      "door_faces": {
+        "door_L": 99,
+        "door_R": 100
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateHatch",
+      "door_faces": {
+        "door_L": 112,
+        "door_R": 115
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateMazda323",
+      "door_faces": {
+        "door_L": 89,
+        "door_R": 89
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivatePicanto",
+      "door_faces": {
+        "door_L": 93,
+        "door_R": 95
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivatePickup",
+      "door_faces": {
+        "door_L": 55,
+        "door_R": 55
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivatePrado",
+      "door_faces": {
+        "door_R": 55,
+        "door_L": 55
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateRenault12",
+      "door_faces": {
+        "door_L": 105,
+        "door_R": 105
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateRenault4",
+      "door_faces": {
+        "door_L": 73,
+        "door_R": 73
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateRenault9",
+      "door_faces": {
+        "door_L": 102,
+        "door_R": 102
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateSandero",
+      "door_faces": {
+        "door_L": 92,
+        "door_R": 94
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateSingleCab",
+      "door_faces": {
+        "door_L": 136,
+        "door_R": 141
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateSprint",
+      "door_faces": {
+        "door_L": 84,
+        "door_R": 86
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateSUV",
+      "door_faces": {
+        "door_R": 93,
+        "door_L": 90
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateVan",
+      "door_faces": {
+        "door_L": 44,
+        "door_R": 44
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateVitara",
+      "door_faces": {
+        "door_L": 86,
+        "door_R": 88
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_PrivateWagon",
+      "door_faces": {
+        "door_L": 70,
+        "door_R": 74
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_TaxiCompact",
+      "door_faces": {
+        "door_L": 119,
+        "door_R": 122
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_TaxiSedan",
+      "door_faces": {
+        "door_L": 103,
+        "door_R": 103
+      },
+      "bones": [
+        "door_L",
+        "door_R"
+      ]
+    },
+    {
+      "mesh": "SK_TransMilenio",
+      "door_faces": {
+        "bus_door_b": 56,
+        "bus_door_a": 49
+      },
+      "bones": [
+        "bus_door_a",
+        "bus_door_b"
+      ]
+    },
+    {
+      "mesh": "SK_TransMilenioG66",
+      "door_faces": {
+        "bus_door_b": 56,
+        "bus_door_a": 49
+      },
+      "bones": [
+        "bus_door_a",
+        "bus_door_b"
+      ]
+    }
+  ]
+}

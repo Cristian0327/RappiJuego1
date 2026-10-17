@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": {
+    "REQUIRES_DEVELOPER": true,
+    "CAR_OPEN": true,
+    "CAR_CLOSED": true,
+    "DISABLE_CLEANS_UP": true,
+    "BUS_OPEN": true,
+    "BUS_CLOSED": true,
+    "MOVEMENT_CLOSES": true,
+    "MOVEMENT_RELEASES_CONTROL": true,
+    "NO_VEHICLE_NO_CONTROLLER": true
+  },
+  "profile": "DeveloperDoorsVerifiedQA",
+  "command": "PUERTAS",
+  "blueprint": "/Game/Delivery/Developer/BP_DeveloperVehicleDoors",
+  "parent": "/Script/Engine.Actor",
+  "custom_native_function_calls": 0,
+  "scope": "Developer visual inspection on stationary vehicles; automatic passenger lifecycle remains pending."
+}

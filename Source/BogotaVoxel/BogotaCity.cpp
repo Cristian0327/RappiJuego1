@@ -1,4 +1,7 @@
 #include "DeliverySystem.h"
+#include "Misc/FileHelper.h"
+#include "Misc/Paths.h"
+#include "UnrealClient.h"
 #include "EngineUtils.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/PointLightComponent.h"
@@ -9,6 +12,7 @@
 #include "Camera/CameraActor.h"
 #include "GameFramework/PlayerController.h"
 #include "BogotaGame.h"
+#include "GameFramework/SpringArmComponent.h"
 #include "Components/HierarchicalInstancedStaticMeshComponent.h"
 #include "Components/InstancedStaticMeshComponent.h"
 #include "Components/TextRenderComponent.h"
@@ -153,7 +157,7 @@ void ABogotaCity::BuildLandmarks(){
  for(int32 S:{-1,1}){Block(Church+FVector(S*1250,0,1450),FVector(600,1300,2900),Ochre);for(int32 L=0;L<4;L++)Block(Church+FVector(S*1250,0,2950+L*100),FVector(650-L*140,650-L*140,120),Charcoal);Block(Church+FVector(S*1250,-670,2500),FVector(240,30,400),Charcoal,false);}
  for(int32 I=-2;I<=2;I++){Block(Church+FVector(I*520,-690,950),FVector(140,150,1900),White);Block(Church+FVector(I*520,-700,320),FVector(260,30,600),Trunk,false);}
  for(int32 L=0;L<5;L++)Block(Church+FVector(0,-710,2050+L*110),FVector(2100-L*400,160,120),Cream,false);
- Building(-10200,16500,1600,6000,3,0,R);Building(-1500,16500,1400,6000,3,0,R);
+ Building(-9700,16500,1600,6000,3,0,R);Building(-2100,16500,1400,6000,3,0,R);
  Label(TEXT("PLAZA DE BOLIVAR"),FVector(-6000,15100,240),145);
  Label(TEXT("LA CANDELARIA"),FVector(-3500,19300,2400),190);
  // Colpatria's stepped crown is visible across the city.
@@ -216,28 +220,29 @@ void ABogotaCity::BuildMapMetadata(){
  for(int32 PaletteIndex:{Concrete,Brick,Ochre,Cream})if(Solid.IsValidIndex(PaletteIndex))for(int32 I=0;I<Solid[PaletteIndex]->GetInstanceCount();I++){FTransform T;if(!Solid[PaletteIndex]->GetInstanceTransform(I,T,true))continue;FVector Size=T.GetScale3D().GetAbs()*100,At=T.GetLocation();if(Size.X<1000||Size.Y<1000||Size.Z<250||At.Z<100)continue;FMapFootprint F;F.Center=FVector(At.X,At.Y,0);F.Extent=FVector2D(Size.X*.5,Size.Y*.5);MapFootprints.Add(F);}
 }
 
-FString ABogotaCity::DistrictAt(FVector P) const {if(P.Y>27000)return TEXT("Cerros orientales");if(P.X<-22000)return P.Y<-21000?TEXT("Ciudad Bolivar"):TEXT("Sur / Restrepo");if(P.X<1000)return P.Y>11000?TEXT("Centro / La Candelaria"):TEXT("Centro");if(P.X<24000)return TEXT("Chapinero / Parque 93");return TEXT("Norte / Usaquen");}
-void ABogotaCity::AdvanceTime(){float Old=CycleSeconds;CycleSeconds=FMath::Fmod(CycleSeconds+360,1440);if(CycleSeconds<Old)GameDay++;UpdateLighting();UpdateTrafficNight();}
+
 void ABogotaCity::UpdateLighting(){
  // 16 real minutes from 06:00 to 18:00, 8 minutes from 18:00 back to 06:00.
- float Phase=FMath::Fmod(CycleSeconds,1440.f);Hour=Phase<960?6+Phase/80:FMath::Fmod(18+(Phase-960)/40,24.f);
+ Hour=HourForCycle(CycleSeconds);
  // The sun completes a full orbit, including below the horizon at night.
  float SolarAngle=(Hour-6.f)/24.f*360.f;float Elev=FMath::Sin(FMath::DegreesToRadians(SolarAngle));
  float DayMix=FMath::SmoothStep(-.08f,.2f,Elev),Twilight=1-FMath::SmoothStep(.02f,.4f,FMath::Abs(Elev));
  FVector SunDirection(FMath::Cos(FMath::DegreesToRadians(SolarAngle))*.8f,FMath::Cos(FMath::DegreesToRadians(SolarAngle))*.6f,Elev);
  FVector LightDirection=Elev>=0?-SunDirection:SunDirection;
- Sun->SetActorRotation(LightDirection.Rotation());Sun->GetLightComponent()->SetIntensity(Elev>0?6.f*(.3f+.7f*Elev):.22f);
+ Sun->SetActorRotation(LightDirection.Rotation());Sun->GetLightComponent()->SetIntensity((Elev>0?6.f*(.3f+.7f*Elev):.22f)*(1.f-.55f*RainIntensity));
  FLinearColor Warm(1,.44f,.19f),Noon(1,.95f,.85f),Night(.32f,.45f,.75f);
  Sun->GetLightComponent()->SetLightColor(Elev>=0?FMath::Lerp(Warm,Noon,FMath::Clamp(Elev*2,0.f,1.f)):Night);
  Ambient->GetLightComponent()->SetIntensity(.55f+DayMix*2.45f);
  Ambient->GetLightComponent()->SetLightColor(FMath::Lerp(FLinearColor(.38f,.48f,.72f),FLinearColor(.86f,.92f,1),DayMix));
  FLinearColor Horizon=FMath::Lerp(FLinearColor(.012f,.02f,.055f),FLinearColor(.28f,.56f,.92f),DayMix);
  Horizon=FMath::Lerp(Horizon,FLinearColor(.9f,.24f,.075f),Twilight*.72f);
- if(SkyMaterial){SkyMaterial->SetVectorParameterValue(TEXT("Horizon"),Horizon);SkyMaterial->SetVectorParameterValue(TEXT("Zenith"),FMath::Lerp(FLinearColor(.002f,.004f,.018f),FLinearColor(.025f,.16f,.5f),DayMix));
+ Horizon=FMath::Lerp(Horizon,FMath::Lerp(FLinearColor(.016,.025,.045),FLinearColor(.24,.31,.39),DayMix),RainIntensity*.8f);
+ if(SkyMaterial){SkyMaterial->SetVectorParameterValue(TEXT("Horizon"),Horizon);SkyMaterial->SetVectorParameterValue(TEXT("Zenith"),FMath::Lerp(FLinearColor(.002f,.004f,.018f),FLinearColor(.025f,.16f,.5f),DayMix)*(1.f-.5f*RainIntensity));
   SkyMaterial->SetVectorParameterValue(TEXT("SunDir"),FLinearColor(SunDirection));SkyMaterial->SetVectorParameterValue(TEXT("MoonDir"),FLinearColor(-SunDirection));
   SkyMaterial->SetScalarParameterValue(TEXT("Daylight"),DayMix);SkyMaterial->SetScalarParameterValue(TEXT("Twilight"),Twilight);SkyMaterial->SetScalarParameterValue(TEXT("Night"),1-DayMix);SkyMaterial->SetScalarParameterValue(TEXT("CloudTime"),Elapsed);
  }
  if(GlowMaterial)GlowMaterial->SetScalarParameterValue(TEXT("GlowStrength"),FMath::Lerp(3.f,.15f,DayMix));
+ Fog->GetComponent()->SetFogDensity(.00012f+RainIntensity*.0006f);
  Fog->GetComponent()->SetFogInscatteringColor(FMath::Lerp(FLinearColor(.025f,.035f,.07f),FLinearColor(.37f,.53f,.7f),DayMix));
 
 }
@@ -252,7 +257,49 @@ void ABogotaCity::UpdateSignals(){
  for(auto& S:SignalLights)S->MarkRenderStateDirty();
 }
 void ABogotaCity::Tick(float Dt){
- Super::Tick(Dt);Elapsed+=Dt;
+ Super::Tick(Dt);Elapsed+=Dt;UpdateWeather(Dt);
+ if(FParse::Param(FCommandLine::Get(),TEXT("VehicleDynamicsVisualCheck")))TickVehicleDynamicsVisualCheck();
+ if(FParse::Param(FCommandLine::Get(),TEXT("DeveloperCarVisualCheck"))){
+  static int32 Stage=0;if(auto* P=Cast<ABogotaPlayer>(UGameplayStatics::GetPlayerPawn(this,0))){
+   if(Elapsed>3&&Stage==0){P->BogDev(true);if(FParse::Param(FCommandLine::Get(),TEXT("PurpleBusVisualCheck"))){P->SpawnPurpleBus();P->BogCar(P->DeveloperPurpleBusIndex);}else P->BogCar(0);Stage=1;}
+   if(Stage>0)P->SetDeliveryDriveInput(.35f,false);
+   if(Elapsed>8&&Stage==1){FScreenshotRequest::RequestScreenshot(FPaths::ProjectSavedDir()/TEXT("Screenshots/Developer_Carro.png"),false,false);Stage=2;}
+   if(Elapsed>10&&Stage==2){P->BogRain(1);Stage=3;}
+   if(Elapsed>15&&Stage==3){FScreenshotRequest::RequestScreenshot(FPaths::ProjectSavedDir()/TEXT("Screenshots/Developer_Carro_Lluvia.png"),false,false);Stage=4;}
+   if(Elapsed>18)FGenericPlatformMisc::RequestExit(false);
+  }
+ }
+ if(FParse::Param(FCommandLine::Get(),TEXT("WeatherLevelsVisualCheck"))){
+  static int32 Stage=0;static bool FlashCaptured=false;
+  if(auto* P=Cast<ABogotaPlayer>(UGameplayStatics::GetPlayerPawn(this,0))){
+   if(Elapsed>3&&Stage==0){P->BogDev(true);P->BogCar(4);P->CameraBoom->TargetArmLength=1100;if(auto* Paint=Cast<UMaterialInstanceDynamic>(Vehicles[4].Visual->GetMaterial(0)))Paint->SetVectorParameterValue(TEXT("BodyPaint"),FLinearColor(.25f,.53f,.72f));if(auto* Controller=Cast<APlayerController>(P->GetController()))Controller->SetControlRotation(FRotator(-12,Vehicles[4].Heading+60,0));P->BogRain(2);Stage=1;}
+   if(Elapsed>8&&Stage==1){FScreenshotRequest::RequestScreenshot(FPaths::ProjectSavedDir()/TEXT("Screenshots/Lluvia_Leve.png"),false,false);Stage=2;}
+   if(Elapsed>10&&Stage==2){P->BogRain(1);Stage=3;}
+   if(Elapsed>13&&Stage==3){FScreenshotRequest::RequestScreenshot(FPaths::ProjectSavedDir()/TEXT("Screenshots/Lluvia_Normal.png"),false,false);Stage=4;}
+   if(Elapsed>15&&Stage==4){P->BogRain(3);Stage=5;}
+   if(Elapsed>20&&Stage==5){FScreenshotRequest::RequestScreenshot(FPaths::ProjectSavedDir()/TEXT("Screenshots/Granizo.png"),false,false);Stage=6;}
+   if(Stage>=5&&LightningFlash>.5f&&!FlashCaptured){FScreenshotRequest::RequestScreenshot(FPaths::ProjectSavedDir()/TEXT("Screenshots/Relampago.png"),false,false);FlashCaptured=true;}
+   if(Elapsed>29){FString Report=FString::Printf(TEXT("{\"hail_intensity\":%.2f,\"hail_particles\":%d,\"lightning_events\":%d,\"thunder_events\":%d,\"flash_captured\":%s}"),HailIntensity,HailDrops.Num(),LightningEvents,ThunderEvents,FlashCaptured?TEXT("true"):TEXT("false"));FFileHelper::SaveStringToFile(Report,*(FPaths::ProjectSavedDir()/TEXT("weather_visual_validation.json")));FGenericPlatformMisc::RequestExit(false);}
+  }
+ }
+ if(FParse::Param(FCommandLine::Get(),TEXT("NpcDeveloperTest"))&&Elapsed>3){
+  if(auto* P=Cast<ABogotaPlayer>(UGameplayStatics::GetPlayerPawn(this,0))){FString Report=P->ValidateDeveloperTools();FFileHelper::SaveStringToFile(Report,*(FPaths::ProjectSavedDir()/TEXT("npc_developer_validation.json")));UE_LOG(LogTemp,Display,TEXT("NPC_DEVELOPER_REPORT %s"),*Report);FGenericPlatformMisc::RequestExit(false);return;}
+ }
+ if(FParse::Param(FCommandLine::Get(),TEXT("RainVisualCheck"))){
+  static ACameraActor* WeatherCamera=nullptr;static int32 Shots=0;
+  if(auto* PC=GetWorld()->GetFirstPlayerController()){
+   if(!WeatherCamera){WeatherCamera=GetWorld()->SpawnActor<ACameraActor>();WeatherCamera->SetActorLocationAndRotation(FVector(-7200,13400,450),FRotator(-3,80,0));WeatherCamera->GetCameraComponent()->SetFieldOfView(80);}PC->SetViewTarget(WeatherCamera);
+   if(Elapsed>30&&Shots==0){FScreenshotRequest::RequestScreenshot(FPaths::ProjectSavedDir()/TEXT("Screenshots/Clima_Lluvia_Dia.png"),false,false);Shots++;}
+   if(Elapsed>33)CycleSeconds=1200;
+   if(Elapsed>42&&Shots==1){FScreenshotRequest::RequestScreenshot(FPaths::ProjectSavedDir()/TEXT("Screenshots/Clima_Lluvia_Noche.png"),false,false);Shots++;}
+   if(Elapsed>45)FGenericPlatformMisc::RequestExit(false);
+  }
+ }
+ if(FParse::Param(FCommandLine::Get(),TEXT("MapRouteTest"))&&Elapsed>3){
+  float Seconds=600;FParse::Value(FCommandLine::Get(),TEXT("MapAuditSeconds="),Seconds);
+  FString Report=ValidateMapRoutes(Seconds);FFileHelper::SaveStringToFile(Report,*(FPaths::ProjectSavedDir()/TEXT("map_routes_validation.json")));UE_LOG(LogTemp,Display,TEXT("MAP_ROUTES_REPORT %s"),*Report);FGenericPlatformMisc::RequestExit(false);return;
+ }
+
  if(FParse::Param(FCommandLine::Get(),TEXT("StoreCrowdVisualCheck"))&&Elapsed>2){
   static ACameraActor* StoreCamera=nullptr;static int32 Captured=0;int32 Shot=Elapsed<9?0:Elapsed<15?1:2;
   ADeliveryPoint* Shop=nullptr;for(TActorIterator<ADeliveryPoint> It(GetWorld());It;++It)if(It->WalkingCustomers.Num()>0&&(Shot!=0||It->StoreKind==2)&&(Shot!=1||It->StoreKind==1)){Shop=*It;break;}
@@ -325,14 +372,30 @@ void ABogotaCity::Tick(float Dt){
   }else CheckCamera->SetActorLocationAndRotation(Eye,(A.Position+FVector(0,0,75)-Eye).Rotation());
   if(auto* PC=GetWorld()->GetFirstPlayerController()){PC->SetViewTarget(CheckCamera);if((Captured==0&&Elapsed>6)||(Captured==1&&Elapsed>10)||(Captured==2&&Elapsed>14)||(Captured==3&&Elapsed>19)){PC->ConsoleCommand(TEXT("HighResShot 1280x720"));Captured++;}}
  }
-float OldCycle=CycleSeconds;CycleSeconds=FMath::Fmod(CycleSeconds+Dt*24/FMath::Max(1.f,CycleMinutes),1440.f);if(CycleSeconds<OldCycle)GameDay++;LightAccumulator+=Dt;SimAccumulator+=Dt;PedAccumulator+=Dt;
+AdvanceClock(Dt);LightAccumulator+=Dt;SimAccumulator+=Dt;PedAccumulator+=Dt;
  if(LightAccumulator>.25f){UpdateLighting();UpdateSignals();UpdateTrafficNight();LightAccumulator=0;}
  // Preserve elapsed time and render between fixed simulation states.
  constexpr float TrafficStep=1.f/30;int32 TrafficSteps=0;
  while(SimAccumulator>=TrafficStep&&TrafficSteps++<15){SimulateTraffic(TrafficStep);SimAccumulator-=TrafficStep;}
  UpdateTrafficVisuals(FMath::Clamp(SimAccumulator/TrafficStep,0.f,1.f));
- if(PedAccumulator>=.066f){SimulateWalkers(FMath::Min(PedAccumulator,.2f));PedAccumulator=0;}
+ constexpr float PedStep=1.f/15;int32 PedSteps=0;
+ while(PedAccumulator>=PedStep&&PedSteps++<4){SimulateWalkers(PedStep);PedAccumulator-=PedStep;}
+ UpdateWalkerVisuals(FMath::Clamp(PedAccumulator/PedStep,0.f,1.f));
+ UpdateParkedDoors(Dt);
+ if(FParse::Param(FCommandLine::Get(),TEXT("DeveloperCarVisualCheck"))){
+  static int32 LastIndex=INDEX_NONE,Frames=0,MovingFrames=0;static FVector Last;static float MinCameraDistance=1e9;
+  if(Elapsed>6)if(auto* P=Cast<ABogotaPlayer>(UGameplayStatics::GetPlayerPawn(this,0)))if(P->DeveloperCarIndex!=INDEX_NONE)MinCameraDistance=FMath::Min(MinCameraDistance,float(FVector::Dist(P->GetActorLocation(),P->Camera->GetComponentLocation())));
+  int32 Index=INDEX_NONE;for(int32 I=0;I<Walkers.Num();I++){const auto& W=Walkers[I];if(W.Visual.IsValid()&&!W.Visual->IsHidden()&&W.Activity==EPedActivity::Walking&&W.Velocity.Size2D()>50&&!W.YieldingToPlayer){Index=I;break;}}
+  if(Index!=INDEX_NONE){FVector At=Walkers[Index].Visual->GetActorLocation();if(Index==LastIndex){Frames++;if(FVector::Dist2D(Last,At)>.05f)MovingFrames++;}Last=At;}LastIndex=Index;
+  if(Elapsed>18){FString Report=FString::Printf(TEXT("{\"tracked_render_frames\":%d,\"moving_render_frames\":%d,\"minimum_car_camera_distance_cm\":%.2f}"),Frames,MovingFrames,MinCameraDistance);FFileHelper::SaveStringToFile(Report,*(FPaths::ProjectSavedDir()/TEXT("npc_live_render_validation.json")));}
+ }
+
 }
+
+
+
+
+void ABogotaCity::RefreshWorldLighting(){UpdateLighting();UpdateTrafficNight();}
 
 
 

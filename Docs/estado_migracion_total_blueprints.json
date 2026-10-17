@@ -1,0 +1,446 @@
+{
+  "status": "IN_PROGRESS",
+  "complete": false,
+  "completed": [
+    {
+      "system": "GameMode",
+      "blueprint": "/Game/Delivery/Core/BP_DeliveryGameMode",
+      "parent": "/Script/Engine.GameModeBase",
+      "gameplay_native_calls": 0
+    },
+    {
+      "system": "Developer code recognition",
+      "blueprint": "/Game/Delivery/Core/BPC_DeliveryGameplay",
+      "function": "DeveloperKey",
+      "native_vehicle_backend_remaining": true
+    },
+    {
+      "system": "Mouse steering input",
+      "blueprint": "/Game/Delivery/Vehicles/BP_DeliveryRider",
+      "function": "DeveloperDriveInput",
+      "native_vehicle_backend_remaining": true
+    },
+    {
+      "system": "Sunny weather rebalancing",
+      "blueprint": "/Game/World/BP_BogotaCity",
+      "clear_weather_fraction_observed": 0.796329365079365
+    },
+    {
+      "system": "NPC animation runtime",
+      "assets": [
+        "/Game/Delivery/Animation/ABP_Cashier.ABP_Cashier",
+        "/Game/Delivery/Animation/ABP_Chef.ABP_Chef",
+        "/Game/Delivery/Animation/ABP_TechClerk.ABP_TechClerk",
+        "/Game/Delivery/Animation/ABP_Pharmacist.ABP_Pharmacist",
+        "/Game/Delivery/Animation/ABP_Florist.ABP_Florist",
+        "/Game/Delivery/Animation/ABP_CustomerStudent.ABP_CustomerStudent",
+        "/Game/Delivery/Animation/ABP_CustomerOffice.ABP_CustomerOffice",
+        "/Game/Delivery/Animation/ABP_CustomerNeighbor.ABP_CustomerNeighbor"
+      ],
+      "parent": "/Script/Engine.AnimInstance",
+      "runtime_checks_passed": 16
+    },
+    {
+      "system": "Police character runtime",
+      "blueprint": "/Game/Traffic/Services/BP_PoliceOfficer",
+      "parent": "/Script/Engine.Character",
+      "player_avoidance_test": "PASS"
+    },
+    {
+      "system": "Service voxel Blender models",
+      "count": 13,
+      "editable_blend_files": true,
+      "motorcycle_runtime_pending": false
+    },
+    {
+      "system": "City police and motorcycle traffic",
+      "blueprint": "/Game/Traffic/Services/BP_VoxelRoadVehicle",
+      "parent": "/Script/Engine.Character",
+      "civil_motorcycles": 13,
+      "police_motorcycles": 6,
+      "patrols": 5,
+      "foot_police": 24,
+      "runtime_90_seconds": "PASS"
+    },
+    {
+      "system": "Developer stationary vehicle door inspection",
+      "blueprint": "/Game/Delivery/Developer/BP_DeveloperVehicleDoors",
+      "parent": "/Script/Engine.Actor",
+      "custom_native_function_calls": 0,
+      "typed_command": "PUERTAS",
+      "runtime_checks_passed": 9
+    },
+    {
+      "system": "NPC bicycle/motorcycle owner lifecycle",
+      "blueprint": "/Game/Traffic/Services/BP_TwoWheelerCitizen",
+      "parent": "/Script/Engine.Character",
+      "gameplay_native_calls": 0,
+      "states": [
+        "ride",
+        "park",
+        "dismount",
+        "walk",
+        "mount"
+      ],
+      "new_cpp_source": false
+    }
+  ],
+  "remaining_inherited_blueprints": [
+    {
+      "asset": "/Game/Delivery/Orders/BP_DeliveryBuilding.BP_DeliveryBuilding",
+      "native_parent": "/Script/BogotaVoxel.DeliveryPoint"
+    },
+    {
+      "asset": "/Game/World/BP_BogotaCity.BP_BogotaCity",
+      "native_parent": "/Script/BogotaVoxel.BogotaCity"
+    },
+    {
+      "asset": "/Game/Delivery/Orders/BP_VoxelCustomer.BP_VoxelCustomer",
+      "native_parent": "/Script/BogotaVoxel.DeliveryRecipient"
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "native_parent": "/Script/BogotaVoxel.DeliveryComponent"
+    },
+    {
+      "asset": "/Game/Delivery/Animation/ABP_DeliveryRider.ABP_DeliveryRider",
+      "native_parent": "/Script/BogotaVoxel.DeliveryAnimInstance"
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "native_parent": "/Script/BogotaVoxel.DeliveryPhoneWidget"
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_DeliveryRider.BP_DeliveryRider",
+      "native_parent": "/Script/BogotaVoxel.BogotaPlayer"
+    }
+  ],
+  "native_data_structures": [
+    "FMapFootprint",
+    "FDeliveryMotionInput",
+    "FDeliveryUpgrade",
+    "FDeliveryShopTheme",
+    "FDeliveryOrder",
+    "FActiveDelivery",
+    "FDeliveryVehicleSpec"
+  ],
+  "native_enums": [
+    "EDeliveryState",
+    "EDeliveryVehicle",
+    "EUpgradeEffect"
+  ],
+  "source_native_classes": [
+    "ABogotaCity",
+    "ABogotaPlayer",
+    "ABogotaHUD",
+    "ABogotaGameMode",
+    "UDeliveryAnimInstance",
+    "UDeliverySave",
+    "UDeliveryInteractable",
+    "ADeliveryPoint",
+    "ADeliveryRecipient",
+    "UDeliveryComponent",
+    "ADeliveryVehiclePreview",
+    "UDeliveryChoiceButton",
+    "UDeliveryMapWidget",
+    "UDeliveryPhoneWidget"
+  ],
+  "pending_systems": [
+    "Player movement, camera, riding and developer input",
+    "Traffic, pedestrians, taxis, vehicle doors and terrain support",
+    "City runtime lifecycle and weather rendering",
+    "Delivery lifecycle, resource loading and save serialization",
+    "Phone, map, HUD and vehicle preview UI",
+    "Animation input gathering and data types",
+    "Editor tooling and final project module removal"
+  ],
+  "acceptance": [
+    "All runtime Blueprints derive from engine or Blueprint classes",
+    "No asset or config dependency on /Script/BogotaVoxel or /Script/BogotaVoxelEditor",
+    "No custom project modules, DLLs or C++ source required to open and play",
+    "Gameplay, map, weather, pedestrian, vehicle and UI regression checks pass"
+  ],
+  "removed_modules": false,
+  "recovery_directory": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\Recuperacion_Migracion_Blueprints",
+  "verification": {
+    "status": "PASS",
+    "profile": "PureGameModeFinalQA",
+    "checks_passed": 63,
+    "city_instances": 1,
+    "blueprint_compile_warnings": 0,
+    "checks": [
+      {
+        "id": "rain_requires_developer_mode",
+        "passed": true
+      },
+      {
+        "id": "developer_console_command",
+        "passed": true
+      },
+      {
+        "id": "rain_on_immediately",
+        "passed": true
+      },
+      {
+        "id": "rain_off_immediately",
+        "passed": true
+      },
+      {
+        "id": "rain_automatic",
+        "passed": true
+      },
+      {
+        "id": "enter_traffic_car",
+        "passed": true
+      },
+      {
+        "id": "camera_ignores_own_car",
+        "passed": true
+      },
+      {
+        "id": "blueprint_inputs_reach_developer_car",
+        "passed": true
+      },
+      {
+        "id": "car_drives_from_input",
+        "passed": true
+      },
+      {
+        "id": "phone_stops_developer_car",
+        "passed": true
+      },
+      {
+        "id": "developer_car_stops_for_pedestrian",
+        "passed": true
+      },
+      {
+        "id": "developer_car_cannot_drive_through_wall",
+        "passed": true
+      },
+      {
+        "id": "blocked_exit_keeps_player_inside",
+        "passed": true
+      },
+      {
+        "id": "exit_does_not_cross_thin_wall",
+        "passed": true
+      },
+      {
+        "id": "safe_exit_restores_walking",
+        "passed": true
+      },
+      {
+        "id": "exit_restores_car_camera_collision",
+        "passed": true
+      },
+      {
+        "id": "bus_is_drivable",
+        "passed": true
+      },
+      {
+        "id": "varied_cars_taxis_and_buses_enter",
+        "passed": true
+      },
+      {
+        "id": "varied_cars_taxis_and_buses_exit",
+        "passed": true
+      },
+      {
+        "id": "F_enters_parked_car",
+        "passed": true
+      },
+      {
+        "id": "parked_car_is_drivable",
+        "passed": true
+      },
+      {
+        "id": "F_exits_parked_car",
+        "passed": true
+      },
+      {
+        "id": "traffic_stops_for_perpendicular_parked_car",
+        "passed": true
+      },
+      {
+        "id": "developer_exit_restores_balance",
+        "passed": true
+      },
+      {
+        "id": "legacy_developer_exit_restores_auto_weather",
+        "passed": true
+      },
+      {
+        "id": "typed_rain_code",
+        "passed": true
+      },
+      {
+        "id": "typed_clear_code",
+        "passed": true
+      },
+      {
+        "id": "typed_auto_weather_code",
+        "passed": true
+      },
+      {
+        "id": "typed_enter_car_code",
+        "passed": true
+      },
+      {
+        "id": "typed_exit_car_code",
+        "passed": true
+      },
+      {
+        "id": "typed_light_rain",
+        "passed": true
+      },
+      {
+        "id": "typed_hail_storm",
+        "passed": true
+      },
+      {
+        "id": "storm_has_hail",
+        "passed": true
+      },
+      {
+        "id": "storm_lightning_and_delayed_thunder",
+        "passed": true
+      },
+      {
+        "id": "hail_roof_occlusion",
+        "passed": true
+      },
+      {
+        "id": "clear_stops_hail_and_lightning",
+        "passed": true
+      },
+      {
+        "id": "typed_purple_bus_spawn",
+        "passed": true
+      },
+      {
+        "id": "purple_code_reuses_single_bus",
+        "passed": true
+      },
+      {
+        "id": "purple_bus_is_enterable",
+        "passed": true
+      },
+      {
+        "id": "typed_exit_developer_code",
+        "passed": true
+      },
+      {
+        "id": "vehicle_dynamics/mixed_curb_and_street_parking",
+        "passed": true
+      },
+      {
+        "id": "vehicle_dynamics/curb_parked_cars_follow_terrain",
+        "passed": true
+      },
+      {
+        "id": "vehicle_dynamics/four_wheels_on_flat_ground",
+        "passed": true
+      },
+      {
+        "id": "vehicle_dynamics/body_leans_on_cross_slope",
+        "passed": true
+      },
+      {
+        "id": "vehicle_dynamics/parked_vehicle_retains_ground_lean",
+        "passed": true
+      },
+      {
+        "id": "vehicle_dynamics/unsupported_wheels_rejected",
+        "passed": true
+      },
+      {
+        "id": "vehicle_dynamics/car_door_hinge_moves",
+        "passed": true
+      },
+      {
+        "id": "vehicle_dynamics/opening_door_preserves_wheel_pose",
+        "passed": true
+      },
+      {
+        "id": "vehicle_dynamics/bus_door_faces_platform",
+        "passed": true
+      },
+      {
+        "id": "vehicle_dynamics/bus_door_slides_open",
+        "passed": true
+      },
+      {
+        "id": "vehicle_dynamics/passenger_waits_for_open_door",
+        "passed": true
+      },
+      {
+        "id": "vehicle_dynamics/walks_into_bus_both_directions",
+        "passed": true
+      },
+      {
+        "id": "vehicle_dynamics/walks_out_at_next_station",
+        "passed": true
+      },
+      {
+        "id": "vehicle_dynamics/boarding_has_no_position_jump",
+        "passed": true
+      },
+      {
+        "id": "vehicle_dynamics/bus_cannot_depart_with_open_door",
+        "passed": true
+      },
+      {
+        "id": "dynamic_weather/probability_matches_35_percent",
+        "passed": true
+      },
+      {
+        "id": "dynamic_weather/no_weather_level_skipped",
+        "passed": true
+      },
+      {
+        "id": "dynamic_weather/all_weather_types_occur",
+        "passed": true
+      },
+      {
+        "id": "dynamic_weather/rain_intensifies_and_eases",
+        "passed": true
+      },
+      {
+        "id": "dynamic_weather/seed_reproducible_for_testing",
+        "passed": true
+      },
+      {
+        "id": "dynamic_weather/new_seed_changes_weather_sequence",
+        "passed": true
+      },
+      {
+        "id": "dynamic_weather/developer_override_pauses_random_decisions",
+        "passed": true
+      },
+      {
+        "id": "dynamic_weather/automatic_resumes_current_storm",
+        "passed": true
+      }
+    ]
+  },
+  "pending_requested_features": [
+    "Visible bus passengers walking to a seat and remaining on board",
+    "Complete Blueprint-only migration and removal of custom C++ modules",
+    "Taxi hailing, journeys and rear passenger doors",
+    "Police NPCs, patrol cars and civilian/police motorcycles with riders",
+    "Reproduce and correct remaining traffic and door failures",
+    "Developer door control",
+    "Diagnose and correct knee direction in walking animation",
+    "Vehicle turn indicators"
+  ],
+  "latest_verification": {
+    "regression_profile": "DoorsAndAnimationRegressionQA",
+    "checks_passed": 65,
+    "npc_animation_checks_passed": 16,
+    "police_obstacle_profile": "PoliceAvoidanceQA",
+    "report": "validacion_servicios_y_animaciones_blueprints.json",
+    "developer_door_checks_passed": 9,
+    "animation_assets_validated": 29
+  },
+  "runtime_blueprints_compiled": 26
+}

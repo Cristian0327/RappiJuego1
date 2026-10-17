@@ -1,0 +1,64 @@
+{
+  "asset": "/Game/Delivery/Core/BP_DeliveryGameMode.BP_DeliveryGameMode",
+  "parent": "/Script/Engine.GameModeBase",
+  "graphs": [
+    {
+      "name": "UserConstructionScript",
+      "nodes": 1,
+      "function_owner": "/Script/Engine.Actor",
+      "bytecode": 0,
+      "pins": [
+        "K2Node_FunctionEntry.then= links:0"
+      ],
+      "native_calls": []
+    },
+    {
+      "name": "ReceiveBeginPlay",
+      "nodes": 8,
+      "function_owner": "/Game/Delivery/Core/BP_DeliveryGameMode.BP_DeliveryGameMode_C",
+      "bytecode": 376,
+      "pins": [
+        "K2Node_FunctionEntry.then= links:1",
+        "K2Node_FunctionResult.execute= links:2",
+        "K2Node_CallFunction.execute= links:1",
+        "K2Node_CallFunction.then= links:1",
+        "K2Node_CallFunction.self= links:0",
+        "K2Node_CallFunction.WorldContextObject= links:0",
+        "K2Node_CallFunction.ActorClass= links:0",
+        "K2Node_CallFunction.ReturnValue= links:1",
+        "K2Node_CallFunction.self= links:0",
+        "K2Node_CallFunction.Object= links:1",
+        "K2Node_CallFunction.ReturnValue=false links:1",
+        "K2Node_IfThenElse.execute= links:1",
+        "K2Node_IfThenElse.Condition=true links:1",
+        "K2Node_IfThenElse.then= links:1",
+        "K2Node_IfThenElse.else= links:1",
+        "K2Node_CallFunction.self= links:0",
+        "K2Node_CallFunction.Location=0, 0, 0 links:0",
+        "K2Node_CallFunction.Rotation=0, 0, 0 links:0",
+        "K2Node_CallFunction.Scale=(X=1,Y=1,Z=1) links:0",
+        "K2Node_CallFunction.ReturnValue= links:2",
+        "K2Node_CallFunction.execute= links:1",
+        "K2Node_CallFunction.then= links:1",
+        "K2Node_CallFunction.self= links:0",
+        "K2Node_CallFunction.WorldContextObject= links:0",
+        "K2Node_CallFunction.ActorClass= links:0",
+        "K2Node_CallFunction.SpawnTransform= links:1",
+        "K2Node_CallFunction.CollisionHandlingOverride=AlwaysSpawn links:0",
+        "K2Node_CallFunction.Owner= links:0",
+        "K2Node_CallFunction.TransformScaleMethod=MultiplyWithRoot links:0",
+        "K2Node_CallFunction.ReturnValue= links:1",
+        "K2Node_CallFunction.execute= links:1",
+        "K2Node_CallFunction.then= links:1",
+        "K2Node_CallFunction.self= links:0",
+        "K2Node_CallFunction.Actor= links:1",
+        "K2Node_CallFunction.SpawnTransform= links:1",
+        "K2Node_CallFunction.TransformScaleMethod=MultiplyWithRoot links:0",
+        "K2Node_CallFunction.ReturnValue= links:0"
+      ],
+      "native_calls": []
+    }
+  ],
+  "logic_nodes": 9,
+  "compiled": true
+}

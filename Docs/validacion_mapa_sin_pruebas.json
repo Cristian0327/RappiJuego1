@@ -1,0 +1,126 @@
+{
+  "qa_actors_in_playable_map": [],
+  "vehicles": [
+    {
+      "label": "Moto_Civil_Sector_1_1",
+      "class": "/Game/Traffic/Services/BP_CivilMotorcycle.BP_CivilMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Moto_Civil_Sector_1_2",
+      "class": "/Game/Traffic/Services/BP_CivilMotorcycle.BP_CivilMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Moto_Policia_Sector_1_3",
+      "class": "/Game/Traffic/Services/BP_PoliceMotorcycle.BP_PoliceMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Patrulla_Sector_1_4",
+      "class": "/Game/Traffic/Services/BP_PoliceRoadPatrol.BP_PoliceRoadPatrol_C",
+      "speed": 580.0
+    },
+    {
+      "label": "Moto_Civil_Sector_2_1",
+      "class": "/Game/Traffic/Services/BP_CivilMotorcycle.BP_CivilMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Moto_Civil_Sector_2_2",
+      "class": "/Game/Traffic/Services/BP_CivilMotorcycle.BP_CivilMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Moto_Policia_Sector_2_3",
+      "class": "/Game/Traffic/Services/BP_PoliceMotorcycle.BP_PoliceMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Patrulla_Sector_2_4",
+      "class": "/Game/Traffic/Services/BP_PoliceRoadPatrol.BP_PoliceRoadPatrol_C",
+      "speed": 580.0
+    },
+    {
+      "label": "Moto_Civil_Sector_3_1",
+      "class": "/Game/Traffic/Services/BP_CivilMotorcycle.BP_CivilMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Moto_Civil_Sector_3_2",
+      "class": "/Game/Traffic/Services/BP_CivilMotorcycle.BP_CivilMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Moto_Policia_Sector_3_3",
+      "class": "/Game/Traffic/Services/BP_PoliceMotorcycle.BP_PoliceMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Patrulla_Sector_3_4",
+      "class": "/Game/Traffic/Services/BP_PoliceRoadPatrol.BP_PoliceRoadPatrol_C",
+      "speed": 580.0
+    },
+    {
+      "label": "Moto_Civil_Sector_4_1",
+      "class": "/Game/Traffic/Services/BP_CivilMotorcycle.BP_CivilMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Moto_Civil_Sector_4_2",
+      "class": "/Game/Traffic/Services/BP_CivilMotorcycle.BP_CivilMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Moto_Policia_Sector_4_3",
+      "class": "/Game/Traffic/Services/BP_PoliceMotorcycle.BP_PoliceMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Patrulla_Sector_4_4",
+      "class": "/Game/Traffic/Services/BP_PoliceRoadPatrol.BP_PoliceRoadPatrol_C",
+      "speed": 580.0
+    },
+    {
+      "label": "Moto_Civil_Sector_5_1",
+      "class": "/Game/Traffic/Services/BP_CivilMotorcycle.BP_CivilMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Moto_Civil_Sector_5_2",
+      "class": "/Game/Traffic/Services/BP_CivilMotorcycle.BP_CivilMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Moto_Policia_Sector_5_3",
+      "class": "/Game/Traffic/Services/BP_PoliceMotorcycle.BP_PoliceMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Patrulla_Sector_5_4",
+      "class": "/Game/Traffic/Services/BP_PoliceRoadPatrol.BP_PoliceRoadPatrol_C",
+      "speed": 580.0
+    },
+    {
+      "label": "Moto_Civil_Sector_6_1",
+      "class": "/Game/Traffic/Services/BP_CivilMotorcycle.BP_CivilMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Moto_Civil_Sector_6_2",
+      "class": "/Game/Traffic/Services/BP_CivilMotorcycle.BP_CivilMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Moto_Policia_Sector_6_3",
+      "class": "/Game/Traffic/Services/BP_PoliceMotorcycle.BP_PoliceMotorcycle_C",
+      "speed": 650.0
+    },
+    {
+      "label": "Moto_Civil_Sector_6_4",
+      "class": "/Game/Traffic/Services/BP_CivilMotorcycle.BP_CivilMotorcycle_C",
+      "speed": 650.0
+    }
+  ],
+  "cameras": []
+}

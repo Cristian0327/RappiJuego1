@@ -1,0 +1,253 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "id": "twelve_paint_colors",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_0",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_1",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_2",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_3",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_4",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_5",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_6",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_7",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_8",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_9",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_10",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_11",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_12",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_13",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_14",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_15",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_16",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_17",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_18",
+      "passed": true
+    },
+    {
+      "id": "same_model_different_paint_19",
+      "passed": true
+    },
+    {
+      "id": "signal_ns_0",
+      "passed": true
+    },
+    {
+      "id": "signal_ew_0",
+      "passed": true
+    },
+    {
+      "id": "signal_ns_12.99",
+      "passed": true
+    },
+    {
+      "id": "signal_ew_12.99",
+      "passed": true
+    },
+    {
+      "id": "signal_ns_13",
+      "passed": true
+    },
+    {
+      "id": "signal_ew_13",
+      "passed": true
+    },
+    {
+      "id": "signal_ns_15.99",
+      "passed": true
+    },
+    {
+      "id": "signal_ew_15.99",
+      "passed": true
+    },
+    {
+      "id": "signal_ns_16",
+      "passed": true
+    },
+    {
+      "id": "signal_ew_16",
+      "passed": true
+    },
+    {
+      "id": "signal_ns_28.99",
+      "passed": true
+    },
+    {
+      "id": "signal_ew_28.99",
+      "passed": true
+    },
+    {
+      "id": "signal_ns_29",
+      "passed": true
+    },
+    {
+      "id": "signal_ew_29",
+      "passed": true
+    },
+    {
+      "id": "signal_ns_31.99",
+      "passed": true
+    },
+    {
+      "id": "signal_ew_31.99",
+      "passed": true
+    },
+    {
+      "id": "signal_ns_32",
+      "passed": true
+    },
+    {
+      "id": "signal_ew_32",
+      "passed": true
+    },
+    {
+      "id": "signal_ns_48",
+      "passed": true
+    },
+    {
+      "id": "signal_ew_48",
+      "passed": true
+    },
+    {
+      "id": "clock_hour_0",
+      "passed": true
+    },
+    {
+      "id": "clock_hour_180",
+      "passed": true
+    },
+    {
+      "id": "clock_hour_480",
+      "passed": true
+    },
+    {
+      "id": "clock_hour_960",
+      "passed": true
+    },
+    {
+      "id": "clock_hour_1200",
+      "passed": true
+    },
+    {
+      "id": "clock_hour_1439",
+      "passed": true
+    },
+    {
+      "id": "clock_hour_1440",
+      "passed": true
+    },
+    {
+      "id": "day_wrap",
+      "passed": true
+    },
+    {
+      "id": "district_Cerros orientales",
+      "passed": true
+    },
+    {
+      "id": "district_Ciudad Bolivar",
+      "passed": true
+    },
+    {
+      "id": "district_Sur / Restrepo",
+      "passed": true
+    },
+    {
+      "id": "district_Centro / La Candelaria",
+      "passed": true
+    },
+    {
+      "id": "district_Centro",
+      "passed": true
+    },
+    {
+      "id": "district_Chapinero / Parque 93",
+      "passed": true
+    },
+    {
+      "id": "district_Norte / Usaquen",
+      "passed": true
+    },
+    {
+      "id": "all_blueprints_compiled",
+      "passed": true
+    },
+    {
+      "id": "no_legacy_wrapper_graphs",
+      "passed": true
+    }
+  ],
+  "removed_legacy_graphs": [
+    "GenerateIncomingOffer",
+    "ConfirmOffer",
+    "StartInteractionHold",
+    "ConfirmPickup",
+    "ConfirmDelivery",
+    "BuyUpgrade",
+    "IgnoreIncomingOffer",
+    "CancelHold",
+    "OpenClosePhone",
+    "ChangeVehicle",
+    "RefreshVehicleStats",
+    "SaveProgress"
+  ],
+  "blueprints": 16,
+  "logic_nodes": 2207
+}

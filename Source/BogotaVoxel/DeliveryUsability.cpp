@@ -45,6 +45,10 @@ void UDeliveryComponent::UpdateUsabilityValidation(float Dt){
   GetWorld()->GetTimerManager().SetTimerForNextTick([](){FPlatformMisc::RequestExit(false);});return;
  }
  if(ValidationStage==0&&ValidationTime>3){
+  P->TogglePause();Check(P->Paused&&UGameplayStatics::IsGamePaused(this),TEXT("blueprint_pause_stops_game"));P->TogglePause();Check(!P->Paused&&!UGameplayStatics::IsGamePaused(this),TEXT("blueprint_pause_resumes_game"));
+  const int32 PriorQuality=P->Quality;P->ToggleQuality();Check(P->Quality!=PriorQuality,TEXT("blueprint_quality_toggle"));P->ToggleQuality();Check(P->Quality==PriorQuality,TEXT("blueprint_quality_restores"));
+  Check(P->GetClass()->FindFunctionByName(TEXT("KeyboardActionPressed"))->GetOwnerClass()->ClassGeneratedBy!=nullptr,TEXT("keyboard_interaction_runs_blueprint"));
+
   Check(Balance==0&&Purchased.IsEmpty(),TEXT("fresh_profile_isolated"));Check(!PhoneOpen&&CargoCapacity(false)==1,TEXT("new_player_starts_with_one_slot"));
   OfferLifetime=120;EnterIdle();Offers.Empty();GenerateOffer();Check(Offers.Num()==6&&!SelectedIncoming(),TEXT("market_requires_explicit_selection"));
   TogglePhone();UI->OpenHome();Check(PhoneOpen&&UI->Page==0,TEXT("phone_opens_home"));Next();

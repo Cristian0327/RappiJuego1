@@ -1,7 +1,7 @@
 # Probar y colaborar
 
 1. Clona el repositorio con GitHub Desktop o descarga y extrae el ZIP completo.
-2. Abre el `.uproject` en Unreal Engine 5.8.2. Pulsa Play en el mapa Bogotá.
+2. Abre el `.uproject` en Unreal Engine 5.8.3. Pulsa Play en el mapa Bogotá.
 3. En GitHub Desktop crea una rama, por ejemplo `pruebas-npc` o `mejora-tienda`.
 4. Modifica los assets o Blueprints en Unreal. Guarda los cambios y compruébalos con Play.
 5. Revisa y confirma únicamente los archivos del proyecto. Las carpetas temporales y las partidas están excluidas.

@@ -1,0 +1,396 @@
+{
+  "status": "PASS",
+  "counts": {
+    "female_officers": 12,
+    "male_officers": 12,
+    "female_police_riders": 3,
+    "male_police_riders": 3
+  },
+  "motorcycle_variants": [
+    "SK_MotoCivilBlue",
+    "SK_MotoCivilPurple",
+    "SK_MotoCivilRed",
+    "SK_MotoCivilWhite",
+    "SK_MotoCivilYellow",
+    "SK_MotoCourier",
+    "SK_MotoPolice",
+    "SK_MotoPoliceGreen"
+  ],
+  "officer_variants": [
+    "SK_PoliceOfficer",
+    "SK_PoliceOfficerFemale01",
+    "SK_PoliceOfficerFemale02",
+    "SK_PoliceOfficerMale02"
+  ],
+  "actors": [
+    {
+      "label": "Policia_Sector_01",
+      "model": "SK_PoliceOfficer"
+    },
+    {
+      "label": "Policia_Sector_02",
+      "model": "SK_PoliceOfficerFemale01"
+    },
+    {
+      "label": "Policia_Sector_03",
+      "model": "SK_PoliceOfficerMale02"
+    },
+    {
+      "label": "Policia_Sector_04",
+      "model": "SK_PoliceOfficerFemale02"
+    },
+    {
+      "label": "Policia_Sector_05",
+      "model": "SK_PoliceOfficer"
+    },
+    {
+      "label": "Policia_Sector_06",
+      "model": "SK_PoliceOfficerFemale01"
+    },
+    {
+      "label": "Policia_Sector_07",
+      "model": "SK_PoliceOfficerMale02"
+    },
+    {
+      "label": "Policia_Sector_08",
+      "model": "SK_PoliceOfficerFemale02"
+    },
+    {
+      "label": "Policia_Sector_09",
+      "model": "SK_PoliceOfficer"
+    },
+    {
+      "label": "Policia_Sector_10",
+      "model": "SK_PoliceOfficerFemale01"
+    },
+    {
+      "label": "Policia_Sector_11",
+      "model": "SK_PoliceOfficerMale02"
+    },
+    {
+      "label": "Policia_Sector_12",
+      "model": "SK_PoliceOfficerFemale02"
+    },
+    {
+      "label": "Policia_Sector_13",
+      "model": "SK_PoliceOfficer"
+    },
+    {
+      "label": "Policia_Sector_14",
+      "model": "SK_PoliceOfficerFemale01"
+    },
+    {
+      "label": "Policia_Sector_15",
+      "model": "SK_PoliceOfficerMale02"
+    },
+    {
+      "label": "Policia_Sector_16",
+      "model": "SK_PoliceOfficerFemale02"
+    },
+    {
+      "label": "Policia_Sector_17",
+      "model": "SK_PoliceOfficer"
+    },
+    {
+      "label": "Policia_Sector_18",
+      "model": "SK_PoliceOfficerFemale01"
+    },
+    {
+      "label": "Policia_Sector_19",
+      "model": "SK_PoliceOfficerMale02"
+    },
+    {
+      "label": "Policia_Sector_20",
+      "model": "SK_PoliceOfficerFemale02"
+    },
+    {
+      "label": "Policia_Sector_21",
+      "model": "SK_PoliceOfficer"
+    },
+    {
+      "label": "Policia_Sector_22",
+      "model": "SK_PoliceOfficerFemale01"
+    },
+    {
+      "label": "Policia_Sector_23",
+      "model": "SK_PoliceOfficerMale02"
+    },
+    {
+      "label": "Policia_Sector_24",
+      "model": "SK_PoliceOfficerFemale02"
+    },
+    {
+      "label": "Moto_Civil_Sector_1_1",
+      "model": "SK_MotoCivilBlue",
+      "rider": "SK_Citizen00"
+    },
+    {
+      "label": "Moto_Civil_Sector_1_2",
+      "model": "SK_MotoCivilRed",
+      "rider": "SK_Citizen01"
+    },
+    {
+      "label": "Moto_Policia_Sector_1_3",
+      "model": "SK_MotoPolice",
+      "rider": "SK_PoliceOfficer"
+    },
+    {
+      "label": "Moto_Civil_Sector_2_1",
+      "model": "SK_MotoCourier",
+      "rider": "SK_Citizen01"
+    },
+    {
+      "label": "Moto_Civil_Sector_2_2",
+      "model": "SK_MotoCivilYellow",
+      "rider": "SK_Citizen12"
+    },
+    {
+      "label": "Moto_Policia_Sector_2_3",
+      "model": "SK_MotoPoliceGreen",
+      "rider": "SK_PoliceOfficerFemale01"
+    },
+    {
+      "label": "Moto_Civil_Sector_3_1",
+      "model": "SK_MotoCivilPurple",
+      "rider": "SK_Citizen12"
+    },
+    {
+      "label": "Moto_Civil_Sector_3_2",
+      "model": "SK_MotoCivilWhite",
+      "rider": "SK_Citizen13"
+    },
+    {
+      "label": "Moto_Policia_Sector_3_3",
+      "model": "SK_MotoPolice",
+      "rider": "SK_PoliceOfficerMale02"
+    },
+    {
+      "label": "Moto_Civil_Sector_4_1",
+      "model": "SK_MotoCivilBlue",
+      "rider": "SK_Citizen13"
+    },
+    {
+      "label": "Moto_Civil_Sector_4_2",
+      "model": "SK_MotoCivilRed",
+      "rider": "SK_Citizen16"
+    },
+    {
+      "label": "Moto_Policia_Sector_4_3",
+      "model": "SK_MotoPoliceGreen",
+      "rider": "SK_PoliceOfficerFemale02"
+    },
+    {
+      "label": "Moto_Civil_Sector_5_1",
+      "model": "SK_MotoCourier",
+      "rider": "SK_Citizen16"
+    },
+    {
+      "label": "Moto_Civil_Sector_5_2",
+      "model": "SK_MotoCivilYellow",
+      "rider": "SK_Citizen20"
+    },
+    {
+      "label": "Moto_Policia_Sector_5_3",
+      "model": "SK_MotoPolice",
+      "rider": "SK_PoliceOfficer"
+    },
+    {
+      "label": "Moto_Civil_Sector_6_1",
+      "model": "SK_MotoCivilPurple",
+      "rider": "SK_Citizen20"
+    },
+    {
+      "label": "Moto_Civil_Sector_6_2",
+      "model": "SK_MotoCivilWhite",
+      "rider": "SK_Citizen38"
+    },
+    {
+      "label": "Moto_Policia_Sector_6_3",
+      "model": "SK_MotoPoliceGreen",
+      "rider": "SK_PoliceOfficerFemale01"
+    },
+    {
+      "label": "Moto_Civil_Sector_6_4",
+      "model": "SK_MotoCivilRed",
+      "rider": "SK_Citizen00"
+    }
+  ],
+  "rebuilt_active_animation_assets": [
+    {
+      "asset": "/Game/VoxelExplorer/AN_Idle",
+      "length_seconds": 7.833333492279053,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/VoxelExplorer/SK_VoxelExplorer_Skeleton.SK_VoxelExplorer_Skeleton"
+    },
+    {
+      "asset": "/Game/VoxelExplorer/AN_MixamoWalk",
+      "length_seconds": 0.800000011920929,
+      "rate_scale": 3.0776193141937256,
+      "skeleton": "/Game/VoxelExplorer/SK_VoxelExplorer_Skeleton.SK_VoxelExplorer_Skeleton"
+    },
+    {
+      "asset": "/Game/VoxelExplorer/AN_Walk_InPlace",
+      "length_seconds": 1.3666666746139526,
+      "rate_scale": 7.535499095916748,
+      "skeleton": "/Game/VoxelExplorer/SK_VoxelExplorer_Skeleton.SK_VoxelExplorer_Skeleton"
+    },
+    {
+      "asset": "/Game/VoxelExplorer/AN_BikePedal",
+      "length_seconds": 1.0,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/VoxelExplorer/SK_VoxelExplorer_Skeleton.SK_VoxelExplorer_Skeleton"
+    },
+    {
+      "asset": "/Game/VoxelExplorer/AN_MotoRide",
+      "length_seconds": 1.0,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/VoxelExplorer/SK_VoxelExplorer_Skeleton.SK_VoxelExplorer_Skeleton"
+    },
+    {
+      "asset": "/Game/VoxelExplorer/AN_MixamoJump",
+      "length_seconds": 2.3333332538604736,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/VoxelExplorer/SK_VoxelExplorer_Skeleton.SK_VoxelExplorer_Skeleton"
+    },
+    {
+      "asset": "/Game/Crowd/AN_CrowdWalk_Mixamo",
+      "length_seconds": 1.3666666746139526,
+      "rate_scale": 2.7050509452819824,
+      "skeleton": "/Game/Crowd/SKEL_Crowd.SKEL_Crowd"
+    },
+    {
+      "asset": "/Game/Crowd/AN_CrowdIdle",
+      "length_seconds": 7.833333492279053,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/Crowd/SKEL_Crowd.SKEL_Crowd"
+    },
+    {
+      "asset": "/Game/Crowd/AN_CrowdCane",
+      "length_seconds": 1.3666666746139526,
+      "rate_scale": 0.7728710770606995,
+      "skeleton": "/Game/Crowd/SKEL_Crowd.SKEL_Crowd"
+    },
+    {
+      "asset": "/Game/Crowd/AN_CrowdEnterCar",
+      "length_seconds": 2.0,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/Crowd/SKEL_Crowd.SKEL_Crowd"
+    },
+    {
+      "asset": "/Game/Crowd/AN_CrowdBoard",
+      "length_seconds": 1.3666666746139526,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/Crowd/SKEL_Crowd.SKEL_Crowd"
+    },
+    {
+      "asset": "/Game/Traffic/Services/AN_MotorcycleRider",
+      "length_seconds": 1.9666666984558105,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/Crowd/SKEL_Crowd.SKEL_Crowd"
+    },
+    {
+      "asset": "/Game/Traffic/Services/AN_PatrolDriver",
+      "length_seconds": 6.400000095367432,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/Crowd/SKEL_Crowd.SKEL_Crowd"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Cashier_Walk",
+      "length_seconds": 1.3666666746139526,
+      "rate_scale": 1.284234642982483,
+      "skeleton": "/Game/Delivery/People/SK_Cashier_Skeleton.SK_Cashier_Skeleton"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Cashier_Work",
+      "length_seconds": 7.833333492279053,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/Delivery/People/SK_Cashier_Skeleton.SK_Cashier_Skeleton"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Chef_Walk",
+      "length_seconds": 1.3666666746139526,
+      "rate_scale": 1.1344982385635376,
+      "skeleton": "/Game/Delivery/People/SK_Chef_Skeleton.SK_Chef_Skeleton"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Chef_Work",
+      "length_seconds": 7.833333492279053,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/Delivery/People/SK_Chef_Skeleton.SK_Chef_Skeleton"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_TechClerk_Walk",
+      "length_seconds": 1.3666666746139526,
+      "rate_scale": 0.9724807143211365,
+      "skeleton": "/Game/Delivery/People/SK_TechClerk_Skeleton.SK_TechClerk_Skeleton"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_TechClerk_Work",
+      "length_seconds": 7.833333492279053,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/Delivery/People/SK_TechClerk_Skeleton.SK_TechClerk_Skeleton"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Pharmacist_Walk",
+      "length_seconds": 1.3666666746139526,
+      "rate_scale": 1.0431300401687622,
+      "skeleton": "/Game/Delivery/People/SK_Pharmacist_Skeleton.SK_Pharmacist_Skeleton"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Pharmacist_Work",
+      "length_seconds": 7.833333492279053,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/Delivery/People/SK_Pharmacist_Skeleton.SK_Pharmacist_Skeleton"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Florist_Walk",
+      "length_seconds": 1.3666666746139526,
+      "rate_scale": 1.120080590248108,
+      "skeleton": "/Game/Delivery/People/SK_Florist_Skeleton.SK_Florist_Skeleton"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Florist_Work",
+      "length_seconds": 7.833333492279053,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/Delivery/People/SK_Florist_Skeleton.SK_Florist_Skeleton"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerStudent_Walk",
+      "length_seconds": 1.3666666746139526,
+      "rate_scale": 0.9724807143211365,
+      "skeleton": "/Game/Delivery/People/SK_CustomerStudent_Skeleton.SK_CustomerStudent_Skeleton"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerStudent_Work",
+      "length_seconds": 7.833333492279053,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/Delivery/People/SK_CustomerStudent_Skeleton.SK_CustomerStudent_Skeleton"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerOffice_Walk",
+      "length_seconds": 1.3666666746139526,
+      "rate_scale": 1.0431300401687622,
+      "skeleton": "/Game/Delivery/People/SK_CustomerOffice_Skeleton.SK_CustomerOffice_Skeleton"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerOffice_Work",
+      "length_seconds": 7.833333492279053,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/Delivery/People/SK_CustomerOffice_Skeleton.SK_CustomerOffice_Skeleton"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerNeighbor_Walk",
+      "length_seconds": 1.3666666746139526,
+      "rate_scale": 1.1494967937469482,
+      "skeleton": "/Game/Delivery/People/SK_CustomerNeighbor_Skeleton.SK_CustomerNeighbor_Skeleton"
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerNeighbor_Work",
+      "length_seconds": 7.833333492279053,
+      "rate_scale": 1.0,
+      "skeleton": "/Game/Delivery/People/SK_CustomerNeighbor_Skeleton.SK_CustomerNeighbor_Skeleton"
+    }
+  ],
+  "full_project_blueprint_migration_complete": false,
+  "note": "New services use Engine.Character and Blueprint behaviors. Existing project still has custom native parent classes."
+}

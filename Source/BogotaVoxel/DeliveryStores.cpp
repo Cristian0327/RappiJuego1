@@ -22,13 +22,17 @@ void ADeliveryPoint::Tick(float Dt){
  Super::Tick(Dt);auto* Player=UGameplayStatics::GetPlayerPawn(this,0);if(!Player||FVector::DistSquared(Player->GetActorLocation(),InteriorPosition(FVector::ZeroVector))>FMath::Square(HalfDepth+1000.f))return;
  for(int32 I=0;I<WalkingCustomers.Num();I++)UpdateCrowdCustomer(I,Dt);
 }
-void ADeliveryPoint::UpdateCustomer_Implementation(int32 Index,float Dt){UpdateCrowdCustomer(Index,Dt);}
+
 void ADeliveryPoint::UpdateCrowdCustomer(int32 I,float Dt){
  auto* Player=UGameplayStatics::GetPlayerPawn(this,0);
  if(!WalkingCustomers.IsValidIndex(I)||!CustomerPathStart.IsValidIndex(I))return;auto* C=WalkingCustomers[I].Get();if(!C)return;
  auto Rest=[&](){if(C->AnimationData.AnimToPlay!=CustomerIdleClips[I])C->PlayAnimation(CustomerIdleClips[I],true);if(CustomerUsesCane[I]){C->SetPosition(0,false);C->SetPlayRate(0);}else C->SetPlayRate(1);};
- FHitResult Ground;FCollisionQueryParams GroundQuery;if(Player)GroundQuery.AddIgnoredActor(Player);FVector Foot=C->GetComponentLocation();
- if(GetWorld()->LineTraceSingleByChannel(Ground,Foot+FVector(0,0,100),Foot-FVector(0,0,100),ECC_Visibility,GroundQuery)&&Ground.ImpactNormal.Z>.7f){auto At=C->GetRelativeLocation();At.Z=Ground.ImpactPoint.Z-GetActorLocation().Z;C->SetRelativeLocation(At);}
+ // Query around the authored shop floor, never around the previous foot height.
+ FHitResult Ground;FCollisionQueryParams GroundQuery;if(Player)GroundQuery.AddIgnoredActor(Player);FVector Foot=C->GetComponentLocation();const float Floor=GetActorLocation().Z+10;
+ float GroundZ=Floor;
+ if(GetWorld()->LineTraceSingleByObjectType(Ground,FVector(Foot.X,Foot.Y,Floor+65),FVector(Foot.X,Foot.Y,Floor-30),FCollisionObjectQueryParams(ECC_WorldStatic),GroundQuery)&&Ground.ImpactNormal.Z>.7f&&Ground.ImpactPoint.Z<=Floor+25)GroundZ=Ground.ImpactPoint.Z;
+ auto At=C->GetRelativeLocation();At.Z=GroundZ-GetActorLocation().Z;C->SetRelativeLocation(At);
+
  if(CustomerWaits[I]>0){CustomerWaits[I]=FMath::Max(0.f,CustomerWaits[I]-Dt);Rest();return;}
  FVector From=C->GetRelativeLocation(),To=CustomerStops[I]?CustomerPathEnd[I]:CustomerPathStart[I];To.Z=From.Z;FVector Delta=To-From;float Dist=Delta.Size2D();
  if(Dist<4){CustomerStops[I]=1-CustomerStops[I];CustomerWaits[I]=4.f+I*2;Rest();return;}
@@ -41,7 +45,6 @@ void ADeliveryPoint::UpdateCrowdCustomer(int32 I,float Dt){
  C->SetRelativeRotation(FMath::RInterpTo(C->GetRelativeRotation(),FRotator(0,Delta.Rotation().Yaw-90,0),Dt,5));C->SetRelativeLocation(Next);
 }
 
-FVector ADeliveryPoint::InteriorPosition_Implementation(FVector Local)const{return GetActorLocation()+FVector(0,HalfDepth,0)+Local;}
 FVector ADeliveryPoint::ProductPosition(int32 Index)const{
  const FVector Points[]={FVector(-HalfWidth+250,0,105),FVector(HalfWidth-250,0,105),FVector(0,HalfDepth-200,105)};
  const uint32 Seed=DisplayedOrder.IsValid()?GetTypeHash(DisplayedOrder):0;
@@ -55,7 +58,7 @@ void ADeliveryPoint::PresentOrder(FGuid OrderID,int32 Collected){
   Product->SetWorldLocation(Position);Product->SetVisibility(I>=Collected);
  }
 }
-FVector ADeliveryPoint::CheckoutPosition_Implementation()const{return GetActorLocation()+FVector(150,CounterDistanceMeters*100-105,5);}
+
 
 void ADeliveryPoint::BuildStore(){
  for(auto C:WalkingCustomers)if(C)C->DestroyComponent();WalkingCustomers.Empty();CustomerWalkClips.Empty();CustomerIdleClips.Empty();CustomerStops.Empty();CustomerWaits.Empty();CustomerPathStart.Empty();CustomerPathEnd.Empty();CustomerSpeeds.Empty();CustomerUsesCane.Empty();
@@ -80,7 +83,7 @@ void ADeliveryPoint::BuildStore(){
  auto Person=[&](const TCHAR* Name,FVector Position,float Yaw,float Phase){
   auto* C=NewObject<USkeletalMeshComponent>(this);AddInstanceComponent(C);C->SetupAttachment(RootComponent);C->SetRelativeLocation(Position);C->SetRelativeRotation(FRotator(0,Yaw,0));C->SetRelativeScale3D(FVector(1,-1,1));
   C->SetSkeletalMesh(LoadObject<USkeletalMesh>(nullptr,*FString::Printf(TEXT("/Game/Delivery/People/SK_%s.SK_%s"),Name,Name)));
-  C->SetCollisionProfileName(TEXT("NoCollision"));C->VisibilityBasedAnimTickOption=EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered;C->bEnableUpdateRateOptimizations=true;C->SetCastShadow(false);C->RegisterComponent();
+  C->SetCollisionProfileName(TEXT("NoCollision"));C->VisibilityBasedAnimTickOption=EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered;C->bEnableUpdateRateOptimizations=false;C->SetCastShadow(false);C->RegisterComponent();
   if(auto* A=LoadObject<UAnimSequence>(nullptr,*FString::Printf(TEXT("/Game/Delivery/People/A_%s_Work.A_%s_Work"),Name,Name))){C->PlayAnimation(A,true);C->SetPosition(Phase,false);}
   if(auto* Class=LoadClass<UAnimInstance>(nullptr,*FString::Printf(TEXT("/Game/Delivery/Animation/ABP_%s.ABP_%s_C"),Name,Name)))C->SetAnimInstanceClass(Class);
   if(FString(Name).StartsWith(TEXT("Customer"))){WalkingCustomers.Add(C);CustomerStops.Add(WalkingCustomers.Num()%2);CustomerWaits.Add(Phase);CustomerIdleClips.Add(LoadObject<UAnimSequence>(nullptr,*FString::Printf(TEXT("/Game/Delivery/People/A_%s_Work.A_%s_Work"),Name,Name)));CustomerWalkClips.Add(LoadObject<UAnimSequence>(nullptr,*FString::Printf(TEXT("/Game/Delivery/People/A_%s_Walk.A_%s_Walk"),Name,Name)));}
@@ -95,7 +98,7 @@ void ADeliveryPoint::BuildStore(){
   const float X=(I==0?-1.f:1.f)*FMath::Min(430.f,HalfWidth*.4f);float StartY=FMath::Min(850.f,HalfDepth*2-450),EndY=StoreKind==1?FMath::Max(200.f,CounterDistanceMeters*100-175):HalfDepth*2-500;
   if(FMath::Abs(EndY-StartY)<180)StartY=FMath::Max(180.f,EndY-300);
   FVector From(X,StartY,10),To(X,EndY,10);C->SetRelativeLocation(FVector(X,StartY-HalfDepth,10-15000));C->SetRelativeRotation(FRotator(0,-90,0));C->SetRelativeScale3D(FVector(Spec.Scale));
-  C->SetSkeletalMeshAsset(LoadObject<USkeletalMesh>(nullptr,*FString::Printf(TEXT("/Game/Crowd/People/SK_%s.SK_%s"),*Name,*Name)));C->SetMaterial(0,LoadObject<UMaterialInterface>(nullptr,TEXT("/Game/Crowd/MI_Crowd.MI_Crowd")));C->SetCollisionEnabled(ECollisionEnabled::NoCollision);C->VisibilityBasedAnimTickOption=EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered;C->bEnableUpdateRateOptimizations=true;C->RegisterComponent();
+  C->SetSkeletalMeshAsset(LoadObject<USkeletalMesh>(nullptr,*FString::Printf(TEXT("/Game/Crowd/People/SK_%s.SK_%s"),*Name,*Name)));C->SetMaterial(0,LoadObject<UMaterialInterface>(nullptr,TEXT("/Game/Crowd/MI_Crowd.MI_Crowd")));C->SetCollisionEnabled(ECollisionEnabled::NoCollision);C->VisibilityBasedAnimTickOption=EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered;C->bEnableUpdateRateOptimizations=false;C->RegisterComponent();
   auto* Walk=LoadObject<UAnimSequence>(nullptr,Spec.Cane?TEXT("/Game/Crowd/AN_CrowdCane.AN_CrowdCane"):TEXT("/Game/Crowd/AN_CrowdWalk_Mixamo.AN_CrowdWalk_Mixamo"));auto* Idle=LoadObject<UAnimSequence>(nullptr,Spec.Cane?TEXT("/Game/Crowd/AN_CrowdCane.AN_CrowdCane"):TEXT("/Game/Crowd/AN_CrowdIdle.AN_CrowdIdle"));
   WalkingCustomers.Add(C);CustomerWalkClips.Add(Walk);CustomerIdleClips.Add(Idle);CustomerStops.Add(1);CustomerWaits.Add(2.f+I*3);CustomerPathStart.Add(From);CustomerPathEnd.Add(To);CustomerSpeeds.Add(Spec.Cane?Spec.Speed:65.f);CustomerUsesCane.Add(Spec.Cane);C->PlayAnimation(Idle,true);if(Spec.Cane){C->SetPlayRate(0);C->SetPosition(0,false);}
  }
@@ -108,20 +111,11 @@ void ADeliveryPoint::BuildStore(){
  TArray<USceneComponent*> Parts;GetComponents<USceneComponent>(Parts);for(auto* C:Parts)if(C!=RootComponent&&C->GetAttachParent()==RootComponent){auto At=C->GetRelativeLocation();if(At.Z<-10000){At.Z+=15000;At.Y+=HalfDepth;C->SetRelativeLocation(At);}}
 }
 ADeliveryPoint* UDeliveryComponent::OrderStore()const{for(TActorIterator<ADeliveryPoint> It(GetWorld());It;++It)if(It->PointID==Order.StoreID)return *It;return nullptr;}
-bool ADeliveryPoint::ContainsVisitor_Implementation(FVector Position)const{FVector P=Position-InteriorPosition(FVector::ZeroVector);return FMath::Abs(P.X)<HalfWidth-15&&P.Y>-HalfDepth+20&&P.Y<HalfDepth-10&&P.Z>0&&P.Z<470;}
-void UDeliveryComponent::ExitStore_Implementation(){InsideStore=nullptr;EndAction();}
+
+
 bool UDeliveryComponent::StoreDoorAction(){return false;}
-bool UDeliveryComponent::ShopReady_Implementation()const{
- auto* P=Cast<ABogotaPlayer>(GetOwner());auto* Shop=OrderStore();return P&&!P->Riding&&Shop&&InsideStore==Shop&&FMath::Abs(P->GetActorLocation().Z-Shop->CheckoutPosition().Z)<180&&BasketCount>=(Order.StoreKind==1?1:3)&&FVector::Dist2D(P->GetActorLocation(),Shop->CheckoutPosition())<140;
-}
-bool UDeliveryComponent::ShopCollect_Implementation(){
- auto* P=Cast<ABogotaPlayer>(GetOwner());auto* Shop=OrderStore();if(!P||P->Riding||InsideStore!=Shop||!Shop)return false;
- if(BasketCount<(Order.StoreKind==1?1:3)){
-  if(FVector::Dist2D(P->GetActorLocation(),Shop->ProductPosition(BasketCount))>160)return false;
-  Shop->StoreProducts[BasketCount]->SetVisibility(false);BasketCount++;StatusMessage=FText::FromString(ShoppingInstruction());Changed();return true;
- }
- return false;
-}
+
+
 FString UDeliveryComponent::ShoppingInstruction()const{
  if(State!=EDeliveryState::Pickup)return StatusMessage.ToString();
  if(!InsideStore)return TEXT("Llega al local, baja con F y entra caminando por la puerta.");
@@ -139,4 +133,3 @@ FString ADeliveryPoint::ItemName(int32 Index)const{
 
 void UDeliveryComponent::HideStoreProduct(int32 Index){if(auto* Shop=OrderStore())if(Shop->StoreProducts.IsValidIndex(Index)&&Shop->StoreProducts[Index])Shop->StoreProducts[Index]->SetVisibility(false);}
 
-int32 ADeliveryPoint::ItemCount_Implementation() const{return StoreKind==1?1:3;}

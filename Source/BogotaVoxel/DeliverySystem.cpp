@@ -52,8 +52,8 @@ void ADeliveryRecipient::InitializeAppearance(FName AppearanceRole){
  const FString Name=AppearanceRole.ToString();if(auto* Mesh=LoadObject<USkeletalMesh>(nullptr,*FString::Printf(TEXT("/Game/Delivery/People/SK_%s.SK_%s"),*Name,*Name))){VoxelMesh->SetSkeletalMeshAsset(Mesh);VoxelMesh->EmptyOverrideMaterials();VoxelMesh->SetRelativeScale3D(FVector(1,-1,1));VoxelMesh->VisibilityBasedAnimTickOption=EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered;
  if(auto* Class=LoadClass<UAnimInstance>(nullptr,*FString::Printf(TEXT("/Game/Delivery/Animation/ABP_%s.ABP_%s_C"),*Name,*Name)))VoxelMesh->SetAnimInstanceClass(Class);}
 }
-bool ADeliveryRecipient::CanDeliver_Implementation(AActor* Rider,FGuid ID)const{return Delivery&&Rider==Delivery->GetOwner()&&ID==OrderID&&Delivery->State==EDeliveryState::Dropoff&&Delivery->IsAtTarget();}
-void ADeliveryRecipient::ReceiveDelivery_Implementation(AActor* Rider,FGuid ID){if(IDeliveryInteractable::Execute_CanDeliver(this,Rider,ID)&&Delivery)Delivery->CompleteOrder(ID);}
+
+
 
 UDeliveryComponent::UDeliveryComponent(){PrimaryComponentTick.bCanEverTick=true;RecipientClass=ADeliveryRecipient::StaticClass();PhoneClass=UDeliveryPhoneWidget::StaticClass();}
 void UDeliveryComponent::BeginPlay(){
@@ -68,17 +68,11 @@ void UDeliveryComponent::BeginPlay(){
  }
 }
 void UDeliveryComponent::EndPlay(const EEndPlayReason::Type Reason){if(FSlateApplication::IsInitialized())FSlateApplication::Get().OnApplicationActivationStateChanged().RemoveAll(this);EndAction();DestroyMarkers();if(CityMapActor)CityMapActor->Destroy();GetWorld()->GetTimerManager().ClearAllTimersForObject(this);if(PhoneWidget)PhoneWidget->RemoveFromParent();Super::EndPlay(Reason);}
-bool UDeliveryComponent::Owns_Implementation(FName ID)const{return Purchased.Contains(ID);}
+
 void UDeliveryComponent::Changed(){OnChanged.Broadcast();}
-void UDeliveryComponent::InitializeGameplay_Implementation(){LoadProfile();RebuildStats();Energy=Capacity;EnterIdle();}
-void UDeliveryComponent::EnterIdle_Implementation(){
- State=EDeliveryState::Idle;Order=FDeliveryOrder();SelectedOffer.Invalidate();EndAction();MarketRefreshRemaining=0;Changed();
-}
-void UDeliveryComponent::UpdateMarketplace_Implementation(float Dt){
- CullExpiredOffers();
- MarketRefreshRemaining-=FMath::Max(0.f,Dt);
- if(Offers.IsEmpty()||MarketRefreshRemaining<=0){GenerateOffer();MarketRefreshRemaining=FMath::Max(2.f,OfferInterval);}
-}
+
+
+
 int32 UDeliveryComponent::CalculatePay(float Meters,float Multiplier){if(!FMath::IsFinite(Meters)||!FMath::IsFinite(Multiplier))return 5000;return FMath::Clamp(FMath::RoundToInt(FMath::Lerp(5000.f,50000.f,FMath::Clamp((Meters-100)/800,0.f,1.f))*FMath::Clamp(Multiplier,.1f,2.f)),5000,50000);}
 TArray<FDeliveryOrder> UDeliveryComponent::GetAvailableResidentialRoutes()const{
  TArray<FDeliveryOrder> Routes;auto* P=Cast<ABogotaPlayer>(GetOwner());if(!P||!P->City)return Routes;
@@ -101,138 +95,42 @@ TArray<FDeliveryOrder> UDeliveryComponent::GetAvailableResidentialRoutes()const{
  }
  UE_LOG(LogTemp,Display,TEXT("RESIDENTIAL_ROUTES houses=%d shops=%d candidates=%d"),Homes.Num(),Shops.Num(),Routes.Num());return Routes;
 }
-void UDeliveryComponent::CullExpiredOffers_Implementation(){
- const float Now=GetWorld()->GetTimeSeconds();Offers.RemoveAll([&](const FDeliveryOrder& O){return O.ExpiresAt<=Now;});
- if(State==EDeliveryState::Offered&&Order.ExpiresAt<=Now){EndAction();SelectedOffer.Invalidate();State=EDeliveryState::Idle;}
-}
+
 bool UDeliveryComponent::RouteAlreadyOffered(FVector Pickup,FVector Dropoff)const{
  for(const auto& O:Offers)if(O.Pickup.Equals(Pickup,1)&&O.Dropoff.Equals(Dropoff,1))return true;
  for(const auto& O:ActiveOrders)if(O.Order.Pickup.Equals(Pickup,1)&&O.Order.Dropoff.Equals(Dropoff,1))return true;
  return false;
 }
-void UDeliveryComponent::GenerateOffer_Implementation(){
- CullExpiredOffers();if(Offers.Num()>=6)return;auto Routes=GetAvailableResidentialRoutes();const bool Advanced=Owns(TEXT("BikeMotor"))||Owns(TEXT("Motorcycle"));const float Min=Advanced?350:100,Max=Owns(TEXT("BikeFrame"))?900:450;
- while(Offers.Num()<6&&!Routes.IsEmpty()){int32 I=FMath::RandHelper(Routes.Num());auto O=Routes[I];Routes.RemoveAtSwap(I);if(O.DistanceMeters<Min||O.DistanceMeters>Max||RouteAlreadyOffered(O.Pickup,O.Dropoff))continue;O.ID=FGuid::NewGuid();O.Reward=RewardForDistance(O.DistanceMeters,Advanced?.9f:Owns(TEXT("BikeFrame"))?.95f:1.f);O.ExpiresAt=GetWorld()->GetTimeSeconds()+OfferLifetime;Offers.Add(O);}
- Changed();
-}
-bool UDeliveryComponent::SelectOffer_Implementation(int32 Index){
- if(!Offers.IsValidIndex(Index)||Offers[Index].ExpiresAt<=GetWorld()->GetTimeSeconds())return false;
- EndAction();SelectedOffer=Offers[Index].ID;
- if(ActiveOrders.IsEmpty()){Order=Offers[Index];State=EDeliveryState::Offered;}
- Changed();return true;
-}
-bool UDeliveryComponent::PaintVehicle_Implementation(bool Moto,int32 Color){
- if(Color<0||Color>5||(Moto&&!Owns(TEXT("Motorcycle"))))return false;
- int32& Current=Moto?MotoColor:BikeColor;if(Current==Color)return true;
- if(Balance<2000){StatusMessage=FText::FromString(TEXT("Pintura: necesitas $2.000."));return false;}
- Balance-=2000;Current=Color;ModelColors.Add(Moto?MotoModel:BikeModel,Color);SaveProfile();Changed();return true;
-}
-bool UDeliveryComponent::OwnsVehicle_Implementation(FName ID)const{return ID==TEXT("BikeCity")||(ID==TEXT("MotoStreet")&&Owns(TEXT("Motorcycle")))||OwnedModels.Contains(ID);}
-int32 UDeliveryComponent::VisualStage_Implementation(bool Moto)const{
- if(Moto){if(Owns(TEXT("MotoSportEngine")))return 5;if(Owns(TEXT("MotoInjection")))return 4;if(Owns(TEXT("MotoDisplacement")))return 3;if(Owns(TEXT("MotoAero")))return 2;if(Owns(TEXT("MotoTurbo")))return 1;return 0;}
- if(Owns(TEXT("BikeMotor")))return 4;if(Owns(TEXT("BikeGears")))return 3;if(Owns(TEXT("BikeFrame")))return 2;if(Owns(TEXT("BikePedals")))return 1;return 0;
-}
-bool UDeliveryComponent::BuyVehicle_Implementation(FName ID){
- if(!VehicleCatalog||OwnsVehicle(ID))return false;
- const auto* Row=VehicleCatalog->FindRow<FDeliveryVehicleSpec>(ID,TEXT("BuyVehicle"));if(!Row||Balance<Row->Price||(!Row->Prerequisite.IsNone()&&!Owns(Row->Prerequisite)))return false;
- if(ID==TEXT("MotoStreet"))return PurchaseUpgrade(TEXT("Motorcycle"));
- Balance-=Row->Price;OwnedModels.AddUnique(ID);SaveProfile();Changed();return true;
-}
-bool UDeliveryComponent::EquipVehicle_Implementation(FName ID){
- if(!VehicleCatalog||!OwnsVehicle(ID)||GetOwner()->GetVelocity().Size2D()>100)return false;
- const auto* Row=VehicleCatalog->FindRow<FDeliveryVehicleSpec>(ID,TEXT("Equip"));if(!Row)return false;
- if(ActiveOrders.Num()>CargoCapacity(Row->Motorcycle)){StatusMessage=FText::FromString(TEXT("Entrega pedidos antes de cambiar a un vehículo con menos capacidad."));return false;}
- if(Row->Motorcycle){MotoModel=ID;MotoColor=ModelColors.FindRef(ID);}else{BikeModel=ID;BikeColor=ModelColors.FindRef(ID);}
- Vehicle=Row->Motorcycle?EDeliveryVehicle::Motorcycle:EDeliveryVehicle::Bicycle;EndAction();BoostActive=false;RebuildStats();Energy=FMath::Min(Energy,Capacity);SaveProfile();Changed();return true;
-}
+
+
+
+
+
+
+
 
 float UDeliveryComponent::OfferSecondsLeft()const{return State==EDeliveryState::Offered?FMath::Max(0.f,Order.ExpiresAt-GetWorld()->GetTimeSeconds()):0;}
 void UDeliveryComponent::ExpireOffer(){if(State==EDeliveryState::Offered){Offers.RemoveAll([&](const FDeliveryOrder& O){return O.ID==Order.ID;});StatusMessage=FText::FromString(TEXT("Oferta vencida. Consulta las otras rutas."));EnterIdle();}}
-void UDeliveryComponent::IgnoreOffer_Implementation(){if(const auto* Incoming=SelectedIncoming()){FGuid ID=Incoming->ID;Offers.RemoveAll([&](const FDeliveryOrder& O){return O.ID==ID;});SelectedOffer.Invalidate();EndAction();if(ActiveOrders.IsEmpty())EnterIdle();StatusMessage=FText::FromString(TEXT("Oferta ignorada; tus pedidos continúan."));Changed();}}
-bool UDeliveryComponent::AcceptOffer_Implementation(FGuid ID){
- const auto* Incoming=Offers.FindByPredicate([&](const FDeliveryOrder& O){return O.ID==ID;});
- if(!Incoming||Incoming->ExpiresAt<=GetWorld()->GetTimeSeconds())return false;
- if(InsideStore){StatusMessage=FText::FromString(TEXT("Sal del local antes de aceptar otra ruta."));return false;}
- if(ActiveOrders.Num()>=CargoCapacity(Vehicle==EDeliveryVehicle::Motorcycle)){StatusMessage=FText::FromString(TEXT("Sin espacio. Mejora tus maletas o termina una entrega."));return false;}
- if(ActiveOrders.IsEmpty())if(auto* P=Cast<ABogotaPlayer>(GetOwner()))if(!P->PlaceDeliveryVehicle()){StatusMessage=FText::FromString(TEXT("Busca un espacio libre para sacar tu vehículo."));return false;}
- StoreFocusedOrder();FDeliveryOrder Accepted=*Incoming;DestroyMarkers();Order=Accepted;
- BasketCount=0;OrderPaid=false;OrderBudget=Order.GoodsCost;GoodsPaid=0;State=EDeliveryState::Pickup;
- FActiveDelivery Entry;Entry.Order=Order;Entry.Budget=OrderBudget;ActiveOrders.Add(Entry);
- Offers.RemoveAll([&](const FDeliveryOrder& O){return O.ID==ID;});SelectedOffer.Invalidate();EndAction();
- if(PhoneOpen)TogglePhone();RestoreOrderMarkers();
- StatusMessage=FText::FromString(TEXT("Pedido aceptado. Pedidos aceptados permite elegir qué ruta seguir."));Changed();return true;
-}
+
+
 FVector UDeliveryComponent::GetOrderTarget()const{if(State==EDeliveryState::Pickup&&InsideStore&&InsideStore==OrderStore())return BasketCount<(Order.StoreKind==1?1:3)?InsideStore->ProductPosition(BasketCount):InsideStore->CheckoutPosition();return State==EDeliveryState::Pickup?Order.Pickup:Order.Dropoff;}
 bool UDeliveryComponent::IsAtTarget()const{return (State==EDeliveryState::Pickup||State==EDeliveryState::Dropoff)&&GetOwner()&&FVector::Dist2D(GetOwner()->GetActorLocation(),GetOrderTarget())<=InteractionRadius&&FMath::Abs(GetOwner()->GetActorLocation().Z-GetOrderTarget().Z)<180&&GetOwner()->GetVelocity().Size2D()<150;}
-void UDeliveryComponent::BeginAction_Implementation(bool PickupButton){
- if(bHolding)return;
- if(!PickupButton&&(State==EDeliveryState::Offered||PhoneOpen))if(const auto* Incoming=SelectedIncoming()){
-  if(ActiveOrders.Num()>=CargoCapacity(Vehicle==EDeliveryVehicle::Motorcycle))return;
-  bHolding=true;bPickupButton=false;HeldOrder=Incoming->ID;HeldState=EDeliveryState::Offered;HoldStart=GetWorld()->GetTimeSeconds();HoldProgress=0;return;
- }
- if(State==EDeliveryState::Dropoff&&!PickupButton&&IsAtTarget()&&Recipient){IDeliveryInteractable::Execute_ReceiveDelivery(Recipient,GetOwner(),Order.ID);return;}
- if(StoreDoorAction())return;
- if(State==EDeliveryState::Pickup&&PickupButton&&IsAtTarget()&&!PhoneOpen){
-  bHolding=true;bPickupButton=PickupButton;HeldOrder=Order.ID;HeldState=State;HoldStart=GetWorld()->GetTimeSeconds();HoldProgress=0;
- }
-}
-void UDeliveryComponent::EndAction_Implementation(){bHolding=false;HoldProgress=0;}
-bool UDeliveryComponent::CollectOrder_Implementation(FGuid ID){
- if(State!=EDeliveryState::Pickup||ID!=Order.ID||!IsAtTarget()||PhoneOpen)return false;
- if(ShopCollect()){StoreFocusedOrder();if(!ShopReady())return true;}
- if(!ShopReady()||OrderPaid||OrderBudget<Order.GoodsCost){StatusMessage=FText::FromString(ShoppingInstruction());Changed();return false;}
- FActorSpawnParameters Params;Params.SpawnCollisionHandlingOverride=ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
- Recipient=GetWorld()->SpawnActor<ADeliveryRecipient>(RecipientClass,Order.Dropoff,FRotator(0,180,0),Params);if(!Recipient){StatusMessage=FText::FromString(TEXT("No se pudo crear el cliente. Intenta recoger otra vez."));return false;}
- OrderBudget-=Order.GoodsCost;GoodsPaid=Order.GoodsCost;OrderPaid=true;Recipient->OrderID=Order.ID;Recipient->Delivery=this;if(PickupMarker){PickupMarker->Destroy();PickupMarker=nullptr;}State=EDeliveryState::Dropoff;StoreFocusedOrder();EndAction();StatusMessage=FText::FromString(TEXT("Pedido recogido. Ve al cliente amarillo y pulsa E / A / X."));Changed();return true;
-}
-bool UDeliveryComponent::CompleteOrder_Implementation(FGuid ID){
- if(State!=EDeliveryState::Dropoff||Order.ID!=ID||!IsAtTarget()||PhoneOpen)return false;
- const int32 Pay=Order.Reward;ActiveOrders.RemoveAll([&](const FActiveDelivery& O){return O.Order.ID==ID;});
- State=EDeliveryState::Idle;Balance+=Pay;DestroyMarkers();EndAction();
- if(ActiveOrders.IsEmpty())EnterIdle();else SelectActiveOrder(0);
- const bool Saved=SaveProfile();GenerateOffer();StatusMessage=FText::FromString(FString::Printf(TEXT("¡Pedido completado! +$%d · Quedan %d pedidos%s"),Pay,ActiveOrders.Num(),Saved?TEXT(""):TEXT(" · Error al guardar")));Changed();return true;
-}
+
+
+
+
 void UDeliveryComponent::DestroyMarkers(){if(Recipient){Recipient->Destroy();Recipient=nullptr;}if(PickupMarker){PickupMarker->Destroy();PickupMarker=nullptr;}}
-void UDeliveryComponent::RebuildStats_Implementation(){
- float BikeCap=100,MotoCap=100,BikeDrain=20,MotoDrain=25,MotoRegen=12;
- if(Upgrades)for(FName ID:Purchased)if(auto* Row=Upgrades->FindRow<FDeliveryUpgrade>(ID,TEXT("Stats"))){switch(Row->Effect){case EUpgradeEffect::BikeCapacity:BikeCap+=100*Row->Magnitude;break;case EUpgradeEffect::BikeDrain:BikeDrain*=1-Row->Magnitude;break;case EUpgradeEffect::MotoCapacity:MotoCap+=100*Row->Magnitude;break;case EUpgradeEffect::MotoDrain:MotoDrain*=1-Row->Magnitude;break;case EUpgradeEffect::MotoRegen:MotoRegen*=1+Row->Magnitude;break;default:break;}}
- Capacity=Vehicle==EDeliveryVehicle::Bicycle?BikeCap:MotoCap;Drain=Vehicle==EDeliveryVehicle::Bicycle?BikeDrain:MotoDrain;Regen=Vehicle==EDeliveryVehicle::Bicycle?15:MotoRegen;InfiniteBoost=Vehicle==EDeliveryVehicle::Bicycle?Owns(TEXT("BikeMotor")):Owns(TEXT("MotoSportEngine"));Energy=FMath::Clamp(Energy,0.f,Capacity);Changed();
-}
-float UDeliveryComponent::GetTopSpeed_Implementation()const{if(Vehicle==EDeliveryVehicle::Motorcycle)return BoostActive?MotoBoostSpeed:BikeBoostSpeed;return BoostActive?BikeBoostSpeed:BikeBaseSpeed;}
-void UDeliveryComponent::UpdateBoost_Implementation(float Dt){
- auto* P=Cast<ABogotaPlayer>(GetOwner());if(!P)return;
- bool Allowed=Vehicle==EDeliveryVehicle::Bicycle||Owns(TEXT("MotoTurbo"));BoostActive=P->Riding&&P->WantsBoost()&&P->HasThrottle()&&!PhoneOpen&&Allowed&&(InfiniteBoost||(Energy>0&&!bExhausted));
- const bool UsedBoostThisFrame=BoostActive;
- if(BoostActive&&!InfiniteBoost){Energy=FMath::Max(0.f,Energy-FMath::Max(1.f,Drain)*Dt);if(Energy<=0){BoostActive=false;bExhausted=true;RegenDelayRemaining=1.5f;}}
- if(!BoostActive&&!UsedBoostThisFrame){if(bHadBoost)RegenDelayRemaining=1.5f;RegenDelayRemaining=FMath::Max(0.f,RegenDelayRemaining-Dt);if(RegenDelayRemaining<=0)Energy=FMath::Min(Capacity,Energy+Regen*Dt);if(Energy>=Capacity*.2f)bExhausted=false;}
- bHadBoost=BoostActive;if(Vehicle==EDeliveryVehicle::Bicycle)BikeEnergy=Energy;else MotoEnergy=Energy;
-}
-bool UDeliveryComponent::PurchaseUpgrade_Implementation(FName ID){
- if(!Upgrades)return false;const auto* Row=Upgrades->FindRow<FDeliveryUpgrade>(ID,TEXT("Purchase"));
- if((ID==TEXT("CargoPanniers")&&!Owns(TEXT("Motorcycle")))||!Row||Owns(ID)||Row->Price<=0||Balance<Row->Price||(!Row->Prerequisite.IsNone()&&!Owns(Row->Prerequisite))){StatusMessage=FText::FromString(TEXT("Compra no disponible: revisa saldo y requisitos."));Changed();return false;}
- Balance-=Row->Price;Purchased.AddUnique(ID);RebuildStats();bool Saved=SaveProfile();StatusMessage=FText::FromString(Saved?TEXT("Mejora instalada."):TEXT("Mejora instalada. No se pudo guardar el progreso."));Changed();return true;
-}
-bool UDeliveryComponent::SwitchVehicle_Implementation(){
- if(!Owns(TEXT("Motorcycle"))||GetOwner()->GetVelocity().Size2D()>100){StatusMessage=FText::FromString(TEXT("Desbloquea la moto y detente para cambiar."));return false;}
- if(ActiveOrders.Num()>CargoCapacity(Vehicle!=EDeliveryVehicle::Motorcycle)){StatusMessage=FText::FromString(TEXT("La cicla no admite las maletas de moto. Termina entregas antes de cambiar."));return false;}
- EndAction();BoostActive=false;Vehicle=Vehicle==EDeliveryVehicle::Bicycle?EDeliveryVehicle::Motorcycle:EDeliveryVehicle::Bicycle;Energy=Vehicle==EDeliveryVehicle::Bicycle?BikeEnergy:MotoEnergy;RebuildStats();SaveProfile();Changed();return true;
-}
-void UDeliveryComponent::TogglePhone_Implementation(){
- auto* P=Cast<ABogotaPlayer>(GetOwner());if(!P)return;PhoneOpen=!PhoneOpen;EndAction();P->StopForPhone();
- if(auto* PC=Cast<APlayerController>(P->GetController())){PC->bShowMouseCursor=PhoneOpen;if(PhoneOpen){FInputModeGameAndUI Mode;Mode.SetHideCursorDuringCapture(false);if(PhoneWidget)Mode.SetWidgetToFocus(PhoneWidget->TakeWidget());PC->SetInputMode(Mode);}else{PC->SetInputMode(FInputModeGameOnly());}}
- if(!PhoneOpen)SaveProfile();Changed();
-}
-void UDeliveryComponent::SetWaypoint_Implementation(FVector P){Waypoint=FVector(FMath::Clamp(P.X,-42000.,42000.),FMath::Clamp(P.Y,-26500.,26500.),0);HasWaypoint=true;Changed();}
-void UDeliveryComponent::ClearWaypoint_Implementation(){HasWaypoint=false;Changed();}
-bool UDeliveryComponent::SaveProfile_Implementation(){if(DeveloperMode)return true;auto* S=Cast<UDeliverySave>(UGameplayStatics::CreateSaveGameObject(UDeliverySave::StaticClass()));S->Balance=Balance;S->Purchased=Purchased;S->Vehicle=Vehicle;S->BikeColor=BikeColor;S->MotoColor=MotoColor;S->OwnedModels=OwnedModels;S->BikeModel=BikeModel;S->MotoModel=MotoModel;S->ModelColors=ModelColors;bool OK=UGameplayStatics::SaveGameToSlot(S,bValidation?TEXT("VoxelDelivery_Automation"):TEXT("VoxelDelivery_Profile_v1"),0);if(!OK)StatusMessage=FText::FromString(TEXT("No se pudo guardar el progreso."));return OK;}
-void UDeliveryComponent::DeveloperKey(FKey Key){
- if(PhoneOpen&&DeveloperSequence!=TEXT("ESOYA"))return;
- FString Letter=Key.GetFName().ToString().ToUpper();if(Letter.Len()!=1||Letter[0]<'A'||Letter[0]>'Z')return;
- double Now=FPlatformTime::Seconds();if(Now-DeveloperLastKey>3)DeveloperSequence.Empty();DeveloperLastKey=Now;
- DeveloperSequence=(DeveloperSequence+Letter).Right(6);
- if(DeveloperSequence==TEXT("ESOYAM")){DeveloperSequence.Empty();ToggleDeveloperMode();}
-}
+
+
+
+
+
+
+
+
+
 void UDeliveryComponent::ToggleDeveloperMode(){
+ if(DeveloperMode)if(auto* Rider=Cast<ABogotaPlayer>(GetOwner()))if(Rider->DeveloperCarIndex!=INDEX_NONE&&!Rider->LeaveDeveloperCar())return;
  if(PhoneOpen)TogglePhone();
  ExitStore();
  EndAction();BoostActive=false;DestroyMarkers();ActiveOrders.Empty();Offers.Empty();EnterIdle();
@@ -243,12 +141,12 @@ void UDeliveryComponent::ToggleDeveloperMode(){
   if(Upgrades)Purchased=Upgrades->GetRowNames();if(VehicleCatalog)OwnedModels=VehicleCatalog->GetRowNames();
  }else{
   auto* S=DeveloperBackup.Get();if(S){Balance=S->Balance;Purchased=S->Purchased;Vehicle=S->Vehicle;BikeColor=S->BikeColor;MotoColor=S->MotoColor;OwnedModels=S->OwnedModels;BikeModel=S->BikeModel;MotoModel=S->MotoModel;ModelColors=S->ModelColors;}
-  DeveloperMode=false;DeveloperBackup=nullptr;
+  DeveloperMode=false;DeveloperBackup=nullptr;if(auto* Rider=GetRider())if(Rider->City)Rider->City->DeveloperRainOverride=-1;
  }
  RebuildStats();Energy=Capacity;BikeEnergy=100;MotoEnergy=100;GenerateOffer();
  StatusMessage=FText::FromString(DeveloperMode?TEXT("MODO DESARROLLADOR: todo desbloqueado. ESOYAM para salir."):TEXT("Modo normal: progreso restaurado."));Changed();
 }
-void UDeliveryComponent::LoadProfile_Implementation(){if(bValidation)return;if(auto* S=Cast<UDeliverySave>(UGameplayStatics::LoadGameFromSlot(TEXT("VoxelDelivery_Profile_v1"),0))){Balance=FMath::Max(0,S->Balance);BikeColor=FMath::Clamp(S->BikeColor,0,5);MotoColor=FMath::Clamp(S->MotoColor,0,5);if(Upgrades)for(FName ID:S->Purchased)if(Upgrades->FindRow<FDeliveryUpgrade>(ID,TEXT("Load")))Purchased.AddUnique(ID);Vehicle=S->Vehicle==EDeliveryVehicle::Motorcycle&&Owns(TEXT("Motorcycle"))?EDeliveryVehicle::Motorcycle:EDeliveryVehicle::Bicycle;OwnedModels=S->OwnedModels;ModelColors=S->ModelColors;if(OwnsVehicle(S->BikeModel))BikeModel=S->BikeModel;if(OwnsVehicle(S->MotoModel))MotoModel=S->MotoModel;}}
+
 void UDeliveryComponent::TickComponent(float Dt,ELevelTick Tick,FActorComponentTickFunction* Fn){
  Super::TickComponent(Dt,Tick,Fn);UpdateBoost(Dt);
  if(!bValidation)UpdateMarketplace(Dt);
@@ -459,7 +357,7 @@ void UDeliveryComponent::UpdateValidation(float Dt){
   auto Report=MakeShared<FJsonObject>();Report->SetStringField(TEXT("status"),ValidationErrors.IsEmpty()?TEXT("PASS"):TEXT("FAIL"));TArray<TSharedPtr<FJsonValue>> Errors;for(const auto& E:ValidationErrors)Errors.Add(MakeShared<FJsonValueString>(E));Report->SetArrayField(TEXT("failures"),Errors);Report->SetStringField(TEXT("engine"),FEngineVersion::Current().ToString());FString JSON;auto Writer=TJsonWriterFactory<>::Create(&JSON);FJsonSerializer::Serialize(Report,Writer);FFileHelper::SaveStringToFile(JSON,*(FPaths::ProjectSavedDir()/TEXT("delivery_test.json")));UE_LOG(LogTemp,Display,TEXT("DELIVERY_TEST_RESULT %s"),*JSON);ValidationStage++;FPlatformMisc::RequestExit(false);
  }
 }
-int32 UDeliveryComponent::RewardForDistance_Implementation(float Meters,float Multiplier){return CalculatePay(Meters,Multiplier);}
+
 
 bool UDeliveryComponent::SpawnOrderRecipient(){
  FActorSpawnParameters Params;Params.SpawnCollisionHandlingOverride=ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
@@ -471,13 +369,7 @@ void UDeliveryComponent::RemovePickupMarker(){if(PickupMarker){PickupMarker->Des
 FDeliveryUpgrade UDeliveryComponent::GetUpgradeSpec(FName ID,bool& Found)const{const auto* Row=Upgrades?Upgrades->FindRow<FDeliveryUpgrade>(ID,TEXT("BlueprintData")):nullptr;Found=Row!=nullptr;return Row?*Row:FDeliveryUpgrade();}
 
 FDeliveryOrder UDeliveryComponent::GetSelectedOffer(bool& Found) const {const auto* P=SelectedIncoming();Found=P!=nullptr;return P?*P:FDeliveryOrder();}
-void UDeliveryComponent::AdvanceHeldAction_Implementation(){
- if(bHolding){
-  const auto* Incoming=Offers.FindByPredicate([&](const FDeliveryOrder& O){return O.ID==HeldOrder;});
-  bool Valid=HeldState==EDeliveryState::Offered?(Incoming&&Incoming->ExpiresAt>GetWorld()->GetTimeSeconds()&&SelectedIncoming()&&SelectedIncoming()->ID==HeldOrder):(State==HeldState&&Order.ID==HeldOrder&&IsAtTarget()&&!PhoneOpen);
-  if(!Valid)EndAction();else{HoldProgress=FMath::Clamp((GetWorld()->GetTimeSeconds()-HoldStart)/FMath::Max(.1f,HoldDuration),0.f,1.f);if(HoldProgress>=1){FGuid ID=HeldOrder;auto Old=HeldState;EndAction();if(Old==EDeliveryState::Offered)AcceptOffer(ID);else CollectOrder(ID);}}
- }
-}
+
 
 FDeliveryOrder UDeliveryComponent::FindOffer(FGuid ID,int32& Index)const{Index=Offers.IndexOfByPredicate([&](const FDeliveryOrder& O){return O.ID==ID;});return Offers.IsValidIndex(Index)?Offers[Index]:FDeliveryOrder();}
 int32 UDeliveryComponent::FindActiveOrderIndex(FGuid ID)const{return ActiveOrders.IndexOfByPredicate([&](const FActiveDelivery& O){return O.Order.ID==ID;});}
