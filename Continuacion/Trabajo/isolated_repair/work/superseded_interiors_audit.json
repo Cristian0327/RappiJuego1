@@ -1,0 +1,80 @@
+[
+  {
+    "old": "/Game/Delivery/Stores/SM_MarketInterior",
+    "replacement": "/Game/Delivery/Stores/SM_MarketInterior_Voxel",
+    "materials": 16,
+    "referencers": []
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_FreshMarketInterior",
+    "replacement": "/Game/Delivery/Stores/SM_FreshMarketInterior_Voxel",
+    "materials": 16,
+    "referencers": []
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_RestaurantInterior",
+    "replacement": "/Game/Delivery/Stores/SM_RestaurantInterior_Voxel",
+    "materials": 15,
+    "referencers": []
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_FastFoodInterior",
+    "replacement": "/Game/Delivery/Stores/SM_FastFoodInterior_Voxel",
+    "materials": 16,
+    "referencers": []
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_TechInterior",
+    "replacement": "/Game/Delivery/Stores/SM_TechInterior_Voxel",
+    "materials": 8,
+    "referencers": []
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_ComponentsInterior",
+    "replacement": "/Game/Delivery/Stores/SM_ComponentsInterior_Voxel",
+    "materials": 11,
+    "referencers": []
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_PharmacyInterior",
+    "replacement": "/Game/Delivery/Stores/SM_PharmacyInterior_Voxel",
+    "materials": 13,
+    "referencers": []
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_FloristInterior",
+    "replacement": "/Game/Delivery/Stores/SM_FloristInterior_Voxel",
+    "materials": 14,
+    "referencers": []
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_BakeryInterior",
+    "replacement": "/Game/Delivery/Stores/SM_BakeryInterior_Voxel",
+    "materials": 14,
+    "referencers": []
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_CafeInterior",
+    "replacement": "/Game/Delivery/Stores/SM_CafeInterior_Voxel",
+    "materials": 15,
+    "referencers": []
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_HardwareInterior",
+    "replacement": "/Game/Delivery/Stores/SM_HardwareInterior_Voxel",
+    "materials": 14,
+    "referencers": []
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_PetShopInterior",
+    "replacement": "/Game/Delivery/Stores/SM_PetShopInterior_Voxel",
+    "materials": 13,
+    "referencers": []
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_PizzaInterior",
+    "replacement": "/Game/Delivery/Stores/SM_PizzaInterior_Voxel",
+    "materials": 16,
+    "referencers": []
+  }
+]

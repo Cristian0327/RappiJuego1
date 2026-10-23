@@ -1,0 +1,47 @@
+{
+  "fonts": {
+    "Regular": "<FontLoadingPolicy.INLINE: 2>",
+    "Bold": "<FontLoadingPolicy.INLINE: 2>"
+  },
+  "taxi_rear_doors": {
+    "TaxiSedan": {
+      "checks": {
+        "rear_right_alpha": true,
+        "front_right_closed": true,
+        "front_left_closed": true,
+        "actual_bone_rotated": true
+      },
+      "bone_rotation_degrees": 65.00000000000006,
+      "physical_right_bone": "door_rear_L",
+      "door_names": [
+        "door_L",
+        "door_R",
+        "door_rear_L",
+        "door_rear_R"
+      ]
+    },
+    "TaxiCompact": {
+      "checks": {
+        "rear_right_alpha": true,
+        "front_right_closed": true,
+        "front_left_closed": true,
+        "actual_bone_rotated": true
+      },
+      "bone_rotation_degrees": 65.00000000000006,
+      "physical_right_bone": "door_rear_L",
+      "door_names": [
+        "door_L",
+        "door_R",
+        "door_rear_L",
+        "door_rear_R"
+      ]
+    }
+  },
+  "hail_animation": {
+    "asset": "/Game/Crowd/AN_CrowdTaxiHail.AN_CrowdTaxiHail",
+    "duration": 2.0,
+    "basis": "Existing upright Mixamo idle with adapted arm signal in Blender",
+    "connected_to_taxi_service": false
+  },
+  "status": "PASS"
+}

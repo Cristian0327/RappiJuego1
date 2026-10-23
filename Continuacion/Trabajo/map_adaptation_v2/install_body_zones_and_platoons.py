@@ -1,0 +1,16 @@
+from pathlib import Path
+exec(compile(Path('C:/Users/CRISTIAN/Documents/Codex/2026-09-12/ho/traffic_gameplay_repair/implement.py').read_text().split('# Recovery never')[0],'helpers','exec'))
+assert 'isolated_repair' in root.parts
+P=Path('C:/Users/CRISTIAN/Documents/Codex/2026-09-12/ho/map_adaptation_v2');data=json.loads((P/'arc_conflicts.json').read_text());L='/Game/World/BlueprintWorld/Traffic/BP_TrafficLane.BP_TrafficLane_C'
+for i,row in enumerate(data['lanes']):
+ b=use('/Game/World/BlueprintWorld/Traffic/BP_TrafficLane_'+str(i));cdo=unreal.get_default_object(b.generated_class())
+ for name,key in [('ArcEntries','entry'),('ArcExits','exit'),('ArcJunctions','junction'),('ArcGroups','group'),('ArcMovements','movement')]:cdo.set_editor_property(name,[e[key] for e in row['events']])
+ save(b)
+b=use(J);cdo=unreal.get_default_object(b.generated_class());cdo.set_editor_property('ArcCompatible',data['compatible']);cdo.set_editor_property('ArcMovementCount',data['movement_count']);save(b)
+b=use(TM);g=d.Graph();field(g,'Leader','Leader',('entry','Visitor'),V);g.call('ValidLeader','IsValid',K);g.link('Leader','Leader','ValidLeader','Object');g.branch('HaveLeader','ValidLeader');g.exec('entry','HaveLeader');g.node('False','return',defaults={'ReturnValue':'false'});g.exec('HaveLeader','False','else');field(g,'Claim','ArcJunctionRef',('Leader','Leader'),V);field(g,'Movement','ArcMovement',('Leader','Leader'),V);field(g,'Speed','Speed',('Leader','Leader'),V);op(g,'SameBox','EqualEqual_ObjectObject',('Claim','ArcJunctionRef'),('entry','Junction'));g.branch('OwnedBox','SameBox');g.exec('HaveLeader','OwnedBox');g.exec('OwnedBox','False','else');g.call('Compatible','ArcCompatibleMovements',J);g.link('entry','Junction','Compatible','self');g.link('entry','Movement','Compatible','First');g.link('Movement','ArcMovement','Compatible','Second');op(g,'Moving','Greater_DoubleDouble',('Speed','Speed'),B='50');op(g,'Follow','BooleanAND',('Compatible','ReturnValue'),('Moving','ReturnValue'));g.link('Follow','ReturnValue','result','ReturnValue');g.exec('OwnedBox','result');build(b,g,'LeaderClearingSameBox',[dict(name='Visitor',category='object',object=V),dict(name='Junction',category='object',object=J),dict(name='Movement',category='int'),dict(name='ReturnValue',category='bool',out=True)],True)
+spec=json.loads((P/'BP_TrafficManager_ArcClearance_spec.json').read_text())
+for node in spec['nodes']:
+ if node['id']=='BodyMargin':node['defaults']['B']='680'
+spec['nodes'] += [dict(id='Platoon',kind='call',fn='LeaderClearingSameBox',owner=TM,defaults={}),dict(id='AllowQueue',kind='call',fn='BooleanOR',owner=M,defaults={})]
+spec['links']=[l for l in spec['links'] if l!=['ExitClear','ReturnValue','Pass','ExitClear']]+[['entry','Visitor','Platoon','Visitor'],['Junction','Item','Platoon','Junction'],['ArcBestMovement','ArcBestMovement','Platoon','Movement'],['Platoon','ReturnValue','AllowQueue','A'],['ExitClear','ReturnValue','AllowQueue','B'],['AllowQueue','ReturnValue','Pass','ExitClear']]
+assert unreal.DeliveryEditorLibrary.build_logic_graph(b,'ArcClearance',json.dumps(spec));assert E.compile_blueprint(b);unreal.get_default_object(b.generated_class()).set_editor_property('JunctionCentres',[unreal.Vector(x,y,0) for x,y in data['centers']]);save(b);unreal.log('V2_FULL_BODY_ZONES_AND_GREEN_PLATOONS '+str(len(data['centers'])))

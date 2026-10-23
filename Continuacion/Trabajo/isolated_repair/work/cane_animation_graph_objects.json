@@ -1,0 +1,22 @@
+{
+  "graphs": [
+    {
+      "path": "/Game/Delivery/Animation/ABP_StreetCane.ABP_StreetCane:AnimGraph",
+      "error": "AnimationGraph: Property 'Nodes' for attribute 'nodes' on 'AnimationGraph' is protected and cannot be read"
+    },
+    {
+      "path": "/Game/Delivery/Animation/ABP_StreetCane.ABP_StreetCane:AnimGraph",
+      "error": "AnimationGraph: Property 'Nodes' for attribute 'nodes' on 'AnimationGraph' is protected and cannot be read"
+    }
+  ],
+  "iterators": [
+    "ActorIterator",
+    "ClassIterator",
+    "ForEachActorIteratorSignature",
+    "ForEachAssetIteratorSignature",
+    "ObjectIterator",
+    "SelectedActorIterator",
+    "StructIterator",
+    "TypeIterator"
+  ]
+}

@@ -1,0 +1,7 @@
+import unreal,json,sys
+from pathlib import Path
+r=Path(unreal.Paths.project_dir()).parent;sys.path.insert(0,str(r/'Herramientas'));import blueprint_graph as d
+mat=unreal.load_asset('/Game/Maps/MapaCompleto/M_MapaVoxel');unreal.MaterialEditingLibrary.set_material_usage(mat,unreal.MaterialUsage.MATUSAGE_INSTANCED_STATIC_MESHES);unreal.MaterialEditingLibrary.recompile_material(mat);unreal.EditorAssetLibrary.save_loaded_asset(mat,only_if_is_dirty=False)
+bp=unreal.load_asset('/Game/World/BlueprintWorld/Traffic/BP_TrafficManager');d.bp=bp;g=d.Graph();g.setter('ResetChoice','BestJunction',value='None');g.exec('entry','ResetChoice');g.setter('ResetDistance','BestAhead',value='6000');g.exec('ResetChoice','ResetDistance');g.exec('ResetDistance','result');g.get('BestJunction');g.link('BestJunction','BestJunction','result','ReturnValue');assert unreal.DeliveryEditorLibrary.build_logic_graph(bp,'FindUpcomingJunction',json.dumps({'nodes':g.nodes,'links':g.links,'parameters':[{'name':'Visitor','category':'object','object':'/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C'},{'name':'ReturnValue','category':'object','object':'/Game/World/BlueprintWorld/Traffic/BP_TrafficJunction.BP_TrafficJunction_C','out':True}]}));assert unreal.BlueprintEditorLibrary.compile_blueprint(bp);unreal.EditorAssetLibrary.save_loaded_asset(bp,only_if_is_dirty=False)
+exec(Path('C:/Users/CRISTIAN/Documents/Codex/2026-09-12/ho/build_new_map_runtime_probe.py').read_text())
+unreal.log('NEW_MAP_MATERIAL_AND_JUNCTION_FIX_READY')

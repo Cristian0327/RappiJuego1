@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": {
+    "starts_on_assigned_lane": true,
+    "acceleration_240_cm_s2": true,
+    "single_step_distance_not_reevaluated": true,
+    "render_interpolates_half_step": true,
+    "matches_300_step_reference": true,
+    "zero_dt_does_not_reset_or_move": true,
+    "obstacle_hard_limit_no_penetration": true,
+    "negative_gap_does_not_reverse": true,
+    "wraps_circuit_without_jump": true,
+    "wrapped_render_matches_route": true,
+    "does_not_accelerate_with_open_door": true,
+    "resumes_after_door_closed": true,
+    "twelve_distinct_body_colors": true,
+    "headlights_show_actual_spotlights": true,
+    "headlights_turn_off": true
+  },
+  "scope": "Blueprint VM deterministic simulation/interpolation/art; full city manager/signals/pedestrians still pending"
+}

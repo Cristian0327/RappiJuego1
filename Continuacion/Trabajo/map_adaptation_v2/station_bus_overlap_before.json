@@ -1,0 +1,44 @@
+[
+  {
+    "name": "BP_BogotaTransmiStation_C_0",
+    "full_station_overlaps": 0,
+    "compact_station_overlaps": 0,
+    "sample_indices": []
+  },
+  {
+    "name": "BP_BogotaTransmiStation_C_1",
+    "full_station_overlaps": 0,
+    "compact_station_overlaps": 0,
+    "sample_indices": []
+  },
+  {
+    "name": "BP_BogotaTransmiStation_C_2",
+    "full_station_overlaps": 9,
+    "compact_station_overlaps": 0,
+    "sample_indices": []
+  },
+  {
+    "name": "BP_BogotaTransmiStation_C_3",
+    "full_station_overlaps": 0,
+    "compact_station_overlaps": 0,
+    "sample_indices": []
+  },
+  {
+    "name": "BP_BogotaTransmiStation_C_4",
+    "full_station_overlaps": 0,
+    "compact_station_overlaps": 0,
+    "sample_indices": []
+  },
+  {
+    "name": "BP_BogotaTransmiStation_C_5",
+    "full_station_overlaps": 0,
+    "compact_station_overlaps": 0,
+    "sample_indices": []
+  },
+  {
+    "name": "BP_BogotaTransmiStation_C_6",
+    "full_station_overlaps": 0,
+    "compact_station_overlaps": 0,
+    "sample_indices": []
+  }
+]

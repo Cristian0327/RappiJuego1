@@ -1,0 +1,7 @@
+{
+  "simulation_hz": 10,
+  "render_every_frame": true,
+  "fixed_snapshot_interpolation": true,
+  "transit_clock_dt": 0.1,
+  "status": "COMPILED_PENDING_RENDER_AND_SAFETY"
+}

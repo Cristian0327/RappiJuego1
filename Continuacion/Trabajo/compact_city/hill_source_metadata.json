@@ -1,0 +1,24 @@
+{
+  "curves": 14,
+  "terrain_properties": "{'Superficie_juego': True}",
+  "modifiers": [
+    [
+      "Relieve \u00b7 sigue los controladores",
+      "NODES"
+    ],
+    [
+      "Mapa \u00b7 jaula para editar cualquier zona",
+      "LATTICE"
+    ]
+  ],
+  "texts": [
+    {
+      "name": "limpiar_mapa.py",
+      "lines": []
+    },
+    {
+      "name": "reporte_limpieza",
+      "lines": []
+    }
+  ]
+}

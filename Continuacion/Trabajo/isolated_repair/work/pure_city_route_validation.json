@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": {
+    "CITY_ROUTES_BUILT": "true",
+    "OFFERS_FROM_ROUTES": "true"
+  },
+  "stores": 20,
+  "map": "/Game/QA/PureCityRoutes",
+  "native_bases": false,
+  "staging_not_promoted": true
+}

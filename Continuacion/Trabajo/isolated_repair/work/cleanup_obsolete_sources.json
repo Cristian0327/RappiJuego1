@@ -1,0 +1,28 @@
+{
+  "reason": "Static NPC experiments replaced by rigged People/Segments and old interiors replaced by Shops Blender sources",
+  "removed": [
+    "outputs\\DeliveryArt\\HighFidelity\\SM_Cashier.blend",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_Cashier.fbx",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_Chef.blend",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_Chef.fbx",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_TechClerk.blend",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_TechClerk.fbx",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_Pharmacist.blend",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_Pharmacist.fbx",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_Florist.blend",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_Florist.fbx",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_CustomerStudent.blend",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_CustomerOffice.blend",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_CustomerNeighbor.blend",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_MarketInterior.blend",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_MarketInterior.fbx",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_RestaurantInterior.blend",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_RestaurantInterior.fbx",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_TechInterior.blend",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_TechInterior.fbx",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_PharmacyInterior.blend",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_PharmacyInterior.fbx",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_FloristInterior.blend",
+    "outputs\\DeliveryArt\\HighFidelity\\SM_FloristInterior.fbx"
+  ]
+}

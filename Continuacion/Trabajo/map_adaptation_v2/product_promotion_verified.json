@@ -1,0 +1,20 @@
+{
+  "status": "PROMOTED",
+  "assets": [
+    {
+      "path": "Delivery/BlueprintGameplay/Stores/BP_DeliveryStore.uasset",
+      "before": "a74729e0b64e81f9ea72c9d9f82bbc120e7de02e90d92b7bc16a857739c8bcce",
+      "after": "bccbc5ba12456f78b6532aa8d56bea8fc1493cb8a37c6d47ac53f4be742ae329",
+      "backup": "C:\\Users\\CRISTIAN\\Documents\\Codex\\2026-09-12\\ho\\map_adaptation_v2\\promotion_backup\\Content\\Delivery\\BlueprintGameplay\\Stores\\BP_DeliveryStore.uasset"
+    },
+    {
+      "path": "Delivery/BlueprintGameplay/BPC_DeliveryDataCore.uasset",
+      "before": "d92ea55c821d36311e5508ace509f751f4e5cc198fc4e691bb0a36d4a986300a",
+      "after": "d52673e1993a3aa8e27ebd4c7f9b0bc00b595e9443b688a0ec4e3840305b762b",
+      "backup": "C:\\Users\\CRISTIAN\\Documents\\Codex\\2026-09-12\\ho\\map_adaptation_v2\\promotion_backup\\Content\\Delivery\\BlueprintGameplay\\BPC_DeliveryDataCore.uasset"
+    }
+  ],
+  "gameplay_log": "product_lifecycle.log",
+  "product_image": "shot_product00000.png",
+  "order_completed": true
+}

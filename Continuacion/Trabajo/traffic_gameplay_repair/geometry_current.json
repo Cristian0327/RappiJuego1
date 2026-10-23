@@ -1,0 +1,290 @@
+{
+  "/Game/Delivery/BlueprintGameplay/Player/BP_BlueprintRider.BP_BlueprintRider_C": {
+    "components": [
+      {
+        "name": "CollisionCylinder",
+        "at": "<Struct 'Vector' (0x00000122257FA980) {x: -4697.553690, y: -2016.012536, z: 508.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122257FA998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000121AEC1D140) {x: -4697.553690, y: -2016.012536, z: 508.000000}>, <Struct 'Vector' (0x00000121AEC1D190) {x: 34.000000, y: 34.000000, z: 90.000000}>, 90.0)",
+        "capsule_half_height": "90.0"
+      },
+      {
+        "name": "Arrow",
+        "at": "<Struct 'Vector' (0x00000122257FA280) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122257FA298) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000121AEC1D140) {x: -4577.553690, y: -2016.012536, z: 508.000000}>, <Struct 'Vector' (0x00000121AEC1D190) {x: 120.000000, y: 80.000000, z: 80.000000}>, 164.92422485351562)"
+      },
+      {
+        "name": "CharacterMesh0",
+        "at": "<Struct 'Vector' (0x00000121AD9A6580) {x: 0.000000, y: 0.000000, z: -90.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000121AD9A6598) {pitch: 0.000000, yaw: -90.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000121AEC1D140) {x: -4697.769403, y: -2014.145188, z: 512.259904}>, <Struct 'Vector' (0x00000121AEC1D190) {x: 50.196031, y: 45.043251, z: 95.023068}>, 116.52433013916016)",
+        "skeletal_mesh": "<Object '/Game/VoxelExplorer/SK_VoxelExplorer.SK_VoxelExplorer' (0x00000121904BC800) Class 'SkeletalMesh'>"
+      },
+      {
+        "name": "CameraBoom",
+        "at": "<Struct 'Vector' (0x0000012241B52980) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x0000012241B52998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "Camera",
+        "at": "<Struct 'Vector' (0x00000122237E4980) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122237E4998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "Bicycle",
+        "at": "<Struct 'Vector' (0x00000122415A0B80) {x: 0.000000, y: 0.000000, z: -90.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122415A0B98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000121AEC85F50) {x: -4697.553690, y: -2016.012539, z: 490.000000}>, <Struct 'Vector' (0x00000121AEC1D140) {x: 64.500000, y: 30.000001, z: 41.500000}>, 76.73818969726562)",
+        "static_mesh": "<Object '/Game/World/SM_BicycleFrame.SM_BicycleFrame' (0x0000012181974800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FrontWheel",
+        "at": "<Struct 'Vector' (0x000001221BF22980) {x: 62.000000, y: 0.000000, z: 33.000000}>",
+        "rot": "<Struct 'Rotator' (0x000001221BF22998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000121AEC85F50) {x: -4635.553690, y: -2016.012536, z: 451.000000}>, <Struct 'Vector' (0x00000121AEC1D140) {x: 32.000000, y: 6.500000, z: 32.000000}>, 34.70230484008789)",
+        "static_mesh": "<Object '/Game/World/SM_BicycleWheel.SM_BicycleWheel' (0x0000012181972000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "RearWheel",
+        "at": "<Struct 'Vector' (0x000001223E8B6F80) {x: -62.000000, y: 0.000000, z: 33.000000}>",
+        "rot": "<Struct 'Rotator' (0x000001223E8B6F98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000121AEC85F50) {x: -4759.553690, y: -2016.012536, z: 451.000000}>, <Struct 'Vector' (0x00000121AEC1D140) {x: 32.000000, y: 6.500000, z: 32.000000}>, 34.70230484008789)",
+        "static_mesh": "<Object '/Game/World/SM_BicycleWheel.SM_BicycleWheel' (0x0000012181972000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "LeftPedal",
+        "at": "<Struct 'Vector' (0x000001223E8B5180) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x000001223E8B5198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000121AEC85F50) {x: -4697.553690, y: -2016.012536, z: 418.000000}>, <Struct 'Vector' (0x00000121AEC1D140) {x: 10.000000, y: 6.500000, z: 2.500000}>, 12.186058044433594)",
+        "static_mesh": "<Object '/Engine/BasicShapes/Cube.Cube' (0x00000121907E2000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "RightPedal",
+        "at": "<Struct 'Vector' (0x000001223E8B3380) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x000001223E8B3398) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000121AEC85F50) {x: -4697.553690, y: -2016.012536, z: 418.000000}>, <Struct 'Vector' (0x00000121AEC1D140) {x: 10.000000, y: 6.500000, z: 2.500000}>, 12.186058044433594)",
+        "static_mesh": "<Object '/Engine/BasicShapes/Cube.Cube' (0x00000121907E2000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "MotoFrame",
+        "at": "<Struct 'Vector' (0x000001223E8B1580) {x: 0.000000, y: 0.000000, z: -90.000000}>",
+        "rot": "<Struct 'Rotator' (0x000001223E8B1598) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000121AEC85F50) {x: -4697.303690, y: -2015.512532, z: 490.375001}>, <Struct 'Vector' (0x00000121AEC1D140) {x: 64.750000, y: 32.500004, z: 42.874999}>, 78.55223083496094)",
+        "static_mesh": "<Object '/Game/Delivery/Art/SM_MotoStage0.SM_MotoStage0' (0x000001222C6AC800) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C": {
+    "components": [
+      {
+        "name": "VehicleRoot",
+        "at": "<Struct 'Vector' (0x00000122405D4F80) {x: -4697.553690, y: -2016.012536, z: 508.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122405D4F98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "Body",
+        "at": "<Struct 'Vector' (0x00000122377F9B80) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122377F9B98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000121AEC85F50) {x: -4697.553690, y: -2016.012536, z: 508.000000}>, <Struct 'Vector' (0x00000121AEC1D190) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)",
+        "skeletal_mesh": "None"
+      },
+      {
+        "name": "HeadlightLeft",
+        "at": "<Struct 'Vector' (0x00000122469AA180) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122469AA198) {pitch: -10.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "BillboardComponent_6",
+        "at": "<Struct 'Vector' (0x00000122257FE180) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122257FE198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000121AEC1D190) {x: -4697.553690, y: -2016.012536, z: 508.000000}>, <Struct 'Vector' (0x00000121AEC1D140) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+      },
+      {
+        "name": "HeadlightRight",
+        "at": "<Struct 'Vector' (0x00000122469AB580) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122469AB598) {pitch: -10.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "BillboardComponent_7",
+        "at": "<Struct 'Vector' (0x00000122257FE880) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122257FE898) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000121AEC1D140) {x: -4697.553690, y: -2016.012536, z: 508.000000}>, <Struct 'Vector' (0x00000121AEC1D0F0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+      },
+      {
+        "name": "VehicleCollision",
+        "at": "<Struct 'Vector' (0x00000122257FEF80) {x: 0.000000, y: 0.000000, z: 100.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122257FEF98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000121AEC1D0F0) {x: -4697.553690, y: -2016.012536, z: 608.000000}>, <Struct 'Vector' (0x0000012208024D30) {x: 250.000000, y: 110.000000, z: 100.000000}>, 290.86077880859375)"
+      },
+      {
+        "name": "SignalFL",
+        "at": "<Struct 'Vector' (0x00000122469A0680) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122469A0698) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "BillboardComponent_8",
+        "at": "<Struct 'Vector' (0x00000122257FF680) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122257FF698) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x0000012208024D30) {x: -4697.553690, y: -2016.012536, z: 508.000000}>, <Struct 'Vector' (0x0000012208024DD0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+      },
+      {
+        "name": "SignalFR",
+        "at": "<Struct 'Vector' (0x0000012227C7D380) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x0000012227C7D398) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "BillboardComponent_9",
+        "at": "<Struct 'Vector' (0x00000122507FE880) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122507FE898) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x0000012208024DD0) {x: -4697.553690, y: -2016.012536, z: 508.000000}>, <Struct 'Vector' (0x0000012208024E20) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+      },
+      {
+        "name": "SignalRL",
+        "at": "<Struct 'Vector' (0x0000012227C7CE80) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x0000012227C7CE98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "BillboardComponent_10",
+        "at": "<Struct 'Vector' (0x00000122507FC580) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122507FC598) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x0000012208024E20) {x: -4697.553690, y: -2016.012536, z: 508.000000}>, <Struct 'Vector' (0x0000012208024E70) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+      },
+      {
+        "name": "SignalRR",
+        "at": "<Struct 'Vector' (0x0000012227C7F180) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x0000012227C7F198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "BillboardComponent_11",
+        "at": "<Struct 'Vector' (0x00000122507FD380) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122507FD398) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x0000012208024E70) {x: -4697.553690, y: -2016.012536, z: 508.000000}>, <Struct 'Vector' (0x0000012208024EC0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+      }
+    ]
+  },
+  "/Game/World/BlueprintWorld/Traffic/BP_Traffic_TaxiSedan.BP_Traffic_TaxiSedan_C": {
+    "components": [
+      {
+        "name": "VehicleRoot",
+        "at": "<Struct 'Vector' (0x00000122405D9180) {x: -4697.553690, y: -2016.012536, z: 508.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122405D9198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "Body",
+        "at": "<Struct 'Vector' (0x00000122377FC580) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x00000122377FC598) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x0000012208024F10) {x: -4695.313690, y: -2016.012541, z: 602.080000}>, <Struct 'Vector' (0x0000012208024EC0) {x: 253.120000, y: 125.440004, z: 94.080000}>, 297.75152587890625)",
+        "skeletal_mesh": "<Object '/Game/Traffic/Detailed/SK_TaxiSedan.SK_TaxiSedan' (0x000001221EA93C00) Class 'SkeletalMesh'>"
+      },
+      {
+        "name": "HeadlightLeft",
+        "at": "<Struct 'Vector' (0x000001221BF0F180) {x: 238.360000, y: -81.900000, z: 72.800000}>",
+        "rot": "<Struct 'Rotator' (0x000001221BF0F198) {pitch: -10.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "BillboardComponent_6",
+        "at": "<Struct 'Vector' (0x000001221DC0E880) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x000001221DC0E898) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x0000012208024EC0) {x: -4430.590490, y: -2107.740536, z: 589.536000}>, <Struct 'Vector' (0x0000012208024E70) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+      },
+      {
+        "name": "HeadlightRight",
+        "at": "<Struct 'Vector' (0x000001221BF0E780) {x: 238.360000, y: 81.900000, z: 72.800000}>",
+        "rot": "<Struct 'Rotator' (0x000001221BF0E798) {pitch: -10.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "BillboardComponent_7",
+        "at": "<Struct 'Vector' (0x000001221DC0CC80) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x000001221DC0CC98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x0000012208024E70) {x: -4430.590490, y: -1924.284536, z: 589.536000}>, <Struct 'Vector' (0x0000012208024F60) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+      },
+      {
+        "name": "VehicleCollision",
+        "at": "<Struct 'Vector' (0x000001221DC0BE80) {x: 0.000000, y: 0.000000, z: 90.000000}>",
+        "rot": "<Struct 'Rotator' (0x000001221DC0BE98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x0000012208024F60) {x: -4697.553690, y: -2016.012536, z: 598.000000}>, <Struct 'Vector' (0x0000012208024FB0) {x: 255.360000, y: 126.000000, z: 90.000000}>, 298.63812255859375)"
+      },
+      {
+        "name": "SignalFL",
+        "at": "<Struct 'Vector' (0x000001221BF0EC80) {x: 220.360000, y: -94.500000, z: 72.800000}>",
+        "rot": "<Struct 'Rotator' (0x000001221BF0EC98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "BillboardComponent_8",
+        "at": "<Struct 'Vector' (0x000001221DC0A280) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x000001221DC0A298) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x0000012208024FB0) {x: -4477.193690, y: -2110.512536, z: 580.800000}>, <Struct 'Vector' (0x0000012208025000) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+      },
+      {
+        "name": "SignalFR",
+        "at": "<Struct 'Vector' (0x000001221BF0FB80) {x: 220.360000, y: 94.500000, z: 72.800000}>",
+        "rot": "<Struct 'Rotator' (0x000001221BF0FB98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "BillboardComponent_9",
+        "at": "<Struct 'Vector' (0x000001221DC09480) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x000001221DC09498) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x0000012208025000) {x: -4477.193690, y: -1921.512536, z: 580.800000}>, <Struct 'Vector' (0x0000012208025050) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+      },
+      {
+        "name": "SignalRL",
+        "at": "<Struct 'Vector' (0x000001221BF0AB80) {x: -220.360000, y: -94.500000, z: 72.800000}>",
+        "rot": "<Struct 'Rotator' (0x000001221BF0AB98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "BillboardComponent_10",
+        "at": "<Struct 'Vector' (0x000001221DC07880) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x000001221DC07898) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x0000012208025050) {x: -4917.913690, y: -2110.512536, z: 580.800000}>, <Struct 'Vector' (0x00000122080250A0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+      },
+      {
+        "name": "SignalRR",
+        "at": "<Struct 'Vector' (0x000001221BF0B080) {x: -220.360000, y: 94.500000, z: 72.800000}>",
+        "rot": "<Struct 'Rotator' (0x000001221BF0B098) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+      },
+      {
+        "name": "BillboardComponent_11",
+        "at": "<Struct 'Vector' (0x000001221DC06A80) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x000001221DC06A98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000122080250A0) {x: -4917.913690, y: -1921.512536, z: 580.800000}>, <Struct 'Vector' (0x00000122080250F0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+      }
+    ]
+  },
+  "/Game/Traffic/Services/BP_PoliceRoadPatrol.BP_PoliceRoadPatrol_C": {
+    "components": [
+      {
+        "name": "CollisionCylinder",
+        "at": "<Struct 'Vector' (0x000001221DC04E80) {x: -4697.553690, y: -2016.012536, z: 508.000000}>",
+        "rot": "<Struct 'Rotator' (0x000001221DC04E98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000122080250F0) {x: -4697.553690, y: -2016.012536, z: 508.000000}>, <Struct 'Vector' (0x00000122080250A0) {x: 125.000000, y: 125.000000, z: 140.000000}>, 140.0)",
+        "capsule_half_height": "140.0"
+      },
+      {
+        "name": "Arrow",
+        "at": "<Struct 'Vector' (0x000001221DC03980) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x000001221DC03998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000122080250F0) {x: -4577.553690, y: -2016.012536, z: 508.000000}>, <Struct 'Vector' (0x00000122080250A0) {x: 120.000000, y: 80.000000, z: 80.000000}>, 164.92422485351562)"
+      },
+      {
+        "name": "CharacterMesh0",
+        "at": "<Struct 'Vector' (0x000001224663DD80) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "rot": "<Struct 'Rotator' (0x000001224663DD98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "bounds": "(<Struct 'Vector' (0x00000122080250F0) {x: -4697.553690, y: -2016.012536, z: 508.000000}>, <Struct 'Vector' (0x00000122080250A0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)",
+        "skeletal_mesh": "None"
+      }
+    ],
+    "GroundOffset": "140.0",
+    "DriveModel": "<Object '/Game/Traffic/Services/SK_PolicePatrol.SK_PolicePatrol' (0x000001221EA9F000) Class 'SkeletalMesh'>",
+    "RoadSpeed": "580.0"
+  },
+  "methods": [
+    "add_action_graph",
+    "bind_widget_delegate_graph",
+    "build_blueprint_input_graph",
+    "build_logic_graph",
+    "build_reward_graph",
+    "clone_engine_widget_designer",
+    "style_phone_typography"
+  ]
+}

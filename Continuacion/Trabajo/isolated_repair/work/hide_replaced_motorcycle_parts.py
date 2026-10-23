@@ -1,0 +1,7 @@
+import unreal,sys,json,shutil
+from pathlib import Path
+r=Path(unreal.Paths.project_dir()).parent;sys.path.insert(0,str(r/'Herramientas'));import blueprint_graph as d
+p='/Game/Delivery/Vehicles/BP_DeliveryRider';bp=unreal.load_asset(p);audit=json.loads(unreal.DeliveryEditorLibrary.audit_blueprint(bp));assert not any(x['name']=='ReceiveBeginPlay' for x in audit['graphs']), 'Review existing BeginPlay before modifying'
+src=r/'RappiJuego1/Content/Delivery/Vehicles/BP_DeliveryRider.uasset';dest=r/'Recuperacion_Migracion_Blueprints/2026-10-16_moto_geometria';dest.mkdir(parents=True,exist_ok=True);shutil.copy2(src,dest/src.name)
+d.bp=bp;g=d.Graph();g.get('MotorcycleParts');g.node('Parts','foreach');g.link('MotorcycleParts','MotorcycleParts','Parts','Array');g.link('entry','then','Parts','Exec');g.call('Obsolete','Greater_IntInt',d.M,B='0');g.link('Parts','Array Index','Obsolete','A');g.branch('OldGeometry','Obsolete');g.exec('Parts','OldGeometry','LoopBody');g.call('Hide','SetVisibility','/Script/Engine.SceneComponent',bNewVisibility='false',bPropagateToChildren='true');g.link('Parts','Array Element','Hide','self');g.exec('OldGeometry','Hide');g.exec('Parts','result','Completed');g.build('ReceiveBeginPlay');assert unreal.BlueprintEditorLibrary.compile_blueprint(bp);assert unreal.EditorAssetLibrary.save_loaded_asset(bp,only_if_is_dirty=False)
+unreal.log('REPLACED_MOTORCYCLE_GEOMETRY_HIDDEN_IN_BLUEPRINT_PASS')

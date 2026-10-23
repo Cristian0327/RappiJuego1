@@ -1,0 +1,1610 @@
+[
+  {
+    "asset": "SM_StreetFrontage_000",
+    "source": "SM_Mapa_000",
+    "original_top": 1063.751708984375,
+    "top": 1063.751708984375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_001",
+    "source": "SM_Mapa_000",
+    "original_top": 1063.751708984375,
+    "top": 1063.751708984375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_002",
+    "source": "SM_Mapa_005",
+    "original_top": 1022.4379272460938,
+    "top": 1022.4379272460938,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_003",
+    "source": "SM_Mapa_007",
+    "original_top": 4120.658203125,
+    "top": 4120.658203125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_004",
+    "source": "SM_Mapa_007",
+    "original_top": 4120.658203125,
+    "top": 4120.658203125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_005",
+    "source": "SM_Mapa_009",
+    "original_top": 3915.55029296875,
+    "top": 3915.55029296875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_006",
+    "source": "SM_Mapa_012",
+    "original_top": 4059.15234375,
+    "top": 4059.15234375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_007",
+    "source": "SM_Mapa_014",
+    "original_top": 1847.663818359375,
+    "top": 1847.663818359375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_008",
+    "source": "SM_Mapa_015",
+    "original_top": 521.439453125,
+    "top": 521.439453125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_009",
+    "source": "SM_Mapa_017",
+    "original_top": 658.599609375,
+    "top": 658.599609375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_010",
+    "source": "SM_Mapa_018",
+    "original_top": 724.5425415039062,
+    "top": 724.5425415039062,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_011",
+    "source": "SM_Mapa_019",
+    "original_top": 712.7686767578125,
+    "top": 712.7686767578125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_012",
+    "source": "SM_Mapa_019",
+    "original_top": 712.7686767578125,
+    "top": 712.7686767578125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_013",
+    "source": "SM_Mapa_019",
+    "original_top": 712.7686767578125,
+    "top": 712.7686767578125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_014",
+    "source": "SM_Mapa_020",
+    "original_top": 604.30712890625,
+    "top": 604.30712890625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_015",
+    "source": "SM_Mapa_022",
+    "original_top": 707.932373046875,
+    "top": 707.932373046875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_016",
+    "source": "SM_Mapa_022",
+    "original_top": 707.932373046875,
+    "top": 707.932373046875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_017",
+    "source": "SM_Mapa_023",
+    "original_top": 2862.53076171875,
+    "top": 2862.53076171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_018",
+    "source": "SM_Mapa_026",
+    "original_top": 2075.35693359375,
+    "top": 2075.35693359375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_019",
+    "source": "SM_Mapa_026",
+    "original_top": 2075.35693359375,
+    "top": 2075.35693359375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_020",
+    "source": "SM_Mapa_026",
+    "original_top": 2075.35693359375,
+    "top": 2075.35693359375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_021",
+    "source": "SM_Mapa_027",
+    "original_top": 1619.2552490234375,
+    "top": 1619.2552490234375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_022",
+    "source": "SM_Mapa_027",
+    "original_top": 1619.2552490234375,
+    "top": 1619.2552490234375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_023",
+    "source": "SM_Mapa_028",
+    "original_top": 2773.89306640625,
+    "top": 2773.89306640625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_024",
+    "source": "SM_Mapa_033",
+    "original_top": 845.5220947265625,
+    "top": 845.5220947265625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_025",
+    "source": "SM_Mapa_033",
+    "original_top": 845.5220947265625,
+    "top": 845.5220947265625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_026",
+    "source": "SM_Mapa_035",
+    "original_top": 8890.3017578125,
+    "top": 8890.3017578125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_027",
+    "source": "SM_Mapa_037",
+    "original_top": 834.0032348632812,
+    "top": 834.0032348632812,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_028",
+    "source": "SM_Mapa_038",
+    "original_top": 1016.9210205078125,
+    "top": 1016.9210205078125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_029",
+    "source": "SM_Mapa_043",
+    "original_top": 596.32275390625,
+    "top": 596.32275390625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_030",
+    "source": "SM_Mapa_045",
+    "original_top": 873.8933715820312,
+    "top": 873.8933715820312,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_031",
+    "source": "SM_Mapa_048",
+    "original_top": 747.3529052734375,
+    "top": 747.3529052734375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_032",
+    "source": "SM_Mapa_048",
+    "original_top": 747.3529052734375,
+    "top": 747.3529052734375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_033",
+    "source": "SM_Mapa_049",
+    "original_top": 747.3529052734375,
+    "top": 747.3529052734375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_034",
+    "source": "SM_Mapa_049",
+    "original_top": 747.3529052734375,
+    "top": 747.3529052734375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_035",
+    "source": "SM_Mapa_049",
+    "original_top": 747.3529052734375,
+    "top": 747.3529052734375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_036",
+    "source": "SM_Mapa_049",
+    "original_top": 747.3529052734375,
+    "top": 747.3529052734375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_037",
+    "source": "SM_Mapa_049",
+    "original_top": 747.3529052734375,
+    "top": 747.3529052734375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_038",
+    "source": "SM_Mapa_049",
+    "original_top": 747.3529052734375,
+    "top": 747.3529052734375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_039",
+    "source": "SM_Mapa_050",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_040",
+    "source": "SM_Mapa_050",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_041",
+    "source": "SM_Mapa_050",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_042",
+    "source": "SM_Mapa_050",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_043",
+    "source": "SM_Mapa_050",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_044",
+    "source": "SM_Mapa_051",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_045",
+    "source": "SM_Mapa_051",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_046",
+    "source": "SM_Mapa_051",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_047",
+    "source": "SM_Mapa_052",
+    "original_top": 747.342529296875,
+    "top": 747.342529296875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_048",
+    "source": "SM_Mapa_052",
+    "original_top": 747.342529296875,
+    "top": 747.342529296875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_049",
+    "source": "SM_Mapa_052",
+    "original_top": 747.342529296875,
+    "top": 747.342529296875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_050",
+    "source": "SM_Mapa_053",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_051",
+    "source": "SM_Mapa_053",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_052",
+    "source": "SM_Mapa_053",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_053",
+    "source": "SM_Mapa_053",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_054",
+    "source": "SM_Mapa_053",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_055",
+    "source": "SM_Mapa_053",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_056",
+    "source": "SM_Mapa_053",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_057",
+    "source": "SM_Mapa_053",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_058",
+    "source": "SM_Mapa_053",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_059",
+    "source": "SM_Mapa_053",
+    "original_top": 873.918701171875,
+    "top": 873.918701171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_060",
+    "source": "SM_Mapa_054",
+    "original_top": 3125.55419921875,
+    "top": 3125.55419921875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_061",
+    "source": "SM_Mapa_055",
+    "original_top": 2225.284423828125,
+    "top": 2225.284423828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_062",
+    "source": "SM_Mapa_055",
+    "original_top": 2225.284423828125,
+    "top": 2225.284423828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_063",
+    "source": "SM_Mapa_055",
+    "original_top": 2225.284423828125,
+    "top": 2225.284423828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_064",
+    "source": "SM_Mapa_055",
+    "original_top": 2225.284423828125,
+    "top": 2225.284423828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_065",
+    "source": "SM_Mapa_055",
+    "original_top": 2225.284423828125,
+    "top": 2225.284423828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_066",
+    "source": "SM_Mapa_055",
+    "original_top": 2225.284423828125,
+    "top": 2225.284423828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_067",
+    "source": "SM_Mapa_056",
+    "original_top": 3249.003173828125,
+    "top": 3249.003173828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_068",
+    "source": "SM_Mapa_056",
+    "original_top": 3249.003173828125,
+    "top": 3249.003173828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_069",
+    "source": "SM_Mapa_056",
+    "original_top": 3249.003173828125,
+    "top": 3249.003173828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_070",
+    "source": "SM_Mapa_056",
+    "original_top": 3249.003173828125,
+    "top": 3249.003173828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_071",
+    "source": "SM_Mapa_056",
+    "original_top": 3249.003173828125,
+    "top": 3249.003173828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_072",
+    "source": "SM_Mapa_056",
+    "original_top": 3249.003173828125,
+    "top": 3249.003173828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_073",
+    "source": "SM_Mapa_056",
+    "original_top": 3249.003173828125,
+    "top": 3249.003173828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_074",
+    "source": "SM_Mapa_056",
+    "original_top": 3249.003173828125,
+    "top": 3249.003173828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_075",
+    "source": "SM_Mapa_056",
+    "original_top": 3249.003173828125,
+    "top": 3249.003173828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_076",
+    "source": "SM_Mapa_056",
+    "original_top": 3249.003173828125,
+    "top": 3249.003173828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_077",
+    "source": "SM_Mapa_057",
+    "original_top": 2325.65478515625,
+    "top": 2325.65478515625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_078",
+    "source": "SM_Mapa_057",
+    "original_top": 2325.65478515625,
+    "top": 2325.65478515625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_079",
+    "source": "SM_Mapa_057",
+    "original_top": 2325.65478515625,
+    "top": 2325.65478515625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_080",
+    "source": "SM_Mapa_058",
+    "original_top": 1073.84619140625,
+    "top": 1073.84619140625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_081",
+    "source": "SM_Mapa_058",
+    "original_top": 1073.84619140625,
+    "top": 1073.84619140625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_082",
+    "source": "SM_Mapa_060",
+    "original_top": 902.5068969726562,
+    "top": 902.5068969726562,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_083",
+    "source": "SM_Mapa_061",
+    "original_top": 875.4043579101562,
+    "top": 875.4043579101562,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_084",
+    "source": "SM_Mapa_061",
+    "original_top": 875.4043579101562,
+    "top": 875.4043579101562,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_085",
+    "source": "SM_Mapa_061",
+    "original_top": 875.4043579101562,
+    "top": 875.4043579101562,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_086",
+    "source": "SM_Mapa_062",
+    "original_top": 596.0115356445312,
+    "top": 596.0115356445312,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_087",
+    "source": "SM_Mapa_062",
+    "original_top": 596.0115356445312,
+    "top": 596.0115356445312,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_088",
+    "source": "SM_Mapa_062",
+    "original_top": 596.0115356445312,
+    "top": 596.0115356445312,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_089",
+    "source": "SM_Mapa_062",
+    "original_top": 596.0115356445312,
+    "top": 596.0115356445312,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_090",
+    "source": "SM_Mapa_064",
+    "original_top": 810.60693359375,
+    "top": 810.60693359375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_091",
+    "source": "SM_Mapa_065",
+    "original_top": 957.036865234375,
+    "top": 957.036865234375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_092",
+    "source": "SM_Mapa_066",
+    "original_top": 832.5485229492188,
+    "top": 832.5485229492188,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_093",
+    "source": "SM_Mapa_067",
+    "original_top": 1427.665283203125,
+    "top": 1427.665283203125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_094",
+    "source": "SM_Mapa_068",
+    "original_top": 984.9183349609375,
+    "top": 984.9183349609375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_095",
+    "source": "SM_Mapa_068",
+    "original_top": 984.9183349609375,
+    "top": 984.9183349609375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_096",
+    "source": "SM_Mapa_069",
+    "original_top": 2532.82080078125,
+    "top": 2532.82080078125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_097",
+    "source": "SM_Mapa_070",
+    "original_top": 984.9183349609375,
+    "top": 984.9183349609375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_098",
+    "source": "SM_Mapa_070",
+    "original_top": 984.9183349609375,
+    "top": 984.9183349609375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_099",
+    "source": "SM_Mapa_071",
+    "original_top": 838.1185302734375,
+    "top": 838.1185302734375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_100",
+    "source": "SM_Mapa_072",
+    "original_top": 1131.375732421875,
+    "top": 1131.375732421875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_101",
+    "source": "SM_Mapa_073",
+    "original_top": 1002.3155517578125,
+    "top": 1002.3155517578125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_102",
+    "source": "SM_Mapa_073",
+    "original_top": 1002.3155517578125,
+    "top": 1002.3155517578125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_103",
+    "source": "SM_Mapa_074",
+    "original_top": 715.2784423828125,
+    "top": 715.2784423828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_104",
+    "source": "SM_Mapa_074",
+    "original_top": 715.2784423828125,
+    "top": 715.2784423828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_105",
+    "source": "SM_Mapa_074",
+    "original_top": 715.2784423828125,
+    "top": 715.2784423828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_106",
+    "source": "SM_Mapa_074",
+    "original_top": 715.2784423828125,
+    "top": 715.2784423828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_107",
+    "source": "SM_Mapa_074",
+    "original_top": 715.2784423828125,
+    "top": 715.2784423828125,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_108",
+    "source": "SM_Mapa_075",
+    "original_top": 984.9183349609375,
+    "top": 984.9183349609375,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_109",
+    "source": "SM_Mapa_076",
+    "original_top": 888.6201171875,
+    "top": 888.6201171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_110",
+    "source": "SM_Mapa_076",
+    "original_top": 888.6201171875,
+    "top": 888.6201171875,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_111",
+    "source": "SM_Mapa_077",
+    "original_top": 995.6397094726562,
+    "top": 995.6397094726562,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_112",
+    "source": "SM_Mapa_078",
+    "original_top": 1902.3013916015625,
+    "top": 1902.3013916015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_113",
+    "source": "SM_Mapa_078",
+    "original_top": 1902.3013916015625,
+    "top": 1902.3013916015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_114",
+    "source": "SM_Mapa_078",
+    "original_top": 1902.3013916015625,
+    "top": 1902.3013916015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_115",
+    "source": "SM_Mapa_078",
+    "original_top": 1902.3013916015625,
+    "top": 1902.3013916015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_116",
+    "source": "SM_Mapa_078",
+    "original_top": 1902.3013916015625,
+    "top": 1902.3013916015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_117",
+    "source": "SM_Mapa_078",
+    "original_top": 1902.3013916015625,
+    "top": 1902.3013916015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_118",
+    "source": "SM_Mapa_078",
+    "original_top": 1902.3013916015625,
+    "top": 1902.3013916015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_119",
+    "source": "SM_Mapa_078",
+    "original_top": 1902.3013916015625,
+    "top": 1902.3013916015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_120",
+    "source": "SM_Mapa_078",
+    "original_top": 1902.3013916015625,
+    "top": 1902.3013916015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_121",
+    "source": "SM_Mapa_078",
+    "original_top": 1902.3013916015625,
+    "top": 1902.3013916015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_122",
+    "source": "SM_Mapa_078",
+    "original_top": 1902.3013916015625,
+    "top": 1902.3013916015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_123",
+    "source": "SM_Mapa_079",
+    "original_top": 3580.0009765625,
+    "top": 3580.0009765625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_124",
+    "source": "SM_Mapa_079",
+    "original_top": 3580.0009765625,
+    "top": 3580.0009765625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_125",
+    "source": "SM_Mapa_079",
+    "original_top": 3580.0009765625,
+    "top": 3580.0009765625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_126",
+    "source": "SM_Mapa_079",
+    "original_top": 3580.0009765625,
+    "top": 3580.0009765625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_127",
+    "source": "SM_Mapa_079",
+    "original_top": 3580.0009765625,
+    "top": 3580.0009765625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_128",
+    "source": "SM_Mapa_079",
+    "original_top": 3580.0009765625,
+    "top": 3580.0009765625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_129",
+    "source": "SM_Mapa_080",
+    "original_top": 3754.185791015625,
+    "top": 3754.185791015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_130",
+    "source": "SM_Mapa_080",
+    "original_top": 3754.185791015625,
+    "top": 3754.185791015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_131",
+    "source": "SM_Mapa_080",
+    "original_top": 3754.185791015625,
+    "top": 3754.185791015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_132",
+    "source": "SM_Mapa_080",
+    "original_top": 3754.185791015625,
+    "top": 3754.185791015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  },
+  {
+    "asset": "SM_StreetFrontage_133",
+    "source": "SM_Mapa_080",
+    "original_top": 3754.185791015625,
+    "top": 3754.185791015625,
+    "old_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ratio_before": 1.0
+  }
+]

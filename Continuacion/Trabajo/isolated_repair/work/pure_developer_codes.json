@@ -1,0 +1,18 @@
+{
+  "codes": [
+    "ESOYAM",
+    "LLUVIZNA",
+    "LLUVIA",
+    "GRANIZO",
+    "TORMENTA",
+    "SOLEADO",
+    "CICLO"
+  ],
+  "native_input_bindings": false,
+  "profile_restoration": true,
+  "status": "COMPILED_PENDING_RUNTIME",
+  "pending": [
+    "CARRO vehicle control",
+    "MORADO safe bus spawn"
+  ]
+}

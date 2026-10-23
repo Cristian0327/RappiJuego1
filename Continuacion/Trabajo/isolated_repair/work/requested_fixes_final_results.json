@@ -1,0 +1,41 @@
+{
+  "status": "IMPLEMENTED_AND_TESTED",
+  "date": "2026-10-19",
+  "request": "Eight mounting, running, orientation, developer, bus, controls and camera corrections",
+  "checks": {
+    "STARTER_BIKE_EXISTS": true,
+    "STARTER_IS_BICYCLE": true,
+    "NPC_WALK_AND_NORMAL_PACE": true,
+    "F_MOUNTS_SPAWNED_BIKE": true,
+    "HERO_FORWARD_PEDAL_PHASE": true,
+    "NPC_FORWARD_PEDAL_PHASE": true,
+    "FOOT_FRONT_MOVES_DOWN": true,
+    "F_DISMOUNT_LEAVES_BICYCLE": true,
+    "DISMOUNT_BODY_FACES_FORWARD": true,
+    "SPRINT_USES_RUN_ANIMATION": true,
+    "CAMERA_PITCH_AND_ROLL_LIMITS": true,
+    "ESOYAM_F_ENTERS_CAR_WITHOUT_CARRO": true,
+    "MOUSE_LOOK_DOES_NOT_STEER_CAR": true
+  },
+  "runtime_log": "work/RequestedFixesRuntime7.log",
+  "purple_runtime_log": "work/PurpleVisualRuntime3.log",
+  "purple_visual": "work/PureIntegratedVisualQA/PURPLE_BUS00043.png",
+  "mixamo_run": "Unarmed Run Forward.fbx -> outputs/DeliveryArt/Mixamo/Run.fbx -> AN_Run_Mixamo",
+  "run_blueprint": "ABP_DeliveryRiderRun",
+  "mount_duration_seconds": 0.68,
+  "dismount_body_forward_dot": 0.996837,
+  "mesh_basis": "MakeRotator(-90 yaw) wired explicitly; named rotator literals had silently become zero",
+  "effective_sources": [
+    "fix_requested_controls.py",
+    "fix_requested_animations.py",
+    "ensure_requested_player_services.py",
+    "fix_morado_actual_g66_model.py",
+    "finalize_pose_cache_and_mixamo_run.py",
+    "fix_explicit_rider_mesh_basis.py"
+  ],
+  "camera": "Spring arm collision sphere24; pitch -55..15; roll0; visible NPC capsules block camera; player mesh hides under115cm; long bus arm clearance",
+  "controls": "WASD move/drive; mouse orbit only; foot basis latched during held input",
+  "runtime_cpp": false,
+  "github_untouched": true,
+  "validation_limits": "Focused regression, not an exhaustive every-obstacle or every-vehicle simulation. No new FPS guarantee. Startup showed low-memory skeletal compilation warnings."
+}

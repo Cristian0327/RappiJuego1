@@ -1,0 +1,42 @@
+{
+	"asset": "/Game/World/BlueprintWorld/BP_WorldState.BP_WorldState",
+	"parent": "/Script/Engine.Actor",
+	"graphs": [
+		{
+			"name": "UserConstructionScript",
+			"nodes": 1,
+			"function_owner": "/Script/Engine.Actor",
+			"bytecode": 0,
+			"pins": [
+				"K2Node_FunctionEntry.then= links:0"
+			],
+			"native_calls": []
+		},
+		{
+			"name": "TrafficPaintFor",
+			"nodes": 6,
+			"function_owner": "/Game/World/BlueprintWorld/BP_WorldState.BP_WorldState_C",
+			"bytecode": 3,
+			"pins": [
+				"K2Node_FunctionEntry.then= links:1",
+				"K2Node_FunctionResult.execute= links:1",
+				"K2Node_VariableGet.TrafficPaintPalette= links:2",
+				"K2Node_VariableGet.self= links:0",
+				"K2Node_CallArrayFunction.self= links:0",
+				"K2Node_CallArrayFunction.TargetArray= links:1",
+				"K2Node_CallArrayFunction.ReturnValue=0 links:1",
+				"K2Node_CallFunction.self= links:0",
+				"K2Node_CallFunction.A=0 links:0",
+				"K2Node_CallFunction.B=1 links:1",
+				"K2Node_CallFunction.ReturnValue=0 links:1",
+				"K2Node_CallArrayFunction.self= links:0",
+				"K2Node_CallArrayFunction.TargetArray= links:1",
+				"K2Node_CallArrayFunction.Index=0 links:1",
+				"K2Node_CallArrayFunction.Item= links:0"
+			],
+			"native_calls": []
+		}
+	],
+	"logic_nodes": 7,
+	"compiled": true
+}

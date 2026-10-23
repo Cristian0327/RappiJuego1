@@ -1,0 +1,19 @@
+{
+  "status": "VISUALLY_REPRODUCED_AND_FIXED",
+  "root_cause": "ParkedTrafficBody used Pawn profile blocking Camera; springarm collapsed inside hero while parked bike was visible during mount",
+  "fix": "Blueprint SetRidden explicitly ignores ECC_Camera after changing collision mode; ReceiveBeginPlay initializes same response. Pawn query body retained for traffic.",
+  "actual_F_action_test": true,
+  "visual_frames_reviewed": [
+    "entry1",
+    "entry2",
+    "exit1",
+    "exit2",
+    "exit3"
+  ],
+  "before": "work/MountVisualBefore",
+  "after": "work/mount_visual_entry2.png",
+  "collision_response": "ECR_IGNORE",
+  "parked_collision": "QUERY_ONLY",
+  "runtime_cpp_added": false,
+  "runtime_log": "work/MountVisualAfter.log"
+}

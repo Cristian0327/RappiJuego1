@@ -1,0 +1,11 @@
+import unreal,json,shutil,hashlib
+from pathlib import Path
+r=Path(unreal.Paths.project_dir()).parent;source=r/'outputs/DeliveryArt/AnimationRebuild/Upright/Standing';rows=json.loads((source/'standing_idle_validation.json').read_text());assert len(rows)==10;backup=r/'Recuperacion_Migracion_Blueprints/2026-10-17_standing_idle';backup.mkdir(exist_ok=True);cane=r/'RappiJuego1/Content/Crowd/AN_CrowdCane.uasset';before=hashlib.sha256(cane.read_bytes()).hexdigest();tasks=[];rates={}
+for row in rows:
+ n=row['clip'];role=n[3:].replace('Idle_Rebuilt','');path='/Game/VoxelExplorer/AN_Idle' if role=='Hero' else '/Game/Crowd/AN_CrowdIdle' if role=='Crowd' else '/Game/Delivery/People/A_'+role+'_Work';asset=unreal.load_asset(path);assert asset,path;original=r/'RappiJuego1/Content'/(path[6:]+'.uasset');target=backup/original.name
+ if not target.exists():shutil.copy2(original,target)
+ rates[path]=asset.get_editor_property('rate_scale');o=unreal.FbxImportUI();o.import_mesh=False;o.import_animations=True;o.skeleton=asset.get_editor_property('skeleton');o.mesh_type_to_import=unreal.FBXImportType.FBXIT_ANIMATION;o.automated_import_should_detect_type=False;o.anim_sequence_import_data.force_front_x_axis=True;o.anim_sequence_import_data.convert_scene=True;o.anim_sequence_import_data.convert_scene_unit=True;t=unreal.AssetImportTask();t.filename=str(source/(n+'.fbx'));t.destination_path=path.rsplit('/',1)[0];t.destination_name=path.rsplit('/',1)[1];t.automated=True;t.replace_existing=True;t.replace_existing_settings=True;t.save=True;t.options=o;tasks.append(t)
+unreal.AssetToolsHelpers.get_asset_tools().import_asset_tasks(tasks)
+for path,rate in rates.items():
+ a=unreal.load_asset(path);assert a and a.get_play_length()>0,path;a.set_editor_property('rate_scale',rate);assert unreal.EditorAssetLibrary.save_loaded_asset(a,only_if_is_dirty=False)
+after=hashlib.sha256(cane.read_bytes()).hexdigest();assert before==after=='1742c809c0799c7abc0b7167d415febafb2dd6290787335d39536e9bccfc461e';(r/'work/standing_idle_import_validation.json').write_text(json.dumps({'status':'IMPORTED','clips':list(rates),'count':len(rates),'cane_hash_preserved':after,'validation':rows},indent=2));unreal.log('STANDING_IDLE_IMPORTED_PASS clips=10 cane_unchanged=true')

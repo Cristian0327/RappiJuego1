@@ -1,0 +1,11 @@
+{
+  "status": "STAGING_PAINT_COMPILED",
+  "building_markers": 113,
+  "native_map_widget": false,
+  "pending": [
+    "Click targeting/controller cursor",
+    "Marker culling/state guards",
+    "Full building footprints",
+    "Runtime visual verification"
+  ]
+}

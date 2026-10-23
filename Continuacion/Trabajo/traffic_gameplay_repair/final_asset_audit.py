@@ -1,0 +1,12 @@
+import unreal,json,hashlib
+from pathlib import Path
+r=Path(unreal.Paths.project_dir()).parent
+assert 'isolated_repair' in r.parts
+P=Path('C:/Users/CRISTIAN/Documents/Codex/2026-09-12/ho/traffic_gameplay_repair');unreal.EditorLoadingAndSavingUtils.new_blank_map(False);aa=unreal.get_editor_subsystem(unreal.EditorActorSubsystem);checks={};audits={}
+paths=['/Game/Delivery/BlueprintGameplay/Player/BP_BlueprintRider','/Game/Delivery/BlueprintGameplay/UI/WBP_BlueprintPhone','/Game/Delivery/BlueprintGameplay/UI/WBP_NavigationOverlay','/Game/World/BogotaUrban/BP_MapNavigation','/Game/World/BogotaUrban/BP_RoadNavigation','/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle']
+for path in paths:
+ b=unreal.load_asset(path);audit=json.loads(unreal.DeliveryEditorLibrary.audit_blueprint(b));calls=[c for g in audit['graphs'] for c in g['native_calls']];checks[b.get_name()+'_runtime_only_blueprints']=not calls;audits[path]=dict(graphs=len(audit['graphs']),project_native_calls=calls)
+patrol=aa.spawn_actor_from_class(unreal.load_class(None,'/Game/Traffic/Services/BP_PoliceRoadPatrol.BP_PoliceRoadPatrol_C'),unreal.Vector());patrol.call_method('ReceiveBeginPlay');body=patrol.get_editor_property('VehicleVisual');front=body.get_bone_transform_by_name('wheel_0_L',unreal.BoneSpaces.WORLD_SPACE).translation;rear=body.get_bone_transform_by_name('wheel_1_L',unreal.BoneSpaces.WORLD_SPACE).translation;projection=(front-rear).dot(patrol.get_actor_forward_vector());checks['patrol_nose_matches_travel_axis']=projection>100;details={'patrol_front_minus_rear_projection_cm':projection,'patrol_visual_yaw':patrol.get_editor_property('VisualYaw')};aa.destroy_actor(patrol)
+phone=unreal.get_default_object(unreal.load_asset(paths[1]).generated_class());norm=phone.call_method('MapNormalizedPoint',(unreal.Vector(15000,-10000,0),unreal.Vector(),True));x=(.5-norm.y)*64000;y=(norm.x-.5)*88000;error=((x-15000)**2+(y+10000)**2)**.5;checks['map_click_inverse_matches_paint']=error<.1;details['map_inverse_error_cm']=error
+network=unreal.get_default_object(unreal.load_asset(paths[4]).generated_class());n=network.get_editor_property('NodeCount');hops=list(network.get_editor_property('NextHop'));checks['road_network_table_complete']=len(hops)==n*n and all(0<=x<n for x in hops);details['road_nodes']=n
+(P/'final_asset_audit.json').write_text(json.dumps(dict(checks=checks,details=details,assets=audits),indent=2));unreal.log('FINAL_ASSET_AUDIT '+str(checks));assert all(checks.values()),checks;unreal.EditorLoadingAndSavingUtils.new_blank_map(False)

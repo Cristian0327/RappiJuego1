@@ -1,0 +1,326 @@
+[
+  {
+    "name": "BP_CivilMotorcycle_C_0",
+    "position": [
+      12489.808169089603,
+      -34862.33183769846,
+      134
+    ],
+    "route_index": 31
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_1",
+    "position": [
+      18476.29708405597,
+      -8782.418549964415,
+      134
+    ],
+    "route_index": 114
+  },
+  {
+    "name": "BP_PoliceMotorcycle_C_0",
+    "position": [
+      -9953.340448885485,
+      9053.591340298017,
+      134
+    ],
+    "route_index": 197
+  },
+  {
+    "name": "BP_PoliceRoadPatrol_C_0",
+    "position": [
+      -1975.3742436287491,
+      27949.07864004808,
+      154
+    ],
+    "route_index": 280
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_2",
+    "position": [
+      10133.836160088304,
+      143.70453786061296,
+      134
+    ],
+    "route_index": 363
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_3",
+    "position": [
+      15344.081312286013,
+      -16006.844531556388,
+      134
+    ],
+    "route_index": 446
+  },
+  {
+    "name": "BP_PoliceMotorcycle_C_1",
+    "position": [
+      14672.334116928163,
+      -37205.23120720766,
+      134
+    ],
+    "route_index": 529
+  },
+  {
+    "name": "BP_PoliceRoadPatrol_C_1",
+    "position": [
+      24647.792593852664,
+      -23335.623957930933,
+      154
+    ],
+    "route_index": 62
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_4",
+    "position": [
+      -10344.94989896641,
+      11866.557329426665,
+      134
+    ],
+    "route_index": 695
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_5",
+    "position": [
+      -7287.368308847313,
+      -6517.805398497085,
+      134
+    ],
+    "route_index": 778
+  },
+  {
+    "name": "BP_PoliceMotorcycle_C_2",
+    "position": [
+      14349.166514016377,
+      9760.928345441514,
+      134
+    ],
+    "route_index": 861
+  },
+  {
+    "name": "BP_PoliceRoadPatrol_C_2",
+    "position": [
+      -3217.7938629462847,
+      -5905.774621937885,
+      154
+    ],
+    "route_index": 76
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_6",
+    "position": [
+      25741.226775841926,
+      -19906.068376085197,
+      134
+    ],
+    "route_index": 477
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_7",
+    "position": [
+      23705.40566939771,
+      -36129.10393430956,
+      134
+    ],
+    "route_index": 10
+  },
+  {
+    "name": "BP_PoliceMotorcycle_C_3",
+    "position": [
+      13338.233141569048,
+      -28002.93220144553,
+      134
+    ],
+    "route_index": 325
+  },
+  {
+    "name": "BP_PoliceRoadPatrol_C_3",
+    "position": [
+      17040.599919682452,
+      -27780.96564470575,
+      154
+    ],
+    "route_index": 408
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_8",
+    "position": [
+      19922.883591263013,
+      -37913.91963203263,
+      134
+    ],
+    "route_index": 491
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_9",
+    "position": [
+      -4959.812704536504,
+      12668.79446493651,
+      134
+    ],
+    "route_index": 574
+  },
+  {
+    "name": "BP_PoliceMotorcycle_C_4",
+    "position": [
+      -7825.103629872453,
+      99.16205556852745,
+      134
+    ],
+    "route_index": 657
+  },
+  {
+    "name": "BP_PoliceRoadPatrol_C_4",
+    "position": [
+      -8444.680857009893,
+      26145.556481463776,
+      154
+    ],
+    "route_index": 740
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_10",
+    "position": [
+      7788.943553091226,
+      18758.8105067211,
+      134
+    ],
+    "route_index": 823
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_11",
+    "position": [
+      6710.991941562299,
+      16886.11304129468,
+      134
+    ],
+    "route_index": 38
+  },
+  {
+    "name": "BP_PoliceMotorcycle_C_5",
+    "position": [
+      -6143.916607582489,
+      27357.864459758537,
+      134
+    ],
+    "route_index": 121
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_12",
+    "position": [
+      -958.1975425908587,
+      26139.269193053333,
+      134
+    ],
+    "route_index": 290
+  },
+  {
+    "name": "BP_TwoWheelerCitizen_C_0",
+    "position": [
+      13925.362833450406,
+      7586.224784437378,
+      102
+    ],
+    "route_index": 380
+  },
+  {
+    "name": "BP_TwoWheelerCitizen_C_1",
+    "position": [
+      7225.719791030395,
+      -16951.06687311186,
+      102
+    ],
+    "route_index": 456
+  },
+  {
+    "name": "BP_TwoWheelerCitizen_C_2",
+    "position": [
+      18516.362399985745,
+      -25643.563961696687,
+      102
+    ],
+    "route_index": 453
+  },
+  {
+    "name": "BP_TwoWheelerCitizen_C_3",
+    "position": [
+      4844.06247569985,
+      8319.011111558313,
+      102
+    ],
+    "route_index": 536
+  },
+  {
+    "name": "BP_TwoWheelerCitizen_C_4",
+    "position": [
+      -206.74315777077118,
+      -9077.374378295255,
+      102
+    ],
+    "route_index": 619
+  },
+  {
+    "name": "BP_TwoWheelerCitizen_C_5",
+    "position": [
+      -9695.612278955845,
+      -4835.6527308395025,
+      102
+    ],
+    "route_index": 702
+  },
+  {
+    "name": "BP_TwoWheelerCitizen_C_6",
+    "position": [
+      7615.922966732148,
+      23174.352280472438,
+      102
+    ],
+    "route_index": 321
+  },
+  {
+    "name": "BP_TwoWheelerCitizen_C_7",
+    "position": [
+      -2528.6162370163624,
+      -4733.093186698879,
+      102
+    ],
+    "route_index": 404
+  },
+  {
+    "name": "BP_TwoWheelerCitizen_C_8",
+    "position": [
+      -4694.873120204291,
+      -7228.541299851612,
+      102
+    ],
+    "route_index": 83
+  },
+  {
+    "name": "BP_TwoWheelerCitizen_C_9",
+    "position": [
+      -8706.584066124455,
+      13790.906111147353,
+      102
+    ],
+    "route_index": 166
+  },
+  {
+    "name": "BP_TwoWheelerCitizen_C_10",
+    "position": [
+      -18650.499778314166,
+      13512.07106679791,
+      102
+    ],
+    "route_index": 249
+  },
+  {
+    "name": "BP_TwoWheelerCitizen_C_11",
+    "position": [
+      13806.745857880218,
+      -30238.802135019498,
+      102
+    ],
+    "route_index": 332
+  }
+]

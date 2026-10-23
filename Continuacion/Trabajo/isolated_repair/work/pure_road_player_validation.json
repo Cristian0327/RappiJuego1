@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": {
+    "ENTER_REQUEST": "true",
+    "SEATED": "true",
+    "EXIT_REQUEST": "true",
+    "WALKING_RESTORED": "true",
+    "CAR_MOVED": "true"
+  },
+  "scope": "F action function MountPressed, simulated throttle/steer input, normal car, entry1.8s, drive, braking, exit1.8s, walking recovery",
+  "animation_warnings": 0,
+  "runtime_access_errors": 0,
+  "staging_map": "/Game/Maps/Bogota_Blueprint_Integration",
+  "main_promoted": false,
+  "pending": [
+    "Visible fit of all23models including bus",
+    "Traffic regression with manual leader release",
+    "Slope suspension",
+    "Taxi NPC service",
+    "Main migration completion"
+  ]
+}

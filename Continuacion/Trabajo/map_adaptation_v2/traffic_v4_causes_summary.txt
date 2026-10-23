@@ -1,0 +1,937 @@
+0 {'nearby': 2, 'free': 139, 'junction': 9} {'None': 141, 'BP_TrafficJunction_C_7': 2, 'BP_TrafficJunction_C_2': 2, 'BP_TrafficJunction_C_0': 1, 'BP_TrafficJunction_C_5': 1, 'BP_TrafficJunction_C_4': 1, 'BP_TrafficJunction_C_6': 2}
+20 {'free': 73, 'nearby': 66, 'junction': 11} {'None': 132, 'BP_TrafficJunction_C_4': 4, 'BP_TrafficJunction_C_6': 3, 'BP_TrafficJunction_C_1': 2, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_0': 3, 'BP_TrafficJunction_C_5': 1, 'BP_TrafficJunction_C_7': 1}
+40 {'nearby': 99, 'free': 39, 'junction': 12} {'None': 140, 'BP_TrafficJunction_C_1': 4, 'BP_TrafficJunction_C_4': 2, 'BP_TrafficJunction_C_5': 1, 'BP_TrafficJunction_C_2': 1, 'BP_TrafficJunction_C_3': 1, 'BP_TrafficJunction_C_0': 1}
+60 {'nearby': 69, 'free': 73, 'junction': 8} {'None': 119, 'BP_TrafficJunction_C_3': 6, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_4': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_5': 3}
+80 {'nearby': 88, 'free': 41, 'junction': 21} {'None': 122, 'BP_TrafficJunction_C_5': 3, 'BP_TrafficJunction_C_4': 6, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_1': 7, 'BP_TrafficJunction_C_3': 6, 'BP_TrafficJunction_C_2': 2}
+100 {'nearby': 122, 'junction': 24, 'free': 4} {'None': 129, 'BP_TrafficJunction_C_5': 3, 'BP_TrafficJunction_C_4': 3, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_1': 7, 'BP_TrafficJunction_C_2': 1, 'BP_TrafficJunction_C_3': 3}
+105 {'nearby': 123, 'free': 15, 'junction': 12} {'None': 125, 'BP_TrafficJunction_C_5': 3, 'BP_TrafficJunction_C_4': 3, 'BP_TrafficJunction_C_0': 5, 'BP_TrafficJunction_C_1': 8, 'BP_TrafficJunction_C_7': 1, 'BP_TrafficJunction_C_6': 1, 'BP_TrafficJunction_C_2': 1, 'BP_TrafficJunction_C_3': 3}
+110 {'nearby': 84, 'free': 54, 'junction': 12} {'None': 121, 'BP_TrafficJunction_C_5': 5, 'BP_TrafficJunction_C_4': 2, 'BP_TrafficJunction_C_0': 6, 'BP_TrafficJunction_C_1': 9, 'BP_TrafficJunction_C_7': 2, 'BP_TrafficJunction_C_6': 2, 'BP_TrafficJunction_C_2': 1, 'BP_TrafficJunction_C_3': 2}
+115 {'nearby': 87, 'free': 50, 'junction': 13} {'None': 122, 'BP_TrafficJunction_C_5': 7, 'BP_TrafficJunction_C_0': 6, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_6': 2, 'BP_TrafficJunction_C_3': 1, 'BP_TrafficJunction_C_7': 2}
+120 {'nearby': 97, 'free': 40, 'junction': 13} {'None': 123, 'BP_TrafficJunction_C_5': 8, 'BP_TrafficJunction_C_0': 5, 'BP_TrafficJunction_C_3': 3, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_7': 1}
+125 {'nearby': 110, 'free': 27, 'junction': 13} {'None': 121, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 5, 'BP_TrafficJunction_C_3': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_7': 1}
+130 {'nearby': 121, 'free': 16, 'junction': 13} {'None': 121, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 5, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 4, 'BP_TrafficJunction_C_7': 1}
+135 {'nearby': 121, 'free': 16, 'junction': 13} {'None': 121, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 5, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 3, 'BP_TrafficJunction_C_7': 1, 'BP_TrafficJunction_C_2': 1}
+140 {'nearby': 127, 'junction': 13, 'free': 10} {'None': 119, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 4, 'BP_TrafficJunction_C_2': 3, 'BP_TrafficJunction_C_7': 1}
+145 {'nearby': 131, 'junction': 14, 'free': 5} {'None': 120, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 4, 'BP_TrafficJunction_C_2': 2, 'BP_TrafficJunction_C_7': 1}
+150 {'nearby': 126, 'free': 13, 'junction': 11} {'None': 119, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_4': 2, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 4, 'BP_TrafficJunction_C_2': 1, 'BP_TrafficJunction_C_7': 1}
+155 {'nearby': 112, 'free': 27, 'junction': 11} {'None': 116, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_4': 4, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 2, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 4, 'BP_TrafficJunction_C_7': 1}
+160 {'nearby': 113, 'free': 26, 'junction': 11} {'None': 112, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_4': 6, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 4, 'BP_TrafficJunction_C_7': 1}
+165 {'nearby': 113, 'free': 26, 'junction': 11} {'None': 112, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 5, 'BP_TrafficJunction_C_4': 7, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 2, 'BP_TrafficJunction_C_7': 1}
+170 {'nearby': 113, 'free': 28, 'junction': 9} {'None': 113, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 5, 'BP_TrafficJunction_C_4': 6, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 2, 'BP_TrafficJunction_C_7': 1}
+175 {'nearby': 116, 'free': 25, 'junction': 9} {'None': 113, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_4': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 5, 'BP_TrafficJunction_C_7': 1}
+180 {'nearby': 117, 'free': 24, 'junction': 9} {'None': 114, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_4': 2, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 6, 'BP_TrafficJunction_C_7': 1}
+185 {'nearby': 119, 'free': 22, 'junction': 9} {'None': 115, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_4': 2, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 5, 'BP_TrafficJunction_C_7': 1}
+190 {'nearby': 119, 'free': 19, 'junction': 12} {'None': 118, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_4': 1, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 3, 'BP_TrafficJunction_C_7': 1}
+195 {'nearby': 124, 'junction': 13, 'free': 13} {'None': 120, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 2, 'BP_TrafficJunction_C_7': 1}
+200 {'nearby': 132, 'junction': 13, 'free': 5} {'None': 120, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 2, 'BP_TrafficJunction_C_7': 1}
+205 {'nearby': 135, 'junction': 14, 'free': 1} {'None': 120, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 2, 'BP_TrafficJunction_C_7': 1}
+210 {'nearby': 136, 'junction': 14} {'None': 120, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 2, 'BP_TrafficJunction_C_7': 1}
+215 {'nearby': 136, 'junction': 11, 'free': 3} {'None': 120, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_3': 2, 'BP_TrafficJunction_C_7': 1}
+220 {'nearby': 128, 'free': 11, 'junction': 11} {'None': 122, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_7': 1}
+225 {'nearby': 131, 'free': 8, 'junction': 11} {'None': 122, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_7': 1}
+230 {'nearby': 133, 'junction': 11, 'free': 6} {'None': 122, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_7': 1}
+235 {'nearby': 136, 'junction': 12, 'free': 2} {'None': 122, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_7': 1}
+240 {'nearby': 138, 'junction': 12} {'None': 122, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_7': 1}
+245 {'nearby': 138, 'junction': 12} {'None': 122, 'BP_TrafficJunction_C_5': 9, 'BP_TrafficJunction_C_0': 4, 'BP_TrafficJunction_C_2': 4, 'BP_TrafficJunction_C_1': 10, 'BP_TrafficJunction_C_7': 1}
+{
+  "0": {
+    "near": 0.0,
+    "junction": 2889.120117,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "1": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_5"
+  },
+  "2": {
+    "near": 0.0,
+    "junction": 4109.819824,
+    "leader": 659.639038,
+    "owner": "None"
+  },
+  "3": {
+    "near": 0.0,
+    "junction": 5428.179199,
+    "leader": 33471.359375,
+    "owner": "None"
+  },
+  "4": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "5": {
+    "near": 2.2e-05,
+    "junction": 4834.727539,
+    "leader": 691.767212,
+    "owner": "None"
+  },
+  "6": {
+    "near": 0.0,
+    "junction": 4845.814453,
+    "leader": 714.168152,
+    "owner": "None"
+  },
+  "7": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 798.154907,
+    "owner": "None"
+  },
+  "8": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 18683.462891,
+    "owner": "BP_TrafficJunction_C_0"
+  },
+  "9": {
+    "near": 160131.953125,
+    "junction": 0.0,
+    "leader": 17297.617188,
+    "owner": "None"
+  },
+  "10": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_5"
+  },
+  "11": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_2"
+  },
+  "12": {
+    "near": 0.0,
+    "junction": 706.320007,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "13": {
+    "near": 0.000238,
+    "junction": 5535.447754,
+    "leader": 0.000238,
+    "owner": "None"
+  },
+  "14": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 40423.757812,
+    "owner": "None"
+  },
+  "15": {
+    "near": 0.081436,
+    "junction": 100000000.0,
+    "leader": 700.821106,
+    "owner": "None"
+  },
+  "16": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 678.316528,
+    "owner": "BP_TrafficJunction_C_1"
+  },
+  "17": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "18": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_5"
+  },
+  "19": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_2"
+  },
+  "20": {
+    "near": 1449.871216,
+    "junction": 0.0,
+    "leader": 2815.834717,
+    "owner": "None"
+  },
+  "21": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 1434.495239,
+    "owner": "None"
+  },
+  "22": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 706.327515,
+    "owner": "None"
+  },
+  "23": {
+    "near": 0.0,
+    "junction": 700.719971,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "24": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_1"
+  },
+  "25": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "26": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 677.199036,
+    "owner": "None"
+  },
+  "27": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 1377.86377,
+    "owner": "None"
+  },
+  "28": {
+    "near": 0.0,
+    "junction": 4225.959961,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "29": {
+    "near": 0.0,
+    "junction": 747.76001,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "30": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "31": {
+    "near": 0.0,
+    "junction": 4219.426758,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "32": {
+    "near": 0.0,
+    "junction": 399.651978,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "33": {
+    "near": 6e-06,
+    "junction": 4143.54834,
+    "leader": 641.934448,
+    "owner": "None"
+  },
+  "34": {
+    "near": 0.0,
+    "junction": 1389.119995,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "35": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 45843.636719,
+    "owner": "BP_TrafficJunction_C_5"
+  },
+  "36": {
+    "near": 100000000.0,
+    "junction": 0.0,
+    "leader": 26895.351562,
+    "owner": "None"
+  },
+  "37": {
+    "near": 0.0,
+    "junction": 2125.639893,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "38": {
+    "near": 0.0,
+    "junction": 2774.751953,
+    "leader": 15740.661133,
+    "owner": "None"
+  },
+  "39": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "40": {
+    "near": 0.0,
+    "junction": 3472.006348,
+    "leader": 677.19873,
+    "owner": "None"
+  },
+  "41": {
+    "near": 0.0,
+    "junction": 4767.863281,
+    "leader": 24217.728516,
+    "owner": "None"
+  },
+  "42": {
+    "near": 0.0,
+    "junction": 2082.308594,
+    "leader": 24225.705078,
+    "owner": "None"
+  },
+  "43": {
+    "near": 0.0,
+    "junction": 1424.135376,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "44": {
+    "near": 0.0,
+    "junction": 5530.300781,
+    "leader": 706.320618,
+    "owner": "None"
+  },
+  "45": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 641.943115,
+    "owner": "None"
+  },
+  "46": {
+    "near": 273681.15625,
+    "junction": 0.0,
+    "leader": 18483.988281,
+    "owner": "None"
+  },
+  "47": {
+    "near": 1e-06,
+    "junction": 3501.020508,
+    "leader": 1444.290649,
+    "owner": "None"
+  },
+  "48": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "49": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 641.940002,
+    "owner": "None"
+  },
+  "50": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_0"
+  },
+  "51": {
+    "near": 0.0,
+    "junction": 2797.533691,
+    "leader": 1431.973755,
+    "owner": "None"
+  },
+  "52": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_5"
+  },
+  "53": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_2"
+  },
+  "54": {
+    "near": 0.0,
+    "junction": 2068.560059,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "55": {
+    "near": 0.031025,
+    "junction": 100000000.0,
+    "leader": 700.740906,
+    "owner": "None"
+  },
+  "56": {
+    "near": 0.0,
+    "junction": 3912.572021,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "57": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 34889.667969,
+    "owner": "BP_TrafficJunction_C_1"
+  },
+  "58": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 659.606262,
+    "owner": "BP_TrafficJunction_C_1"
+  },
+  "59": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 2.5e-05,
+    "owner": "None"
+  },
+  "60": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "61": {
+    "near": 0.0,
+    "junction": 1459.680054,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "62": {
+    "near": 0.0,
+    "junction": 1373.798706,
+    "leader": 714.158752,
+    "owner": "None"
+  },
+  "63": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "64": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 42565.523438,
+    "owner": "None"
+  },
+  "65": {
+    "near": 0.0,
+    "junction": 2876.766602,
+    "leader": 1377.886597,
+    "owner": "None"
+  },
+  "66": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_1"
+  },
+  "67": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "68": {
+    "near": 0.006,
+    "junction": 712.810364,
+    "leader": 11587.560547,
+    "owner": "None"
+  },
+  "69": {
+    "near": 0.0,
+    "junction": 1499.501831,
+    "leader": 4522.779785,
+    "owner": "None"
+  },
+  "70": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "71": {
+    "near": 0.0,
+    "junction": 1421.560059,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "72": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "73": {
+    "near": 0.0,
+    "junction": 1364.969849,
+    "leader": 16616.462891,
+    "owner": "None"
+  },
+  "74": {
+    "near": 0.0,
+    "junction": 3089.771973,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "75": {
+    "near": 0.007474,
+    "junction": 100000000.0,
+    "leader": 2066.30249,
+    "owner": "None"
+  },
+  "76": {
+    "near": 0.0,
+    "junction": 714.159973,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "77": {
+    "near": 0.0,
+    "junction": 665.175354,
+    "leader": 6943.69873,
+    "owner": "None"
+  },
+  "78": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 41871.257812,
+    "owner": "BP_TrafficJunction_C_5"
+  },
+  "79": {
+    "near": 0.0,
+    "junction": 4426.395508,
+    "leader": 697.770264,
+    "owner": "None"
+  },
+  "80": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 674.96283,
+    "owner": "BP_TrafficJunction_C_1"
+  },
+  "81": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "82": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 1383.51001,
+    "owner": "None"
+  },
+  "83": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "84": {
+    "near": 0.0,
+    "junction": 2211.919922,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "85": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 47246.09375,
+    "owner": "None"
+  },
+  "86": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "87": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 1498.855591,
+    "owner": "None"
+  },
+  "88": {
+    "near": 0.0,
+    "junction": 1383.52002,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "89": {
+    "near": 0.001434,
+    "junction": 100000000.0,
+    "leader": 0.001434,
+    "owner": "None"
+  },
+  "90": {
+    "near": 277247.46875,
+    "junction": 0.0,
+    "leader": 10250.749023,
+    "owner": "None"
+  },
+  "91": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "92": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_0"
+  },
+  "93": {
+    "near": 0.0,
+    "junction": 673.799988,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "94": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "95": {
+    "near": 254801.484375,
+    "junction": 0.0,
+    "leader": 14241.573242,
+    "owner": "None"
+  },
+  "96": {
+    "near": 0.0,
+    "junction": 3551.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "97": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 37097.1875,
+    "owner": "BP_TrafficJunction_C_1"
+  },
+  "98": {
+    "near": 0.0,
+    "junction": 2411.451904,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "99": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_1"
+  },
+  "100": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 22166.099609,
+    "owner": "BP_TrafficJunction_C_1"
+  },
+  "101": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "102": {
+    "near": 275043.40625,
+    "junction": 0.0,
+    "leader": 9878.510742,
+    "owner": "None"
+  },
+  "103": {
+    "near": 0.0,
+    "junction": 2119.320068,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "104": {
+    "near": 0.0,
+    "junction": 2772.980957,
+    "leader": 685.022217,
+    "owner": "None"
+  },
+  "105": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "106": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "107": {
+    "near": 0.0,
+    "junction": 3577.486572,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "108": {
+    "near": 0.0,
+    "junction": 2109.767578,
+    "leader": 714.178101,
+    "owner": "None"
+  },
+  "109": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "110": {
+    "near": 0.0,
+    "junction": 5568.725586,
+    "leader": 41220.875,
+    "owner": "None"
+  },
+  "111": {
+    "near": 0.0,
+    "junction": 2173.301758,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "112": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "113": {
+    "near": 0.0,
+    "junction": 3036.865234,
+    "leader": 152.265335,
+    "owner": "None"
+  },
+  "114": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "115": {
+    "near": 3023.92627,
+    "junction": 0.0,
+    "leader": 4400.682617,
+    "owner": "None"
+  },
+  "116": {
+    "near": 0.0,
+    "junction": 1736.491943,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "117": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 2013.640015,
+    "owner": "BP_TrafficJunction_C_7"
+  },
+  "118": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 30666.595703,
+    "owner": "None"
+  },
+  "119": {
+    "near": 0.0,
+    "junction": 2222.29541,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "120": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_5"
+  },
+  "121": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_2"
+  },
+  "122": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 22807.330078,
+    "owner": "BP_TrafficJunction_C_1"
+  },
+  "123": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "124": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 685.006897,
+    "owner": "None"
+  },
+  "125": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 1374.52063,
+    "owner": "None"
+  },
+  "126": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 613.515564,
+    "owner": "BP_TrafficJunction_C_5"
+  },
+  "127": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 9735.34668,
+    "owner": "None"
+  },
+  "128": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 2076.388672,
+    "owner": "None"
+  },
+  "129": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "130": {
+    "near": 0.0,
+    "junction": 2891.360107,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "131": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "132": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "133": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 1342.658447,
+    "owner": "None"
+  },
+  "134": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_0"
+  },
+  "135": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "136": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "BP_TrafficJunction_C_5"
+  },
+  "137": {
+    "near": 0.0,
+    "junction": 700.719971,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "138": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 9378.488281,
+    "owner": "None"
+  },
+  "139": {
+    "near": 252544.8125,
+    "junction": 0.0,
+    "leader": 8141.380859,
+    "owner": "None"
+  },
+  "140": {
+    "near": 0.0,
+    "junction": 1076.851929,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "141": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 45990.601562,
+    "owner": "None"
+  },
+  "142": {
+    "near": 0.0,
+    "junction": 681.429382,
+    "leader": 2109.498779,
+    "owner": "None"
+  },
+  "143": {
+    "near": 0.0,
+    "junction": 100000000.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "144": {
+    "near": 0.0,
+    "junction": 4040.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "145": {
+    "near": 0.0,
+    "junction": 2020.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "146": {
+    "near": 100000000.0,
+    "junction": 0.0,
+    "leader": 169285.0,
+    "owner": "None"
+  },
+  "147": {
+    "near": 0.0,
+    "junction": 2020.0,
+    "leader": 0.0,
+    "owner": "None"
+  },
+  "148": {
+    "near": 439977.59375,
+    "junction": 0.0,
+    "leader": 172232.59375,
+    "owner": "None"
+  },
+  "149": {
+    "near": 437957.59375,
+    "junction": 0.0,
+    "leader": 90380.0,
+    "owner": "None"
+  }
+}

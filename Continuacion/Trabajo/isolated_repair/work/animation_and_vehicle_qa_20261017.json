@@ -1,0 +1,29 @@
+{
+  "player_checks": 15,
+  "player_all_passed": true,
+  "npc_completed_cycles": {
+    "0": 7.0,
+    "1": 6.0,
+    "2": 7.0,
+    "3": 6.0
+  },
+  "npc_riding_alignment_samples": 23,
+  "transit_seat_exit_checks": [
+    [
+      "SITTING_POSE_AFTER_AISLE",
+      "true"
+    ],
+    [
+      "PASSENGER_FOLLOWS_BUS",
+      "true"
+    ],
+    [
+      "VISIBLE_ALIGHTING_PHASE",
+      "true"
+    ],
+    [
+      "ORIGINAL_RESTORED_AND_OWNERSHIP_RELEASED",
+      "true"
+    ]
+  ]
+}

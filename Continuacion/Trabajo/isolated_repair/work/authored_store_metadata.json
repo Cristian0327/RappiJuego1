@@ -1,0 +1,322 @@
+[
+  {
+    "position": [
+      -29900.0,
+      -20600.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "MarketLocal",
+      "PointID": "Shop_0_0"
+    }
+  },
+  {
+    "position": [
+      -30100.0,
+      -9600.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "MarketFresh",
+      "PointID": "Shop_0_1"
+    }
+  },
+  {
+    "position": [
+      -30200.0,
+      4500.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "BurgerGrill",
+      "PointID": "Shop_0_2"
+    }
+  },
+  {
+    "position": [
+      -29900.0,
+      12600.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "QuickMeals",
+      "PointID": "Shop_0_3"
+    }
+  },
+  {
+    "position": [
+      -17800.0,
+      -20500.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "TechRetail",
+      "PointID": "Shop_1_0"
+    }
+  },
+  {
+    "position": [
+      -17900.0,
+      -9500.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "TechComponents",
+      "PointID": "Shop_1_1"
+    }
+  },
+  {
+    "position": [
+      -18000.0,
+      1500.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "Pharmacy",
+      "PointID": "Shop_1_2"
+    }
+  },
+  {
+    "position": [
+      -18100.0,
+      15500.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "Florist",
+      "PointID": "Shop_1_3"
+    }
+  },
+  {
+    "position": [
+      -6000.0,
+      -20200.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "Bakery",
+      "PointID": "Shop_2_0"
+    }
+  },
+  {
+    "position": [
+      -6100.0,
+      -6600.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "Cafe",
+      "PointID": "Shop_2_1"
+    }
+  },
+  {
+    "position": [
+      -6000.0,
+      1500.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "Hardware",
+      "PointID": "Shop_2_2"
+    }
+  },
+  {
+    "position": [
+      6100.0,
+      -20300.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "PetShop",
+      "PointID": "Shop_3_0"
+    }
+  },
+  {
+    "position": [
+      6100.0,
+      1400.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "MarketLocal",
+      "PointID": "Shop_3_2"
+    }
+  },
+  {
+    "position": [
+      6000.0,
+      12400.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "MarketFresh",
+      "PointID": "Shop_3_3"
+    }
+  },
+  {
+    "position": [
+      18000.0,
+      -20400.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "BurgerGrill",
+      "PointID": "Shop_4_0"
+    }
+  },
+  {
+    "position": [
+      18000.0,
+      -6600.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "Pizza",
+      "PointID": "Shop_4_1"
+    }
+  },
+  {
+    "position": [
+      17900.0,
+      1500.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "TechRetail",
+      "PointID": "Shop_4_2"
+    }
+  },
+  {
+    "position": [
+      29900.0,
+      -20500.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "TechComponents",
+      "PointID": "Shop_5_0"
+    }
+  },
+  {
+    "position": [
+      29900.0,
+      -9500.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "Pharmacy",
+      "PointID": "Shop_5_1"
+    }
+  },
+  {
+    "position": [
+      30000.0,
+      1800.0,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "properties": {
+      "ThemeID": "Florist",
+      "PointID": "Shop_5_2"
+    }
+  }
+]

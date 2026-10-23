@@ -1,0 +1,893 @@
+[
+  {
+    "source": "M034_LOD0 | Norte | Norte | Casa_05_Villa_Tejas.015",
+    "point": [
+      17200.0,
+      -32000.0,
+      20.0
+    ],
+    "distance_to_house_cm": 332.4877939931455
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.006",
+    "point": [
+      -9900.0,
+      36800.0,
+      20.0
+    ],
+    "distance_to_house_cm": 397.3594206676289
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos",
+    "point": [
+      -14000.0,
+      -3000.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1181.6261330879927
+  },
+  {
+    "source": "M002_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 03.004",
+    "point": [
+      13200.0,
+      13400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 576.2254145436369
+  },
+  {
+    "source": "M031_LOD0 | Norte | Norte | Casa_02_Ladrillo_Tejado.010",
+    "point": [
+      20900.0,
+      -8700.0,
+      20.0
+    ],
+    "distance_to_house_cm": 782.8143176590008
+  },
+  {
+    "source": "M020_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 08.002",
+    "point": [
+      -1400.0,
+      -20400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1353.1471821278597
+  },
+  {
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.008",
+    "point": [
+      -18500.0,
+      18000.0,
+      20.0
+    ],
+    "distance_to_house_cm": 794.2770199122796
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.027",
+    "point": [
+      6900.0,
+      30500.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1697.0966057936027
+  },
+  {
+    "source": "M119_LOD0 | Oriente | Oriente | 20 \u2022 Conjunto residencial de cinco torres.007",
+    "point": [
+      3700.0,
+      -900.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1324.0017265754743
+  },
+  {
+    "source": "M119_LOD0 | Oriente | Oriente | 20 \u2022 Conjunto residencial de cinco torres.004",
+    "point": [
+      -29700.0,
+      2600.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1344.7197946610127
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.033",
+    "point": [
+      -400.0,
+      -35300.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1136.8909145420798
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.040",
+    "point": [
+      -4800.0,
+      12100.0,
+      20.0
+    ],
+    "distance_to_house_cm": 757.5952181976697
+  },
+  {
+    "source": "M157_LOD0 | Sur | Sur | 27_Apartamentos_ladrillo_y_grafito.009",
+    "point": [
+      26900.0,
+      -22400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1159.3498399061184
+  },
+  {
+    "source": "M120_LOD0 | Oriente | Oriente | 21 \u2022 Porter\u00eda residencial de ladrillo.001",
+    "point": [
+      11900.0,
+      -19400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 596.2801030799162
+  },
+  {
+    "source": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.014",
+    "point": [
+      28000.0,
+      -39400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1292.2599860190776
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.034",
+    "point": [
+      -6400.0,
+      24800.0,
+      20.0
+    ],
+    "distance_to_house_cm": 890.700714995815
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.035",
+    "point": [
+      3600.0,
+      19700.0,
+      20.0
+    ],
+    "distance_to_house_cm": 926.4482257220587
+  },
+  {
+    "source": "M105_LOD0 | Oriente | Oriente | 06 \u2022 Casa roja con cubierta gris",
+    "point": [
+      16400.0,
+      2800.0,
+      20.0
+    ],
+    "distance_to_house_cm": 592.100314919649
+  },
+  {
+    "source": "M157_LOD0 | Sur | Sur | 27_Apartamentos_ladrillo_y_grafito.004",
+    "point": [
+      -19600.0,
+      7200.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1125.2846247387015
+  },
+  {
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical.012",
+    "point": [
+      -9000.0,
+      -12700.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1171.8861742699328
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.016",
+    "point": [
+      3800.0,
+      -10900.0,
+      20.0
+    ],
+    "distance_to_house_cm": 501.45611949690914
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.016",
+    "point": [
+      -15900.0,
+      28800.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1127.2558244425022
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.009",
+    "point": [
+      8700.0,
+      -39400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1632.8005613823514
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.040",
+    "point": [
+      7700.0,
+      -29300.0,
+      20.0
+    ],
+    "distance_to_house_cm": 620.8591679711011
+  },
+  {
+    "source": "M153_LOD0 | Sur | Sur | 23_Conjunto_escalonado.006",
+    "point": [
+      -5600.0,
+      600.0,
+      20.0
+    ],
+    "distance_to_house_cm": 516.2459012904314
+  },
+  {
+    "source": "M040_LOD0 | Norte | Norte | Comercial_25_Unicentro.001",
+    "point": [
+      11700.0,
+      -6400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 2099.329762747661
+  },
+  {
+    "source": "M126_LOD0 | Oriente | Oriente | 27 \u2022 Centro cultural con mural voxel.001",
+    "point": [
+      4500.0,
+      7800.0,
+      20.0
+    ],
+    "distance_to_house_cm": 957.7151771555998
+  },
+  {
+    "source": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.006",
+    "point": [
+      -400.0,
+      35100.0,
+      20.0
+    ],
+    "distance_to_house_cm": 960.7477963878044
+  },
+  {
+    "source": "M039_LOD0 | Norte | Norte | Casa_10_Adosados.007",
+    "point": [
+      18800.0,
+      -24000.0,
+      20.0
+    ],
+    "distance_to_house_cm": 973.6612830142664
+  },
+  {
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical.027",
+    "point": [
+      25300.0,
+      -31400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1194.7379469502157
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza",
+    "point": [
+      -10500.0,
+      17900.0,
+      20.0
+    ],
+    "distance_to_house_cm": 642.9053045151379
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.019",
+    "point": [
+      16700.0,
+      -39700.0,
+      20.0
+    ],
+    "distance_to_house_cm": 375.5078300669063
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.024",
+    "point": [
+      -1500.0,
+      -27800.0,
+      20.0
+    ],
+    "distance_to_house_cm": 502.50782363184027
+  },
+  {
+    "source": "M037_LOD0 | Norte | Norte | Casa_08_Chalet_Pizarra.001",
+    "point": [
+      24300.0,
+      -15100.0,
+      20.0
+    ],
+    "distance_to_house_cm": 564.493816577841
+  },
+  {
+    "source": "M049_LOD0 | Norte | Norte | Parque_21_Estanque_Pergolas_Juegos.007",
+    "point": [
+      5400.0,
+      -22500.0,
+      20.0
+    ],
+    "distance_to_house_cm": 2081.691277934736
+  },
+  {
+    "source": "M157_LOD0 | Sur | Sur | 27_Apartamentos_ladrillo_y_grafito.002",
+    "point": [
+      -10100.0,
+      5900.0,
+      20.0
+    ],
+    "distance_to_house_cm": 978.5117449954724
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.005",
+    "point": [
+      400.0,
+      26000.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1257.7459545224895
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.019",
+    "point": [
+      13600.0,
+      -12800.0,
+      20.0
+    ],
+    "distance_to_house_cm": 490.44615823967325
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.011",
+    "point": [
+      -2000.0,
+      5800.0,
+      20.0
+    ],
+    "distance_to_house_cm": 953.0189361576591
+  },
+  {
+    "source": "M066_LOD0 | Occidente | occidente | 01 \u00b7 Viviendas \u00b7 F2-04",
+    "point": [
+      1700.0,
+      13800.0,
+      20.0
+    ],
+    "distance_to_house_cm": 607.6051168514118
+  },
+  {
+    "source": "M031_LOD0 | Norte | Norte | Casa_02_Ladrillo_Tejado.005",
+    "point": [
+      13100.0,
+      -26400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 594.6248400452772
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.013",
+    "point": [
+      -14500.0,
+      22900.0,
+      20.0
+    ],
+    "distance_to_house_cm": 495.2346266226699
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.052",
+    "point": [
+      -18400.0,
+      1300.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1506.6318876250693
+  },
+  {
+    "source": "M049_LOD0 | Norte | Norte | Parque_21_Estanque_Pergolas_Juegos.005",
+    "point": [
+      -14200.0,
+      10300.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1279.859111289054
+  },
+  {
+    "source": "M144_LOD0 | Sur | Sur | 14_Duplex_terrazas",
+    "point": [
+      -9600.0,
+      30800.0,
+      20.0
+    ],
+    "distance_to_house_cm": 370.6136379344318
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.031",
+    "point": [
+      -3000.0,
+      19900.0,
+      20.0
+    ],
+    "distance_to_house_cm": 636.7332635307991
+  },
+  {
+    "source": "M016_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 04.008",
+    "point": [
+      -3100.0,
+      -12700.0,
+      20.0
+    ],
+    "distance_to_house_cm": 808.6487940409153
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.028",
+    "point": [
+      3300.0,
+      -16900.0,
+      20.0
+    ],
+    "distance_to_house_cm": 2023.2533743923716
+  },
+  {
+    "source": "M005_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 06",
+    "point": [
+      7400.0,
+      24100.0,
+      20.0
+    ],
+    "distance_to_house_cm": 521.0808521403874
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.031",
+    "point": [
+      11900.0,
+      -34300.0,
+      20.0
+    ],
+    "distance_to_house_cm": 442.91785607907235
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.055",
+    "point": [
+      22300.0,
+      -38500.0,
+      20.0
+    ],
+    "distance_to_house_cm": 410.16328799172464
+  },
+  {
+    "source": "M104_LOD0 | Oriente | Oriente | 05 \u2022 Casa amarilla con azotea.002",
+    "point": [
+      -25200.0,
+      6200.0,
+      20.0
+    ],
+    "distance_to_house_cm": 605.5856179144363
+  },
+  {
+    "source": "M009_LOD0 | Centro | centro | 02 \u00b7 Casas intermedias \u00b7 04.004",
+    "point": [
+      9300.0,
+      17500.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1100.7376121895438
+  },
+  {
+    "source": "M048_LOD0 | Norte | Norte | Oficinas_27_Torres_Cristal.001",
+    "point": [
+      18700.0,
+      -15200.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1533.06001456173
+  },
+  {
+    "source": "M157_LOD0 | Sur | Sur | 27_Apartamentos_ladrillo_y_grafito.010",
+    "point": [
+      18100.0,
+      -2400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 915.054196456478
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.038",
+    "point": [
+      5900.0,
+      -34400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 465.5889355168626
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.010",
+    "point": [
+      10800.0,
+      -1100.0,
+      20.0
+    ],
+    "distance_to_house_cm": 630.1169280091534
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.012",
+    "point": [
+      5400.0,
+      -5900.0,
+      20.0
+    ],
+    "distance_to_house_cm": 689.86490554592
+  },
+  {
+    "source": "M157_LOD0 | Sur | Sur | 27_Apartamentos_ladrillo_y_grafito.007",
+    "point": [
+      -20900.0,
+      13400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 836.7763783024285
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.032",
+    "point": [
+      -2700.0,
+      30800.0,
+      20.0
+    ],
+    "distance_to_house_cm": 433.1468801503349
+  },
+  {
+    "source": "M120_LOD0 | Oriente | Oriente | 21 \u2022 Porter\u00eda residencial de ladrillo.002",
+    "point": [
+      3300.0,
+      -27700.0,
+      20.0
+    ],
+    "distance_to_house_cm": 619.5008344391309
+  },
+  {
+    "source": "M087_LOD0 | Occidente | occidente | 05 \u00b7 Equipamiento \u00b7 Pabell\u00f3n acristalado.002",
+    "point": [
+      -13800.0,
+      3300.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1187.0872219818648
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.011",
+    "point": [
+      8100.0,
+      -17000.0,
+      20.0
+    ],
+    "distance_to_house_cm": 573.2348744578145
+  },
+  {
+    "source": "M035_LOD0 | Norte | Norte | Casa_06_Garaje_Listones",
+    "point": [
+      28200.0,
+      -26700.0,
+      20.0
+    ],
+    "distance_to_house_cm": 553.3549363917823
+  },
+  {
+    "source": "M131_LOD0 | Sur | Sur | 03_Torres_ladrillo_y_verde.001",
+    "point": [
+      1900.0,
+      3600.0,
+      20.0
+    ],
+    "distance_to_house_cm": 513.6646672443263
+  },
+  {
+    "source": "M039_LOD0 | Norte | Norte | Casa_10_Adosados.009",
+    "point": [
+      22600.0,
+      -21200.0,
+      20.0
+    ],
+    "distance_to_house_cm": 489.72649716580753
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.017",
+    "point": [
+      28200.0,
+      -34700.0,
+      20.0
+    ],
+    "distance_to_house_cm": 539.7872078756392
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.014",
+    "point": [
+      8500.0,
+      -9400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 868.250848918692
+  },
+  {
+    "source": "M127_LOD0 | Oriente | Oriente | 28 \u2022 Parque con monumento cancha y pabell\u00f3n.001",
+    "point": [
+      -4100.0,
+      -17000.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1305.599676682548
+  },
+  {
+    "source": "M027_LOD0 | Centro | centro | 05 \u00b7 Monumentos \u00b7 04.002",
+    "point": [
+      18200.0,
+      -19500.0,
+      20.0
+    ],
+    "distance_to_house_cm": 803.6252398657087
+  },
+  {
+    "source": "M084_LOD0 | Occidente | occidente | 04 \u00b7 Hangares de mantenimiento.002",
+    "point": [
+      1100.0,
+      -24000.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1002.4314363829809
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.018",
+    "point": [
+      -15500.0,
+      14400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1186.163521005944
+  },
+  {
+    "source": "M134_LOD0 | Sur | Sur | 05_Coral_balcon.007",
+    "point": [
+      -3600.0,
+      -3200.0,
+      20.0
+    ],
+    "distance_to_house_cm": 494.4263355295288
+  },
+  {
+    "source": "M157_LOD0 | Sur | Sur | 27_Apartamentos_ladrillo_y_grafito.013",
+    "point": [
+      15900.0,
+      -9200.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1245.6892955633532
+  },
+  {
+    "source": "M002_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 03.005",
+    "point": [
+      5900.0,
+      15000.0,
+      20.0
+    ],
+    "distance_to_house_cm": 467.36493252084836
+  },
+  {
+    "source": "M144_LOD0 | Sur | Sur | 14_Duplex_terrazas.003",
+    "point": [
+      2800.0,
+      31400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 415.2927653348636
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.043",
+    "point": [
+      -11700.0,
+      27300.0,
+      20.0
+    ],
+    "distance_to_house_cm": 608.8119439732043
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.048",
+    "point": [
+      -1500.0,
+      1400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1319.3723452891331
+  },
+  {
+    "source": "M016_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 04.002",
+    "point": [
+      19400.0,
+      -28000.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1333.0077297707496
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.010",
+    "point": [
+      12600.0,
+      -38400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1654.3347340665237
+  },
+  {
+    "source": "M074_LOD0 | Occidente | occidente | 01 \u00b7 Viviendas \u00b7 F3-06.003",
+    "point": [
+      6300.0,
+      2100.0,
+      20.0
+    ],
+    "distance_to_house_cm": 612.0680968436465
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.011",
+    "point": [
+      -7700.0,
+      9500.0,
+      20.0
+    ],
+    "distance_to_house_cm": 984.548531899786
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.009",
+    "point": [
+      300.0,
+      17400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 524.1186537253386
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.028",
+    "point": [
+      11400.0,
+      -30200.0,
+      20.0
+    ],
+    "distance_to_house_cm": 430.3357114299845
+  },
+  {
+    "source": "M037_LOD0 | Norte | Norte | Casa_08_Chalet_Pizarra.003",
+    "point": [
+      10900.0,
+      -23300.0,
+      20.0
+    ],
+    "distance_to_house_cm": 549.8790446457099
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.008",
+    "point": [
+      -16400.0,
+      32500.0,
+      20.0
+    ],
+    "distance_to_house_cm": 824.607320100427
+  },
+  {
+    "source": "M033_LOD0 | Norte | Norte | Casa_04_Terrazas_Arena.001",
+    "point": [
+      26600.0,
+      -18000.0,
+      20.0
+    ],
+    "distance_to_house_cm": 523.0219612535726
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.009",
+    "point": [
+      14500.0,
+      -1000.0,
+      20.0
+    ],
+    "distance_to_house_cm": 655.8105247021551
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.028",
+    "point": [
+      1100.0,
+      22400.0,
+      20.0
+    ],
+    "distance_to_house_cm": 378.06129882349853
+  },
+  {
+    "source": "M087_LOD0 | Occidente | occidente | 05 \u00b7 Equipamiento \u00b7 Pabell\u00f3n acristalado",
+    "point": [
+      -9900.0,
+      21500.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1038.322000613724
+  },
+  {
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical.003",
+    "point": [
+      -10600.0,
+      -1900.0,
+      20.0
+    ],
+    "distance_to_house_cm": 867.6006299390064
+  },
+  {
+    "source": "M039_LOD0 | Norte | Norte | Casa_10_Adosados.008",
+    "point": [
+      24500.0,
+      -25000.0,
+      20.0
+    ],
+    "distance_to_house_cm": 724.9211463078176
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.025",
+    "point": [
+      2400.0,
+      -33200.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1060.5993283423547
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.020",
+    "point": [
+      15100.0,
+      -17900.0,
+      20.0
+    ],
+    "distance_to_house_cm": 492.74336924675606
+  },
+  {
+    "source": "M049_LOD0 | Norte | Norte | Parque_21_Estanque_Pergolas_Juegos.004",
+    "point": [
+      1800.0,
+      10000.0,
+      20.0
+    ],
+    "distance_to_house_cm": 973.608229939661
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.011",
+    "point": [
+      22000.0,
+      -30300.0,
+      20.0
+    ],
+    "distance_to_house_cm": 962.5955199768796
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.008",
+    "point": [
+      -2600.0,
+      24300.0,
+      20.0
+    ],
+    "distance_to_house_cm": 434.9223709511453
+  },
+  {
+    "source": "M114_LOD0 | Oriente | Oriente | 15 \u2022 Torre crema y n\u00facleo oscuro.006",
+    "point": [
+      -9200.0,
+      2600.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1048.0700545367272
+  },
+  {
+    "source": "M157_LOD0 | Sur | Sur | 27_Apartamentos_ladrillo_y_grafito.005",
+    "point": [
+      -17500.0,
+      11200.0,
+      20.0
+    ],
+    "distance_to_house_cm": 1294.4319127440315
+  }
+]

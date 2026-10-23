@@ -1,0 +1,1266 @@
+{
+  "nodes": [
+    {
+      "id": "ThemeID",
+      "kind": "get",
+      "var": "ThemeID"
+    },
+    {
+      "id": "Identity",
+      "kind": "call",
+      "fn": "MakeTransform",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "Scale": "(X=1,Y=1,Z=1)"
+      }
+    },
+    {
+      "id": "Root",
+      "kind": "call",
+      "fn": "AddComponentByClass",
+      "owner": "/Script/Engine.Actor",
+      "defaults": {
+        "Class": "/Script/Engine.SceneComponent",
+        "bManualAttachment": "false",
+        "bDeferredFinish": "false"
+      }
+    },
+    {
+      "id": "Theme",
+      "kind": "datatable",
+      "defaults": {
+        "DataTable": "/Game/Delivery/BlueprintSchema/Tables/DT_StoreThemes.DT_StoreThemes"
+      }
+    },
+    {
+      "id": "Fields",
+      "kind": "break",
+      "type": "/Game/Delivery/BlueprintSchema/ST_DeliveryShopTheme.ST_DeliveryShopTheme"
+    },
+    {
+      "id": "SetStoreKind",
+      "kind": "set",
+      "var": "StoreKind",
+      "defaults": {}
+    },
+    {
+      "id": "SetPlaceName",
+      "kind": "set",
+      "var": "PlaceName",
+      "defaults": {}
+    },
+    {
+      "id": "SetThemeProductNames",
+      "kind": "set",
+      "var": "ThemeProductNames",
+      "defaults": {}
+    },
+    {
+      "id": "SetPurchaseBudget",
+      "kind": "set",
+      "var": "PurchaseBudget",
+      "defaults": {}
+    },
+    {
+      "id": "SetCounterDistanceMeters",
+      "kind": "set",
+      "var": "CounterDistanceMeters",
+      "defaults": {}
+    },
+    {
+      "id": "HalfWidthCm",
+      "kind": "call",
+      "fn": "Multiply_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "50"
+      }
+    },
+    {
+      "id": "SetHalfWidth",
+      "kind": "set",
+      "var": "HalfWidth",
+      "defaults": {}
+    },
+    {
+      "id": "HalfDepthCm",
+      "kind": "call",
+      "fn": "Multiply_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "50"
+      }
+    },
+    {
+      "id": "SetHalfDepth",
+      "kind": "set",
+      "var": "HalfDepth",
+      "defaults": {}
+    },
+    {
+      "id": "StoreKind",
+      "kind": "get",
+      "var": "StoreKind"
+    },
+    {
+      "id": "Market",
+      "kind": "call",
+      "fn": "EqualEqual_IntInt",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "0"
+      }
+    },
+    {
+      "id": "GroceryNow",
+      "kind": "set",
+      "var": "Grocery",
+      "defaults": {}
+    },
+    {
+      "id": "Front",
+      "kind": "call",
+      "fn": "CreateStoreMesh",
+      "owner": "/Game/Delivery/BlueprintGameplay/Stores/BP_DeliveryStore.BP_DeliveryStore_C",
+      "defaults": {
+        "Collision": "true",
+        "Offset": "(X=0,Y=0,Z=0)"
+      }
+    },
+    {
+      "id": "HalfDepth",
+      "kind": "get",
+      "var": "HalfDepth"
+    },
+    {
+      "id": "HalfWidth",
+      "kind": "get",
+      "var": "HalfWidth"
+    },
+    {
+      "id": "CounterDistanceMeters",
+      "kind": "get",
+      "var": "CounterDistanceMeters"
+    },
+    {
+      "id": "InteriorOffset",
+      "kind": "call",
+      "fn": "MakeVector",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Interior",
+      "kind": "call",
+      "fn": "CreateStoreMesh",
+      "owner": "/Game/Delivery/BlueprintGameplay/Stores/BP_DeliveryStore.BP_DeliveryStore_C",
+      "defaults": {
+        "Collision": "true"
+      }
+    },
+    {
+      "id": "Category0",
+      "kind": "call",
+      "fn": "EqualEqual_IntInt",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "0"
+      }
+    },
+    {
+      "id": "Staff0",
+      "kind": "branch"
+    },
+    {
+      "id": "Counter0",
+      "kind": "call",
+      "fn": "Multiply_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "100"
+      }
+    },
+    {
+      "id": "Behind0",
+      "kind": "call",
+      "fn": "Add_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "75"
+      }
+    },
+    {
+      "id": "StaffOffset0",
+      "kind": "call",
+      "fn": "MakeVector",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "X": "270",
+        "Z": "0"
+      }
+    },
+    {
+      "id": "Person0",
+      "kind": "call",
+      "fn": "CreateStorePerson",
+      "owner": "/Game/Delivery/BlueprintGameplay/Stores/BP_DeliveryStore.BP_DeliveryStore_C",
+      "defaults": {
+        "Mesh": "/Game/Delivery/People/SK_Cashier",
+        "Scale": "1",
+        "Yaw": "0",
+        "Clip": "/Game/Delivery/People/A_Cashier_Work"
+      }
+    },
+    {
+      "id": "Mirror0",
+      "kind": "call",
+      "fn": "SetRelativeScale3D",
+      "owner": "/Script/Engine.SceneComponent",
+      "defaults": {
+        "NewScale3D": "(X=1,Y=-1,Z=1)"
+      }
+    },
+    {
+      "id": "Category1",
+      "kind": "call",
+      "fn": "EqualEqual_IntInt",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "1"
+      }
+    },
+    {
+      "id": "Staff1",
+      "kind": "branch"
+    },
+    {
+      "id": "Counter1",
+      "kind": "call",
+      "fn": "Multiply_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "100"
+      }
+    },
+    {
+      "id": "Behind1",
+      "kind": "call",
+      "fn": "Add_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "75"
+      }
+    },
+    {
+      "id": "StaffOffset1",
+      "kind": "call",
+      "fn": "MakeVector",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "X": "270",
+        "Z": "0"
+      }
+    },
+    {
+      "id": "Person1",
+      "kind": "call",
+      "fn": "CreateStorePerson",
+      "owner": "/Game/Delivery/BlueprintGameplay/Stores/BP_DeliveryStore.BP_DeliveryStore_C",
+      "defaults": {
+        "Mesh": "/Game/Delivery/People/SK_Chef",
+        "Scale": "1",
+        "Yaw": "0",
+        "Clip": "/Game/Delivery/People/A_Chef_Work"
+      }
+    },
+    {
+      "id": "Mirror1",
+      "kind": "call",
+      "fn": "SetRelativeScale3D",
+      "owner": "/Script/Engine.SceneComponent",
+      "defaults": {
+        "NewScale3D": "(X=1,Y=-1,Z=1)"
+      }
+    },
+    {
+      "id": "Category2",
+      "kind": "call",
+      "fn": "EqualEqual_IntInt",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "2"
+      }
+    },
+    {
+      "id": "Staff2",
+      "kind": "branch"
+    },
+    {
+      "id": "Counter2",
+      "kind": "call",
+      "fn": "Multiply_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "100"
+      }
+    },
+    {
+      "id": "Behind2",
+      "kind": "call",
+      "fn": "Add_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "75"
+      }
+    },
+    {
+      "id": "StaffOffset2",
+      "kind": "call",
+      "fn": "MakeVector",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "X": "270",
+        "Z": "0"
+      }
+    },
+    {
+      "id": "Person2",
+      "kind": "call",
+      "fn": "CreateStorePerson",
+      "owner": "/Game/Delivery/BlueprintGameplay/Stores/BP_DeliveryStore.BP_DeliveryStore_C",
+      "defaults": {
+        "Mesh": "/Game/Delivery/People/SK_TechClerk",
+        "Scale": "1",
+        "Yaw": "0",
+        "Clip": "/Game/Delivery/People/A_TechClerk_Work"
+      }
+    },
+    {
+      "id": "Mirror2",
+      "kind": "call",
+      "fn": "SetRelativeScale3D",
+      "owner": "/Script/Engine.SceneComponent",
+      "defaults": {
+        "NewScale3D": "(X=1,Y=-1,Z=1)"
+      }
+    },
+    {
+      "id": "Category3",
+      "kind": "call",
+      "fn": "EqualEqual_IntInt",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "3"
+      }
+    },
+    {
+      "id": "Staff3",
+      "kind": "branch"
+    },
+    {
+      "id": "Counter3",
+      "kind": "call",
+      "fn": "Multiply_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "100"
+      }
+    },
+    {
+      "id": "Behind3",
+      "kind": "call",
+      "fn": "Add_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "75"
+      }
+    },
+    {
+      "id": "StaffOffset3",
+      "kind": "call",
+      "fn": "MakeVector",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "X": "270",
+        "Z": "0"
+      }
+    },
+    {
+      "id": "Person3",
+      "kind": "call",
+      "fn": "CreateStorePerson",
+      "owner": "/Game/Delivery/BlueprintGameplay/Stores/BP_DeliveryStore.BP_DeliveryStore_C",
+      "defaults": {
+        "Mesh": "/Game/Delivery/People/SK_Pharmacist",
+        "Scale": "1",
+        "Yaw": "0",
+        "Clip": "/Game/Delivery/People/A_Pharmacist_Work"
+      }
+    },
+    {
+      "id": "Mirror3",
+      "kind": "call",
+      "fn": "SetRelativeScale3D",
+      "owner": "/Script/Engine.SceneComponent",
+      "defaults": {
+        "NewScale3D": "(X=1,Y=-1,Z=1)"
+      }
+    },
+    {
+      "id": "Category4",
+      "kind": "call",
+      "fn": "EqualEqual_IntInt",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "4"
+      }
+    },
+    {
+      "id": "Staff4",
+      "kind": "branch"
+    },
+    {
+      "id": "Counter4",
+      "kind": "call",
+      "fn": "Multiply_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "100"
+      }
+    },
+    {
+      "id": "Behind4",
+      "kind": "call",
+      "fn": "Add_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "75"
+      }
+    },
+    {
+      "id": "StaffOffset4",
+      "kind": "call",
+      "fn": "MakeVector",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "X": "270",
+        "Z": "0"
+      }
+    },
+    {
+      "id": "Person4",
+      "kind": "call",
+      "fn": "CreateStorePerson",
+      "owner": "/Game/Delivery/BlueprintGameplay/Stores/BP_DeliveryStore.BP_DeliveryStore_C",
+      "defaults": {
+        "Mesh": "/Game/Delivery/People/SK_Florist",
+        "Scale": "1",
+        "Yaw": "0",
+        "Clip": "/Game/Delivery/People/A_Florist_Work"
+      }
+    },
+    {
+      "id": "Mirror4",
+      "kind": "call",
+      "fn": "SetRelativeScale3D",
+      "owner": "/Script/Engine.SceneComponent",
+      "defaults": {
+        "NewScale3D": "(X=1,Y=-1,Z=1)"
+      }
+    },
+    {
+      "id": "Products",
+      "kind": "foreach"
+    },
+    {
+      "id": "Position",
+      "kind": "call",
+      "fn": "ProductPosition",
+      "owner": "/Game/Delivery/BlueprintGameplay/Stores/BP_DeliveryStore.BP_DeliveryStore_C",
+      "defaults": {}
+    },
+    {
+      "id": "Origin",
+      "kind": "call",
+      "fn": "K2_GetActorLocation",
+      "owner": "/Script/Engine.Actor",
+      "defaults": {}
+    },
+    {
+      "id": "Local",
+      "kind": "call",
+      "fn": "Subtract_VectorVector",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "ProductMeshNames",
+      "kind": "get",
+      "var": "ProductMeshNames"
+    },
+    {
+      "id": "ProductMeshAssets",
+      "kind": "get",
+      "var": "ProductMeshAssets"
+    },
+    {
+      "id": "ProductIndex",
+      "kind": "call",
+      "fn": "Array_Find",
+      "owner": "/Script/Engine.KismetArrayLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "ProductModel",
+      "kind": "call",
+      "fn": "Array_Get",
+      "owner": "/Script/Engine.KismetArrayLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Product",
+      "kind": "call",
+      "fn": "CreateStoreMesh",
+      "owner": "/Game/Delivery/BlueprintGameplay/Stores/BP_DeliveryStore.BP_DeliveryStore_C",
+      "defaults": {
+        "Collision": "false"
+      }
+    },
+    {
+      "id": "ProductCount",
+      "kind": "call",
+      "fn": "ItemCount",
+      "owner": "/Game/Delivery/BlueprintGameplay/Stores/BP_DeliveryStore.BP_DeliveryStore_C",
+      "defaults": {}
+    },
+    {
+      "id": "ProductAllowed",
+      "kind": "call",
+      "fn": "Less_IntInt",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "WithinCount",
+      "kind": "branch"
+    },
+    {
+      "id": "StoreProducts",
+      "kind": "get",
+      "var": "StoreProducts"
+    },
+    {
+      "id": "Remember",
+      "kind": "call",
+      "fn": "Array_Add",
+      "owner": "/Script/Engine.KismetArrayLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Built",
+      "kind": "get",
+      "var": "Built"
+    },
+    {
+      "id": "AlreadyBuilt",
+      "kind": "branch"
+    },
+    {
+      "id": "SetBuilt",
+      "kind": "set",
+      "var": "Built",
+      "defaults": {
+        "Built": "true"
+      }
+    },
+    {
+      "id": "PopulateCustomers",
+      "kind": "call",
+      "fn": "PopulateStoreCustomers",
+      "owner": "/Game/Delivery/BlueprintGameplay/Stores/BP_DeliveryStore.BP_DeliveryStore_C",
+      "defaults": {}
+    },
+    {
+      "id": "InteriorLights",
+      "kind": "call",
+      "fn": "LightStoreInterior",
+      "owner": "/Game/Delivery/BlueprintGameplay/Stores/BP_DeliveryStore.BP_DeliveryStore_C",
+      "defaults": {}
+    }
+  ],
+  "links": [
+    [
+      "Identity",
+      "ReturnValue",
+      "Root",
+      "RelativeTransform"
+    ],
+    [
+      "ThemeID",
+      "ThemeID",
+      "Theme",
+      "RowName"
+    ],
+    [
+      "Root",
+      "then",
+      "Theme",
+      "execute"
+    ],
+    [
+      "Theme",
+      "RowNotFound",
+      "result",
+      "execute"
+    ],
+    [
+      "Theme",
+      "OutRow",
+      "Fields",
+      "DeliveryShopTheme"
+    ],
+    [
+      "Fields",
+      "Category",
+      "SetStoreKind",
+      "StoreKind"
+    ],
+    [
+      "Theme",
+      "then",
+      "SetStoreKind",
+      "execute"
+    ],
+    [
+      "Fields",
+      "Title",
+      "SetPlaceName",
+      "PlaceName"
+    ],
+    [
+      "SetStoreKind",
+      "then",
+      "SetPlaceName",
+      "execute"
+    ],
+    [
+      "Fields",
+      "ProductNames",
+      "SetThemeProductNames",
+      "ThemeProductNames"
+    ],
+    [
+      "SetPlaceName",
+      "then",
+      "SetThemeProductNames",
+      "execute"
+    ],
+    [
+      "Fields",
+      "PurchaseBudget",
+      "SetPurchaseBudget",
+      "PurchaseBudget"
+    ],
+    [
+      "SetThemeProductNames",
+      "then",
+      "SetPurchaseBudget",
+      "execute"
+    ],
+    [
+      "Fields",
+      "CounterDistanceMeters",
+      "SetCounterDistanceMeters",
+      "CounterDistanceMeters"
+    ],
+    [
+      "SetPurchaseBudget",
+      "then",
+      "SetCounterDistanceMeters",
+      "execute"
+    ],
+    [
+      "Fields",
+      "WidthMeters",
+      "HalfWidthCm",
+      "A"
+    ],
+    [
+      "HalfWidthCm",
+      "ReturnValue",
+      "SetHalfWidth",
+      "HalfWidth"
+    ],
+    [
+      "SetCounterDistanceMeters",
+      "then",
+      "SetHalfWidth",
+      "execute"
+    ],
+    [
+      "Fields",
+      "DepthMeters",
+      "HalfDepthCm",
+      "A"
+    ],
+    [
+      "HalfDepthCm",
+      "ReturnValue",
+      "SetHalfDepth",
+      "HalfDepth"
+    ],
+    [
+      "SetHalfWidth",
+      "then",
+      "SetHalfDepth",
+      "execute"
+    ],
+    [
+      "StoreKind",
+      "StoreKind",
+      "Market",
+      "A"
+    ],
+    [
+      "Market",
+      "ReturnValue",
+      "GroceryNow",
+      "Grocery"
+    ],
+    [
+      "SetHalfDepth",
+      "then",
+      "GroceryNow",
+      "execute"
+    ],
+    [
+      "Fields",
+      "FrontMesh",
+      "Front",
+      "Mesh"
+    ],
+    [
+      "GroceryNow",
+      "then",
+      "Front",
+      "execute"
+    ],
+    [
+      "HalfDepth",
+      "HalfDepth",
+      "InteriorOffset",
+      "Y"
+    ],
+    [
+      "Fields",
+      "InteriorMesh",
+      "Interior",
+      "Mesh"
+    ],
+    [
+      "InteriorOffset",
+      "ReturnValue",
+      "Interior",
+      "Offset"
+    ],
+    [
+      "Front",
+      "then",
+      "Interior",
+      "execute"
+    ],
+    [
+      "StoreKind",
+      "StoreKind",
+      "Category0",
+      "A"
+    ],
+    [
+      "Category0",
+      "ReturnValue",
+      "Staff0",
+      "Condition"
+    ],
+    [
+      "Interior",
+      "then",
+      "Staff0",
+      "execute"
+    ],
+    [
+      "CounterDistanceMeters",
+      "CounterDistanceMeters",
+      "Counter0",
+      "A"
+    ],
+    [
+      "Counter0",
+      "ReturnValue",
+      "Behind0",
+      "A"
+    ],
+    [
+      "Behind0",
+      "ReturnValue",
+      "StaffOffset0",
+      "Y"
+    ],
+    [
+      "StaffOffset0",
+      "ReturnValue",
+      "Person0",
+      "Offset"
+    ],
+    [
+      "Staff0",
+      "then",
+      "Person0",
+      "execute"
+    ],
+    [
+      "Person0",
+      "ReturnValue",
+      "Mirror0",
+      "self"
+    ],
+    [
+      "Person0",
+      "then",
+      "Mirror0",
+      "execute"
+    ],
+    [
+      "StoreKind",
+      "StoreKind",
+      "Category1",
+      "A"
+    ],
+    [
+      "Category1",
+      "ReturnValue",
+      "Staff1",
+      "Condition"
+    ],
+    [
+      "Staff0",
+      "else",
+      "Staff1",
+      "execute"
+    ],
+    [
+      "CounterDistanceMeters",
+      "CounterDistanceMeters",
+      "Counter1",
+      "A"
+    ],
+    [
+      "Counter1",
+      "ReturnValue",
+      "Behind1",
+      "A"
+    ],
+    [
+      "Behind1",
+      "ReturnValue",
+      "StaffOffset1",
+      "Y"
+    ],
+    [
+      "StaffOffset1",
+      "ReturnValue",
+      "Person1",
+      "Offset"
+    ],
+    [
+      "Staff1",
+      "then",
+      "Person1",
+      "execute"
+    ],
+    [
+      "Person1",
+      "ReturnValue",
+      "Mirror1",
+      "self"
+    ],
+    [
+      "Person1",
+      "then",
+      "Mirror1",
+      "execute"
+    ],
+    [
+      "StoreKind",
+      "StoreKind",
+      "Category2",
+      "A"
+    ],
+    [
+      "Category2",
+      "ReturnValue",
+      "Staff2",
+      "Condition"
+    ],
+    [
+      "Staff1",
+      "else",
+      "Staff2",
+      "execute"
+    ],
+    [
+      "CounterDistanceMeters",
+      "CounterDistanceMeters",
+      "Counter2",
+      "A"
+    ],
+    [
+      "Counter2",
+      "ReturnValue",
+      "Behind2",
+      "A"
+    ],
+    [
+      "Behind2",
+      "ReturnValue",
+      "StaffOffset2",
+      "Y"
+    ],
+    [
+      "StaffOffset2",
+      "ReturnValue",
+      "Person2",
+      "Offset"
+    ],
+    [
+      "Staff2",
+      "then",
+      "Person2",
+      "execute"
+    ],
+    [
+      "Person2",
+      "ReturnValue",
+      "Mirror2",
+      "self"
+    ],
+    [
+      "Person2",
+      "then",
+      "Mirror2",
+      "execute"
+    ],
+    [
+      "StoreKind",
+      "StoreKind",
+      "Category3",
+      "A"
+    ],
+    [
+      "Category3",
+      "ReturnValue",
+      "Staff3",
+      "Condition"
+    ],
+    [
+      "Staff2",
+      "else",
+      "Staff3",
+      "execute"
+    ],
+    [
+      "CounterDistanceMeters",
+      "CounterDistanceMeters",
+      "Counter3",
+      "A"
+    ],
+    [
+      "Counter3",
+      "ReturnValue",
+      "Behind3",
+      "A"
+    ],
+    [
+      "Behind3",
+      "ReturnValue",
+      "StaffOffset3",
+      "Y"
+    ],
+    [
+      "StaffOffset3",
+      "ReturnValue",
+      "Person3",
+      "Offset"
+    ],
+    [
+      "Staff3",
+      "then",
+      "Person3",
+      "execute"
+    ],
+    [
+      "Person3",
+      "ReturnValue",
+      "Mirror3",
+      "self"
+    ],
+    [
+      "Person3",
+      "then",
+      "Mirror3",
+      "execute"
+    ],
+    [
+      "StoreKind",
+      "StoreKind",
+      "Category4",
+      "A"
+    ],
+    [
+      "Category4",
+      "ReturnValue",
+      "Staff4",
+      "Condition"
+    ],
+    [
+      "Staff3",
+      "else",
+      "Staff4",
+      "execute"
+    ],
+    [
+      "CounterDistanceMeters",
+      "CounterDistanceMeters",
+      "Counter4",
+      "A"
+    ],
+    [
+      "Counter4",
+      "ReturnValue",
+      "Behind4",
+      "A"
+    ],
+    [
+      "Behind4",
+      "ReturnValue",
+      "StaffOffset4",
+      "Y"
+    ],
+    [
+      "StaffOffset4",
+      "ReturnValue",
+      "Person4",
+      "Offset"
+    ],
+    [
+      "Staff4",
+      "then",
+      "Person4",
+      "execute"
+    ],
+    [
+      "Person4",
+      "ReturnValue",
+      "Mirror4",
+      "self"
+    ],
+    [
+      "Person4",
+      "then",
+      "Mirror4",
+      "execute"
+    ],
+    [
+      "Fields",
+      "ProductMeshes",
+      "Products",
+      "Array"
+    ],
+    [
+      "Staff4",
+      "else",
+      "result",
+      "execute"
+    ],
+    [
+      "Mirror0",
+      "then",
+      "Products",
+      "Exec"
+    ],
+    [
+      "Mirror1",
+      "then",
+      "Products",
+      "Exec"
+    ],
+    [
+      "Mirror2",
+      "then",
+      "Products",
+      "Exec"
+    ],
+    [
+      "Mirror3",
+      "then",
+      "Products",
+      "Exec"
+    ],
+    [
+      "Mirror4",
+      "then",
+      "Products",
+      "Exec"
+    ],
+    [
+      "Products",
+      "Array Index",
+      "Position",
+      "Index"
+    ],
+    [
+      "Position",
+      "ReturnValue",
+      "Local",
+      "A"
+    ],
+    [
+      "Origin",
+      "ReturnValue",
+      "Local",
+      "B"
+    ],
+    [
+      "ProductMeshNames",
+      "ProductMeshNames",
+      "ProductIndex",
+      "TargetArray"
+    ],
+    [
+      "Products",
+      "Array Element",
+      "ProductIndex",
+      "ItemToFind"
+    ],
+    [
+      "ProductMeshAssets",
+      "ProductMeshAssets",
+      "ProductModel",
+      "TargetArray"
+    ],
+    [
+      "ProductIndex",
+      "ReturnValue",
+      "ProductModel",
+      "Index"
+    ],
+    [
+      "ProductModel",
+      "Item",
+      "Product",
+      "Mesh"
+    ],
+    [
+      "Local",
+      "ReturnValue",
+      "Product",
+      "Offset"
+    ],
+    [
+      "Products",
+      "Array Index",
+      "ProductAllowed",
+      "A"
+    ],
+    [
+      "ProductCount",
+      "ReturnValue",
+      "ProductAllowed",
+      "B"
+    ],
+    [
+      "ProductAllowed",
+      "ReturnValue",
+      "WithinCount",
+      "Condition"
+    ],
+    [
+      "Products",
+      "LoopBody",
+      "WithinCount",
+      "execute"
+    ],
+    [
+      "WithinCount",
+      "then",
+      "Product",
+      "execute"
+    ],
+    [
+      "StoreProducts",
+      "StoreProducts",
+      "Remember",
+      "TargetArray"
+    ],
+    [
+      "Product",
+      "ReturnValue",
+      "Remember",
+      "NewItem"
+    ],
+    [
+      "Product",
+      "then",
+      "Remember",
+      "execute"
+    ],
+    [
+      "Built",
+      "Built",
+      "AlreadyBuilt",
+      "Condition"
+    ],
+    [
+      "entry",
+      "then",
+      "AlreadyBuilt",
+      "execute"
+    ],
+    [
+      "AlreadyBuilt",
+      "then",
+      "result",
+      "execute"
+    ],
+    [
+      "AlreadyBuilt",
+      "else",
+      "Root",
+      "execute"
+    ],
+    [
+      "Products",
+      "Completed",
+      "SetBuilt",
+      "execute"
+    ],
+    [
+      "SetBuilt",
+      "then",
+      "PopulateCustomers",
+      "execute"
+    ],
+    [
+      "PopulateCustomers",
+      "then",
+      "InteriorLights",
+      "execute"
+    ],
+    [
+      "InteriorLights",
+      "then",
+      "result",
+      "execute"
+    ]
+  ],
+  "variables": []
+}

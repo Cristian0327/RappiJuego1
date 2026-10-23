@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checks": {
+    "BP_DeliveryStore_C_0": "false",
+    "BP_DeliveryStore_C_1": "false",
+    "BP_DeliveryStore_C_2": "false",
+    "BP_DeliveryStore_C_3": "false",
+    "BP_DeliveryStore_C_4": "false",
+    "BP_DeliveryStore_C_5": "false",
+    "BP_DeliveryStore_C_6": "false",
+    "BP_DeliveryStore_C_7": "false",
+    "BP_DeliveryStore_C_8": "false",
+    "BP_DeliveryStore_C_9": "false",
+    "BP_DeliveryStore_C_10": "false",
+    "BP_DeliveryStore_C_11": "false",
+    "BP_DeliveryStore_C_12": "false",
+    "BP_DeliveryStore_C_13": "false",
+    "BP_DeliveryStore_C_14": "false",
+    "BP_DeliveryStore_C_15": "false",
+    "BP_DeliveryStore_C_16": "false",
+    "BP_DeliveryStore_C_17": "false",
+    "BP_DeliveryStore_C_18": "false",
+    "BP_DeliveryStore_C_19": "false"
+  },
+  "scope": "20 center aisle capsules clear of baked city geometry; doorway corridors and full walkable grid not yet checked"
+}

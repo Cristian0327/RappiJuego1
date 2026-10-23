@@ -1,0 +1,407 @@
+[
+  {
+    "mesh": "SM_Mapa_000",
+    "old_floor_height_m": 0.344,
+    "local_plinth_removed": 0.42274789567755505
+  },
+  {
+    "mesh": "SM_Mapa_001",
+    "old_floor_height_m": 0.381,
+    "local_plinth_removed": 0.44954483000742945
+  },
+  {
+    "mesh": "SM_Mapa_002",
+    "old_floor_height_m": 0.41,
+    "local_plinth_removed": 0.45392406177606687
+  },
+  {
+    "mesh": "SM_Mapa_003",
+    "old_floor_height_m": 0.513,
+    "local_plinth_removed": 0.49418140665033006
+  },
+  {
+    "mesh": "SM_Mapa_004",
+    "old_floor_height_m": 0.469,
+    "local_plinth_removed": -4.54259656189823
+  },
+  {
+    "mesh": "SM_Mapa_005",
+    "old_floor_height_m": 0.41,
+    "local_plinth_removed": 0.48800875238438407
+  },
+  {
+    "mesh": "SM_Mapa_006",
+    "old_floor_height_m": 1.02,
+    "local_plinth_removed": 0.959804763116777
+  },
+  {
+    "mesh": "SM_Mapa_007",
+    "old_floor_height_m": 0.828,
+    "local_plinth_removed": 0.9200000243716776
+  },
+  {
+    "mesh": "SM_Mapa_008",
+    "old_floor_height_m": 0.836,
+    "local_plinth_removed": 0.9736011421863138
+  },
+  {
+    "mesh": "SM_Mapa_009",
+    "old_floor_height_m": 0.887,
+    "local_plinth_removed": 1.0667239111275502
+  },
+  {
+    "mesh": "SM_Mapa_010",
+    "old_floor_height_m": 0.785,
+    "local_plinth_removed": 0.8722221875632264
+  },
+  {
+    "mesh": "SM_Mapa_011",
+    "old_floor_height_m": 1.046,
+    "local_plinth_removed": 0.9202303666612656
+  },
+  {
+    "mesh": "SM_Mapa_012",
+    "old_floor_height_m": 0.528,
+    "local_plinth_removed": 1.2813967491665772
+  },
+  {
+    "mesh": "SM_Mapa_013",
+    "old_floor_height_m": 0.751,
+    "local_plinth_removed": 1.050449780008714
+  },
+  {
+    "mesh": "SM_Mapa_014",
+    "old_floor_height_m": 0.657,
+    "local_plinth_removed": 1.049748678722816
+  },
+  {
+    "mesh": "SM_Mapa_015",
+    "old_floor_height_m": 0.315,
+    "local_plinth_removed": 0.28892423863043687
+  },
+  {
+    "mesh": "SM_Mapa_016",
+    "old_floor_height_m": 0.27,
+    "local_plinth_removed": 0.28824415823110666
+  },
+  {
+    "mesh": "SM_Mapa_017",
+    "old_floor_height_m": 0.25,
+    "local_plinth_removed": 0.28634766135296086
+  },
+  {
+    "mesh": "SM_Mapa_018",
+    "old_floor_height_m": 0.23,
+    "local_plinth_removed": 0.28881247717666764
+  },
+  {
+    "mesh": "SM_Mapa_019",
+    "old_floor_height_m": 0.233,
+    "local_plinth_removed": 0.28797483266320034
+  },
+  {
+    "mesh": "SM_Mapa_020",
+    "old_floor_height_m": 0.27,
+    "local_plinth_removed": 0.2847520612842157
+  },
+  {
+    "mesh": "SM_Mapa_021",
+    "old_floor_height_m": 0.315,
+    "local_plinth_removed": 0.28671464898875587
+  },
+  {
+    "mesh": "SM_Mapa_022",
+    "old_floor_height_m": 0.236,
+    "local_plinth_removed": 0.28606058952674923
+  },
+  {
+    "mesh": "SM_Mapa_023",
+    "old_floor_height_m": 0.663,
+    "local_plinth_removed": 1.1057830744211197
+  },
+  {
+    "mesh": "SM_Mapa_024",
+    "old_floor_height_m": 0.63,
+    "local_plinth_removed": 0.7636362643281419
+  },
+  {
+    "mesh": "SM_Mapa_025",
+    "old_floor_height_m": 0.345,
+    "local_plinth_removed": 0.24934273495333853
+  },
+  {
+    "mesh": "SM_Mapa_026",
+    "old_floor_height_m": 0.193,
+    "local_plinth_removed": 0.7984316153012708
+  },
+  {
+    "mesh": "SM_Mapa_027",
+    "old_floor_height_m": 0.483,
+    "local_plinth_removed": 0.5387479231492937
+  },
+  {
+    "mesh": "SM_Mapa_028",
+    "old_floor_height_m": 0.429,
+    "local_plinth_removed": 0.5010414714168464
+  },
+  {
+    "mesh": "SM_Mapa_029",
+    "old_floor_height_m": 0.413,
+    "local_plinth_removed": 0.3353556438803582
+  },
+  {
+    "mesh": "SM_Mapa_030",
+    "old_floor_height_m": 0.381,
+    "local_plinth_removed": 0.33285998333231614
+  },
+  {
+    "mesh": "SM_Mapa_031",
+    "old_floor_height_m": 0.357,
+    "local_plinth_removed": 0.33430008691460733
+  },
+  {
+    "mesh": "SM_Mapa_032",
+    "old_floor_height_m": 0.381,
+    "local_plinth_removed": 0.36958510659949195
+  },
+  {
+    "mesh": "SM_Mapa_033",
+    "old_floor_height_m": 0.381,
+    "local_plinth_removed": 0.3737602347114335
+  },
+  {
+    "mesh": "SM_Mapa_034",
+    "old_floor_height_m": 0.34,
+    "local_plinth_removed": 0.3716409774088289
+  },
+  {
+    "mesh": "SM_Mapa_035",
+    "old_floor_height_m": 1.27,
+    "local_plinth_removed": 2.640698777328058
+  },
+  {
+    "mesh": "SM_Mapa_036",
+    "old_floor_height_m": 0.492,
+    "local_plinth_removed": 1.2802136884882065
+  },
+  {
+    "mesh": "SM_Mapa_037",
+    "old_floor_height_m": 0.817,
+    "local_plinth_removed": 0.6093004169402676
+  },
+  {
+    "mesh": "SM_Mapa_038",
+    "old_floor_height_m": 0.83,
+    "local_plinth_removed": 0.7432026497019363
+  },
+  {
+    "mesh": "SM_Mapa_039",
+    "old_floor_height_m": 0.438,
+    "local_plinth_removed": 1.6727748838622771
+  },
+  {
+    "mesh": "SM_Mapa_040",
+    "old_floor_height_m": 0.381,
+    "local_plinth_removed": 0.3310271290105477
+  },
+  {
+    "mesh": "SM_Mapa_041",
+    "old_floor_height_m": 0.381,
+    "local_plinth_removed": 0.33379401283307497
+  },
+  {
+    "mesh": "SM_Mapa_042",
+    "old_floor_height_m": 0.415,
+    "local_plinth_removed": 0.33230080788311256
+  },
+  {
+    "mesh": "SM_Mapa_043",
+    "old_floor_height_m": 0.933,
+    "local_plinth_removed": 1.1221971871698608
+  },
+  {
+    "mesh": "SM_Mapa_044",
+    "old_floor_height_m": 0.403,
+    "local_plinth_removed": 0.4078208878989554
+  },
+  {
+    "mesh": "SM_Mapa_045",
+    "old_floor_height_m": 0.401,
+    "local_plinth_removed": 0.4075255719333137
+  },
+  {
+    "mesh": "SM_Mapa_046",
+    "old_floor_height_m": 0.402,
+    "local_plinth_removed": 0.40767540423657317
+  },
+  {
+    "mesh": "SM_Mapa_047",
+    "old_floor_height_m": 0.336,
+    "local_plinth_removed": 0.40727270373299895
+  },
+  {
+    "mesh": "SM_Mapa_048",
+    "old_floor_height_m": 0.465,
+    "local_plinth_removed": 0.4071694338065947
+  },
+  {
+    "mesh": "SM_Mapa_049",
+    "old_floor_height_m": 0.465,
+    "local_plinth_removed": 0.4071694338065947
+  },
+  {
+    "mesh": "SM_Mapa_050",
+    "old_floor_height_m": 0.336,
+    "local_plinth_removed": 0.4072727331576598
+  },
+  {
+    "mesh": "SM_Mapa_051",
+    "old_floor_height_m": 0.336,
+    "local_plinth_removed": 0.40727270373299895
+  },
+  {
+    "mesh": "SM_Mapa_052",
+    "old_floor_height_m": 0.336,
+    "local_plinth_removed": 0.40727270373299895
+  },
+  {
+    "mesh": "SM_Mapa_053",
+    "old_floor_height_m": 0.336,
+    "local_plinth_removed": 0.40727270373299895
+  },
+  {
+    "mesh": "SM_Mapa_054",
+    "old_floor_height_m": 0.493,
+    "local_plinth_removed": 0.6717566904466372
+  },
+  {
+    "mesh": "SM_Mapa_055",
+    "old_floor_height_m": 0.577,
+    "local_plinth_removed": 0.57924090876725
+  },
+  {
+    "mesh": "SM_Mapa_056",
+    "old_floor_height_m": 0.504,
+    "local_plinth_removed": 0.6428952348280844
+  },
+  {
+    "mesh": "SM_Mapa_057",
+    "old_floor_height_m": 0.609,
+    "local_plinth_removed": 0.6360179620657247
+  },
+  {
+    "mesh": "SM_Mapa_058",
+    "old_floor_height_m": 0.655,
+    "local_plinth_removed": 0.8428631776203858
+  },
+  {
+    "mesh": "SM_Mapa_059",
+    "old_floor_height_m": 0.893,
+    "local_plinth_removed": 0.7224647681789508
+  },
+  {
+    "mesh": "SM_Mapa_060",
+    "old_floor_height_m": 0.478,
+    "local_plinth_removed": 0.47417869518377614
+  },
+  {
+    "mesh": "SM_Mapa_061",
+    "old_floor_height_m": 0.369,
+    "local_plinth_removed": 0.4741198337224218
+  },
+  {
+    "mesh": "SM_Mapa_062",
+    "old_floor_height_m": 0.271,
+    "local_plinth_removed": 0.49111964149958187
+  },
+  {
+    "mesh": "SM_Mapa_063",
+    "old_floor_height_m": 0.22,
+    "local_plinth_removed": 0.2439012114153554
+  },
+  {
+    "mesh": "SM_Mapa_064",
+    "old_floor_height_m": 0.251,
+    "local_plinth_removed": 0.23255497027374136
+  },
+  {
+    "mesh": "SM_Mapa_065",
+    "old_floor_height_m": 0.216,
+    "local_plinth_removed": 0.235336937018376
+  },
+  {
+    "mesh": "SM_Mapa_066",
+    "old_floor_height_m": 0.246,
+    "local_plinth_removed": 0.23395813713504796
+  },
+  {
+    "mesh": "SM_Mapa_067",
+    "old_floor_height_m": 0.875,
+    "local_plinth_removed": 0.7458843924879404
+  },
+  {
+    "mesh": "SM_Mapa_068",
+    "old_floor_height_m": 0.243,
+    "local_plinth_removed": 0.27330724423196484
+  },
+  {
+    "mesh": "SM_Mapa_069",
+    "old_floor_height_m": 0.56,
+    "local_plinth_removed": 0.892052200093713
+  },
+  {
+    "mesh": "SM_Mapa_070",
+    "old_floor_height_m": 0.243,
+    "local_plinth_removed": 0.27330724423196484
+  },
+  {
+    "mesh": "SM_Mapa_071",
+    "old_floor_height_m": 0.243,
+    "local_plinth_removed": 0.23257144597880944
+  },
+  {
+    "mesh": "SM_Mapa_072",
+    "old_floor_height_m": 0.199,
+    "local_plinth_removed": 0.2558161653986703
+  },
+  {
+    "mesh": "SM_Mapa_073",
+    "old_floor_height_m": 0.239,
+    "local_plinth_removed": 0.2734315981616089
+  },
+  {
+    "mesh": "SM_Mapa_074",
+    "old_floor_height_m": 0.235,
+    "local_plinth_removed": 0.1917745668608678
+  },
+  {
+    "mesh": "SM_Mapa_075",
+    "old_floor_height_m": 0.243,
+    "local_plinth_removed": 0.27330724423196484
+  },
+  {
+    "mesh": "SM_Mapa_076",
+    "old_floor_height_m": 0.269,
+    "local_plinth_removed": 0.2737816939327827
+  },
+  {
+    "mesh": "SM_Mapa_077",
+    "old_floor_height_m": 0.184,
+    "local_plinth_removed": 0.20780139433241462
+  },
+  {
+    "mesh": "SM_Mapa_078",
+    "old_floor_height_m": 0.252,
+    "local_plinth_removed": 0.8797628789019326
+  },
+  {
+    "mesh": "SM_Mapa_079",
+    "old_floor_height_m": 0.346,
+    "local_plinth_removed": 0.5176346739773247
+  },
+  {
+    "mesh": "SM_Mapa_080",
+    "old_floor_height_m": 0.326,
+    "local_plinth_removed": 0.516965641564648
+  }
+]

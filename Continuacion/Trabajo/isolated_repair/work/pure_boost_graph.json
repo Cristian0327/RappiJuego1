@@ -1,0 +1,1119 @@
+{
+  "nodes": [
+    {
+      "id": "Vehicle",
+      "kind": "get",
+      "var": "Vehicle"
+    },
+    {
+      "id": "PhoneOpen",
+      "kind": "get",
+      "var": "PhoneOpen"
+    },
+    {
+      "id": "InfiniteBoost",
+      "kind": "get",
+      "var": "InfiniteBoost"
+    },
+    {
+      "id": "Energy",
+      "kind": "get",
+      "var": "Energy"
+    },
+    {
+      "id": "Capacity",
+      "kind": "get",
+      "var": "Capacity"
+    },
+    {
+      "id": "Drain",
+      "kind": "get",
+      "var": "Drain"
+    },
+    {
+      "id": "Regen",
+      "kind": "get",
+      "var": "Regen"
+    },
+    {
+      "id": "bExhausted",
+      "kind": "get",
+      "var": "bExhausted"
+    },
+    {
+      "id": "bHadBoost",
+      "kind": "get",
+      "var": "bHadBoost"
+    },
+    {
+      "id": "RegenDelayRemaining",
+      "kind": "get",
+      "var": "RegenDelayRemaining"
+    },
+    {
+      "id": "BoostActive",
+      "kind": "get",
+      "var": "BoostActive"
+    },
+    {
+      "id": "BoostUsedFrame",
+      "kind": "get",
+      "var": "BoostUsedFrame"
+    },
+    {
+      "id": "Rider",
+      "kind": "call",
+      "fn": "GetOwner",
+      "owner": "/Script/Engine.ActorComponent",
+      "defaults": {}
+    },
+    {
+      "id": "ValidRider",
+      "kind": "call",
+      "fn": "IsValid",
+      "owner": "/Script/Engine.KismetSystemLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Valid",
+      "kind": "branch"
+    },
+    {
+      "id": "InputState",
+      "kind": "message",
+      "owner": "/Game/Delivery/Interfaces/BPI_DeliveryRiderInput.BPI_DeliveryRiderInput_C",
+      "fn": "QueryDeliveryInputState"
+    },
+    {
+      "id": "Riding",
+      "kind": "call",
+      "fn": "EqualEqual_BoolBool",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "true"
+      }
+    },
+    {
+      "id": "Wants",
+      "kind": "call",
+      "fn": "EqualEqual_BoolBool",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "true"
+      }
+    },
+    {
+      "id": "Throttle",
+      "kind": "call",
+      "fn": "EqualEqual_BoolBool",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "true"
+      }
+    },
+    {
+      "id": "Bike",
+      "kind": "call",
+      "fn": "EqualEqual_ByteByte",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "0"
+      }
+    },
+    {
+      "id": "Turbo",
+      "kind": "call",
+      "fn": "Owns",
+      "owner": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore_C",
+      "defaults": {
+        "ID": "MotoTurbo"
+      }
+    },
+    {
+      "id": "Allowed",
+      "kind": "call",
+      "fn": "BooleanOR",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "PhoneClosed",
+      "kind": "call",
+      "fn": "Not_PreBool",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "HasEnergy",
+      "kind": "call",
+      "fn": "Greater_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "0"
+      }
+    },
+    {
+      "id": "Recovered",
+      "kind": "call",
+      "fn": "Not_PreBool",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "EnergyAvailable",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "CanPower",
+      "kind": "call",
+      "fn": "BooleanOR",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "DriverWants",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Accelerating",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "InWorld",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "VehicleBoost",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Powered",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Activate",
+      "kind": "set",
+      "var": "BoostActive",
+      "defaults": {}
+    },
+    {
+      "id": "FrameSnapshot",
+      "kind": "set",
+      "var": "BoostUsedFrame",
+      "defaults": {}
+    },
+    {
+      "id": "Finite",
+      "kind": "call",
+      "fn": "Not_PreBool",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "DrainNow",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Consume",
+      "kind": "branch"
+    },
+    {
+      "id": "SafeDrain",
+      "kind": "call",
+      "fn": "FMax",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "1"
+      }
+    },
+    {
+      "id": "Spend",
+      "kind": "call",
+      "fn": "Multiply_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "AfterDrain",
+      "kind": "call",
+      "fn": "Subtract_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "NonNegative",
+      "kind": "call",
+      "fn": "FMax",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "0"
+      }
+    },
+    {
+      "id": "DrainEnergy",
+      "kind": "set",
+      "var": "Energy",
+      "defaults": {}
+    },
+    {
+      "id": "Empty",
+      "kind": "call",
+      "fn": "LessEqual_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "0"
+      }
+    },
+    {
+      "id": "Exhausted",
+      "kind": "branch"
+    },
+    {
+      "id": "StopBoost",
+      "kind": "set",
+      "var": "BoostActive",
+      "defaults": {
+        "BoostActive": "false"
+      }
+    },
+    {
+      "id": "MarkExhausted",
+      "kind": "set",
+      "var": "bExhausted",
+      "defaults": {
+        "bExhausted": "true"
+      }
+    },
+    {
+      "id": "WaitToRegen",
+      "kind": "set",
+      "var": "RegenDelayRemaining",
+      "defaults": {
+        "RegenDelayRemaining": "1.5"
+      }
+    },
+    {
+      "id": "BoostStopped",
+      "kind": "call",
+      "fn": "Not_PreBool",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "DidNotBoost",
+      "kind": "call",
+      "fn": "Not_PreBool",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "CanRegen",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Regenerate",
+      "kind": "branch"
+    },
+    {
+      "id": "WasBoosting",
+      "kind": "branch"
+    },
+    {
+      "id": "StartCooldown",
+      "kind": "set",
+      "var": "RegenDelayRemaining",
+      "defaults": {
+        "RegenDelayRemaining": "1.5"
+      }
+    },
+    {
+      "id": "CooldownElapsed",
+      "kind": "call",
+      "fn": "Subtract_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "CooldownClamp",
+      "kind": "call",
+      "fn": "FMax",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "0"
+      }
+    },
+    {
+      "id": "ReduceCooldown",
+      "kind": "set",
+      "var": "RegenDelayRemaining",
+      "defaults": {}
+    },
+    {
+      "id": "CooldownDone",
+      "kind": "call",
+      "fn": "LessEqual_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "0"
+      }
+    },
+    {
+      "id": "Cooldown",
+      "kind": "branch"
+    },
+    {
+      "id": "RegenAmount",
+      "kind": "call",
+      "fn": "Multiply_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "RecoveredEnergy",
+      "kind": "call",
+      "fn": "Add_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "CapacityLimit",
+      "kind": "call",
+      "fn": "FMin",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Recharge",
+      "kind": "set",
+      "var": "Energy",
+      "defaults": {}
+    },
+    {
+      "id": "RestartThreshold",
+      "kind": "call",
+      "fn": "Multiply_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "0.2"
+      }
+    },
+    {
+      "id": "RestartReady",
+      "kind": "call",
+      "fn": "GreaterEqual_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Restart",
+      "kind": "branch"
+    },
+    {
+      "id": "ClearExhausted",
+      "kind": "set",
+      "var": "bExhausted",
+      "defaults": {
+        "bExhausted": "false"
+      }
+    },
+    {
+      "id": "PreviousBoost",
+      "kind": "set",
+      "var": "bHadBoost",
+      "defaults": {}
+    },
+    {
+      "id": "EnergyForBike",
+      "kind": "branch"
+    },
+    {
+      "id": "SaveBikeEnergy",
+      "kind": "set",
+      "var": "BikeEnergy",
+      "defaults": {}
+    },
+    {
+      "id": "SaveMotoEnergy",
+      "kind": "set",
+      "var": "MotoEnergy",
+      "defaults": {}
+    },
+    {
+      "id": "SafeDelta",
+      "kind": "call",
+      "fn": "FMax",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "0"
+      }
+    },
+    {
+      "id": "SupportsInput",
+      "kind": "call",
+      "fn": "DoesImplementInterface",
+      "owner": "/Script/Engine.KismetSystemLibrary",
+      "defaults": {
+        "Interface": "/Game/Delivery/Interfaces/BPI_DeliveryRiderInput.BPI_DeliveryRiderInput_C"
+      }
+    },
+    {
+      "id": "ValidInput",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    }
+  ],
+  "links": [
+    [
+      "Rider",
+      "ReturnValue",
+      "ValidRider",
+      "Object"
+    ],
+    [
+      "entry",
+      "then",
+      "Valid",
+      "execute"
+    ],
+    [
+      "Valid",
+      "else",
+      "result",
+      "execute"
+    ],
+    [
+      "Rider",
+      "ReturnValue",
+      "InputState",
+      "self"
+    ],
+    [
+      "Valid",
+      "then",
+      "InputState",
+      "execute"
+    ],
+    [
+      "InputState",
+      "Mounted",
+      "Riding",
+      "A"
+    ],
+    [
+      "InputState",
+      "WantsBoost",
+      "Wants",
+      "A"
+    ],
+    [
+      "InputState",
+      "HasThrottle",
+      "Throttle",
+      "A"
+    ],
+    [
+      "Vehicle",
+      "Vehicle",
+      "Bike",
+      "A"
+    ],
+    [
+      "Bike",
+      "ReturnValue",
+      "Allowed",
+      "A"
+    ],
+    [
+      "Turbo",
+      "ReturnValue",
+      "Allowed",
+      "B"
+    ],
+    [
+      "PhoneOpen",
+      "PhoneOpen",
+      "PhoneClosed",
+      "A"
+    ],
+    [
+      "Energy",
+      "Energy",
+      "HasEnergy",
+      "A"
+    ],
+    [
+      "bExhausted",
+      "bExhausted",
+      "Recovered",
+      "A"
+    ],
+    [
+      "HasEnergy",
+      "ReturnValue",
+      "EnergyAvailable",
+      "A"
+    ],
+    [
+      "Recovered",
+      "ReturnValue",
+      "EnergyAvailable",
+      "B"
+    ],
+    [
+      "EnergyAvailable",
+      "ReturnValue",
+      "CanPower",
+      "A"
+    ],
+    [
+      "InfiniteBoost",
+      "InfiniteBoost",
+      "CanPower",
+      "B"
+    ],
+    [
+      "Riding",
+      "ReturnValue",
+      "DriverWants",
+      "A"
+    ],
+    [
+      "Wants",
+      "ReturnValue",
+      "DriverWants",
+      "B"
+    ],
+    [
+      "DriverWants",
+      "ReturnValue",
+      "Accelerating",
+      "A"
+    ],
+    [
+      "Throttle",
+      "ReturnValue",
+      "Accelerating",
+      "B"
+    ],
+    [
+      "Accelerating",
+      "ReturnValue",
+      "InWorld",
+      "A"
+    ],
+    [
+      "PhoneClosed",
+      "ReturnValue",
+      "InWorld",
+      "B"
+    ],
+    [
+      "InWorld",
+      "ReturnValue",
+      "VehicleBoost",
+      "A"
+    ],
+    [
+      "Allowed",
+      "ReturnValue",
+      "VehicleBoost",
+      "B"
+    ],
+    [
+      "VehicleBoost",
+      "ReturnValue",
+      "Powered",
+      "A"
+    ],
+    [
+      "CanPower",
+      "ReturnValue",
+      "Powered",
+      "B"
+    ],
+    [
+      "Powered",
+      "ReturnValue",
+      "Activate",
+      "BoostActive"
+    ],
+    [
+      "BoostActive",
+      "BoostActive",
+      "FrameSnapshot",
+      "BoostUsedFrame"
+    ],
+    [
+      "InputState",
+      "then",
+      "Activate",
+      "execute"
+    ],
+    [
+      "Activate",
+      "then",
+      "FrameSnapshot",
+      "execute"
+    ],
+    [
+      "InfiniteBoost",
+      "InfiniteBoost",
+      "Finite",
+      "A"
+    ],
+    [
+      "BoostActive",
+      "BoostActive",
+      "DrainNow",
+      "A"
+    ],
+    [
+      "Finite",
+      "ReturnValue",
+      "DrainNow",
+      "B"
+    ],
+    [
+      "DrainNow",
+      "ReturnValue",
+      "Consume",
+      "Condition"
+    ],
+    [
+      "FrameSnapshot",
+      "then",
+      "Consume",
+      "execute"
+    ],
+    [
+      "Drain",
+      "Drain",
+      "SafeDrain",
+      "A"
+    ],
+    [
+      "SafeDrain",
+      "ReturnValue",
+      "Spend",
+      "A"
+    ],
+    [
+      "Energy",
+      "Energy",
+      "AfterDrain",
+      "A"
+    ],
+    [
+      "Spend",
+      "ReturnValue",
+      "AfterDrain",
+      "B"
+    ],
+    [
+      "AfterDrain",
+      "ReturnValue",
+      "NonNegative",
+      "A"
+    ],
+    [
+      "NonNegative",
+      "ReturnValue",
+      "DrainEnergy",
+      "Energy"
+    ],
+    [
+      "Consume",
+      "then",
+      "DrainEnergy",
+      "execute"
+    ],
+    [
+      "Energy",
+      "Energy",
+      "Empty",
+      "A"
+    ],
+    [
+      "Empty",
+      "ReturnValue",
+      "Exhausted",
+      "Condition"
+    ],
+    [
+      "DrainEnergy",
+      "then",
+      "Exhausted",
+      "execute"
+    ],
+    [
+      "Exhausted",
+      "then",
+      "StopBoost",
+      "execute"
+    ],
+    [
+      "StopBoost",
+      "then",
+      "MarkExhausted",
+      "execute"
+    ],
+    [
+      "MarkExhausted",
+      "then",
+      "WaitToRegen",
+      "execute"
+    ],
+    [
+      "BoostActive",
+      "BoostActive",
+      "BoostStopped",
+      "A"
+    ],
+    [
+      "BoostUsedFrame",
+      "BoostUsedFrame",
+      "DidNotBoost",
+      "A"
+    ],
+    [
+      "BoostStopped",
+      "ReturnValue",
+      "CanRegen",
+      "A"
+    ],
+    [
+      "DidNotBoost",
+      "ReturnValue",
+      "CanRegen",
+      "B"
+    ],
+    [
+      "CanRegen",
+      "ReturnValue",
+      "Regenerate",
+      "Condition"
+    ],
+    [
+      "Consume",
+      "else",
+      "Regenerate",
+      "execute"
+    ],
+    [
+      "bHadBoost",
+      "bHadBoost",
+      "WasBoosting",
+      "Condition"
+    ],
+    [
+      "Regenerate",
+      "then",
+      "WasBoosting",
+      "execute"
+    ],
+    [
+      "WasBoosting",
+      "then",
+      "StartCooldown",
+      "execute"
+    ],
+    [
+      "RegenDelayRemaining",
+      "RegenDelayRemaining",
+      "CooldownElapsed",
+      "A"
+    ],
+    [
+      "CooldownElapsed",
+      "ReturnValue",
+      "CooldownClamp",
+      "A"
+    ],
+    [
+      "CooldownClamp",
+      "ReturnValue",
+      "ReduceCooldown",
+      "RegenDelayRemaining"
+    ],
+    [
+      "StartCooldown",
+      "then",
+      "ReduceCooldown",
+      "execute"
+    ],
+    [
+      "WasBoosting",
+      "else",
+      "ReduceCooldown",
+      "execute"
+    ],
+    [
+      "RegenDelayRemaining",
+      "RegenDelayRemaining",
+      "CooldownDone",
+      "A"
+    ],
+    [
+      "CooldownDone",
+      "ReturnValue",
+      "Cooldown",
+      "Condition"
+    ],
+    [
+      "ReduceCooldown",
+      "then",
+      "Cooldown",
+      "execute"
+    ],
+    [
+      "Regen",
+      "Regen",
+      "RegenAmount",
+      "A"
+    ],
+    [
+      "Energy",
+      "Energy",
+      "RecoveredEnergy",
+      "A"
+    ],
+    [
+      "RegenAmount",
+      "ReturnValue",
+      "RecoveredEnergy",
+      "B"
+    ],
+    [
+      "Capacity",
+      "Capacity",
+      "CapacityLimit",
+      "A"
+    ],
+    [
+      "RecoveredEnergy",
+      "ReturnValue",
+      "CapacityLimit",
+      "B"
+    ],
+    [
+      "CapacityLimit",
+      "ReturnValue",
+      "Recharge",
+      "Energy"
+    ],
+    [
+      "Cooldown",
+      "then",
+      "Recharge",
+      "execute"
+    ],
+    [
+      "Capacity",
+      "Capacity",
+      "RestartThreshold",
+      "A"
+    ],
+    [
+      "Energy",
+      "Energy",
+      "RestartReady",
+      "A"
+    ],
+    [
+      "RestartThreshold",
+      "ReturnValue",
+      "RestartReady",
+      "B"
+    ],
+    [
+      "RestartReady",
+      "ReturnValue",
+      "Restart",
+      "Condition"
+    ],
+    [
+      "Recharge",
+      "then",
+      "Restart",
+      "execute"
+    ],
+    [
+      "Cooldown",
+      "else",
+      "Restart",
+      "execute"
+    ],
+    [
+      "Restart",
+      "then",
+      "ClearExhausted",
+      "execute"
+    ],
+    [
+      "BoostActive",
+      "BoostActive",
+      "PreviousBoost",
+      "bHadBoost"
+    ],
+    [
+      "WaitToRegen",
+      "then",
+      "PreviousBoost",
+      "execute"
+    ],
+    [
+      "Exhausted",
+      "else",
+      "PreviousBoost",
+      "execute"
+    ],
+    [
+      "Regenerate",
+      "else",
+      "PreviousBoost",
+      "execute"
+    ],
+    [
+      "ClearExhausted",
+      "then",
+      "PreviousBoost",
+      "execute"
+    ],
+    [
+      "Restart",
+      "else",
+      "PreviousBoost",
+      "execute"
+    ],
+    [
+      "Bike",
+      "ReturnValue",
+      "EnergyForBike",
+      "Condition"
+    ],
+    [
+      "PreviousBoost",
+      "then",
+      "EnergyForBike",
+      "execute"
+    ],
+    [
+      "Energy",
+      "Energy",
+      "SaveBikeEnergy",
+      "BikeEnergy"
+    ],
+    [
+      "Energy",
+      "Energy",
+      "SaveMotoEnergy",
+      "MotoEnergy"
+    ],
+    [
+      "EnergyForBike",
+      "then",
+      "SaveBikeEnergy",
+      "execute"
+    ],
+    [
+      "EnergyForBike",
+      "else",
+      "SaveMotoEnergy",
+      "execute"
+    ],
+    [
+      "SaveBikeEnergy",
+      "then",
+      "result",
+      "execute"
+    ],
+    [
+      "SaveMotoEnergy",
+      "then",
+      "result",
+      "execute"
+    ],
+    [
+      "entry",
+      "Dt",
+      "SafeDelta",
+      "A"
+    ],
+    [
+      "SafeDelta",
+      "ReturnValue",
+      "Spend",
+      "B"
+    ],
+    [
+      "SafeDelta",
+      "ReturnValue",
+      "CooldownElapsed",
+      "B"
+    ],
+    [
+      "SafeDelta",
+      "ReturnValue",
+      "RegenAmount",
+      "B"
+    ],
+    [
+      "Rider",
+      "ReturnValue",
+      "SupportsInput",
+      "TestObject"
+    ],
+    [
+      "ValidRider",
+      "ReturnValue",
+      "ValidInput",
+      "A"
+    ],
+    [
+      "SupportsInput",
+      "ReturnValue",
+      "ValidInput",
+      "B"
+    ],
+    [
+      "ValidInput",
+      "ReturnValue",
+      "Valid",
+      "Condition"
+    ]
+  ],
+  "variables": [
+    {
+      "name": "BoostUsedFrame",
+      "type": "bool",
+      "default": "false"
+    }
+  ],
+  "signature_owner": "/Script/BogotaVoxel.DeliveryComponent"
+}

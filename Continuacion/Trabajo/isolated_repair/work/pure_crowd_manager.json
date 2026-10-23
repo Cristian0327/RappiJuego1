@@ -1,0 +1,11 @@
+{
+  "population": 864,
+  "models": 60,
+  "map": "/Game/QA/PureCityCrowd",
+  "status": "AUTHORED_PENDING_RUNTIME",
+  "pending": [
+    "Crosswalk signal state",
+    "Vehicle interactions",
+    "Population performance"
+  ]
+}

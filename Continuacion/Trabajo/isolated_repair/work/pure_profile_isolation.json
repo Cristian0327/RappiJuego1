@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "slot": "VoxelDelivery_Blueprint_Profile_v2",
+  "legacy_slot_unchanged": "VoxelDelivery_Profile_v1",
+  "legacy_profile_conversion_pending": true,
+  "native_gameplay_slot_unchanged": true,
+  "note": "Staging Blueprint prototypes cannot overwrite the native v1 player profile."
+}

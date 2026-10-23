@@ -25,3 +25,9 @@ Thumbs.db
 # Local builds and installers are not the editable project
 *.exe
 /Config/DefaultEditor.ini
+
+# Large reproducible geometry data is stored losslessly as gzip parts
+/Continuacion/Trabajo/compact_city/original_object_wall_polygons.json
+/Continuacion/Trabajo/map_adaptation_v2/current_building_sections.json
+/Continuacion/Trabajo/new_map_audit/expanded_wall_quads.npy
+/Continuacion/Trabajo/new_map_audit/wall_polygons.npy

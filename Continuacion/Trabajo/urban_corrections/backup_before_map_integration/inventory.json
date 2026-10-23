@@ -1,0 +1,217 @@
+[
+  {
+    "Asset": "Maps/MapaCompleto_Integration.umap",
+    "SHA256": "69CA8B7C0AA8373392F5F908F175304C3F8D29584A5C46A12839803E8B54F7A4",
+    "Bytes": 2444085
+  },
+  {
+    "Asset": "Maps/MapaCompleto/BP_MapaCompletoGeometry.uasset",
+    "SHA256": "41284ED2E7DAE1688D2CA24AE3356CD6935F98FED30DA877CBBE62A10C0DD3D3",
+    "Bytes": 2324421
+  },
+  {
+    "Asset": "Maps/MapaCompleto/Geometry/SM_Mapa_Road_0.uasset",
+    "SHA256": "75F3765F7BE9B9C41041069F38084B695B040D3A2054D1A510D0122CB10E4EF6",
+    "Bytes": 229736
+  },
+  {
+    "Asset": "Maps/MapaCompleto/Geometry/SM_Mapa_Road_1.uasset",
+    "SHA256": "BA5412649D252DC6CFB4BAC06EC7C1F35FB52948B330805ACC3D7871EB2C34AF",
+    "Bytes": 22114
+  },
+  {
+    "Asset": "Maps/MapaCompleto/Geometry/SM_Mapa_Road_2.uasset",
+    "SHA256": "D6CE7D062F73E275D9120FD302BF68D264DDB652EB5478D2DBD5468837D3C8FC",
+    "Bytes": 22069
+  },
+  {
+    "Asset": "World/BlueprintWorld/Traffic/BP_TrafficManager.uasset",
+    "SHA256": "35812AC79E3E9FE47B72CA813CDE8E1FEA935EE6A68439CEDA3A4C4E8C3761E4",
+    "Bytes": 1254499
+  },
+  {
+    "Asset": "World/BlueprintWorld/Traffic/BP_TrafficVehicle.uasset",
+    "SHA256": "07ABD14152C5D1FD6D5F34C2FF62A6A564CEB9A36F0D79731692A3E18A40CDCD",
+    "Bytes": 2249146
+  },
+  {
+    "Asset": "World/BlueprintWorld/Crowd/BP_CrosswalkCitizen.uasset",
+    "SHA256": "094C49243E69A35C95D200C41755C478E8E79AC05C83D844F4E008F044D9FD5D",
+    "Bytes": 214040
+  },
+  {
+    "Asset": "World/BlueprintWorld/BP_WorldState.uasset",
+    "SHA256": "35A46955E8F7B66187ECA0139C4936A477A34C8E0CDA8178F6BE923490380A4D",
+    "Bytes": 600644
+  },
+  {
+    "Asset": "Traffic/Transit/BP_StationPassenger.uasset",
+    "SHA256": "4B4D7F67C7C3453A5A074C34CA5DAC91105B1252A5A4BC609FA3F5539051CD56",
+    "Bytes": 464102
+  },
+  {
+    "Asset": "QA/BP_UrbanRefreshProbe.uasset",
+    "SHA256": "64F5D0B13C649E7C5BE31A8F4A15AEC4173B3B0DD03B273FAC97F2C71BEA3326",
+    "Bytes": 456029
+  },
+  {
+    "Asset": "QA/BP_NewMapProbe.uasset",
+    "SHA256": "3FA381F82209761A3540EA48A49AD63718764CC113E79EBBF1CC934BB6AC3637",
+    "Bytes": 324389
+  },
+  {
+    "Asset": "QA/BP_TestStationPassenger.uasset",
+    "SHA256": "ED365E095017CA510064B52A755A5C836139209C7A6627E6B184FBD3E5F2B1CF",
+    "Bytes": 157376
+  },
+  {
+    "Asset": "QA/BogotaUrbanRefresh.umap",
+    "SHA256": "A63DA75A626461173D5692C163CFC92597D87611E50CAA3E14D01FFA084B88CB",
+    "Bytes": 2453356
+  },
+  {
+    "Asset": "QA/NewMapRuntime.umap",
+    "SHA256": "924404963FEA55965C1E92033D486108DDC3ED21F8BB62D69EB328775DBE0976",
+    "Bytes": 2436277
+  },
+  {
+    "Asset": "QA/NewMapTransit.umap",
+    "SHA256": "3F95CA701E133F95752FA6E65917D2C3328025CC66E67F2FDE4A99D123AF7C43",
+    "Bytes": 2447090
+  },
+  {
+    "Asset": "World\\BogotaUrban\\BP_BogotaBenchOccupant.uasset",
+    "SHA256": "900CDD0FE3D4775204AECF6682C1E7A90966768472D9BB853FB8EBFF6569E2BA",
+    "Bytes": 35813
+  },
+  {
+    "Asset": "World\\BogotaUrban\\BP_BogotaServiceSignals.uasset",
+    "SHA256": "4681C9D8C50AA87239A4BAAE3A8087FDE25C163D3A59313D535DEE3E9238965B",
+    "Bytes": 88222
+  },
+  {
+    "Asset": "World\\BogotaUrban\\BP_BogotaSignal.uasset",
+    "SHA256": "E4E4A99126193C7C0243D9FE231BC3D9F19E8ECDA60B89F69CEC73636F15CFA0",
+    "Bytes": 177487
+  },
+  {
+    "Asset": "World\\BogotaUrban\\BP_BogotaStreetLight.uasset",
+    "SHA256": "F3E6AAC156852BCC1A5431ED6452A20E45417589853AABF443E8FCD739D11C59",
+    "Bytes": 81751
+  },
+  {
+    "Asset": "World\\BogotaUrban\\BP_BogotaTransmiStation.uasset",
+    "SHA256": "D0D66C7E1AAF3F1B3553C9CA1DD337765D36C5643C5F2923A652ECA0B6975837",
+    "Bytes": 150462
+  },
+  {
+    "Asset": "World\\BogotaUrban\\BP_BogotaUrbanDressing.uasset",
+    "SHA256": "91BE8B909150FB74C250A22A0FD00D70D05D7A91DC1F839EC7045AB8CEA25A63",
+    "Bytes": 382184
+  },
+  {
+    "Asset": "World\\BogotaUrban\\BP_CallesSecundarias.uasset",
+    "SHA256": "2237C5C193D0A8871BE8C41537418BC19C5D6701C21CD8DC017F1ED21BBCC801",
+    "Bytes": 26980
+  },
+  {
+    "Asset": "World\\BogotaUrban\\M_BogotaPavingBorder.uasset",
+    "SHA256": "2EB7BAF57991861517C667599CF3C8F5E8ABDAB870AB7E61499F63289C8E4C0B",
+    "Bytes": 7290
+  },
+  {
+    "Asset": "World\\BogotaUrban\\M_BogotaSignalEmission.uasset",
+    "SHA256": "7C43E464ABF81E2F77A410AA63910304DD73B814A08BCE4783B7D25F9E3F679C",
+    "Bytes": 5300
+  },
+  {
+    "Asset": "World\\BogotaUrban\\M_BogotaUrban.uasset",
+    "SHA256": "453658549DF597CB008F76D59E21BE62B1616B064AC1D9EED5E3CB6C3526C720",
+    "Bytes": 6581
+  },
+  {
+    "Asset": "World\\BogotaUrban\\MPC_BogotaWeather.uasset",
+    "SHA256": "8EAD522E3194641405FB1A7461D11162581A766C5A6C70B0A43F260C715D40C6",
+    "Bytes": 1760
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_AccesosEstaciones.uasset",
+    "SHA256": "4E8A29714657BA2D9EBE6D144624B3115B1F5DE70A14810873E5119C18E57921",
+    "Bytes": 13275
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_Banca.uasset",
+    "SHA256": "3CEDFBF9905D920B9E84F560A234541EF3058A30F76DE2B83068B9833001DD67",
+    "Bytes": 13665
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_Bolardo.uasset",
+    "SHA256": "BAEE38CAD8935247753F15360A4549A32444D7135FF9C94F7B4379EC7082B03D",
+    "Bytes": 12452
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_CallesSecundarias.uasset",
+    "SHA256": "23856754DE88A3690D8CF365B36F98A912F06A4ABE95BAFC6FB1665F91B34EA2",
+    "Bytes": 253351
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_Caneca.uasset",
+    "SHA256": "E86144CF3F6436F03E10F3605A1F5A710CECEE849C4529038D304BDAD0B2F4AA",
+    "Bytes": 14959
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_CruceAccesible.uasset",
+    "SHA256": "C0FAEF37B46F0567D67FFDBE4106F8E21001B39EEF7C8D350727BC66557AD50E",
+    "Bytes": 20524
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_EstacionTransmi.uasset",
+    "SHA256": "EAA32CF3D1C774A45D20AAACB188515F3778E4CA6102E2F5E8630826638CFA3B",
+    "Bytes": 98795
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_Farola.uasset",
+    "SHA256": "77ACED97565118B2CF442E73EA20E83BECD532C9599CC9246E0E510620450D96",
+    "Bytes": 12614
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_FarolaLuz.uasset",
+    "SHA256": "E6F03DBB1BD3738571D5D86100C3394A148FD6AFF507513AF083FBE9F2FB8212",
+    "Bytes": 12206
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_PuertaEstacion.uasset",
+    "SHA256": "3E6BA6D36CCD4AE4DABEDAB1EAE6DC0A123EB4881CCAAB8949D86A0197F7A208",
+    "Bytes": 12865
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_SemaforoAmarillo.uasset",
+    "SHA256": "8753CAF4003805CFF254DE4026D7AA7D658194D6C7CE9521293E70711CD3156A",
+    "Bytes": 12240
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_SemaforoPeaton.uasset",
+    "SHA256": "EBD4174489611088F26E79DFEC0C07CC6C408E73B23F18CF9CCF82EC2271202F",
+    "Bytes": 12795
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_SemaforoPeatonRojo.uasset",
+    "SHA256": "EED348D37D287A47540A7999C2C3E32623B21F72E38C9C3F23ECFD01318CEF29",
+    "Bytes": 12649
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_SemaforoPoste.uasset",
+    "SHA256": "E245E3EB036ED7A4B95E783DEB7210A9BF9D63C69EB447AED42A377133EAE189",
+    "Bytes": 13230
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_SemaforoRojo.uasset",
+    "SHA256": "857767B2F04F7959D05F24E8DC1DCA3A63D60B88A81274BD42CC92785A885192",
+    "Bytes": 12218
+  },
+  {
+    "Asset": "World\\BogotaUrban\\Geometry\\SM_Bogota_SemaforoVerde.uasset",
+    "SHA256": "CF67BE0168B1B8F61DFD8F23C0B6593D845C5DF93D958297C55A1768C931BC64",
+    "Bytes": 12221
+  }
+]

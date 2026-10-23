@@ -1,0 +1,30 @@
+{
+  "status": "RUNTIME_VERIFIED_8_OF_8",
+  "walk_speed": 140,
+  "sprint_speed": 390,
+  "hero_walk_rate_matches_npc": true,
+  "hero_pedal_time_reversed": true,
+  "npc_pedal_time_and_crank_reversed": true,
+  "patrol_driver_classes_removed": [
+    "/Game/Traffic/Services/BP_PoliceRoadPatrol.BP_PoliceRoadPatrol"
+  ],
+  "map_patrols_removed": {
+    "/Game/Maps/Bogota_Blueprint_Integration": 5,
+    "/Game/QA/PureIntegratedWorld": 5
+  },
+  "opaque_glass_slots": 1,
+  "starter_bicycle_blueprint": "/Game/Delivery/BlueprintGameplay/Vehicles/BP_StarterBicycle.BP_StarterBicycle",
+  "checks": {
+    "STARTER_BIKE_EXISTS": true,
+    "STARTER_IS_BICYCLE": true,
+    "NPC_WALK_AND_NORMAL_PACE": true,
+    "F_MOUNTS_SPAWNED_BIKE": true,
+    "HERO_FORWARD_PEDAL_PHASE": true,
+    "NPC_FORWARD_PEDAL_PHASE": true,
+    "FOOT_FRONT_MOVES_DOWN": true,
+    "F_DISMOUNT_LEAVES_BICYCLE": true
+  },
+  "runtime_log": "work/BikePatrolCorrectionsFinalRuntime.log",
+  "measured_forward_foot_score": -1286.599487,
+  "npc_initial_idle_pedals_frozen": true
+}

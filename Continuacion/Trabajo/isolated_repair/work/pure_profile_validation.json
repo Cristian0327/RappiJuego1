@@ -1,0 +1,25 @@
+{
+  "status": "STAGING_NOT_PROMOTED",
+  "asset": "/Game/Delivery/BlueprintSchema/BP_DeliveryProfile",
+  "serialized_fields": [
+    "Version",
+    "Balance",
+    "Vehicle",
+    "BikeColor",
+    "MotoColor",
+    "Purchased",
+    "OwnedModels",
+    "BikeModel",
+    "MotoModel",
+    "ModelColors"
+  ],
+  "roundtrip": "PASS",
+  "real_player_profiles_modified": false,
+  "audit": {
+    "asset": "/Game/Delivery/BlueprintSchema/BP_DeliveryProfile.BP_DeliveryProfile",
+    "parent": "/Script/Engine.SaveGame",
+    "graphs": [],
+    "logic_nodes": 0,
+    "compiled": true
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "windows": [
+    {
+      "time": 0.033333,
+      "cars": 150,
+      "moving": 139,
+      "stopped": 11
+    },
+    {
+      "time": 5.033334,
+      "cars": 150,
+      "moving": 121,
+      "stopped": 29
+    },
+    {
+      "time": 10.033334,
+      "cars": 150,
+      "moving": 102,
+      "stopped": 48
+    },
+    {
+      "time": 15.033335,
+      "cars": 150,
+      "moving": 95,
+      "stopped": 55
+    },
+    {
+      "time": 20.033335,
+      "cars": 150,
+      "moving": 98,
+      "stopped": 52
+    },
+    {
+      "time": 25.033336,
+      "cars": 150,
+      "moving": 89,
+      "stopped": 61
+    },
+    {
+      "time": 30.033336,
+      "cars": 150,
+      "moving": 74,
+      "stopped": 76
+    },
+    {
+      "time": 35.033337,
+      "cars": 150,
+      "moving": 56,
+      "stopped": 94
+    },
+    {
+      "time": 40.033337,
+      "cars": 150,
+      "moving": 53,
+      "stopped": 97
+    },
+    {
+      "time": 45.033338,
+      "cars": 150,
+      "moving": 68,
+      "stopped": 82
+    },
+    {
+      "time": 50.033338,
+      "cars": 150,
+      "moving": 63,
+      "stopped": 87
+    },
+    {
+      "time": 55.033339,
+      "cars": 150,
+      "moving": 67,
+      "stopped": 83
+    },
+    {
+      "time": 60.033339,
+      "cars": 150,
+      "moving": 67,
+      "stopped": 83
+    },
+    {
+      "time": 65.03334,
+      "cars": 150,
+      "moving": 67,
+      "stopped": 83
+    },
+    {
+      "time": 70.03334,
+      "cars": 150,
+      "moving": 73,
+      "stopped": 77
+    },
+    {
+      "time": 75.03334,
+      "cars": 150,
+      "moving": 72,
+      "stopped": 78
+    },
+    {
+      "time": 80.033341,
+      "cars": 150,
+      "moving": 54,
+      "stopped": 96
+    },
+    {
+      "time": 85.033341,
+      "cars": 150,
+      "moving": 34,
+      "stopped": 116
+    },
+    {
+      "time": 90.033342,
+      "cars": 150,
+      "moving": 16,
+      "stopped": 134
+    },
+    {
+      "time": 95.033342,
+      "cars": 150,
+      "moving": 3,
+      "stopped": 147
+    },
+    {
+      "time": 100.033343,
+      "cars": 150,
+      "moving": 0,
+      "stopped": 150
+    },
+    {
+      "time": 105.033343,
+      "cars": 150,
+      "moving": 4,
+      "stopped": 146
+    },
+    {
+      "time": 110.033344,
+      "cars": 150,
+      "moving": 77,
+      "stopped": 73
+    },
+    {
+      "time": 115.033344,
+      "cars": 150,
+      "moving": 73,
+      "stopped": 77
+    },
+    {
+      "time": 120.033345,
+      "cars": 150,
+      "moving": 68,
+      "stopped": 82
+    },
+    {
+      "time": 125.033345,
+      "cars": 150,
+      "moving": 68,
+      "stopped": 82
+    },
+    {
+      "time": 130.033346,
+      "cars": 150,
+      "moving": 61,
+      "stopped": 89
+    },
+    {
+      "time": 135.033346,
+      "cars": 150,
+      "moving": 55,
+      "stopped": 95
+    },
+    {
+      "time": 140.033347,
+      "cars": 150,
+      "moving": 50,
+      "stopped": 100
+    },
+    {
+      "time": 145.033347,
+      "cars": 150,
+      "moving": 34,
+      "stopped": 116
+    },
+    {
+      "time": 150.033348,
+      "cars": 150,
+      "moving": 31,
+      "stopped": 119
+    },
+    {
+      "time": 155.033348,
+      "cars": 150,
+      "moving": 38,
+      "stopped": 112
+    },
+    {
+      "time": 160.033349,
+      "cars": 150,
+      "moving": 43,
+      "stopped": 107
+    },
+    {
+      "time": 165.033349,
+      "cars": 150,
+      "moving": 43,
+      "stopped": 107
+    }
+  ],
+  "reverse_service_samples": 8,
+  "reverse_examples": [
+    {
+      "time": 85.033341,
+      "name": "BP_TwoWheelerCitizen_C_0",
+      "speed": 110.12501990011171,
+      "dot": -0.6877756941038533
+    },
+    {
+      "time": 85.033341,
+      "name": "BP_TwoWheelerCitizen_C_4",
+      "speed": 119.03323035606486,
+      "dot": -0.34999127449856143
+    },
+    {
+      "time": 90.033342,
+      "name": "BP_TwoWheelerCitizen_C_0",
+      "speed": 52.373605575709604,
+      "dot": -0.6014726626843123
+    },
+    {
+      "time": 90.033342,
+      "name": "BP_TwoWheelerCitizen_C_6",
+      "speed": 60.3368255131143,
+      "dot": -0.6737048834490776
+    },
+    {
+      "time": 100.033343,
+      "name": "BP_TwoWheelerCitizen_C_4",
+      "speed": 136.17949136709242,
+      "dot": -0.3518090243915919
+    },
+    {
+      "time": 120.033345,
+      "name": "BP_TwoWheelerCitizen_C_4",
+      "speed": 92.95488321223367,
+      "dot": -0.3536405820116577
+    },
+    {
+      "time": 135.033346,
+      "name": "BP_TwoWheelerCitizen_C_0",
+      "speed": 197.5985654426671,
+      "dot": -0.7720329378821472
+    },
+    {
+      "time": 140.033347,
+      "name": "BP_TwoWheelerCitizen_C_0",
+      "speed": 128.60531552389273,
+      "dot": -0.21438010464565818
+    }
+  ]
+}

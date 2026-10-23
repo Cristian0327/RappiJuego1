@@ -1,0 +1,30 @@
+{
+  "status": "IMPLEMENTED_AND_TESTED",
+  "date": "2026-10-19",
+  "request": "Restore previous camera appearance and make sprint visibly faster",
+  "camera": "Original430/530/interior240 arm, smoothing3, camera lag, offset45/70, FOV75/78, target offset0, native pitch/roll ranges, probe12; removed added camera blocker and body hiding",
+  "walk_cm_s": 140,
+  "sprint_cm_s": 650,
+  "run_clip": "/Game/VoxelExplorer/AN_Run_Mixamo",
+  "source": "Mixamo Unarmed Run Forward, retargeted Upright/AN_HeroRun_Rebuilt.fbx",
+  "run_asset_rate": 1.5,
+  "run_rate_reference_cm_s": 650,
+  "previous_run_asset_rate": 3.0776193141937256,
+  "checks": {
+    "NORMAL_WALK_140": true,
+    "SPRINT_650_USES_MIXAMO": true,
+    "RUN_CADENCE_MATCHES_SPEED": true,
+    "ORIGINAL_CAMERA_FRAMING_AND_LAG": true,
+    "ORIGINAL_CAMERA_PITCH_RANGE": true,
+    "SHIFT_RELEASE_RETURNS_TO_WALK": true
+  },
+  "runtime_log": "work/CameraRollbackSprintRuntime.log",
+  "proof": "work/PureIntegratedVisualQA/CAMERA_RESTORED_RUN00000.png",
+  "sources": [
+    "restore_camera_and_fix_run_speed.py",
+    "build_camera_rollback_sprint_qa.py"
+  ],
+  "runtime_cpp": false,
+  "github_untouched": true,
+  "notes": "Supersedes camera and390cm/s sprint settings in latest_mount_run_camera_20261019; retains pose correction and WASD/mouse separation. Focused validation only, no new FPS benchmark."
+}

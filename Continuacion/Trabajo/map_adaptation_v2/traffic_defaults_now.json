@@ -1,0 +1,179 @@
+{
+  "lanes": [
+    {
+      "lane": 0,
+      "group": 0,
+      "events": 12
+    },
+    {
+      "lane": 1,
+      "group": 1,
+      "events": 13
+    },
+    {
+      "lane": 2,
+      "group": 2,
+      "events": 8
+    },
+    {
+      "lane": 3,
+      "group": 3,
+      "events": 9
+    },
+    {
+      "lane": 4,
+      "group": 0,
+      "events": 12
+    },
+    {
+      "lane": 5,
+      "group": 1,
+      "events": 13
+    },
+    {
+      "lane": 6,
+      "group": 6,
+      "events": 20
+    }
+  ],
+  "models": [
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_Private",
+      "halfLength": 260.96000000000004,
+      "halfWidth": 127.12000000000002,
+      "expected": 260.96000000000004
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateHatch",
+      "halfLength": 234.82,
+      "halfWidth": 130.98,
+      "expected": 234.82
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSUV",
+      "halfLength": 262.08000000000004,
+      "halfWidth": 132.72,
+      "expected": 262.08000000000004
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivatePickup",
+      "halfLength": 304.08000000000004,
+      "halfWidth": 134.4,
+      "expected": 304.08000000000004
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateBeetle",
+      "halfLength": 243.60000000000002,
+      "halfWidth": 120.96000000000001,
+      "expected": 243.60000000000002
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateRenault4",
+      "halfLength": 232.45999999999998,
+      "halfWidth": 118.0,
+      "expected": 232.45999999999998
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateRenault12",
+      "halfLength": 258.16,
+      "halfWidth": 119.84000000000002,
+      "expected": 258.16
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSprint",
+      "halfLength": 225.97,
+      "halfWidth": 119.17999999999999,
+      "expected": 225.97
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateChevette",
+      "halfLength": 247.52,
+      "halfWidth": 117.04,
+      "expected": 247.52
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateClio",
+      "halfLength": 241.89999999999998,
+      "halfWidth": 128.03,
+      "expected": 241.89999999999998
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivatePicanto",
+      "halfLength": 228.92,
+      "halfWidth": 124.785,
+      "expected": 228.92
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateAveo",
+      "halfLength": 257.04,
+      "halfWidth": 124.32000000000001,
+      "expected": 257.04
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSandero",
+      "halfLength": 243.60000000000002,
+      "halfWidth": 126.56000000000002,
+      "expected": 243.60000000000002
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateMazda323",
+      "halfLength": 250.88000000000002,
+      "halfWidth": 122.64000000000001,
+      "expected": 250.88000000000002
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivatePrado",
+      "halfLength": 316.40000000000003,
+      "halfWidth": 135.52,
+      "expected": 316.40000000000003
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateVitara",
+      "halfLength": 247.52,
+      "halfWidth": 122.08000000000001,
+      "expected": 247.52
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateRenault9",
+      "halfLength": 242.48000000000002,
+      "halfWidth": 120.4,
+      "expected": 242.48000000000002
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSingleCab",
+      "halfLength": 284.48,
+      "halfWidth": 126.56000000000002,
+      "expected": 284.48
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateVan",
+      "halfLength": 244.16000000000003,
+      "halfWidth": 122.08000000000001,
+      "expected": 244.16000000000003
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateWagon",
+      "halfLength": 278.88000000000005,
+      "halfWidth": 129.92000000000002,
+      "expected": 278.88000000000005
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_TaxiCompact",
+      "halfLength": 234.82,
+      "halfWidth": 130.98,
+      "expected": 234.82
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_TaxiSedan",
+      "halfLength": 255.36,
+      "halfWidth": 126.00000000000001,
+      "expected": 255.36
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_TransMilenio",
+      "halfLength": 915.0,
+      "halfWidth": 135.0,
+      "expected": 915.0
+    }
+  ]
+}

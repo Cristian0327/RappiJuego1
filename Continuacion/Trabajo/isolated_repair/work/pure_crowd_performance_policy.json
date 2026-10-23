@@ -1,0 +1,6 @@
+{
+  "previous_integrated_mean_frame_seconds": 0.360355,
+  "policy": "NavWalking with native ground projection .2sec, full rate nearby, movement .4sec when hidden beyond100m",
+  "service_cache_excludes_hidden": true,
+  "status": "COMPILED_PENDING_RENDER_REPEAT"
+}

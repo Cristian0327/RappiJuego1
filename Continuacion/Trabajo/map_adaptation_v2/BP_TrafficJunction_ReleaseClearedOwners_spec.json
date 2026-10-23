@@ -1,0 +1,423 @@
+{
+  "nodes": [
+    {
+      "id": "Owners",
+      "kind": "get",
+      "var": "Owners"
+    },
+    {
+      "id": "RetainedOwners",
+      "kind": "get",
+      "var": "RetainedOwners"
+    },
+    {
+      "id": "Clear",
+      "kind": "call",
+      "fn": "Array_Clear",
+      "owner": "/Script/Engine.KismetArrayLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Each",
+      "kind": "foreach"
+    },
+    {
+      "id": "Valid",
+      "kind": "call",
+      "fn": "IsValid",
+      "owner": "/Script/Engine.KismetSystemLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "HaveOwner",
+      "kind": "branch"
+    },
+    {
+      "id": "Distance",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "Distance"
+    },
+    {
+      "id": "ArcExit",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "ArcExit"
+    },
+    {
+      "id": "ArcLength",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "ArcLength"
+    },
+    {
+      "id": "HalfLength",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "HalfLength"
+    },
+    {
+      "id": "Parked",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "Parked"
+    },
+    {
+      "id": "PlayerControlled",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "PlayerControlled"
+    },
+    {
+      "id": "Delta",
+      "kind": "call",
+      "fn": "Subtract_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "PassedPositive",
+      "kind": "call",
+      "fn": "Add_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Passed",
+      "kind": "call",
+      "fn": "FMod",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Margin",
+      "kind": "call",
+      "fn": "Add_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "100"
+      }
+    },
+    {
+      "id": "RearCleared",
+      "kind": "call",
+      "fn": "Greater_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "HalfLoop",
+      "kind": "call",
+      "fn": "Multiply_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": ".5"
+      }
+    },
+    {
+      "id": "AfterExit",
+      "kind": "call",
+      "fn": "Less_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "ClearRear",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Manual",
+      "kind": "call",
+      "fn": "BooleanOR",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Released",
+      "kind": "call",
+      "fn": "BooleanOR",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Release",
+      "kind": "branch"
+    },
+    {
+      "id": "ClearReservation",
+      "kind": "setfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "ArcJunctionRef",
+      "defaults": {
+        "ArcJunctionRef": "None"
+      }
+    },
+    {
+      "id": "Keep",
+      "kind": "call",
+      "fn": "Array_Add",
+      "owner": "/Script/Engine.KismetArrayLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Publish",
+      "kind": "set",
+      "var": "Owners",
+      "defaults": {}
+    }
+  ],
+  "links": [
+    [
+      "RetainedOwners",
+      "RetainedOwners",
+      "Clear",
+      "TargetArray"
+    ],
+    [
+      "entry",
+      "then",
+      "Clear",
+      "execute"
+    ],
+    [
+      "Owners",
+      "Owners",
+      "Each",
+      "Array"
+    ],
+    [
+      "Clear",
+      "then",
+      "Each",
+      "Exec"
+    ],
+    [
+      "Each",
+      "Array Element",
+      "Valid",
+      "Object"
+    ],
+    [
+      "Valid",
+      "ReturnValue",
+      "HaveOwner",
+      "Condition"
+    ],
+    [
+      "Each",
+      "LoopBody",
+      "HaveOwner",
+      "execute"
+    ],
+    [
+      "Each",
+      "Array Element",
+      "Distance",
+      "self"
+    ],
+    [
+      "Each",
+      "Array Element",
+      "ArcExit",
+      "self"
+    ],
+    [
+      "Each",
+      "Array Element",
+      "ArcLength",
+      "self"
+    ],
+    [
+      "Each",
+      "Array Element",
+      "HalfLength",
+      "self"
+    ],
+    [
+      "Each",
+      "Array Element",
+      "Parked",
+      "self"
+    ],
+    [
+      "Each",
+      "Array Element",
+      "PlayerControlled",
+      "self"
+    ],
+    [
+      "Distance",
+      "Distance",
+      "Delta",
+      "A"
+    ],
+    [
+      "ArcExit",
+      "ArcExit",
+      "Delta",
+      "B"
+    ],
+    [
+      "Delta",
+      "ReturnValue",
+      "PassedPositive",
+      "A"
+    ],
+    [
+      "ArcLength",
+      "ArcLength",
+      "PassedPositive",
+      "B"
+    ],
+    [
+      "PassedPositive",
+      "ReturnValue",
+      "Passed",
+      "Dividend"
+    ],
+    [
+      "ArcLength",
+      "ArcLength",
+      "Passed",
+      "Divisor"
+    ],
+    [
+      "HalfLength",
+      "HalfLength",
+      "Margin",
+      "A"
+    ],
+    [
+      "Passed",
+      "Remainder",
+      "RearCleared",
+      "A"
+    ],
+    [
+      "Margin",
+      "ReturnValue",
+      "RearCleared",
+      "B"
+    ],
+    [
+      "ArcLength",
+      "ArcLength",
+      "HalfLoop",
+      "A"
+    ],
+    [
+      "Passed",
+      "Remainder",
+      "AfterExit",
+      "A"
+    ],
+    [
+      "HalfLoop",
+      "ReturnValue",
+      "AfterExit",
+      "B"
+    ],
+    [
+      "RearCleared",
+      "ReturnValue",
+      "ClearRear",
+      "A"
+    ],
+    [
+      "AfterExit",
+      "ReturnValue",
+      "ClearRear",
+      "B"
+    ],
+    [
+      "Parked",
+      "Parked",
+      "Manual",
+      "A"
+    ],
+    [
+      "PlayerControlled",
+      "PlayerControlled",
+      "Manual",
+      "B"
+    ],
+    [
+      "ClearRear",
+      "ReturnValue",
+      "Released",
+      "A"
+    ],
+    [
+      "Manual",
+      "ReturnValue",
+      "Released",
+      "B"
+    ],
+    [
+      "Released",
+      "ReturnValue",
+      "Release",
+      "Condition"
+    ],
+    [
+      "HaveOwner",
+      "then",
+      "Release",
+      "execute"
+    ],
+    [
+      "Each",
+      "Array Element",
+      "ClearReservation",
+      "self"
+    ],
+    [
+      "Release",
+      "then",
+      "ClearReservation",
+      "execute"
+    ],
+    [
+      "RetainedOwners",
+      "RetainedOwners",
+      "Keep",
+      "TargetArray"
+    ],
+    [
+      "Each",
+      "Array Element",
+      "Keep",
+      "NewItem"
+    ],
+    [
+      "Release",
+      "else",
+      "Keep",
+      "execute"
+    ],
+    [
+      "RetainedOwners",
+      "RetainedOwners",
+      "Publish",
+      "Owners"
+    ],
+    [
+      "Each",
+      "Completed",
+      "Publish",
+      "execute"
+    ],
+    [
+      "Publish",
+      "then",
+      "result",
+      "execute"
+    ]
+  ],
+  "parameters": [],
+  "pure": false,
+  "const": false
+}

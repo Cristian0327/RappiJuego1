@@ -1,0 +1,201 @@
+[
+  {
+    "path": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\TrafficDetailed\\SK_PrivateSUV.blend",
+    "objects": [
+      {
+        "name": "Area",
+        "type": "LIGHT",
+        "dim": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "colors": [],
+        "materials": [],
+        "bones": []
+      },
+      {
+        "name": "Area.001",
+        "type": "LIGHT",
+        "dim": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "colors": [],
+        "materials": [],
+        "bones": []
+      },
+      {
+        "name": "Area.002",
+        "type": "LIGHT",
+        "dim": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "colors": [],
+        "materials": [],
+        "bones": []
+      },
+      {
+        "name": "Camera",
+        "type": "CAMERA",
+        "dim": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "colors": [],
+        "materials": [],
+        "bones": []
+      },
+      {
+        "name": "ReviewFloor",
+        "type": "MESH",
+        "dim": [
+          200.0,
+          200.0,
+          0.0
+        ],
+        "colors": [],
+        "materials": [
+          "StudioFloor"
+        ],
+        "bones": []
+      },
+      {
+        "name": "Rig_PrivateSUV",
+        "type": "ARMATURE",
+        "dim": [
+          2.7799999713897705,
+          2.075000047683716,
+          0.949999988079071
+        ],
+        "colors": [],
+        "materials": [],
+        "bones": [
+          "root",
+          "wheel_0_L",
+          "wheel_0_R",
+          "wheel_1_L",
+          "wheel_1_R",
+          "door_L",
+          "door_R"
+        ]
+      },
+      {
+        "name": "SK_PrivateSUV",
+        "type": "MESH",
+        "dim": [
+          4.639999866485596,
+          2.4000000953674316,
+          1.9199999570846558
+        ],
+        "colors": [
+          "TrafficColor"
+        ],
+        "materials": [
+          "TV_VoxelVertex"
+        ],
+        "bones": []
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\People\\SK_Citizen00.blend",
+    "exists": false
+  },
+  {
+    "path": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Crowd\\AN_CrowdIdle.blend",
+    "objects": [
+      {
+        "name": "Armature",
+        "type": "ARMATURE",
+        "dim": [
+          61.250003814697266,
+          19.000003814697266,
+          166.5
+        ],
+        "colors": [],
+        "materials": [],
+        "bones": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r"
+        ]
+      },
+      {
+        "name": "SK_Citizen00",
+        "type": "MESH",
+        "dim": [
+          72.12005615234375,
+          65.25,
+          173.25
+        ],
+        "colors": [],
+        "materials": [
+          "CrowdPixel"
+        ],
+        "bones": []
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Progression\\MotoRide.blend",
+    "objects": [
+      {
+        "name": "Armature",
+        "type": "ARMATURE",
+        "dim": [
+          67.76785278320312,
+          53.3936882019043,
+          175.6439208984375
+        ],
+        "colors": [],
+        "materials": [],
+        "bones": [
+          "root",
+          "pelvis",
+          "spine_01",
+          "spine_02",
+          "spine_03",
+          "neck_01",
+          "head",
+          "clavicle_l",
+          "upperarm_l",
+          "lowerarm_l",
+          "hand_l",
+          "clavicle_r",
+          "upperarm_r",
+          "lowerarm_r"
+        ]
+      },
+      {
+        "name": "SK_VoxelExplorer",
+        "type": "MESH",
+        "dim": [
+          88.29387664794922,
+          94.3675308227539,
+          161.2031707763672
+        ],
+        "colors": [],
+        "materials": [
+          "M_VoxelExplorer"
+        ],
+        "bones": []
+      }
+    ]
+  }
+]

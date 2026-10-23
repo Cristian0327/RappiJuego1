@@ -1,0 +1,214 @@
+{
+  "status": "COMPILED_STAGING",
+  "asset": "/Game/World/BlueprintWorld/BP_CityGeometry",
+  "instances": 16480,
+  "groups": 29,
+  "labels": 13,
+  "solid_nav_groups": 14,
+  "scope": "Same geometry authored as static Blueprint components, available in editor and navigation before BeginPlay; fresh-process parity validation pending",
+  "groups_data": [
+    {
+      "name": "Solid_0",
+      "instances": 47,
+      "collision": true,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Asphalt.M_Asphalt"
+    },
+    {
+      "name": "Solid_1",
+      "instances": 64,
+      "collision": true,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Concrete.M_Concrete"
+    },
+    {
+      "name": "Decor_1",
+      "instances": 24,
+      "collision": false,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Concrete.M_Concrete"
+    },
+    {
+      "name": "Solid_2",
+      "instances": 51,
+      "collision": true,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Brick.M_Brick"
+    },
+    {
+      "name": "Solid_3",
+      "instances": 21,
+      "collision": true,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Ochre.M_Ochre"
+    },
+    {
+      "name": "Solid_4",
+      "instances": 44,
+      "collision": true,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Cream.M_Cream"
+    },
+    {
+      "name": "Decor_4",
+      "instances": 5,
+      "collision": false,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Cream.M_Cream"
+    },
+    {
+      "name": "Solid_5",
+      "instances": 11,
+      "collision": true,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_White.M_White"
+    },
+    {
+      "name": "Decor_5",
+      "instances": 1260,
+      "collision": false,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_White.M_White"
+    },
+    {
+      "name": "Solid_6",
+      "instances": 100,
+      "collision": true,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Charcoal.M_Charcoal"
+    },
+    {
+      "name": "Decor_6",
+      "instances": 329,
+      "collision": false,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Charcoal.M_Charcoal"
+    },
+    {
+      "name": "Decor_7",
+      "instances": 8283,
+      "collision": false,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Glass.M_Glass"
+    },
+    {
+      "name": "Solid_8",
+      "instances": 123,
+      "collision": true,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Green.M_Green"
+    },
+    {
+      "name": "Decor_8",
+      "instances": 346,
+      "collision": false,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Green.M_Green"
+    },
+    {
+      "name": "Decor_9",
+      "instances": 173,
+      "collision": false,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Leaf.M_Leaf"
+    },
+    {
+      "name": "Solid_10",
+      "instances": 173,
+      "collision": true,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Trunk.M_Trunk"
+    },
+    {
+      "name": "Decor_10",
+      "instances": 5,
+      "collision": false,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Trunk.M_Trunk"
+    },
+    {
+      "name": "Decor_11",
+      "instances": 308,
+      "collision": false,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Red.M_Red"
+    },
+    {
+      "name": "Decor_12",
+      "instances": 1285,
+      "collision": false,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Yellow.M_Yellow"
+    },
+    {
+      "name": "Decor_13",
+      "instances": 380,
+      "collision": false,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Teal.M_Teal"
+    },
+    {
+      "name": "Decor_15",
+      "instances": 2711,
+      "collision": false,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Glow.M_Glow"
+    },
+    {
+      "name": "Solid_17",
+      "instances": 5,
+      "collision": true,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Stone.M_Stone"
+    },
+    {
+      "name": "Decor_17",
+      "instances": 190,
+      "collision": false,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Stone.M_Stone"
+    },
+    {
+      "name": "Solid_18",
+      "instances": 193,
+      "collision": true,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Earth.M_Earth"
+    },
+    {
+      "name": "Solid_19",
+      "instances": 4,
+      "collision": true,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Grass.M_Grass"
+    },
+    {
+      "name": "Solid_20",
+      "instances": 15,
+      "collision": true,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Roof.M_Roof"
+    },
+    {
+      "name": "Decor_20",
+      "instances": 44,
+      "collision": false,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Roof.M_Roof"
+    },
+    {
+      "name": "Solid_21",
+      "instances": 258,
+      "collision": true,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Steel.M_Steel"
+    },
+    {
+      "name": "Decor_21",
+      "instances": 28,
+      "collision": false,
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material": "/Game/World/M_Steel.M_Steel"
+    }
+  ]
+}

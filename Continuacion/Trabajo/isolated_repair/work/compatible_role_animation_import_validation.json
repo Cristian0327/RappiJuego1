@@ -1,0 +1,187 @@
+{
+  "status": "IMPORTED_AND_VALIDATED",
+  "clips": [
+    {
+      "asset": "/Game/Delivery/People/A_Cashier_Work",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_CashierIdle_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_Cashier_Work.A_Cashier_Work"
+      ],
+      "length": 7.833333492279053,
+      "expected_length": 7.833333333333333,
+      "rate_scale_preserved": 1.0
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Cashier_Walk",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_CashierWalk_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_Cashier_Walk.A_Cashier_Walk"
+      ],
+      "length": 1.3666666746139526,
+      "expected_length": 1.3666666666666667,
+      "rate_scale_preserved": 1.284234642982483
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Chef_Work",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_ChefIdle_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_Chef_Work.A_Chef_Work"
+      ],
+      "length": 7.833333492279053,
+      "expected_length": 7.833333333333333,
+      "rate_scale_preserved": 1.0
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Chef_Walk",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_ChefWalk_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_Chef_Walk.A_Chef_Walk"
+      ],
+      "length": 1.3666666746139526,
+      "expected_length": 1.3666666666666667,
+      "rate_scale_preserved": 1.1344982385635376
+    },
+    {
+      "asset": "/Game/Delivery/People/A_TechClerk_Work",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_TechClerkIdle_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_TechClerk_Work.A_TechClerk_Work"
+      ],
+      "length": 7.833333492279053,
+      "expected_length": 7.833333333333333,
+      "rate_scale_preserved": 1.0
+    },
+    {
+      "asset": "/Game/Delivery/People/A_TechClerk_Walk",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_TechClerkWalk_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_TechClerk_Walk.A_TechClerk_Walk"
+      ],
+      "length": 1.3666666746139526,
+      "expected_length": 1.3666666666666667,
+      "rate_scale_preserved": 0.9724807143211365
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Pharmacist_Work",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_PharmacistIdle_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_Pharmacist_Work.A_Pharmacist_Work"
+      ],
+      "length": 7.833333492279053,
+      "expected_length": 7.833333333333333,
+      "rate_scale_preserved": 1.0
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Pharmacist_Walk",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_PharmacistWalk_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_Pharmacist_Walk.A_Pharmacist_Walk"
+      ],
+      "length": 1.3666666746139526,
+      "expected_length": 1.3666666666666667,
+      "rate_scale_preserved": 1.0431300401687622
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Florist_Work",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_FloristIdle_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_Florist_Work.A_Florist_Work"
+      ],
+      "length": 7.833333492279053,
+      "expected_length": 7.833333333333333,
+      "rate_scale_preserved": 1.0
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Florist_Walk",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_FloristWalk_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_Florist_Walk.A_Florist_Walk"
+      ],
+      "length": 1.3666666746139526,
+      "expected_length": 1.3666666666666667,
+      "rate_scale_preserved": 1.120080590248108
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerStudent_Work",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_CustomerStudentIdle_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_CustomerStudent_Work.A_CustomerStudent_Work"
+      ],
+      "length": 7.833333492279053,
+      "expected_length": 7.833333333333333,
+      "rate_scale_preserved": 1.0
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerStudent_Walk",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_CustomerStudentWalk_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_CustomerStudent_Walk.A_CustomerStudent_Walk"
+      ],
+      "length": 1.3666666746139526,
+      "expected_length": 1.3666666666666667,
+      "rate_scale_preserved": 0.9724807143211365
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerOffice_Work",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_CustomerOfficeIdle_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_CustomerOffice_Work.A_CustomerOffice_Work"
+      ],
+      "length": 7.833333492279053,
+      "expected_length": 7.833333333333333,
+      "rate_scale_preserved": 1.0
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerOffice_Walk",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_CustomerOfficeWalk_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_CustomerOffice_Walk.A_CustomerOffice_Walk"
+      ],
+      "length": 1.3666666746139526,
+      "expected_length": 1.3666666666666667,
+      "rate_scale_preserved": 1.0431300401687622
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerNeighbor_Work",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_CustomerNeighborIdle_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_CustomerNeighbor_Work.A_CustomerNeighbor_Work"
+      ],
+      "length": 7.833333492279053,
+      "expected_length": 7.833333333333333,
+      "rate_scale_preserved": 1.0
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerNeighbor_Walk",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\CompatibleRoots\\AN_CustomerNeighborWalk_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Delivery/People/A_CustomerNeighbor_Walk.A_CustomerNeighbor_Walk"
+      ],
+      "length": 1.3666666746139526,
+      "expected_length": 1.3666666666666667,
+      "rate_scale_preserved": 1.1494967937469482
+    },
+    {
+      "asset": "/Game/VoxelExplorer/AN_Idle",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\Standing\\AN_HeroIdle_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/VoxelExplorer/AN_Idle.AN_Idle"
+      ],
+      "length": 7.833333492279053,
+      "expected_length": 7.833333333333333,
+      "rate_scale_preserved": 1.0
+    },
+    {
+      "asset": "/Game/Crowd/AN_CrowdIdle",
+      "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\Standing\\AN_CrowdIdle_Rebuilt.fbx",
+      "imported_paths": [
+        "/Game/Crowd/AN_CrowdIdle.AN_CrowdIdle"
+      ],
+      "length": 7.833333492279053,
+      "expected_length": 7.833333333333333,
+      "rate_scale_preserved": 1.0
+    }
+  ],
+  "count": 18,
+  "elderly_cane_sha256": "1742c809c0799c7abc0b7167d415febafb2dd6290787335d39536e9bccfc461e"
+}

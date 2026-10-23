@@ -1,0 +1,1856 @@
+[
+  {
+    "source": "M023_LOD0 | Centro | centro | 04 \u00b7 Plaza de Bol\u00edvar",
+    "delta_cm": [
+      0,
+      -100
+    ],
+    "distance_m": 1.0,
+    "street_overlap_cells": 2
+  },
+  {
+    "source": "M087_LOD0 | Occidente | occidente | 05 \u00b7 Equipamiento \u00b7 Pabell\u00f3n acristalado.001",
+    "delta_cm": [
+      300,
+      6800
+    ],
+    "distance_m": 68.06614430096654,
+    "street_overlap_cells": 76
+  },
+  {
+    "source": "M040_LOD0 | Norte | Norte | Comercial_25_Unicentro.002",
+    "delta_cm": [
+      100,
+      -200
+    ],
+    "distance_m": 2.23606797749979,
+    "street_overlap_cells": 13
+  },
+  {
+    "source": "M085_LOD0 | Occidente | occidente | 05 \u00b7 Equipamiento \u00b7 Centro cultural.001",
+    "delta_cm": [
+      -100,
+      0
+    ],
+    "distance_m": 1.0,
+    "street_overlap_cells": 16
+  },
+  {
+    "source": "M085_LOD0 | Occidente | occidente | 05 \u00b7 Equipamiento \u00b7 Centro cultural.003",
+    "delta_cm": [
+      300,
+      200
+    ],
+    "distance_m": 3.605551275463989,
+    "street_overlap_cells": 16
+  },
+  {
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.009",
+    "delta_cm": [
+      -700,
+      -100
+    ],
+    "distance_m": 7.0710678118654755,
+    "street_overlap_cells": 81
+  },
+  {
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.014",
+    "delta_cm": [
+      200,
+      200
+    ],
+    "distance_m": 2.8284271247461903,
+    "street_overlap_cells": 32
+  },
+  {
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.001",
+    "delta_cm": [
+      -1000,
+      -200
+    ],
+    "distance_m": 10.198039027185569,
+    "street_overlap_cells": 35
+  },
+  {
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.007",
+    "delta_cm": [
+      -200,
+      -200
+    ],
+    "distance_m": 2.8284271247461903,
+    "street_overlap_cells": 5
+  },
+  {
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.015",
+    "delta_cm": [
+      -100,
+      100
+    ],
+    "distance_m": 1.4142135623730951,
+    "street_overlap_cells": 8
+  },
+  {
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.019",
+    "delta_cm": [
+      1000,
+      -1900
+    ],
+    "distance_m": 21.470910553583888,
+    "street_overlap_cells": 66
+  },
+  {
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.023",
+    "delta_cm": [
+      100,
+      -200
+    ],
+    "distance_m": 2.23606797749979,
+    "street_overlap_cells": 45
+  },
+  {
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.010",
+    "delta_cm": [
+      2000,
+      600
+    ],
+    "distance_m": 20.8806130178211,
+    "street_overlap_cells": 39
+  },
+  {
+    "source": "M050_LOD0 | Norte | Norte | Residencial_22_Cuatro_Torres_Ladrillo.003",
+    "delta_cm": [
+      -100,
+      400
+    ],
+    "distance_m": 4.123105625617661,
+    "street_overlap_cells": 14
+  },
+  {
+    "source": "M050_LOD0 | Norte | Norte | Residencial_22_Cuatro_Torres_Ladrillo.005",
+    "delta_cm": [
+      4000,
+      2000
+    ],
+    "distance_m": 44.721359549995796,
+    "street_overlap_cells": 19
+  },
+  {
+    "source": "M050_LOD0 | Norte | Norte | Residencial_22_Cuatro_Torres_Ladrillo.001",
+    "delta_cm": [
+      100,
+      400
+    ],
+    "distance_m": 4.123105625617661,
+    "street_overlap_cells": 28
+  },
+  {
+    "source": "M050_LOD0 | Norte | Norte | Residencial_22_Cuatro_Torres_Ladrillo.004",
+    "delta_cm": [
+      -100,
+      100
+    ],
+    "distance_m": 1.4142135623730951,
+    "street_overlap_cells": 8
+  },
+  {
+    "source": "M119_LOD0 | Oriente | Oriente | 20 \u2022 Conjunto residencial de cinco torres.002",
+    "delta_cm": [
+      100,
+      0
+    ],
+    "distance_m": 1.0,
+    "street_overlap_cells": 2
+  },
+  {
+    "source": "M043_LOD0 | Norte | Norte | Conjunto_16_Mixto",
+    "delta_cm": [
+      -200,
+      200
+    ],
+    "distance_m": 2.8284271247461903,
+    "street_overlap_cells": 33
+  },
+  {
+    "source": "M043_LOD0 | Norte | Norte | Conjunto_16_Mixto.001",
+    "delta_cm": [
+      -3100,
+      -1800
+    ],
+    "distance_m": 35.84689665786984,
+    "street_overlap_cells": 36
+  },
+  {
+    "source": "M027_LOD0 | Centro | centro | 05 \u00b7 Monumentos \u00b7 04.002",
+    "delta_cm": [
+      -1300,
+      0
+    ],
+    "distance_m": 13.0,
+    "street_overlap_cells": 24
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.004",
+    "delta_cm": [
+      200,
+      0
+    ],
+    "distance_m": 2.0,
+    "street_overlap_cells": 6
+  },
+  {
+    "source": "M126_LOD0 | Oriente | Oriente | 27 \u2022 Centro cultural con mural voxel.004",
+    "delta_cm": [
+      0,
+      200
+    ],
+    "distance_m": 2.0,
+    "street_overlap_cells": 19
+  },
+  {
+    "source": "M126_LOD0 | Oriente | Oriente | 27 \u2022 Centro cultural con mural voxel.005",
+    "delta_cm": [
+      100,
+      -100
+    ],
+    "distance_m": 1.4142135623730951,
+    "street_overlap_cells": 13
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.014",
+    "delta_cm": [
+      -100,
+      -100
+    ],
+    "distance_m": 1.4142135623730951,
+    "street_overlap_cells": 7
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.011",
+    "delta_cm": [
+      100,
+      -100
+    ],
+    "distance_m": 1.4142135623730951,
+    "street_overlap_cells": 10
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos.015",
+    "delta_cm": [
+      -200,
+      0
+    ],
+    "distance_m": 2.0,
+    "street_overlap_cells": 11
+  },
+  {
+    "source": "M016_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 04.005",
+    "delta_cm": [
+      100,
+      100
+    ],
+    "distance_m": 1.4142135623730951,
+    "street_overlap_cells": 4
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos.008",
+    "delta_cm": [
+      0,
+      300
+    ],
+    "distance_m": 3.0,
+    "street_overlap_cells": 4
+  },
+  {
+    "source": "M016_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 04.001",
+    "delta_cm": [
+      400,
+      200
+    ],
+    "distance_m": 4.47213595499958,
+    "street_overlap_cells": 44
+  },
+  {
+    "source": "M016_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 04.003",
+    "delta_cm": [
+      -900,
+      0
+    ],
+    "distance_m": 9.0,
+    "street_overlap_cells": 18
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos.014",
+    "delta_cm": [
+      -300,
+      0
+    ],
+    "distance_m": 3.0,
+    "street_overlap_cells": 21
+  },
+  {
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical.026",
+    "delta_cm": [
+      0,
+      -200
+    ],
+    "distance_m": 2.0,
+    "street_overlap_cells": 6
+  },
+  {
+    "source": "M055_LOD0 | Norte | Norte | Torre_13_Cristal.001",
+    "delta_cm": [
+      600,
+      300
+    ],
+    "distance_m": 6.708203932499369,
+    "street_overlap_cells": 65
+  },
+  {
+    "source": "M049_LOD0 | Norte | Norte | Parque_21_Estanque_Pergolas_Juegos.002",
+    "delta_cm": [
+      4400,
+      2200
+    ],
+    "distance_m": 49.193495504995376,
+    "street_overlap_cells": 9
+  },
+  {
+    "source": "M088_LOD0 | Occidente | occidente | 06 \u00b7 Iglesia de occidente",
+    "delta_cm": [
+      0,
+      -300
+    ],
+    "distance_m": 3.0,
+    "street_overlap_cells": 28
+  },
+  {
+    "source": "M127_LOD0 | Oriente | Oriente | 28 \u2022 Parque con monumento cancha y pabell\u00f3n.002",
+    "delta_cm": [
+      -100,
+      -200
+    ],
+    "distance_m": 2.23606797749979,
+    "street_overlap_cells": 8
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.033",
+    "delta_cm": [
+      -1200,
+      -400
+    ],
+    "distance_m": 12.649110640673518,
+    "street_overlap_cells": 30
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.010",
+    "delta_cm": [
+      -400,
+      0
+    ],
+    "distance_m": 4.0,
+    "street_overlap_cells": 25
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo",
+    "delta_cm": [
+      -900,
+      200
+    ],
+    "distance_m": 9.219544457292887,
+    "street_overlap_cells": 31
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.006",
+    "delta_cm": [
+      -400,
+      -500
+    ],
+    "distance_m": 6.4031242374328485,
+    "street_overlap_cells": 32
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.012",
+    "delta_cm": [
+      900,
+      800
+    ],
+    "distance_m": 12.041594578792296,
+    "street_overlap_cells": 33
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.041",
+    "delta_cm": [
+      -600,
+      0
+    ],
+    "distance_m": 6.0,
+    "street_overlap_cells": 9
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.042",
+    "delta_cm": [
+      200,
+      -300
+    ],
+    "distance_m": 3.605551275463989,
+    "street_overlap_cells": 25
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.046",
+    "delta_cm": [
+      -1900,
+      -200
+    ],
+    "distance_m": 19.1049731745428,
+    "street_overlap_cells": 12
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.014",
+    "delta_cm": [
+      -900,
+      500
+    ],
+    "distance_m": 10.295630140987,
+    "street_overlap_cells": 7
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.018",
+    "delta_cm": [
+      800,
+      400
+    ],
+    "distance_m": 8.94427190999916,
+    "street_overlap_cells": 18
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.038",
+    "delta_cm": [
+      600,
+      200
+    ],
+    "distance_m": 6.324555320336759,
+    "street_overlap_cells": 10
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.012",
+    "delta_cm": [
+      -100,
+      1300
+    ],
+    "distance_m": 13.038404810405298,
+    "street_overlap_cells": 20
+  },
+  {
+    "source": "M105_LOD0 | Oriente | Oriente | 06 \u2022 Casa roja con cubierta gris.004",
+    "delta_cm": [
+      -200,
+      300
+    ],
+    "distance_m": 3.605551275463989,
+    "street_overlap_cells": 26
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.012",
+    "delta_cm": [
+      -200,
+      0
+    ],
+    "distance_m": 2.0,
+    "street_overlap_cells": 4
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.007",
+    "delta_cm": [
+      -300,
+      -300
+    ],
+    "distance_m": 4.242640687119285,
+    "street_overlap_cells": 29
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.007",
+    "delta_cm": [
+      -900,
+      -700
+    ],
+    "distance_m": 11.40175425099138,
+    "street_overlap_cells": 34
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.020",
+    "delta_cm": [
+      800,
+      0
+    ],
+    "distance_m": 8.0,
+    "street_overlap_cells": 21
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.023",
+    "delta_cm": [
+      -400,
+      300
+    ],
+    "distance_m": 5.0,
+    "street_overlap_cells": 33
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.026",
+    "delta_cm": [
+      -200,
+      100
+    ],
+    "distance_m": 2.23606797749979,
+    "street_overlap_cells": 9
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.001",
+    "delta_cm": [
+      -400,
+      -500
+    ],
+    "distance_m": 6.4031242374328485,
+    "street_overlap_cells": 16
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.015",
+    "delta_cm": [
+      500,
+      1200
+    ],
+    "distance_m": 13.0,
+    "street_overlap_cells": 17
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.028",
+    "delta_cm": [
+      300,
+      -300
+    ],
+    "distance_m": 4.242640687119285,
+    "street_overlap_cells": 26
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.006",
+    "delta_cm": [
+      600,
+      500
+    ],
+    "distance_m": 7.810249675906654,
+    "street_overlap_cells": 46
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.040",
+    "delta_cm": [
+      600,
+      2100
+    ],
+    "distance_m": 21.840329667841555,
+    "street_overlap_cells": 28
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.032",
+    "delta_cm": [
+      -400,
+      1500
+    ],
+    "distance_m": 15.524174696260024,
+    "street_overlap_cells": 27
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.040",
+    "delta_cm": [
+      1300,
+      -100
+    ],
+    "distance_m": 13.038404810405298,
+    "street_overlap_cells": 1
+  },
+  {
+    "source": "M105_LOD0 | Oriente | Oriente | 06 \u2022 Casa roja con cubierta gris.005",
+    "delta_cm": [
+      0,
+      -700
+    ],
+    "distance_m": 7.0,
+    "street_overlap_cells": 10
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.004",
+    "delta_cm": [
+      100,
+      0
+    ],
+    "distance_m": 1.0,
+    "street_overlap_cells": 2
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.010",
+    "delta_cm": [
+      1000,
+      -1300
+    ],
+    "distance_m": 16.401219466856727,
+    "street_overlap_cells": 12
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.027",
+    "delta_cm": [
+      200,
+      -300
+    ],
+    "distance_m": 3.605551275463989,
+    "street_overlap_cells": 25
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.029",
+    "delta_cm": [
+      -1300,
+      -1600
+    ],
+    "distance_m": 20.615528128088304,
+    "street_overlap_cells": 32
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.034",
+    "delta_cm": [
+      400,
+      100
+    ],
+    "distance_m": 4.123105625617661,
+    "street_overlap_cells": 27
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.018",
+    "delta_cm": [
+      900,
+      -1200
+    ],
+    "distance_m": 15.0,
+    "street_overlap_cells": 27
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.018",
+    "delta_cm": [
+      500,
+      900
+    ],
+    "distance_m": 10.295630140987,
+    "street_overlap_cells": 27
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.013",
+    "delta_cm": [
+      300,
+      200
+    ],
+    "distance_m": 3.605551275463989,
+    "street_overlap_cells": 24
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.019",
+    "delta_cm": [
+      1400,
+      0
+    ],
+    "distance_m": 14.0,
+    "street_overlap_cells": 16
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.024",
+    "delta_cm": [
+      -1300,
+      -500
+    ],
+    "distance_m": 13.92838827718412,
+    "street_overlap_cells": 13
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.032",
+    "delta_cm": [
+      200,
+      -300
+    ],
+    "distance_m": 3.605551275463989,
+    "street_overlap_cells": 20
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.033",
+    "delta_cm": [
+      -500,
+      1800
+    ],
+    "distance_m": 18.681541692269406,
+    "street_overlap_cells": 22
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.038",
+    "delta_cm": [
+      -1700,
+      700
+    ],
+    "distance_m": 18.384776310850235,
+    "street_overlap_cells": 32
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.001",
+    "delta_cm": [
+      300,
+      200
+    ],
+    "distance_m": 3.605551275463989,
+    "street_overlap_cells": 22
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.006",
+    "delta_cm": [
+      -900,
+      -400
+    ],
+    "distance_m": 9.848857801796104,
+    "street_overlap_cells": 45
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.030",
+    "delta_cm": [
+      -400,
+      -2000
+    ],
+    "distance_m": 20.396078054371138,
+    "street_overlap_cells": 34
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.001",
+    "delta_cm": [
+      700,
+      400
+    ],
+    "distance_m": 8.06225774829855,
+    "street_overlap_cells": 17
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.015",
+    "delta_cm": [
+      -700,
+      600
+    ],
+    "distance_m": 9.219544457292887,
+    "street_overlap_cells": 5
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.042",
+    "delta_cm": [
+      -2000,
+      -100
+    ],
+    "distance_m": 20.024984394500787,
+    "street_overlap_cells": 28
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.013",
+    "delta_cm": [
+      -100,
+      100
+    ],
+    "distance_m": 1.4142135623730951,
+    "street_overlap_cells": 6
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.013",
+    "delta_cm": [
+      0,
+      300
+    ],
+    "distance_m": 3.0,
+    "street_overlap_cells": 15
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.055",
+    "delta_cm": [
+      -300,
+      -900
+    ],
+    "distance_m": 9.486832980505138,
+    "street_overlap_cells": 45
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.010",
+    "delta_cm": [
+      400,
+      -600
+    ],
+    "distance_m": 7.211102550927978,
+    "street_overlap_cells": 14
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza",
+    "delta_cm": [
+      -1400,
+      100
+    ],
+    "distance_m": 14.035668847618199,
+    "street_overlap_cells": 3
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.009",
+    "delta_cm": [
+      700,
+      400
+    ],
+    "distance_m": 8.06225774829855,
+    "street_overlap_cells": 9
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.020",
+    "delta_cm": [
+      -700,
+      -1300
+    ],
+    "distance_m": 14.7648230602334,
+    "street_overlap_cells": 10
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.012",
+    "delta_cm": [
+      800,
+      1300
+    ],
+    "distance_m": 15.264337522473747,
+    "street_overlap_cells": 27
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.045",
+    "delta_cm": [
+      -1500,
+      -1100
+    ],
+    "distance_m": 18.601075237738275,
+    "street_overlap_cells": 26
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.008",
+    "delta_cm": [
+      -700,
+      400
+    ],
+    "distance_m": 8.06225774829855,
+    "street_overlap_cells": 2
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.032",
+    "delta_cm": [
+      0,
+      -1000
+    ],
+    "distance_m": 10.0,
+    "street_overlap_cells": 32
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.051",
+    "delta_cm": [
+      -400,
+      -2100
+    ],
+    "distance_m": 21.37755832643195,
+    "street_overlap_cells": 41
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.036",
+    "delta_cm": [
+      100,
+      100
+    ],
+    "distance_m": 1.4142135623730951,
+    "street_overlap_cells": 1
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.037",
+    "delta_cm": [
+      700,
+      -300
+    ],
+    "distance_m": 7.615773105863909,
+    "street_overlap_cells": 1
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.013",
+    "delta_cm": [
+      -400,
+      200
+    ],
+    "distance_m": 4.47213595499958,
+    "street_overlap_cells": 27
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.026",
+    "delta_cm": [
+      400,
+      600
+    ],
+    "distance_m": 7.211102550927978,
+    "street_overlap_cells": 16
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.038",
+    "delta_cm": [
+      100,
+      -1000
+    ],
+    "distance_m": 10.04987562112089,
+    "street_overlap_cells": 29
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.025",
+    "delta_cm": [
+      -800,
+      700
+    ],
+    "distance_m": 10.63014581273465,
+    "street_overlap_cells": 26
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.022",
+    "delta_cm": [
+      1300,
+      -1400
+    ],
+    "distance_m": 19.1049731745428,
+    "street_overlap_cells": 26
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.025",
+    "delta_cm": [
+      900,
+      -1600
+    ],
+    "distance_m": 18.35755975068582,
+    "street_overlap_cells": 27
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.028",
+    "delta_cm": [
+      -1300,
+      1900
+    ],
+    "distance_m": 23.021728866442675,
+    "street_overlap_cells": 25
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.030",
+    "delta_cm": [
+      -100,
+      -800
+    ],
+    "distance_m": 8.06225774829855,
+    "street_overlap_cells": 17
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.016",
+    "delta_cm": [
+      -1000,
+      800
+    ],
+    "distance_m": 12.806248474865697,
+    "street_overlap_cells": 1
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.017",
+    "delta_cm": [
+      -800,
+      500
+    ],
+    "distance_m": 9.433981132056603,
+    "street_overlap_cells": 43
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.011",
+    "delta_cm": [
+      0,
+      300
+    ],
+    "distance_m": 3.0,
+    "street_overlap_cells": 12
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.012",
+    "delta_cm": [
+      0,
+      1400
+    ],
+    "distance_m": 14.0,
+    "street_overlap_cells": 12
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.043",
+    "delta_cm": [
+      -800,
+      -600
+    ],
+    "distance_m": 10.0,
+    "street_overlap_cells": 7
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.047",
+    "delta_cm": [
+      400,
+      -2900
+    ],
+    "distance_m": 29.274562336608895,
+    "street_overlap_cells": 25
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.005",
+    "delta_cm": [
+      600,
+      200
+    ],
+    "distance_m": 6.324555320336759,
+    "street_overlap_cells": 13
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.025",
+    "delta_cm": [
+      700,
+      100
+    ],
+    "distance_m": 7.0710678118654755,
+    "street_overlap_cells": 4
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.056",
+    "delta_cm": [
+      -800,
+      -1000
+    ],
+    "distance_m": 12.806248474865697,
+    "street_overlap_cells": 21
+  },
+  {
+    "source": "M144_LOD0 | Sur | Sur | 14_Duplex_terrazas.002",
+    "delta_cm": [
+      0,
+      1300
+    ],
+    "distance_m": 13.0,
+    "street_overlap_cells": 14
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.037",
+    "delta_cm": [
+      -1300,
+      -600
+    ],
+    "distance_m": 14.317821063276353,
+    "street_overlap_cells": 17
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.013",
+    "delta_cm": [
+      100,
+      300
+    ],
+    "distance_m": 3.1622776601683795,
+    "street_overlap_cells": 14
+  },
+  {
+    "source": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.015",
+    "delta_cm": [
+      -1100,
+      -600
+    ],
+    "distance_m": 12.529964086141668,
+    "street_overlap_cells": 26
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.006",
+    "delta_cm": [
+      800,
+      1000
+    ],
+    "distance_m": 12.806248474865697,
+    "street_overlap_cells": 7
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.010",
+    "delta_cm": [
+      1400,
+      500
+    ],
+    "distance_m": 14.866068747318506,
+    "street_overlap_cells": 20
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.029",
+    "delta_cm": [
+      -700,
+      -200
+    ],
+    "distance_m": 7.280109889280518,
+    "street_overlap_cells": 25
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.049",
+    "delta_cm": [
+      -1200,
+      0
+    ],
+    "distance_m": 12.0,
+    "street_overlap_cells": 17
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.015",
+    "delta_cm": [
+      1600,
+      -2000
+    ],
+    "distance_m": 25.612496949731394,
+    "street_overlap_cells": 17
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.041",
+    "delta_cm": [
+      400,
+      2000
+    ],
+    "distance_m": 20.396078054371138,
+    "street_overlap_cells": 20
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.018",
+    "delta_cm": [
+      1800,
+      -500
+    ],
+    "distance_m": 18.681541692269406,
+    "street_overlap_cells": 16
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.023",
+    "delta_cm": [
+      -1900,
+      -100
+    ],
+    "distance_m": 19.026297590440446,
+    "street_overlap_cells": 41
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.029",
+    "delta_cm": [
+      1500,
+      2600
+    ],
+    "distance_m": 30.01666203960727,
+    "street_overlap_cells": 38
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.043",
+    "delta_cm": [
+      1400,
+      1100
+    ],
+    "distance_m": 17.804493814764857,
+    "street_overlap_cells": 14
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.011",
+    "delta_cm": [
+      0,
+      1400
+    ],
+    "distance_m": 14.0,
+    "street_overlap_cells": 39
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.015",
+    "delta_cm": [
+      200,
+      400
+    ],
+    "distance_m": 4.47213595499958,
+    "street_overlap_cells": 21
+  },
+  {
+    "source": "M104_LOD0 | Oriente | Oriente | 05 \u2022 Casa amarilla con azotea.001",
+    "delta_cm": [
+      -700,
+      600
+    ],
+    "distance_m": 9.219544457292887,
+    "street_overlap_cells": 41
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.011",
+    "delta_cm": [
+      -700,
+      800
+    ],
+    "distance_m": 10.63014581273465,
+    "street_overlap_cells": 17
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.012",
+    "delta_cm": [
+      -200,
+      1000
+    ],
+    "distance_m": 10.198039027185569,
+    "street_overlap_cells": 21
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.018",
+    "delta_cm": [
+      1100,
+      -200
+    ],
+    "distance_m": 11.180339887498949,
+    "street_overlap_cells": 4
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.021",
+    "delta_cm": [
+      -900,
+      -1700
+    ],
+    "distance_m": 19.235384061671343,
+    "street_overlap_cells": 9
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.018",
+    "delta_cm": [
+      700,
+      -1200
+    ],
+    "distance_m": 13.892443989449804,
+    "street_overlap_cells": 21
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.044",
+    "delta_cm": [
+      2100,
+      -200
+    ],
+    "distance_m": 21.095023109728988,
+    "street_overlap_cells": 39
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.013",
+    "delta_cm": [
+      -100,
+      0
+    ],
+    "distance_m": 1.0,
+    "street_overlap_cells": 4
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.014",
+    "delta_cm": [
+      -100,
+      0
+    ],
+    "distance_m": 1.0,
+    "street_overlap_cells": 3
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.032",
+    "delta_cm": [
+      -100,
+      -600
+    ],
+    "distance_m": 6.082762530298219,
+    "street_overlap_cells": 8
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.022",
+    "delta_cm": [
+      -2700,
+      1000
+    ],
+    "distance_m": 28.792360097775937,
+    "street_overlap_cells": 41
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.044",
+    "delta_cm": [
+      700,
+      300
+    ],
+    "distance_m": 7.615773105863909,
+    "street_overlap_cells": 24
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.049",
+    "delta_cm": [
+      700,
+      -100
+    ],
+    "distance_m": 7.0710678118654755,
+    "street_overlap_cells": 3
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.050",
+    "delta_cm": [
+      800,
+      -800
+    ],
+    "distance_m": 11.313708498984761,
+    "street_overlap_cells": 3
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.011",
+    "delta_cm": [
+      2800,
+      -1200
+    ],
+    "distance_m": 30.463092423455635,
+    "street_overlap_cells": 41
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.019",
+    "delta_cm": [
+      800,
+      -1600
+    ],
+    "distance_m": 17.88854381999832,
+    "street_overlap_cells": 15
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.021",
+    "delta_cm": [
+      -1300,
+      300
+    ],
+    "distance_m": 13.341664064126334,
+    "street_overlap_cells": 6
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.028",
+    "delta_cm": [
+      1000,
+      1300
+    ],
+    "distance_m": 16.401219466856727,
+    "street_overlap_cells": 35
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.032",
+    "delta_cm": [
+      900,
+      -200
+    ],
+    "distance_m": 9.219544457292887,
+    "street_overlap_cells": 12
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.033",
+    "delta_cm": [
+      800,
+      -2200
+    ],
+    "distance_m": 23.40939982143925,
+    "street_overlap_cells": 7
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.012",
+    "delta_cm": [
+      100,
+      1300
+    ],
+    "distance_m": 13.038404810405298,
+    "street_overlap_cells": 16
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.018",
+    "delta_cm": [
+      2500,
+      -200
+    ],
+    "distance_m": 25.079872407968907,
+    "street_overlap_cells": 4
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.027",
+    "delta_cm": [
+      600,
+      1100
+    ],
+    "distance_m": 12.529964086141668,
+    "street_overlap_cells": 1
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.032",
+    "delta_cm": [
+      1500,
+      0
+    ],
+    "distance_m": 15.0,
+    "street_overlap_cells": 12
+  },
+  {
+    "source": "M009_LOD0 | Centro | centro | 02 \u00b7 Casas intermedias \u00b7 04.002",
+    "delta_cm": [
+      -700,
+      -1200
+    ],
+    "distance_m": 13.892443989449804,
+    "street_overlap_cells": 19
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.004",
+    "delta_cm": [
+      -2900,
+      600
+    ],
+    "distance_m": 29.614185789921695,
+    "street_overlap_cells": 1
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.001",
+    "delta_cm": [
+      -1800,
+      -600
+    ],
+    "distance_m": 18.973665961010276,
+    "street_overlap_cells": 17
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.001",
+    "delta_cm": [
+      -2100,
+      -1900
+    ],
+    "distance_m": 28.319604517012593,
+    "street_overlap_cells": 18
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.004",
+    "delta_cm": [
+      500,
+      -2000
+    ],
+    "distance_m": 20.615528128088304,
+    "street_overlap_cells": 40
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.015",
+    "delta_cm": [
+      1900,
+      2100
+    ],
+    "distance_m": 28.319604517012593,
+    "street_overlap_cells": 18
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.038",
+    "delta_cm": [
+      200,
+      1500
+    ],
+    "distance_m": 15.132745950421556,
+    "street_overlap_cells": 40
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.040",
+    "delta_cm": [
+      900,
+      -800
+    ],
+    "distance_m": 12.041594578792296,
+    "street_overlap_cells": 8
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.057",
+    "delta_cm": [
+      -1300,
+      -1300
+    ],
+    "distance_m": 18.384776310850235,
+    "street_overlap_cells": 14
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.066",
+    "delta_cm": [
+      2100,
+      600
+    ],
+    "distance_m": 21.840329667841555,
+    "street_overlap_cells": 33
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.005",
+    "delta_cm": [
+      300,
+      1300
+    ],
+    "distance_m": 13.341664064126334,
+    "street_overlap_cells": 11
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.012",
+    "delta_cm": [
+      -400,
+      1800
+    ],
+    "distance_m": 18.439088914585774,
+    "street_overlap_cells": 13
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.050",
+    "delta_cm": [
+      600,
+      -800
+    ],
+    "distance_m": 10.0,
+    "street_overlap_cells": 1
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.019",
+    "delta_cm": [
+      2100,
+      -900
+    ],
+    "distance_m": 22.847319317591726,
+    "street_overlap_cells": 18
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.013",
+    "delta_cm": [
+      -2300,
+      -600
+    ],
+    "distance_m": 23.769728648009426,
+    "street_overlap_cells": 9
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.019",
+    "delta_cm": [
+      -400,
+      -1200
+    ],
+    "distance_m": 12.649110640673518,
+    "street_overlap_cells": 17
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.028",
+    "delta_cm": [
+      200,
+      3100
+    ],
+    "distance_m": 31.064449134018133,
+    "street_overlap_cells": 23
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.039",
+    "delta_cm": [
+      -100,
+      -1100
+    ],
+    "distance_m": 11.045361017187261,
+    "street_overlap_cells": 11
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.021",
+    "delta_cm": [
+      -900,
+      -900
+    ],
+    "distance_m": 12.727922061357855,
+    "street_overlap_cells": 10
+  },
+  {
+    "source": "M153_LOD0 | Sur | Sur | 23_Conjunto_escalonado.003",
+    "delta_cm": [
+      1300,
+      -300
+    ],
+    "distance_m": 13.341664064126334,
+    "street_overlap_cells": 7
+  },
+  {
+    "source": "M004_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 05.002",
+    "delta_cm": [
+      1400,
+      -700
+    ],
+    "distance_m": 15.652475842498529,
+    "street_overlap_cells": 19
+  },
+  {
+    "source": "M075_LOD0 | Occidente | occidente | 01 \u00b7 Viviendas \u00b7 F3-07.001",
+    "delta_cm": [
+      800,
+      0
+    ],
+    "distance_m": 8.0,
+    "street_overlap_cells": 33
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.031",
+    "delta_cm": [
+      -1000,
+      1600
+    ],
+    "distance_m": 18.867962264113206,
+    "street_overlap_cells": 37
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.036",
+    "delta_cm": [
+      -400,
+      -1600
+    ],
+    "distance_m": 16.492422502470642,
+    "street_overlap_cells": 12
+  },
+  {
+    "source": "M132_LOD0 | Sur | Sur | 04_Patio_ladrillo.001",
+    "delta_cm": [
+      -100,
+      0
+    ],
+    "distance_m": 1.0,
+    "street_overlap_cells": 1
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.015",
+    "delta_cm": [
+      0,
+      -500
+    ],
+    "distance_m": 5.0,
+    "street_overlap_cells": 5
+  },
+  {
+    "source": "M134_LOD0 | Sur | Sur | 05_Coral_balcon.003",
+    "delta_cm": [
+      -1400,
+      -400
+    ],
+    "distance_m": 14.560219778561036,
+    "street_overlap_cells": 8
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.024",
+    "delta_cm": [
+      -1000,
+      -600
+    ],
+    "distance_m": 11.661903789690601,
+    "street_overlap_cells": 19
+  },
+  {
+    "source": "M037_LOD0 | Norte | Norte | Casa_08_Chalet_Pizarra.006",
+    "delta_cm": [
+      -200,
+      -300
+    ],
+    "distance_m": 3.605551275463989,
+    "street_overlap_cells": 16
+  },
+  {
+    "source": "M134_LOD0 | Sur | Sur | 05_Coral_balcon.001",
+    "delta_cm": [
+      -100,
+      0
+    ],
+    "distance_m": 1.0,
+    "street_overlap_cells": 5
+  },
+  {
+    "source": "M153_LOD0 | Sur | Sur | 23_Conjunto_escalonado.001",
+    "delta_cm": [
+      -300,
+      100
+    ],
+    "distance_m": 3.1622776601683795,
+    "street_overlap_cells": 7
+  },
+  {
+    "source": "M002_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 03.003",
+    "delta_cm": [
+      -200,
+      -1600
+    ],
+    "distance_m": 16.1245154965971,
+    "street_overlap_cells": 19
+  },
+  {
+    "source": "M002_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 03.005",
+    "delta_cm": [
+      0,
+      -200
+    ],
+    "distance_m": 2.0,
+    "street_overlap_cells": 6
+  },
+  {
+    "source": "M004_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 05.003",
+    "delta_cm": [
+      700,
+      200
+    ],
+    "distance_m": 7.280109889280518,
+    "street_overlap_cells": 15
+  },
+  {
+    "source": "M031_LOD0 | Norte | Norte | Casa_02_Ladrillo_Tejado.012",
+    "delta_cm": [
+      700,
+      0
+    ],
+    "distance_m": 7.0,
+    "street_overlap_cells": 11
+  },
+  {
+    "source": "M033_LOD0 | Norte | Norte | Casa_04_Terrazas_Arena.004",
+    "delta_cm": [
+      -400,
+      -100
+    ],
+    "distance_m": 4.123105625617661,
+    "street_overlap_cells": 21
+  },
+  {
+    "source": "M033_LOD0 | Norte | Norte | Casa_04_Terrazas_Arena.014",
+    "delta_cm": [
+      200,
+      -400
+    ],
+    "distance_m": 4.47213595499958,
+    "street_overlap_cells": 27
+  },
+  {
+    "source": "M037_LOD0 | Norte | Norte | Casa_08_Chalet_Pizarra.002",
+    "delta_cm": [
+      100,
+      -200
+    ],
+    "distance_m": 2.23606797749979,
+    "street_overlap_cells": 14
+  },
+  {
+    "source": "M009_LOD0 | Centro | centro | 02 \u00b7 Casas intermedias \u00b7 04.001",
+    "delta_cm": [
+      1100,
+      1700
+    ],
+    "distance_m": 20.248456731316587,
+    "street_overlap_cells": 19
+  },
+  {
+    "source": "M030_LOD0 | Norte | Norte | Casa_01_Marco_Madera.010",
+    "delta_cm": [
+      200,
+      -700
+    ],
+    "distance_m": 7.280109889280518,
+    "street_overlap_cells": 9
+  },
+  {
+    "source": "M034_LOD0 | Norte | Norte | Casa_05_Villa_Tejas.015",
+    "delta_cm": [
+      600,
+      0
+    ],
+    "distance_m": 6.0,
+    "street_overlap_cells": 8
+  },
+  {
+    "source": "M002_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 03.001",
+    "delta_cm": [
+      600,
+      200
+    ],
+    "distance_m": 6.324555320336759,
+    "street_overlap_cells": 14
+  },
+  {
+    "source": "M033_LOD0 | Norte | Norte | Casa_04_Terrazas_Arena.001",
+    "delta_cm": [
+      400,
+      100
+    ],
+    "distance_m": 4.123105625617661,
+    "street_overlap_cells": 8
+  },
+  {
+    "source": "M031_LOD0 | Norte | Norte | Casa_02_Ladrillo_Tejado.003",
+    "delta_cm": [
+      200,
+      -100
+    ],
+    "distance_m": 2.23606797749979,
+    "street_overlap_cells": 7
+  },
+  {
+    "source": "M034_LOD0 | Norte | Norte | Casa_05_Villa_Tejas.002",
+    "delta_cm": [
+      300,
+      -800
+    ],
+    "distance_m": 8.54400374531753,
+    "street_overlap_cells": 11
+  },
+  {
+    "source": "M030_LOD0 | Norte | Norte | Casa_01_Marco_Madera.001",
+    "delta_cm": [
+      400,
+      400
+    ],
+    "distance_m": 5.656854249492381,
+    "street_overlap_cells": 15
+  },
+  {
+    "source": "M035_LOD0 | Norte | Norte | Casa_06_Garaje_Listones.002",
+    "delta_cm": [
+      -700,
+      0
+    ],
+    "distance_m": 7.0,
+    "street_overlap_cells": 18
+  },
+  {
+    "source": "M039_LOD0 | Norte | Norte | Casa_10_Adosados.001",
+    "delta_cm": [
+      -600,
+      300
+    ],
+    "distance_m": 6.708203932499369,
+    "street_overlap_cells": 20
+  },
+  {
+    "source": "M039_LOD0 | Norte | Norte | Casa_10_Adosados.009",
+    "delta_cm": [
+      0,
+      -100
+    ],
+    "distance_m": 1.0,
+    "street_overlap_cells": 3
+  },
+  {
+    "source": "M035_LOD0 | Norte | Norte | Casa_06_Garaje_Listones.005",
+    "delta_cm": [
+      500,
+      -900
+    ],
+    "distance_m": 10.295630140987,
+    "street_overlap_cells": 15
+  },
+  {
+    "source": "M035_LOD0 | Norte | Norte | Casa_06_Garaje_Listones.006",
+    "delta_cm": [
+      400,
+      200
+    ],
+    "distance_m": 4.47213595499958,
+    "street_overlap_cells": 15
+  },
+  {
+    "source": "M039_LOD0 | Norte | Norte | Casa_10_Adosados.006",
+    "delta_cm": [
+      300,
+      300
+    ],
+    "distance_m": 4.242640687119285,
+    "street_overlap_cells": 17
+  }
+]

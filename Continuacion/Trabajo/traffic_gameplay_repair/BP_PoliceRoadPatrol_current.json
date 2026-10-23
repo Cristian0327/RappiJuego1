@@ -1,0 +1,47 @@
+{
+	"asset": "/Game/Traffic/Services/BP_PoliceRoadPatrol.BP_PoliceRoadPatrol",
+	"parent": "/Game/Traffic/Services/BP_VoxelRoadVehicle.BP_VoxelRoadVehicle_C",
+	"graphs": [
+		{
+			"name": "UserConstructionScript",
+			"nodes": 2,
+			"function_owner": "/Script/Engine.Actor",
+			"bytecode": 0,
+			"pins": [
+				"K2Node_FunctionEntry.then= links:1",
+				"K2Node_CallParentFunction.execute= links:1",
+				"K2Node_CallParentFunction.then= links:0",
+				"K2Node_CallParentFunction.self= links:0"
+			],
+			"native_calls": []
+		},
+		{
+			"name": "EventGraph",
+			"nodes": 6,
+			"pins": [
+				"K2Node_Event.OutputDelegate= links:0",
+				"K2Node_Event.then= links:1",
+				"K2Node_CallParentFunction.execute= links:1",
+				"K2Node_CallParentFunction.then= links:0",
+				"K2Node_CallParentFunction.self= links:0",
+				"K2Node_Event.OutputDelegate= links:0",
+				"K2Node_Event.then= links:1",
+				"K2Node_Event.OtherActor= links:1",
+				"K2Node_CallParentFunction.execute= links:1",
+				"K2Node_CallParentFunction.then= links:0",
+				"K2Node_CallParentFunction.self= links:0",
+				"K2Node_CallParentFunction.OtherActor= links:1",
+				"K2Node_Event.OutputDelegate= links:0",
+				"K2Node_Event.then= links:1",
+				"K2Node_Event.DeltaSeconds=0.0 links:1",
+				"K2Node_CallParentFunction.execute= links:1",
+				"K2Node_CallParentFunction.then= links:0",
+				"K2Node_CallParentFunction.self= links:0",
+				"K2Node_CallParentFunction.DeltaSeconds=0.0 links:1"
+			],
+			"native_calls": []
+		}
+	],
+	"logic_nodes": 8,
+	"compiled": true
+}

@@ -1,0 +1,255 @@
+[
+  {
+    "id": "MarketLocal",
+    "label": "Market",
+    "category": 0,
+    "width": 24,
+    "depth": 32,
+    "title": "Mercado Don Lucho",
+    "products": [
+      "Milk",
+      "Rice",
+      "Apples"
+    ],
+    "names": [
+      "leche",
+      "arroz",
+      "manzanas"
+    ],
+    "budget": 18500,
+    "accent": "red",
+    "counter_y": 6
+  },
+  {
+    "id": "MarketFresh",
+    "label": "FreshMarket",
+    "category": 0,
+    "width": 24,
+    "depth": 32,
+    "title": "La Canasta Verde",
+    "products": [
+      "Bread",
+      "Carrots",
+      "Bananas"
+    ],
+    "names": [
+      "pan artesanal",
+      "zanahorias",
+      "bananos"
+    ],
+    "budget": 24500,
+    "accent": "leaf",
+    "counter_y": 6
+  },
+  {
+    "id": "BurgerGrill",
+    "label": "Restaurant",
+    "category": 1,
+    "width": 24,
+    "depth": 28,
+    "title": "La Plancha del Barrio",
+    "products": [
+      "Burger"
+    ],
+    "names": [
+      "hamburguesa a la parrilla"
+    ],
+    "budget": 22000,
+    "accent": "red",
+    "counter_y": 20
+  },
+  {
+    "id": "QuickMeals",
+    "label": "FastFood",
+    "category": 1,
+    "width": 24,
+    "depth": 28,
+    "title": "Parada Amarilla",
+    "products": [
+      "Nuggets"
+    ],
+    "names": [
+      "nuggets reciÃ©n preparados"
+    ],
+    "budget": 19000,
+    "accent": "gold",
+    "counter_y": 20
+  },
+  {
+    "id": "TechRetail",
+    "label": "Tech",
+    "category": 2,
+    "width": 24,
+    "depth": 30,
+    "title": "Circuito 7",
+    "products": [
+      "Headphones",
+      "Keyboard",
+      "PhoneBox"
+    ],
+    "names": [
+      "audÃ­fonos",
+      "teclado",
+      "celular"
+    ],
+    "budget": 265000,
+    "accent": "cyan",
+    "counter_y": 6
+  },
+  {
+    "id": "TechComponents",
+    "label": "Components",
+    "category": 2,
+    "width": 24,
+    "depth": 30,
+    "title": "Laboratorio 24",
+    "products": [
+      "GPU",
+      "RAM",
+      "CircuitBoard"
+    ],
+    "names": [
+      "tarjeta grÃ¡fica",
+      "memoria RAM",
+      "placa de desarrollo"
+    ],
+    "budget": 485000,
+    "accent": "cobalt",
+    "counter_y": 6
+  },
+  {
+    "id": "Pharmacy",
+    "label": "Pharmacy",
+    "category": 3,
+    "width": 24,
+    "depth": 30,
+    "title": "DroguerÃ­a Buen Vecino",
+    "products": [
+      "FirstAid",
+      "Medicine",
+      "Medicine"
+    ],
+    "names": [
+      "botiquÃ­n",
+      "medicamento sellado",
+      "medicamento de la receta"
+    ],
+    "budget": 32000,
+    "accent": "cobalt",
+    "counter_y": 6
+  },
+  {
+    "id": "Florist",
+    "label": "Florist",
+    "category": 4,
+    "width": 24,
+    "depth": 24,
+    "title": "Flores de la Sabana",
+    "products": [
+      "Bouquet",
+      "Bouquet",
+      "Bouquet"
+    ],
+    "names": [
+      "ramo rojo",
+      "ramo mixto",
+      "ramo de regalo"
+    ],
+    "budget": 45000,
+    "accent": "sage",
+    "counter_y": 6
+  },
+  {
+    "id": "Bakery",
+    "label": "Bakery",
+    "category": 1,
+    "width": 24,
+    "depth": 24,
+    "title": "Horno de la Esquina",
+    "products": [
+      "Bread"
+    ],
+    "names": [
+      "pan artesanal reciÃ©n horneado"
+    ],
+    "budget": 12000,
+    "accent": "honey",
+    "counter_y": 16
+  },
+  {
+    "id": "Cafe",
+    "label": "Cafe",
+    "category": 1,
+    "width": 24,
+    "depth": 24,
+    "title": "CafÃ© de los Cerros",
+    "products": [
+      "Coffee"
+    ],
+    "names": [
+      "cafÃ© de origen preparado"
+    ],
+    "budget": 14000,
+    "accent": "red",
+    "counter_y": 16
+  },
+  {
+    "id": "Hardware",
+    "label": "Hardware",
+    "category": 2,
+    "width": 24,
+    "depth": 30,
+    "title": "FerreterÃ­a del Barrio",
+    "products": [
+      "ToolKit",
+      "Drill",
+      "PaintCan"
+    ],
+    "names": [
+      "caja de herramientas",
+      "taladro",
+      "pintura sellada"
+    ],
+    "budget": 185000,
+    "accent": "gold",
+    "counter_y": 6
+  },
+  {
+    "id": "PetShop",
+    "label": "PetShop",
+    "category": 0,
+    "width": 24,
+    "depth": 26,
+    "title": "Huellas de Barrio",
+    "products": [
+      "PetFood",
+      "PetBowl",
+      "PetToy"
+    ],
+    "names": [
+      "alimento para mascota",
+      "comedero",
+      "juguete"
+    ],
+    "budget": 78000,
+    "accent": "pink",
+    "counter_y": 6
+  },
+  {
+    "id": "Pizza",
+    "label": "Pizza",
+    "category": 1,
+    "width": 24,
+    "depth": 28,
+    "title": "Horno de la Cuadra",
+    "products": [
+      "Pizza"
+    ],
+    "names": [
+      "pizza artesanal reciÃ©n horneada"
+    ],
+    "budget": 29000,
+    "accent": "red",
+    "counter_y": 20
+  }
+]

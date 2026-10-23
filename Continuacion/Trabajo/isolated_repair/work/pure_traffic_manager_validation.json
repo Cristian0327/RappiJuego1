@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": {
+    "100_vehicles_7_lanes": true,
+    "23_model_variants": true,
+    "16_taxis_4_buses": true,
+    "initialization_idempotent": true,
+    "all_vehicles_advance": true,
+    "no_same_lane_overlap": true,
+    "all_wheel_caches_valid": true,
+    "all_leaders_same_lane": true,
+    "substep_frame_renders_without_advancing": true,
+    "fixed_step_accumulator_advances_once": true,
+    "hitch_has_bounded_catchup": true
+  },
+  "simulation_300_steps_seconds": 1.0552284999999983,
+  "min_body_gap_cm": 2899.6324999999997,
+  "scope": "100 vehicle Blueprint VM test. Signals, cross-lane junctions, player/pedestrians and real rendered performance remain pending."
+}

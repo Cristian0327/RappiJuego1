@@ -1,0 +1,28 @@
+{
+  "mesh_api": [
+    "build_from_static_mesh_descriptions",
+    "create_static_mesh_description",
+    "get_min_lod_for_quality_levels",
+    "get_minimum_lod_for_platform",
+    "get_minimum_lod_for_platforms",
+    "get_minimum_lod_for_quality_level",
+    "get_minimum_lod_for_quality_levels",
+    "get_num_lods",
+    "get_static_mesh_description",
+    "is_lod_screen_size_auto_computed",
+    "lod_for_collision",
+    "set_min_lod_for_quality_levels",
+    "set_minimum_lod_for_platform",
+    "set_minimum_lod_for_platforms"
+  ],
+  "classes": [
+    "MeshDescriptionBase",
+    "SkeletalMeshDescription",
+    "StaticMeshDescription"
+  ],
+  "material": "<Object '/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel' (0x000001A367130000) Class 'Material'>",
+  "static_lib": [
+    "has_instance_vertex_colors",
+    "has_vertex_colors"
+  ]
+}

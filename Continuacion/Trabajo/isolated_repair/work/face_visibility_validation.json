@@ -1,0 +1,1142 @@
+[
+  {
+    "name": "Citizen00",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen01",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen02",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen03",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen04",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen05",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen06",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      2,
+      2
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen07",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      2,
+      2
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen08",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      2,
+      2
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen09",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen10",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      2,
+      2
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen11",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen12",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen13",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen14",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen15",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen16",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen17",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen18",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen19",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen20",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen21",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen22",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen23",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen24",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen25",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen26",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen27",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen28",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen29",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen30",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen31",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen32",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      2,
+      2
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen33",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen34",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen35",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen36",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen37",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen38",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen39",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      2,
+      2
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen40",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen41",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen42",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen43",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen44",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen45",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen46",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen47",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen48",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen49",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen50",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen51",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen52",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen53",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen54",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen55",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen56",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen57",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen58",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "name": "Citizen59",
+    "visible_eye_pixels": [
+      "white",
+      "white",
+      "eye",
+      "eye",
+      "eye",
+      "eye",
+      "white",
+      "white"
+    ],
+    "ear_gaps": [],
+    "white_pixels_per_eye": [
+      3,
+      3
+    ],
+    "pass": true
+  }
+]

@@ -1,0 +1,266 @@
+{
+  "buildings": 113,
+  "placed": [
+    {
+      "id": "Shop_0_0",
+      "theme": "MarketLocal",
+      "location": [
+        -29900,
+        -20600,
+        30
+      ],
+      "metres": [
+        24.0,
+        32.0
+      ]
+    },
+    {
+      "id": "Shop_0_1",
+      "theme": "MarketFresh",
+      "location": [
+        -30100,
+        -9600,
+        30
+      ],
+      "metres": [
+        24.0,
+        32.0
+      ]
+    },
+    {
+      "id": "Shop_0_2",
+      "theme": "BurgerGrill",
+      "location": [
+        -30200,
+        4500,
+        30
+      ],
+      "metres": [
+        24.0,
+        28.0
+      ]
+    },
+    {
+      "id": "Shop_0_3",
+      "theme": "QuickMeals",
+      "location": [
+        -29900,
+        12600,
+        30
+      ],
+      "metres": [
+        24.0,
+        28.0
+      ]
+    },
+    {
+      "id": "Shop_1_0",
+      "theme": "TechRetail",
+      "location": [
+        -17800,
+        -20500,
+        30
+      ],
+      "metres": [
+        24.0,
+        30.0
+      ]
+    },
+    {
+      "id": "Shop_1_1",
+      "theme": "TechComponents",
+      "location": [
+        -17900,
+        -9500,
+        30
+      ],
+      "metres": [
+        24.0,
+        30.0
+      ]
+    },
+    {
+      "id": "Shop_1_2",
+      "theme": "Pharmacy",
+      "location": [
+        -18000,
+        1500,
+        30
+      ],
+      "metres": [
+        24.0,
+        30.0
+      ]
+    },
+    {
+      "id": "Shop_1_3",
+      "theme": "Florist",
+      "location": [
+        -18100,
+        15500,
+        30
+      ],
+      "metres": [
+        24.0,
+        24.0
+      ]
+    },
+    {
+      "id": "Shop_2_0",
+      "theme": "Bakery",
+      "location": [
+        -6000,
+        -20200,
+        30
+      ],
+      "metres": [
+        24.0,
+        24.0
+      ]
+    },
+    {
+      "id": "Shop_2_1",
+      "theme": "Cafe",
+      "location": [
+        -6100,
+        -6600,
+        30
+      ],
+      "metres": [
+        24.0,
+        24.0
+      ]
+    },
+    {
+      "id": "Shop_2_2",
+      "theme": "Hardware",
+      "location": [
+        -6000,
+        1500,
+        30
+      ],
+      "metres": [
+        24.0,
+        30.0
+      ]
+    },
+    {
+      "id": "Shop_3_0",
+      "theme": "PetShop",
+      "location": [
+        6100,
+        -20300,
+        30
+      ],
+      "metres": [
+        24.0,
+        26.0
+      ]
+    },
+    {
+      "id": "Shop_3_2",
+      "theme": "MarketLocal",
+      "location": [
+        6100,
+        1400,
+        30
+      ],
+      "metres": [
+        24.0,
+        32.0
+      ]
+    },
+    {
+      "id": "Shop_3_3",
+      "theme": "MarketFresh",
+      "location": [
+        6000,
+        12400,
+        30
+      ],
+      "metres": [
+        24.0,
+        32.0
+      ]
+    },
+    {
+      "id": "Shop_4_0",
+      "theme": "BurgerGrill",
+      "location": [
+        18000,
+        -20400,
+        30
+      ],
+      "metres": [
+        24.0,
+        28.0
+      ]
+    },
+    {
+      "id": "Shop_4_1",
+      "theme": "QuickMeals",
+      "location": [
+        18000,
+        -6600,
+        30
+      ],
+      "metres": [
+        24.0,
+        28.0
+      ]
+    },
+    {
+      "id": "Shop_4_2",
+      "theme": "TechRetail",
+      "location": [
+        17900,
+        1500,
+        30
+      ],
+      "metres": [
+        24.0,
+        30.0
+      ]
+    },
+    {
+      "id": "Shop_5_0",
+      "theme": "TechComponents",
+      "location": [
+        29900,
+        -20500,
+        30
+      ],
+      "metres": [
+        24.0,
+        30.0
+      ]
+    },
+    {
+      "id": "Shop_5_1",
+      "theme": "Pharmacy",
+      "location": [
+        29900,
+        -9500,
+        30
+      ],
+      "metres": [
+        24.0,
+        30.0
+      ]
+    },
+    {
+      "id": "Shop_5_2",
+      "theme": "Florist",
+      "location": [
+        30000,
+        1800,
+        30
+      ],
+      "metres": [
+        24.0,
+        24.0
+      ]
+    }
+  ],
+  "overlap": false
+}

@@ -1,0 +1,261 @@
+[
+  {
+    "name": "BP_BogotaTransmiStation_C_0",
+    "position": "<Struct 'Vector' (0x000001B70ECFCD80) {x: 15859.387195, y: -393.934855, z: 0.000000}>",
+    "rotation": "<Struct 'Rotator' (0x000001B71CE597D0) {pitch: 0.000000, yaw: -71.569687, roll: 0.000000}>",
+    "lanes_nearest_side": [
+      5365.3847488981555,
+      7192.828604779841,
+      897.1833742962648,
+      898.0592244990887,
+      5365.3847488981555,
+      7192.828604779841,
+      326.8953479729357
+    ],
+    "parts": [
+      {
+        "name": "StationShell",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi.SM_Bogota_EstacionTransmi",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA8040) {origin: {x: 0.000000, y: 0.000000, z: 209.999985}, box_extent: {x: 2425.000000, y: 180.750015, z: 209.999985}, sphere_radius: 2431.205886}>",
+        "relative": "<Struct 'Vector' (0x000001B733F9C980) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B733F9C9B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      },
+      {
+        "name": "DoorLeft",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_PuertaEstacion.SM_Bogota_PuertaEstacion",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA88C0) {origin: {x: 0.000000, y: 0.000000, z: 201.000000}, box_extent: {x: 60.000004, y: 8.000005, z: 114.000000}, sphere_radius: 129.073624}>",
+        "relative": "<Struct 'Vector' (0x000001B733F9D380) {x: 320.000000, y: 140.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B733F9D3B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      },
+      {
+        "name": "DoorRight",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_PuertaEstacion.SM_Bogota_PuertaEstacion",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA8700) {origin: {x: 0.000000, y: 0.000000, z: 201.000000}, box_extent: {x: 60.000004, y: 8.000005, z: 114.000000}, sphere_radius: 129.073624}>",
+        "relative": "<Struct 'Vector' (0x000001B733F9DD80) {x: 440.000000, y: 140.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B733F9DDB0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      }
+    ]
+  },
+  {
+    "name": "BP_BogotaTransmiStation_C_1",
+    "position": "<Struct 'Vector' (0x000001B71CE597D0) {x: -7047.140321, y: 649.758838, z: 0.000000}>",
+    "rotation": "<Struct 'Rotator' (0x000001B71CED0880) {pitch: 0.000000, yaw: 106.071144, roll: -0.000000}>",
+    "lanes_nearest_side": [
+      899.0232321280362,
+      899.9843099369409,
+      899.0232321280362,
+      899.9843099369409,
+      899.0232321280362,
+      899.9843099369409,
+      328.9928527978932
+    ],
+    "parts": [
+      {
+        "name": "StationShell",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi.SM_Bogota_EstacionTransmi",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA0680) {origin: {x: 0.000000, y: 0.000000, z: 209.999985}, box_extent: {x: 2425.000000, y: 180.750015, z: 209.999985}, sphere_radius: 2431.205886}>",
+        "relative": "<Struct 'Vector' (0x000001B733F9E780) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B733F9E7B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      },
+      {
+        "name": "DoorLeft",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_PuertaEstacion.SM_Bogota_PuertaEstacion",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA0480) {origin: {x: 0.000000, y: 0.000000, z: 201.000000}, box_extent: {x: 60.000004, y: 8.000005, z: 114.000000}, sphere_radius: 129.073624}>",
+        "relative": "<Struct 'Vector' (0x000001B733F9F180) {x: 320.000000, y: 140.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B733F9F1B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      },
+      {
+        "name": "DoorRight",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_PuertaEstacion.SM_Bogota_PuertaEstacion",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA0000) {origin: {x: 0.000000, y: 0.000000, z: 201.000000}, box_extent: {x: 60.000004, y: 8.000005, z: 114.000000}, sphere_radius: 129.073624}>",
+        "relative": "<Struct 'Vector' (0x000001B74D237980) {x: 440.000000, y: 140.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B74D2379B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      }
+    ]
+  },
+  {
+    "name": "BP_BogotaTransmiStation_C_2",
+    "position": "<Struct 'Vector' (0x000001B71CED0880) {x: -19287.816648, y: 3497.162449, z: 0.000000}>",
+    "rotation": "<Struct 'Rotator' (0x000001B71CF149C0) {pitch: 0.000000, yaw: 177.146683, roll: -0.000000}>",
+    "lanes_nearest_side": [
+      587.154950269425,
+      486.55770131818224,
+      null,
+      null,
+      587.154950269425,
+      486.55770131818224,
+      77.96298858522456
+    ],
+    "parts": [
+      {
+        "name": "StationShell",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi.SM_Bogota_EstacionTransmi",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA87C0) {origin: {x: 0.000000, y: 0.000000, z: 209.999985}, box_extent: {x: 2425.000000, y: 180.750015, z: 209.999985}, sphere_radius: 2431.205886}>",
+        "relative": "<Struct 'Vector' (0x000001B74D23E780) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B74D23E7B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      },
+      {
+        "name": "DoorLeft",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_PuertaEstacion.SM_Bogota_PuertaEstacion",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA8800) {origin: {x: 0.000000, y: 0.000000, z: 201.000000}, box_extent: {x: 60.000004, y: 8.000005, z: 114.000000}, sphere_radius: 129.073624}>",
+        "relative": "<Struct 'Vector' (0x000001B74D238380) {x: 320.000000, y: 140.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B74D2383B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      },
+      {
+        "name": "DoorRight",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_PuertaEstacion.SM_Bogota_PuertaEstacion",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA74C0) {origin: {x: 0.000000, y: 0.000000, z: 201.000000}, box_extent: {x: 60.000004, y: 8.000005, z: 114.000000}, sphere_radius: 129.073624}>",
+        "relative": "<Struct 'Vector' (0x000001B745F10180) {x: 440.000000, y: 140.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B745F101B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      }
+    ]
+  },
+  {
+    "name": "BP_BogotaTransmiStation_C_3",
+    "position": "<Struct 'Vector' (0x000001B71CF149C0) {x: -8441.182275, y: 20949.613197, z: 0.000000}>",
+    "rotation": "<Struct 'Rotator' (0x000001B71CF14A60) {pitch: 0.000000, yaw: 81.914337, roll: -0.000000}>",
+    "lanes_nearest_side": [
+      899.049141914439,
+      846.3553621950914,
+      899.049141914439,
+      846.3553621950914,
+      899.049141914439,
+      846.3553621950914,
+      330.00000000000097
+    ],
+    "parts": [
+      {
+        "name": "StationShell",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi.SM_Bogota_EstacionTransmi",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA87C0) {origin: {x: 0.000000, y: 0.000000, z: 209.999985}, box_extent: {x: 2425.000000, y: 180.750015, z: 209.999985}, sphere_radius: 2431.205886}>",
+        "relative": "<Struct 'Vector' (0x000001B7527A0180) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B7527A01B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      },
+      {
+        "name": "DoorLeft",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_PuertaEstacion.SM_Bogota_PuertaEstacion",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA7900) {origin: {x: 0.000000, y: 0.000000, z: 201.000000}, box_extent: {x: 60.000004, y: 8.000005, z: 114.000000}, sphere_radius: 129.073624}>",
+        "relative": "<Struct 'Vector' (0x000001B7507F0180) {x: 320.000000, y: 140.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B7507F01B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      },
+      {
+        "name": "DoorRight",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_PuertaEstacion.SM_Bogota_PuertaEstacion",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA7D00) {origin: {x: 0.000000, y: 0.000000, z: 201.000000}, box_extent: {x: 60.000004, y: 8.000005, z: 114.000000}, sphere_radius: 129.073624}>",
+        "relative": "<Struct 'Vector' (0x000001B7507F0B80) {x: 440.000000, y: 140.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B7507F0BB0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      }
+    ]
+  },
+  {
+    "name": "BP_BogotaTransmiStation_C_4",
+    "position": "<Struct 'Vector' (0x000001B71CF14A60) {x: 10819.167679, y: -25670.510147, z: 0.000000}>",
+    "rotation": "<Struct 'Rotator' (0x000001B71CF14AB0) {pitch: 0.000000, yaw: 125.569252, roll: -0.000000}>",
+    "lanes_nearest_side": [
+      873.4008959979517,
+      899.5785587094961,
+      873.4008959979517,
+      899.5785587094961,
+      873.4008959979517,
+      899.5785587094961,
+      302.9425190950785
+    ],
+    "parts": [
+      {
+        "name": "StationShell",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi.SM_Bogota_EstacionTransmi",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA0C40) {origin: {x: 0.000000, y: 0.000000, z: 209.999985}, box_extent: {x: 2425.000000, y: 180.750015, z: 209.999985}, sphere_radius: 2431.205886}>",
+        "relative": "<Struct 'Vector' (0x000001B7507F1580) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B7507F15B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      },
+      {
+        "name": "DoorLeft",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_PuertaEstacion.SM_Bogota_PuertaEstacion",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B752790A00) {origin: {x: 0.000000, y: 0.000000, z: 201.000000}, box_extent: {x: 60.000004, y: 8.000005, z: 114.000000}, sphere_radius: 129.073624}>",
+        "relative": "<Struct 'Vector' (0x000001B7507F1F80) {x: 320.000000, y: 140.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B7507F1FB0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      },
+      {
+        "name": "DoorRight",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_PuertaEstacion.SM_Bogota_PuertaEstacion",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA7900) {origin: {x: 0.000000, y: 0.000000, z: 201.000000}, box_extent: {x: 60.000004, y: 8.000005, z: 114.000000}, sphere_radius: 129.073624}>",
+        "relative": "<Struct 'Vector' (0x000001B7507F2980) {x: 440.000000, y: 140.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B7507F29B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      }
+    ]
+  },
+  {
+    "name": "BP_BogotaTransmiStation_C_5",
+    "position": "<Struct 'Vector' (0x000001B71CF14AB0) {x: 10532.676655, y: 13996.838010, z: 0.000000}>",
+    "rotation": "<Struct 'Rotator' (0x000001B71CF14B00) {pitch: 0.000000, yaw: -46.635567, roll: 0.000000}>",
+    "lanes_nearest_side": [
+      899.8500210239918,
+      892.2321375696094,
+      899.8500210239918,
+      892.2321375696094,
+      899.8500210239918,
+      892.2321375696094,
+      330.00000000000057
+    ],
+    "parts": [
+      {
+        "name": "StationShell",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi.SM_Bogota_EstacionTransmi",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA1200) {origin: {x: 0.000000, y: 0.000000, z: 209.999985}, box_extent: {x: 2425.000000, y: 180.750015, z: 209.999985}, sphere_radius: 2431.205886}>",
+        "relative": "<Struct 'Vector' (0x000001B7507F3380) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B7507F33B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      },
+      {
+        "name": "DoorLeft",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_PuertaEstacion.SM_Bogota_PuertaEstacion",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA1A40) {origin: {x: 0.000000, y: 0.000000, z: 201.000000}, box_extent: {x: 60.000004, y: 8.000005, z: 114.000000}, sphere_radius: 129.073624}>",
+        "relative": "<Struct 'Vector' (0x000001B7507F3D80) {x: 320.000000, y: 140.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B7507F3DB0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      },
+      {
+        "name": "DoorRight",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_PuertaEstacion.SM_Bogota_PuertaEstacion",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA1780) {origin: {x: 0.000000, y: 0.000000, z: 201.000000}, box_extent: {x: 60.000004, y: 8.000005, z: 114.000000}, sphere_radius: 129.073624}>",
+        "relative": "<Struct 'Vector' (0x000001B7507F4780) {x: 440.000000, y: 140.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B7507F47B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      }
+    ]
+  },
+  {
+    "name": "BP_BogotaTransmiStation_C_6",
+    "position": "<Struct 'Vector' (0x000001B71CF14B00) {x: 25890.943380, y: -24282.927407, z: 0.000000}>",
+    "rotation": "<Struct 'Rotator' (0x000001B71CF14B50) {pitch: 0.000000, yaw: -70.328140, roll: 0.000000}>",
+    "lanes_nearest_side": [
+      7340.782586214178,
+      9167.04025552781,
+      872.428785847292,
+      820.9348410074792,
+      7340.782586214178,
+      9167.04025552781,
+      301.84691926693574
+    ],
+    "parts": [
+      {
+        "name": "StationShell",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi.SM_Bogota_EstacionTransmi",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA19C0) {origin: {x: 0.000000, y: 0.000000, z: 209.999985}, box_extent: {x: 2425.000000, y: 180.750015, z: 209.999985}, sphere_radius: 2431.205886}>",
+        "relative": "<Struct 'Vector' (0x000001B7507F5180) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B7507F51B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      },
+      {
+        "name": "DoorLeft",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_PuertaEstacion.SM_Bogota_PuertaEstacion",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA1A40) {origin: {x: 0.000000, y: 0.000000, z: 201.000000}, box_extent: {x: 60.000004, y: 8.000005, z: 114.000000}, sphere_radius: 129.073624}>",
+        "relative": "<Struct 'Vector' (0x000001B7507F5B80) {x: 320.000000, y: 140.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B7507F5BB0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      },
+      {
+        "name": "DoorRight",
+        "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_PuertaEstacion.SM_Bogota_PuertaEstacion",
+        "bounds": "<Struct 'BoxSphereBounds' (0x000001B72FFA1C80) {origin: {x: 0.000000, y: 0.000000, z: 201.000000}, box_extent: {x: 60.000004, y: 8.000005, z: 114.000000}, sphere_radius: 129.073624}>",
+        "relative": "<Struct 'Vector' (0x000001B7507F6580) {x: 440.000000, y: 140.000000, z: 0.000000}>",
+        "scale": "<Struct 'Vector' (0x000001B7507F65B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+      }
+    ]
+  }
+]

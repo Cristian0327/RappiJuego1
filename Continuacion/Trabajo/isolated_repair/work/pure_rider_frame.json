@@ -1,0 +1,15 @@
+{
+  "status": "STAGING_NOT_PROMOTED",
+  "core_functions": [
+    "ApplyInsideStore",
+    "UpdateInsideStore",
+    "StartBlueprintGameplay"
+  ],
+  "rider_frame": true,
+  "profile_slot": "VoxelDelivery_Blueprint_Profile_v2",
+  "pending": [
+    "Mounting/vehicle simulation",
+    "Full pure phone UI",
+    "World traffic/effects migration"
+  ]
+}

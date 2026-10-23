@@ -1,0 +1,15 @@
+{
+  "runtime_generation": "<RuntimeGenerationType.DYNAMIC: 2>",
+  "tile_size_uu": "2048.0",
+  "cell_size": "RecastNavMesh: Property 'CellSize' for attribute 'cell_size' on 'RecastNavMesh' is protected and cannot be read",
+  "cell_height": "RecastNavMesh: Property 'CellHeight' for attribute 'cell_height' on 'RecastNavMesh' is protected and cannot be read",
+  "agent_radius": "34.0",
+  "agent_height": "176.0",
+  "agent_max_height": "RecastNavMesh: Failed to find property 'agent_max_height' for attribute 'agent_max_height' on 'RecastNavMesh'",
+  "agent_max_step_height": "RecastNavMesh: Property 'AgentMaxStepHeight' for attribute 'agent_max_step_height' on 'RecastNavMesh' is protected and cannot be read",
+  "tile_pool_size": "1024",
+  "fixed_tile_pool_size": "False",
+  "can_be_main_nav_data": "True",
+  "force_rebuild_on_load": "True",
+  "nav_mesh_resolution_params": "[{}, {}, {}]"
+}

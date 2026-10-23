@@ -1,0 +1,7 @@
+import bpy,json
+from pathlib import Path
+r=Path('C:/Users/CRISTIAN/OneDrive/Desktop/BogotaVoxel_JuegoCompleto');folder=r/'outputs/DeliveryArt/AnimationRebuild/Upright';out=folder/'CompatibleRoots';out.mkdir(exist_ok=True);report=[]
+for role in ['Cashier','Chef','TechClerk','Pharmacist','Florist','CustomerStudent','CustomerOffice','CustomerNeighbor']:
+ for kind in ['Idle','Walk']:
+  name='AN_'+role+kind+'_Rebuilt';file=(folder/'Standing' if kind=='Idle' else folder)/(name+'.blend');bpy.ops.wm.open_mainfile(filepath=str(file));rig=next(x for x in bpy.data.objects if x.type=='ARMATURE');rig.name='Rig_'+role;bpy.ops.object.select_all(action='DESELECT');rig.select_set(True);bpy.context.view_layer.objects.active=rig;bpy.ops.export_scene.fbx(filepath=str(out/(name+'.fbx')),use_selection=True,object_types={'ARMATURE'},add_leaf_bones=False,apply_unit_scale=True,apply_scale_options='FBX_SCALE_ALL',use_armature_deform_only=True,bake_anim=True,bake_anim_use_all_actions=False,bake_anim_use_nla_strips=False,bake_anim_simplify_factor=0,axis_forward='-Y',axis_up='Z');report.append({'clip':name,'role':role,'kind':kind,'expected_root':'Rig_'+role,'frames':bpy.context.scene.frame_end-bpy.context.scene.frame_start+1});print('COMPATIBLE_ANIMATION_ROOT '+name,flush=True)
+(out/'root_compatibility.json').write_text(json.dumps(report,indent=2));print('ROLE_ANIMATION_ROOT_EXPORT_PASS clips=16',flush=True)

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checks": [
+    "FindShop",
+    "PickupTarget",
+    "CanReachPickup",
+    "CannotReachFarPickup",
+    "CannotReachDifferentFloor",
+    "ShelfTarget",
+    "CheckoutTarget",
+    "WrongStoreKeepsStreetTarget",
+    "ExitStoreClearsReference",
+    "DropoffTarget",
+    "CanReachDropoff",
+    "IdleCannotInteract",
+    "ProductHidden",
+    "InvalidProductIndexSafe",
+    "LegacyDoorTeleportDisabled",
+    "NoCustomNativeDependencies"
+  ],
+  "count": 16,
+  "staging_not_promoted": true
+}

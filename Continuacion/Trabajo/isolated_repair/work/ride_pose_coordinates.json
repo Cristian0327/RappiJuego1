@@ -1,0 +1,247 @@
+{
+  "/Game/VoxelExplorer/AN_BikePedal": {
+    "pelvis": [
+      1.0738299694433052e-12,
+      -8.99999386072203,
+      90.25000190734815
+    ],
+    "head": [
+      1.9442490531740982e-06,
+      5.60106037421852,
+      150.9374225059608
+    ],
+    "hand_l": [
+      24.000014727967937,
+      36.000002712413256,
+      110.99998888084261
+    ],
+    "hand_r": [
+      -24.000002743740936,
+      36.00000910400219,
+      110.99998888084264
+    ],
+    "foot_l": [
+      10.999997705787377,
+      10.999994571379503,
+      55.7499769866071
+    ],
+    "foot_r": [
+      -11.000002060704425,
+      -11.000004886235791,
+      55.750000022500636
+    ]
+  },
+  "/Game/VoxelExplorer/AN_MotoRide": {
+    "pelvis": [
+      1.0738299694433052e-12,
+      -8.99999386072203,
+      92.25000572204542
+    ],
+    "head": [
+      1.9442490529520536e-06,
+      5.6010603742185205,
+      152.93742632065806
+    ],
+    "hand_l": [
+      24.000034949243087,
+      36.0000026334771,
+      110.99998216004414
+    ],
+    "hand_r": [
+      -24.000022965016292,
+      36.000009025071535,
+      110.99998216004425
+    ],
+    "foot_l": [
+      24.000002490944155,
+      -18.00002370309617,
+      56.750005159841834
+    ],
+    "foot_r": [
+      -24.000004887794088,
+      -18.00001731150857,
+      56.750005159841805
+    ]
+  },
+  "/Game/VoxelExplorer/AN_Walk_InPlace": {
+    "pelvis": [
+      1.0756063262827055e-12,
+      8.04662660286775e-06,
+      67.43905257061076
+    ],
+    "head": [
+      -2.3546076416438755,
+      16.244162838822973,
+      127.81507830581329
+    ],
+    "hand_l": [
+      29.803993783053475,
+      1.9289893949924282,
+      64.64221922528299
+    ],
+    "hand_r": [
+      -29.641056514759995,
+      27.027978714990063,
+      65.24178296710913
+    ],
+    "foot_l": [
+      15.8010780023195,
+      0.3343952470532141,
+      29.41988037161191
+    ],
+    "foot_r": [
+      -11.885193017973025,
+      -4.583634193601961,
+      22.579194839662318
+    ]
+  },
+  "/Game/Crowd/AN_CrowdBikePedal": {
+    "pelvis": [
+      1.0738299694433052e-12,
+      -8.99999386072203,
+      90.25000190734815
+    ],
+    "head": [
+      1.9442490531740982e-06,
+      5.60106037421852,
+      150.9374225059608
+    ],
+    "hand_l": [
+      24.000014727967937,
+      36.000002712413256,
+      110.99998888084261
+    ],
+    "hand_r": [
+      -24.000002743740936,
+      36.00000910400219,
+      110.99998888084264
+    ],
+    "foot_l": [
+      10.999997705787377,
+      10.999994571379503,
+      55.7499769866071
+    ],
+    "foot_r": [
+      -11.000002060704425,
+      -11.000004886235791,
+      55.750000022500636
+    ]
+  },
+  "/Game/Traffic/Services/AN_MotorcycleRider": {
+    "pelvis": [
+      1.072053612603905e-12,
+      -24.999997675419294,
+      94.75000572204542
+    ],
+    "head": [
+      2.662116951410789e-06,
+      -5.007847103940719,
+      153.31211254476204
+    ],
+    "hand_l": [
+      27.283146363841894,
+      28.92348684552862,
+      118.92243064610555
+    ],
+    "hand_r": [
+      -27.28313200314617,
+      28.923494111468102,
+      118.9224306461056
+    ],
+    "foot_l": [
+      21.999995904196187,
+      -20.00000185353327,
+      60.249981625960096
+    ],
+    "foot_r": [
+      -21.99999457261383,
+      -19.999995994580143,
+      60.2499816259601
+    ]
+  },
+  "AnimSingleNodeInstance": [
+    "blueprint_initialize_animation",
+    "blueprint_linked_animation_layers_initialized",
+    "blueprint_post_evaluate_animation",
+    "blueprint_thread_safe_update_animation",
+    "blueprint_update_animation",
+    "get_animation_asset",
+    "get_sync_group_position",
+    "is_playing_slot_animation",
+    "kismet_initialize_animation",
+    "kismet_update_animation",
+    "montage_get_effective_play_rate",
+    "montage_get_play_rate",
+    "montage_get_position",
+    "montage_set_play_rate",
+    "montage_set_position",
+    "play_slot_animation_as_dynamic_montage",
+    "play_slot_animation_as_dynamic_montage_with_blend_args",
+    "play_slot_animation_as_dynamic_montage_with_blend_settings",
+    "set_animation_asset",
+    "set_blend_space_position",
+    "set_play_rate",
+    "set_position",
+    "set_position_with_previous_time",
+    "stop_slot_animation"
+  ],
+  "SkeletalMeshComponent": [
+    "add_asset_user_data_of_class",
+    "add_force_at_position",
+    "add_impulse_at_position",
+    "animation_blueprint",
+    "animation_data",
+    "animation_mode",
+    "enable_animation",
+    "evaluate_world_position_offset",
+    "get_animation_mode",
+    "get_asset_user_data_of_class",
+    "get_closest_point_on_physics_asset",
+    "get_play_rate",
+    "get_position",
+    "get_ref_pose_position",
+    "get_skeletal_mesh_asset",
+    "get_skinned_asset",
+    "has_asset_user_data_of_class",
+    "has_valid_animation_instance",
+    "override_animation_data",
+    "physics_asset_override",
+    "play_animation",
+    "set_all_motors_angular_position_drive",
+    "set_animation",
+    "set_animation_mode",
+    "set_enable_animation",
+    "set_evaluate_world_position_offset",
+    "set_physics_asset",
+    "set_play_rate",
+    "set_position",
+    "set_skeletal_mesh_asset",
+    "set_skinned_asset_and_update",
+    "set_update_animation_in_editor",
+    "set_world_position_offset_disable_distance",
+    "skeletal_mesh_asset",
+    "skinned_asset",
+    "update_joints_from_animation",
+    "world_position_offset_disable_distance"
+  ],
+  "AnimInstance": [
+    "blueprint_initialize_animation",
+    "blueprint_linked_animation_layers_initialized",
+    "blueprint_post_evaluate_animation",
+    "blueprint_thread_safe_update_animation",
+    "blueprint_update_animation",
+    "get_sync_group_position",
+    "is_playing_slot_animation",
+    "kismet_initialize_animation",
+    "kismet_update_animation",
+    "montage_get_effective_play_rate",
+    "montage_get_play_rate",
+    "montage_get_position",
+    "montage_set_play_rate",
+    "montage_set_position",
+    "play_slot_animation_as_dynamic_montage",
+    "play_slot_animation_as_dynamic_montage_with_blend_args",
+    "play_slot_animation_as_dynamic_montage_with_blend_settings",
+    "stop_slot_animation"
+  ]
+}

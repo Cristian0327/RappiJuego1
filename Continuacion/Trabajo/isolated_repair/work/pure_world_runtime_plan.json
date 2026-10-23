@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "NOON_SUN",
+    "NOON_AMBIENT",
+    "NIGHT_SUN",
+    "NIGHT_AMBIENT",
+    "DRIZZLE_VISIBLE",
+    "NO_HAIL_IN_DRIZZLE",
+    "ROOF_TRACE_CACHED",
+    "STORM_HAIL_VISIBLE",
+    "RAIN_FOLLOWS_CAMERA",
+    "LIGHTNING_EVENT",
+    "THUNDER_EVENT",
+    "STORM_AVERAGE_30_FPS",
+    "RAIN_STOPS",
+    "HAIL_STOPS"
+  ],
+  "status": "READY_TO_RUN"
+}

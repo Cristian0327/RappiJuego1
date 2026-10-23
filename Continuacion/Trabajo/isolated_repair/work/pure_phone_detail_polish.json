@@ -1,0 +1,15 @@
+{
+  "status": "STAGING_COMPILED",
+  "changes": [
+    "Compact skill captions",
+    "Correct bike/motorcycle grouping",
+    "Page-specific detail text",
+    "Non-overlapping MEJORAS title"
+  ],
+  "pending": [
+    "Full descriptions/requirements/action availability",
+    "Selection/color highlighting",
+    "Spatial tree keyboard movement",
+    "Map and vehicle preview"
+  ]
+}

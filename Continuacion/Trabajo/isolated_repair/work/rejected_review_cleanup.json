@@ -1,0 +1,22 @@
+[
+  {
+    "asset": "/Game/Delivery/Review/Pizzeria/SM_Pizza.SM_Pizza",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "asset": "/Game/Delivery/Review/Pizzeria/SM_PizzaFront.SM_PizzaFront",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "asset": "/Game/Delivery/Review/Pizzeria/SM_PizzaInterior.SM_PizzaInterior",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "asset": "/Game/Delivery/Animation/MixamoCandidate/SK_HeroMixamo.SK_HeroMixamo",
+    "referencers": [],
+    "deleted": true
+  }
+]

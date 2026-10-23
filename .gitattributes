@@ -7,3 +7,8 @@
 *.ttf binary
 *.fbx binary
 *.blend binary
+
+*.gz binary
+*.gz.part* binary
+*.npy binary
+*.npz binary

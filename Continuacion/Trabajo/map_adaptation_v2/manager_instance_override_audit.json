@@ -1,0 +1,24 @@
+[
+  {
+    "InitialDistances": {
+      "instance_count": 90,
+      "default_count": 90,
+      "different": 0
+    },
+    "LeaderIndices": {
+      "instance_count": 90,
+      "default_count": 90,
+      "different": 0
+    },
+    "JunctionCentres": {
+      "instance_count": 8,
+      "default_count": 8,
+      "different": 8
+    },
+    "UrbanCrossingCenters": {
+      "instance_count": 14,
+      "default_count": 14,
+      "different": 14
+    }
+  }
+]

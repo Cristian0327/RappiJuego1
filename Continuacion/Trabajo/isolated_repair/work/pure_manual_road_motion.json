@@ -1,0 +1,1 @@
+{"status": "COMPILED_NOT_BOUND_TO_PLAYER", "top_speed_cm_s": 1800, "reverse_speed_cm_s": 540, "acceleration_cm_s2": 700, "door_interlock": true, "box_collision_sweep": true, "maximum_ground_step_cm": 65, "ground_following": true, "wheel_steering_and_spin": true, "pending": ["Runtime motion test", "Player mounting and input hookup", "Slope suspension", "Traffic leader handoff"]}

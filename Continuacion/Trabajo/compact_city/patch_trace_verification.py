@@ -1,0 +1,9 @@
+from pathlib import Path
+p=Path('compact_city/verify_monserrate.py');s=p.read_text();start=s.index('for i,p in enumerate(q[::4]):');end=s.index('assert not bad,bad[:20]',start)
+block="""f=unreal.BlueprintFactory();f.set_editor_property('parent_class',unreal.Actor);probe=unreal.load_asset('/Game/QA/BP_MonserrateProbe') or unreal.AssetToolsHelpers.get_asset_tools().create_asset('BP_MonserrateProbe','/Game/QA',unreal.Blueprint,f);d.bp=probe;g=d.Graph();g.call('Above','Add_VectorVector',M,B='(X=0,Y=0,Z=100)');g.link('entry','Probe','Above','A');g.call('Below','Add_VectorVector',M,B='(X=0,Y=0,Z=-100)');g.link('entry','Probe','Below','A');g.call('Trace','LineTraceSingle',K,TraceChannel='TraceTypeQuery1',bTraceComplex='true',DrawDebugType='None',bIgnoreSelf='true');g.link('Above','ReturnValue','Trace','Start');g.link('Below','ReturnValue','Trace','End');g.exec('entry','Trace');g.branch('Hit','Trace');g.exec('Trace','Hit');g.node('Miss','return',defaults={'ReturnValue':'-99999'});g.exec('Hit','Miss','else');g.call('Break','BreakHitResult',G);g.link('Trace','OutHit','Break','Hit');g.call('Axes','BreakVector',M);g.link('Break','ImpactPoint','Axes','InVec');g.link('Axes','Z','result','ReturnValue');g.exec('Hit','result');assert unreal.DeliveryEditorLibrary.build_logic_graph(probe,'SampleHeight',json.dumps(dict(nodes=g.nodes,links=g.links,parameters=[dict(name='Probe',category='struct',object='/Script/CoreUObject.Vector'),dict(name='ReturnValue',category='real',out=True)])));assert E.compile_blueprint(probe);test=AS.spawn_actor_from_class(probe.generated_class(),unreal.Vector())
+for i,p in enumerate(q[::4]):
+ z=test.call_method('SampleHeight',(unreal.Vector(*p),));samples.append(z)
+ if abs(z-p[2]-8)>20:bad.append([i,z,p[2]])
+AS.destroy_actor(test)
+"""
+s=s[:start]+block+s[end:];p.write_text(s)

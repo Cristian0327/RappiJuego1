@@ -1,0 +1,16 @@
+{
+  "architecture_meshes": 81,
+  "leveled_instances": 909,
+  "relocated_furniture": 30,
+  "floor_strips": 537,
+  "flight": "ESOYAM then VOLAR or F8; space up, Ctrl down, Shift fast",
+  "blueprint_runtime": true,
+  "runtime_tests": {
+    "DEVELOPER_FLIGHT_ACTIVE": true,
+    "FLIGHT_VERTICAL_MOVEMENT": true,
+    "FALL_THROUGH_MAP_RECOVERED": true,
+    "CURB_CROSSED_WITHOUT_JUMP": true
+  },
+  "collision_samples": 537,
+  "collision_errors": 0
+}

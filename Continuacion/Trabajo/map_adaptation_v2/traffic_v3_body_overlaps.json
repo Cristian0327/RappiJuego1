@@ -1,0 +1,45 @@
+{
+  "max_overlaps": 0,
+  "frames": [
+    {
+      "time": 0.033333,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 5.033334,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 10.033334,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 15.033335,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 20.033335,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 25.033336,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 30.033336,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 35.033337,
+      "overlaps": 0,
+      "examples": []
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "name": "BP_DeliveryStore_C_0",
+    "point_id": "Shop_0_0",
+    "theme": "MarketLocal",
+    "entrance": [
+      -15100.0,
+      -19900.0,
+      20.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "BP_DeliveryStore_C_1",
+    "point_id": "Shop_0_1",
+    "theme": "MarketFresh",
+    "entrance": [
+      -7200.0,
+      -27700.0,
+      20.0
+    ],
+    "yaw": 89.99999999999999
+  },
+  {
+    "name": "BP_DeliveryStore_C_2",
+    "point_id": "Shop_0_2",
+    "theme": "BurgerGrill",
+    "entrance": [
+      -30068.629150101522,
+      5668.629150101524,
+      20.0
+    ],
+    "yaw": 45.00000000000003
+  },
+  {
+    "name": "BP_DeliveryStore_C_3",
+    "point_id": "Shop_0_3",
+    "theme": "QuickMeals",
+    "entrance": [
+      -12300.0,
+      -21800.0,
+      20.0
+    ],
+    "yaw": 89.99999999999999
+  },
+  {
+    "name": "BP_DeliveryStore_C_4",
+    "point_id": "Shop_1_0",
+    "theme": "TechRetail",
+    "entrance": [
+      -9768.629150101526,
+      -23468.629150101526,
+      20.0
+    ],
+    "yaw": 134.99999999999997
+  },
+  {
+    "name": "BP_DeliveryStore_C_5",
+    "point_id": "Shop_1_1",
+    "theme": "TechComponents",
+    "entrance": [
+      -17068.629150101522,
+      24131.370849898474,
+      20.0
+    ],
+    "yaw": 134.99999999999997
+  },
+  {
+    "name": "BP_DeliveryStore_C_6",
+    "point_id": "Shop_1_2",
+    "theme": "Pharmacy",
+    "entrance": [
+      -31268.629150101522,
+      2268.629150101522,
+      20.0
+    ],
+    "yaw": 45.00000000000003
+  },
+  {
+    "name": "BP_DeliveryStore_C_7",
+    "point_id": "Shop_1_3",
+    "theme": "Florist",
+    "entrance": [
+      31031.370849898478,
+      -39831.37084989848,
+      20.0
+    ],
+    "yaw": 45.00000000000003
+  },
+  {
+    "name": "BP_DeliveryStore_C_8",
+    "point_id": "Shop_2_0",
+    "theme": "Bakery",
+    "entrance": [
+      3900.0,
+      25900.0,
+      20
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "BP_DeliveryStore_C_9",
+    "point_id": "Shop_2_1",
+    "theme": "Cafe",
+    "entrance": [
+      -11568.629150101526,
+      38831.37084989848,
+      20.0
+    ],
+    "yaw": 134.99999999999997
+  },
+  {
+    "name": "BP_DeliveryStore_C_10",
+    "point_id": "Shop_2_2",
+    "theme": "Hardware",
+    "entrance": [
+      -13668.629150101526,
+      35331.37084989848,
+      20.0
+    ],
+    "yaw": 134.99999999999997
+  },
+  {
+    "name": "BP_DeliveryStore_C_11",
+    "point_id": "Shop_3_0",
+    "theme": "PetShop",
+    "entrance": [
+      22500.0,
+      -41100.0,
+      20.0
+    ],
+    "yaw": 89.99999999999999
+  },
+  {
+    "name": "BP_DeliveryStore_C_12",
+    "point_id": "Shop_3_2",
+    "theme": "MarketLocal",
+    "entrance": [
+      -568.6291501015257,
+      -36731.37084989848,
+      20.0
+    ],
+    "yaw": 45.00000000000003
+  },
+  {
+    "name": "BP_DeliveryStore_C_13",
+    "point_id": "Shop_3_3",
+    "theme": "MarketFresh",
+    "entrance": [
+      -868.6291501015239,
+      -2331.370849898476,
+      20
+    ],
+    "yaw": 45.00000000000003
+  },
+  {
+    "name": "BP_DeliveryStore_C_14",
+    "point_id": "Shop_4_0",
+    "theme": "BurgerGrill",
+    "entrance": [
+      1900.0,
+      30300.0,
+      20
+    ],
+    "yaw": 89.99999999999999
+  },
+  {
+    "name": "BP_DeliveryStore_C_15",
+    "point_id": "Shop_4_1",
+    "theme": "Pizza",
+    "entrance": [
+      -17500.0,
+      28099.999999999996,
+      20.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "BP_DeliveryStore_C_16",
+    "point_id": "Shop_4_2",
+    "theme": "TechRetail",
+    "entrance": [
+      -23368.629150101522,
+      11631.370849898478,
+      20.0
+    ],
+    "yaw": 134.99999999999997
+  },
+  {
+    "name": "BP_DeliveryStore_C_17",
+    "point_id": "Shop_5_0",
+    "theme": "TechComponents",
+    "entrance": [
+      6231.370849898474,
+      34931.37084989848,
+      20
+    ],
+    "yaw": 134.99999999999997
+  },
+  {
+    "name": "BP_DeliveryStore_C_18",
+    "point_id": "Shop_5_1",
+    "theme": "Pharmacy",
+    "entrance": [
+      -15900.0,
+      16700.0,
+      20
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "BP_DeliveryStore_C_19",
+    "point_id": "Shop_5_2",
+    "theme": "Florist",
+    "entrance": [
+      -2168.629150101522,
+      16068.629150101522,
+      20
+    ],
+    "yaw": 45.00000000000003
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "/Game/Delivery/Animation/ABP_DeliveryRider": [
+    "/Script/AnimGraph",
+    "/Script/AnimGraphRuntime",
+    "/Game/VoxelExplorer/SK_VoxelExplorer_Skeleton",
+    "/Game/VoxelExplorer/AN_Idle",
+    "/Game/VoxelExplorer/AN_BikePedal",
+    "/Game/VoxelExplorer/AN_MixamoJump",
+    "/Game/VoxelExplorer/AN_MixamoWalk",
+    "/Game/VoxelExplorer/AN_MotoRide",
+    "/Game/Delivery/Animation/BPI_RiderAnimationState"
+  ],
+  "/Game/Delivery/Animation/BPI_RiderAnimationState": []
+}

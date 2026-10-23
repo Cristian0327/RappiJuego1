@@ -1,0 +1,18 @@
+import unreal,json,sys
+from pathlib import Path
+r=Path(unreal.Paths.project_dir()).parent;sys.path.insert(0,str(r/'Herramientas'));import blueprint_graph as d
+bp=unreal.load_asset('/Game/World/BlueprintWorld/Traffic/BP_TrafficLane');d.bp=bp;E=unreal.BlueprintEditorLibrary;M=d.M;S='/Script/Engine.SplineComponent';P=bp.generated_class().get_path_name();g=d.Graph();g.call('Axes','BreakVector',M);g.link('entry','Point','Axes','InVec');sets={}
+for axis,roads,threshold in [('X',[-36000,-24000,-12000,0,12000,24000,36000],1550),('Y',[-22000,-11000,0,11000,22000],1550)]:
+ normal=[];junction=[]
+ for i,value in enumerate(roads):
+  tag=axis+str(i);g.call(tag+'Offset','Subtract_DoubleDouble',M,B=str(value));g.link('Axes',axis,tag+'Offset','A');g.call(tag+'Abs','Abs',M);g.link(tag+'Offset','ReturnValue',tag+'Abs','A');g.call(tag+'Junction','LessEqual_DoubleDouble',M,B=str(1925 if axis=='Y' and value==0 else threshold));g.link(tag+'Abs','ReturnValue',tag+'Junction','A');junction.append(tag+'Junction')
+  if axis=='X':g.call(tag+'Road','LessEqual_DoubleDouble',M,B='750');g.link(tag+'Abs','ReturnValue',tag+'Road','A');normal.append(tag+'Road')
+ def combine(nodes,prefix):
+  prior=nodes[0]
+  for i,n in enumerate(nodes[1:]):
+   tag=prefix+str(i);g.call(tag,'BooleanOR',M);g.link(prior,'ReturnValue',tag,'A');g.link(n,'ReturnValue',tag,'B');prior=tag
+  return prior
+ sets[axis]=combine(junction,axis+'JunctionAny')
+ if normal:sets['Road']=combine(normal,'RoadAny')
+g.call('Crossing','BooleanAND',M);g.link(sets['X'],'ReturnValue','Crossing','A');g.link(sets['Y'],'ReturnValue','Crossing','B');g.call('RoadHeight','SelectFloat',M,A='9.5',B='7.5');g.link(sets['Road'],'ReturnValue','RoadHeight','bPickA');g.call('Height','SelectFloat',M,A='27.5');g.link('RoadHeight','ReturnValue','Height','B');g.link('Crossing','ReturnValue','Height','bPickA');g.link('Height','ReturnValue','result','ReturnValue');g.exec('entry','result');assert unreal.DeliveryEditorLibrary.build_logic_graph(bp,'AsphaltHeight',json.dumps({'nodes':g.nodes,'links':g.links,'parameters':[{'name':'Point','category':'struct','object':'/Script/CoreUObject.Vector'},{'name':'ReturnValue','category':'real','out':True}],'pure':True,'const':True}))
+g=d.Graph();g.get('Route');g.call('Length','GetSplineLength',S);g.link('Route','Route','Length','self');g.call('Modulo','FMod',M);g.link('entry','Distance','Modulo','Dividend');g.link('Length','ReturnValue','Modulo','Divisor');g.call('Positive','Add_DoubleDouble',M);g.link('Modulo','Remainder','Positive','A');g.link('Length','ReturnValue','Positive','B');g.call('Wrap','FMod',M);g.link('Positive','ReturnValue','Wrap','Dividend');g.link('Length','ReturnValue','Wrap','Divisor');g.call('Sample','GetLocationAtDistanceAlongSpline',S,CoordinateSpace='World');g.link('Route','Route','Sample','self');g.link('Wrap','Remainder','Sample','Distance');g.call('Axes','BreakVector',M);g.link('Sample','ReturnValue','Axes','InVec');g.call('Height','AsphaltHeight',P);g.link('Sample','ReturnValue','Height','Point');g.call('Position','MakeVector',M);g.link('Axes','X','Position','X');g.link('Axes','Y','Position','Y');g.link('Height','ReturnValue','Position','Z');g.link('Position','ReturnValue','result','ReturnValue');g.exec('entry','result');assert unreal.DeliveryEditorLibrary.build_logic_graph(bp,'SamplePosition',json.dumps({'nodes':g.nodes,'links':g.links,'parameters':[{'name':'Distance','category':'real'},{'name':'ReturnValue','category':'struct','object':'/Script/CoreUObject.Vector','out':True}],'pure':True,'const':True}));assert E.compile_blueprint(bp);assert unreal.EditorAssetLibrary.save_loaded_asset(bp,only_if_is_dirty=False);unreal.log('PURE_TRAFFIC_ASPHALT_HEIGHT_PASS')

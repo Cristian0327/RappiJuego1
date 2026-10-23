@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "id": "Arc",
+      "kind": "call",
+      "fn": "ArcClearance",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficManager.BP_TrafficManager_C",
+      "defaults": {}
+    },
+    {
+      "id": "Pos",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "NextPosition"
+    },
+    {
+      "id": "Yaw",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "NextYaw"
+    },
+    {
+      "id": "Length",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "HalfLength"
+    },
+    {
+      "id": "Rotation",
+      "kind": "call",
+      "fn": "MakeRotator",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Forward",
+      "kind": "call",
+      "fn": "GetForwardVector",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Crossing",
+      "kind": "call",
+      "fn": "CrossingClearanceAt",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficManager.BP_TrafficManager_C",
+      "defaults": {}
+    },
+    {
+      "id": "Limit",
+      "kind": "call",
+      "fn": "FMin",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    }
+  ],
+  "links": [
+    [
+      "entry",
+      "Visitor",
+      "Arc",
+      "Visitor"
+    ],
+    [
+      "entry",
+      "then",
+      "Arc",
+      "execute"
+    ],
+    [
+      "entry",
+      "Visitor",
+      "Pos",
+      "self"
+    ],
+    [
+      "entry",
+      "Visitor",
+      "Yaw",
+      "self"
+    ],
+    [
+      "entry",
+      "Visitor",
+      "Length",
+      "self"
+    ],
+    [
+      "Yaw",
+      "NextYaw",
+      "Rotation",
+      "Yaw"
+    ],
+    [
+      "Rotation",
+      "ReturnValue",
+      "Forward",
+      "InRot"
+    ],
+    [
+      "Pos",
+      "NextPosition",
+      "Crossing",
+      "Position"
+    ],
+    [
+      "Forward",
+      "ReturnValue",
+      "Crossing",
+      "Direction"
+    ],
+    [
+      "Length",
+      "HalfLength",
+      "Crossing",
+      "VehicleHalfLength"
+    ],
+    [
+      "Arc",
+      "then",
+      "Crossing",
+      "execute"
+    ],
+    [
+      "Arc",
+      "ReturnValue",
+      "Limit",
+      "A"
+    ],
+    [
+      "Crossing",
+      "ReturnValue",
+      "Limit",
+      "B"
+    ],
+    [
+      "Limit",
+      "ReturnValue",
+      "result",
+      "ReturnValue"
+    ],
+    [
+      "Crossing",
+      "then",
+      "result",
+      "execute"
+    ]
+  ],
+  "parameters": [
+    {
+      "name": "Visitor",
+      "category": "object",
+      "object": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C"
+    },
+    {
+      "name": "ReturnValue",
+      "category": "real",
+      "out": true
+    }
+  ],
+  "pure": false,
+  "const": false
+}

@@ -1,0 +1,16 @@
+import unreal,json
+from pathlib import Path
+E=unreal.EditorAssetLibrary;ME=unreal.MaterialEditingLibrary;T=unreal.AssetToolsHelpers.get_asset_tools();dest='/Game/Traffic/Detailed/M_TrafficOpaqueSafe_20261021';assert not E.does_asset_exist(dest),'New repair material already exists; preserve it';mat=T.create_asset('M_TrafficOpaqueSafe_20261021','/Game/Traffic/Detailed',unreal.Material,unreal.MaterialFactoryNew());tex=unreal.load_asset('/Game/Traffic/Detailed/T_TrafficPixelAtlas');assert tex
+sample=ME.create_material_expression(mat,unreal.MaterialExpressionTextureSample);sample.set_editor_property('texture',tex);vc=ME.create_material_expression(mat,unreal.MaterialExpressionVertexColor);uv=ME.create_material_expression(mat,unreal.MaterialExpressionTextureCoordinate);uv.set_editor_property('coordinate_index',1);mask=ME.create_material_expression(mat,unreal.MaterialExpressionComponentMask);mask.set_editor_property('r',True);ME.connect_material_expressions(uv,'',mask,'Input');paint=ME.create_material_expression(mat,unreal.MaterialExpressionVectorParameter);paint.set_editor_property('parameter_name','BodyPaint');paint.set_editor_property('default_value',unreal.LinearColor(.55,.6,.65,1));enable=ME.create_material_expression(mat,unreal.MaterialExpressionScalarParameter);enable.set_editor_property('parameter_name','PaintEnabled');night=ME.create_material_expression(mat,unreal.MaterialExpressionScalarParameter);night.set_editor_property('parameter_name','NightLights')
+shade='float shade=clamp(dot(Atlas,float3(.299,.587,.114))/max(dot(Reference.rgb,float3(.299,.587,.114)),.10),.55,1.35);float amount=saturate(Mask)*saturate(Enabled);float3 color=dot(Paint.rgb,float3(.299,.587,.114))<.045?float3(.055,.07,.085):Paint.rgb;float3 base=lerp(Atlas,color*shade,amount);'
+def custom(code):
+ n=ME.create_material_expression(mat,unreal.MaterialExpressionCustom);n.set_editor_property('output_type',unreal.CustomMaterialOutputType.CMOT_FLOAT3);ins=[]
+ for name in ['Atlas','Reference','Mask','Paint','Enabled','Alpha','Night']:
+  i=unreal.CustomInput();i.set_editor_property('input_name',name);ins.append(i)
+ n.set_editor_property('inputs',ins);n.set_editor_property('code',code)
+ for a,out,name in [(sample,'RGB','Atlas'),(vc,'','Reference'),(mask,'','Mask'),(paint,'','Paint'),(enable,'','Enabled'),(vc,'A','Alpha'),(night,'','Night')]:assert ME.connect_material_expressions(a,out,n,name)
+ return n
+base=custom(shade+'return max(base,0);');assert ME.connect_material_property(base,'',unreal.MaterialProperty.MP_BASE_COLOR);emit=custom(shade+'return base*.015+Atlas*2*saturate(Night)*(1-step(.08,Alpha));');assert ME.connect_material_property(emit,'',unreal.MaterialProperty.MP_EMISSIVE_COLOR)
+for prop,value in [(unreal.MaterialProperty.MP_ROUGHNESS,.72),(unreal.MaterialProperty.MP_METALLIC,.10),(unreal.MaterialProperty.MP_SPECULAR,.25)]:
+ n=ME.create_material_expression(mat,unreal.MaterialExpressionConstant);n.set_editor_property('r',value);ME.connect_material_property(n,'',prop)
+mat.set_editor_property('blend_mode',unreal.BlendMode.BLEND_OPAQUE);mat.set_editor_property('two_sided',True);ME.set_material_usage(mat,unreal.MaterialUsage.MATUSAGE_SKELETAL_MESH);ME.recompile_material(mat);assert E.save_loaded_asset(mat,only_if_is_dirty=False);unreal.log('NEW_REVERSIBLE_TRAFFIC_MATERIAL_READY original unchanged')

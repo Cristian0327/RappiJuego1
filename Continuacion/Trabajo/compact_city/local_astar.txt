@@ -1,0 +1,17 @@
+def astar(start,goalset):
+ gt=cKDTree(np.array(goalset));heap=[(gt.query(start)[0],0,start)];cost={start:0};prev={};closed=set();targets=set(goalset)
+ while heap:
+  _,g,v=heapq.heappop(heap)
+  if v in closed:continue
+  closed.add(v)
+  if v in targets:
+   path=[v]
+   while v in prev:v=prev[v];path.append(v)
+   return path[::-1]
+  for dy,dx in [(1,0),(-1,0),(0,1),(0,-1),(1,1),(1,-1),(-1,1),(-1,-1)]:
+   w=(v[0]+dy,v[1]+dx)
+   if not(0<=w[0]<1000 and 0<=w[1]<800 and free[w]) or (reserve[w] and math.dist(w,start)>4):continue
+   if dx and dy and not(free[v[0]+dy,v[1]] and free[v[0],v[1]+dx]):continue
+   ng=g+math.hypot(dx,dy)
+   if ng<cost.get(w,1e30):cost[w]=ng;prev[w]=v;heapq.heappush(heap,(ng+gt.query(w)[0],ng,w))
+ return []

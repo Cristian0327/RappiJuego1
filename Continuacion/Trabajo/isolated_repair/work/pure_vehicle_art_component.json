@@ -1,0 +1,14 @@
+{
+  "status": "COMPILED_STAGING",
+  "parent": "/Script/Engine.ActorComponent",
+  "models": 36,
+  "colors": 6,
+  "functions": [
+    "ApplyPaint",
+    "ResolveModel"
+  ],
+  "pending": [
+    "Rider and parked vehicle integration",
+    "Runtime model/paint validation"
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "SK_Citizen00": {
+    "head_vertices": 2568,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen01": {
+    "head_vertices": 2452,
+    "max_attachment_error_cm": 1.531827774449254e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen02": {
+    "head_vertices": 2628,
+    "max_attachment_error_cm": 1.5377536293599222e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen03": {
+    "head_vertices": 2060,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen04": {
+    "head_vertices": 2188,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen05": {
+    "head_vertices": 2504,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen06": {
+    "head_vertices": 2696,
+    "max_attachment_error_cm": 1.538492756357353e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen07": {
+    "head_vertices": 2372,
+    "max_attachment_error_cm": 1.5728399755926745e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen08": {
+    "head_vertices": 2936,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen09": {
+    "head_vertices": 2104,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen10": {
+    "head_vertices": 2084,
+    "max_attachment_error_cm": 1.5495373543998644e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen11": {
+    "head_vertices": 2768,
+    "max_attachment_error_cm": 1.538492756357353e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen12": {
+    "head_vertices": 2468,
+    "max_attachment_error_cm": 1.5377536293599222e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen13": {
+    "head_vertices": 2636,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen14": {
+    "head_vertices": 2276,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen15": {
+    "head_vertices": 2244,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen16": {
+    "head_vertices": 2636,
+    "max_attachment_error_cm": 1.531827774449254e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen17": {
+    "head_vertices": 2420,
+    "max_attachment_error_cm": 1.531827774449254e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen18": {
+    "head_vertices": 2124,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen19": {
+    "head_vertices": 2188,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen20": {
+    "head_vertices": 2804,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen21": {
+    "head_vertices": 2504,
+    "max_attachment_error_cm": 1.531827774449254e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen22": {
+    "head_vertices": 2252,
+    "max_attachment_error_cm": 1.531827774449254e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen23": {
+    "head_vertices": 2568,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen24": {
+    "head_vertices": 2468,
+    "max_attachment_error_cm": 1.5377536293599222e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen25": {
+    "head_vertices": 2216,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen26": {
+    "head_vertices": 2568,
+    "max_attachment_error_cm": 1.5377536293599222e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen27": {
+    "head_vertices": 2108,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen28": {
+    "head_vertices": 2636,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen29": {
+    "head_vertices": 2768,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen30": {
+    "head_vertices": 2152,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen31": {
+    "head_vertices": 2216,
+    "max_attachment_error_cm": 1.5377536293599222e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen32": {
+    "head_vertices": 2488,
+    "max_attachment_error_cm": 1.5728399755926745e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen33": {
+    "head_vertices": 2104,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen34": {
+    "head_vertices": 2636,
+    "max_attachment_error_cm": 1.5377536293599222e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen35": {
+    "head_vertices": 2452,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen36": {
+    "head_vertices": 2252,
+    "max_attachment_error_cm": 1.531827774449254e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen37": {
+    "head_vertices": 2636,
+    "max_attachment_error_cm": 1.5728399755926745e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen38": {
+    "head_vertices": 2568,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen39": {
+    "head_vertices": 2696,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen40": {
+    "head_vertices": 2636,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen41": {
+    "head_vertices": 2564,
+    "max_attachment_error_cm": 1.5377536293599222e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen42": {
+    "head_vertices": 2504,
+    "max_attachment_error_cm": 1.5728399755926745e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen43": {
+    "head_vertices": 2452,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen44": {
+    "head_vertices": 2752,
+    "max_attachment_error_cm": 1.5377536293599222e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen45": {
+    "head_vertices": 2248,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen46": {
+    "head_vertices": 2636,
+    "max_attachment_error_cm": 1.531827774449254e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen47": {
+    "head_vertices": 2320,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen48": {
+    "head_vertices": 2468,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen49": {
+    "head_vertices": 2320,
+    "max_attachment_error_cm": 1.5377536293599222e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen50": {
+    "head_vertices": 2752,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen51": {
+    "head_vertices": 2108,
+    "max_attachment_error_cm": 1.5377536293599222e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen52": {
+    "head_vertices": 2628,
+    "max_attachment_error_cm": 1.5377536293599222e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen53": {
+    "head_vertices": 2292,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen54": {
+    "head_vertices": 2468,
+    "max_attachment_error_cm": 1.5377536293599222e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen55": {
+    "head_vertices": 2188,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen56": {
+    "head_vertices": 2804,
+    "max_attachment_error_cm": 1.531827774449254e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen57": {
+    "head_vertices": 2568,
+    "max_attachment_error_cm": 1.5377536293599222e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen58": {
+    "head_vertices": 2252,
+    "max_attachment_error_cm": 1.5407080098536978e-05,
+    "walk_head_moves": true
+  },
+  "SK_Citizen59": {
+    "head_vertices": 2768,
+    "max_attachment_error_cm": 1.5377536293599222e-05,
+    "walk_head_moves": true
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "name": ".git",
+    "files": 1569,
+    "bytes": 223912948
+  },
+  {
+    "name": "Binaries",
+    "files": 1,
+    "bytes": 1327187
+  },
+  {
+    "name": "Build",
+    "files": 0,
+    "bytes": 0
+  },
+  {
+    "name": "Capturas",
+    "files": 24,
+    "bytes": 16808280
+  },
+  {
+    "name": "Config",
+    "files": 4,
+    "bytes": 76202
+  },
+  {
+    "name": "Content",
+    "files": 1110,
+    "bytes": 834010400
+  },
+  {
+    "name": "DeliveryData",
+    "files": 3,
+    "bytes": 8702
+  },
+  {
+    "name": "DerivedDataCache",
+    "files": 5,
+    "bytes": 1627828
+  },
+  {
+    "name": "Docs",
+    "files": 59,
+    "bytes": 4736943
+  },
+  {
+    "name": "Intermediate",
+    "files": 12,
+    "bytes": 172306903
+  },
+  {
+    "name": "Saved",
+    "files": 126,
+    "bytes": 35013642
+  },
+  {
+    "name": "ThirdParty",
+    "files": 2,
+    "bytes": 5001
+  }
+]

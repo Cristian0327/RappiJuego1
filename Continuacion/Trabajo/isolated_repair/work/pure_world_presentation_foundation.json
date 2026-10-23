@@ -1,0 +1,17 @@
+{
+  "status": "STAGING_COMPONENTS_ONLY",
+  "components": [
+    "Sun",
+    "Ambient",
+    "Fog",
+    "Sky",
+    "StormLightning"
+  ],
+  "pending": [
+    "Dynamic sky lighting Blueprint functions",
+    "World state bootstrap/frame connection",
+    "Rain/hail geometry presentation",
+    "Thunder playback",
+    "Runtime visual testing"
+  ]
+}

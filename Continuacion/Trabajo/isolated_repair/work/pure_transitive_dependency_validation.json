@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "roots": [
+    {
+      "root": "/Game/World/BlueprintWorld/Traffic/BP_TrafficManager",
+      "packages": 89,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle",
+      "packages": 9,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/World/BlueprintWorld/Traffic/BP_TrafficLane",
+      "packages": 1,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/World/BlueprintWorld/BP_WorldPresentation",
+      "packages": 11,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/Delivery/BlueprintGameplay/Vehicles/BPC_VehicleArt",
+      "packages": 44,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/Delivery/BlueprintGameplay/Vehicles/BP_DeliveryTwoWheeler",
+      "packages": 47,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/Delivery/BlueprintGameplay/UI/WBP_BlueprintPhone",
+      "packages": 307,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/Delivery/BlueprintGameplay/UI/BP_BlueprintGaragePreview",
+      "packages": 16,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore",
+      "packages": 307,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/Delivery/BlueprintGameplay/Stores/BP_DeliveryStore",
+      "packages": 200,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/Delivery/BlueprintGameplay/People/BP_DeliveryRecipient",
+      "packages": 307,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/Delivery/BlueprintGameplay/Player/BP_BlueprintRider",
+      "packages": 324,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/Delivery/BlueprintGameplay/World/BP_ResidentialRouteAssembler",
+      "packages": 307,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/World/BlueprintWorld/BP_CityGeometry",
+      "packages": 23,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/World/BlueprintWorld/BP_WorldState",
+      "packages": 1,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/Delivery/BlueprintSchema/BP_DeliveryProfile",
+      "packages": 1,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/Maps/Bogota_Blueprint_Integration",
+      "packages": 542,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/World/BlueprintWorld/Crowd/BP_CrowdManager",
+      "packages": 151,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/World/BlueprintWorld/Crowd/BP_CrowdPlayerProxy",
+      "packages": 31,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/Delivery/BlueprintGameplay/Developer/BP_DeveloperCodes",
+      "packages": 309,
+      "native_paths": []
+    }
+  ],
+  "main_migration_still_incomplete": true
+}

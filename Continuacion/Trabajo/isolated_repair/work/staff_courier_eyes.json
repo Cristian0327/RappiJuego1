@@ -1,0 +1,58 @@
+{
+  "SK_Cashier": {
+    "removed_eye_faces": 20,
+    "white_width_cm": 7.2,
+    "pupil_width_cm": 4.95,
+    "head_weight": 1.0,
+    "eye_center_z": 1.40625
+  },
+  "SK_Chef": {
+    "removed_eye_faces": 18,
+    "white_width_cm": 7.2,
+    "pupil_width_cm": 4.95,
+    "head_weight": 1.0,
+    "eye_center_z": 1.4962499737739563
+  },
+  "SK_CustomerNeighbor": {
+    "removed_eye_faces": 18,
+    "white_width_cm": 7.2,
+    "pupil_width_cm": 4.95,
+    "head_weight": 1.0,
+    "eye_center_z": 1.4962499737739563
+  },
+  "SK_CustomerOffice": {
+    "removed_eye_faces": 10,
+    "white_width_cm": 7.2,
+    "pupil_width_cm": 4.95,
+    "head_weight": 1.0,
+    "eye_center_z": 1.4850000143051147
+  },
+  "SK_CustomerStudent": {
+    "removed_eye_faces": 20,
+    "white_width_cm": 7.2,
+    "pupil_width_cm": 4.95,
+    "head_weight": 1.0,
+    "eye_center_z": 1.518750011920929
+  },
+  "SK_Florist": {
+    "removed_eye_faces": 18,
+    "white_width_cm": 7.2,
+    "pupil_width_cm": 4.95,
+    "head_weight": 1.0,
+    "eye_center_z": 1.4512500166893005
+  },
+  "SK_Pharmacist": {
+    "removed_eye_faces": 10,
+    "white_width_cm": 7.2,
+    "pupil_width_cm": 4.95,
+    "head_weight": 1.0,
+    "eye_center_z": 1.4850000143051147
+  },
+  "SK_TechClerk": {
+    "removed_eye_faces": 20,
+    "white_width_cm": 7.2,
+    "pupil_width_cm": 4.95,
+    "head_weight": 1.0,
+    "eye_center_z": 1.518750011920929
+  }
+}

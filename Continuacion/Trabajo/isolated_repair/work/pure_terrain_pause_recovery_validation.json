@@ -1,0 +1,36 @@
+{
+  "status": "TARGETED_CHECKS_PASS_FULL_TASK_INCOMPLETE",
+  "checks": {
+    "PureTerrainRuntimeQA2.log": {
+      "matches": [
+        "true"
+      ],
+      "runtime_access_errors": 0
+    },
+    "PurePauseRuntimeQA3.log": {
+      "matches": [
+        [
+          "PAUSED",
+          "true"
+        ],
+        [
+          "RESUMED",
+          "true"
+        ]
+      ],
+      "runtime_access_errors": 0
+    },
+    "PureMissingBusRuntimeQA.log": {
+      "matches": [
+        "true"
+      ],
+      "runtime_access_errors": 0
+    }
+  },
+  "terrain": "Four contact probes, +/-18 degree smoothed pitch/roll, maximum65cm support difference; manual/parked render pose retained",
+  "pause": "Engine HUD voxel panels, Escape phone-close/pause/resume, centered pause, cash/controls, displacement-based vehicle speed",
+  "transit": "Missing bus during approach/ride restores original visible actor to safe platform and waiting state",
+  "custom_cpp_changes": false,
+  "main_map_promoted": false,
+  "all_requested_work_finished": false
+}

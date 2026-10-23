@@ -1,0 +1,46 @@
+[
+  {
+    "model": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_Private",
+    "parent": "/Game/Traffic/Detailed/M_TrafficOpaqueSafe_20261021.M_TrafficOpaqueSafe_20261021",
+    "color": [
+      0.14000000059604645,
+      0.17000000178813934,
+      0.20000000298023224
+    ],
+    "enabled": 1.0,
+    "bodymaterial": "<Object '/Game/Maps/MapaCompleto_Integration.MapaCompleto_Integration:PersistentLevel.BP_Traffic_Private_C_0.Body.MID_M_TrafficOpaqueSafe_0' (0x000001FB3304D800) Class 'MaterialInstanceDynamic'>"
+  },
+  {
+    "model": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateHatch",
+    "parent": "/Game/Traffic/Detailed/M_TrafficOpaqueSafe_20261021.M_TrafficOpaqueSafe_20261021",
+    "color": [
+      0.5600000023841858,
+      0.6000000238418579,
+      0.6499999761581421
+    ],
+    "enabled": 1.0,
+    "bodymaterial": "<Object '/Game/Maps/MapaCompleto_Integration.MapaCompleto_Integration:PersistentLevel.BP_Traffic_PrivateHatch_C_0.Body.MID_M_TrafficOpaqueSafe_0' (0x000001FB3304E000) Class 'MaterialInstanceDynamic'>"
+  },
+  {
+    "model": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSUV",
+    "parent": "/Game/Traffic/Detailed/M_TrafficOpaqueSafe_20261021.M_TrafficOpaqueSafe_20261021",
+    "color": [
+      0.6600000262260437,
+      0.02500000037252903,
+      0.03500000014901161
+    ],
+    "enabled": 1.0,
+    "bodymaterial": "<Object '/Game/Maps/MapaCompleto_Integration.MapaCompleto_Integration:PersistentLevel.BP_Traffic_PrivateSUV_C_0.Body.MID_M_TrafficOpaqueSafe_0' (0x000001FB33040000) Class 'MaterialInstanceDynamic'>"
+  },
+  {
+    "model": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivatePickup",
+    "parent": "/Game/Traffic/Detailed/M_TrafficOpaqueSafe_20261021.M_TrafficOpaqueSafe_20261021",
+    "color": [
+      0.02500000037252903,
+      0.15000000596046448,
+      0.550000011920929
+    ],
+    "enabled": 1.0,
+    "bodymaterial": "<Object '/Game/Maps/MapaCompleto_Integration.MapaCompleto_Integration:PersistentLevel.BP_Traffic_PrivatePickup_C_0.Body.MID_M_TrafficOpaqueSafe_0' (0x000001FB33043000) Class 'MaterialInstanceDynamic'>"
+  }
+]

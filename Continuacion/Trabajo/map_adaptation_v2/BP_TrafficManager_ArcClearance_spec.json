@@ -1,0 +1,1061 @@
+{
+  "nodes": [
+    {
+      "id": "ArcBestAhead",
+      "kind": "get",
+      "var": "ArcBestAhead"
+    },
+    {
+      "id": "ArcBestEntry",
+      "kind": "get",
+      "var": "ArcBestEntry"
+    },
+    {
+      "id": "ArcBestExit",
+      "kind": "get",
+      "var": "ArcBestExit"
+    },
+    {
+      "id": "ArcBestJunction",
+      "kind": "get",
+      "var": "ArcBestJunction"
+    },
+    {
+      "id": "ArcBestGroup",
+      "kind": "get",
+      "var": "ArcBestGroup"
+    },
+    {
+      "id": "ArcBestMovement",
+      "kind": "get",
+      "var": "ArcBestMovement"
+    },
+    {
+      "id": "Junctions",
+      "kind": "get",
+      "var": "Junctions"
+    },
+    {
+      "id": "Reservation",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "ArcJunctionRef"
+    },
+    {
+      "id": "Owned",
+      "kind": "call",
+      "fn": "IsValid",
+      "owner": "/Script/Engine.KismetSystemLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "AlreadyOwned",
+      "kind": "branch"
+    },
+    {
+      "id": "Free",
+      "kind": "return",
+      "defaults": {
+        "ReturnValue": "100000000"
+      }
+    },
+    {
+      "id": "Lane",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "Lane"
+    },
+    {
+      "id": "LaneValid",
+      "kind": "call",
+      "fn": "IsValid",
+      "owner": "/Script/Engine.KismetSystemLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "HaveLane",
+      "kind": "branch"
+    },
+    {
+      "id": "ResetAhead",
+      "kind": "set",
+      "var": "ArcBestAhead",
+      "defaults": {
+        "ArcBestAhead": "100000000"
+      }
+    },
+    {
+      "id": "ResetJunction",
+      "kind": "set",
+      "var": "ArcBestJunction",
+      "defaults": {
+        "ArcBestJunction": "-1"
+      }
+    },
+    {
+      "id": "ArcEntries",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficLane.BP_TrafficLane_C",
+      "var": "ArcEntries"
+    },
+    {
+      "id": "ArcExits",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficLane.BP_TrafficLane_C",
+      "var": "ArcExits"
+    },
+    {
+      "id": "ArcJunctions",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficLane.BP_TrafficLane_C",
+      "var": "ArcJunctions"
+    },
+    {
+      "id": "ArcGroups",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficLane.BP_TrafficLane_C",
+      "var": "ArcGroups"
+    },
+    {
+      "id": "ArcMovements",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficLane.BP_TrafficLane_C",
+      "var": "ArcMovements"
+    },
+    {
+      "id": "Distance",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "Distance"
+    },
+    {
+      "id": "Length",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "HalfLength"
+    },
+    {
+      "id": "RouteLength",
+      "kind": "call",
+      "fn": "RouteLength",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficLane.BP_TrafficLane_C",
+      "defaults": {}
+    },
+    {
+      "id": "Each",
+      "kind": "foreach"
+    },
+    {
+      "id": "Delta",
+      "kind": "call",
+      "fn": "Subtract_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "AheadPositive",
+      "kind": "call",
+      "fn": "Add_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Ahead",
+      "kind": "call",
+      "fn": "FMod",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Closer",
+      "kind": "call",
+      "fn": "Less_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Choose",
+      "kind": "branch"
+    },
+    {
+      "id": "KeepAhead",
+      "kind": "set",
+      "var": "ArcBestAhead",
+      "defaults": {}
+    },
+    {
+      "id": "KeepEntry",
+      "kind": "set",
+      "var": "ArcBestEntry",
+      "defaults": {}
+    },
+    {
+      "id": "ReadArcExits",
+      "kind": "call",
+      "fn": "Array_Get",
+      "owner": "/Script/Engine.KismetArrayLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "KeepArcExits",
+      "kind": "set",
+      "var": "ArcBestExit",
+      "defaults": {}
+    },
+    {
+      "id": "ReadArcJunctions",
+      "kind": "call",
+      "fn": "Array_Get",
+      "owner": "/Script/Engine.KismetArrayLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "KeepArcJunctions",
+      "kind": "set",
+      "var": "ArcBestJunction",
+      "defaults": {}
+    },
+    {
+      "id": "ReadArcGroups",
+      "kind": "call",
+      "fn": "Array_Get",
+      "owner": "/Script/Engine.KismetArrayLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "KeepArcGroups",
+      "kind": "set",
+      "var": "ArcBestGroup",
+      "defaults": {}
+    },
+    {
+      "id": "ReadArcMovements",
+      "kind": "call",
+      "fn": "Array_Get",
+      "owner": "/Script/Engine.KismetArrayLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "KeepArcMovements",
+      "kind": "set",
+      "var": "ArcBestMovement",
+      "defaults": {}
+    },
+    {
+      "id": "NearEnough",
+      "kind": "call",
+      "fn": "Less_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "6500"
+      }
+    },
+    {
+      "id": "HaveIndex",
+      "kind": "call",
+      "fn": "GreaterEqual_IntInt",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "0"
+      }
+    },
+    {
+      "id": "Candidate",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Found",
+      "kind": "branch"
+    },
+    {
+      "id": "Junction",
+      "kind": "call",
+      "fn": "Array_Get",
+      "owner": "/Script/Engine.KismetArrayLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "BodyMargin",
+      "kind": "call",
+      "fn": "Add_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "80"
+      }
+    },
+    {
+      "id": "StopAhead",
+      "kind": "call",
+      "fn": "Subtract_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Now",
+      "kind": "call",
+      "fn": "GetGameTimeInSeconds",
+      "owner": "/Script/Engine.KismetSystemLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Phase",
+      "kind": "call",
+      "fn": "FMod",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "Divisor": "110"
+      }
+    },
+    {
+      "id": "GreenA",
+      "kind": "call",
+      "fn": "Less_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "36"
+      }
+    },
+    {
+      "id": "AfterB",
+      "kind": "call",
+      "fn": "GreaterEqual_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "44"
+      }
+    },
+    {
+      "id": "BeforeB",
+      "kind": "call",
+      "fn": "Less_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "80"
+      }
+    },
+    {
+      "id": "GreenB",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "GroupB",
+      "kind": "call",
+      "fn": "EqualEqual_IntInt",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "1"
+      }
+    },
+    {
+      "id": "GroupA",
+      "kind": "call",
+      "fn": "Not_PreBool",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "AllowA",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "AllowB",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Green",
+      "kind": "call",
+      "fn": "BooleanOR",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "ExitDelta",
+      "kind": "call",
+      "fn": "Subtract_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "ExitAheadPositive",
+      "kind": "call",
+      "fn": "Add_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "ExitAhead",
+      "kind": "call",
+      "fn": "FMod",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "ExitRoom",
+      "kind": "call",
+      "fn": "Add_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "LeaderGap",
+      "kind": "call",
+      "fn": "FollowingClearance",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "defaults": {}
+    },
+    {
+      "id": "ExitClear",
+      "kind": "call",
+      "fn": "Greater_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Pass",
+      "kind": "call",
+      "fn": "RequestArcPass",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficJunction.BP_TrafficJunction_C",
+      "defaults": {}
+    }
+  ],
+  "links": [
+    [
+      "entry",
+      "Visitor",
+      "Reservation",
+      "self"
+    ],
+    [
+      "Reservation",
+      "ArcJunctionRef",
+      "Owned",
+      "Object"
+    ],
+    [
+      "Owned",
+      "ReturnValue",
+      "AlreadyOwned",
+      "Condition"
+    ],
+    [
+      "entry",
+      "then",
+      "AlreadyOwned",
+      "execute"
+    ],
+    [
+      "AlreadyOwned",
+      "then",
+      "Free",
+      "execute"
+    ],
+    [
+      "entry",
+      "Visitor",
+      "Lane",
+      "self"
+    ],
+    [
+      "Lane",
+      "Lane",
+      "LaneValid",
+      "Object"
+    ],
+    [
+      "LaneValid",
+      "ReturnValue",
+      "HaveLane",
+      "Condition"
+    ],
+    [
+      "AlreadyOwned",
+      "else",
+      "HaveLane",
+      "execute"
+    ],
+    [
+      "HaveLane",
+      "else",
+      "Free",
+      "execute"
+    ],
+    [
+      "HaveLane",
+      "then",
+      "ResetAhead",
+      "execute"
+    ],
+    [
+      "ResetAhead",
+      "then",
+      "ResetJunction",
+      "execute"
+    ],
+    [
+      "Lane",
+      "Lane",
+      "ArcEntries",
+      "self"
+    ],
+    [
+      "Lane",
+      "Lane",
+      "ArcExits",
+      "self"
+    ],
+    [
+      "Lane",
+      "Lane",
+      "ArcJunctions",
+      "self"
+    ],
+    [
+      "Lane",
+      "Lane",
+      "ArcGroups",
+      "self"
+    ],
+    [
+      "Lane",
+      "Lane",
+      "ArcMovements",
+      "self"
+    ],
+    [
+      "entry",
+      "Visitor",
+      "Distance",
+      "self"
+    ],
+    [
+      "entry",
+      "Visitor",
+      "Length",
+      "self"
+    ],
+    [
+      "Lane",
+      "Lane",
+      "RouteLength",
+      "self"
+    ],
+    [
+      "ArcEntries",
+      "ArcEntries",
+      "Each",
+      "Array"
+    ],
+    [
+      "ResetJunction",
+      "then",
+      "Each",
+      "Exec"
+    ],
+    [
+      "Each",
+      "Array Element",
+      "Delta",
+      "A"
+    ],
+    [
+      "Distance",
+      "Distance",
+      "Delta",
+      "B"
+    ],
+    [
+      "Delta",
+      "ReturnValue",
+      "AheadPositive",
+      "A"
+    ],
+    [
+      "RouteLength",
+      "ReturnValue",
+      "AheadPositive",
+      "B"
+    ],
+    [
+      "AheadPositive",
+      "ReturnValue",
+      "Ahead",
+      "Dividend"
+    ],
+    [
+      "RouteLength",
+      "ReturnValue",
+      "Ahead",
+      "Divisor"
+    ],
+    [
+      "Ahead",
+      "Remainder",
+      "Closer",
+      "A"
+    ],
+    [
+      "ArcBestAhead",
+      "ArcBestAhead",
+      "Closer",
+      "B"
+    ],
+    [
+      "Closer",
+      "ReturnValue",
+      "Choose",
+      "Condition"
+    ],
+    [
+      "Each",
+      "LoopBody",
+      "Choose",
+      "execute"
+    ],
+    [
+      "Ahead",
+      "Remainder",
+      "KeepAhead",
+      "ArcBestAhead"
+    ],
+    [
+      "Choose",
+      "then",
+      "KeepAhead",
+      "execute"
+    ],
+    [
+      "Each",
+      "Array Element",
+      "KeepEntry",
+      "ArcBestEntry"
+    ],
+    [
+      "KeepAhead",
+      "then",
+      "KeepEntry",
+      "execute"
+    ],
+    [
+      "ArcExits",
+      "ArcExits",
+      "ReadArcExits",
+      "TargetArray"
+    ],
+    [
+      "Each",
+      "Array Index",
+      "ReadArcExits",
+      "Index"
+    ],
+    [
+      "ReadArcExits",
+      "Item",
+      "KeepArcExits",
+      "ArcBestExit"
+    ],
+    [
+      "KeepEntry",
+      "then",
+      "KeepArcExits",
+      "execute"
+    ],
+    [
+      "ArcJunctions",
+      "ArcJunctions",
+      "ReadArcJunctions",
+      "TargetArray"
+    ],
+    [
+      "Each",
+      "Array Index",
+      "ReadArcJunctions",
+      "Index"
+    ],
+    [
+      "ReadArcJunctions",
+      "Item",
+      "KeepArcJunctions",
+      "ArcBestJunction"
+    ],
+    [
+      "KeepArcExits",
+      "then",
+      "KeepArcJunctions",
+      "execute"
+    ],
+    [
+      "ArcGroups",
+      "ArcGroups",
+      "ReadArcGroups",
+      "TargetArray"
+    ],
+    [
+      "Each",
+      "Array Index",
+      "ReadArcGroups",
+      "Index"
+    ],
+    [
+      "ReadArcGroups",
+      "Item",
+      "KeepArcGroups",
+      "ArcBestGroup"
+    ],
+    [
+      "KeepArcJunctions",
+      "then",
+      "KeepArcGroups",
+      "execute"
+    ],
+    [
+      "ArcMovements",
+      "ArcMovements",
+      "ReadArcMovements",
+      "TargetArray"
+    ],
+    [
+      "Each",
+      "Array Index",
+      "ReadArcMovements",
+      "Index"
+    ],
+    [
+      "ReadArcMovements",
+      "Item",
+      "KeepArcMovements",
+      "ArcBestMovement"
+    ],
+    [
+      "KeepArcGroups",
+      "then",
+      "KeepArcMovements",
+      "execute"
+    ],
+    [
+      "ArcBestAhead",
+      "ArcBestAhead",
+      "NearEnough",
+      "A"
+    ],
+    [
+      "ArcBestJunction",
+      "ArcBestJunction",
+      "HaveIndex",
+      "A"
+    ],
+    [
+      "NearEnough",
+      "ReturnValue",
+      "Candidate",
+      "A"
+    ],
+    [
+      "HaveIndex",
+      "ReturnValue",
+      "Candidate",
+      "B"
+    ],
+    [
+      "Candidate",
+      "ReturnValue",
+      "Found",
+      "Condition"
+    ],
+    [
+      "Each",
+      "Completed",
+      "Found",
+      "execute"
+    ],
+    [
+      "Found",
+      "else",
+      "Free",
+      "execute"
+    ],
+    [
+      "Junctions",
+      "Junctions",
+      "Junction",
+      "TargetArray"
+    ],
+    [
+      "ArcBestJunction",
+      "ArcBestJunction",
+      "Junction",
+      "Index"
+    ],
+    [
+      "Length",
+      "HalfLength",
+      "BodyMargin",
+      "A"
+    ],
+    [
+      "ArcBestAhead",
+      "ArcBestAhead",
+      "StopAhead",
+      "A"
+    ],
+    [
+      "BodyMargin",
+      "ReturnValue",
+      "StopAhead",
+      "B"
+    ],
+    [
+      "Now",
+      "ReturnValue",
+      "Phase",
+      "Dividend"
+    ],
+    [
+      "Phase",
+      "Remainder",
+      "GreenA",
+      "A"
+    ],
+    [
+      "Phase",
+      "Remainder",
+      "AfterB",
+      "A"
+    ],
+    [
+      "Phase",
+      "Remainder",
+      "BeforeB",
+      "A"
+    ],
+    [
+      "AfterB",
+      "ReturnValue",
+      "GreenB",
+      "A"
+    ],
+    [
+      "BeforeB",
+      "ReturnValue",
+      "GreenB",
+      "B"
+    ],
+    [
+      "ArcBestGroup",
+      "ArcBestGroup",
+      "GroupB",
+      "A"
+    ],
+    [
+      "GroupB",
+      "ReturnValue",
+      "GroupA",
+      "A"
+    ],
+    [
+      "GroupA",
+      "ReturnValue",
+      "AllowA",
+      "A"
+    ],
+    [
+      "GreenA",
+      "ReturnValue",
+      "AllowA",
+      "B"
+    ],
+    [
+      "GroupB",
+      "ReturnValue",
+      "AllowB",
+      "A"
+    ],
+    [
+      "GreenB",
+      "ReturnValue",
+      "AllowB",
+      "B"
+    ],
+    [
+      "AllowA",
+      "ReturnValue",
+      "Green",
+      "A"
+    ],
+    [
+      "AllowB",
+      "ReturnValue",
+      "Green",
+      "B"
+    ],
+    [
+      "ArcBestExit",
+      "ArcBestExit",
+      "ExitDelta",
+      "A"
+    ],
+    [
+      "Distance",
+      "Distance",
+      "ExitDelta",
+      "B"
+    ],
+    [
+      "ExitDelta",
+      "ReturnValue",
+      "ExitAheadPositive",
+      "A"
+    ],
+    [
+      "RouteLength",
+      "ReturnValue",
+      "ExitAheadPositive",
+      "B"
+    ],
+    [
+      "ExitAheadPositive",
+      "ReturnValue",
+      "ExitAhead",
+      "Dividend"
+    ],
+    [
+      "RouteLength",
+      "ReturnValue",
+      "ExitAhead",
+      "Divisor"
+    ],
+    [
+      "ExitAhead",
+      "Remainder",
+      "ExitRoom",
+      "A"
+    ],
+    [
+      "BodyMargin",
+      "ReturnValue",
+      "ExitRoom",
+      "B"
+    ],
+    [
+      "entry",
+      "Visitor",
+      "LeaderGap",
+      "self"
+    ],
+    [
+      "LeaderGap",
+      "ReturnValue",
+      "ExitClear",
+      "A"
+    ],
+    [
+      "ExitRoom",
+      "ReturnValue",
+      "ExitClear",
+      "B"
+    ],
+    [
+      "Junction",
+      "Item",
+      "Pass",
+      "self"
+    ],
+    [
+      "Junction",
+      "Item",
+      "Pass",
+      "Junction"
+    ],
+    [
+      "entry",
+      "Visitor",
+      "Pass",
+      "Visitor"
+    ],
+    [
+      "StopAhead",
+      "ReturnValue",
+      "Pass",
+      "StopAhead"
+    ],
+    [
+      "ArcBestEntry",
+      "ArcBestEntry",
+      "Pass",
+      "EntryDistance"
+    ],
+    [
+      "ArcBestExit",
+      "ArcBestExit",
+      "Pass",
+      "ExitDistance"
+    ],
+    [
+      "RouteLength",
+      "ReturnValue",
+      "Pass",
+      "RouteLength"
+    ],
+    [
+      "ArcBestMovement",
+      "ArcBestMovement",
+      "Pass",
+      "Movement"
+    ],
+    [
+      "Green",
+      "ReturnValue",
+      "Pass",
+      "Green"
+    ],
+    [
+      "ExitClear",
+      "ReturnValue",
+      "Pass",
+      "ExitClear"
+    ],
+    [
+      "Found",
+      "then",
+      "Pass",
+      "execute"
+    ],
+    [
+      "Pass",
+      "ReturnValue",
+      "result",
+      "ReturnValue"
+    ],
+    [
+      "Pass",
+      "then",
+      "result",
+      "execute"
+    ]
+  ],
+  "parameters": [
+    {
+      "name": "Visitor",
+      "category": "object",
+      "object": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C"
+    },
+    {
+      "name": "ReturnValue",
+      "category": "real",
+      "out": true
+    }
+  ],
+  "pure": false,
+  "const": false
+}

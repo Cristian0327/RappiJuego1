@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Area",
+    "type": "LIGHT",
+    "location": [
+      1.0,
+      -2.0,
+      4.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [],
+    "attributes": []
+  },
+  {
+    "name": "Camera",
+    "type": "CAMERA",
+    "location": [
+      2.5,
+      -3.5,
+      2.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [],
+    "attributes": []
+  },
+  {
+    "name": "SM_BikeStage0",
+    "type": "MESH",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "Voxel_Paint",
+      "Voxel_Steel",
+      "Voxel_Rubber"
+    ],
+    "attributes": [
+      "position",
+      ".edge_verts",
+      ".corner_vert",
+      ".corner_edge",
+      "material_index",
+      "UVMap",
+      ".select_vert",
+      ".select_edge",
+      ".select_poly",
+      "sharp_face",
+      ".uv_select_vert",
+      ".uv_select_edge",
+      ".uv_select_face"
+    ]
+  }
+]

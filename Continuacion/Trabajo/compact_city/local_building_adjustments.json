@@ -1,0 +1,1962 @@
+[
+  {
+    "source": "M049_LOD0 | Norte | Norte | Parque_21_Estanque_Pergolas_Juegos.009",
+    "delta_cm": [
+      -3000,
+      -1400
+    ],
+    "distance_m": 33.1058907144937
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos.014",
+    "delta_cm": [
+      -7900,
+      3000
+    ],
+    "distance_m": 84.50443775329198
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos.005",
+    "delta_cm": [
+      -400,
+      200
+    ],
+    "distance_m": 4.47213595499958
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos.015",
+    "delta_cm": [
+      -7600,
+      6100
+    ],
+    "distance_m": 97.45255255764212
+  },
+  {
+    "source": "M020_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 08.004",
+    "delta_cm": [
+      -4500,
+      -4800
+    ],
+    "distance_m": 65.79513659838392
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos.008",
+    "delta_cm": [
+      0,
+      0
+    ],
+    "distance_m": 0.0
+  },
+  {
+    "source": "M016_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 04.003",
+    "delta_cm": [
+      9000,
+      400
+    ],
+    "distance_m": 90.08884503644167
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos.001",
+    "delta_cm": [
+      -4900,
+      600
+    ],
+    "distance_m": 49.36598018878993
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos",
+    "delta_cm": [
+      5600,
+      1900
+    ],
+    "distance_m": 59.135437767890075
+  },
+  {
+    "source": "M016_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 04.001",
+    "delta_cm": [
+      -600,
+      4000
+    ],
+    "distance_m": 40.44749683231337
+  },
+  {
+    "source": "M055_LOD0 | Norte | Norte | Torre_13_Cristal.001",
+    "delta_cm": [
+      -2600,
+      900
+    ],
+    "distance_m": 27.51363298439521
+  },
+  {
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical.026",
+    "delta_cm": [
+      -3500,
+      800
+    ],
+    "distance_m": 35.90264614203248
+  },
+  {
+    "source": "M088_LOD0 | Occidente | occidente | 06 \u00b7 Iglesia de occidente",
+    "delta_cm": [
+      100,
+      -12300
+    ],
+    "distance_m": 123.00406497347964
+  },
+  {
+    "source": "M114_LOD0 | Oriente | Oriente | 15 \u2022 Torre crema y n\u00facleo oscuro.004",
+    "delta_cm": [
+      0,
+      -100
+    ],
+    "distance_m": 1.0
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.030",
+    "delta_cm": [
+      800,
+      -800
+    ],
+    "distance_m": 11.313708498984761
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.015",
+    "delta_cm": [
+      -1200,
+      600
+    ],
+    "distance_m": 13.416407864998739
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.044",
+    "delta_cm": [
+      -1900,
+      2200
+    ],
+    "distance_m": 29.068883707497267
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.019",
+    "delta_cm": [
+      900,
+      -500
+    ],
+    "distance_m": 10.295630140987
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.029",
+    "delta_cm": [
+      -200,
+      700
+    ],
+    "distance_m": 7.280109889280518
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.042",
+    "delta_cm": [
+      1100,
+      -700
+    ],
+    "distance_m": 13.038404810405298
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.032",
+    "delta_cm": [
+      6400,
+      -3800
+    ],
+    "distance_m": 74.43117626371358
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.033",
+    "delta_cm": [
+      -3300,
+      7000
+    ],
+    "distance_m": 77.38862965578342
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.042",
+    "delta_cm": [
+      900,
+      -1900
+    ],
+    "distance_m": 21.02379604162864
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.014",
+    "delta_cm": [
+      3100,
+      -700
+    ],
+    "distance_m": 31.78049716414141
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.038",
+    "delta_cm": [
+      -4200,
+      1000
+    ],
+    "distance_m": 43.174066289845804
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.001",
+    "delta_cm": [
+      800,
+      0
+    ],
+    "distance_m": 8.0
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.020",
+    "delta_cm": [
+      -600,
+      -600
+    ],
+    "distance_m": 8.48528137423857
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.030",
+    "delta_cm": [
+      -2100,
+      200
+    ],
+    "distance_m": 21.095023109728988
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.031",
+    "delta_cm": [
+      0,
+      500
+    ],
+    "distance_m": 5.0
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.043",
+    "delta_cm": [
+      0,
+      -3600
+    ],
+    "distance_m": 36.0
+  },
+  {
+    "source": "M030_LOD0 | Norte | Norte | Casa_01_Marco_Madera.010",
+    "delta_cm": [
+      4500,
+      500
+    ],
+    "distance_m": 45.27692569068709
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.036",
+    "delta_cm": [
+      200,
+      1000
+    ],
+    "distance_m": 10.198039027185569
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.019",
+    "delta_cm": [
+      300,
+      -1100
+    ],
+    "distance_m": 11.40175425099138
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.026",
+    "delta_cm": [
+      -200,
+      3900
+    ],
+    "distance_m": 39.05124837953327
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.040",
+    "delta_cm": [
+      -2600,
+      -6400
+    ],
+    "distance_m": 69.07966415668217
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.041",
+    "delta_cm": [
+      -1900,
+      -3200
+    ],
+    "distance_m": 37.21558813185679
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.026",
+    "delta_cm": [
+      4700,
+      -1300
+    ],
+    "distance_m": 48.76474136094644
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.024",
+    "delta_cm": [
+      -1200,
+      -6500
+    ],
+    "distance_m": 66.09841147864296
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.035",
+    "delta_cm": [
+      700,
+      -900
+    ],
+    "distance_m": 11.40175425099138
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.035",
+    "delta_cm": [
+      400,
+      100
+    ],
+    "distance_m": 4.123105625617661
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.019",
+    "delta_cm": [
+      600,
+      1300
+    ],
+    "distance_m": 14.317821063276353
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa",
+    "delta_cm": [
+      0,
+      -2400
+    ],
+    "distance_m": 24.0
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.011",
+    "delta_cm": [
+      0,
+      400
+    ],
+    "distance_m": 4.0
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.047",
+    "delta_cm": [
+      -800,
+      -3300
+    ],
+    "distance_m": 33.95585369269929
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.031",
+    "delta_cm": [
+      100,
+      -1100
+    ],
+    "distance_m": 11.045361017187261
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.024",
+    "delta_cm": [
+      400,
+      -100
+    ],
+    "distance_m": 4.123105625617661
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.032",
+    "delta_cm": [
+      -1300,
+      700
+    ],
+    "distance_m": 14.7648230602334
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.051",
+    "delta_cm": [
+      -600,
+      500
+    ],
+    "distance_m": 7.810249675906654
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.029",
+    "delta_cm": [
+      -1700,
+      -100
+    ],
+    "distance_m": 17.029386365926403
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.037",
+    "delta_cm": [
+      700,
+      0
+    ],
+    "distance_m": 7.0
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.010",
+    "delta_cm": [
+      1400,
+      -2400
+    ],
+    "distance_m": 27.784887978899608
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.012",
+    "delta_cm": [
+      -100,
+      1000
+    ],
+    "distance_m": 10.04987562112089
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.019",
+    "delta_cm": [
+      -1600,
+      200
+    ],
+    "distance_m": 16.1245154965971
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.022",
+    "delta_cm": [
+      3400,
+      -2100
+    ],
+    "distance_m": 39.96248240537617
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.021",
+    "delta_cm": [
+      -2000,
+      -700
+    ],
+    "distance_m": 21.18962010041709
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.030",
+    "delta_cm": [
+      0,
+      -200
+    ],
+    "distance_m": 2.0
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.043",
+    "delta_cm": [
+      700,
+      1100
+    ],
+    "distance_m": 13.038404810405298
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.020",
+    "delta_cm": [
+      -700,
+      -1100
+    ],
+    "distance_m": 13.038404810405298
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.023",
+    "delta_cm": [
+      400,
+      1900
+    ],
+    "distance_m": 19.4164878389476
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.039",
+    "delta_cm": [
+      -1100,
+      -1200
+    ],
+    "distance_m": 16.278820596099706
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.033",
+    "delta_cm": [
+      -1800,
+      1000
+    ],
+    "distance_m": 20.591260281974
+  },
+  {
+    "source": "M009_LOD0 | Centro | centro | 02 \u00b7 Casas intermedias \u00b7 04.002",
+    "delta_cm": [
+      0,
+      0
+    ],
+    "distance_m": 0.0
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.022",
+    "delta_cm": [
+      -1600,
+      400
+    ],
+    "distance_m": 16.492422502470642
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.011",
+    "delta_cm": [
+      -1300,
+      800
+    ],
+    "distance_m": 15.264337522473747
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.033",
+    "delta_cm": [
+      -400,
+      -1200
+    ],
+    "distance_m": 12.649110640673518
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.043",
+    "delta_cm": [
+      -200,
+      -700
+    ],
+    "distance_m": 7.280109889280518
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.018",
+    "delta_cm": [
+      2100,
+      -400
+    ],
+    "distance_m": 21.37755832643195
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.033",
+    "delta_cm": [
+      -1900,
+      1300
+    ],
+    "distance_m": 23.021728866442675
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.036",
+    "delta_cm": [
+      -1600,
+      500
+    ],
+    "distance_m": 16.76305461424021
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.007",
+    "delta_cm": [
+      1100,
+      -600
+    ],
+    "distance_m": 12.529964086141668
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.003",
+    "delta_cm": [
+      200,
+      -600
+    ],
+    "distance_m": 6.324555320336759
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.021",
+    "delta_cm": [
+      -800,
+      100
+    ],
+    "distance_m": 8.06225774829855
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.018",
+    "delta_cm": [
+      400,
+      1400
+    ],
+    "distance_m": 14.560219778561036
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.026",
+    "delta_cm": [
+      700,
+      -2200
+    ],
+    "distance_m": 23.08679276123039
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.032",
+    "delta_cm": [
+      -1200,
+      -400
+    ],
+    "distance_m": 12.649110640673518
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.011",
+    "delta_cm": [
+      -1500,
+      -1300
+    ],
+    "distance_m": 19.849433241279208
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.013",
+    "delta_cm": [
+      1800,
+      700
+    ],
+    "distance_m": 19.313207915827967
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.018",
+    "delta_cm": [
+      -1200,
+      -800
+    ],
+    "distance_m": 14.422205101855956
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.019",
+    "delta_cm": [
+      -1800,
+      2300
+    ],
+    "distance_m": 29.206163733020468
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.044",
+    "delta_cm": [
+      700,
+      0
+    ],
+    "distance_m": 7.0
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.050",
+    "delta_cm": [
+      700,
+      0
+    ],
+    "distance_m": 7.0
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.026",
+    "delta_cm": [
+      1300,
+      1900
+    ],
+    "distance_m": 23.021728866442675
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.029",
+    "delta_cm": [
+      -300,
+      -1400
+    ],
+    "distance_m": 14.317821063276353
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.003",
+    "delta_cm": [
+      200,
+      2500
+    ],
+    "distance_m": 25.079872407968907
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.024",
+    "delta_cm": [
+      2900,
+      900
+    ],
+    "distance_m": 30.364452901377952
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.007",
+    "delta_cm": [
+      2000,
+      -1700
+    ],
+    "distance_m": 26.248809496813376
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.007",
+    "delta_cm": [
+      2300,
+      -1300
+    ],
+    "distance_m": 26.419689627245813
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.010",
+    "delta_cm": [
+      2400,
+      -900
+    ],
+    "distance_m": 25.632011235952593
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.043",
+    "delta_cm": [
+      -4000,
+      -2000
+    ],
+    "distance_m": 44.721359549995796
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.021",
+    "delta_cm": [
+      -400,
+      -400
+    ],
+    "distance_m": 5.656854249492381
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.006",
+    "delta_cm": [
+      -2500,
+      1200
+    ],
+    "distance_m": 27.730849247724095
+  },
+  {
+    "source": "M037_LOD0 | Norte | Norte | Casa_08_Chalet_Pizarra.002",
+    "delta_cm": [
+      0,
+      -400
+    ],
+    "distance_m": 4.0
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.038",
+    "delta_cm": [
+      -1600,
+      500
+    ],
+    "distance_m": 16.76305461424021
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.023",
+    "delta_cm": [
+      1100,
+      -700
+    ],
+    "distance_m": 13.038404810405298
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.013",
+    "delta_cm": [
+      900,
+      300
+    ],
+    "distance_m": 9.486832980505138
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.020",
+    "delta_cm": [
+      1600,
+      2500
+    ],
+    "distance_m": 29.68164415931166
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.050",
+    "delta_cm": [
+      0,
+      -1500
+    ],
+    "distance_m": 15.0
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.055",
+    "delta_cm": [
+      -600,
+      1300
+    ],
+    "distance_m": 14.317821063276353
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.012",
+    "delta_cm": [
+      1900,
+      3500
+    ],
+    "distance_m": 39.824615503479755
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.006",
+    "delta_cm": [
+      1800,
+      1100
+    ],
+    "distance_m": 21.095023109728988
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.008",
+    "delta_cm": [
+      2300,
+      -2300
+    ],
+    "distance_m": 32.526911934581186
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.017",
+    "delta_cm": [
+      -2600,
+      1300
+    ],
+    "distance_m": 29.068883707497267
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.030",
+    "delta_cm": [
+      2500,
+      -5500
+    ],
+    "distance_m": 60.41522986797286
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.046",
+    "delta_cm": [
+      -3300,
+      -2900
+    ],
+    "distance_m": 43.93176527297759
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.032",
+    "delta_cm": [
+      -900,
+      0
+    ],
+    "distance_m": 9.0
+  },
+  {
+    "source": "M039_LOD0 | Norte | Norte | Casa_10_Adosados.001",
+    "delta_cm": [
+      1200,
+      700
+    ],
+    "distance_m": 13.892443989449804
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.020",
+    "delta_cm": [
+      1000,
+      3200
+    ],
+    "distance_m": 33.52610922848042
+  },
+  {
+    "source": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.013",
+    "delta_cm": [
+      -900,
+      -1100
+    ],
+    "distance_m": 14.212670403551895
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.003",
+    "delta_cm": [
+      3100,
+      -2200
+    ],
+    "distance_m": 38.01315561749642
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.015",
+    "delta_cm": [
+      -600,
+      2100
+    ],
+    "distance_m": 21.840329667841555
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.027",
+    "delta_cm": [
+      -4400,
+      7000
+    ],
+    "distance_m": 82.68010643437755
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.006",
+    "delta_cm": [
+      -1400,
+      -3300
+    ],
+    "distance_m": 35.84689665786984
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.010",
+    "delta_cm": [
+      400,
+      -700
+    ],
+    "distance_m": 8.06225774829855
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.020",
+    "delta_cm": [
+      -300,
+      2700
+    ],
+    "distance_m": 27.16615541441225
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.041",
+    "delta_cm": [
+      1200,
+      -500
+    ],
+    "distance_m": 13.0
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.037",
+    "delta_cm": [
+      -1100,
+      -600
+    ],
+    "distance_m": 12.529964086141668
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.038",
+    "delta_cm": [
+      500,
+      -3000
+    ],
+    "distance_m": 30.4138126514911
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo",
+    "delta_cm": [
+      -1100,
+      3500
+    ],
+    "distance_m": 36.68787265568828
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.025",
+    "delta_cm": [
+      2300,
+      2500
+    ],
+    "distance_m": 33.97057550292606
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.009",
+    "delta_cm": [
+      -2000,
+      -800
+    ],
+    "distance_m": 21.540659228538015
+  },
+  {
+    "source": "M002_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 03.001",
+    "delta_cm": [
+      -400,
+      -300
+    ],
+    "distance_m": 5.0
+  },
+  {
+    "source": "M004_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 05",
+    "delta_cm": [
+      -800,
+      400
+    ],
+    "distance_m": 8.94427190999916
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.045",
+    "delta_cm": [
+      0,
+      1300
+    ],
+    "distance_m": 13.0
+  },
+  {
+    "source": "M031_LOD0 | Norte | Norte | Casa_02_Ladrillo_Tejado.012",
+    "delta_cm": [
+      5000,
+      1400
+    ],
+    "distance_m": 51.92301994298868
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.018",
+    "delta_cm": [
+      4700,
+      0
+    ],
+    "distance_m": 47.0
+  },
+  {
+    "source": "M033_LOD0 | Norte | Norte | Casa_04_Terrazas_Arena.014",
+    "delta_cm": [
+      -200,
+      100
+    ],
+    "distance_m": 2.23606797749979
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.047",
+    "delta_cm": [
+      0,
+      -1400
+    ],
+    "distance_m": 14.0
+  },
+  {
+    "source": "M037_LOD0 | Norte | Norte | Casa_08_Chalet_Pizarra.006",
+    "delta_cm": [
+      -3400,
+      -1500
+    ],
+    "distance_m": 37.16180835212409
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.011",
+    "delta_cm": [
+      1200,
+      -700
+    ],
+    "distance_m": 13.892443989449804
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.043",
+    "delta_cm": [
+      500,
+      1700
+    ],
+    "distance_m": 17.72004514666935
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.047",
+    "delta_cm": [
+      -700,
+      2500
+    ],
+    "distance_m": 25.96150997149434
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.053",
+    "delta_cm": [
+      600,
+      600
+    ],
+    "distance_m": 8.48528137423857
+  },
+  {
+    "source": "M144_LOD0 | Sur | Sur | 14_Duplex_terrazas.007",
+    "delta_cm": [
+      -1400,
+      -800
+    ],
+    "distance_m": 16.1245154965971
+  },
+  {
+    "source": "M144_LOD0 | Sur | Sur | 14_Duplex_terrazas.013",
+    "delta_cm": [
+      -1000,
+      -900
+    ],
+    "distance_m": 13.45362404707371
+  },
+  {
+    "source": "M105_LOD0 | Oriente | Oriente | 06 \u2022 Casa roja con cubierta gris.005",
+    "delta_cm": [
+      -3600,
+      -6500
+    ],
+    "distance_m": 74.30343195303969
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.016",
+    "delta_cm": [
+      -4000,
+      0
+    ],
+    "distance_m": 40.0
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.010",
+    "delta_cm": [
+      -2900,
+      0
+    ],
+    "distance_m": 29.0
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.025",
+    "delta_cm": [
+      -1800,
+      -4100
+    ],
+    "distance_m": 44.77722635447622
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.007",
+    "delta_cm": [
+      -600,
+      -2100
+    ],
+    "distance_m": 21.840329667841555
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.031",
+    "delta_cm": [
+      -2400,
+      1100
+    ],
+    "distance_m": 26.40075756488817
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.021",
+    "delta_cm": [
+      400,
+      -1700
+    ],
+    "distance_m": 17.46424919657298
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.031",
+    "delta_cm": [
+      -1000,
+      2700
+    ],
+    "distance_m": 28.792360097775937
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.006",
+    "delta_cm": [
+      1800,
+      4500
+    ],
+    "distance_m": 48.46648326421054
+  },
+  {
+    "source": "M153_LOD0 | Sur | Sur | 23_Conjunto_escalonado.003",
+    "delta_cm": [
+      1600,
+      -1000
+    ],
+    "distance_m": 18.867962264113206
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.011",
+    "delta_cm": [
+      3000,
+      -1600
+    ],
+    "distance_m": 34.0
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.034",
+    "delta_cm": [
+      600,
+      -3500
+    ],
+    "distance_m": 35.510561809129406
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.007",
+    "delta_cm": [
+      2400,
+      -2800
+    ],
+    "distance_m": 36.87817782917155
+  },
+  {
+    "source": "M035_LOD0 | Norte | Norte | Casa_06_Garaje_Listones.002",
+    "delta_cm": [
+      1500,
+      -600
+    ],
+    "distance_m": 16.15549442140351
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.007",
+    "delta_cm": [
+      3500,
+      -1300
+    ],
+    "distance_m": 37.33630940518894
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.037",
+    "delta_cm": [
+      600,
+      200
+    ],
+    "distance_m": 6.324555320336759
+  },
+  {
+    "source": "M144_LOD0 | Sur | Sur | 14_Duplex_terrazas.002",
+    "delta_cm": [
+      1800,
+      -2200
+    ],
+    "distance_m": 28.42534080710379
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.017",
+    "delta_cm": [
+      -2900,
+      -2400
+    ],
+    "distance_m": 37.64306044943742
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.012",
+    "delta_cm": [
+      0,
+      0
+    ],
+    "distance_m": 0.0
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.005",
+    "delta_cm": [
+      -3100,
+      -1800
+    ],
+    "distance_m": 35.84689665786984
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.003",
+    "delta_cm": [
+      6000,
+      1300
+    ],
+    "distance_m": 61.39218191268331
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.017",
+    "delta_cm": [
+      4200,
+      500
+    ],
+    "distance_m": 42.2965719651132
+  },
+  {
+    "source": "M004_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 05.003",
+    "delta_cm": [
+      -1600,
+      0
+    ],
+    "distance_m": 16.0
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.016",
+    "delta_cm": [
+      -6100,
+      900
+    ],
+    "distance_m": 61.66036003787198
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.026",
+    "delta_cm": [
+      1100,
+      1300
+    ],
+    "distance_m": 17.029386365926403
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.036",
+    "delta_cm": [
+      100,
+      -100
+    ],
+    "distance_m": 1.4142135623730951
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.046",
+    "delta_cm": [
+      0,
+      3200
+    ],
+    "distance_m": 32.0
+  },
+  {
+    "source": "M031_LOD0 | Norte | Norte | Casa_02_Ladrillo_Tejado.005",
+    "delta_cm": [
+      -500,
+      4500
+    ],
+    "distance_m": 45.27692569068709
+  },
+  {
+    "source": "M033_LOD0 | Norte | Norte | Casa_04_Terrazas_Arena.001",
+    "delta_cm": [
+      300,
+      100
+    ],
+    "distance_m": 3.1622776601683795
+  },
+  {
+    "source": "M033_LOD0 | Norte | Norte | Casa_04_Terrazas_Arena.004",
+    "delta_cm": [
+      1400,
+      -1500
+    ],
+    "distance_m": 20.518284528683193
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.029",
+    "delta_cm": [
+      0,
+      1000
+    ],
+    "distance_m": 10.0
+  },
+  {
+    "source": "M034_LOD0 | Norte | Norte | Casa_05_Villa_Tejas.015",
+    "delta_cm": [
+      3900,
+      -600
+    ],
+    "distance_m": 39.45883931389772
+  },
+  {
+    "source": "M039_LOD0 | Norte | Norte | Casa_10_Adosados.009",
+    "delta_cm": [
+      -1500,
+      -500
+    ],
+    "distance_m": 15.811388300841896
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.012",
+    "delta_cm": [
+      3700,
+      1000
+    ],
+    "distance_m": 38.3275357934736
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.035",
+    "delta_cm": [
+      1600,
+      2500
+    ],
+    "distance_m": 29.68164415931166
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.048",
+    "delta_cm": [
+      -500,
+      4500
+    ],
+    "distance_m": 45.27692569068709
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.002",
+    "delta_cm": [
+      -3100,
+      1000
+    ],
+    "distance_m": 32.57299494980466
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.021",
+    "delta_cm": [
+      3900,
+      700
+    ],
+    "distance_m": 39.6232255123179
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.028",
+    "delta_cm": [
+      -2800,
+      8300
+    ],
+    "distance_m": 87.5956619930462
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.025",
+    "delta_cm": [
+      2600,
+      -3100
+    ],
+    "distance_m": 40.45985664828782
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.003",
+    "delta_cm": [
+      -4700,
+      -1600
+    ],
+    "distance_m": 49.64876634922564
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.031",
+    "delta_cm": [
+      -200,
+      -300
+    ],
+    "distance_m": 3.605551275463989
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.013",
+    "delta_cm": [
+      -3100,
+      0
+    ],
+    "distance_m": 31.0
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.019",
+    "delta_cm": [
+      -1900,
+      500
+    ],
+    "distance_m": 19.6468827043885
+  },
+  {
+    "source": "M035_LOD0 | Norte | Norte | Casa_06_Garaje_Listones.005",
+    "delta_cm": [
+      100,
+      -200
+    ],
+    "distance_m": 2.23606797749979
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.046",
+    "delta_cm": [
+      4100,
+      4100
+    ],
+    "distance_m": 57.982756057296896
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.066",
+    "delta_cm": [
+      300,
+      -2500
+    ],
+    "distance_m": 25.179356624028344
+  },
+  {
+    "source": "M144_LOD0 | Sur | Sur | 14_Duplex_terrazas.004",
+    "delta_cm": [
+      -4000,
+      3500
+    ],
+    "distance_m": 53.150729063673246
+  },
+  {
+    "source": "M030_LOD0 | Norte | Norte | Casa_01_Marco_Madera.001",
+    "delta_cm": [
+      1000,
+      -900
+    ],
+    "distance_m": 13.45362404707371
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.014",
+    "delta_cm": [
+      -2900,
+      1000
+    ],
+    "distance_m": 30.675723300355934
+  },
+  {
+    "source": "M034_LOD0 | Norte | Norte | Casa_05_Villa_Tejas.002",
+    "delta_cm": [
+      500,
+      -500
+    ],
+    "distance_m": 7.0710678118654755
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.030",
+    "delta_cm": [
+      -3100,
+      1600
+    ],
+    "distance_m": 34.88552708502482
+  },
+  {
+    "source": "M103_LOD0 | Oriente | Oriente | 04 \u2022 Casa turquesa y blanca.001",
+    "delta_cm": [
+      800,
+      0
+    ],
+    "distance_m": 8.0
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.028",
+    "delta_cm": [
+      800,
+      -1200
+    ],
+    "distance_m": 14.422205101855956
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.032",
+    "delta_cm": [
+      -1700,
+      -1200
+    ],
+    "distance_m": 20.808652046684813
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.012",
+    "delta_cm": [
+      -2300,
+      -1600
+    ],
+    "distance_m": 28.0178514522438
+  },
+  {
+    "source": "M153_LOD0 | Sur | Sur | 23_Conjunto_escalonado.001",
+    "delta_cm": [
+      -100,
+      -100
+    ],
+    "distance_m": 1.4142135623730951
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.044",
+    "delta_cm": [
+      -3000,
+      -900
+    ],
+    "distance_m": 31.32091952673165
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.024",
+    "delta_cm": [
+      -900,
+      -400
+    ],
+    "distance_m": 9.848857801796104
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.034",
+    "delta_cm": [
+      0,
+      1300
+    ],
+    "distance_m": 13.0
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.056",
+    "delta_cm": [
+      1200,
+      -1600
+    ],
+    "distance_m": 20.0
+  },
+  {
+    "source": "M144_LOD0 | Sur | Sur | 14_Duplex_terrazas.003",
+    "delta_cm": [
+      1300,
+      -3800
+    ],
+    "distance_m": 40.162171256046406
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.024",
+    "delta_cm": [
+      -3500,
+      -1900
+    ],
+    "distance_m": 39.824615503479755
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.004",
+    "delta_cm": [
+      7200,
+      -1900
+    ],
+    "distance_m": 74.46475676452586
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.018",
+    "delta_cm": [
+      100,
+      2800
+    ],
+    "distance_m": 28.0178514522438
+  },
+  {
+    "source": "M134_LOD0 | Sur | Sur | 05_Coral_balcon.003",
+    "delta_cm": [
+      1600,
+      2000
+    ],
+    "distance_m": 25.612496949731394
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.008",
+    "delta_cm": [
+      -1100,
+      1000
+    ],
+    "distance_m": 14.866068747318506
+  },
+  {
+    "source": "M035_LOD0 | Norte | Norte | Casa_06_Garaje_Listones.006",
+    "delta_cm": [
+      -3500,
+      -1600
+    ],
+    "distance_m": 38.48376280978771
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.040",
+    "delta_cm": [
+      -1400,
+      -300
+    ],
+    "distance_m": 14.317821063276353
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.003",
+    "delta_cm": [
+      3900,
+      -2800
+    ],
+    "distance_m": 48.010415536631214
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.026",
+    "delta_cm": [
+      600,
+      -500
+    ],
+    "distance_m": 7.810249675906654
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.065",
+    "delta_cm": [
+      1600,
+      -2300
+    ],
+    "distance_m": 28.0178514522438
+  },
+  {
+    "source": "M105_LOD0 | Oriente | Oriente | 06 \u2022 Casa roja con cubierta gris.004",
+    "delta_cm": [
+      -2900,
+      500
+    ],
+    "distance_m": 29.427877939124322
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.003",
+    "delta_cm": [
+      5900,
+      300
+    ],
+    "distance_m": 59.07622195096772
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.022",
+    "delta_cm": [
+      1900,
+      -1300
+    ],
+    "distance_m": 23.021728866442675
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.022",
+    "delta_cm": [
+      -4100,
+      900
+    ],
+    "distance_m": 41.97618372363071
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.043",
+    "delta_cm": [
+      5500,
+      -100
+    ],
+    "distance_m": 55.00909015790027
+  },
+  {
+    "source": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.002",
+    "delta_cm": [
+      -4400,
+      2400
+    ],
+    "distance_m": 50.11985634456667
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.002",
+    "delta_cm": [
+      -4300,
+      1500
+    ],
+    "distance_m": 45.5411901469428
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.015",
+    "delta_cm": [
+      -1200,
+      0
+    ],
+    "distance_m": 12.0
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.015",
+    "delta_cm": [
+      -5000,
+      -2700
+    ],
+    "distance_m": 56.824290580701486
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.003",
+    "delta_cm": [
+      -3700,
+      -2800
+    ],
+    "distance_m": 46.400431032480725
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.006",
+    "delta_cm": [
+      -4800,
+      300
+    ],
+    "distance_m": 48.093658625644196
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.012",
+    "delta_cm": [
+      -5500,
+      4100
+    ],
+    "distance_m": 68.60029154456998
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.033",
+    "delta_cm": [
+      -3400,
+      1400
+    ],
+    "distance_m": 36.76955262170047
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.021",
+    "delta_cm": [
+      4100,
+      700
+    ],
+    "distance_m": 41.593268686170845
+  },
+  {
+    "source": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.003",
+    "delta_cm": [
+      5400,
+      1100
+    ],
+    "distance_m": 55.10898293381942
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.029",
+    "delta_cm": [
+      -100,
+      -900
+    ],
+    "distance_m": 9.055385138137417
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.003",
+    "delta_cm": [
+      3100,
+      -2300
+    ],
+    "distance_m": 38.600518131237564
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.005",
+    "delta_cm": [
+      -4400,
+      -100
+    ],
+    "distance_m": 44.01136216933077
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.027",
+    "delta_cm": [
+      -2600,
+      700
+    ],
+    "distance_m": 26.92582403567252
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.005",
+    "delta_cm": [
+      4900,
+      -1000
+    ],
+    "distance_m": 50.00999900019995
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.008",
+    "delta_cm": [
+      1900,
+      -3100
+    ],
+    "distance_m": 36.359317925395686
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.009",
+    "delta_cm": [
+      -1400,
+      2100
+    ],
+    "distance_m": 25.238858928247925
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.010",
+    "delta_cm": [
+      -600,
+      4700
+    ],
+    "distance_m": 47.38143096192854
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.057",
+    "delta_cm": [
+      1800,
+      -1300
+    ],
+    "distance_m": 22.20360331117452
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.024",
+    "delta_cm": [
+      2700,
+      -2700
+    ],
+    "distance_m": 38.18376618407357
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.025",
+    "delta_cm": [
+      600,
+      5300
+    ],
+    "distance_m": 53.33854141237835
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.021",
+    "delta_cm": [
+      -1000,
+      -3100
+    ],
+    "distance_m": 32.57299494980466
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.011",
+    "delta_cm": [
+      100,
+      -200
+    ],
+    "distance_m": 2.23606797749979
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.023",
+    "delta_cm": [
+      -1600,
+      1200
+    ],
+    "distance_m": 20.0
+  },
+  {
+    "source": "M039_LOD0 | Norte | Norte | Casa_10_Adosados.006",
+    "delta_cm": [
+      -3400,
+      -3100
+    ],
+    "distance_m": 46.010868281309364
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.032",
+    "delta_cm": [
+      -200,
+      1400
+    ],
+    "distance_m": 14.142135623730951
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.010",
+    "delta_cm": [
+      1400,
+      1100
+    ],
+    "distance_m": 17.804493814764857
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.015",
+    "delta_cm": [
+      0,
+      0
+    ],
+    "distance_m": 0.0
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.018",
+    "delta_cm": [
+      2200,
+      -1000
+    ],
+    "distance_m": 24.166091947189145
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.033",
+    "delta_cm": [
+      -1000,
+      1900
+    ],
+    "distance_m": 21.470910553583888
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.020",
+    "delta_cm": [
+      1900,
+      100
+    ],
+    "distance_m": 19.026297590440446
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.016",
+    "delta_cm": [
+      -3300,
+      -1200
+    ],
+    "distance_m": 35.11409973215888
+  },
+  {
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.006",
+    "delta_cm": [
+      -1700,
+      -2900
+    ],
+    "distance_m": 33.61547262794322
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.028",
+    "delta_cm": [
+      0,
+      0
+    ],
+    "distance_m": 0.0
+  }
+]

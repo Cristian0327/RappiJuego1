@@ -1,0 +1,9 @@
+HERRAMIENTA OPCIONAL DE AUTORIA DE BLUEPRINTS
+
+El proyecto principal BogotaVoxel.uproject abre sin estos modulos.
+Esta carpeta conserva el descriptor con modulos, sus DLLs para UE 5.8 y las fuentes recuperadas de la herramienta.
+Para automatizar graficos mediante unreal.DeliveryEditorLibrary, usar una copia aislada del proyecto, copiar alli este descriptor (nombrado BogotaVoxel.uproject), Binaries y Source, y agregar Herramientas_Grafos al entorno esperado por los scripts.
+No reemplazar el descriptor del juego principal.
+Las DLLs pueden necesitar recompilacion si el otro PC tiene otra compilacion del motor. La fuente recuperada corresponde al retiro de nativos del 19 de octubre; verificar su API antes de recompilar.
+Los scripts dentro de Continuacion/Trabajo contienen rutas absolutas del PC anterior. Adaptarlas antes de ejecutar. Leer CONTINUAR_EN_OTRO_PC.md y no ejecutar todos los scripts como una secuencia unica.
+Python de herramientas: numpy, scipy, shapely y Pillow. Blender usado: 5.2.1 LTS. Unreal usado: 5.8 Windows64.

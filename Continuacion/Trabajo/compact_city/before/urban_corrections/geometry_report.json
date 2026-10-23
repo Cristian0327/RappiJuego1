@@ -1,0 +1,26 @@
+{
+  "asphalt_components": 1,
+  "sidewalk_asphalt_overlap_cm2": 1.6229678514800556e-10,
+  "removed_junction_wedges": 0,
+  "meshes": [
+    {
+      "name": "SM_Bogota_CallesSecundarias",
+      "faces": 37378
+    },
+    {
+      "name": "SM_Mapa_Road_0",
+      "faces": 11160
+    },
+    {
+      "name": "SM_Mapa_Road_1",
+      "faces": 367
+    },
+    {
+      "name": "SM_Mapa_Road_2",
+      "faces": 378
+    }
+  ],
+  "secondary_sidewalk_width_cm": 220,
+  "principal_trace_and_width_preserved": true,
+  "duplicate_source_removed": "B\u00e9zierCurve.013_0"
+}

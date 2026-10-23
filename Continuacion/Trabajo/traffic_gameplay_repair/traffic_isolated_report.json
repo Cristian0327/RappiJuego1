@@ -1,0 +1,8 @@
+{
+  "stations": 7,
+  "compact_station": "BP_BogotaTransmiStation_C_2",
+  "compact_scale_x": 0.5,
+  "station_passengers_adjusted": [],
+  "bus_stop_count": 7,
+  "moving_vehicles_use_oriented_clearance": true
+}

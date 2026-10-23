@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "models": [
+    {
+      "model": "Private",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateHatch",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.18,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateSUV",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivatePickup",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateBeetle",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateRenault4",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.18,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateRenault12",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateSprint",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.18,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateChevette",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateClio",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.18,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivatePicanto",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.18,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateAveo",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateSandero",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateMazda323",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivatePrado",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateVitara",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateRenault9",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateSingleCab",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateVan",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "PrivateWagon",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "TaxiCompact",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.18,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "TaxiSedan",
+      "doors": 2,
+      "wheels": 4,
+      "scale": 1.12,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    },
+    {
+      "model": "TransMilenio",
+      "doors": 2,
+      "wheels": 6,
+      "scale": 1,
+      "checks": "hinge/slide, opposite side, no panel scaling, unaffected wheels, movement safety close, two real headlights"
+    }
+  ],
+  "scope": "Actual Blueprint VM, all23 models; not yet integrated into main traffic"
+}

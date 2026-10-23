@@ -1,0 +1,9 @@
+{
+  "nodes": 2325,
+  "edges": 2381,
+  "homes": 100,
+  "shops": 20,
+  "street_sources": 14,
+  "components": 1,
+  "physical_path_errors": 0
+}

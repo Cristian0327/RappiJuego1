@@ -1,0 +1,1113 @@
+{
+  "request_date": "2026-10-17",
+  "project": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\RappiJuego1",
+  "constraints": [
+    "No GitHub writes",
+    "All gameplay changes in Blueprints",
+    "Elderly AN_CrowdCane unchanged",
+    "Continue until all eleven requests done; user requests no interim messages (developer requires periodic updates)"
+  ],
+  "completed_builds": [
+    "21 upright Mixamo/Blender walk/idle clips imported",
+    "Bike/moto entry and exit 1.15sec, car1.8sec",
+    "Door controller allows automatic selection outside developer mode, opening3.5/s",
+    "Combined WASD/mouse steering with keyboard priority",
+    "Seven SUV/pickup/van rear lamps repaired in Blender and imported",
+    "ABP_DeliveryRider reparented to Engine.AnimInstance, BlueprintUpdateAnimation pure",
+    "BP_RiderAnimationCoordinator restores pure ABP after transitions, aligns rider hands toward vehicle direction",
+    "BP_VisibleTransitPassenger and BP_TransitPresentation compiled, not runtime tested yet",
+    "BP_RiderMotionCoordinator disables old player actor tick and simulates bike motion, wheels, camera follow, visibility in Blueprint",
+    "BP_RiderWorldSafety restores fall rescue, soft city bounds, street-level shop detection and automatic dismount using Blueprint nodes",
+    "Eight shop NPC animation speeds corrected from integer to real; AnimGraphs rebuilt; 16/16 runtime checks passed",
+    "Transit passenger destructor releases legacy ownership; seating rotation interpolates smoothly",
+    "BP_CityGeometry Engine.Actor staging: 29 HISM groups, 13 labels, 16480 instances; exact runtime parity, road collision and no native city actor tests passed",
+    "BP_WorldState Engine.Actor staging: own Blueprint functions for clock, districts, signal phases and paint; 148 Blueprint VM checks passed",
+    "Editor-only BuildLogicGraph supports signature_owner to copy native function parameters into serialized user-defined Blueprint functions; no runtime C++ implementation added",
+    "BP_CityGeometry metadata: 113 building footprints converted to Engine Vector/Vector2D arrays, 7 north roads and5 east roads (no native custom struct)",
+    "Pure weather state VM16 checks, sunny fraction79.7%, lightning/thunder timers and hail thresholds match native behavior",
+    "Main BP_BogotaCity now delegates6 math/core functions and5 climate functions to independent BP_WorldState through compatibility Blueprint wrappers; fallback original Blueprint paths remain for editor CDO calls",
+    "Blueprint enums/struct schema: 3 enums, 6 structs, 42 fields; 3 converted tables, 32 rows, complete field parity; pure SaveGame 10-field serialization roundtrip passed",
+    "BPC_DeliveryDataCore Engine.ActorComponent staging now 26 own functions; typed UDS signature remapping, table lookups, ownership, upgrades, painting and pure profile save/load; 140 query VM checks and93 progress/profile VM checks passed",
+    "BP_DeliveryStore Engine.Actor staging: themed geometry, products, staff, customer population, motion and8 interior lights; own Blueprint methods compiled; 13-theme validation currently diagnosing aisle obstruction",
+    "Pure BP_DeliveryStore now has geometry/theme bootstrap, products, staff, aisle customers, poses, continuous movement, order presentation and 8 interior lights, all Engine.Actor nodes; 13 themes VM47080 passed",
+    "Pure shop runtime test5/5 passed: customers spawn, yield to player, resume when aisle clears, stay at floor and animated foot pose advances; work/PureStoreRuntimeQA.log",
+    "BPC_DeliveryDataCore now41 own functions, including shop queries and marketplace lifecycle/selection; shop queryVM16 passed; route assembler still pending",
+    "Own Blueprint OnChanged dispatcher created, connected and recompilation/VM140+93 repeat passed; wildcard literals restored after pin type resolution in editor authoring helper",
+    "BPC_DeliveryDataCore now41 functions; pure cached route input, reward, idle/init, offer refill/selection/expiration; marketplaceVM29 passed",
+    "ABP_DeliveryRider now depends only on Engine.Character and BPI_RiderAnimationState; fresh registry confirms no /Script/BogotaVoxel dependency; actual rider implements interface in Blueprint; VM3 passed",
+    "AnimationInterfaceRegressionQA18/18 passed with generic animation state interface; no runtime script warnings observed",
+    "Blender posture audit:21 clips,42 legs, no backwards-bending sampled frames; 10 idle clips additionally polished to <=10deg knee flexion, neutral head, grounded mesh vertices",
+    "Compatible role animation roots exported for8 roles*2 clips (Rig_Role required by existing skeletons); all16 role clips plus2 hero/crowd idles actually imported and validated via task.imported_object_paths and exact source duration",
+    "Unreal AnimPose evaluation verifies every frame of18 imported animations in RAW and COMPRESSED modes; correct centimeter scale and <=10.6deg idle knee flexion; cane SHA unchanged",
+    "StandingAnimationRegressionQA34/34 passed after corrected actual role imports:18 hero/vehicle/world checks plus8 role walks+8 role idles",
+    "BPI_DeliveryRiderInput implemented in main rider; main BPC UpdateBoost now reads only Engine owner plus Blueprint interface, removing4 custom native input calls. Pure core has same UpdateBoost, nonnegative delta guard, 42 functions total; VM37 checks passed"
+  ],
+  "last_test": "PrecisionInteractionQA 15/15; IsolatedNpcLifecycleQA four agents completed 7/6/7/6 cycles, 23 riding alignment samples all >0.98; TransitSeatExitMovableQA 4/4; PreciseNpcAnimationQA 16/16; FinalRiderOrientationQA 17/17 incl hero bike/moto facing; RiderSafetyFinalQA4/4; PureCityGeometryQA3/3; PureWorldStateVM148; IntegratedWorldCoreQA18/18; PureDeliveryDataVM140; PureDeliveryProgressVM93; PureStoreAllThemesVM47080; PureStoreRuntime5/5; PureShopQueriesVM16; PureMarketplaceVM29; AnimationInterfaceVM3; AnimationInterfaceRegressionQA18/18; ImportedAnimPoseValidation18 RAW+COMPRESSED; StandingAnimationRegressionQA34/34; BoostInterfaceVM37",
+  "running_test": null,
+  "still_required": [
+    "Finish full Blueprint-only migration: six native bases plus backend/HUD/data/traffic/weather effects dependencies remain; do not remove module or claim completion",
+    "Port Native world simulation and presentation using staged geometry/state; port delivery/UI/rider bases preserving all gameplay",
+    "Review real main-map doors/rear lamps/NPC dismount heading visually",
+    "Clean QA assets after verification, retaining recovery/report data",
+    "Open final project visibly only after completion"
+  ],
+  "important_files": [
+    "work/build_upright_postures.py",
+    "outputs/DeliveryArt/AnimationRebuild/Upright/posture_validation.json",
+    "work/import_upright_postures.py",
+    "work/build_posture_timing_controls.py",
+    "work/build_combined_vehicle_controls.py",
+    "work/migrate_rider_animation_pure_blueprint.py",
+    "work/build_rider_animation_coordinator.py",
+    "work/build_rider_motion_coordinator.py",
+    "work/build_motion_and_runtime_test.py",
+    "work/repair_rear_vehicle_lights.py",
+    "work/build_transit_and_rear_lights.py",
+    "work/build_visible_transit_passenger.py",
+    "work/build_transit_presentation_manager.py",
+    "work/build_transit_blueprints.py",
+    "work/build_player_interaction_runtime_test.py"
+  ],
+  "notes": [
+    "Old hidden editor PID38732 stopped; it caused locked assets; no normal editor now open",
+    "Old native player Tick considers only UDeliveryAnimInstance as ABP, so pure AnimInstance caused warning flood; motion coordinator replaces whole actor tick rather than masking warnings",
+    "Delivery component still ticks and RefreshVehicleArt updates meshes independently of actor tick",
+    "Do not claim complete migration or all eleven done",
+    "Desktop write permission granted this turn; all engine/blender launches require_escalated",
+    "Computer-use skill read earlier version; native app inventory via sky showed no Unreal window (hidden editor); tools node_repl binding sky still may exist",
+    "No subagents authorized",
+    "GetActorTransform Blueprint function is GetTransform; GetComponentsByClass is K2_GetComponentsByClass and PURE; SkinnedAsset is not BlueprintType, use SkeletalMesh and GetSkeletalMeshAsset",
+    "Graph.call cannot take self kwarg because Python self; wire asset reference to self pin instead",
+    "Editor-only authoring helper extended for UDS signature remapping, friendly UDS pins, table nodes, custom Blueprint signatures, MakeArray and dispatchers; runtime C++ sources remain unchanged",
+    "Do not rerun full base store builder without extensions: base resets bootstrap; extension order base, customers, motion, lighting",
+    "Editor Actor.set_editor_property after manually calling ReceiveBeginPlay reruns construction and invalidates dynamic components; use Blueprint fixture setter functions or real game tests. STORE_TRASH components were test harness interference, not a gameplay bug",
+    "Pure store initial movement tests fixed to respect initial waits and copy vector values before comparing; runtime initial resume test moved player outside activity radius, fixed to remain near shop",
+    "Core world route array is a real data input contract; /Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.ResidentialRoutes still needs a pure world route assembler before promotion",
+    "BlueprintInterfaceFactory creates BPI assets; BlueprintFactory.blueprint_type is not writable via Python",
+    "AssetRegistry dependency cache can remain stale immediately after rewriting a loaded asset; verify in fresh process or scan_modified_asset_files. Initial generic ABP direct-dependency assert was stale; fresh read proves no native reference",
+    "Riding NativePlayer property VisibleAnywhere/EditConst blocks Python set_editor_property; use a Blueprint fixture setter for tests",
+    "Do not rerun old native-only rider animation builder; work/migrate_rider_animation_pure_blueprint.py now permanently uses BPI_RiderAnimationState",
+    "Important correction: earlier role upright exports used Armature object name while role skeletons require Rig_Cashier etc; Unreal rejected those imports despite old import script printing PASS. Fixed all16 with CompatibleRoots export; source import_upright_postures now asserts actual imported paths",
+    "Idle Stand polish source files are outputs/DeliveryArt/AnimationRebuild/Upright/Standing; CompatibleRoots contains8 role idle+walk FBXs; import_compatible_role_animations.py reliably validates18 assets; import_standing_idle.py obsolete for roles and must not be reused",
+    "Visual idle before/after inspected: outputs/DeliveryArt/AnimationRebuild/Upright/Standing/Idle_Comparison.png; source style/models unchanged",
+    "Source migrate_delivery_blueprints.py still contains the old UpdateBoost builder; ALWAYS run migrate_boost_input_interface.py after it, or use updated rebuild_pure_subsystems.py pipeline",
+    "Full Blueprint migration still incomplete:6 native bases plus HUD/UI, traffic/weather presentation, input constructors etc. Do not remove modules or claim done. Pure city geometry/state/core/store remain staged except world-state math/weather bridges and generic animation/input interfaces already integrated"
+  ],
+  "native_migration": {
+    "status": "IN_PROGRESS",
+    "native_bases_remaining": 6,
+    "assets_with_native_dependencies": 16,
+    "graphs_with_custom_native_calls": 72,
+    "audit": "work/current_native_dependencies_20261017.json"
+  },
+  "elderly_hash_preserved": true,
+  "staging_assets": {
+    "geometry": "/Game/World/BlueprintWorld/BP_CityGeometry",
+    "world_state": "/Game/World/BlueprintWorld/BP_WorldState",
+    "promotion": "World state core/weather functions integrated through Blueprint compatibility shell; geometry and world effects not promoted; six native bases still remain",
+    "delivery_core": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore",
+    "store": "/Game/Delivery/BlueprintGameplay/Stores/BP_DeliveryStore"
+  },
+  "editor_authoring_source_changed": "RappiJuego1/Source/BogotaVoxelEditor/DeliveryEditorLibrary.cpp: signatures, type remapping, friendly pins, data tables, custom functions, array nodes, delegate calls, late wildcard defaults; editor-only, compiled successfully; runtime C++ unchanged",
+  "boost_interface": {
+    "status": "INTEGRATED",
+    "runtime_main_regression_pending": false,
+    "vm_checks": 37,
+    "report": "work/boost_interface_vm_validation.json",
+    "native_input_calls_removed": 4,
+    "runtime_checks": 34,
+    "runtime_log": "work/PostBoostAnimationQA.log"
+  },
+  "residential_route_assembler": {
+    "status": "STAGING_RUNTIME_VALIDATED",
+    "asset": "/Game/Delivery/BlueprintGameplay/World/BP_ResidentialRouteAssembler",
+    "map": "/Game/QA/PureRouteRuntime",
+    "log": "work/PureRouteRuntimeQA.log",
+    "note": "Editor commandlet world physics traces return no hit; synthetic editor VM fixture is not a valid collision test. Runtime seven assertions added.",
+    "runtime_checks": 7,
+    "report": "work/pure_residential_route_validation.json"
+  },
+  "order_lifecycle": {
+    "status": "STAGING_NOT_PROMOTED",
+    "recipient": "/Game/Delivery/BlueprintGameplay/People/BP_DeliveryRecipient",
+    "builder": "work/extend_pure_order_lifecycle.py",
+    "report": "work/pure_order_lifecycle_validation.json",
+    "vm_checks": 34,
+    "features": [
+      "Pure recipient renderer, three deterministic roles, marker and label",
+      "Pickup marker replacement and cleanup",
+      "CollectOrder, StoreFocusedOrder, SelectActiveOrder, CompleteOrder",
+      "ShopCollect and ShopReady use executed BPI input-state query",
+      "Recipient checks rider, order, state and proximity; duplicate payout blocked"
+    ],
+    "pending": [
+      "Acceptance and held input port",
+      "Full pure player, phone and world traffic integration"
+    ]
+  },
+  "full_city_route_test": {
+    "map": "/Game/QA/PureCityRoutes",
+    "builder": "work/build_pure_city_routes_runtime.py",
+    "stores": 20,
+    "log": "work/PureCityRouteQA.log",
+    "status": "PASS",
+    "report": "work/pure_city_route_validation.json"
+  },
+  "order_acceptance": {
+    "status": "STAGING_VM_VALIDATED",
+    "builder": "work/extend_pure_order_acceptance.py",
+    "fixture": "work/test_pure_order_acceptance.py",
+    "interface": "/Game/Delivery/Interfaces/BPI_DeliveryVehiclePlacement",
+    "main_rider_interface_implementation_pending": true,
+    "vm_checks": 21,
+    "report": "work/pure_order_acceptance_validation.json"
+  },
+  "migration_test_notes": [
+    "Acceptance tests must set component fields and placement through Blueprint fixture functions; Python component.set_editor_property can reconstruct the component and cause false CandidateRoutes=0. Build acceptance and run its VM fixture in SEPARATE fresh commandlets; combined process crashed during Python cleanup.",
+    "Engine input binding classes have no Python wrappers; use DeliveryEditorLibrary.audit_blueprint_input_bindings. Generic ObjectIterator needs Object.get_class explicitly because library CDOs can shadow get_class; protected arrays still require editor reflection audit.",
+    "Pure rider initial animation update occurs before SCS Delivery is assigned. QueryRiderAnimationState now checks IsValid before Vehicle read; original six frame runtime checks passed but had one startup warning. Guarded runtime recheck pending. build_pure_rider_foundation.py permanently updated with this guard.",
+    "Pure phone cloned368 widgets and636 layout values. Replaces56 native ChoiceButtons with UButton and3 native MapWidgets with CanvasPanel placeholders; map drawing still pending. New owned phone navigation29 functions compiled. Vehicle table sort key is ModelIndex, not SortIndex.",
+    "GetPlayerController is PURE; do not exec-link it. UserWidget.SetIsFocusable is not a UFUNCTION in UE5.8; set CDO is_focusable during authoring. KismetInputLibrary has no Key_GetFName; UI key events use EqualEqual_KeyKey with raw key-name pin defaults. Data renderer EmptyLiteral names must differ from text-helper generated EmptyValue nodes."
+  ],
+  "pure_rider": {
+    "status": "STAGING_VM_AND_RUNTIME_VALIDATED",
+    "asset": "/Game/Delivery/BlueprintGameplay/Player/BP_BlueprintRider",
+    "parent": "/Script/Engine.Character",
+    "builder": "work/build_pure_rider_foundation.py",
+    "test": "work/test_pure_rider_foundation.py",
+    "functions": 16,
+    "pending": [
+      "Mount and vehicle simulation",
+      "Phone and menu input",
+      "Developer typed commands",
+      "World traffic/effects integration"
+    ],
+    "main_rider_native_base_unchanged": true,
+    "vm_checks": 28,
+    "runtime_checks": 6,
+    "runtime_report": "work/pure_rider_runtime_validation.json",
+    "frame_builder": "work/enable_pure_rider_frame.py",
+    "frame_status": "STAGING_RUNTIME_PASS",
+    "input_bindings": {
+      "status": "PASS",
+      "axes": 4,
+      "action_edges": 11,
+      "report": "work/pure_rider_input_bindings.json",
+      "builder": "work/bind_pure_rider_inputs.py"
+    },
+    "frame_report": "work/pure_rider_frame.json",
+    "guard_builder": "work/guard_pure_rider_animation_initialization.py",
+    "guard_log": "work/PureRiderGuardedQA.log",
+    "guarded_runtime_result": "6 PASS; no LogScript warnings observed in work/PureRiderGuardedQA.log",
+    "guarded_runtime_report": "work/pure_rider_guarded_runtime_validation.json"
+  },
+  "editor_input_authoring": {
+    "status": "COMPILED",
+    "source": "RappiJuego1/Source/BogotaVoxelEditor/DeliveryEditorLibrary.cpp",
+    "editor_only": true,
+    "runtime_cpp_changed": false,
+    "backup": "Recuperacion_Migracion_Blueprints/2026-10-17_blueprint_input_authoring",
+    "log": "work/build_editor_blueprint_input_audit.log",
+    "audit_includes_ubergraphs": true
+  },
+  "profile_migration": {
+    "status": "PASS",
+    "backup": "Recuperacion_Migracion_Blueprints/2026-10-17_profiles/legacy_profile_backup.json",
+    "isolator": "work/isolate_blueprint_profile_slot.py",
+    "converter": "work/convert_legacy_profile_to_blueprint.py",
+    "legacy_file": "RappiJuego1/Saved/SaveGames/VoxelDelivery_Profile_v1.sav",
+    "new_slot": "VoxelDelivery_Blueprint_Profile_v2",
+    "legacy_main_slot_unchanged": true,
+    "report": "work/blueprint_profile_conversion.json",
+    "slot_isolation_report": "work/pure_profile_isolation.json",
+    "native_v1_unchanged": true,
+    "core_load_validation": "work/converted_profile_core_load_validation.json"
+  },
+  "transitive_dependencies": {
+    "status": "PASS",
+    "roots": 8,
+    "report": "work/pure_transitive_dependency_validation.json",
+    "main_native_bases_still_remaining": 6
+  },
+  "pure_phone": {
+    "status": "STAGING_CORE_DATA_LAYOUT_CONTROLS_COMPILED",
+    "inspector": "work/inspect_phone_designer_tree.py",
+    "report": "work/phone_designer_tree.json",
+    "widget_count": 368,
+    "native_widget_classes_to_replace": {
+      "DeliveryChoiceButton": 56,
+      "DeliveryMapWidget": 3
+    },
+    "editor_authoring_status": "COMPILED",
+    "editor_authoring_source": "RappiJuego1/Source/BogotaVoxelEditor/DeliveryPureWidgetAuthoring.cpp",
+    "designer_report": "work/pure_phone_designer_migration.json",
+    "layout_checks": 636,
+    "designer_widgets": 368,
+    "buttons": 159,
+    "navigation_builder": "work/build_pure_phone_navigation.py",
+    "pending": [
+      "Runtime/visual test",
+      "Map rendering/click targeting",
+      "Garage preview",
+      "Full selected-details/action-availability/highlight polish",
+      "Rider Tab/HUD startup integration"
+    ],
+    "navigation_report": "work/pure_phone_navigation.json",
+    "navigation_functions": 29,
+    "data_builder": "work/extend_pure_phone_data.py",
+    "data_report": "work/pure_phone_data_migration.json",
+    "layout_builder": "work/extend_pure_phone_layout.py",
+    "layout_report": "work/pure_phone_layout_migration.json",
+    "core_builder": "work/integrate_pure_phone_core.py",
+    "core_report": "work/pure_phone_core_integration.json",
+    "controls_builder": "work/bind_pure_phone_controls.py",
+    "controls_report": "work/pure_phone_control_bindings.json",
+    "button_count": 159,
+    "widget_bindings": 161,
+    "runtime_test_builder": "work/build_pure_phone_runtime_test.py"
+  },
+  "phone_continuation_2026_10_17": {
+    "map_compiled": true,
+    "map_visual_issue": "FIXED: removed oversized thick-line fill; MAP00003.png reviewed",
+    "rider_phone_input_edges": 12,
+    "rider_HUD_bootstrap_saved": true,
+    "combined_authoring_process": "Crashed during redundant animation guard recompile after frame save; run fresh processes",
+    "runtime_report": "work/pure_phone_integrated_runtime_validation.json",
+    "runtime_checks_passed": 12,
+    "garage_geometry_components": 116,
+    "garage_render_functions_compiled": true,
+    "garage_phone_integration": "COMPILED + visual reviewed GARAGE00003.png",
+    "main_promoted": false,
+    "map_input_compiled": true,
+    "map_coordinate_checks": 10,
+    "transitive_dependency_roots_passed": 10,
+    "selection_highlights": 56,
+    "purchase_availability_compiled": true,
+    "paint_detection": "Now checks material name as well as slot name; compiled; final visual retest pending",
+    "runtime_log": "work/PureWorldPhoneQA.log"
+  },
+  "pure_world_presentation_continuation": {
+    "asset": "/Game/World/BlueprintWorld/BP_WorldPresentation",
+    "parent": "/Script/Engine.Actor",
+    "components": [
+      "WorldRoot",
+      "Sun",
+      "Ambient",
+      "Fog",
+      "Sky",
+      "StormLightning",
+      "RainMesh",
+      "HailMesh"
+    ],
+    "compiled": [
+      "ApplyLighting",
+      "ReceiveBeginPlay",
+      "ReceiveTick",
+      "UpdateRainDrops",
+      "UpdateHailDrops",
+      "UpdatePrecipitation"
+    ],
+    "sky_runtime_visual": "HOME00003.png reviewed; blue sky and voxel clouds",
+    "rain_instances": 1800,
+    "hail_instances": 200,
+    "rain_root_fixed": true,
+    "pending": [
+      "Dependency closure including presentation",
+      "Full city promotion after remaining systems migrated"
+    ],
+    "main_promoted": false,
+    "runtime_report": "work/pure_world_runtime_validation.json",
+    "runtime_checks_passed": 14,
+    "rendered_test_log": "work/PureWorldOrderedQA.log",
+    "storm_visual": "work/PureWorldVisualQA/RAIN_FOLLOWS_CAMERA00002.png"
+  },
+  "pure_vehicle_art": {
+    "component": "/Game/Delivery/BlueprintGameplay/Vehicles/BPC_VehicleArt",
+    "parking_actor": "/Game/Delivery/BlueprintGameplay/Vehicles/BP_DeliveryTwoWheeler",
+    "model_stage_color_variants_passed": 216,
+    "validation": "work/pure_vehicle_art_validation.json",
+    "pending": [
+      "Pure rider placement interface",
+      "Mount/dismount/motion migration",
+      "Main traffic/NPC migration"
+    ]
+  },
+  "pure_rider_vehicle_continuation": {
+    "placement_report": "work/pure_rider_placement_validation.json",
+    "placement_checks": 10,
+    "compiled_functions": [
+      "ParkingOrigin",
+      "RequestDeliveryVehicle",
+      "RefreshBikeArt",
+      "RefreshMotoArt",
+      "RefreshVehicleArt",
+      "SteeringAngle",
+      "UpdateTwoWheelMotion",
+      "FindDismountLocation",
+      "BeginTwoWheelTransition",
+      "FinishTwoWheelTransition",
+      "UpdateTwoWheelTransition",
+      "MountPressed",
+      "UpdatePedalLocations"
+    ],
+    "mount_duration": 1.15,
+    "post_animation_actor": "/Game/Delivery/BlueprintGameplay/Player/BP_BlueprintRiderAnimationCoordinator",
+    "input_bindings": "4 axes and13 action edges; F/Gamepad left mounted action",
+    "rider_frame_builder": "work/update_pure_rider_vehicle_frame.py",
+    "frame_note": "Use frame-only builder for rider changes; enable_pure_rider_frame.py recompiles core/UI and can crash Python during shutdown after saving. Frame-only passed cleanly.",
+    "runtime_mount_map": "/Game/QA/PureRiderMount",
+    "runtime_mount_test": "15/15 PASS actual runtime after executing impure acceleration node; work/pure_rider_mount_validation.json",
+    "pending": [
+      "Visual/pose transition review and blocked exit case",
+      "Cargo equipment and held phone visuals",
+      "Pause, developer keys, road-car control",
+      "Full native world traffic/walkers migration",
+      "Full-city store/geometry collision usability test: pure stores are now at street level; verify rooms do not overlap baked building volumes before promotion"
+    ],
+    "main_promoted": false,
+    "store_center_collision": "20/20 clear center aisles; doorway corridors still pending"
+  },
+  "native_migration_still_incomplete": true,
+  "pure_traffic_continuation_20261018": {
+    "main_promoted": false,
+    "lane_assets": "/Game/World/BlueprintWorld/Traffic/BP_TrafficLane_0..6",
+    "vehicle_base": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle",
+    "manager": "/Game/World/BlueprintWorld/Traffic/BP_TrafficManager",
+    "models": 23,
+    "population": 100,
+    "taxis": 16,
+    "buses": 4,
+    "verified": {
+      "lanes": "work/pure_traffic_lane_validation.json: 7 lanes / 84 samples persisted and Blueprint VM wrapping",
+      "doors": "work/pure_traffic_doors_validation.json:23 models hinges/slides, scale, opposite side, wheel unaffected, moving safety close",
+      "motion": "work/pure_traffic_movement_validation.json:15 checks incl acceleration cached once, hard stop, negative gap, zero dt, wrap, interpolation, 12 colors and real headlights",
+      "manager": "work/pure_traffic_manager_validation.json:11 checks, 300 steps / 100 cars, no same-lane overlap, idempotent spawn, bounded catchup",
+      "rendered": "work/pure_traffic_rendered_validation.json",
+      "junction_admission": "work/pure_traffic_junction_validation.json:13 checks PASS incl opposing simultaneous passage, exit blocked, red after admission, front vs rear clearance",
+      "junction_lookup": "work/pure_traffic_junction_lookup_validation.json:2302 positions match old35-junction scan",
+      "signal_spatial_300s": "work/pure_traffic_signals_long_validation.json",
+      "doors_after_dirty_optimization": "work/optimize_pure_traffic_closed_doors.log:23 models PASS",
+      "signals_rendered": "work/pure_traffic_signals_rendered_validation.json:3/3 PASS; floating rear lamps found in screenshot and separately corrected",
+      "fitted_lamps_rendered": "work/PureTrafficVisualQA/TRAFFIC00003.png"
+    },
+    "source_order": [
+      "build_pure_traffic_lanes.py",
+      "extend_pure_traffic_road_height.py",
+      "build_pure_traffic_vehicle_foundation.py",
+      "extend_pure_traffic_doors.py",
+      "extend_pure_traffic_paint_lights.py",
+      "extend_pure_traffic_movement.py",
+      "initialize_pure_traffic_vehicle_route.py",
+      "extend_pure_traffic_following.py",
+      "extend_pure_traffic_wheel_pose.py",
+      "build_pure_traffic_manager.py",
+      "integrate_pure_traffic_manager_runtime.py",
+      "build_pure_traffic_junction.py",
+      "extend_pure_traffic_exit_clear.py",
+      "integrate_pure_traffic_signals.py",
+      "optimize_pure_traffic_junction_lookup.py",
+      "build_pure_traffic_spatial_cells.py",
+      "integrate_pure_traffic_spatial_neighbors.py"
+    ],
+    "runtime_map": "/Game/QA/PureTrafficRuntime",
+    "runtime_log": "work/PureTrafficRenderedQA.log",
+    "runtime_status": "3/3 PASS actual street-facing city render; first sky-only camera excluded",
+    "pending": [
+      "Actual rendered performance with signals and spatial cells",
+      "Player/pedestrian obstacle avoidance",
+      "Terrain suspension and collision boxes",
+      "Bus stops/visible passengers; taxi hail; police/civil two-wheelers",
+      "Full NPC navigation/interaction migration",
+      "Main pure map promotion and zero C++ audit"
+    ],
+    "notes": [
+      "Use keyword arguments for Unreal.Rotator: positional form rotated QA camera up and banked headlights; corrected headlight parent templates and builder.",
+      "SetDriveSpeed now authored in movement source, not only in test fixture.",
+      "Source order matters: doors builder overrides BeginPlay; wheel builder restores joint cache.",
+      "Junctions retain admission before actual entry and release only after rear exit; ReservationEntered flag fixes early release.",
+      "SimulateMovement only applies stopping/braking clearance; following headway is computed in manager separately.",
+      "Spatial grid14x10 of6000cm, each agent queries9 neighbors; fixed30Hz snapshots are rebuilt before any movement.",
+      "Signals/spatial logic now compiled; stress repeat not yet reviewed. Main remains hybrid.",
+      "DoorPoseDirty now skips recomputing unchanged closed doors; CacheReferencePose marks dirty. Doors builder still overwrites BeginPlay; always restore wheel builder afterwards.",
+      "The original120s stress omitted editor door caches, repeated properly with caches and spatial grid, then300s clean.",
+      "Main map remains hybrid. Re-run rendered QA with signals/spatial grid; old95-moving assertion must be adapted to legitimate red-light stops.",
+      "Native NPC simulation is expensive to copy literally (864 agents x14 candidate directions). Investigate Engine AI/nav/crowd with Blueprint controllers for full migration; geometry currently built in ReceiveBeginPlay, so static SCS conversion/baking may be needed for editor/nav. No geometry changes yet."
+    ],
+    "baseline_stress": "work/pure_traffic_signals_stress_baseline.json: FAIL186 body overlap samples in120s, all cars progressed, longest idle26s; cross-route shared streets identified. First editor VM harness missed door cache initialization; fixed in test source for repeat.",
+    "current_stress": "PASS: work/pure_traffic_signals_stress_validation.json (120s) and work/pure_traffic_signals_long_validation.json (300s). No body overlaps, every vehicle progressed; max stationary26s; min vehicle travel109117cm at300s.",
+    "rear_lamp_body_fit": {
+      "blender_source": "work/fit_rear_lights_to_body.py",
+      "report": "outputs/DeliveryArt/TrafficDetailed/rear_lights_fitted.json",
+      "importer": "work/import_fitted_rear_lights.py",
+      "import_log": "work/import_fitted_rear_lights.log",
+      "models": 7,
+      "note": "Original rear repair used global minX/maxY including spare tire/mirrors, causing floating clusters. New placements use actual body dimensions and rear roof height, with original-body backing vertices and unchanged bind matrices checked. Recovered originals and prefit assets preserved. Main shared model assets also repaired.",
+      "runtime_review": "PASS: work/PureTrafficFittedLightsQA.log, screenshot work/PureTrafficVisualQA/TRAFFIC00003.png. SUV rear clusters now touch body; floating parts removed;3/3 rendered checks still PASS."
+    }
+  },
+  "pure_navigation_continuation_20261018": {
+    "main_promoted": false,
+    "static_geometry": "work/pure_city_static_components_validation.json:PASS16480instances29groups13labels beforeBeginPlay, exact0coordinate errors, no duplicateBeginPlay",
+    "geometry_builder": "work/bake_pure_city_static_components.py",
+    "geometry_recovery": "Recuperacion_Migracion_Blueprints/2026-10-18_navigation/BP_CityGeometry.uasset",
+    "config": "RappiJuego1/Config/DefaultEngine.ini appended NavigationSystemV1 singleStreetCitizenAgent34radius176height, RecastDynamic, CrowdManager1024; previousconfig backed up alongside geometry",
+    "no_new_cpp_added": true,
+    "nav_bounds_authoring": "EditorActorSubsystem.spawn_actor_from_class(NavMeshBoundsVolume) gives existingCubeBuilder. set_editor_property x/y/z onbuilder rebuilds brush and bounds automatically. NoeditorCpphelper needed. Do not multiplyscaleaftersettingdimensions. Probe repaired to avoid unintendedhuge bounds.",
+    "nav_actor_creation": "RecastNavMesh isNotPlaceable. EditorActorSubsystemspawn returnsNone; omitexplicitspawn, engineAutoCreateNavData viaRuntimeGenerationDynamic andsavedbounds.",
+    "prototype_map": "/Game/QA/PureNavigationPrototype",
+    "prototype_log": "work/PureNavigationPrototypeQA.log",
+    "prototype_state": "PASS actual game: ENGINE_NAVIGATION_PATH_AROUND_WALL=true; runtime dynamic navigation generated without spawning nonplaceableRecastactor.",
+    "source": "work/build_engine_navigation_prototype.py",
+    "qa_graph_notes": "Neveruse graphIDResult (case insensitive collisionwithreservedresult). ConstrefvectorinputstoFindPathToLocationSynchronouslymustbewiredMakeVector; fixedsource.",
+    "future": [
+      "ProveEngineNavruntimebuildandpatharoundobstacle",
+      "Bakecitynavbounds and Building/StoreNavNullmodifiers; sidewalks/road/crosswalkfilters",
+      "CrowdCharacter/ControllerBPs; preserve60currentcatalogmodels and864population,eldercaneunchanged",
+      "Navigation/crowd handlesgeometrylocomotion; taxis/buses/seatedpassengers/mounts remainBlueprintstatefulinteractions",
+      "Playercollisionavoidance and blocked/slowelder stress; allmainnativeclasses remainpending"
+    ],
+    "rotation_correction": "work/pure_component_rotation_correction.json and work/hero_animation_body_axes.json. Pure rider defaultwasPitch-90 duePythonRotator positional args; nowPitch0Yaw-90Roll0. IMPORTANT: doNOTcopy main CDOyaw0: nativeBogotaPlayer.BeginPlay explicitlysetsYaw-90, and allHero clips bodyforward yaw~90. Pure defaults must stayYaw-90. Existing transition restorationYaw-90 is correct. Lightning template corrected toPitch-65Yaw35Roll0 via keywords. Hero animation assets unchanged.",
+    "nav_warning": "CrowdFollowing warning about absent Recast appeared onlyduring prototype shutdown afterquit; investigate with actualCrowdController test before treating itas runtime defect."
+  },
+  "pure_crowd_continuation_20261018": {
+    "no_main_promotion": true,
+    "cane_preservation": "work/cane_preservation_validation.json PASS original SHA unchanged, idle frame0 rate0, walking .95",
+    "source_order": [
+      "build_pure_street_citizen_foundation.py",
+      "build_pure_player_crowd_proxy.py",
+      "build_pure_crowd_routes_models.py",
+      "build_pure_city_navigation.py",
+      "build_pure_crowd_manager.py",
+      "build_pure_city_crowd_qa.py",
+      "fix_pure_crowd_navigation_startup.py",
+      "integrate_existing_blueprint_city_services.py",
+      "build_pure_playable_world_integration.py",
+      "fix_crowd_arrival_and_visibility.py"
+    ],
+    "prototype_results": {
+      "slow_elder_and_stationary_npc": "work/PureCrowdPrototypeQA.log 3/3 PASS",
+      "player_obstacle_proxy": "work/PureCrowdPlayerPrototypeQA.log 3/3 PASS"
+    },
+    "population": 864,
+    "models": 60,
+    "map": "/Game/QA/PureCityCrowd",
+    "navigation": {
+      "building_null_volumes": 86,
+      "road_area_volumes": 12,
+      "bounds": "78000x50000x400 centerZ80",
+      "filter": "BP_NavFilter_Sidewalk excludesBP_NavArea_Road"
+    },
+    "current_city_problem": "RESOLVED: map initially had empty/unrebuilt navigation. BP_CrowdManager.ReceiveBeginPlay projects first sidewalk and invokes engine RebuildNavigation once only when missing. work/PureCityCrowdStartupFixedQA.log 3/3 PASS,864grounded,movementactive. Extra152duplicateNavigationFloor components were removed as unnecessary. OriginalHISM supportsnavafterrebuild.",
+    "pending": [
+      "Fullcity locomotion bug",
+      "Crosswalk signal gating",
+      "LOD/performance",
+      "Vehicle interaction integration",
+      "All six native bases still pending final promotion/removal"
+    ],
+    "reuse_existing_services": "Existing BP_TwoWheelerCitizen/BP_ServiceTrafficCache/BP_PoliceOfficer/BP_VoxelRoadVehicle/BP_VisibleTransitPassenger are already EnginebasedBluePrint with no direct customnative calls in scripts. Reuse/adapt insteadofrebuild. Existing distribute_city_services.py handles24footpolice/24roadagents modelsvariants, but targetsMAIN andshouldnotrununchanged. Developerdoorcontroller andvehicletransition stillnative references.",
+    "editor_pitfalls": [
+      "ObjectIterator yields typeobjects too; guard get_path_name withtry.",
+      "AnimGraph.nodes protected. ActualSequencePlayer UObject editable throughObjectIterator filteredclass==AnimGraphNode_SequencePlayer, pathprefixAnimGraph. Rebuildincrementsnames, chooseminnumeric suffix forfirstidle. ExcludechildAnimGraphNodeBinding objects.",
+      "Castresultpin forenginecomponent uses spaces: AsCrowd Following Component.",
+      "NearlyEqual_FloatFloat takesdouble, notNearlyEqual_DoubleDouble."
+    ],
+    "arrival_fix": "AI acceptance35+capsule34=69cm. Route threshold65wouldleaveallNPCstuckatcorners; changedto90 inbuild_pure_crowd_routes_models.py andactualbaseBlueprint. LODguardsTransitVisualOwnedtag."
+  },
+  "pure_integrated_world_20261018": {
+    "map": "/Game/Maps/Bogota_Blueprint_Integration",
+    "main_promoted": false,
+    "dependency_closure": "work/pure_transitive_dependency_validation.json PASS20roots including playable map and services; nocustomnative dependencies. Mainoldmap/projectmodule stillnative.",
+    "counts": {
+      "street_citizens": 864,
+      "existing_service_characters": 60,
+      "crowd_proxies_for_services": 60,
+      "traffic": 100,
+      "police_on_foot": 24,
+      "road_patrols": 5,
+      "road_motorcycle_agents": 19,
+      "bicycle_motorcycle_owners": 12
+    },
+    "completed_sources": [
+      "integrate_existing_blueprint_city_services.py",
+      "extend_pure_traffic_collision_lights.py",
+      "integrate_pure_traffic_pawn_avoidance.py",
+      "build_pure_developer_codes.py",
+      "build_pure_playable_world_integration.py",
+      "fix_crowd_arrival_and_visibility.py"
+    ],
+    "new_features": [
+      "Reused existing Enginebased Blueprint police/moto/bike lifecycles with fourmale/femaleofficermodels",
+      "Collision boxes on23trafficmodels,1800lumenheadlights,steering amberpoint-light blink (renderreviewpending)",
+      "Traffic ExternalPawnClearance sphere sweep onlyPawn, incorporatedintoNearbyTrafficClearance min,stopsforplayer/services/peds",
+      "TypedESOYAM/LLUVIZNA/LLUVIA/GRANIZO/TORMENTA/SOLEADO/CICLO Blueprintactor with26newActionMappings inDefaultInput;PhoneOpenguard; savesbeforeDev,loadsprofileonexit;CARRO/MORADOnotyet",
+      "PureGameMode spawnsPureRider withphone/orders,WorldPresentation andTrafficManager;PlayerStart cleanedtoone",
+      "CrowdVisibility64agents/.1sec,hidden>180m,farMovementtick.2,near0,animationOnlyWhenRendered/updateoptimizationsfalse"
+    ],
+    "pending": [
+      "Integrated actualgame/render/performance notyettested",
+      "Road car player entry/exit/doors/combinedcontrols andCARRO",
+      "MORADOsafepurplebusspawn",
+      "Busstops/visibleboarding/seatedpassengers",
+      "Taxi hail/entry/destination",
+      "Crosswalkstates/signals",
+      "Cargo/heldphone/pause/fullUIpolish",
+      "Finalpromotion/nativeasset/modulequarantine"
+    ],
+    "warning": "Do not run originaldistribute_city_services.py orplace_two_wheeler_citizens.py unchanged; targetsMAIN. Newintegrator extractsmap-placementbody ontoQAmapwithoutalteringexistingassetdefaults."
+  },
+  "last_continuation_20261018": {
+    "main_map_promoted": false,
+    "custom_cpp_removed": false,
+    "integrated_staging_map": "/Game/Maps/Bogota_Blueprint_Integration",
+    "performance_work": [
+      "15Hz traffic with per-frame interpolation",
+      "Eight far citizens budgeted per frame; nearby citizens native NavWalking",
+      "Local service overlap sensors replace repeated global scans",
+      "Phone layout/HUD update10Hz; closed phone text refresh skipped"
+    ],
+    "latest_measured_frame_seconds": 0.056901,
+    "frame_target_met": false,
+    "transit": "16 persistent waiting passengers placed at4 stations in each staging map;4 bus seats, doorway glass openings;4 boarding and4 alighting checks passed; new pure visual proxy",
+    "pending_major": [
+      "Taxi NPC hail/rear-door/destination",
+      "Crowd crosswalk routes",
+      "HUD visual review/cargo parity/font source portability",
+      "Current integrated performance verification",
+      "Main promotion and custom native module retirement"
+    ],
+    "traffic_simulation_hz": 10,
+    "traffic_render_interpolated_every_frame": true,
+    "traffic_safety_report": "work/pure_traffic_signals_10hz_validation.json",
+    "traffic_safety": "300 simulated seconds; zero body overlaps, all100 progress, maximum idle27sec",
+    "developer_morado": "Compiled, spawn and duplicate-overlap rejection runtime passed; developer-enabled MORADO suffix added",
+    "phone": "Layout/HUD10Hz; full text onlywhenopen; interaction dispatch remains immediate",
+    "crowd_active_radius_cm": 10000,
+    "remaining_status": "INCOMPLETE_DO_NOT_REPORT_ALL_FINISHED",
+    "radius_6000_reverted": true,
+    "passenger_waiting_budget": "0.25sec while waiting/riding, everyframe while approaching; compiled PASS, final integrated performance not rerun",
+    "latest_measurement_scope": "Before passenger waiting budget and before radius restoration; not current performance proof",
+    "next_step": "Read PureIntegratedStableFramesQA.log, inspect new screenshot; it must report180sampled frames after120warmup. Implement taxi NPC lifecycle using new rear doors and AN_CrowdTaxiHail; crosswalk routes; cargo/UI parity; native dependency audit, main promotion and custom module retirement. NO Github.",
+    "rider_spatial_budget": "Store and marketplace queries every0.15sec with accumulated Dt; movement, boost and held interaction everyframe. Pure Blueprint compile PASS work/PureRiderSpatialBudget.log. Runtime validation pending.",
+    "latest_render_attempt": "PassengerBudget render canceled during startup to prioritize implementation; no new performance result.",
+    "manual_road_motion": "Engine Blueprint BP_TrafficVehicle.UpdateManualRoadMotion and SetManualRoadControl compiled. Live game QA forward+steering passed: work/PureManualLiveRuntime.log PURE_MANUAL_LIVE_DRIVE=true. Editor-only VM ground-query tests failed and are retained. Player entry/exit/input binding and road control integration NOT DONE; do not claim full completion.",
+    "road_player_integration": {
+      "status": "PASS",
+      "checks": {
+        "ENTER_REQUEST": "true",
+        "SEATED": "true",
+        "EXIT_REQUEST": "true",
+        "WALKING_RESTORED": "true",
+        "CAR_MOVED": "true",
+        "DOOR_ACTUALLY_OPEN": "true"
+      },
+      "scope": "F action function MountPressed, simulated throttle/steer input, normal car, entry1.8s, drive, braking, exit1.8s, walking recovery",
+      "animation_warnings": 0,
+      "runtime_access_errors": 0,
+      "staging_map": "/Game/Maps/Bogota_Blueprint_Integration",
+      "main_promoted": false,
+      "pending": [
+        "Visible fit of all23models including bus",
+        "Traffic regression with manual leader release",
+        "Taxi NPC service",
+        "Main migration completion"
+      ],
+      "log": "work/PureRoadDoorRegression.log",
+      "checks_count": 6
+    },
+    "road_sources": [
+      "build_pure_manual_road_motion.py",
+      "build_test_pure_manual_road_motion.py",
+      "build_pure_road_interaction.py",
+      "guard_pure_road_animation.py",
+      "finish_pure_road_codes_and_following.py",
+      "build_pure_road_interaction_qa.py"
+    ],
+    "terrain_support": {
+      "status": "RUNTIME_PASS",
+      "source": "work/build_pure_vehicle_terrain_support.py",
+      "log": "work/PureTerrainRuntimeQA2.log",
+      "curb_height_cm": 26,
+      "support_heights_cm": [
+        0,
+        26,
+        0,
+        26
+      ],
+      "preserves_manual_and_parked_pose": true
+    },
+    "pause_hud": {
+      "status": "PAUSE_AND_RESUME_RUNTIME_PASS_VISUAL_PENDING",
+      "source": "work/build_pure_hud_pause.py",
+      "log": "work/PurePauseRuntimeQA3.log",
+      "native_parent": "Engine.HUD",
+      "pause_key": "Escape",
+      "phone_shape_changed": false,
+      "speed_uses_actual_displacement": true
+    },
+    "transit_orphan_recovery": {
+      "status": "RUNTIME_PASS",
+      "source": "work/build_pure_station_passenger.py",
+      "log": "work/PureMissingBusRuntimeQA.log"
+    },
+    "road_active_door_update": "Road interaction advances actual door poses even for cars/buses outside the traffic manager; source fix_pure_road_active_doors.py",
+    "road_exit_upright": "Explicitly clears pitch and roll before restoring walking; fix_pure_road_exit_upright.py",
+    "taxi_rear_doors": {
+      "status": "PASS",
+      "source": "work/build_taxi_rear_doors_blender.py",
+      "import": "work/import_build_pure_taxi_rear_doors.py",
+      "report": "work/font_taxi_rear_validation.json",
+      "physical_right_bone": "door_rear_L (FBX coordinate conversion)",
+      "rotation_degrees": 65,
+      "front_doors_remain_closed": true,
+      "request_function": "BP_TrafficVehicle.RequestRearDoors(Left,Right)",
+      "passenger_service_connected": false
+    },
+    "fonts": {
+      "status": "PASS",
+      "loading_policy": "INLINE",
+      "report": "work/font_taxi_rear_validation.json",
+      "normal_editor_script": "work/finish_font_taxi_rear_validation.py",
+      "note": "Font edits require Slate/full Editor; commandlet editing face source crashed earlier. Both fonts now inline and saved."
+    },
+    "taxi_hail_animation": {
+      "asset": "/Game/Crowd/AN_CrowdTaxiHail",
+      "duration_seconds": 2,
+      "source_blend": "outputs/DeliveryArt/AnimationRebuild/AN_CrowdTaxiHail.blend",
+      "basis": "Existing upright Mixamo idle, adapted arm signal in Blender",
+      "connected_to_service": false
+    },
+    "far_traffic_collision": {
+      "status": "RUNTIME_PASS",
+      "log": "work/PureFarTrafficRuntimeQA.log",
+      "source": "work/fix_pure_far_traffic_collision.py",
+      "effect": "Hidden far cars have collision and indicator/body ticks disabled; near cars restore them."
+    },
+    "hidden_animation_budget": {
+      "status": "COMPILED_RENDER_MEASURED",
+      "source": "work/optimize_pure_hidden_animation_components.py",
+      "effect": "Far citizen mesh tick off; visible near animation full frame; offscreen only-rendered policy; far vehicle poseable meshes sleep",
+      "render_mean_frame_seconds_before_minimap_cache": 0.084834
+    },
+    "minimap_cache": {
+      "source": "work/optimize_pure_minimap_cache.py",
+      "status": "COMPILED_FIRST_RENDER_PASS_STABLE_FRAME_SAMPLE_PENDING",
+      "effect": "Cull and normalize building markers at10Hz; OnPaint draws only cached visible buildings; cached map center used consistently",
+      "first_render_mean_seconds": 0.032979,
+      "warning": "First sample only12 world frames; do not claim target met. Fixed QA now warms120frames and measures180frames; running work/PureIntegratedStableFramesQA.log"
+    },
+    "cpu_profile": {
+      "trace": "work/PureBlueprintCPU.utrace",
+      "summary": "work/PureBlueprintCPUStats.csv",
+      "scope": "NullRHI GameThread at60..80sec; mean CPU frame18.6ms, render-specific overhead suspected in widget paint",
+      "raw_event_csv_deleted": true
+    },
+    "authoring_order_warnings": [
+      "Keep hidden mesh sleep changes in optimize_pure_crowd_active_bubble.py when rebuilding far budget.",
+      "After old phone map/tick builders run optimize_pure_minimap_cache.py last.",
+      "After extend_pure_traffic_doors.py rerun independent rear door UpdateDoorPose builder; its current taxi importer also reimports the two models.",
+      "build_pure_road_interaction.py now contains upright restore AND active door update; do not use older source.",
+      "build_pure_manual_road_motion.py now calls UpdateTerrainSupport; create that function first via build_pure_vehicle_terrain_support.py."
+    ]
+  },
+  "current_taxi_work": {
+    "runtime_log": "work/PureTaxiSafeDropRuntime.log",
+    "models": 12,
+    "source": "work/build_pure_taxi_passenger.py",
+    "status": "RUNTIME_5_OF_5_PASS_AND_PLACED_IN_STAGING",
+    "safety": "Midblock dropoffs >2200cm from intersections; simulation yaw used for curb selection",
+    "scope": "Staging and QA maps only; main not promoted",
+    "placement": "work/place_pure_taxi_passengers.py",
+    "passengers_per_map": 12
+  },
+  "stable_render_validation": {
+    "log": "work/PureIntegratedStableFramesQA.log",
+    "status": "PASS",
+    "mean_seconds": 0.03305,
+    "measured_frames": 180,
+    "warmup_frames": 120
+  },
+  "no_custom_modules_probe": {
+    "main_still_has_modules": true,
+    "checks": "Pure rider, orders,864 crowd,100traffic,30fps threshold alltrue",
+    "project": "work/BlueprintOnlyProbe/BlueprintOnlyProbe.uproject",
+    "log": "work/PureNoCustomModulesRuntime.log",
+    "content_junction": "RappiJuego1/Content",
+    "status": "PASS"
+  },
+  "crosswalk_work": {
+    "source": "work/build_pure_crosswalk_citizen.py",
+    "log": "work/PureCrosswalkRuntime.log",
+    "status": "RUNTIME_PASS_AND_PLACED",
+    "qa": "work/build_pure_crosswalk_qa.py",
+    "design": "Eight-point two-block loop; two distinct crosswalks; native pathfinding; start16..17.5 of32sec phase;240cm/s; elder untouched",
+    "placement": "work/place_pure_crosswalk_citizens.py",
+    "per_map": 12
+  },
+  "migration_promotion": {
+    "mean_frame_seconds": 0.033762,
+    "status": "PROMOTED_RUNTIME_AND_EDITOR_VERIFIED",
+    "archive": "Recuperacion_Migracion_Blueprints/2026-10-19_native_retirement",
+    "startup_map": "/Game/Maps/Bogota_Blueprint_Integration",
+    "modules_removed": true,
+    "runtime": "work/FinalBlueprintIntegratedRuntime.log",
+    "github_untouched": true,
+    "strict_30fps_threshold_pass": false,
+    "fps": 29.62,
+    "checks": "rider/orders864crowd100traffic passed; no Accessed None",
+    "source_and_binaries_archived": true,
+    "native_packages_archived": 26,
+    "profile": "Existing v2 preserved newer than v1",
+    "remaining": "No exhaustive guarantee of zero bugs; measured rendered mean29.62fps slightly below strict30fps threshold",
+    "editor_map_check": "0 errors,0 warnings; work/FinalBlueprintEditorOpen2.log",
+    "editor_language": "en",
+    "temporary_native_target_fix": "Removed disabled AndroidFileServer override that forced a temporary C++ build; archived old Intermediate/Build and Intermediate/Source"
+  },
+  "current_movement_performance_20261019": {
+    "status": "MOVEMENT_VERIFIED_PERFORMANCE_IMPROVED_STRICT_MINIMUM_UNMET",
+    "block": null,
+    "verified": [
+      "Hero uses NPC Mixamo Walk adapted to hero skeleton; SharedHeroWalkRuntime3/3 passed; elder unchanged",
+      "Four riders alignment1.0 isolated test",
+      "Three cyclist obstacle scenarios passed",
+      "Proxy crowd regression3/3 passed",
+      "100 skeletal models have3LODs",
+      "Junction query cached geometry matches35junction reference2302positions",
+      "Latest snapshot direction traffic120second regression passed100vehicles no overlaps or indefinite stops"
+    ],
+    "runtime_blueprints_only": true,
+    "last_verified_1080p_mean_frame_seconds": 0.015646,
+    "last_verified_1080p_mean_fps": 63.91,
+    "target60_met": false,
+    "excluded_measurement": "Earlier66fps measurement was888x500, not1080p; do not present as1080p",
+    "running_log": null,
+    "pending": [
+      "Strict minimum60FPS not achieved:27.2percent of500sample frames exceeded16.667ms; no guarantee on arbitrary hardware"
+    ],
+    "average60_met": true,
+    "final_report": "RappiJuego1/Docs/CORRECCIONES_MOVIMIENTO_RENDIMIENTO_20261019.md",
+    "performance_detail": "work/performance60_final_csv_summary.json;1080p100percent;600frame observer63.91FPS;500frameCSV66.31FPS;p95=26.80ms;p99=33.68ms;worst43.05ms"
+  },
+  "latest_bicycle_walk_patrol_20261019": {
+    "status": "FOUR_REQUESTED_FIXES_RUNTIME_VERIFIED",
+    "requests": [
+      "Remove officer inside patrol and make windows like other cars",
+      "Hero walking same as NPCs",
+      "Bicycle spawns at startup",
+      "Forward pedaling for hero and NPCs"
+    ],
+    "checks": {
+      "STARTER_BIKE_EXISTS": true,
+      "STARTER_IS_BICYCLE": true,
+      "NPC_WALK_AND_NORMAL_PACE": true,
+      "F_MOUNTS_SPAWNED_BIKE": true,
+      "HERO_FORWARD_PEDAL_PHASE": true,
+      "NPC_FORWARD_PEDAL_PHASE": true,
+      "FOOT_FRONT_MOVES_DOWN": true,
+      "F_DISMOUNT_LEAVES_BICYCLE": true
+    },
+    "patrols_removed_main": 5,
+    "patrol_default_class": "BP_PoliceRoadPatrol",
+    "glass": "SK_PolicePatrol Window slot uses opaque M_ServiceVoxel with original pixel atlas",
+    "walking": "Hero AN_Walk_InPlace.rate_scale equals NPC AN_CrowdWalk_Mixamo.rate_scale2.7050509; normal speed140cm/s, sprint390cm/s; ABP WalkRate speed/140, max3; elder unchanged",
+    "pedals": "Original raw clips intentionally unchanged. Hero and NPC samplers run1-fraction; NPC crank angle negative. Initial bike pose frozen until movement. Do not also reverse raw assets.",
+    "starter_bicycle": "BP_StarterBicycle waits for BlueprintReady; chooses bicycle for initial parked vehicle, requests validated placement and destroys itself after successful spawn; owned purchases preserved",
+    "source_order": [
+      "fix_bicycle_walk_and_empty_patrol.py",
+      "finalize_bike_start_and_qa.py"
+    ],
+    "runtime_log": "work/BikePatrolCorrectionsFinalRuntime.log",
+    "foot_score": -1286.599487,
+    "no_accessed_none": true,
+    "no_custom_runtime_cpp": true,
+    "github_untouched": true,
+    "previous_performance_limit": "Minimum constant60FPS remains unmet; previous benchmark precedes these latest changes; not rerun for this focused fix"
+  },
+  "latest_mount_run_camera_20261019": {
+    "status": "IMPLEMENTED_AND_TESTED",
+    "date": "2026-10-19",
+    "request": "Eight mounting, running, orientation, developer, bus, controls and camera corrections",
+    "checks": {
+      "STARTER_BIKE_EXISTS": true,
+      "STARTER_IS_BICYCLE": true,
+      "NPC_WALK_AND_NORMAL_PACE": true,
+      "F_MOUNTS_SPAWNED_BIKE": true,
+      "HERO_FORWARD_PEDAL_PHASE": true,
+      "NPC_FORWARD_PEDAL_PHASE": true,
+      "FOOT_FRONT_MOVES_DOWN": true,
+      "F_DISMOUNT_LEAVES_BICYCLE": true,
+      "DISMOUNT_BODY_FACES_FORWARD": true,
+      "SPRINT_USES_RUN_ANIMATION": true,
+      "CAMERA_PITCH_AND_ROLL_LIMITS": true,
+      "ESOYAM_F_ENTERS_CAR_WITHOUT_CARRO": true,
+      "MOUSE_LOOK_DOES_NOT_STEER_CAR": true
+    },
+    "runtime_log": "work/RequestedFixesRuntime7.log",
+    "purple_runtime_log": "work/PurpleVisualRuntime3.log",
+    "purple_visual": "work/PureIntegratedVisualQA/PURPLE_BUS00043.png",
+    "mixamo_run": "Unarmed Run Forward.fbx -> outputs/DeliveryArt/Mixamo/Run.fbx -> AN_Run_Mixamo",
+    "run_blueprint": "ABP_DeliveryRiderRun",
+    "mount_duration_seconds": 0.68,
+    "dismount_body_forward_dot": 0.996837,
+    "mesh_basis": "MakeRotator(-90 yaw) wired explicitly; named rotator literals had silently become zero",
+    "effective_sources": [
+      "fix_requested_controls.py",
+      "fix_requested_animations.py",
+      "ensure_requested_player_services.py",
+      "fix_morado_actual_g66_model.py",
+      "finalize_pose_cache_and_mixamo_run.py",
+      "fix_explicit_rider_mesh_basis.py"
+    ],
+    "camera": "Spring arm collision sphere24; pitch -55..15; roll0; visible NPC capsules block camera; player mesh hides under115cm; long bus arm clearance",
+    "controls": "WASD move/drive; mouse orbit only; foot basis latched during held input",
+    "runtime_cpp": false,
+    "github_untouched": true,
+    "validation_limits": "Focused regression, not an exhaustive every-obstacle or every-vehicle simulation. No new FPS guarantee. Startup showed low-memory skeletal compilation warnings."
+  },
+  "latest_camera_rollback_sprint_20261019": {
+    "status": "IMPLEMENTED_AND_TESTED",
+    "date": "2026-10-19",
+    "request": "Restore previous camera appearance and make sprint visibly faster",
+    "camera": "Original430/530/interior240 arm, smoothing3, camera lag, offset45/70, FOV75/78, target offset0, native pitch/roll ranges, probe12; removed added camera blocker and body hiding",
+    "walk_cm_s": 140,
+    "sprint_cm_s": 650,
+    "run_clip": "/Game/VoxelExplorer/AN_Run_Mixamo",
+    "source": "Mixamo Unarmed Run Forward, retargeted Upright/AN_HeroRun_Rebuilt.fbx",
+    "run_asset_rate": 1.5,
+    "run_rate_reference_cm_s": 650,
+    "previous_run_asset_rate": 3.0776193141937256,
+    "checks": {
+      "NORMAL_WALK_140": true,
+      "SPRINT_650_USES_MIXAMO": true,
+      "RUN_CADENCE_MATCHES_SPEED": true,
+      "ORIGINAL_CAMERA_FRAMING_AND_LAG": true,
+      "ORIGINAL_CAMERA_PITCH_RANGE": true,
+      "SHIFT_RELEASE_RETURNS_TO_WALK": true
+    },
+    "runtime_log": "work/CameraRollbackSprintRuntime.log",
+    "proof": "work/PureIntegratedVisualQA/CAMERA_RESTORED_RUN00000.png",
+    "sources": [
+      "restore_camera_and_fix_run_speed.py",
+      "build_camera_rollback_sprint_qa.py"
+    ],
+    "runtime_cpp": false,
+    "github_untouched": true,
+    "notes": "Supersedes camera and390cm/s sprint settings in latest_mount_run_camera_20261019; retains pose correction and WASD/mouse separation. Focused validation only, no new FPS benchmark."
+  },
+  "latest_standard_third_person_controls_20261019": {
+    "status": "IMPLEMENTED_AND_TESTED",
+    "date": "2026-10-19",
+    "request": "Rebuild WASD and camera as standard third-person controls",
+    "foot": "WASD relative to CURRENT camera yaw on every axis event; native normalized diagonal speed; body faces movement with540deg/s turn; mouse orbit does not turn idle body",
+    "vehicles": "W/S throttle/brake/reverse; A/D steering; mouse free look; camera softly recenters behind vehicle after1.5sec without look input while driving",
+    "camera_framing": "Previous restored composition retained; spring arm follows controller yaw/pitch, excludes roll and rotational lag",
+    "removed_behavior": "Cached input direction InputBasisYaw/InputBasisValid no longer used",
+    "walk_cm_s": 140,
+    "sprint_cm_s": 650,
+    "checks": {
+      "W_FOLLOWS_CAMERA_ZERO": true,
+      "BODY_FACES_MOVEMENT": true,
+      "HELD_W_FOLLOWS_NEW_CAMERA_YAW": true,
+      "LOOK_ALONE_DOES_NOT_TURN_BODY": true,
+      "S_BACKWARD_IGNORES_CAMERA_PITCH": true,
+      "A_IS_CAMERA_LEFT": true,
+      "D_IS_CAMERA_RIGHT": true,
+      "DIAGONAL_HAS_SAME_WALK_SPEED": true,
+      "SPRINT_650_MIXAMO_PRESERVED": true,
+      "MOUNTING_PRESERVED": true,
+      "VEHICLE_MOUSE_LOOK_DOES_NOT_STEER": true,
+      "VEHICLE_FREE_LOOK_HAS_DELAY": true,
+      "KEYBOARD_STEERS_VEHICLE": true,
+      "VEHICLE_CAMERA_SOFT_RECENTERS": true
+    },
+    "runtime_log": "work/StandardControlsRuntime.log",
+    "sources": [
+      "rebuild_standard_third_person_controls.py",
+      "build_standard_controls_qa.py"
+    ],
+    "runtime_cpp": false,
+    "github_untouched": true,
+    "validation_scope": "14 focused actual-game regressions; no new FPS benchmark or exhaustive world audit"
+  },
+  "latest_car_entry_yield_20261019": {
+    "status": "IMPLEMENTED_AND_TESTED",
+    "date": "2026-10-19",
+    "checks": {
+      "ESOYAM_F_ENTERS_CAR_WITHOUT_CARRO": true,
+      "SEATED_FACES_CAR_FORWARD": true,
+      "PELVIS_INSIDE_CABIN": true,
+      "EXIT_RESTORES_ON_FOOT": true,
+      "TRAFFIC_STOPS_FOR_PLAYER": true,
+      "TRAFFIC_RESUMES_AFTER_CROSSING": true,
+      "PLAYER_BEHIND_DOES_NOT_BLOCK": true
+    },
+    "runtime_cpp": false,
+    "github_untouched": true,
+    "scope": "Focused real-game entry, seated facing/cabin placement, exit, crossing stop/resume and rear false-positive regression",
+    "runtime_log": "work/CarEntryYieldRuntime2.log"
+  },
+  "latest_closed_cabin_20261019": {
+    "status": "IMPLEMENTED_AND_TESTED",
+    "date": "2026-10-19",
+    "checks": {
+      "ESOYAM_F_ENTERS_CAR_WITHOUT_CARRO": true,
+      "SEATED_FACES_CAR_FORWARD": true,
+      "PELVIS_INSIDE_CABIN": true,
+      "DRIVER_HIDDEN_INSIDE_CLOSED_CABIN": true,
+      "EXIT_RESTORES_ON_FOOT": true,
+      "DRIVER_VISIBLE_AFTER_EXIT": true,
+      "TRAFFIC_STOPS_FOR_PLAYER": true,
+      "TRAFFIC_RESUMES_AFTER_CROSSING": true,
+      "PLAYER_BEHIND_DOES_NOT_BLOCK": true
+    },
+    "seat_root_car_cm": 85,
+    "seat_root_bus_cm": 205,
+    "closed_cabin": "Hero mesh and attached children hidden when inside; restored during exit and on foot. Existing opaque windows retained",
+    "runtime_cpp": false,
+    "github_untouched": true,
+    "runtime_log": "work/ClosedCabinRuntime.log"
+  },
+  "latest_transit_sides_accordion_20261019": {
+    "status": "IMPLEMENTED_AND_TESTED",
+    "date": "2026-10-19",
+    "checks_passed": 43,
+    "runtime_checks": 39,
+    "articulation_editor_vm_checks": 4,
+    "mount_sides": "Player side detected before snapping; matching mirrored animation and55cm anchor compensation; left/right bicycle/motorcycle and rotated orientation tested",
+    "transit": "Optimized manager restored ExternalPawnClearance and TransitStopClearance;18second dwell;4passengers boarded visibly and alighted",
+    "articulation": "Blender accordion skin distributed between front/rear; trailer axle follows world hitch position, clamped42degrees, resets after teleport and straightens after curve",
+    "developer": "ESOYAM then F near bus; both sides and along-body approach, driving/exit/cabin tested",
+    "car_entry": "Two-sided Mixamo-derived entry, correct inward facing, smooth translation,1.3second transition, closed cabin retained",
+    "runtime_cpp": false,
+    "github_untouched": true,
+    "logs": [
+      "work/TransitMountSidesRuntime2.log",
+      "work/DeveloperBusRoadRuntime.log",
+      "work/accordion_following_validation.json"
+    ]
+  },
+  "latest_solid_vehicles_npc_20261020": {
+    "date": "2026-10-20",
+    "runtime_log": "work/SolidWorldRuntimeFinal.log",
+    "checks_passed": 15,
+    "seated_passengers": 4,
+    "alighting_orientation_restored": 4,
+    "npc_recovery_checks": 3,
+    "opaque_materials_checked": 4,
+    "runtime_cpp_added": false,
+    "github_changed": false,
+    "original_atlas_shader_preserved": true,
+    "visual_limitation": "Isolated open-door gallery shows apparent deformation; not certified visually. No claim of complete bug-free world."
+  },
+  "latest_comfortable_drive_doors_20261020": {
+    "date": "2026-10-20",
+    "status": "PASS",
+    "car_top_speed_cm_s": 1000,
+    "car_top_speed_kmh": 36,
+    "car_reverse_cm_s": 250,
+    "car_acceleration_cm_s2": 250,
+    "car_brake_cm_s2": 700,
+    "car_coast_deceleration_cm_s2": 380,
+    "car_steering_max_degrees": 22,
+    "car_steering_interpolation": 4,
+    "moto_top_speed_cap_cm_s": 1000,
+    "moto_acceleration_cm_s2": 220,
+    "moto_brake_cm_s2": 650,
+    "moto_reverse_cap_cm_s": 220,
+    "moto_turn_rate_max_deg_s": 38,
+    "door_cause": "Generated skeletal LOD reduction damaged rigid panels and UVs",
+    "door_fix": "Blueprint CacheReferencePose selects original vehicle LOD before caching door/wheel bones",
+    "door_models_verified": 23,
+    "blueprint_vm_checks": 51,
+    "actual_runtime_drive_pass": true,
+    "visual_gallery_verified": true,
+    "runtime_cpp_added": false,
+    "github_changed": false,
+    "optimization_note": "Preserved world culling, active crowd bubble and wheel tick throttling; authored full detail for traffic meshes avoids damaged reduced geometry",
+    "evidence": [
+      "work/drive_doors_validation.json",
+      "work/ComfortDrive_PureManualRoadLive.log",
+      "work/ComfortDrive_SolidVehiclesGallery.log",
+      "work/SolidVehicleVisualQA/ISOLATED.png"
+    ]
+  },
+  "latest_vehicle_usability_20261020": {
+    "date": "2026-10-20",
+    "status": "FUNCTIONAL_PASS_PERFORMANCE_TARGET_NOT_MET",
+    "vm_checks": 14,
+    "runtime_checks": 30,
+    "runtime_failures": [],
+    "dismount": "Both sides use a .85s smoothstep transition across its whole duration; entry stays .68s",
+    "animation": "Hero pose updates every frame without update-rate skipping",
+    "camera": "Post-physics boom, road movement prerequisite, 650cm arm and170cm height",
+    "taxi": "20s hail timeout plus12s idle cooldown; approaching taxi progresses before braking near pickup;20s pickup recovery",
+    "road_motorcycles": "4 road riders constrained by lane-direction guard, zero curb step and no RVO sidewalk push;4 checks passed including rider orientation; no teleport",
+    "parked_bike": "Pawn-channel query body enabled only when parked; actual traffic detection/release passed",
+    "stations": "16 waiting slots spaced160cm; one doorway owner per bus; original collision restored after proxy; no reboarding same bus",
+    "rendering": "FXAA,60FPS adaptive GPU target,70-100percent primary resolution; original translucency and postprocess quality retained; full-resolution UI",
+    "profiling_windowed_1080p": {
+      "map": "/Game/Maps/Bogota_Blueprint_Integration",
+      "sample_frames": 600,
+      "FrameTime": 21.8937,
+      "FrameTime_p95": 42.0899,
+      "GameThreadTime": 20.3189,
+      "GPUTime": 4.633,
+      "DynamicResolutionPercentage": 100,
+      "average_fps_equivalent": 45.68,
+      "F1_25_running": false,
+      "valid_as_project_only_benchmark": true,
+      "remaining_bottleneck": "CPU actor ticks; Exclusive/GameThread/TickActors mean10.60ms; CharacterMovement2.82ms",
+      "csv": "work/RequestedFixesIsolated6/Saved/Profiling/CSV/Profile(20261020_133406).csv"
+    },
+    "fps_scope": "Measured local city at1920x1080 after F1 closure;60FPS stable target not met. No guarantee for arbitrary hardware.",
+    "runtime_cpp_added": false,
+    "github_changed": false,
+    "evidence": [
+      "work/vehicle_usability_vm.json",
+      "work/VehicleUsabilityFinalWindowed.log",
+      "work\\RequestedFixesIsolated6\\Saved\\Profiling\\CSV\\Profile(20261020_124239).csv",
+      "work/motorcycle_road_guard_validation.json",
+      "work/CityUncontended.log"
+    ],
+    "profiling_contaminated_by_external_game": {
+      "process": "F1_25.exe",
+      "pid": 37388,
+      "external_gpu_utilization_percent": 58,
+      "measured_with_unreal_closed": true
+    },
+    "functional_checks_total": 44
+  },
+  "mount_regression_20261020": {
+    "status": "BLUEPRINT_COMPILED_RUNTIME_CHECKS_PASS",
+    "scope": "Hero bicycle/motorcycle transition regression",
+    "entry": "Restored original approach curve clamp(progress/.3); .68s duration; original animation and side selection preserved",
+    "exit": "Separate late smoothstep translation over normalized .35-.95; .85s duration; reverse clip and validated exit location preserved",
+    "runtime_checks": 22,
+    "runtime_errors": [],
+    "visual_scope": "Runtime state and side checks passed; these do not establish visual clearance for every camera/obstacle configuration",
+    "evidence": [
+      "work/MountRegressionPatch.log",
+      "work/MountRegressionRuntime.log"
+    ],
+    "runtime_cpp_added": false
+  },
+  "mount_camera_visual_fix_20261020": {
+    "status": "VISUALLY_REPRODUCED_AND_FIXED",
+    "root_cause": "ParkedTrafficBody used Pawn profile blocking Camera; springarm collapsed inside hero while parked bike was visible during mount",
+    "fix": "Blueprint SetRidden explicitly ignores ECC_Camera after changing collision mode; ReceiveBeginPlay initializes same response. Pawn query body retained for traffic.",
+    "actual_F_action_test": true,
+    "visual_frames_reviewed": [
+      "entry1",
+      "entry2",
+      "exit1",
+      "exit2",
+      "exit3"
+    ],
+    "before": "work/MountVisualBefore",
+    "after": "work/mount_visual_entry2.png",
+    "collision_response": "ECR_IGNORE",
+    "parked_collision": "QUERY_ONLY",
+    "runtime_cpp_added": false,
+    "runtime_log": "work/MountVisualAfter.log"
+  }
+}

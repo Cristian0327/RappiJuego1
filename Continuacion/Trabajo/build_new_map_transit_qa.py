@@ -1,0 +1,14 @@
+import unreal,json,sys,math
+from pathlib import Path
+r=Path(unreal.Paths.project_dir()).parent;plan=json.loads(Path('C:/Users/CRISTIAN/Documents/Codex/2026-09-12/ho/new_map_audit/integration_plan.json').read_text());s=(r/'work/build_pure_station_passenger_qa.py').read_text();s=s[:s.index('for asset,names in')];s=s.replace("B='6'","B='20'").replace("B='7'","B='22'").replace("B='14'","B='60'");dest=plan['stations'][1];pt=dest['bus_stop'];s=s.replace("NewLocation='(X=-7000,Y=330,Z=0)'","NewLocation='(X=%s,Y=%s,Z=14)'"%(pt[0],pt[1]));s=s.replace("g.exec('RepositionBus','NextStation')","g.call('BusYaw','MakeRotator',M,Yaw='%s');g.call('RotateBus','K2_SetActorRotation',A,bTeleportPhysics='true');g.link('Bus','Bus','RotateBus','self');g.link('BusYaw','ReturnValue','RotateBus','NewRotation');g.exec('RepositionBus','RotateBus');g.exec('RotateBus','NextStation')"%dest['yaw']);s=s.replace("g.link('FindExit','OutActors','EachExit','Array')","g.link('Passengers','Passengers','EachExit','Array')");exec(compile(s,'NewCityTransitCycle','exec'))
+for asset,names in [('/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle',['TransitDwell','TransitLastStation','DoorAlphaLeft','DoorTargetLeft']),('/Game/Traffic/Transit/BP_StationPassenger',['Age']),('/Game/QA/BP_TestStationPassenger',['Bus','Passengers'])]:
+ b=unreal.load_asset(asset)
+ for name in names:E.set_blueprint_variable_instance_editable(b,name,True)
+ assert E.compile_blueprint(b);assert unreal.EditorAssetLibrary.save_loaded_asset(b,only_if_is_dirty=False)
+unreal.EditorLoadingAndSavingUtils.load_map('/Game/Maps/MapaCompleto_Integration');world=unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world();assert unreal.EditorLoadingAndSavingUtils.save_map(world,'/Game/QA/NewMapTransit');unreal.EditorLoadingAndSavingUtils.load_map('/Game/QA/NewMapTransit');actors=unreal.get_editor_subsystem(unreal.EditorActorSubsystem);st=plan['stations'][0];pt=st['bus_stop'];bus=actors.spawn_actor_from_class(unreal.load_class(None,'/Game/World/BlueprintWorld/Traffic/BP_Traffic_TransMilenio.BP_Traffic_TransMilenio_C'),unreal.Vector(pt[0],pt[1],14),unreal.Rotator(pitch=0,yaw=st['yaw'],roll=0))
+for n,v in {'TransitDwell':60.,'TransitLastStation':0,'DoorAlphaLeft':1.,'DoorTargetLeft':1.}.items():bus.set_editor_property(n,v)
+people=[]
+for a in actors.get_all_level_actors():
+ if a.get_class().get_name()=='BP_StationPassenger_C' and a.get_editor_property('Station')==0:a.set_editor_property('Age',13.);people.append(a)
+ if isinstance(a,unreal.PlayerStart):a.set_actor_location(unreal.Vector(st['position'][0]+1500,st['position'][1]+1500,108),False,True)
+test=actors.spawn_actor_from_class(bp.generated_class(),unreal.Vector());test.set_editor_property('Bus',bus);test.set_editor_property('Passengers',people);assert unreal.EditorLoadingAndSavingUtils.save_current_level();unreal.log('NEW_MAP_TRANSIT_QA_READY '+str(len(people)))

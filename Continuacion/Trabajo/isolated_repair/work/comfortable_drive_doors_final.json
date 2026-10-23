@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-20",
+  "status": "PASS",
+  "car_top_speed_cm_s": 1000,
+  "car_top_speed_kmh": 36,
+  "car_reverse_cm_s": 250,
+  "car_acceleration_cm_s2": 250,
+  "car_brake_cm_s2": 700,
+  "car_coast_deceleration_cm_s2": 380,
+  "car_steering_max_degrees": 22,
+  "car_steering_interpolation": 4,
+  "moto_top_speed_cap_cm_s": 1000,
+  "moto_acceleration_cm_s2": 220,
+  "moto_brake_cm_s2": 650,
+  "moto_reverse_cap_cm_s": 220,
+  "moto_turn_rate_max_deg_s": 38,
+  "door_cause": "Generated skeletal LOD reduction damaged rigid panels and UVs",
+  "door_fix": "Blueprint CacheReferencePose selects original vehicle LOD before caching door/wheel bones",
+  "door_models_verified": 23,
+  "blueprint_vm_checks": 51,
+  "actual_runtime_drive_pass": true,
+  "visual_gallery_verified": true,
+  "runtime_cpp_added": false,
+  "github_changed": false,
+  "optimization_note": "Preserved world culling, active crowd bubble and wheel tick throttling; authored full detail for traffic meshes avoids damaged reduced geometry",
+  "evidence": [
+    "work/drive_doors_validation.json",
+    "work/ComfortDrive_PureManualRoadLive.log",
+    "work/ComfortDrive_SolidVehiclesGallery.log",
+    "work/SolidVehicleVisualQA/ISOLATED.png"
+  ]
+}

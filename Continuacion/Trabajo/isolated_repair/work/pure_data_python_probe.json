@@ -1,0 +1,34 @@
+{
+  "GetUpgradeSpec": {
+    "value": "(<Struct 'ST_DeliveryUpgrade' (0x0000021C9B41A9E0) {}>, True)",
+    "type": "<class 'tuple'>",
+    "members": [
+      "<class 'StructBase'>",
+      "<class 'bool'>"
+    ]
+  },
+  "GetVehicleSpec": {
+    "value": "(<Struct 'ST_DeliveryVehicleSpec' (0x0000021C9B516C40) {}>, True)",
+    "type": "<class 'tuple'>",
+    "members": [
+      "<class 'StructBase'>",
+      "<class 'bool'>"
+    ]
+  },
+  "GetSelectedOffer": {
+    "value": "(<Struct 'ST_DeliveryOrder' (0x0000021C34E85820) {}>, False)",
+    "type": "<class 'tuple'>",
+    "members": [
+      "<class 'StructBase'>",
+      "<class 'bool'>"
+    ]
+  },
+  "FindActiveOrderIndex": {
+    "value": "-1",
+    "type": "<class 'int'>"
+  },
+  "ProfileSlot": {
+    "value": "VoxelDelivery_Profile_v1",
+    "type": "<class 'str'>"
+  }
+}

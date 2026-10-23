@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "id": "ArcCompatible",
+      "kind": "get",
+      "var": "ArcCompatible"
+    },
+    {
+      "id": "ArcMovementCount",
+      "kind": "get",
+      "var": "ArcMovementCount"
+    },
+    {
+      "id": "Row",
+      "kind": "call",
+      "fn": "Multiply_IntInt",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Index",
+      "kind": "call",
+      "fn": "Add_IntInt",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Read",
+      "kind": "call",
+      "fn": "Array_Get",
+      "owner": "/Script/Engine.KismetArrayLibrary",
+      "defaults": {}
+    }
+  ],
+  "links": [
+    [
+      "entry",
+      "First",
+      "Row",
+      "A"
+    ],
+    [
+      "ArcMovementCount",
+      "ArcMovementCount",
+      "Row",
+      "B"
+    ],
+    [
+      "Row",
+      "ReturnValue",
+      "Index",
+      "A"
+    ],
+    [
+      "entry",
+      "Second",
+      "Index",
+      "B"
+    ],
+    [
+      "ArcCompatible",
+      "ArcCompatible",
+      "Read",
+      "TargetArray"
+    ],
+    [
+      "Index",
+      "ReturnValue",
+      "Read",
+      "Index"
+    ],
+    [
+      "Read",
+      "Item",
+      "result",
+      "ReturnValue"
+    ],
+    [
+      "entry",
+      "then",
+      "result",
+      "execute"
+    ]
+  ],
+  "parameters": [
+    {
+      "name": "First",
+      "category": "int"
+    },
+    {
+      "name": "Second",
+      "category": "int"
+    },
+    {
+      "name": "ReturnValue",
+      "category": "bool",
+      "out": true
+    }
+  ],
+  "pure": true,
+  "const": true
+}

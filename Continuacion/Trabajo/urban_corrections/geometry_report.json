@@ -1,0 +1,24 @@
+{
+  "asphalt_components": 1,
+  "sidewalk_asphalt_overlap_cm2": 4.614273915099445e-12,
+  "minimum_sidewalk_width_cm": 220,
+  "removed_junction_wedges": 2,
+  "meshes": [
+    {
+      "name": "SM_Bogota_CallesSecundarias",
+      "faces": 7574
+    },
+    {
+      "name": "SM_Mapa_Road_0",
+      "faces": 9684
+    },
+    {
+      "name": "SM_Mapa_Road_1",
+      "faces": 347
+    },
+    {
+      "name": "SM_Mapa_Road_2",
+      "faces": 210
+    }
+  ]
+}

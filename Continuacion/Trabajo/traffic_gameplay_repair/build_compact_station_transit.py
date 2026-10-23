@@ -1,0 +1,12 @@
+import unreal,json,math
+from pathlib import Path
+r=Path(unreal.Paths.project_dir()).parent
+assert 'isolated_repair' in r.parts
+P=Path('C:/Users/CRISTIAN/Documents/Codex/2026-09-12/ho/traffic_gameplay_repair');unreal.EditorLoadingAndSavingUtils.load_map('/Game/Maps/MapaCompleto_Integration');aa=unreal.get_editor_subsystem(unreal.EditorActorSubsystem);station=next(a for a in aa.get_all_level_actors() if a.get_name()=='BP_BogotaTransmiStation_C_2');origin=station.get_actor_location();yaw=math.radians(station.get_actor_rotation().yaw);t=unreal.Vector(math.cos(yaw),math.sin(yaw),0);changed=[]
+for a in aa.get_all_level_actors():
+ if a.get_class().get_name()!='BP_StationPassenger_C' or a.get_editor_property('Station')!=2:continue
+ p=a.get_actor_location();u=(p-origin).dot(t)
+ # Original four queues start at 380..860cm; compact queues at 190..430cm.
+ if u>450:a.set_actor_location(p-t*(u*.5),False,True)
+ changed.append(a.get_name())
+assert unreal.EditorLoadingAndSavingUtils.save_current_level();stations=sorted([a for a in aa.get_all_level_actors() if a.get_class().get_name()=='BP_BogotaTransmiStation_C'],key=lambda a:a.get_name());c=unreal.get_default_object(unreal.load_asset('/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle').generated_class());stops=list(c.get_editor_property('TransitStopPositions'));plan={'stations':[dict(position=list(a.get_actor_location().to_tuple()),yaw=a.get_actor_rotation().yaw,bus_stop=list(stops[i].to_tuple())) for i,a in enumerate(stations)]};(P/'staged_transit_plan.json').write_text(json.dumps(plan));source=(P.parent/'build_new_map_transit_qa.py').read_text();source=source.replace("plan=json.loads(Path('C:/Users/CRISTIAN/Documents/Codex/2026-09-12/ho/new_map_audit/integration_plan.json').read_text())", "plan=json.loads(Path('C:/Users/CRISTIAN/Documents/Codex/2026-09-12/ho/traffic_gameplay_repair/staged_transit_plan.json').read_text())");source=source.replace("dest=plan['stations'][1]","dest=plan['stations'][3]").replace("st=plan['stations'][0]","st=plan['stations'][2]").replace("'TransitLastStation':0","'TransitLastStation':2").replace("get_editor_property('Station')==0","get_editor_property('Station')==2");source=source.replace("exec(compile(s,'NewCityTransitCycle','exec'))", "s=s.replace(\"{'TransitLastStation':'1'}\",\"{'TransitLastStation':'3'}\");exec(compile(s,'NewCityTransitCycle','exec'))");exec(compile(source,'CompactStationTransitQA','exec'),{});unreal.EditorLoadingAndSavingUtils.new_blank_map(False);unreal.log('COMPACT_STATION_TRANSIT_READY passengers='+str(len(changed)))

@@ -1,0 +1,22 @@
+[
+  {
+    "image": "highway-lanes_albedo.png",
+    "path": "//..\\..\\..\\..\\..\\..\\AppData\\Local\\Downloads\\highway-lanes-bl\\highway-lanes_albedo.png",
+    "materials": [],
+    "objects": []
+  },
+  {
+    "image": "highway-lanes_roughness.png",
+    "path": "//..\\..\\..\\..\\..\\..\\AppData\\Local\\Downloads\\highway-lanes-bl\\highway-lanes_roughness.png",
+    "materials": [],
+    "objects": []
+  },
+  {
+    "image": "Mapa.jpeg.001",
+    "path": "//..\\..\\..\\..\\..\\Downloads\\Mapa.jpeg",
+    "materials": [],
+    "objects": [
+      "Empty"
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "status": "STAGING",
+  "lanes": [
+    {
+      "lane": 0,
+      "points": 52,
+      "length": 229117.015625,
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_TrafficLane_0"
+    },
+    {
+      "lane": 1,
+      "points": 52,
+      "length": 233437.015625,
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_TrafficLane_1"
+    },
+    {
+      "lane": 2,
+      "points": 52,
+      "length": 137117.03125,
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_TrafficLane_2"
+    },
+    {
+      "lane": 3,
+      "points": 52,
+      "length": 141437.03125,
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_TrafficLane_3"
+    },
+    {
+      "lane": 4,
+      "points": 52,
+      "length": 133117.015625,
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_TrafficLane_4"
+    },
+    {
+      "lane": 5,
+      "points": 52,
+      "length": 137437.015625,
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_TrafficLane_5"
+    },
+    {
+      "lane": 6,
+      "points": 52,
+      "length": 137751.921875,
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_TrafficLane_6"
+    }
+  ],
+  "pending": [
+    "Runtime spline persistence and wrap validation",
+    "Signal reservations and following",
+    "Vehicle presentation and pedestrians",
+    "Main promotion"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "COMPILED_STAGING",
+  "character_parent": "/Script/Engine.Character",
+  "controller_parent": "/Script/AIModule.DetourCrowdAIController",
+  "animation_parent": "/Script/Engine.AnimInstance",
+  "cane_clip_unchanged": true,
+  "pending": [
+    "Actual crowd locomotion/slow walker/obstacle test",
+    "City navigation filters and crosswalk gating",
+    "Population864 and60models",
+    "Taxi/bus/two-wheeler integration"
+  ]
+}

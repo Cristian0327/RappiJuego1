@@ -1,0 +1,8 @@
+{
+  "foot": "Current controller yaw sampled on every axis event; native CharacterMovement normalizes diagonals; body faces movement with540deg/s turn rate; looking alone does not rotate body",
+  "vehicles": "W/S throttle/brake/reverse; A/D steer; mouse free look, soft recenter after1.5sec without look input while driving",
+  "camera_framing": "Previous restored camera preserved",
+  "walk_speed": 140,
+  "sprint_speed": 650,
+  "runtime_cpp": false
+}

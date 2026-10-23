@@ -1,0 +1,9 @@
+import bpy,json,math,numpy as np
+from pathlib import Path
+from mathutils import Vector
+U=Path('C:/Users/CRISTIAN/Documents/Codex/2026-09-12/ho/urban_refresh');p=json.loads((U/'station_expansion_plan.json').read_text());verts=[];faces=[];paths=[]
+for st,cr in zip(p['stations'],p['crossings']):
+ ang=math.radians(st['yaw']);t=np.array([math.cos(ang),math.sin(ang)]);rr=np.array([-t[1],t[0]]);q=np.array(st['position'][:2]);a=q-t*2400;b=q+t*np.dot(np.array(cr['position'][:2])-q,t);paths.append(dict(start=a.tolist(),end=b.tolist(),width=200));points=[a-rr*100,a+rr*100,b+rr*100,b-rr*100];i=len(verts)
+ for z in [-4,4]:verts.extend([(v[0]/100,-v[1]/100,z/100) for v in points])
+ faces.extend([tuple(i+j for j in f) for f in [(0,1,2,3),(7,6,5,4),(0,4,5,1),(1,5,6,2),(2,6,7,3),(3,7,4,0)]])
+me=bpy.data.meshes.new('SM_Bogota_AccesosEstaciones');me.from_pydata(verts,[],faces);me.update();a=me.color_attributes.new(name='Color',type='FLOAT_COLOR',domain='CORNER');a.data.foreach_set('color',np.tile(np.array([.55,.36,.18,1],np.float32),len(me.loops)));me.color_attributes.active_color=a;mat=bpy.data.materials.get('Bogota_Calles_Voxel');me.materials.append(mat);o=bpy.data.objects.new(me.name,me);bpy.context.collection.objects.link(o);bpy.ops.object.select_all(action='DESELECT');o.select_set(True);bpy.context.view_layer.objects.active=o;bpy.ops.export_scene.fbx(filepath=str(U/'export'/(me.name+'.fbx')),use_selection=True,object_types={'MESH'},bake_anim=False,add_leaf_bones=False,apply_unit_scale=True,apply_scale_options='FBX_SCALE_ALL',axis_forward='-Y',axis_up='Z',use_mesh_modifiers=False,mesh_smooth_type='FACE',colors_type='LINEAR');(U/'station_access_paths.json').write_text(json.dumps(paths,indent=2));bpy.ops.wm.save_as_mainfile(filepath=str(U/'Mapa_Bogota_Ambientado.blend'));print('SEVEN_SOLID_STATION_ACCESS_PATHS_READY')

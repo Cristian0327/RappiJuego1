@@ -1,0 +1,9 @@
+{
+  "red_denies_entry": true,
+  "green_admits_clear_exit": true,
+  "cross_traffic_waits": true,
+  "admitted_car_keeps_priority": true,
+  "released_after_rear_clears": true,
+  "waiting_cross_traffic_then_admitted": true,
+  "blocked_exit_denies_entry": true
+}

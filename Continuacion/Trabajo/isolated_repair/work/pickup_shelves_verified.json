@@ -1,0 +1,34 @@
+[
+  {
+    "asset": "SM_MarketInterior",
+    "materials_verified": 265
+  },
+  {
+    "asset": "SM_FreshMarketInterior",
+    "materials_verified": 252
+  },
+  {
+    "asset": "SM_TechInterior",
+    "materials_verified": 303
+  },
+  {
+    "asset": "SM_ComponentsInterior",
+    "materials_verified": 265
+  },
+  {
+    "asset": "SM_PharmacyInterior",
+    "materials_verified": 324
+  },
+  {
+    "asset": "SM_FloristInterior",
+    "materials_verified": 30
+  },
+  {
+    "asset": "SM_HardwareInterior",
+    "materials_verified": 14
+  },
+  {
+    "asset": "SM_PetShopInterior",
+    "materials_verified": 13
+  }
+]

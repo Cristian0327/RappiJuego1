@@ -1,0 +1,34 @@
+{
+  "SK_Cashier": {
+    "skeleton": "SK_Cashier_Skeleton",
+    "status": "PASS"
+  },
+  "SK_Chef": {
+    "skeleton": "SK_Chef_Skeleton",
+    "status": "PASS"
+  },
+  "SK_CustomerNeighbor": {
+    "skeleton": "SK_CustomerNeighbor_Skeleton",
+    "status": "PASS"
+  },
+  "SK_CustomerOffice": {
+    "skeleton": "SK_CustomerOffice_Skeleton",
+    "status": "PASS"
+  },
+  "SK_CustomerStudent": {
+    "skeleton": "SK_CustomerStudent_Skeleton",
+    "status": "PASS"
+  },
+  "SK_Florist": {
+    "skeleton": "SK_Florist_Skeleton",
+    "status": "PASS"
+  },
+  "SK_Pharmacist": {
+    "skeleton": "SK_Pharmacist_Skeleton",
+    "status": "PASS"
+  },
+  "SK_TechClerk": {
+    "skeleton": "SK_TechClerk_Skeleton",
+    "status": "PASS"
+  }
+}

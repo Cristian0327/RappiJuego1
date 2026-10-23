@@ -1,0 +1,435 @@
+{
+  "legacy_components": [],
+  "original_instance_count": 913,
+  "loaded_instance_count": 913,
+  "original_scales_preserved": true,
+  "station_count": 7,
+  "store_count": 20,
+  "parts": [
+    {
+      "name": "Part000",
+      "instances": 10,
+      "mesh": "SM_Mapa_000"
+    },
+    {
+      "name": "Part001",
+      "instances": 7,
+      "mesh": "SM_Mapa_001"
+    },
+    {
+      "name": "Part002",
+      "instances": 3,
+      "mesh": "SM_Mapa_002"
+    },
+    {
+      "name": "Part003",
+      "instances": 2,
+      "mesh": "SM_Mapa_003"
+    },
+    {
+      "name": "Part004",
+      "instances": 5,
+      "mesh": "SM_Mapa_004"
+    },
+    {
+      "name": "Part005",
+      "instances": 5,
+      "mesh": "SM_Mapa_005"
+    },
+    {
+      "name": "Part006",
+      "instances": 1,
+      "mesh": "SM_Mapa_006"
+    },
+    {
+      "name": "Part007",
+      "instances": 7,
+      "mesh": "SM_Mapa_007"
+    },
+    {
+      "name": "Part008",
+      "instances": 1,
+      "mesh": "SM_Mapa_008"
+    },
+    {
+      "name": "Part009",
+      "instances": 5,
+      "mesh": "SM_Mapa_009"
+    },
+    {
+      "name": "Part010",
+      "instances": 2,
+      "mesh": "SM_Mapa_010"
+    },
+    {
+      "name": "Part011",
+      "instances": 1,
+      "mesh": "SM_Mapa_011"
+    },
+    {
+      "name": "Part012",
+      "instances": 1,
+      "mesh": "SM_Mapa_012"
+    },
+    {
+      "name": "Part013",
+      "instances": 2,
+      "mesh": "SM_Mapa_013"
+    },
+    {
+      "name": "Part014",
+      "instances": 1,
+      "mesh": "SM_Mapa_014"
+    },
+    {
+      "name": "Part015",
+      "instances": 7,
+      "mesh": "SM_Mapa_015"
+    },
+    {
+      "name": "Part016",
+      "instances": 12,
+      "mesh": "SM_Mapa_016"
+    },
+    {
+      "name": "Part017",
+      "instances": 8,
+      "mesh": "SM_Mapa_017"
+    },
+    {
+      "name": "Part018",
+      "instances": 10,
+      "mesh": "SM_Mapa_018"
+    },
+    {
+      "name": "Part019",
+      "instances": 7,
+      "mesh": "SM_Mapa_019"
+    },
+    {
+      "name": "Part020",
+      "instances": 10,
+      "mesh": "SM_Mapa_020"
+    },
+    {
+      "name": "Part021",
+      "instances": 7,
+      "mesh": "SM_Mapa_021"
+    },
+    {
+      "name": "Part022",
+      "instances": 10,
+      "mesh": "SM_Mapa_022"
+    },
+    {
+      "name": "Part023",
+      "instances": 2,
+      "mesh": "SM_Mapa_023"
+    },
+    {
+      "name": "Part024",
+      "instances": 3,
+      "mesh": "SM_Mapa_024"
+    },
+    {
+      "name": "Part025",
+      "instances": 4,
+      "mesh": "SM_Mapa_025"
+    },
+    {
+      "name": "Part026",
+      "instances": 13,
+      "mesh": "SM_Mapa_026"
+    },
+    {
+      "name": "Part027",
+      "instances": 5,
+      "mesh": "SM_Mapa_027"
+    },
+    {
+      "name": "Part028",
+      "instances": 4,
+      "mesh": "SM_Mapa_028"
+    },
+    {
+      "name": "Part029",
+      "instances": 1,
+      "mesh": "SM_Mapa_029"
+    },
+    {
+      "name": "Part030",
+      "instances": 1,
+      "mesh": "SM_Mapa_030"
+    },
+    {
+      "name": "Part031",
+      "instances": 1,
+      "mesh": "SM_Mapa_031"
+    },
+    {
+      "name": "Part032",
+      "instances": 1,
+      "mesh": "SM_Mapa_032"
+    },
+    {
+      "name": "Part033",
+      "instances": 4,
+      "mesh": "SM_Mapa_033"
+    },
+    {
+      "name": "Part034",
+      "instances": 2,
+      "mesh": "SM_Mapa_034"
+    },
+    {
+      "name": "Part035",
+      "instances": 1,
+      "mesh": "SM_Mapa_035"
+    },
+    {
+      "name": "Part036",
+      "instances": 4,
+      "mesh": "SM_Mapa_036"
+    },
+    {
+      "name": "Part037",
+      "instances": 3,
+      "mesh": "SM_Mapa_037"
+    },
+    {
+      "name": "Part038",
+      "instances": 3,
+      "mesh": "SM_Mapa_038"
+    },
+    {
+      "name": "Part039",
+      "instances": 1,
+      "mesh": "SM_Mapa_039"
+    },
+    {
+      "name": "Part040",
+      "instances": 1,
+      "mesh": "SM_Mapa_040"
+    },
+    {
+      "name": "Part041",
+      "instances": 1,
+      "mesh": "SM_Mapa_041"
+    },
+    {
+      "name": "Part042",
+      "instances": 1,
+      "mesh": "SM_Mapa_042"
+    },
+    {
+      "name": "Part043",
+      "instances": 2,
+      "mesh": "SM_Mapa_043"
+    },
+    {
+      "name": "Part044",
+      "instances": 18,
+      "mesh": "SM_Mapa_044"
+    },
+    {
+      "name": "Part045",
+      "instances": 4,
+      "mesh": "SM_Mapa_045"
+    },
+    {
+      "name": "Part046",
+      "instances": 2,
+      "mesh": "SM_Mapa_046"
+    },
+    {
+      "name": "Part047",
+      "instances": 5,
+      "mesh": "SM_Mapa_047"
+    },
+    {
+      "name": "Part048",
+      "instances": 33,
+      "mesh": "SM_Mapa_048"
+    },
+    {
+      "name": "Part049",
+      "instances": 22,
+      "mesh": "SM_Mapa_049"
+    },
+    {
+      "name": "Part050",
+      "instances": 27,
+      "mesh": "SM_Mapa_050"
+    },
+    {
+      "name": "Part051",
+      "instances": 29,
+      "mesh": "SM_Mapa_051"
+    },
+    {
+      "name": "Part052",
+      "instances": 39,
+      "mesh": "SM_Mapa_052"
+    },
+    {
+      "name": "Part053",
+      "instances": 40,
+      "mesh": "SM_Mapa_053"
+    },
+    {
+      "name": "Part054",
+      "instances": 10,
+      "mesh": "SM_Mapa_054"
+    },
+    {
+      "name": "Part055",
+      "instances": 15,
+      "mesh": "SM_Mapa_055"
+    },
+    {
+      "name": "Part056",
+      "instances": 26,
+      "mesh": "SM_Mapa_056"
+    },
+    {
+      "name": "Part057",
+      "instances": 5,
+      "mesh": "SM_Mapa_057"
+    },
+    {
+      "name": "Part058",
+      "instances": 2,
+      "mesh": "SM_Mapa_058"
+    },
+    {
+      "name": "Part059",
+      "instances": 1,
+      "mesh": "SM_Mapa_059"
+    },
+    {
+      "name": "Part060",
+      "instances": 1,
+      "mesh": "SM_Mapa_060"
+    },
+    {
+      "name": "Part061",
+      "instances": 5,
+      "mesh": "SM_Mapa_061"
+    },
+    {
+      "name": "Part062",
+      "instances": 6,
+      "mesh": "SM_Mapa_062"
+    },
+    {
+      "name": "Part063",
+      "instances": 35,
+      "mesh": "SM_Mapa_063"
+    },
+    {
+      "name": "Part064",
+      "instances": 45,
+      "mesh": "SM_Mapa_064"
+    },
+    {
+      "name": "Part065",
+      "instances": 2,
+      "mesh": "SM_Mapa_065"
+    },
+    {
+      "name": "Part066",
+      "instances": 2,
+      "mesh": "SM_Mapa_066"
+    },
+    {
+      "name": "Part067",
+      "instances": 1,
+      "mesh": "SM_Mapa_067"
+    },
+    {
+      "name": "Part068",
+      "instances": 8,
+      "mesh": "SM_Mapa_068"
+    },
+    {
+      "name": "Part069",
+      "instances": 1,
+      "mesh": "SM_Mapa_069"
+    },
+    {
+      "name": "Part070",
+      "instances": 59,
+      "mesh": "SM_Mapa_070"
+    },
+    {
+      "name": "Part071",
+      "instances": 68,
+      "mesh": "SM_Mapa_071"
+    },
+    {
+      "name": "Part072",
+      "instances": 14,
+      "mesh": "SM_Mapa_072"
+    },
+    {
+      "name": "Part073",
+      "instances": 49,
+      "mesh": "SM_Mapa_073"
+    },
+    {
+      "name": "Part074",
+      "instances": 60,
+      "mesh": "SM_Mapa_074"
+    },
+    {
+      "name": "Part075",
+      "instances": 1,
+      "mesh": "SM_Mapa_075"
+    },
+    {
+      "name": "Part076",
+      "instances": 40,
+      "mesh": "SM_Mapa_076"
+    },
+    {
+      "name": "Part077",
+      "instances": 6,
+      "mesh": "SM_Mapa_077"
+    },
+    {
+      "name": "Part078",
+      "instances": 15,
+      "mesh": "SM_Mapa_078"
+    },
+    {
+      "name": "Part079",
+      "instances": 18,
+      "mesh": "SM_Mapa_079"
+    },
+    {
+      "name": "Part080",
+      "instances": 13,
+      "mesh": "SM_Mapa_080"
+    },
+    {
+      "name": "Part081",
+      "instances": 1,
+      "mesh": "SM_Mapa_081"
+    },
+    {
+      "name": "Part082",
+      "instances": 1,
+      "mesh": "SM_Mapa_Road_0"
+    },
+    {
+      "name": "Part083",
+      "instances": 1,
+      "mesh": "SM_Mapa_Road_1"
+    },
+    {
+      "name": "Part084",
+      "instances": 1,
+      "mesh": "SM_Mapa_Road_2"
+    }
+  ]
+}

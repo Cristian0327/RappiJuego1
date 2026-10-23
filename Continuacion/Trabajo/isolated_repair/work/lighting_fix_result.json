@@ -1,0 +1,7 @@
+{
+  "PostProcessVolume": {
+    "ao": 0.65,
+    "radius": 75,
+    "bloom": 0.18
+  }
+}

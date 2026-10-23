@@ -1,0 +1,19 @@
+{
+  "status": "STAGING_DATA_RENDERING_COMPILED",
+  "functions": [
+    "RefreshHeader",
+    "RefreshOfferCards",
+    "RefreshActiveCards",
+    "RefreshUpgradeCards",
+    "RefreshVehicleCards",
+    "RefreshOfferDetails",
+    "RefreshText"
+  ],
+  "pending": [
+    "Page details for upgrades/catalog/cargo",
+    "Selection highlighting and action availability",
+    "HUD layout/tick",
+    "Map and garage preview",
+    "Bindings and core creation"
+  ]
+}

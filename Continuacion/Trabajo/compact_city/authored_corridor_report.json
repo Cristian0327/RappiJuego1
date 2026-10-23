@@ -1,0 +1,72 @@
+[
+  {
+    "name": "B\u00e9zierCurve_0",
+    "corridor_limit_cm": 1800,
+    "samples": 366
+  },
+  {
+    "name": "B\u00e9zierCurve_1",
+    "corridor_limit_cm": 1800,
+    "samples": 403
+  },
+  {
+    "name": "B\u00e9zierCurve_2",
+    "corridor_limit_cm": 1800,
+    "samples": 188
+  },
+  {
+    "name": "B\u00e9zierCurve_3",
+    "corridor_limit_cm": 1800,
+    "samples": 261
+  },
+  {
+    "name": "B\u00e9zierCurve_4",
+    "corridor_limit_cm": 1800,
+    "samples": 502
+  },
+  {
+    "name": "B\u00e9zierCurve_5",
+    "corridor_limit_cm": 1800,
+    "samples": 367
+  },
+  {
+    "name": "B\u00e9zierCurve.006_1",
+    "corridor_limit_cm": 1800,
+    "samples": 379
+  },
+  {
+    "name": "B\u00e9zierCurve.008_0",
+    "corridor_limit_cm": 1800,
+    "samples": 675
+  },
+  {
+    "name": "B\u00e9zierCurve.009_0",
+    "corridor_limit_cm": 5000,
+    "samples": 736
+  },
+  {
+    "name": "B\u00e9zierCurve.010_0",
+    "corridor_limit_cm": 2600,
+    "samples": 393
+  },
+  {
+    "name": "B\u00e9zierCurve.011_0",
+    "corridor_limit_cm": 1800,
+    "samples": 283
+  },
+  {
+    "name": "B\u00e9zierCurve.012_0",
+    "corridor_limit_cm": 2600,
+    "samples": 559
+  },
+  {
+    "name": "B\u00e9zierCurve.013_0",
+    "corridor_limit_cm": 1800,
+    "samples": 401
+  },
+  {
+    "name": "B\u00e9zierCurve.014_0",
+    "corridor_limit_cm": 8500,
+    "samples": 898
+  }
+]

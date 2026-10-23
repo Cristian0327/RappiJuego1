@@ -1,0 +1,19 @@
+{
+  "station": 4,
+  "delta": [
+    2617.589398094573,
+    -3660.3586904814247,
+    0
+  ],
+  "passengers": [
+    "BP_StationPassenger_C_32",
+    "BP_StationPassenger_C_33",
+    "BP_StationPassenger_C_34",
+    "BP_StationPassenger_C_35"
+  ],
+  "bus_stop": [
+    12366.728248020061,
+    -29761.322946119843,
+    4.5
+  ]
+}

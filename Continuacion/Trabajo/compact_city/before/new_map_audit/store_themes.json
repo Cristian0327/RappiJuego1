@@ -1,0 +1,255 @@
+[
+  {
+    "Name": "MarketLocal",
+    "Category": 0,
+    "Title": "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"BE520AED4EBDE5DB048E7E90803E4994\", \"Mercado Don Lucho\")",
+    "FrontMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_MarketFront_Voxel.SM_MarketFront_Voxel'",
+    "InteriorMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_MarketInterior_Voxel.SM_MarketInterior_Voxel'",
+    "ProductMeshes": [
+      "SM_Milk",
+      "SM_Rice",
+      "SM_Apples"
+    ],
+    "ProductNames": [
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"3368250D4F77C5AC03F974AEF6750554\", \"leche\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"748055E945C337DE811F8DA1C5010346\", \"arroz\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"C28D1C304CC039626AD428B5B34439E6\", \"manzanas\")"
+    ],
+    "PurchaseBudget": 18500,
+    "WidthMeters": 24,
+    "DepthMeters": 32,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "MarketFresh",
+    "Category": 0,
+    "Title": "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"863F27E4465CBB3CFD66659E311FA112\", \"La Canasta Verde\")",
+    "FrontMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_FreshMarketFront_Voxel.SM_FreshMarketFront_Voxel'",
+    "InteriorMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_FreshMarketInterior_Voxel.SM_FreshMarketInterior_Voxel'",
+    "ProductMeshes": [
+      "SM_Bread",
+      "SM_Carrots",
+      "SM_Bananas"
+    ],
+    "ProductNames": [
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"EC97E14E414FA836BE77B6AD34258771\", \"pan artesanal\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"7D89A8B64D6EFEECB4275C90C4DD88F3\", \"zanahorias\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"77C76494452E0F62919E078C07CD7431\", \"bananos\")"
+    ],
+    "PurchaseBudget": 24500,
+    "WidthMeters": 24,
+    "DepthMeters": 32,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "BurgerGrill",
+    "Category": 1,
+    "Title": "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"8FC0C51B40655CA0A0555E9AD74047A7\", \"La Plancha del Barrio\")",
+    "FrontMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_RestaurantFront_Voxel.SM_RestaurantFront_Voxel'",
+    "InteriorMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_RestaurantInterior_Voxel.SM_RestaurantInterior_Voxel'",
+    "ProductMeshes": [
+      "SM_Burger"
+    ],
+    "ProductNames": [
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"D1CFDE6847EF994A3636D789ED086087\", \"hamburguesa a la parrilla\")"
+    ],
+    "PurchaseBudget": 22000,
+    "WidthMeters": 24,
+    "DepthMeters": 28,
+    "CounterDistanceMeters": 20
+  },
+  {
+    "Name": "QuickMeals",
+    "Category": 1,
+    "Title": "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"DB5650954DF01941722C00BA04A292D1\", \"Parada Amarilla\")",
+    "FrontMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_FastFoodFront_Voxel.SM_FastFoodFront_Voxel'",
+    "InteriorMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_FastFoodInterior_Voxel.SM_FastFoodInterior_Voxel'",
+    "ProductMeshes": [
+      "SM_Nuggets"
+    ],
+    "ProductNames": [
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"B4BCF66A45A77E44880DDC871C0D0583\", \"nuggets reci\u00e9n preparados\")"
+    ],
+    "PurchaseBudget": 19000,
+    "WidthMeters": 24,
+    "DepthMeters": 28,
+    "CounterDistanceMeters": 20
+  },
+  {
+    "Name": "TechRetail",
+    "Category": 2,
+    "Title": "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"25136FA64F4FC63B25700788F688D844\", \"Circuito 7\")",
+    "FrontMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_TechFront_Voxel.SM_TechFront_Voxel'",
+    "InteriorMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_TechInterior_Voxel.SM_TechInterior_Voxel'",
+    "ProductMeshes": [
+      "SM_Headphones",
+      "SM_Keyboard",
+      "SM_PhoneBox"
+    ],
+    "ProductNames": [
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"8DEEE3B5444ACB2DA3A7C996BBEBE1AC\", \"aud\u00edfonos\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"E5B016904DFEE2B7CA9AEEBDA352369E\", \"teclado\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"670117BC49AC7AE81B634A86ADE39157\", \"celular\")"
+    ],
+    "PurchaseBudget": 265000,
+    "WidthMeters": 24,
+    "DepthMeters": 30,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "TechComponents",
+    "Category": 2,
+    "Title": "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"5205323047DE3A5464B4ED9523E7FD0B\", \"Laboratorio 24\")",
+    "FrontMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_ComponentsFront_Voxel.SM_ComponentsFront_Voxel'",
+    "InteriorMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_ComponentsInterior_Voxel.SM_ComponentsInterior_Voxel'",
+    "ProductMeshes": [
+      "SM_GPU",
+      "SM_RAM",
+      "SM_CircuitBoard"
+    ],
+    "ProductNames": [
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"AD02F1564E0EFD510BD4A186F510D7C4\", \"tarjeta gr\u00e1fica\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"1A3658044CEE870A92BE2682DC79FF61\", \"memoria RAM\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"AE09EB4E46F668D61CD76281ED21E2E7\", \"placa de desarrollo\")"
+    ],
+    "PurchaseBudget": 485000,
+    "WidthMeters": 24,
+    "DepthMeters": 30,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "Pharmacy",
+    "Category": 3,
+    "Title": "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"6C3FADD64B0F70F6A2175DAF941159AD\", \"Droguer\u00eda Buen Vecino\")",
+    "FrontMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_PharmacyFront_Voxel.SM_PharmacyFront_Voxel'",
+    "InteriorMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_PharmacyInterior_Voxel.SM_PharmacyInterior_Voxel'",
+    "ProductMeshes": [
+      "SM_FirstAid",
+      "SM_Medicine",
+      "SM_Medicine"
+    ],
+    "ProductNames": [
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"05C388D8498B9FA22EF4CB8A81C02133\", \"botiqu\u00edn\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"D1342BF040921B00FB9C528FA7F231C5\", \"medicamento sellado\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"5FEF751F477747DA5596F9920FE06ADF\", \"medicamento de la receta\")"
+    ],
+    "PurchaseBudget": 32000,
+    "WidthMeters": 24,
+    "DepthMeters": 30,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "Florist",
+    "Category": 4,
+    "Title": "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"02CA0F25416D11164E57AB89097CE477\", \"Flores de la Sabana\")",
+    "FrontMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_FloristFront_Voxel.SM_FloristFront_Voxel'",
+    "InteriorMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_FloristInterior_Voxel.SM_FloristInterior_Voxel'",
+    "ProductMeshes": [
+      "SM_Bouquet",
+      "SM_Bouquet",
+      "SM_Bouquet"
+    ],
+    "ProductNames": [
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"B690D5494FF52D1EAF2C10A75CFA37B2\", \"ramo rojo\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"83F714AA46DB45FADDA6A59FC2B89E66\", \"ramo mixto\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"6B071ABD4EB450E938944783154E51EE\", \"ramo de regalo\")"
+    ],
+    "PurchaseBudget": 45000,
+    "WidthMeters": 24,
+    "DepthMeters": 24,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "Bakery",
+    "Category": 1,
+    "Title": "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"029D433D4EA154DF386B5E8577500F24\", \"Horno de la Esquina\")",
+    "FrontMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_BakeryFront_Voxel.SM_BakeryFront_Voxel'",
+    "InteriorMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_BakeryInterior_Voxel.SM_BakeryInterior_Voxel'",
+    "ProductMeshes": [
+      "SM_Bread"
+    ],
+    "ProductNames": [
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"7BECCB164085EC8AF8788A828ACC8011\", \"pan artesanal reci\u00e9n horneado\")"
+    ],
+    "PurchaseBudget": 12000,
+    "WidthMeters": 24,
+    "DepthMeters": 24,
+    "CounterDistanceMeters": 16
+  },
+  {
+    "Name": "Cafe",
+    "Category": 1,
+    "Title": "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"D2C5E78A43D60C99BCF5FEA0593208A8\", \"Caf\u00e9 de los Cerros\")",
+    "FrontMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_CafeFront_Voxel.SM_CafeFront_Voxel'",
+    "InteriorMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_CafeInterior_Voxel.SM_CafeInterior_Voxel'",
+    "ProductMeshes": [
+      "SM_Coffee"
+    ],
+    "ProductNames": [
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"17A024EB4F3288A332C09685E7BCEE23\", \"caf\u00e9 de origen preparado\")"
+    ],
+    "PurchaseBudget": 14000,
+    "WidthMeters": 24,
+    "DepthMeters": 24,
+    "CounterDistanceMeters": 16
+  },
+  {
+    "Name": "Hardware",
+    "Category": 2,
+    "Title": "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"8FD574984A3761401AEAD997B8A0B0CD\", \"Ferreter\u00eda del Barrio\")",
+    "FrontMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_HardwareFront_Voxel.SM_HardwareFront_Voxel'",
+    "InteriorMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_HardwareInterior_Voxel.SM_HardwareInterior_Voxel'",
+    "ProductMeshes": [
+      "SM_ToolKit",
+      "SM_Drill",
+      "SM_PaintCan"
+    ],
+    "ProductNames": [
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"1574D15747596E57BF63F6BEB51B2F28\", \"caja de herramientas\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"6AD7420547C615AC2C1DBC9C6569AEB5\", \"taladro\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"B406E1234F5B5E04249F32A9BB6FBD4F\", \"pintura sellada\")"
+    ],
+    "PurchaseBudget": 185000,
+    "WidthMeters": 24,
+    "DepthMeters": 30,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "PetShop",
+    "Category": 0,
+    "Title": "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"8BA3AECA46CCCA91B8CE8EB7D317F144\", \"Huellas de Barrio\")",
+    "FrontMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_PetShopFront_Voxel.SM_PetShopFront_Voxel'",
+    "InteriorMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_PetShopInterior_Voxel.SM_PetShopInterior_Voxel'",
+    "ProductMeshes": [
+      "SM_PetFood",
+      "SM_PetBowl",
+      "SM_PetToy"
+    ],
+    "ProductNames": [
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"8B7F817F4563D1ABF6586184F53FADAE\", \"alimento para mascota\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"2F7325E24C27B66E958079B2F3EEF8D3\", \"comedero\")",
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"47FFDA5240F39D4A0D00E5ACDED77C3D\", \"juguete\")"
+    ],
+    "PurchaseBudget": 78000,
+    "WidthMeters": 24,
+    "DepthMeters": 26,
+    "CounterDistanceMeters": 6
+  },
+  {
+    "Name": "Pizza",
+    "Category": 1,
+    "Title": "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"2FA4236A4A7D7E4C0575C9A15B7123FB\", \"Horno de la Cuadra\")",
+    "FrontMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_PizzaFront_Voxel.SM_PizzaFront_Voxel'",
+    "InteriorMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_PizzaInterior_Voxel.SM_PizzaInterior_Voxel'",
+    "ProductMeshes": [
+      "SM_Pizza"
+    ],
+    "ProductNames": [
+      "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"B018B60E43BC9E50D6DCDF8BDDFD6A42\", \"pizza artesanal reci\u00e9n horneada\")"
+    ],
+    "PurchaseBudget": 29000,
+    "WidthMeters": 24,
+    "DepthMeters": 28,
+    "CounterDistanceMeters": 20
+  }
+]

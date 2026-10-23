@@ -1,0 +1,7 @@
+{
+  "status": "RUNTIME_VERIFIED",
+  "hero_clip": "/Game/VoxelExplorer/AN_Walk_InPlace.AN_Walk_InPlace",
+  "same_mixamo_source_as_npc": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\Mixamo\\Walk.fbx",
+  "elder_unchanged": true,
+  "runtime_log": "work/SharedHeroWalkRuntime.log"
+}

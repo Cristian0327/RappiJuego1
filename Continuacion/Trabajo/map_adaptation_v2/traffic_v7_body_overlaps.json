@@ -1,0 +1,270 @@
+{
+  "max_overlaps": 1,
+  "frames": [
+    {
+      "time": 0.033333,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 5.033334,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 10.033334,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 15.033335,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 20.066669,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 25.033335,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 30.033336,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 35.066669,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 40.06667,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 45.06667,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 50.066671,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 55.033338,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 60.033338,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 65.033339,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 70.033339,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 75.03334,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 80.03334,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 85.03334,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 90.033341,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 95.033341,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 100.033342,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 105.033342,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 110.033343,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 115.033343,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 120.033344,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 125.033344,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 130.033345,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 135.033345,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 140.033346,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 145.033346,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 150.033347,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 155.033347,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 160.033348,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 165.033348,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 170.033349,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 175.033349,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 180.03335,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 185.03335,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 190.033351,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 195.033351,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 200.033351,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 205.033352,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 210.033352,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 215.033353,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 220.033353,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 225.033354,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 230.033354,
+      "overlaps": 0,
+      "examples": []
+    },
+    {
+      "time": 235.033355,
+      "overlaps": 1,
+      "examples": [
+        [
+          11,
+          66
+        ]
+      ]
+    },
+    {
+      "time": 240.033355,
+      "overlaps": 1,
+      "examples": [
+        [
+          11,
+          66
+        ]
+      ]
+    },
+    {
+      "time": 245.033356,
+      "overlaps": 1,
+      "examples": [
+        [
+          11,
+          66
+        ]
+      ]
+    }
+  ]
+}

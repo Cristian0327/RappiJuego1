@@ -1,0 +1,10 @@
+from pathlib import Path
+r=Path(__file__).resolve().parents[1]
+p=r/'work/build_street_crowd.py';s=p.read_text();s=s.replace("if hair in ['bald','silver']:","if hair == 'bald':")
+s=s.replace(" hair=s['hair'];extra=s['extra']", " hair=s['hair'];extra=s['extra']\n # Close the crown and temple band before adding the individual hairstyles.\n oval('Continuous scalp','skin' if hair=='bald' else 'hair',66,70,9,8,cy=1)\n for side in [-1,1]:\n  box('Temple hair','hair',-10,-8,-4,1,65,69) if side<0 else box('Temple hair','hair',8,10,-4,1,65,69)")
+s=s.replace("vox[q]=(m,(bones[p],p))", "vox[q]=(m,(bones[p],'Unified head' if bones[p]=='head' else p))")
+p.write_text(s)
+p=r/'work/import_street_crowd.py';s=p.read_text().replace("out/'SK_Citizen00.fbx'","out/'SK_Citizen06.fbx'");s=s.replace("city.bind_crowd_mesh(mesh,skeleton)","city.bind_crowd_mesh(mesh,skeleton)\n  unreal.EditorAssetLibrary.save_loaded_asset(skeleton,only_if_is_dirty=False)");p.write_text(s)
+p=r/'outputs/BogotaVoxel/Source/BogotaVoxel/BogotaTraffic.cpp';s=p.read_text().replace('Mesh->SetSkeleton(Skeleton);Mesh->MarkPackageDirty();','Skeleton->MergeAllBonesToBoneTree(Mesh,false);Skeleton->MarkPackageDirty();Mesh->SetSkeleton(Skeleton);Mesh->MarkPackageDirty();');p.write_text(s)
+p=r/'outputs/BogotaVoxel/Source/BogotaVoxel/BogotaCity.cpp';s=p.read_text().replace('SunLight->DynamicShadowCascades=2;SunLight->ShadowBias=.45f;','SunLight->DynamicShadowCascades=4;SunLight->ShadowBias=.3f;SunLight->ShadowSharpen=.25f;SunLight->LightSourceAngle=2.f;').replace('Day?4.f*(.25f+.75f*Elev):.22f','Day?6.f*(.3f+.7f*Elev):.3f').replace('Ambient->GetLightComponent()->SetIntensity(.8f+DayMix*1.2f);','Ambient->GetLightComponent()->SetIntensity(.65f+DayMix*2.35f);\n Ambient->GetLightComponent()->SetLightColor(FMath::Lerp(FLinearColor(.38f,.48f,.72f),FLinearColor(.86f,.92f,1.f),DayMix));');p.write_text(s)
+p=r/'outputs/BogotaVoxel/Config/DefaultEngine.ini';s=p.read_text().replace('r.Shadow.CSM.MaxCascades=2','r.Shadow.CSM.MaxCascades=4').replace('r.AmbientOcclusionLevels=0','r.AmbientOcclusionLevels=2');p.write_text(s)

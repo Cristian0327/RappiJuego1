@@ -1,0 +1,165 @@
+{
+  "models": [
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_Private.BP_Traffic_Private",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateAveo.BP_Traffic_PrivateAveo",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateBeetle.BP_Traffic_PrivateBeetle",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateChevette.BP_Traffic_PrivateChevette",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateClio.BP_Traffic_PrivateClio",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateHatch.BP_Traffic_PrivateHatch",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateMazda323.BP_Traffic_PrivateMazda323",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivatePicanto.BP_Traffic_PrivatePicanto",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivatePickup.BP_Traffic_PrivatePickup",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivatePrado.BP_Traffic_PrivatePrado",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateRenault12.BP_Traffic_PrivateRenault12",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateRenault4.BP_Traffic_PrivateRenault4",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateRenault9.BP_Traffic_PrivateRenault9",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSandero.BP_Traffic_PrivateSandero",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSingleCab.BP_Traffic_PrivateSingleCab",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSprint.BP_Traffic_PrivateSprint",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSUV.BP_Traffic_PrivateSUV",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateVan.BP_Traffic_PrivateVan",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateVitara.BP_Traffic_PrivateVitara",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateWagon.BP_Traffic_PrivateWagon",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_TaxiCompact.BP_Traffic_TaxiCompact",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_TaxiSedan.BP_Traffic_TaxiSedan",
+      "bottom": 0.0,
+      "offset": 0.0
+    },
+    {
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_TransMilenio.BP_Traffic_TransMilenio",
+      "bottom": 0.0,
+      "offset": 0.0
+    }
+  ],
+  "lanes": [
+    {
+      "lane": 0,
+      "min": 4.5,
+      "max": 7.0,
+      "points": 868
+    },
+    {
+      "lane": 1,
+      "min": 4.5,
+      "max": 27.500001907348633,
+      "points": 868
+    },
+    {
+      "lane": 2,
+      "min": 4.5,
+      "max": 7.0,
+      "points": 550
+    },
+    {
+      "lane": 3,
+      "min": 4.5,
+      "max": 7.0,
+      "points": 550
+    },
+    {
+      "lane": 4,
+      "min": 4.5,
+      "max": 7.0,
+      "points": 868
+    },
+    {
+      "lane": 5,
+      "min": 4.5,
+      "max": 27.500001907348633,
+      "points": 868
+    },
+    {
+      "lane": 6,
+      "min": 4.5,
+      "max": 7.0,
+      "points": 1418
+    }
+  ],
+  "police_visual_yaw": 180,
+  "bicycle_step": 55
+}

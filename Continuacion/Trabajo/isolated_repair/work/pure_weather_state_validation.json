@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "minutes_by_state": [
+    8034,
+    1409,
+    514,
+    123
+  ],
+  "sunny_fraction": 0.7970238095238096,
+  "checks": [
+    {
+      "name": "adjacent_weather_transitions_0",
+      "passed": true
+    },
+    {
+      "name": "adjacent_weather_transitions_1",
+      "passed": true
+    },
+    {
+      "name": "adjacent_weather_transitions_2",
+      "passed": true
+    },
+    {
+      "name": "adjacent_weather_transitions_3",
+      "passed": true
+    },
+    {
+      "name": "sunny_days_predominate",
+      "passed": true
+    },
+    {
+      "name": "all_weather_severities_reached",
+      "passed": true
+    },
+    {
+      "name": "developer_mode_0",
+      "passed": true
+    },
+    {
+      "name": "developer_mode_1",
+      "passed": true
+    },
+    {
+      "name": "developer_mode_2",
+      "passed": true
+    },
+    {
+      "name": "developer_mode_3",
+      "passed": true
+    },
+    {
+      "name": "smooth_storm_intensity",
+      "passed": true
+    },
+    {
+      "name": "hail_in_storm",
+      "passed": true
+    },
+    {
+      "name": "lightning_events_generated",
+      "passed": true
+    },
+    {
+      "name": "delayed_thunder_events_generated",
+      "passed": true
+    },
+    {
+      "name": "hail_stops_outside_storm",
+      "passed": true
+    },
+    {
+      "name": "storm_clears_gradually",
+      "passed": true
+    }
+  ]
+}

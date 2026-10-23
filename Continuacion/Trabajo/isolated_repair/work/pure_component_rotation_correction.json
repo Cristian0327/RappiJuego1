@@ -1,0 +1,17 @@
+{
+  "/Game/Delivery/BlueprintGameplay/Player/BP_BlueprintRider": {
+    "before": {
+      "pitch": -90.0,
+      "yaw": -0.0,
+      "roll": 0.0
+    },
+    "corrected": true
+  },
+  "/Game/Delivery/Vehicles/BP_DeliveryRider": {
+    "before": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  }
+}

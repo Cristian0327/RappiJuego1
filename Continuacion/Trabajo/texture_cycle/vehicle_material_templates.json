@@ -1,0 +1,94 @@
+[
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_Private.BP_Traffic_Private",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateAveo.BP_Traffic_PrivateAveo",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateBeetle.BP_Traffic_PrivateBeetle",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateChevette.BP_Traffic_PrivateChevette",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateClio.BP_Traffic_PrivateClio",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateHatch.BP_Traffic_PrivateHatch",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateMazda323.BP_Traffic_PrivateMazda323",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivatePicanto.BP_Traffic_PrivatePicanto",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivatePickup.BP_Traffic_PrivatePickup",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivatePrado.BP_Traffic_PrivatePrado",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateRenault12.BP_Traffic_PrivateRenault12",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateRenault4.BP_Traffic_PrivateRenault4",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateRenault9.BP_Traffic_PrivateRenault9",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSandero.BP_Traffic_PrivateSandero",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSingleCab.BP_Traffic_PrivateSingleCab",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSprint.BP_Traffic_PrivateSprint",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSUV.BP_Traffic_PrivateSUV",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateVan.BP_Traffic_PrivateVan",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateVitara.BP_Traffic_PrivateVitara",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateWagon.BP_Traffic_PrivateWagon",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_TaxiCompact.BP_Traffic_TaxiCompact",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_TaxiSedan.BP_Traffic_TaxiSedan",
+    "components": []
+  },
+  {
+    "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_TransMilenio.BP_Traffic_TransMilenio",
+    "components": []
+  }
+]

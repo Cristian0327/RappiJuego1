@@ -1,0 +1,16 @@
+{
+  "saved_map": "/Game/Maps/MapaCompleto_Integration",
+  "player_allowed": [
+    "walk",
+    "bicycle",
+    "motorcycle"
+  ],
+  "npc_vehicles_allowed": false,
+  "cars_allowed": false,
+  "path_length_m": 357.7774869610452,
+  "maximum_grade": 0.25000000000000444,
+  "minimum_turn_radius_m": 4.446955247038025,
+  "collision_samples": 180,
+  "collision_errors": [],
+  "blueprint": "/Game/World/BogotaUrban/BP_MonserrateAccess.BP_MonserrateAccess_C"
+}

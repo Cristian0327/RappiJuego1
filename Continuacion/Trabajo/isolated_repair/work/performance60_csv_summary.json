@@ -1,0 +1,554 @@
+[
+  {
+    "Name": "Exclusive/GameThread/EventWait",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/Material_UpdateDeferredCachedUniformExpressions",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/InitRenderResource",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/UI",
+    "Mean": 1.478
+  },
+  {
+    "Name": "Exclusive/GameThread/Slate",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/RDG",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/RDG_CollectResources",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/RDG_Execute",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/FlushAsyncLoading",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/ActorSpawning",
+    "Mean": 0.003
+  },
+  {
+    "Name": "Exclusive/GameThread/UpdateLevelStreaming",
+    "Mean": 0.006
+  },
+  {
+    "Name": "Exclusive/GameThread/EndOfFrameUpdates",
+    "Mean": 3.057
+  },
+  {
+    "Name": "Exclusive/GameThread/GarbageCollectionFull",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/GarbageCollection",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/Physics",
+    "Mean": 0.156
+  },
+  {
+    "Name": "Exclusive/GameThread/DeleteLinkers",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/InstanceActorComponent",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/UInstancedStaticMeshComponent_CreateAllInstanceBodies",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/ActorDestroying",
+    "Mean": 0.002
+  },
+  {
+    "Name": "Exclusive/GameThread/PostProcessSettings",
+    "Mean": 0.042
+  },
+  {
+    "Name": "Exclusive/GameThread/DebugHUD",
+    "Mean": 0.187
+  },
+  {
+    "Name": "Exclusive/GameThread/LLM",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/CsvProfiler",
+    "Mean": 0.018
+  },
+  {
+    "Name": "Exclusive/GameThread/Input",
+    "Mean": 0.029
+  },
+  {
+    "Name": "Exclusive/GameThread/EngineTickMisc",
+    "Mean": 0.286
+  },
+  {
+    "Name": "Exclusive/GameThread/AsyncLoading",
+    "Mean": 0.044
+  },
+  {
+    "Name": "Exclusive/GameThread/WorldTickMisc",
+    "Mean": 3.176
+  },
+  {
+    "Name": "Exclusive/GameThread/Effects",
+    "Mean": 0.141
+  },
+  {
+    "Name": "Exclusive/GameThread/NetworkIncoming",
+    "Mean": 0.001
+  },
+  {
+    "Name": "Exclusive/GameThread/NavigationBuild",
+    "Mean": 1.381
+  },
+  {
+    "Name": "Exclusive/GameThread/ResetAsyncTraceTickTime",
+    "Mean": 0.002
+  },
+  {
+    "Name": "Exclusive/GameThread/WorldPreActorTick",
+    "Mean": 0.014
+  },
+  {
+    "Name": "Exclusive/GameThread/QueueTicks",
+    "Mean": 0.94
+  },
+  {
+    "Name": "FrameTime",
+    "Mean": 50.489
+  },
+  {
+    "Name": "Exclusive/GameThread/TickActors",
+    "Mean": 25.96
+  },
+  {
+    "Name": "Exclusive/GameThread/FlushLatentActions",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/TimerManager",
+    "Mean": 0.012
+  },
+  {
+    "Name": "Exclusive/GameThread/Tickables",
+    "Mean": 0.202
+  },
+  {
+    "Name": "Exclusive/GameThread/Landscape",
+    "Mean": 0.031
+  },
+  {
+    "Name": "Exclusive/GameThread/AIPerception",
+    "Mean": 0.003
+  },
+  {
+    "Name": "Exclusive/GameThread/EnvQueryManager",
+    "Mean": 0.001
+  },
+  {
+    "Name": "Exclusive/GameThread/Camera",
+    "Mean": 0.065
+  },
+  {
+    "Name": "Exclusive/GameThread/UpdateStreamingState",
+    "Mean": 0.017
+  },
+  {
+    "Name": "Exclusive/GameThread/RecordTickCountsToCSV",
+    "Mean": 0.377
+  },
+  {
+    "Name": "Exclusive/GameThread/RecordActorCountsToCSV",
+    "Mean": 0.003
+  },
+  {
+    "Name": "Exclusive/GameThread/ViewportMisc",
+    "Mean": 0.529
+  },
+  {
+    "Name": "Exclusive/GameThread/RenderAssetStreaming",
+    "Mean": 0.097
+  },
+  {
+    "Name": "Ticks/Actor",
+    "Mean": 29.0
+  },
+  {
+    "Name": "Ticks/AIController",
+    "Mean": 60.0
+  },
+  {
+    "Name": "Ticks/DetourCrowdAIController",
+    "Mean": 109.979
+  },
+  {
+    "Name": "Ticks/CrowdFollowingComponent",
+    "Mean": 109.979
+  },
+  {
+    "Name": "Ticks/ChaosDebugDrawComponent",
+    "Mean": 1.0
+  },
+  {
+    "Name": "Ticks/AbstractNavData",
+    "Mean": 1.0
+  },
+  {
+    "Name": "Ticks/RecastNavMesh",
+    "Mean": 1.0
+  },
+  {
+    "Name": "Ticks/CameraComponent",
+    "Mean": 1.0
+  },
+  {
+    "Name": "Ticks/Character",
+    "Mean": 122.0
+  },
+  {
+    "Name": "Ticks/CharacterMovementComponent",
+    "Mean": 170.979
+  },
+  {
+    "Name": "Ticks/LineBatchComponent",
+    "Mean": 4.0
+  },
+  {
+    "Name": "Ticks/PoseableMeshComponent",
+    "Mean": 74.614
+  },
+  {
+    "Name": "Ticks/SkeletalMeshComponent",
+    "Mean": 270.979
+  },
+  {
+    "Name": "Ticks/SpringArmComponent",
+    "Mean": 1.0
+  },
+  {
+    "Name": "Ticks/HUD",
+    "Mean": 1.0
+  },
+  {
+    "Name": "Ticks/PhysicsFieldComponent",
+    "Mean": 1.0
+  },
+  {
+    "Name": "Ticks/PlayerController",
+    "Mean": 1.0
+  },
+  {
+    "Name": "Ticks/FNiagaraWorldManagerTickFunction",
+    "Mean": 7.0
+  },
+  {
+    "Name": "Ticks/FSkinWeightProfileManager",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Ticks/ParticleSystemManager",
+    "Mean": 7.0
+  },
+  {
+    "Name": "Ticks/StartPhysicsTick",
+    "Mean": 1.0
+  },
+  {
+    "Name": "Ticks/EndPhysicsTick",
+    "Mean": 1.0
+  },
+  {
+    "Name": "Ticks/Total",
+    "Mean": 975.529
+  },
+  {
+    "Name": "Exclusive/GameThread/DeferredTickTime",
+    "Mean": 0.156
+  },
+  {
+    "Name": "Exclusive/GameThread/PlayerControllerTick",
+    "Mean": 0.256
+  },
+  {
+    "Name": "RenderThreadTime",
+    "Mean": 9.747
+  },
+  {
+    "Name": "GameThreadTime",
+    "Mean": 50.465
+  },
+  {
+    "Name": "GPUTime",
+    "Mean": 2.521
+  },
+  {
+    "Name": "RenderThreadTime_CriticalPath",
+    "Mean": 9.747
+  },
+  {
+    "Name": "GameThreadTime_CriticalPath",
+    "Mean": 50.466
+  },
+  {
+    "Name": "RHIThreadTime",
+    "Mean": 4.264
+  },
+  {
+    "Name": "MaxFrameTime",
+    "Mean": 8.333
+  },
+  {
+    "Name": "DrawCall/SlateUI",
+    "Mean": 10.0
+  },
+  {
+    "Name": "DrawCall/Basepass",
+    "Mean": 53.65
+  },
+  {
+    "Name": "DrawCall/CustomDepth",
+    "Mean": 0.0
+  },
+  {
+    "Name": "DrawCall/Prepass",
+    "Mean": 38.0
+  },
+  {
+    "Name": "DrawCall/Distortion",
+    "Mean": 0.0
+  },
+  {
+    "Name": "DrawCall/Fog",
+    "Mean": 1.0
+  },
+  {
+    "Name": "DrawCall/FrontLayerTranslucencyGBuffer",
+    "Mean": 0.0
+  },
+  {
+    "Name": "DrawCall/Lights",
+    "Mean": 47.0
+  },
+  {
+    "Name": "DrawCall/BeginOcclusionTests",
+    "Mean": 116.586
+  },
+  {
+    "Name": "DrawCall/ScreenSpaceReflections",
+    "Mean": 0.0
+  },
+  {
+    "Name": "DrawCall/ShadowDepths",
+    "Mean": 96.429
+  },
+  {
+    "Name": "DrawCall/DistanceFieldShadows",
+    "Mean": 0.0
+  },
+  {
+    "Name": "DrawCall/SingleLayerWaterDepthPrepass",
+    "Mean": 0.0
+  },
+  {
+    "Name": "DrawCall/SingleLayerWater",
+    "Mean": 0.0
+  },
+  {
+    "Name": "DrawCall/Translucency",
+    "Mean": 2.636
+  },
+  {
+    "Name": "DrawCall/RenderVelocities",
+    "Mean": 14.65
+  },
+  {
+    "Name": "DrawCall/WaterInfoTexture",
+    "Mean": 0.0
+  },
+  {
+    "Name": "DrawCall/FXSystemPreInitViews",
+    "Mean": 0.0
+  },
+  {
+    "Name": "DrawCall/FXSystemPreRender",
+    "Mean": 0.0
+  },
+  {
+    "Name": "DrawCall/FXSystemPostRenderOpaque",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/Animation",
+    "Mean": 4.556
+  },
+  {
+    "Name": "Exclusive/GameThread/CharacterMovement",
+    "Mean": 6.033
+  },
+  {
+    "Name": "GPU/RayTracingGeometry",
+    "Mean": 0.0
+  },
+  {
+    "Name": "GPU/DistanceFields",
+    "Mean": 0.001
+  },
+  {
+    "Name": "GPU/AllocateRendertargets",
+    "Mean": 0.001
+  },
+  {
+    "Name": "GPU/VisibilityCommands",
+    "Mean": 0.001
+  },
+  {
+    "Name": "GPU/GPUSceneUpdate",
+    "Mean": 0.006
+  },
+  {
+    "Name": "GPU/FXSystemPreRender",
+    "Mean": 0.001
+  },
+  {
+    "Name": "GPU/BuildRenderingCommandsDeferred",
+    "Mean": 0.043
+  },
+  {
+    "Name": "GPU/Prepass",
+    "Mean": 0.069
+  },
+  {
+    "Name": "GPU/RenderVelocities",
+    "Mean": 0.065
+  },
+  {
+    "Name": "GPU/HZB",
+    "Mean": 0.001
+  },
+  {
+    "Name": "GPU/BeginOcclusionTests",
+    "Mean": 0.015
+  },
+  {
+    "Name": "GPU/LightGrid",
+    "Mean": 0.078
+  },
+  {
+    "Name": "GPU/LightFunctionAtlasGeneration",
+    "Mean": 0.0
+  },
+  {
+    "Name": "GPU/SkyAtmosphereEditor",
+    "Mean": 0.017
+  },
+  {
+    "Name": "GPU/Basepass",
+    "Mean": 0.224
+  },
+  {
+    "Name": "GPU/ShadowDepths",
+    "Mean": 0.573
+  },
+  {
+    "Name": "GPU/RenderDeferredLighting",
+    "Mean": 0.074
+  },
+  {
+    "Name": "GPU/TranslucentLighting",
+    "Mean": 0.15
+  },
+  {
+    "Name": "GPU/Lights",
+    "Mean": 0.067
+  },
+  {
+    "Name": "GPU/ShadowProjection",
+    "Mean": 0.018
+  },
+  {
+    "Name": "GPU/Fog",
+    "Mean": 0.037
+  },
+  {
+    "Name": "GPU/PostRenderOpsFX",
+    "Mean": 0.003
+  },
+  {
+    "Name": "GPU/FXSystemPostRenderOpaque",
+    "Mean": 0.003
+  },
+  {
+    "Name": "GPU/Translucency",
+    "Mean": 0.105
+  },
+  {
+    "Name": "GPU/Postprocessing",
+    "Mean": 0.195
+  },
+  {
+    "Name": "GPU/TAA",
+    "Mean": 0.122
+  },
+  {
+    "Name": "GPU/VirtualTextureUpdate",
+    "Mean": 0.001
+  },
+  {
+    "Name": "GPU/ReflectionEnvironment",
+    "Mean": 0.054
+  },
+  {
+    "Name": "GPU/FrameRenderFinish",
+    "Mean": 0.0
+  },
+  {
+    "Name": "GPU/SlateUI",
+    "Mean": 0.008
+  },
+  {
+    "Name": "GPU/Unaccounted",
+    "Mean": 0.863
+  },
+  {
+    "Name": "Exclusive/GameThread/SkinWeightProfileManagerGT",
+    "Mean": 0.0
+  },
+  {
+    "Name": "Exclusive/GameThread/EventWait/EndPhysics",
+    "Mean": 0.564
+  },
+  {
+    "Name": "Exclusive/GameThread/SyncBodies",
+    "Mean": 0.099
+  },
+  {
+    "Name": "Exclusive/GameThread/EventWait/RenderAssetStreaming",
+    "Mean": 0.003
+  },
+  {
+    "Name": "Exclusive/GameThread/EventWait/StartPhysics",
+    "Mean": 0.002
+  },
+  {
+    "Name": "Exclusive/GameThread/Pathfinding",
+    "Mean": 0.002
+  }
+]

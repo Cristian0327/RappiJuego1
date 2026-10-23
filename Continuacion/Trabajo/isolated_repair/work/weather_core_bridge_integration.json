@@ -1,0 +1,21 @@
+{
+  "status": "INTEGRATED_COMPATIBILITY_SHELL_REMAINS",
+  "functions": [
+    {
+      "function": "WeatherStateForIntensity",
+      "active_pure_blueprint": "/Game/World/BlueprintWorld/BP_WorldState.BP_WorldState_C"
+    },
+    {
+      "function": "WeatherIntensityForState",
+      "active_pure_blueprint": "/Game/World/BlueprintWorld/BP_WorldState.BP_WorldState_C"
+    },
+    {
+      "function": "ChooseWeatherHold",
+      "active_pure_blueprint": "/Game/World/BlueprintWorld/BP_WorldState.BP_WorldState_C"
+    },
+    {
+      "function": "AdvanceDynamicWeather",
+      "active_pure_blueprint": "/Game/World/BlueprintWorld/BP_WorldState.BP_WorldState_C"
+    }
+  ]
+}

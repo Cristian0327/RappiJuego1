@@ -1,0 +1,2 @@
+from pathlib import Path
+s=Path('C:/Users/CRISTIAN/Documents/Codex/2026-09-12/ho/fix_vehicle_usability.py').read_text();exec(s[:s.index('paths=')]);exec(s[s.index('def save(bp)'):s.index('# Smooth the reverse')]);exec(s[s.index('# Taxi requests:'):]);exec(compile(Path('C:/Users/CRISTIAN/Documents/Codex/2026-09-12/ho/build_smooth_vehicle_runtime_qa.py').read_text(),'FinalFixtureBusReset','exec'),{})

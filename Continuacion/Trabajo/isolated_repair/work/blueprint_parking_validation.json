@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "seeds": 100,
+  "poses": 1200,
+  "unique_curb_slots": 4,
+  "reproducible": true
+}

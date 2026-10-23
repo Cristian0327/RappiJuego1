@@ -1,0 +1,21 @@
+{
+  "status": "IMPLEMENTED_AND_TESTED",
+  "date": "2026-10-19",
+  "checks": {
+    "ESOYAM_F_ENTERS_CAR_WITHOUT_CARRO": true,
+    "SEATED_FACES_CAR_FORWARD": true,
+    "PELVIS_INSIDE_CABIN": true,
+    "DRIVER_HIDDEN_INSIDE_CLOSED_CABIN": true,
+    "EXIT_RESTORES_ON_FOOT": true,
+    "DRIVER_VISIBLE_AFTER_EXIT": true,
+    "TRAFFIC_STOPS_FOR_PLAYER": true,
+    "TRAFFIC_RESUMES_AFTER_CROSSING": true,
+    "PLAYER_BEHIND_DOES_NOT_BLOCK": true
+  },
+  "seat_root_car_cm": 85,
+  "seat_root_bus_cm": 205,
+  "closed_cabin": "Hero mesh and attached children hidden when inside; restored during exit and on foot. Existing opaque windows retained",
+  "runtime_cpp": false,
+  "github_untouched": true,
+  "runtime_log": "work/ClosedCabinRuntime.log"
+}

@@ -1,0 +1,987 @@
+{
+  "status": "STAGING_COMPILED",
+  "buttons": 159,
+  "bindings": [
+    {
+      "widget": "App1_Bike_00",
+      "delegate": "OnClicked",
+      "function": "ClosePressed"
+    },
+    {
+      "widget": "App1_Bike_02",
+      "delegate": "OnClicked",
+      "function": "ClearPoint"
+    },
+    {
+      "widget": "App1_Bike_03",
+      "delegate": "OnClicked",
+      "function": "OpenHome"
+    },
+    {
+      "widget": "App1_Bike_04",
+      "delegate": "OnClicked",
+      "function": "OpenMap"
+    },
+    {
+      "widget": "App1_Bike_05",
+      "delegate": "OnClicked",
+      "function": "OpenOrders"
+    },
+    {
+      "widget": "App1_Bike_06",
+      "delegate": "OnClicked",
+      "function": "OpenShop"
+    },
+    {
+      "widget": "App2_Bike_00",
+      "delegate": "OnClicked",
+      "function": "ClosePressed"
+    },
+    {
+      "widget": "App2_Bike_01",
+      "delegate": "OnClicked",
+      "function": "OpenActiveOrders"
+    },
+    {
+      "widget": "App2_Bike_02",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "0"
+      }
+    },
+    {
+      "widget": "App2_Bike_04",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "1"
+      }
+    },
+    {
+      "widget": "App2_Bike_06",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "2"
+      }
+    },
+    {
+      "widget": "App2_Bike_08",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "3"
+      }
+    },
+    {
+      "widget": "App2_Bike_10",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "4"
+      }
+    },
+    {
+      "widget": "App2_Bike_12",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "5"
+      }
+    },
+    {
+      "widget": "App2_Bike_14",
+      "delegate": "OnPressed",
+      "function": "AcceptPressed"
+    },
+    {
+      "widget": "App2_Bike_14",
+      "delegate": "OnReleased",
+      "function": "AcceptReleased"
+    },
+    {
+      "widget": "App2_Bike_15",
+      "delegate": "OnClicked",
+      "function": "IgnorePressed"
+    },
+    {
+      "widget": "App2_Bike_16",
+      "delegate": "OnClicked",
+      "function": "OpenHome"
+    },
+    {
+      "widget": "App2_Bike_17",
+      "delegate": "OnClicked",
+      "function": "OpenMap"
+    },
+    {
+      "widget": "App2_Bike_18",
+      "delegate": "OnClicked",
+      "function": "OpenOrders"
+    },
+    {
+      "widget": "App2_Bike_19",
+      "delegate": "OnClicked",
+      "function": "OpenShop"
+    },
+    {
+      "widget": "App3_Bike_00",
+      "delegate": "OnClicked",
+      "function": "ClosePressed"
+    },
+    {
+      "widget": "App3_Bike_01",
+      "delegate": "OnClicked",
+      "function": "OpenCargo"
+    },
+    {
+      "widget": "App3_Bike_02",
+      "delegate": "OnClicked",
+      "function": "OpenCatalog"
+    },
+    {
+      "widget": "App3_Bike_03",
+      "delegate": "OnClicked",
+      "function": "GarageBike"
+    },
+    {
+      "widget": "App3_Bike_04",
+      "delegate": "OnClicked",
+      "function": "GarageMoto"
+    },
+    {
+      "widget": "App3_Bike_07",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "0"
+      }
+    },
+    {
+      "widget": "App3_Bike_08",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "1"
+      }
+    },
+    {
+      "widget": "App3_Bike_09",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "2"
+      }
+    },
+    {
+      "widget": "App3_Bike_10",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "3"
+      }
+    },
+    {
+      "widget": "App3_Bike_11",
+      "delegate": "OnClicked",
+      "function": "BuySelected"
+    },
+    {
+      "widget": "App3_Bike_12",
+      "delegate": "OnClicked",
+      "function": "SwitchPressed"
+    },
+    {
+      "widget": "App3_Bike_13",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "100"
+      }
+    },
+    {
+      "widget": "App3_Bike_14",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "101"
+      }
+    },
+    {
+      "widget": "App3_Bike_15",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "102"
+      }
+    },
+    {
+      "widget": "App3_Bike_16",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "103"
+      }
+    },
+    {
+      "widget": "App3_Bike_17",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "104"
+      }
+    },
+    {
+      "widget": "App3_Bike_18",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "105"
+      }
+    },
+    {
+      "widget": "App3_Bike_19",
+      "delegate": "OnClicked",
+      "function": "PaintSelected"
+    },
+    {
+      "widget": "App3_Bike_20",
+      "delegate": "OnClicked",
+      "function": "OpenHome"
+    },
+    {
+      "widget": "App3_Bike_21",
+      "delegate": "OnClicked",
+      "function": "OpenMap"
+    },
+    {
+      "widget": "App3_Bike_22",
+      "delegate": "OnClicked",
+      "function": "OpenOrders"
+    },
+    {
+      "widget": "App3_Bike_23",
+      "delegate": "OnClicked",
+      "function": "OpenShop"
+    },
+    {
+      "widget": "App4_Bike_00",
+      "delegate": "OnClicked",
+      "function": "ClosePressed"
+    },
+    {
+      "widget": "App4_Bike_01",
+      "delegate": "OnClicked",
+      "function": "OpenCargo"
+    },
+    {
+      "widget": "App4_Bike_02",
+      "delegate": "OnClicked",
+      "function": "OpenShop"
+    },
+    {
+      "widget": "App4_Bike_03",
+      "delegate": "OnClicked",
+      "function": "GarageBike"
+    },
+    {
+      "widget": "App4_Bike_04",
+      "delegate": "OnClicked",
+      "function": "GarageMoto"
+    },
+    {
+      "widget": "App4_Bike_07",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "0"
+      }
+    },
+    {
+      "widget": "App4_Bike_08",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "1"
+      }
+    },
+    {
+      "widget": "App4_Bike_09",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "2"
+      }
+    },
+    {
+      "widget": "App4_Bike_10",
+      "delegate": "OnClicked",
+      "function": "BuyModel"
+    },
+    {
+      "widget": "App4_Bike_11",
+      "delegate": "OnClicked",
+      "function": "EquipModel"
+    },
+    {
+      "widget": "App4_Bike_12",
+      "delegate": "OnClicked",
+      "function": "OpenHome"
+    },
+    {
+      "widget": "App4_Bike_13",
+      "delegate": "OnClicked",
+      "function": "OpenMap"
+    },
+    {
+      "widget": "App4_Bike_14",
+      "delegate": "OnClicked",
+      "function": "OpenOrders"
+    },
+    {
+      "widget": "App4_Bike_15",
+      "delegate": "OnClicked",
+      "function": "OpenShop"
+    },
+    {
+      "widget": "App5_Bike_00",
+      "delegate": "OnClicked",
+      "function": "ClosePressed"
+    },
+    {
+      "widget": "App5_Bike_01",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "0"
+      }
+    },
+    {
+      "widget": "App5_Bike_02",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "1"
+      }
+    },
+    {
+      "widget": "App5_Bike_03",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "2"
+      }
+    },
+    {
+      "widget": "App5_Bike_04",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "3"
+      }
+    },
+    {
+      "widget": "App5_Bike_05",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "4"
+      }
+    },
+    {
+      "widget": "App5_Bike_06",
+      "delegate": "OnClicked",
+      "function": "OpenOrders"
+    },
+    {
+      "widget": "App5_Bike_07",
+      "delegate": "OnClicked",
+      "function": "OpenHome"
+    },
+    {
+      "widget": "App5_Bike_08",
+      "delegate": "OnClicked",
+      "function": "OpenMap"
+    },
+    {
+      "widget": "App5_Bike_09",
+      "delegate": "OnClicked",
+      "function": "OpenOrders"
+    },
+    {
+      "widget": "App5_Bike_10",
+      "delegate": "OnClicked",
+      "function": "OpenShop"
+    },
+    {
+      "widget": "App6_Bike_00",
+      "delegate": "OnClicked",
+      "function": "ClosePressed"
+    },
+    {
+      "widget": "App6_Bike_02",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "10"
+      }
+    },
+    {
+      "widget": "App6_Bike_03",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "11"
+      }
+    },
+    {
+      "widget": "App6_Bike_04",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "12"
+      }
+    },
+    {
+      "widget": "App6_Bike_05",
+      "delegate": "OnClicked",
+      "function": "BuySelected"
+    },
+    {
+      "widget": "App6_Bike_06",
+      "delegate": "OnClicked",
+      "function": "OpenHome"
+    },
+    {
+      "widget": "App6_Bike_07",
+      "delegate": "OnClicked",
+      "function": "OpenMap"
+    },
+    {
+      "widget": "App6_Bike_08",
+      "delegate": "OnClicked",
+      "function": "OpenOrders"
+    },
+    {
+      "widget": "App6_Bike_09",
+      "delegate": "OnClicked",
+      "function": "OpenShop"
+    },
+    {
+      "widget": "App1_Moto_00",
+      "delegate": "OnClicked",
+      "function": "ClosePressed"
+    },
+    {
+      "widget": "App1_Moto_02",
+      "delegate": "OnClicked",
+      "function": "ClearPoint"
+    },
+    {
+      "widget": "App1_Moto_03",
+      "delegate": "OnClicked",
+      "function": "OpenHome"
+    },
+    {
+      "widget": "App1_Moto_04",
+      "delegate": "OnClicked",
+      "function": "OpenMap"
+    },
+    {
+      "widget": "App1_Moto_05",
+      "delegate": "OnClicked",
+      "function": "OpenOrders"
+    },
+    {
+      "widget": "App1_Moto_06",
+      "delegate": "OnClicked",
+      "function": "OpenShop"
+    },
+    {
+      "widget": "App2_Moto_00",
+      "delegate": "OnClicked",
+      "function": "ClosePressed"
+    },
+    {
+      "widget": "App2_Moto_01",
+      "delegate": "OnClicked",
+      "function": "OpenActiveOrders"
+    },
+    {
+      "widget": "App2_Moto_02",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "0"
+      }
+    },
+    {
+      "widget": "App2_Moto_04",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "1"
+      }
+    },
+    {
+      "widget": "App2_Moto_06",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "2"
+      }
+    },
+    {
+      "widget": "App2_Moto_08",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "3"
+      }
+    },
+    {
+      "widget": "App2_Moto_10",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "4"
+      }
+    },
+    {
+      "widget": "App2_Moto_12",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "5"
+      }
+    },
+    {
+      "widget": "App2_Moto_14",
+      "delegate": "OnPressed",
+      "function": "AcceptPressed"
+    },
+    {
+      "widget": "App2_Moto_14",
+      "delegate": "OnReleased",
+      "function": "AcceptReleased"
+    },
+    {
+      "widget": "App2_Moto_15",
+      "delegate": "OnClicked",
+      "function": "IgnorePressed"
+    },
+    {
+      "widget": "App2_Moto_16",
+      "delegate": "OnClicked",
+      "function": "OpenHome"
+    },
+    {
+      "widget": "App2_Moto_17",
+      "delegate": "OnClicked",
+      "function": "OpenMap"
+    },
+    {
+      "widget": "App2_Moto_18",
+      "delegate": "OnClicked",
+      "function": "OpenOrders"
+    },
+    {
+      "widget": "App2_Moto_19",
+      "delegate": "OnClicked",
+      "function": "OpenShop"
+    },
+    {
+      "widget": "App3_Moto_00",
+      "delegate": "OnClicked",
+      "function": "ClosePressed"
+    },
+    {
+      "widget": "App3_Moto_01",
+      "delegate": "OnClicked",
+      "function": "OpenCargo"
+    },
+    {
+      "widget": "App3_Moto_02",
+      "delegate": "OnClicked",
+      "function": "OpenCatalog"
+    },
+    {
+      "widget": "App3_Moto_03",
+      "delegate": "OnClicked",
+      "function": "GarageBike"
+    },
+    {
+      "widget": "App3_Moto_04",
+      "delegate": "OnClicked",
+      "function": "GarageMoto"
+    },
+    {
+      "widget": "App3_Moto_07",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "4"
+      }
+    },
+    {
+      "widget": "App3_Moto_08",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "5"
+      }
+    },
+    {
+      "widget": "App3_Moto_09",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "6"
+      }
+    },
+    {
+      "widget": "App3_Moto_10",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "7"
+      }
+    },
+    {
+      "widget": "App3_Moto_11",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "8"
+      }
+    },
+    {
+      "widget": "App3_Moto_12",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "9"
+      }
+    },
+    {
+      "widget": "App3_Moto_13",
+      "delegate": "OnClicked",
+      "function": "BuySelected"
+    },
+    {
+      "widget": "App3_Moto_14",
+      "delegate": "OnClicked",
+      "function": "SwitchPressed"
+    },
+    {
+      "widget": "App3_Moto_15",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "100"
+      }
+    },
+    {
+      "widget": "App3_Moto_16",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "101"
+      }
+    },
+    {
+      "widget": "App3_Moto_17",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "102"
+      }
+    },
+    {
+      "widget": "App3_Moto_18",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "103"
+      }
+    },
+    {
+      "widget": "App3_Moto_19",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "104"
+      }
+    },
+    {
+      "widget": "App3_Moto_20",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "105"
+      }
+    },
+    {
+      "widget": "App3_Moto_21",
+      "delegate": "OnClicked",
+      "function": "PaintSelected"
+    },
+    {
+      "widget": "App3_Moto_22",
+      "delegate": "OnClicked",
+      "function": "OpenHome"
+    },
+    {
+      "widget": "App3_Moto_23",
+      "delegate": "OnClicked",
+      "function": "OpenMap"
+    },
+    {
+      "widget": "App3_Moto_24",
+      "delegate": "OnClicked",
+      "function": "OpenOrders"
+    },
+    {
+      "widget": "App3_Moto_25",
+      "delegate": "OnClicked",
+      "function": "OpenShop"
+    },
+    {
+      "widget": "App4_Moto_00",
+      "delegate": "OnClicked",
+      "function": "ClosePressed"
+    },
+    {
+      "widget": "App4_Moto_01",
+      "delegate": "OnClicked",
+      "function": "OpenCargo"
+    },
+    {
+      "widget": "App4_Moto_02",
+      "delegate": "OnClicked",
+      "function": "OpenShop"
+    },
+    {
+      "widget": "App4_Moto_03",
+      "delegate": "OnClicked",
+      "function": "GarageBike"
+    },
+    {
+      "widget": "App4_Moto_04",
+      "delegate": "OnClicked",
+      "function": "GarageMoto"
+    },
+    {
+      "widget": "App4_Moto_07",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "3"
+      }
+    },
+    {
+      "widget": "App4_Moto_08",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "4"
+      }
+    },
+    {
+      "widget": "App4_Moto_09",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "5"
+      }
+    },
+    {
+      "widget": "App4_Moto_10",
+      "delegate": "OnClicked",
+      "function": "BuyModel"
+    },
+    {
+      "widget": "App4_Moto_11",
+      "delegate": "OnClicked",
+      "function": "EquipModel"
+    },
+    {
+      "widget": "App4_Moto_12",
+      "delegate": "OnClicked",
+      "function": "OpenHome"
+    },
+    {
+      "widget": "App4_Moto_13",
+      "delegate": "OnClicked",
+      "function": "OpenMap"
+    },
+    {
+      "widget": "App4_Moto_14",
+      "delegate": "OnClicked",
+      "function": "OpenOrders"
+    },
+    {
+      "widget": "App4_Moto_15",
+      "delegate": "OnClicked",
+      "function": "OpenShop"
+    },
+    {
+      "widget": "App5_Moto_00",
+      "delegate": "OnClicked",
+      "function": "ClosePressed"
+    },
+    {
+      "widget": "App5_Moto_01",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "0"
+      }
+    },
+    {
+      "widget": "App5_Moto_02",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "1"
+      }
+    },
+    {
+      "widget": "App5_Moto_03",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "2"
+      }
+    },
+    {
+      "widget": "App5_Moto_04",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "3"
+      }
+    },
+    {
+      "widget": "App5_Moto_05",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "4"
+      }
+    },
+    {
+      "widget": "App5_Moto_06",
+      "delegate": "OnClicked",
+      "function": "OpenOrders"
+    },
+    {
+      "widget": "App5_Moto_07",
+      "delegate": "OnClicked",
+      "function": "OpenHome"
+    },
+    {
+      "widget": "App5_Moto_08",
+      "delegate": "OnClicked",
+      "function": "OpenMap"
+    },
+    {
+      "widget": "App5_Moto_09",
+      "delegate": "OnClicked",
+      "function": "OpenOrders"
+    },
+    {
+      "widget": "App5_Moto_10",
+      "delegate": "OnClicked",
+      "function": "OpenShop"
+    },
+    {
+      "widget": "App6_Moto_00",
+      "delegate": "OnClicked",
+      "function": "ClosePressed"
+    },
+    {
+      "widget": "App6_Moto_02",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "10"
+      }
+    },
+    {
+      "widget": "App6_Moto_03",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "11"
+      }
+    },
+    {
+      "widget": "App6_Moto_04",
+      "delegate": "OnClicked",
+      "function": "SelectEntry",
+      "defaults": {
+        "Index": "12"
+      }
+    },
+    {
+      "widget": "App6_Moto_05",
+      "delegate": "OnClicked",
+      "function": "BuySelected"
+    },
+    {
+      "widget": "App6_Moto_06",
+      "delegate": "OnClicked",
+      "function": "OpenHome"
+    },
+    {
+      "widget": "App6_Moto_07",
+      "delegate": "OnClicked",
+      "function": "OpenMap"
+    },
+    {
+      "widget": "App6_Moto_08",
+      "delegate": "OnClicked",
+      "function": "OpenOrders"
+    },
+    {
+      "widget": "App6_Moto_09",
+      "delegate": "OnClicked",
+      "function": "OpenShop"
+    },
+    {
+      "widget": "HomeMap",
+      "delegate": "OnClicked",
+      "function": "OpenMap"
+    },
+    {
+      "widget": "HomeOrders",
+      "delegate": "OnClicked",
+      "function": "OpenOrders"
+    },
+    {
+      "widget": "HomeWorkshop",
+      "delegate": "OnClicked",
+      "function": "OpenShop"
+    },
+    {
+      "widget": "HomeCargo",
+      "delegate": "OnClicked",
+      "function": "OpenCargo"
+    },
+    {
+      "widget": "HomeVehicles",
+      "delegate": "OnClicked",
+      "function": "OpenCatalog"
+    }
+  ],
+  "binding_count": 161,
+  "keyboard_events": true,
+  "pending": [
+    "Skill-tree spatial arrow navigation polish",
+    "Map click targeting and controller cursor",
+    "Garage preview",
+    "Runtime interaction/visual verification"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "count": 21,
+  "checks": [
+    "OffersGenerated",
+    "AcceptRequiresExplicitSelection",
+    "NoSelectionCannotHold",
+    "NoImplicitAcceptedOrder",
+    "SelectOffer",
+    "BlockedVehicleRejectsAcceptance",
+    "BlockedVehicleKeepsOffer",
+    "BlockedVehicleNoActiveOrder",
+    "ExplicitOfferStartsHold",
+    "HeldOfferAccepted",
+    "AcceptedStatePickup",
+    "OfferRemovedOnlyOnce",
+    "SelectionClearedAfterAccept",
+    "HoldReleasedAfterAccept",
+    "AcceptedMarkerExists",
+    "DuplicateAcceptanceRejected",
+    "DuplicateNoExtraActiveOrder",
+    "SelectSecondOffer",
+    "CargoFullRejectsAnotherOrder",
+    "CargoFullKeepsIncomingOffer",
+    "IdleNoSelectionDoesNotStartHold"
+  ],
+  "staging_not_promoted": true,
+  "placement_contract_fixture_only": true
+}

@@ -1,0 +1,172 @@
+{
+  "status": "STAGING",
+  "models": [
+    {
+      "name": "Private",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_Private",
+      "scale": 1.12,
+      "half_length": 260.96000000000004,
+      "half_width": 127.12000000000002
+    },
+    {
+      "name": "PrivateHatch",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateHatch",
+      "scale": 1.18,
+      "half_length": 234.82,
+      "half_width": 130.98
+    },
+    {
+      "name": "PrivateSUV",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSUV",
+      "scale": 1.12,
+      "half_length": 262.08000000000004,
+      "half_width": 132.72
+    },
+    {
+      "name": "PrivatePickup",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivatePickup",
+      "scale": 1.12,
+      "half_length": 304.08000000000004,
+      "half_width": 134.4
+    },
+    {
+      "name": "PrivateBeetle",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateBeetle",
+      "scale": 1.12,
+      "half_length": 243.60000000000002,
+      "half_width": 120.96000000000001
+    },
+    {
+      "name": "PrivateRenault4",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateRenault4",
+      "scale": 1.18,
+      "half_length": 232.45999999999998,
+      "half_width": 118.0
+    },
+    {
+      "name": "PrivateRenault12",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateRenault12",
+      "scale": 1.12,
+      "half_length": 258.16,
+      "half_width": 119.84000000000002
+    },
+    {
+      "name": "PrivateSprint",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSprint",
+      "scale": 1.18,
+      "half_length": 225.97,
+      "half_width": 119.17999999999999
+    },
+    {
+      "name": "PrivateChevette",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateChevette",
+      "scale": 1.12,
+      "half_length": 247.52,
+      "half_width": 117.04
+    },
+    {
+      "name": "PrivateClio",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateClio",
+      "scale": 1.18,
+      "half_length": 241.89999999999998,
+      "half_width": 128.03
+    },
+    {
+      "name": "PrivatePicanto",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivatePicanto",
+      "scale": 1.18,
+      "half_length": 228.92,
+      "half_width": 124.785
+    },
+    {
+      "name": "PrivateAveo",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateAveo",
+      "scale": 1.12,
+      "half_length": 257.04,
+      "half_width": 124.32000000000001
+    },
+    {
+      "name": "PrivateSandero",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSandero",
+      "scale": 1.12,
+      "half_length": 243.60000000000002,
+      "half_width": 126.56000000000002
+    },
+    {
+      "name": "PrivateMazda323",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateMazda323",
+      "scale": 1.12,
+      "half_length": 250.88000000000002,
+      "half_width": 122.64000000000001
+    },
+    {
+      "name": "PrivatePrado",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivatePrado",
+      "scale": 1.12,
+      "half_length": 316.40000000000003,
+      "half_width": 135.52
+    },
+    {
+      "name": "PrivateVitara",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateVitara",
+      "scale": 1.12,
+      "half_length": 247.52,
+      "half_width": 122.08000000000001
+    },
+    {
+      "name": "PrivateRenault9",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateRenault9",
+      "scale": 1.12,
+      "half_length": 242.48000000000002,
+      "half_width": 120.4
+    },
+    {
+      "name": "PrivateSingleCab",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateSingleCab",
+      "scale": 1.12,
+      "half_length": 284.48,
+      "half_width": 126.56000000000002
+    },
+    {
+      "name": "PrivateVan",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateVan",
+      "scale": 1.12,
+      "half_length": 244.16000000000003,
+      "half_width": 122.08000000000001
+    },
+    {
+      "name": "PrivateWagon",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_PrivateWagon",
+      "scale": 1.12,
+      "half_length": 278.88000000000005,
+      "half_width": 129.92000000000002
+    },
+    {
+      "name": "TaxiCompact",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_TaxiCompact",
+      "scale": 1.18,
+      "half_length": 234.82,
+      "half_width": 130.98
+    },
+    {
+      "name": "TaxiSedan",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_TaxiSedan",
+      "scale": 1.12,
+      "half_length": 255.36,
+      "half_width": 126.00000000000001
+    },
+    {
+      "name": "TransMilenio",
+      "asset": "/Game/World/BlueprintWorld/Traffic/BP_Traffic_TransMilenio",
+      "scale": 1,
+      "half_length": 915.0,
+      "half_width": 135.0
+    }
+  ],
+  "pending": [
+    "Blueprint door and wheel poses",
+    "Paint and lighting runtime",
+    "Fixed simulation and interpolated movement",
+    "Signals, following and NPC interaction"
+  ]
+}

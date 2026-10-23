@@ -1,0 +1,80 @@
+[
+  {
+    "path": "Delivery/BlueprintGameplay/Player/BP_BlueprintRider.uasset",
+    "size": 2049251,
+    "staged_sha256": "015c7888ee660d3bb64ce8e358e639525c00ceeb8ac78d8d3212e04f455e4536",
+    "original_sha256": "000abe9361b266a136c3c6841b2cff05806e2a33cbd9ca5fc98a03de5471d968"
+  },
+  {
+    "path": "Delivery/BlueprintGameplay/UI/WBP_BlueprintPhone.uasset",
+    "size": 7495313,
+    "staged_sha256": "857805847b8db15d25011f3f702f18ff2c696c1092b2dfd8698c4da5e995b214",
+    "original_sha256": "bf3ed7585178289593d640ac31b67f32c074c5741a89df0a4c2bb21093480ad2"
+  },
+  {
+    "path": "Delivery/BlueprintGameplay/UI/WBP_NavigationOverlay.uasset",
+    "size": 453206,
+    "staged_sha256": "9b31eab324ae70b7f2c7a11a3bf063eb49dc0f2a385e17da34006b0d24b1d270",
+    "original_sha256": "febe1876ece9a5187520c0ee2d740ba85a6d300292db0fcf7c5e1957f3c6a685"
+  },
+  {
+    "path": "Maps/MapaCompleto_Integration.umap",
+    "size": 2619172,
+    "staged_sha256": "8a8731e1f0c093df1266e01393c04ce89b48972ea5036a6f328317987432bd9e",
+    "original_sha256": "5656d9589ed9e7414d08f27bba93b0a8b1f84b12fd019e03f285cc43868e02bb"
+  },
+  {
+    "path": "Traffic/Services/BP_PoliceRoadPatrol.uasset",
+    "size": 36685,
+    "staged_sha256": "f69c1444471b9f7ff91e3a7036fa600798884179620b9e40e78b58ff42065c01",
+    "original_sha256": "41080ac370cf887dbb0629de839091ee28c05792b3ac4718c0981337c6811dc0"
+  },
+  {
+    "path": "Traffic/Services/BP_VoxelRoadVehicle.uasset",
+    "size": 583899,
+    "staged_sha256": "9075da1d60c8930674efa9f901b1e197419674656cfefe51cc882b7fca91ff0b",
+    "original_sha256": "1a2273ec08b7602a9c2bfd7b451176bbd76979c85c3a39b8e1bd0be81198da8f"
+  },
+  {
+    "path": "Traffic/Transit/BP_StationPassenger.uasset",
+    "size": 464102,
+    "staged_sha256": "0e82a44826e05438042dbb58129bc3a44c2856003d798b83881ec8c337771b33",
+    "original_sha256": "4b4d7f67c7c3453a5a074c34ca5dac91105b1252a5a4bc609fa3f5539051cd56"
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_TrafficLane_6.uasset",
+    "size": 3968926,
+    "staged_sha256": "092cdb71f0e21ec6c6f312b58d581ba0fc941e5b2f4fb8af3f9277f47d7c1a9f",
+    "original_sha256": "a9d42645165786d08fa458eeb90cabee951f8b86a17d36d85e85d367b9367929"
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_TrafficManager.uasset",
+    "size": 1397289,
+    "staged_sha256": "51d6aea358eabef15cac4584559fdb3d6051dc745ed46fb14f10de387278bda6",
+    "original_sha256": "549c410e1ed06e3b978528bf09ddef3ad0aefaa4646e72cdf9daf4620fc9105d"
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_TrafficVehicle.uasset",
+    "size": 2227128,
+    "staged_sha256": "ace0889d52aae0d98fc9f5edbe364978553946c2ac55c7401c19d1be8957112b",
+    "original_sha256": "f00b40edc75ce7672d473c582e861805b3e81379563f37180f2f70460871c313"
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_Traffic_TransMilenio.uasset",
+    "size": 56737,
+    "staged_sha256": "d163f421e77868189c646e20cb844876e27812470babd3aef28bc73ffd5a118a",
+    "original_sha256": "0a45e59e4b158cfa1f018de5b77bcdcbdd8520d2e676b31a07730401423c4891"
+  },
+  {
+    "path": "World/BogotaUrban/BP_MapNavigation.uasset",
+    "size": 84065,
+    "staged_sha256": "324575cbd613c74a6e33e2e585785a39134a661e9218c6040b6f31169fa8d983",
+    "original_sha256": null
+  },
+  {
+    "path": "World/BogotaUrban/BP_RoadNavigation.uasset",
+    "size": 7436177,
+    "staged_sha256": "355808507537f152367f060314b69ddf784f152835bb59f5d7c875d1d68a13cf",
+    "original_sha256": null
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Balance",
+    "BikeColor",
+    "MotoColor",
+    "BikeModel",
+    "MotoModel",
+    "Vehicle",
+    "Purchased",
+    "OwnedModels",
+    "ModelColors",
+    "LegacyFileUnchanged"
+  ],
+  "count": 10,
+  "legacy_file_unchanged": true,
+  "no_blueprint_assets_saved": true
+}

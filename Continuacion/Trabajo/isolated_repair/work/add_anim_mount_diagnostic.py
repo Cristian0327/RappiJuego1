@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('outputs/BogotaVoxel/Source/BogotaVoxel/DeliverySystem.cpp');s=p.read_text(encoding='utf-8-sig');needle='Check(FMath::Abs(Hands.X-36)<3&&FMath::Abs(Hands.Y)<3,TEXT("hands_align_handlebar"));';s=s.replace(needle,needle+'if(auto* Anim=Cast<UDeliveryAnimInstance>(P->GetMesh()->GetAnimInstance()))UE_LOG(LogTemp,Display,TEXT("ANIM_MOUNT_DIAGNOSTIC mounted=%d motorcycle=%d walking=%d hands=%s pedal=%f"),Anim->Mounted,Anim->Motorcycle,Anim->Walking,*Hands.ToString(),Anim->PedalTime);');p.write_text(s,encoding='utf-8')

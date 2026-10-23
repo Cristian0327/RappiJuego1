@@ -1,0 +1,362 @@
+[
+  {
+    "case": 0,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 1,
+    "actual": 0.0,
+    "expected": 0,
+    "error": 0.0
+  },
+  {
+    "case": 2,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 3,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 4,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 5,
+    "actual": 73.5419921875,
+    "expected": 73.54199322898572,
+    "error": 1.0414857172236225e-06
+  },
+  {
+    "case": 6,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 7,
+    "actual": 0.0,
+    "expected": 0,
+    "error": 0.0
+  },
+  {
+    "case": 8,
+    "actual": 478.9100646972656,
+    "expected": 478.9100990262889,
+    "error": 3.4329023264945135e-05
+  },
+  {
+    "case": 9,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 10,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 11,
+    "actual": 0.0,
+    "expected": 0,
+    "error": 0.0
+  },
+  {
+    "case": 12,
+    "actual": 0.0,
+    "expected": 0,
+    "error": 0.0
+  },
+  {
+    "case": 13,
+    "actual": 102.39839935302734,
+    "expected": 102.39838851531765,
+    "error": 1.0837709695010744e-05
+  },
+  {
+    "case": 14,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 15,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 16,
+    "actual": 0.0,
+    "expected": 0,
+    "error": 0.0
+  },
+  {
+    "case": 17,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 18,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 19,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 20,
+    "actual": 117.38270568847656,
+    "expected": 117.38268301413709,
+    "error": 2.2674339476225214e-05
+  },
+  {
+    "case": 21,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 22,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 23,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 24,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 25,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 26,
+    "actual": 0.0,
+    "expected": 0,
+    "error": 0.0
+  },
+  {
+    "case": 27,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 28,
+    "actual": 0.0,
+    "expected": 0,
+    "error": 0.0
+  },
+  {
+    "case": 29,
+    "actual": 0.0,
+    "expected": 0,
+    "error": 0.0
+  },
+  {
+    "case": 30,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 31,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 32,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 33,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 34,
+    "actual": 838.3074951171875,
+    "expected": 838.3075111893186,
+    "error": 1.6072131074906792e-05
+  },
+  {
+    "case": 35,
+    "actual": 0.0,
+    "expected": 0,
+    "error": 0.0
+  },
+  {
+    "case": 36,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 37,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 38,
+    "actual": 837.5122680664062,
+    "expected": 837.5122645588895,
+    "error": 3.507516794343246e-06
+  },
+  {
+    "case": 39,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 40,
+    "actual": 0.0,
+    "expected": 0,
+    "error": 0.0
+  },
+  {
+    "case": 41,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 42,
+    "actual": 0.0,
+    "expected": 0,
+    "error": 0.0
+  },
+  {
+    "case": 43,
+    "actual": 0.0,
+    "expected": 0,
+    "error": 0.0
+  },
+  {
+    "case": 44,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 45,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 46,
+    "actual": 0.0,
+    "expected": 0,
+    "error": 0.0
+  },
+  {
+    "case": 47,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 48,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 49,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 50,
+    "actual": 0.0,
+    "expected": 0,
+    "error": 0.0
+  },
+  {
+    "case": 51,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 52,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 53,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 54,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 55,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 56,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 57,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 58,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  },
+  {
+    "case": 59,
+    "actual": 100000000.0,
+    "expected": 100000000,
+    "error": 0.0
+  }
+]

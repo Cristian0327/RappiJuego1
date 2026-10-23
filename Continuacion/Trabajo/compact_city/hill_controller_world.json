@@ -1,0 +1,86 @@
+[
+  {
+    "name": "CONTROL \u00b7 Cerros norte",
+    "world": [
+      1830.0,
+      1250.0,
+      0.0
+    ],
+    "scale": [
+      1050.0,
+      1350.0,
+      1.0
+    ],
+    "parent": null
+  },
+  {
+    "name": "CONTROL \u00b7 Ciudad Bolivar",
+    "world": [
+      -805.0,
+      -2093.0,
+      0.0
+    ],
+    "scale": [
+      900.0,
+      1150.0,
+      1.0
+    ],
+    "parent": null
+  },
+  {
+    "name": "CONTROL \u00b7 Monserrate",
+    "world": [
+      1869.0,
+      -350.0,
+      0.0
+    ],
+    "scale": [
+      750.0,
+      650.0,
+      1.0
+    ],
+    "parent": null
+  },
+  {
+    "name": "CONTROL \u00b7 San Cristobal",
+    "world": [
+      448.0,
+      -2114.0,
+      0.0
+    ],
+    "scale": [
+      850.0,
+      1100.0,
+      1.0
+    ],
+    "parent": null
+  },
+  {
+    "name": "CONTROL \u00b7 Suba",
+    "world": [
+      525.0,
+      1995.0,
+      0.0
+    ],
+    "scale": [
+      800.0,
+      900.0,
+      1.0
+    ],
+    "parent": null
+  },
+  {
+    "name": "CONTROL \u00b7 zona libre central",
+    "world": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      550.0,
+      550.0,
+      1.0
+    ],
+    "parent": null
+  }
+]

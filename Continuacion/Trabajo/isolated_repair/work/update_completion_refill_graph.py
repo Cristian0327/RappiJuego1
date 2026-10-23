@@ -1,0 +1,4 @@
+from pathlib import Path
+p=Path('work/migrate_delivery_blueprints.py');s=p.read_text(encoding='utf-8-sig');s=s.replace("g.exec('Save','Status');g.exec('Status','Notify');g.exec('Notify','OK');reports.append(g.build('CompleteOrder'))", "g.call('RefillMarket','GenerateOffer');g.exec('Save','RefillMarket');g.exec('RefillMarket','Status');g.exec('Status','Notify');g.exec('Notify','OK');reports.append(g.build('CompleteOrder'))")
+s=s.replace("Path(unreal.Paths.project_saved_dir(),'blueprint_migration.json').write_text(json.dumps({'graphs':reports,'remaining_native_gameplay':True},indent=2))", "manifest=Path(unreal.Paths.project_saved_dir(),'blueprint_migration.json');old=json.loads(manifest.read_text()) if manifest.exists() else {};names={r['function'] for r in reports};old['graphs']=reports+[r for r in old.get('graphs',[]) if r['function'] not in names];old['remaining_native_gameplay']=True;manifest.write_text(json.dumps(old,indent=2))")
+p.write_text(s,encoding='utf-8')

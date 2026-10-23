@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "lanes": [
+    {
+      "lane": 0,
+      "length": 229117.015625,
+      "samples": 12,
+      "max_error_cm": 0.07817119007018147
+    },
+    {
+      "lane": 1,
+      "length": 233437.015625,
+      "samples": 12,
+      "max_error_cm": 0.07817119007018147
+    },
+    {
+      "lane": 2,
+      "length": 137117.03125,
+      "samples": 12,
+      "max_error_cm": 0.02347231444407478
+    },
+    {
+      "lane": 3,
+      "length": 141437.03125,
+      "samples": 12,
+      "max_error_cm": 0.02347231444407478
+    },
+    {
+      "lane": 4,
+      "length": 133117.015625,
+      "samples": 12,
+      "max_error_cm": 0.04314422607421875
+    },
+    {
+      "lane": 5,
+      "length": 137437.015625,
+      "samples": 12,
+      "max_error_cm": 0.04520416259765625
+    },
+    {
+      "lane": 6,
+      "length": 137751.921875,
+      "samples": 12,
+      "max_error_cm": 0.12939453125
+    }
+  ],
+  "scope": "Fresh-process persisted component and Blueprint VM sampling; signal/following simulation not implemented yet"
+}

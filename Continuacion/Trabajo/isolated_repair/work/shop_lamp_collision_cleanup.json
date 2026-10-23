@@ -1,0 +1,165 @@
+{
+  "lamps": 16,
+  "removed_instances": [
+    {
+      "shop": "Shop_0_0",
+      "component": "Solid_21",
+      "index": 73,
+      "position": [
+        -30000.0,
+        -20500.0,
+        400.0
+      ]
+    },
+    {
+      "shop": "Shop_1_0",
+      "component": "Solid_21",
+      "index": 79,
+      "position": [
+        -18000.0,
+        -20500.0,
+        400.0
+      ]
+    },
+    {
+      "shop": "Shop_2_0",
+      "component": "Solid_21",
+      "index": 85,
+      "position": [
+        -6000.0,
+        -20500.0,
+        400.0
+      ]
+    },
+    {
+      "shop": "Shop_3_0",
+      "component": "Solid_21",
+      "index": 91,
+      "position": [
+        6000.0,
+        -20500.0,
+        400.0
+      ]
+    },
+    {
+      "shop": "Shop_4_0",
+      "component": "Solid_21",
+      "index": 97,
+      "position": [
+        18000.0,
+        -20500.0,
+        400.0
+      ]
+    },
+    {
+      "shop": "Shop_5_0",
+      "component": "Solid_21",
+      "index": 103,
+      "position": [
+        30000.0,
+        -20500.0,
+        400.0
+      ]
+    },
+    {
+      "shop": "Shop_0_1",
+      "component": "Solid_21",
+      "index": 111,
+      "position": [
+        -30000.0,
+        -9500.0,
+        400.0
+      ]
+    },
+    {
+      "shop": "Shop_1_1",
+      "component": "Solid_21",
+      "index": 117,
+      "position": [
+        -18000.0,
+        -9500.0,
+        400.0
+      ]
+    },
+    {
+      "shop": "Shop_5_1",
+      "component": "Solid_21",
+      "index": 141,
+      "position": [
+        30000.0,
+        -9500.0,
+        400.0
+      ]
+    },
+    {
+      "shop": "Shop_1_2",
+      "component": "Solid_21",
+      "index": 155,
+      "position": [
+        -18000.0,
+        1900.0,
+        400.0
+      ]
+    },
+    {
+      "shop": "Shop_2_2",
+      "component": "Solid_21",
+      "index": 161,
+      "position": [
+        -6000.0,
+        1900.0,
+        400.0
+      ]
+    },
+    {
+      "shop": "Shop_3_2",
+      "component": "Solid_21",
+      "index": 167,
+      "position": [
+        6000.0,
+        1900.0,
+        400.0
+      ]
+    },
+    {
+      "shop": "Shop_4_2",
+      "component": "Solid_21",
+      "index": 173,
+      "position": [
+        18000.0,
+        1900.0,
+        400.0
+      ]
+    },
+    {
+      "shop": "Shop_5_2",
+      "component": "Solid_21",
+      "index": 179,
+      "position": [
+        30000.0,
+        1900.0,
+        400.0
+      ]
+    },
+    {
+      "shop": "Shop_0_3",
+      "component": "Solid_21",
+      "index": 187,
+      "position": [
+        -30000.0,
+        12500.0,
+        400.0
+      ]
+    },
+    {
+      "shop": "Shop_3_3",
+      "component": "Solid_21",
+      "index": 205,
+      "position": [
+        6000.0,
+        12500.0,
+        400.0
+      ]
+    }
+  ]
+}

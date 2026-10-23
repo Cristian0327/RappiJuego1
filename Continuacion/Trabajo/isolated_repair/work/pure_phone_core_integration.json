@@ -1,0 +1,15 @@
+{
+  "status": "STAGING_COMPILED_NOT_AUTO_STARTED",
+  "core_functions": [
+    "EnsurePhoneWidget",
+    "TogglePhone",
+    "ClosePhoneForWorld"
+  ],
+  "persistent_hud": true,
+  "interface": "/Game/Delivery/Interfaces/BPI_BlueprintPhoneInput.BPI_BlueprintPhoneInput_C",
+  "pending": [
+    "Rider bootstrap creates HUD",
+    "Tab/mouse/button/key events",
+    "Map and garage preview"
+  ]
+}

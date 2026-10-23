@@ -1,0 +1,11 @@
+{
+  "status": "FAIL",
+  "checks": {
+    "accelerates_forward": false,
+    "reverse_works": false,
+    "steering_changes_heading": false,
+    "not_controlled_no_motion": true,
+    "ground_height_stable": true
+  },
+  "scope": "Blueprint VM driving only; player mount/input integration not yet implemented"
+}

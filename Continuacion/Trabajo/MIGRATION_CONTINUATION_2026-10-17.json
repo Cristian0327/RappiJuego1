@@ -1,0 +1,173 @@
+{
+  "status": "IN_PROGRESS_BLOCKED_BY_APPROVAL_SERVICE_USAGE_LIMIT",
+  "canonical_project": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\RappiJuego1\\BogotaVoxel.uproject",
+  "post_boost_runtime": {
+    "status": "PASS",
+    "checks": 34,
+    "hero": [
+      [
+        "PURE_WORLD_CORE_INTEGRATED",
+        "true"
+      ],
+      [
+        "BIKE_ENTER",
+        "true"
+      ],
+      [
+        "BIKE_READY",
+        "true"
+      ],
+      [
+        "BIKE_RIDER_FACES_FORWARD",
+        "true"
+      ],
+      [
+        "BIKE_EXIT",
+        "true"
+      ],
+      [
+        "BIKE_ON_FOOT",
+        "true"
+      ],
+      [
+        "KEYBOARD_AND_MOUSE_STEERING",
+        "true"
+      ],
+      [
+        "MOTO_ENTER",
+        "true"
+      ],
+      [
+        "MOTO_READY",
+        "true"
+      ],
+      [
+        "MOTO_RIDER_FACES_FORWARD",
+        "true"
+      ],
+      [
+        "MOTO_EXIT",
+        "true"
+      ],
+      [
+        "MOTO_ON_FOOT",
+        "true"
+      ],
+      [
+        "CAR_ENTER",
+        "true"
+      ],
+      [
+        "F_AUTOMATIC_CAR_DOOR_OPENS",
+        "true"
+      ],
+      [
+        "CAR_READY",
+        "true"
+      ],
+      [
+        "CAR_EXIT",
+        "true"
+      ],
+      [
+        "CAR_ON_FOOT",
+        "true"
+      ],
+      [
+        "SMOOTH_FRACTIONAL_WALK_RATE",
+        "true"
+      ]
+    ],
+    "npc": [
+      [
+        "Cashier",
+        "walking",
+        "true"
+      ],
+      [
+        "Chef",
+        "walking",
+        "true"
+      ],
+      [
+        "TechClerk",
+        "walking",
+        "true"
+      ],
+      [
+        "Pharmacist",
+        "walking",
+        "true"
+      ],
+      [
+        "Florist",
+        "walking",
+        "true"
+      ],
+      [
+        "CustomerStudent",
+        "walking",
+        "true"
+      ],
+      [
+        "CustomerOffice",
+        "walking",
+        "true"
+      ],
+      [
+        "CustomerNeighbor",
+        "walking",
+        "true"
+      ],
+      [
+        "Cashier",
+        "idle",
+        "true"
+      ],
+      [
+        "Chef",
+        "idle",
+        "true"
+      ],
+      [
+        "TechClerk",
+        "idle",
+        "true"
+      ],
+      [
+        "Pharmacist",
+        "idle",
+        "true"
+      ],
+      [
+        "Florist",
+        "idle",
+        "true"
+      ],
+      [
+        "CustomerStudent",
+        "idle",
+        "true"
+      ],
+      [
+        "CustomerOffice",
+        "idle",
+        "true"
+      ],
+      [
+        "CustomerNeighbor",
+        "idle",
+        "true"
+      ]
+    ],
+    "log": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\work\\PostBoostAnimationQA.log"
+  },
+  "route_runtime": {
+    "status": "PASS",
+    "checks": 7,
+    "report": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\work\\pure_residential_route_validation.json"
+  },
+  "migration_remaining": "Six custom native bases remain. Do not claim migration complete or remove runtime module. Main runtime compatibility shells still required. Pure core/store/geometry/route assembler are staging.",
+  "blocking_error": "Automatic approval review failed: usage limit. No further escalated action executed. Do not bypass review.",
+  "next": "Resume when approval service available; update canonical journal boost runtime pending=false; full pure world integration, remaining core/player/UI/traffic migration and final visual review."
+}

@@ -1,0 +1,12 @@
+from pathlib import Path
+r=Path('.')
+s=(r/'work/build_complete_sky.py').read_text(encoding='utf-8-sig')
+s=s.replace("sky=unreal.load_asset('/Game/World/M_Sky'); mel=unreal.MaterialEditingLibrary", "path='/Game/World/BlueprintWorld/M_BlueprintSky';sky=unreal.load_asset(path) or unreal.EditorAssetLibrary.duplicate_asset('/Game/World/M_Sky',path); mel=unreal.MaterialEditingLibrary")
+s=s.replace("float cloud=step(.63,noise)*smoothstep(.03,.16,d.z);", "float cloud=step(lerp(.63,.38,saturate(WeatherRain)),noise)*smoothstep(.03,.16,d.z);")
+s=s.replace("float3 cloudDay=lerp(float3(.56,.67,.8),float3(.95,.97,1),shade);", "float3 cloudDay=lerp(float3(.56,.67,.8),float3(.95,.97,1),shade);\ncloudDay=lerp(cloudDay,lerp(float3(.07,.09,.13),float3(.21,.24,.29),shade),saturate(WeatherRain));")
+s=s.replace("color+=sun*float3(5,3.8,2.2)+moon*float3(.7,.85,1.1);", "color+=sun*float3(5,3.8,2.2)*(1-saturate(WeatherRain)*.95)+moon*float3(.7,.85,1.1)*(1-saturate(WeatherRain)*.8);")
+s=s.replace("('CloudTime',0)]", "('CloudTime',0),('WeatherRain',0)]")
+s=s.replace("save_asset('/Game/World/M_Sky',False)","save_asset(path,False)").replace("COMPLETE_SKY_SAVED","PURE_DYNAMIC_SKY_MATERIAL_PASS")
+(r/'work/build_pure_sky_material.py').write_text(s,encoding='utf-8')
+p=r/'work/build_pure_world_presentation.py';s=p.read_text(encoding='utf-8-sig').replace("unreal.load_asset('/Game/World/M_Sky')", "unreal.load_asset('/Game/World/BlueprintWorld/M_BlueprintSky')");p.write_text(s,encoding='utf-8')
+p=r/'work/extend_pure_world_lighting.py';s=p.read_text(encoding='utf-8-sig').replace("('SkyTime','CloudTime',('entry','Elapsed'))", "('SkyTime','CloudTime',('entry','Elapsed')),('SkyWeather','WeatherRain',('entry','Rain'))");p.write_text(s,encoding='utf-8')

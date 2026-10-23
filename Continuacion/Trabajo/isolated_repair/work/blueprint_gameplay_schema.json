@@ -1,0 +1,269 @@
+{
+  "enums": [
+    {
+      "source": "/Script/BogotaVoxel.EDeliveryState",
+      "asset": "/Game/Delivery/BlueprintSchema/E_DeliveryState.E_DeliveryState",
+      "values": 4
+    },
+    {
+      "source": "/Script/BogotaVoxel.EDeliveryVehicle",
+      "asset": "/Game/Delivery/BlueprintSchema/E_DeliveryVehicle.E_DeliveryVehicle",
+      "values": 2
+    },
+    {
+      "source": "/Script/BogotaVoxel.EUpgradeEffect",
+      "asset": "/Game/Delivery/BlueprintSchema/E_UpgradeEffect.E_UpgradeEffect",
+      "values": 10
+    }
+  ],
+  "structs": [
+    {
+      "source": "/Script/BogotaVoxel.DeliveryUpgrade",
+      "asset": "/Game/Delivery/BlueprintSchema/ST_DeliveryUpgrade.ST_DeliveryUpgrade",
+      "fields": [
+        {
+          "friendly_name": "Title",
+          "property_name": "Title_2_9C71E55E44E6559E265F3EADE0027A8C",
+          "default": ""
+        },
+        {
+          "friendly_name": "Price",
+          "property_name": "Price_4_0D2DDF4147AD0098F3FD6290D13FF981",
+          "default": "0"
+        },
+        {
+          "friendly_name": "Prerequisite",
+          "property_name": "Prerequisite_6_96F193EA4D68C743562FB88B8D96D2A2",
+          "default": "None"
+        },
+        {
+          "friendly_name": "Effect",
+          "property_name": "Effect_8_6BA2CA514CB147359F4239AE4E5D54B5",
+          "default": "NewEnumerator0"
+        },
+        {
+          "friendly_name": "Magnitude",
+          "property_name": "Magnitude_10_342B0C3E442FCC26B02000A853EFB2E8",
+          "default": "0.000000"
+        },
+        {
+          "friendly_name": "SortIndex",
+          "property_name": "SortIndex_12_0FBC2D5F4A4B2F678683F9A681B6E177",
+          "default": "0"
+        }
+      ]
+    },
+    {
+      "source": "/Script/BogotaVoxel.DeliveryShopTheme",
+      "asset": "/Game/Delivery/BlueprintSchema/ST_DeliveryShopTheme.ST_DeliveryShopTheme",
+      "fields": [
+        {
+          "friendly_name": "Category",
+          "property_name": "Category_2_8E3F3DF14DFD142388B007ADD406C05D",
+          "default": "0"
+        },
+        {
+          "friendly_name": "Title",
+          "property_name": "Title_4_EF903F3447A0E7284AB1A7A6CB2D6492",
+          "default": ""
+        },
+        {
+          "friendly_name": "FrontMesh",
+          "property_name": "FrontMesh_6_FC584C1A429312BD989FC8B277F2F527",
+          "default": "None"
+        },
+        {
+          "friendly_name": "InteriorMesh",
+          "property_name": "InteriorMesh_8_023CC0FE45C161AEF087E889B4E57ECE",
+          "default": "None"
+        },
+        {
+          "friendly_name": "ProductMeshes",
+          "property_name": "ProductMeshes_10_1434CF1F49C19FD9528DF69D86BCF039",
+          "default": ""
+        },
+        {
+          "friendly_name": "ProductNames",
+          "property_name": "ProductNames_12_BE20533446545BAAB1E397882ADDC215",
+          "default": ""
+        },
+        {
+          "friendly_name": "PurchaseBudget",
+          "property_name": "PurchaseBudget_14_EFB9874E4FD1C97F79B4DAB1474F3ED5",
+          "default": "22000"
+        },
+        {
+          "friendly_name": "WidthMeters",
+          "property_name": "WidthMeters_16_451D70F44866248F363290A0D9D7E4E3",
+          "default": "20.000000"
+        },
+        {
+          "friendly_name": "DepthMeters",
+          "property_name": "DepthMeters_18_B2211D1B42E00C831B6F11B2D73D805A",
+          "default": "16.000000"
+        },
+        {
+          "friendly_name": "CounterDistanceMeters",
+          "property_name": "CounterDistanceMeters_20_8AD7F8BB4D342BDA6BF66DA1977E0C50",
+          "default": "2.750000"
+        }
+      ]
+    },
+    {
+      "source": "/Script/BogotaVoxel.DeliveryOrder",
+      "asset": "/Game/Delivery/BlueprintSchema/ST_DeliveryOrder.ST_DeliveryOrder",
+      "fields": [
+        {
+          "friendly_name": "ID",
+          "property_name": "ID_2_BDECB4B34AED3E8306421EBEFEDC7520",
+          "default": "00000000000000000000000000000000"
+        },
+        {
+          "friendly_name": "StoreID",
+          "property_name": "StoreID_4_D0B6E72E4E39376B3B76C4A866DF95C4",
+          "default": "None"
+        },
+        {
+          "friendly_name": "Grocery",
+          "property_name": "Grocery_6_D145126F40FC7226517CD0B91D0E17C4",
+          "default": "False"
+        },
+        {
+          "friendly_name": "StoreKind",
+          "property_name": "StoreKind_8_13A829FC4FD076172EB64385B6F45D86",
+          "default": "0"
+        },
+        {
+          "friendly_name": "GoodsCost",
+          "property_name": "GoodsCost_10_20FBB45B45DCEF584EAB7A840FA713AC",
+          "default": "0"
+        },
+        {
+          "friendly_name": "Pickup",
+          "property_name": "Pickup_12_2752C4FF4A221D17E1F8B29710560DCD",
+          "default": "0.000000,0.000000,0.000000"
+        },
+        {
+          "friendly_name": "Dropoff",
+          "property_name": "Dropoff_14_368823C041F9A2795BCECEB75BB3453F",
+          "default": "0.000000,0.000000,0.000000"
+        },
+        {
+          "friendly_name": "PickupName",
+          "property_name": "PickupName_16_2FB09D5C43865002F57F9681A5421DA4",
+          "default": ""
+        },
+        {
+          "friendly_name": "DropoffName",
+          "property_name": "DropoffName_18_8AC03EB142FD144EA3B520B9E7B169B7",
+          "default": ""
+        },
+        {
+          "friendly_name": "DistanceMeters",
+          "property_name": "DistanceMeters_20_30A9CE69405BCB9F39CB5F8819EFD3F2",
+          "default": "0.000000"
+        },
+        {
+          "friendly_name": "Reward",
+          "property_name": "Reward_22_C850316842016F954E99F0AA9DE7A439",
+          "default": "0"
+        },
+        {
+          "friendly_name": "ExpiresAt",
+          "property_name": "ExpiresAt_24_5DD944984C5AF90BCAEA139D70237824",
+          "default": "0.000000"
+        }
+      ]
+    },
+    {
+      "source": "/Script/BogotaVoxel.ActiveDelivery",
+      "asset": "/Game/Delivery/BlueprintSchema/ST_ActiveDelivery.ST_ActiveDelivery",
+      "fields": [
+        {
+          "friendly_name": "Order",
+          "property_name": "Order_2_EB5822C346CA17853FD907B8D474E137",
+          "default": "(ID_2_BDECB4B34AED3E8306421EBEFEDC7520=00000000000000000000000000000000,StoreID_4_D0B6E72E4E39376B3B76C4A866DF95C4=\"\",Grocery_6_D145126F40FC7226517CD0B91D0E17C4=False,StoreKind_8_13A829FC4FD076172EB64385B6F45D86=0,GoodsCost_10_20FBB45B45DCEF584EAB7A840FA713AC=0,Pickup_12_2752C4FF4A221D17E1F8B29710560DCD=(X=0.000000,Y=0.000000,Z=0.000000),Dropoff_14_368823C041F9A2795BCECEB75BB3453F=(X=0.000000,Y=0.000000,Z=0.000000),PickupName_16_2FB09D5C43865002F57F9681A5421DA4=\"\",DropoffName_18_8AC03EB142FD144EA3B520B9E7B169B7=\"\",DistanceMeters_20_30A9CE69405BCB9F39CB5F8819EFD3F2=0.000000,Reward_22_C850316842016F954E99F0AA9DE7A439=0,ExpiresAt_24_5DD944984C5AF90BCAEA139D70237824=0.000000)"
+        },
+        {
+          "friendly_name": "State",
+          "property_name": "State_4_0CD9F2F84D631A432D4BA4BEFE3B2C75",
+          "default": "NewEnumerator2"
+        },
+        {
+          "friendly_name": "BasketCount",
+          "property_name": "BasketCount_6_390A319549828A609E229EBBA0F971F6",
+          "default": "0"
+        },
+        {
+          "friendly_name": "Paid",
+          "property_name": "Paid_8_4ED31D8D48831FB9F484258B2B064C13",
+          "default": "False"
+        },
+        {
+          "friendly_name": "Budget",
+          "property_name": "Budget_10_33E12FCE43909A07FD73F88F5EDD6C78",
+          "default": "0"
+        },
+        {
+          "friendly_name": "GoodsPaid",
+          "property_name": "GoodsPaid_12_A72F58F547CEA88B4410DB9DF26B727F",
+          "default": "0"
+        }
+      ]
+    },
+    {
+      "source": "/Script/BogotaVoxel.DeliveryVehicleSpec",
+      "asset": "/Game/Delivery/BlueprintSchema/ST_DeliveryVehicleSpec.ST_DeliveryVehicleSpec",
+      "fields": [
+        {
+          "friendly_name": "Title",
+          "property_name": "Title_2_4D78D3FF4AB8AFD63EE51E84F5B37D73",
+          "default": ""
+        },
+        {
+          "friendly_name": "Description",
+          "property_name": "Description_4_065E7EDA4B0CD4A5B6C580BF153F57E2",
+          "default": ""
+        },
+        {
+          "friendly_name": "Motorcycle",
+          "property_name": "Motorcycle_6_99504CBF4F6E7D0477009086996F95BD",
+          "default": "False"
+        },
+        {
+          "friendly_name": "Price",
+          "property_name": "Price_8_AB62D91B4862A1451D0A928993F05D05",
+          "default": "0"
+        },
+        {
+          "friendly_name": "Prerequisite",
+          "property_name": "Prerequisite_10_08A104E54BD7549BCD8123B4B9E48209",
+          "default": "None"
+        },
+        {
+          "friendly_name": "ModelIndex",
+          "property_name": "ModelIndex_12_76F29CF04D04CCEF65A3B2884193EF88",
+          "default": "0"
+        }
+      ]
+    },
+    {
+      "source": "/Script/BogotaVoxel.MapFootprint",
+      "asset": "/Game/Delivery/BlueprintSchema/ST_MapFootprint.ST_MapFootprint",
+      "fields": [
+        {
+          "friendly_name": "Center",
+          "property_name": "Center_2_B806D895425DDF3D9EDAACBF604CBE01",
+          "default": "0.000000,0.000000,0.000000"
+        },
+        {
+          "friendly_name": "Extent",
+          "property_name": "Extent_4_A88C53CB4B5187B2180F49A99E26B75A",
+          "default": "(X=0.000000,Y=0.000000)"
+        }
+      ]
+    }
+  ],
+  "status": "STAGING_SCHEMA_PASS",
+  "runtime_native_dependencies": []
+}

@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "100_VEHICLES",
+    "TRAFFIC_IS_ACTIVE",
+    "AVERAGE_30_FPS"
+  ],
+  "status": "READY_TO_RUN",
+  "scope": "No traffic signals or pedestrian interactions yet"
+}

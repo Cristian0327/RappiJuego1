@@ -1,0 +1,35 @@
+[
+  {
+    "original": "Continuacion/Trabajo/compact_city/original_object_wall_polygons.json",
+    "parts": [
+      "Continuacion/Trabajo/compact_city/original_object_wall_polygons.json.gz.part001",
+      "Continuacion/Trabajo/compact_city/original_object_wall_polygons.json.gz.part002"
+    ],
+    "bytes": 558880277,
+    "sha256": "9f1d4a78076fb2b1021bf77b14382b3237958ac7b552c533a29555ecc3a83159"
+  },
+  {
+    "original": "Continuacion/Trabajo/map_adaptation_v2/current_building_sections.json",
+    "parts": [
+      "Continuacion/Trabajo/map_adaptation_v2/current_building_sections.json.gz"
+    ],
+    "bytes": 202876016,
+    "sha256": "fb95a674d1aa9dbd71ceb535779068e99947bce84cac38996599475be677ef90"
+  },
+  {
+    "original": "Continuacion/Trabajo/new_map_audit/expanded_wall_quads.npy",
+    "parts": [
+      "Continuacion/Trabajo/new_map_audit/expanded_wall_quads.npy.gz"
+    ],
+    "bytes": 106069472,
+    "sha256": "69f3ea58117c6c100aa18c181200a5114f1a2f4c7b76bacf513387384c158aa8"
+  },
+  {
+    "original": "Continuacion/Trabajo/new_map_audit/wall_polygons.npy",
+    "parts": [
+      "Continuacion/Trabajo/new_map_audit/wall_polygons.npy.gz"
+    ],
+    "bytes": 543612444,
+    "sha256": "72733db740564d687fc4e783b7d0402f488cd5c9205e4dfd91a36f35ea511379"
+  }
+]

@@ -1,0 +1,3 @@
+import bpy,json
+from pathlib import Path
+r=Path(r'C:/Users/CRISTIAN/OneDrive/Desktop/BogotaVoxel_JuegoCompleto');bpy.ops.wm.open_mainfile(filepath=str(r/'outputs/DeliveryArt/AnimationRebuild/AN_CrowdCarDrive_Rebuilt.blend'));rig=next(o for o in bpy.data.objects if o.type=='ARMATURE');mesh=next(o for o in bpy.data.objects if o.type=='MESH');bpy.context.scene.frame_set(1);bpy.context.view_layer.update();ev=mesh.evaluated_get(bpy.context.evaluated_depsgraph_get());print('DRIVER_BOUNDS',min(v.co.z for v in ev.data.vertices),max(v.co.z for v in ev.data.vertices));print('DRIVER_HEAD',list(rig.pose.bones['head'].head),'PELVIS',list(rig.pose.bones['pelvis'].head),'HANDS',[list(rig.pose.bones[n].head) for n in ['hand_l','hand_r']]);

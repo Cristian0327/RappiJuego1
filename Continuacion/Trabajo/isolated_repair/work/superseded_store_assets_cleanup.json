@@ -1,0 +1,158 @@
+[
+  {
+    "old": "/Game/Delivery/Stores/SM_MarketFront",
+    "replacement": "/Game/Delivery/Stores/SM_MarketFront_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_MarketInterior",
+    "replacement": "/Game/Delivery/Stores/SM_MarketInterior_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_FreshMarketFront",
+    "replacement": "/Game/Delivery/Stores/SM_FreshMarketFront_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_FreshMarketInterior",
+    "replacement": "/Game/Delivery/Stores/SM_FreshMarketInterior_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_RestaurantFront",
+    "replacement": "/Game/Delivery/Stores/SM_RestaurantFront_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_RestaurantInterior",
+    "replacement": "/Game/Delivery/Stores/SM_RestaurantInterior_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_FastFoodFront",
+    "replacement": "/Game/Delivery/Stores/SM_FastFoodFront_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_FastFoodInterior",
+    "replacement": "/Game/Delivery/Stores/SM_FastFoodInterior_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_TechFront",
+    "replacement": "/Game/Delivery/Stores/SM_TechFront_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_TechInterior",
+    "replacement": "/Game/Delivery/Stores/SM_TechInterior_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_ComponentsFront",
+    "replacement": "/Game/Delivery/Stores/SM_ComponentsFront_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_ComponentsInterior",
+    "replacement": "/Game/Delivery/Stores/SM_ComponentsInterior_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_PharmacyFront",
+    "replacement": "/Game/Delivery/Stores/SM_PharmacyFront_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_PharmacyInterior",
+    "replacement": "/Game/Delivery/Stores/SM_PharmacyInterior_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_FloristFront",
+    "replacement": "/Game/Delivery/Stores/SM_FloristFront_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_FloristInterior",
+    "replacement": "/Game/Delivery/Stores/SM_FloristInterior_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_BakeryFront",
+    "replacement": "/Game/Delivery/Stores/SM_BakeryFront_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_BakeryInterior",
+    "replacement": "/Game/Delivery/Stores/SM_BakeryInterior_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_CafeFront",
+    "replacement": "/Game/Delivery/Stores/SM_CafeFront_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_CafeInterior",
+    "replacement": "/Game/Delivery/Stores/SM_CafeInterior_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_HardwareFront",
+    "replacement": "/Game/Delivery/Stores/SM_HardwareFront_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_HardwareInterior",
+    "replacement": "/Game/Delivery/Stores/SM_HardwareInterior_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_PetShopFront",
+    "replacement": "/Game/Delivery/Stores/SM_PetShopFront_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_PetShopInterior",
+    "replacement": "/Game/Delivery/Stores/SM_PetShopInterior_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_PizzaFront",
+    "replacement": "/Game/Delivery/Stores/SM_PizzaFront_Voxel",
+    "referencers": [],
+    "deleted": true
+  },
+  {
+    "old": "/Game/Delivery/Stores/SM_PizzaInterior",
+    "replacement": "/Game/Delivery/Stores/SM_PizzaInterior_Voxel",
+    "referencers": [],
+    "deleted": true
+  }
+]

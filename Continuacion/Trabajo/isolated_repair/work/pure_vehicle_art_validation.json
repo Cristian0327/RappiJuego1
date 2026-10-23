@@ -1,0 +1,1304 @@
+{
+  "status": "PASS",
+  "variants": 216,
+  "checks": [
+    {
+      "model": "BikeClassic",
+      "stage": 0,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 0,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 0,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 0,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 0,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 0,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 1,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 1,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 1,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 1,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 1,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 1,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 2,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 2,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 2,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 2,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 2,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 2,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 3,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 3,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 3,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 3,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 3,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 3,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 4,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 4,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 4,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 4,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 4,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 4,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 5,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 5,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 5,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 5,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 5,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeClassic",
+      "stage": 5,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 0,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 0,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 0,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 0,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 0,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 0,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 1,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 1,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 1,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 1,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 1,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 1,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 2,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 2,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 2,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 2,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 2,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 2,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 3,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 3,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 3,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 3,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 3,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 3,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 4,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 4,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 4,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 4,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 4,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 4,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 5,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 5,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 5,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 5,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 5,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeCargo",
+      "stage": 5,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 0,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 0,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 0,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 0,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 0,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 0,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 1,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 1,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 1,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 1,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 1,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 1,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 2,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 2,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 2,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 2,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 2,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 2,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 3,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 3,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 3,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 3,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 3,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 3,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 4,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 4,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 4,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 4,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 4,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 4,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 5,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 5,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 5,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 5,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 5,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "BikeBMX",
+      "stage": 5,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 0,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 0,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 0,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 0,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 0,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 0,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 1,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 1,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 1,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 1,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 1,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 1,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 2,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 2,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 2,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 2,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 2,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 2,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 3,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 3,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 3,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 3,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 3,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 3,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 4,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 4,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 4,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 4,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 4,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 4,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 5,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 5,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 5,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 5,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 5,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoStreet",
+      "stage": 5,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 0,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 0,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 0,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 0,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 0,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 0,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 1,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 1,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 1,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 1,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 1,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 1,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 2,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 2,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 2,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 2,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 2,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 2,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 3,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 3,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 3,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 3,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 3,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 3,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 4,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 4,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 4,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 4,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 4,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 4,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 5,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 5,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 5,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 5,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 5,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoCargo",
+      "stage": 5,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 0,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 0,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 0,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 0,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 0,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 0,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 1,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 1,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 1,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 1,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 1,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 1,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 2,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 2,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 2,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 2,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 2,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 2,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 3,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 3,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 3,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 3,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 3,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 3,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 4,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 4,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 4,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 4,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 4,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 4,
+      "color": 5,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 5,
+      "color": 0,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 5,
+      "color": 1,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 5,
+      "color": 2,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 5,
+      "color": 3,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 5,
+      "color": 4,
+      "painted_slots": 1
+    },
+    {
+      "model": "MotoSport",
+      "stage": 5,
+      "color": 5,
+      "painted_slots": 1
+    }
+  ],
+  "null_target_guard": true,
+  "main_promoted": false
+}

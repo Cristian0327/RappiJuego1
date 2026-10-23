@@ -1,0 +1,50 @@
+[
+  {
+    "asset": "SM_MarketInterior",
+    "vertices": 117840,
+    "triangles": 176760,
+    "materials": 21
+  },
+  {
+    "asset": "SM_FreshMarketInterior",
+    "vertices": 119920,
+    "triangles": 179880,
+    "materials": 21
+  },
+  {
+    "asset": "SM_TechInterior",
+    "vertices": 40048,
+    "triangles": 60072,
+    "materials": 21
+  },
+  {
+    "asset": "SM_ComponentsInterior",
+    "vertices": 62960,
+    "triangles": 94440,
+    "materials": 21
+  },
+  {
+    "asset": "SM_PharmacyInterior",
+    "vertices": 92576,
+    "triangles": 138864,
+    "materials": 21
+  },
+  {
+    "asset": "SM_FloristInterior",
+    "vertices": 171920,
+    "triangles": 257880,
+    "materials": 21
+  },
+  {
+    "asset": "SM_HardwareInterior",
+    "vertices": 95952,
+    "triangles": 143928,
+    "materials": 21
+  },
+  {
+    "asset": "SM_PetShopInterior",
+    "vertices": 63976,
+    "triangles": 95964,
+    "materials": 21
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "implementation": "Blueprint runtime only",
+  "main_map": "/Game/Maps/MapaCompleto_Integration",
+  "orders": {
+    "routes": 9500,
+    "visible_offers": 6,
+    "selection": true,
+    "accepted_active_orders": 1,
+    "automatic_route_recovery": true
+  },
+  "traffic": {
+    "vehicles": 150,
+    "moved_in_first_32_seconds": 146,
+    "junction_vm_checks": {
+      "red_denies_entry": true,
+      "green_admits_clear_exit": true,
+      "cross_traffic_waits": true,
+      "admitted_car_keeps_priority": true,
+      "released_after_rear_clears": true,
+      "waiting_cross_traffic_then_admitted": true,
+      "blocked_exit_denies_entry": true
+    },
+    "spawn_overlap_avoidance": true,
+    "spawn_outside_junctions": true,
+    "shared_signal_cycle_seconds": 110
+  },
+  "pedestrians": {
+    "protected_crossing_admission_seconds": [
+      88,
+      94
+    ],
+    "crossings_completed": 36,
+    "initial_player_overlap_removed": 2
+  },
+  "motorcycles": {
+    "distributed_road_agents": 36,
+    "legacy_square_grid_timer_removed": true,
+    "sidewalk_overtaking_removed": true,
+    "rvo_disabled_on_road_agents": true,
+    "max_step_cm": 5
+  },
+  "preserved": [
+    "day/night and rain",
+    "developer flight",
+    "Monserrate restrictions",
+    "original map geometry and building scales",
+    "player camera and movement controls"
+  ],
+  "verification_limit": "One complete signal cycle and targeted Blueprint VM checks; this is not a guarantee that every possible traffic situation is bug-free."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "COMPILED_NOT_PLACED",
+  "states": [
+    "wait",
+    "align_platform",
+    "approach_door",
+    "ride",
+    "alight"
+  ],
+  "persistent_original": true
+}

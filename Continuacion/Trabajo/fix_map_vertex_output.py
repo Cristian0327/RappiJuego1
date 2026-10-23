@@ -1,0 +1,3 @@
+import unreal,json
+from pathlib import Path
+m=unreal.load_asset('/Game/Maps/MapaCompleto/M_MapaVoxel');L=unreal.MaterialEditingLibrary;before=L.get_material_property_input_node(m,unreal.MaterialProperty.MP_BASE_COLOR);v=L.create_material_expression(m,unreal.MaterialExpressionVertexColor);ok=L.connect_material_property(v,'',unreal.MaterialProperty.MP_BASE_COLOR);assert ok;L.set_material_usage(m,unreal.MaterialUsage.MATUSAGE_INSTANCED_STATIC_MESHES);L.recompile_material(m);assert unreal.EditorAssetLibrary.save_loaded_asset(m,only_if_is_dirty=False);Path('C:/Users/CRISTIAN/Documents/Codex/2026-09-12/ho/new_map_audit/material_fix.json').write_text(json.dumps({'old_base_input':str(before),'connected':ok}));unreal.log('MAP_VERTEX_COLOR_CONNECTED')

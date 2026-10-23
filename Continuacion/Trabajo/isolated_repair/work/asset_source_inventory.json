@@ -1,0 +1,192 @@
+[
+  {
+    "file": "outputs\\DeliveryArt\\Crowd\\SK_Citizen00.blend",
+    "objects": [
+      {
+        "name": "Armature",
+        "type": "ARMATURE",
+        "parent": null,
+        "vertices": 0,
+        "dimensions": [
+          61.44682312011719,
+          22.511503219604492,
+          166.49998474121094
+        ]
+      },
+      {
+        "name": "SK_Citizen00",
+        "type": "MESH",
+        "parent": "Armature",
+        "vertices": 15904,
+        "dimensions": [
+          73.41242980957031,
+          65.25025939941406,
+          173.25010681152344
+        ]
+      }
+    ]
+  },
+  {
+    "file": "outputs\\DeliveryArt\\People\\SK_Cashier.blend",
+    "objects": [
+      {
+        "name": "Rig_Cashier",
+        "type": "ARMATURE",
+        "parent": null,
+        "vertices": 0,
+        "dimensions": [
+          0.5560653805732727,
+          0.5100000500679016,
+          1.5499999523162842
+        ]
+      },
+      {
+        "name": "SK_Cashier",
+        "type": "MESH",
+        "parent": "Rig_Cashier",
+        "vertices": 5128,
+        "dimensions": [
+          0.7015889883041382,
+          0.7800000905990601,
+          1.6875001192092896
+        ]
+      }
+    ]
+  },
+  {
+    "file": "outputs\\DeliveryArt\\Shops\\SM_MarketFront.blend",
+    "objects": [
+      {
+        "name": "SM_MarketFront",
+        "type": "MESH",
+        "parent": null,
+        "vertices": 3752,
+        "dimensions": [
+          24.270000457763672,
+          34.01499938964844,
+          7.025000095367432
+        ]
+      }
+    ]
+  },
+  {
+    "file": "outputs\\DeliveryArt\\Cargo\\VoxelExplorer_CargoLoadout.blend",
+    "objects": [
+      {
+        "name": "Area",
+        "type": "LIGHT",
+        "parent": null,
+        "vertices": 0,
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "Area.001",
+        "type": "LIGHT",
+        "parent": null,
+        "vertices": 0,
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "Armature",
+        "type": "ARMATURE",
+        "parent": null,
+        "vertices": 0,
+        "dimensions": [
+          118.00482940673828,
+          18.000001907348633,
+          166.5
+        ]
+      },
+      {
+        "name": "Camera",
+        "type": "CAMERA",
+        "parent": null,
+        "vertices": 0,
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "SK_CargoBackpack",
+        "type": "MESH",
+        "parent": "Armature",
+        "vertices": 136,
+        "dimensions": [
+          55.0,
+          26.700000762939453,
+          48.5
+        ]
+      },
+      {
+        "name": "SK_CargoWaist",
+        "type": "MESH",
+        "parent": "Armature",
+        "vertices": 120,
+        "dimensions": [
+          45.0,
+          41.5,
+          20.5
+        ]
+      },
+      {
+        "name": "SK_VoxelExplorer",
+        "type": "MESH",
+        "parent": "Armature",
+        "vertices": 2512,
+        "dimensions": [
+          125.3771743774414,
+          72.0,
+          180.0
+        ]
+      },
+      {
+        "name": "SM_CargoPanniers",
+        "type": "MESH",
+        "parent": null,
+        "vertices": 224,
+        "dimensions": [
+          39.0,
+          106.69999694824219,
+          41.5
+        ]
+      }
+    ]
+  },
+  {
+    "file": "outputs\\unreal_v2\\VoxelExplorer_GameRig.blend",
+    "objects": [
+      {
+        "name": "Armature",
+        "type": "ARMATURE",
+        "parent": null,
+        "vertices": 0,
+        "dimensions": [
+          58.500003814697266,
+          18.009748458862305,
+          166.5
+        ]
+      },
+      {
+        "name": "SK_VoxelExplorer",
+        "type": "MESH",
+        "parent": "Armature",
+        "vertices": 2512,
+        "dimensions": [
+          76.49996948242188,
+          72.0,
+          179.98838806152344
+        ]
+      }
+    ]
+  }
+]

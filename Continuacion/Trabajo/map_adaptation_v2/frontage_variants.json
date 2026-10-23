@@ -1,0 +1,806 @@
+[
+  {
+    "source": "M002_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 03.003",
+    "name": "SM_StreetFrontage_000",
+    "removed_low_faces": 229,
+    "remaining_faces": 2299
+  },
+  {
+    "source": "M002_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 03.009",
+    "name": "SM_StreetFrontage_001",
+    "removed_low_faces": 373,
+    "remaining_faces": 2155
+  },
+  {
+    "source": "M009_LOD0 | Centro | centro | 02 \u00b7 Casas intermedias \u00b7 04.002",
+    "name": "SM_StreetFrontage_002",
+    "removed_low_faces": 324,
+    "remaining_faces": 2845
+  },
+  {
+    "source": "M016_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 04.001",
+    "name": "SM_StreetFrontage_003",
+    "removed_low_faces": 374,
+    "remaining_faces": 7750
+  },
+  {
+    "source": "M016_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 04.003",
+    "name": "SM_StreetFrontage_004",
+    "removed_low_faces": 391,
+    "remaining_faces": 7733
+  },
+  {
+    "source": "M020_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 08",
+    "name": "SM_StreetFrontage_005",
+    "removed_low_faces": 225,
+    "remaining_faces": 1083
+  },
+  {
+    "source": "M023_LOD0 | Centro | centro | 04 \u00b7 Plaza de Bol\u00edvar",
+    "name": "SM_StreetFrontage_006",
+    "removed_low_faces": 10339,
+    "remaining_faces": 37229
+  },
+  {
+    "source": "M027_LOD0 | Centro | centro | 05 \u00b7 Monumentos \u00b7 04.002",
+    "name": "SM_StreetFrontage_007",
+    "removed_low_faces": 453,
+    "remaining_faces": 1131
+  },
+  {
+    "source": "M030_LOD0 | Norte | Norte | Casa_01_Marco_Madera.002",
+    "name": "SM_StreetFrontage_008",
+    "removed_low_faces": 11,
+    "remaining_faces": 2426
+  },
+  {
+    "source": "M033_LOD0 | Norte | Norte | Casa_04_Terrazas_Arena.004",
+    "name": "SM_StreetFrontage_009",
+    "removed_low_faces": 845,
+    "remaining_faces": 1967
+  },
+  {
+    "source": "M034_LOD0 | Norte | Norte | Casa_05_Villa_Tejas.015",
+    "name": "SM_StreetFrontage_010",
+    "removed_low_faces": 1853,
+    "remaining_faces": 843
+  },
+  {
+    "source": "M035_LOD0 | Norte | Norte | Casa_06_Garaje_Listones.002",
+    "name": "SM_StreetFrontage_011",
+    "removed_low_faces": 1859,
+    "remaining_faces": 690
+  },
+  {
+    "source": "M035_LOD0 | Norte | Norte | Casa_06_Garaje_Listones.005",
+    "name": "SM_StreetFrontage_012",
+    "removed_low_faces": 12,
+    "remaining_faces": 2537
+  },
+  {
+    "source": "M035_LOD0 | Norte | Norte | Casa_06_Garaje_Listones.006",
+    "name": "SM_StreetFrontage_013",
+    "removed_low_faces": 17,
+    "remaining_faces": 2532
+  },
+  {
+    "source": "M037_LOD0 | Norte | Norte | Casa_08_Chalet_Pizarra.006",
+    "name": "SM_StreetFrontage_014",
+    "removed_low_faces": 975,
+    "remaining_faces": 6048
+  },
+  {
+    "source": "M039_LOD0 | Norte | Norte | Casa_10_Adosados.001",
+    "name": "SM_StreetFrontage_015",
+    "removed_low_faces": 1359,
+    "remaining_faces": 1668
+  },
+  {
+    "source": "M039_LOD0 | Norte | Norte | Casa_10_Adosados.004",
+    "name": "SM_StreetFrontage_016",
+    "removed_low_faces": 1,
+    "remaining_faces": 3026
+  },
+  {
+    "source": "M040_LOD0 | Norte | Norte | Comercial_25_Unicentro.002",
+    "name": "SM_StreetFrontage_017",
+    "removed_low_faces": 10,
+    "remaining_faces": 10009
+  },
+  {
+    "source": "M049_LOD0 | Norte | Norte | Parque_21_Estanque_Pergolas_Juegos.002",
+    "name": "SM_StreetFrontage_018",
+    "removed_low_faces": 7793,
+    "remaining_faces": 4873
+  },
+  {
+    "source": "M049_LOD0 | Norte | Norte | Parque_21_Estanque_Pergolas_Juegos.004",
+    "name": "SM_StreetFrontage_019",
+    "removed_low_faces": 583,
+    "remaining_faces": 12083
+  },
+  {
+    "source": "M049_LOD0 | Norte | Norte | Parque_21_Estanque_Pergolas_Juegos.010",
+    "name": "SM_StreetFrontage_020",
+    "removed_low_faces": 10544,
+    "remaining_faces": 2122
+  },
+  {
+    "source": "M050_LOD0 | Norte | Norte | Residencial_22_Cuatro_Torres_Ladrillo.001",
+    "name": "SM_StreetFrontage_021",
+    "removed_low_faces": 1256,
+    "remaining_faces": 12175
+  },
+  {
+    "source": "M050_LOD0 | Norte | Norte | Residencial_22_Cuatro_Torres_Ladrillo.005",
+    "name": "SM_StreetFrontage_022",
+    "removed_low_faces": 1928,
+    "remaining_faces": 11503
+  },
+  {
+    "source": "M055_LOD0 | Norte | Norte | Torre_13_Cristal.001",
+    "name": "SM_StreetFrontage_023",
+    "removed_low_faces": 922,
+    "remaining_faces": 5503
+  },
+  {
+    "source": "M074_LOD0 | Occidente | occidente | 01 \u00b7 Viviendas \u00b7 F3-06.001",
+    "name": "SM_StreetFrontage_024",
+    "removed_low_faces": 496,
+    "remaining_faces": 1580
+  },
+  {
+    "source": "M074_LOD0 | Occidente | occidente | 01 \u00b7 Viviendas \u00b7 F3-06.003",
+    "name": "SM_StreetFrontage_025",
+    "removed_low_faces": 107,
+    "remaining_faces": 1969
+  },
+  {
+    "source": "M082_LOD0 | Occidente | occidente | 02 \u00b7 Aeropuerto El Dorado \u00b7 Terminal y plataforma",
+    "name": "SM_StreetFrontage_026",
+    "removed_low_faces": 4709,
+    "remaining_faces": 10249
+  },
+  {
+    "source": "M085_LOD0 | Occidente | occidente | 05 \u00b7 Equipamiento \u00b7 Centro cultural.001",
+    "name": "SM_StreetFrontage_027",
+    "removed_low_faces": 16,
+    "remaining_faces": 1760
+  },
+  {
+    "source": "M087_LOD0 | Occidente | occidente | 05 \u00b7 Equipamiento \u00b7 Pabell\u00f3n acristalado.002",
+    "name": "SM_StreetFrontage_028",
+    "removed_low_faces": 71,
+    "remaining_faces": 1519
+  },
+  {
+    "source": "M097_LOD0 | Occidente | occidente | 10 \u00b7 Parque del lago \u00b7 Referencia primera imagen",
+    "name": "SM_StreetFrontage_029",
+    "removed_low_faces": 32,
+    "remaining_faces": 26494
+  },
+  {
+    "source": "M103_LOD0 | Oriente | Oriente | 04 \u2022 Casa turquesa y blanca.001",
+    "name": "SM_StreetFrontage_030",
+    "removed_low_faces": 4065,
+    "remaining_faces": 13356
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.022",
+    "name": "SM_StreetFrontage_031",
+    "removed_low_faces": 4,
+    "remaining_faces": 17238
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.030",
+    "name": "SM_StreetFrontage_032",
+    "removed_low_faces": 1049,
+    "remaining_faces": 16193
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.003",
+    "name": "SM_StreetFrontage_033",
+    "removed_low_faces": 3457,
+    "remaining_faces": 14381
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.011",
+    "name": "SM_StreetFrontage_034",
+    "removed_low_faces": 1818,
+    "remaining_faces": 16020
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.012",
+    "name": "SM_StreetFrontage_035",
+    "removed_low_faces": 3972,
+    "remaining_faces": 13866
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.019",
+    "name": "SM_StreetFrontage_036",
+    "removed_low_faces": 10,
+    "remaining_faces": 17828
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.020",
+    "name": "SM_StreetFrontage_037",
+    "removed_low_faces": 135,
+    "remaining_faces": 17703
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.021",
+    "name": "SM_StreetFrontage_038",
+    "removed_low_faces": 564,
+    "remaining_faces": 17274
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza",
+    "name": "SM_StreetFrontage_039",
+    "removed_low_faces": 2967,
+    "remaining_faces": 14448
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.001",
+    "name": "SM_StreetFrontage_040",
+    "removed_low_faces": 4281,
+    "remaining_faces": 13134
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.009",
+    "name": "SM_StreetFrontage_041",
+    "removed_low_faces": 5837,
+    "remaining_faces": 11578
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.015",
+    "name": "SM_StreetFrontage_042",
+    "removed_low_faces": 846,
+    "remaining_faces": 16569
+  },
+  {
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza.018",
+    "name": "SM_StreetFrontage_043",
+    "removed_low_faces": 5651,
+    "remaining_faces": 11764
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.012",
+    "name": "SM_StreetFrontage_044",
+    "removed_low_faces": 5900,
+    "remaining_faces": 11521
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.013",
+    "name": "SM_StreetFrontage_045",
+    "removed_low_faces": 4452,
+    "remaining_faces": 12969
+  },
+  {
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.019",
+    "name": "SM_StreetFrontage_046",
+    "removed_low_faces": 2654,
+    "remaining_faces": 14767
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo",
+    "name": "SM_StreetFrontage_047",
+    "removed_low_faces": 6827,
+    "remaining_faces": 10885
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.001",
+    "name": "SM_StreetFrontage_048",
+    "removed_low_faces": 4826,
+    "remaining_faces": 12886
+  },
+  {
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo.032",
+    "name": "SM_StreetFrontage_049",
+    "removed_low_faces": 739,
+    "remaining_faces": 16973
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.001",
+    "name": "SM_StreetFrontage_050",
+    "removed_low_faces": 5804,
+    "remaining_faces": 11611
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.006",
+    "name": "SM_StreetFrontage_051",
+    "removed_low_faces": 721,
+    "remaining_faces": 16694
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.012",
+    "name": "SM_StreetFrontage_052",
+    "removed_low_faces": 383,
+    "remaining_faces": 17032
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.014",
+    "name": "SM_StreetFrontage_053",
+    "removed_low_faces": 4286,
+    "remaining_faces": 13129
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.020",
+    "name": "SM_StreetFrontage_054",
+    "removed_low_faces": 2947,
+    "remaining_faces": 14468
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.024",
+    "name": "SM_StreetFrontage_055",
+    "removed_low_faces": 204,
+    "remaining_faces": 17211
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.029",
+    "name": "SM_StreetFrontage_056",
+    "removed_low_faces": 860,
+    "remaining_faces": 16555
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.030",
+    "name": "SM_StreetFrontage_057",
+    "removed_low_faces": 679,
+    "remaining_faces": 16736
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.038",
+    "name": "SM_StreetFrontage_058",
+    "removed_low_faces": 4814,
+    "remaining_faces": 12601
+  },
+  {
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris.041",
+    "name": "SM_StreetFrontage_059",
+    "removed_low_faces": 16,
+    "remaining_faces": 17399
+  },
+  {
+    "source": "M114_LOD0 | Oriente | Oriente | 15 \u2022 Torre crema y n\u00facleo oscuro.006",
+    "name": "SM_StreetFrontage_060",
+    "removed_low_faces": 3372,
+    "remaining_faces": 24930
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos",
+    "name": "SM_StreetFrontage_061",
+    "removed_low_faces": 1607,
+    "remaining_faces": 21853
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos.001",
+    "name": "SM_StreetFrontage_062",
+    "removed_low_faces": 2342,
+    "remaining_faces": 21118
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos.007",
+    "name": "SM_StreetFrontage_063",
+    "removed_low_faces": 1241,
+    "remaining_faces": 22219
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos.008",
+    "name": "SM_StreetFrontage_064",
+    "removed_low_faces": 1381,
+    "remaining_faces": 22079
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos.010",
+    "name": "SM_StreetFrontage_065",
+    "removed_low_faces": 2673,
+    "remaining_faces": 20787
+  },
+  {
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos.011",
+    "name": "SM_StreetFrontage_066",
+    "removed_low_faces": 393,
+    "remaining_faces": 23067
+  },
+  {
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical",
+    "name": "SM_StreetFrontage_067",
+    "removed_low_faces": 3189,
+    "remaining_faces": 31119
+  },
+  {
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical.001",
+    "name": "SM_StreetFrontage_068",
+    "removed_low_faces": 3259,
+    "remaining_faces": 31049
+  },
+  {
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical.005",
+    "name": "SM_StreetFrontage_069",
+    "removed_low_faces": 489,
+    "remaining_faces": 33819
+  },
+  {
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical.006",
+    "name": "SM_StreetFrontage_070",
+    "removed_low_faces": 489,
+    "remaining_faces": 33819
+  },
+  {
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical.010",
+    "name": "SM_StreetFrontage_071",
+    "removed_low_faces": 3259,
+    "remaining_faces": 31049
+  },
+  {
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical.011",
+    "name": "SM_StreetFrontage_072",
+    "removed_low_faces": 3189,
+    "remaining_faces": 31119
+  },
+  {
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical.012",
+    "name": "SM_StreetFrontage_073",
+    "removed_low_faces": 2129,
+    "remaining_faces": 32179
+  },
+  {
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical.014",
+    "name": "SM_StreetFrontage_074",
+    "removed_low_faces": 2077,
+    "remaining_faces": 32231
+  },
+  {
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical.016",
+    "name": "SM_StreetFrontage_075",
+    "removed_low_faces": 2129,
+    "remaining_faces": 32179
+  },
+  {
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical.021",
+    "name": "SM_StreetFrontage_076",
+    "removed_low_faces": 2077,
+    "remaining_faces": 32231
+  },
+  {
+    "source": "M119_LOD0 | Oriente | Oriente | 20 \u2022 Conjunto residencial de cinco torres.002",
+    "name": "SM_StreetFrontage_077",
+    "removed_low_faces": 2715,
+    "remaining_faces": 72555
+  },
+  {
+    "source": "M119_LOD0 | Oriente | Oriente | 20 \u2022 Conjunto residencial de cinco torres.003",
+    "name": "SM_StreetFrontage_078",
+    "removed_low_faces": 672,
+    "remaining_faces": 74598
+  },
+  {
+    "source": "M119_LOD0 | Oriente | Oriente | 20 \u2022 Conjunto residencial de cinco torres.007",
+    "name": "SM_StreetFrontage_079",
+    "removed_low_faces": 1879,
+    "remaining_faces": 73391
+  },
+  {
+    "source": "M120_LOD0 | Oriente | Oriente | 21 \u2022 Porter\u00eda residencial de ladrillo.001",
+    "name": "SM_StreetFrontage_080",
+    "removed_low_faces": 515,
+    "remaining_faces": 24847
+  },
+  {
+    "source": "M120_LOD0 | Oriente | Oriente | 21 \u2022 Porter\u00eda residencial de ladrillo.002",
+    "name": "SM_StreetFrontage_081",
+    "removed_low_faces": 164,
+    "remaining_faces": 25198
+  },
+  {
+    "source": "M124_LOD0 | Oriente | Oriente | 25 \u2022 Centro institucional blanco acristalado",
+    "name": "SM_StreetFrontage_082",
+    "removed_low_faces": 22,
+    "remaining_faces": 29984
+  },
+  {
+    "source": "M126_LOD0 | Oriente | Oriente | 27 \u2022 Centro cultural con mural voxel.002",
+    "name": "SM_StreetFrontage_083",
+    "removed_low_faces": 10123,
+    "remaining_faces": 24089
+  },
+  {
+    "source": "M126_LOD0 | Oriente | Oriente | 27 \u2022 Centro cultural con mural voxel.004",
+    "name": "SM_StreetFrontage_084",
+    "removed_low_faces": 249,
+    "remaining_faces": 33963
+  },
+  {
+    "source": "M126_LOD0 | Oriente | Oriente | 27 \u2022 Centro cultural con mural voxel.005",
+    "name": "SM_StreetFrontage_085",
+    "removed_low_faces": 546,
+    "remaining_faces": 33666
+  },
+  {
+    "source": "M127_LOD0 | Oriente | Oriente | 28 \u2022 Parque con monumento cancha y pabell\u00f3n.002",
+    "name": "SM_StreetFrontage_086",
+    "removed_low_faces": 1367,
+    "remaining_faces": 48042
+  },
+  {
+    "source": "M127_LOD0 | Oriente | Oriente | 28 \u2022 Parque con monumento cancha y pabell\u00f3n.003",
+    "name": "SM_StreetFrontage_087",
+    "removed_low_faces": 16247,
+    "remaining_faces": 33162
+  },
+  {
+    "source": "M127_LOD0 | Oriente | Oriente | 28 \u2022 Parque con monumento cancha y pabell\u00f3n.004",
+    "name": "SM_StreetFrontage_088",
+    "removed_low_faces": 31856,
+    "remaining_faces": 17553
+  },
+  {
+    "source": "M127_LOD0 | Oriente | Oriente | 28 \u2022 Parque con monumento cancha y pabell\u00f3n.005",
+    "name": "SM_StreetFrontage_089",
+    "removed_low_faces": 153,
+    "remaining_faces": 49256
+  },
+  {
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza.015",
+    "name": "SM_StreetFrontage_090",
+    "removed_low_faces": 1186,
+    "remaining_faces": 2348
+  },
+  {
+    "source": "M131_LOD0 | Sur | Sur | 03_Torres_ladrillo_y_verde.001",
+    "name": "SM_StreetFrontage_091",
+    "removed_low_faces": 808,
+    "remaining_faces": 4220
+  },
+  {
+    "source": "M132_LOD0 | Sur | Sur | 04_Patio_ladrillo.001",
+    "name": "SM_StreetFrontage_092",
+    "removed_low_faces": 1054,
+    "remaining_faces": 3605
+  },
+  {
+    "source": "M133_LOD0 | Sur | Sur | 05 \u2022 Centro comercial \u2014 reconstrucci\u00f3n detallada",
+    "name": "SM_StreetFrontage_093",
+    "removed_low_faces": 28688,
+    "remaining_faces": 210586
+  },
+  {
+    "source": "M134_LOD0 | Sur | Sur | 05_Coral_balcon.007",
+    "name": "SM_StreetFrontage_094",
+    "removed_low_faces": 581,
+    "remaining_faces": 3269
+  },
+  {
+    "source": "M134_LOD0 | Sur | Sur | 05_Coral_balcon.008",
+    "name": "SM_StreetFrontage_095",
+    "removed_low_faces": 1399,
+    "remaining_faces": 2451
+  },
+  {
+    "source": "M135_LOD0 | Sur | Sur | 06 \u2022 Iglesia \u2014 referencia voxel",
+    "name": "SM_StreetFrontage_096",
+    "removed_low_faces": 2397,
+    "remaining_faces": 120665
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.021",
+    "name": "SM_StreetFrontage_097",
+    "removed_low_faces": 749,
+    "remaining_faces": 2836
+  },
+  {
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.051",
+    "name": "SM_StreetFrontage_098",
+    "removed_low_faces": 797,
+    "remaining_faces": 2788
+  },
+  {
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera.053",
+    "name": "SM_StreetFrontage_099",
+    "removed_low_faces": 643,
+    "remaining_faces": 2903
+  },
+  {
+    "source": "M144_LOD0 | Sur | Sur | 14_Duplex_terrazas.011",
+    "name": "SM_StreetFrontage_100",
+    "removed_low_faces": 1525,
+    "remaining_faces": 3034
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.009",
+    "name": "SM_StreetFrontage_101",
+    "removed_low_faces": 111,
+    "remaining_faces": 4213
+  },
+  {
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta.039",
+    "name": "SM_StreetFrontage_102",
+    "removed_low_faces": 1716,
+    "remaining_faces": 2608
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.019",
+    "name": "SM_StreetFrontage_103",
+    "removed_low_faces": 1555,
+    "remaining_faces": 4075
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.023",
+    "name": "SM_StreetFrontage_104",
+    "removed_low_faces": 1592,
+    "remaining_faces": 4038
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.055",
+    "name": "SM_StreetFrontage_105",
+    "removed_low_faces": 1805,
+    "remaining_faces": 3825
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.060",
+    "name": "SM_StreetFrontage_106",
+    "removed_low_faces": 1893,
+    "remaining_faces": 3737
+  },
+  {
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.061",
+    "name": "SM_StreetFrontage_107",
+    "removed_low_faces": 1893,
+    "remaining_faces": 3737
+  },
+  {
+    "source": "M150_LOD0 | Sur | Sur | 20_Crema_jardinera.003",
+    "name": "SM_StreetFrontage_108",
+    "removed_low_faces": 795,
+    "remaining_faces": 2974
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.005",
+    "name": "SM_StreetFrontage_109",
+    "removed_low_faces": 15,
+    "remaining_faces": 3518
+  },
+  {
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul.041",
+    "name": "SM_StreetFrontage_110",
+    "removed_low_faces": 1432,
+    "remaining_faces": 2101
+  },
+  {
+    "source": "M153_LOD0 | Sur | Sur | 23_Conjunto_escalonado.005",
+    "name": "SM_StreetFrontage_111",
+    "removed_low_faces": 1009,
+    "remaining_faces": 6200
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.001",
+    "name": "SM_StreetFrontage_112",
+    "removed_low_faces": 7517,
+    "remaining_faces": 28739
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.002",
+    "name": "SM_StreetFrontage_113",
+    "removed_low_faces": 12655,
+    "remaining_faces": 23601
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.003",
+    "name": "SM_StreetFrontage_114",
+    "removed_low_faces": 8791,
+    "remaining_faces": 27465
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.004",
+    "name": "SM_StreetFrontage_115",
+    "removed_low_faces": 15688,
+    "remaining_faces": 20568
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.005",
+    "name": "SM_StreetFrontage_116",
+    "removed_low_faces": 33,
+    "remaining_faces": 36223
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.006",
+    "name": "SM_StreetFrontage_117",
+    "removed_low_faces": 23859,
+    "remaining_faces": 12397
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.007",
+    "name": "SM_StreetFrontage_118",
+    "removed_low_faces": 47,
+    "remaining_faces": 36209
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.008",
+    "name": "SM_StreetFrontage_119",
+    "removed_low_faces": 26797,
+    "remaining_faces": 9459
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.011",
+    "name": "SM_StreetFrontage_120",
+    "removed_low_faces": 3,
+    "remaining_faces": 36253
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.013",
+    "name": "SM_StreetFrontage_121",
+    "removed_low_faces": 388,
+    "remaining_faces": 35868
+  },
+  {
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos.014",
+    "name": "SM_StreetFrontage_122",
+    "removed_low_faces": 266,
+    "remaining_faces": 35990
+  },
+  {
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.001",
+    "name": "SM_StreetFrontage_123",
+    "removed_low_faces": 1603,
+    "remaining_faces": 10378
+  },
+  {
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.003",
+    "name": "SM_StreetFrontage_124",
+    "removed_low_faces": 978,
+    "remaining_faces": 11003
+  },
+  {
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.005",
+    "name": "SM_StreetFrontage_125",
+    "removed_low_faces": 3534,
+    "remaining_faces": 8447
+  },
+  {
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.007",
+    "name": "SM_StreetFrontage_126",
+    "removed_low_faces": 1405,
+    "remaining_faces": 10576
+  },
+  {
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.008",
+    "name": "SM_StreetFrontage_127",
+    "removed_low_faces": 2892,
+    "remaining_faces": 9089
+  },
+  {
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.010",
+    "name": "SM_StreetFrontage_128",
+    "removed_low_faces": 2155,
+    "remaining_faces": 9826
+  },
+  {
+    "source": "M157_LOD0 | Sur | Sur | 27_Apartamentos_ladrillo_y_grafito.001",
+    "name": "SM_StreetFrontage_129",
+    "removed_low_faces": 334,
+    "remaining_faces": 11814
+  },
+  {
+    "source": "M157_LOD0 | Sur | Sur | 27_Apartamentos_ladrillo_y_grafito.002",
+    "name": "SM_StreetFrontage_130",
+    "removed_low_faces": 3442,
+    "remaining_faces": 8706
+  },
+  {
+    "source": "M157_LOD0 | Sur | Sur | 27_Apartamentos_ladrillo_y_grafito.006",
+    "name": "SM_StreetFrontage_131",
+    "removed_low_faces": 1933,
+    "remaining_faces": 10215
+  },
+  {
+    "source": "M157_LOD0 | Sur | Sur | 27_Apartamentos_ladrillo_y_grafito.007",
+    "name": "SM_StreetFrontage_132",
+    "removed_low_faces": 876,
+    "remaining_faces": 11272
+  },
+  {
+    "source": "M157_LOD0 | Sur | Sur | 27_Apartamentos_ladrillo_y_grafito.008",
+    "name": "SM_StreetFrontage_133",
+    "removed_low_faces": 505,
+    "remaining_faces": 11643
+  }
+]

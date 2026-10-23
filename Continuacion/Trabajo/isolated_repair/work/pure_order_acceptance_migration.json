@@ -1,0 +1,12 @@
+{
+  "status": "STAGING_NOT_PROMOTED",
+  "interface": "/Game/Delivery/Interfaces/BPI_DeliveryVehiclePlacement.BPI_DeliveryVehiclePlacement_C",
+  "functions": [
+    "AcceptOffer",
+    "BeginAction",
+    "AdvanceHeldAction",
+    "ClosePhoneForWorld"
+  ],
+  "explicit_selection_required": true,
+  "main_rider_placement_integration_pending": true
+}

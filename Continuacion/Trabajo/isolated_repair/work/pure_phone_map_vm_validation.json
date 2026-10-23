@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": [
+    "full_center",
+    "full_northwest",
+    "full_southeast",
+    "full_east",
+    "mini_center",
+    "mini_northwest",
+    "mini_southeast",
+    "/Game/Delivery/BlueprintGameplay/UI/WBP_BlueprintPhone NoNativeCalls",
+    "/Game/Delivery/BlueprintGameplay/UI/BP_BlueprintGaragePreview NoNativeCalls",
+    "/Game/Delivery/BlueprintGameplay/Player/BP_BlueprintRider NoNativeCalls"
+  ],
+  "count": 10,
+  "main_promoted": false
+}

@@ -1,0 +1,33 @@
+{
+  "time_key": "N after ESOYAM; phone closed",
+  "phase_hours": [
+    6,
+    9,
+    12,
+    16,
+    18,
+    22,
+    3
+  ],
+  "phase_checks": {
+    "6": true,
+    "9": true,
+    "12": true,
+    "16": true,
+    "18": true,
+    "22": true,
+    "3": true
+  },
+  "normal_mode_blocked": true,
+  "vehicle_models_inspected": 23,
+  "shader_compile_errors": 0,
+  "legacy_vehicle_materials_repaired": 3,
+  "taxi_vertex_livery": true,
+  "taxi_mesh_defaults": [
+    "/Game/Traffic/Detailed/SK_TaxiCompact.SK_TaxiCompact",
+    "/Game/Traffic/Detailed/SK_TaxiSedan.SK_TaxiSedan"
+  ],
+  "station_access_finish_offset_cm": 0.4,
+  "ground_layer_rule": "clip low plot surfaces inside existing road and sidewalk reserve; small per-instance ground bias",
+  "runtime_custom_cpp": false
+}

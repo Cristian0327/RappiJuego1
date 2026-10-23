@@ -1,0 +1,72 @@
+[
+  {
+    "source": "B\u00e9zierCurve_0",
+    "retained_segments": 1,
+    "retained_length_m": 16.08269994426382
+  },
+  {
+    "source": "B\u00e9zierCurve_1",
+    "retained_segments": 0,
+    "retained_length_m": 0.0
+  },
+  {
+    "source": "B\u00e9zierCurve_2",
+    "retained_segments": 1,
+    "retained_length_m": 19.38073957692602
+  },
+  {
+    "source": "B\u00e9zierCurve_3",
+    "retained_segments": 0,
+    "retained_length_m": 0.0
+  },
+  {
+    "source": "B\u00e9zierCurve_4",
+    "retained_segments": 0,
+    "retained_length_m": 0.0
+  },
+  {
+    "source": "B\u00e9zierCurve_5",
+    "retained_segments": 0,
+    "retained_length_m": 0.0
+  },
+  {
+    "source": "B\u00e9zierCurve.006_1",
+    "retained_segments": 1,
+    "retained_length_m": 44.682014610356056
+  },
+  {
+    "source": "B\u00e9zierCurve.008_0",
+    "retained_segments": 1,
+    "retained_length_m": 32.070365221693535
+  },
+  {
+    "source": "B\u00e9zierCurve.009_0",
+    "retained_segments": 1,
+    "retained_length_m": 56.4289037955949
+  },
+  {
+    "source": "B\u00e9zierCurve.010_0",
+    "retained_segments": 1,
+    "retained_length_m": 28.336470618084885
+  },
+  {
+    "source": "B\u00e9zierCurve.011_0",
+    "retained_segments": 0,
+    "retained_length_m": 0.0
+  },
+  {
+    "source": "B\u00e9zierCurve.012_0",
+    "retained_segments": 0,
+    "retained_length_m": 0.0
+  },
+  {
+    "source": "B\u00e9zierCurve.013_0",
+    "retained_segments": 0,
+    "retained_length_m": 0.0
+  },
+  {
+    "source": "B\u00e9zierCurve.014_0",
+    "retained_segments": 0,
+    "retained_length_m": 0.0
+  }
+]

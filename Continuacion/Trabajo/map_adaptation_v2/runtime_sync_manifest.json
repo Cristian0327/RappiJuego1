@@ -1,0 +1,34 @@
+[
+  {
+    "path": "QA/AdaptationTraffic.umap",
+    "sha256": "26dbba70b6883235b3cb04417cad485b6de7303ec33639a46222a6978154d90a"
+  },
+  {
+    "path": "QA/BP_AdaptationTrafficProbe.uasset",
+    "sha256": "fa3d2e271cf79b23a7d201cd27ac763ab2ad846649680d7ce26a4b6a50000751"
+  },
+  {
+    "path": "Traffic/Services/BP_CivilMotorcycle.uasset",
+    "sha256": "1ce21d7977a8ce481474be3a7e4577ed1fd7deacc3b5c80d95f20caab57c2b21"
+  },
+  {
+    "path": "Traffic/Services/BP_PoliceMotorcycle.uasset",
+    "sha256": "24eceae1d740eb41ae7a441b9538ec19e31f51eeb794e8888b3838462c81eb6e"
+  },
+  {
+    "path": "Traffic/Services/BP_PoliceRoadPatrol.uasset",
+    "sha256": "c1c215ea546d0516a452ef0be4ca9719fc20f3a4a47dc37d8866586e7d3c6d7f"
+  },
+  {
+    "path": "Traffic/Services/BP_TwoWheelerCitizen.uasset",
+    "sha256": "76b782058e2dba3de7672d9f99e790cd654610b45b65ea9b81352ff47c048983"
+  },
+  {
+    "path": "Traffic/Services/BP_VoxelRoadVehicle.uasset",
+    "sha256": "42b8c460a89263ada9bc95b522c2ac9d80a59b43c96af17823547e52ee226c61"
+  },
+  {
+    "path": "World/BogotaUrban/BP_BogotaServiceSignals.uasset",
+    "sha256": "929193cbe9e43f395bd6b4ca94018e9e3164d6deb43f76d63c77114b6cc97b48"
+  }
+]

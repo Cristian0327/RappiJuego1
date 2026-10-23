@@ -1,0 +1,3 @@
+import unreal,json
+from pathlib import Path
+out={};m=unreal.load_asset('/Game/Maps/MapaCompleto/Geometry/SM_Mapa_067');out['mesh_api']=[n for n in dir(m) if any(s in n.lower() for s in ['description','color','lod'])];out['classes']=[n for n in dir(unreal) if any(s in n for s in ['MeshDescription','GeometryScriptLibrary_StaticMesh','GeometryScriptLibrary_MeshVertexColor'])];out['material']=str(m.get_material(0));out['static_lib']=[n for n in dir(unreal.StaticMeshEditorSubsystem) if any(s in n.lower() for s in ['color','description'])];Path('C:/Users/CRISTIAN/Documents/Codex/2026-09-12/ho/new_map_audit/color_api.json').write_text(json.dumps(out,indent=2));unreal.log('COLOR_API_READY')

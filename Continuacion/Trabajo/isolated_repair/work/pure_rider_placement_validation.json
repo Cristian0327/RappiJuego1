@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": {
+    "NO_SELECTION_CANNOT_HOLD": "true",
+    "NO_IMPLICIT_ORDER": "true",
+    "SELECTED_OFFER_STARTS_HOLD": "true",
+    "HOLD_ACCEPTS_SELECTED_OFFER": "true",
+    "REAL_VEHICLE_PLACED": "true",
+    "EXACTLY_ONE_ACTIVE_ORDER": "true",
+    "PLACEMENT_IS_IDEMPOTENT": "true",
+    "VEHICLE_STAYS_AT_STREET_LEVEL": "true",
+    "MISSING_FLOOR_REJECTS_PLACEMENT": "true",
+    "NO_FLOATING_VEHICLE_CREATED": "true"
+  },
+  "count": 10,
+  "actual_player_and_actual_physics": true,
+  "isolated_user_save": true,
+  "main_promoted": false
+}

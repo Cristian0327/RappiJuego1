@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": {
+    "CORE_PRESENT": "true",
+    "MOVES_WITH_ENGINE_CHARACTER": "true",
+    "CONTINUOUS_VELOCITY": "true",
+    "STOPS_AFTER_RELEASE": "true",
+    "CAMERA_AT_BOOM_ENDPOINT": "true",
+    "CAMERA_SOCKET_RETAINED": "true"
+  },
+  "count": 6,
+  "script_warnings": 0,
+  "staging_not_promoted": true
+}

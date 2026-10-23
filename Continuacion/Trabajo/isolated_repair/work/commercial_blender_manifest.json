@@ -1,0 +1,176 @@
+[
+  {
+    "asset": "SM_Drill",
+    "vertices": 72,
+    "triangles": 108,
+    "materials": 21
+  },
+  {
+    "asset": "SM_PaintCan",
+    "vertices": 336,
+    "triangles": 504,
+    "materials": 21
+  },
+  {
+    "asset": "SM_PetFood",
+    "vertices": 56,
+    "triangles": 84,
+    "materials": 21
+  },
+  {
+    "asset": "SM_PetBowl",
+    "vertices": 336,
+    "triangles": 504,
+    "materials": 21
+  },
+  {
+    "asset": "SM_PetToy",
+    "vertices": 40,
+    "triangles": 60,
+    "materials": 21
+  },
+  {
+    "asset": "SM_MarketFront",
+    "vertices": 3752,
+    "triangles": 5628,
+    "materials": 21
+  },
+  {
+    "asset": "SM_MarketInterior",
+    "vertices": 116904,
+    "triangles": 175356,
+    "materials": 21
+  },
+  {
+    "asset": "SM_FreshMarketFront",
+    "vertices": 4096,
+    "triangles": 6144,
+    "materials": 21
+  },
+  {
+    "asset": "SM_FreshMarketInterior",
+    "vertices": 118984,
+    "triangles": 178476,
+    "materials": 21
+  },
+  {
+    "asset": "SM_RestaurantFront",
+    "vertices": 20032,
+    "triangles": 30048,
+    "materials": 21
+  },
+  {
+    "asset": "SM_RestaurantInterior",
+    "vertices": 31512,
+    "triangles": 47268,
+    "materials": 21
+  },
+  {
+    "asset": "SM_FastFoodFront",
+    "vertices": 4032,
+    "triangles": 6048,
+    "materials": 21
+  },
+  {
+    "asset": "SM_FastFoodInterior",
+    "vertices": 31464,
+    "triangles": 47196,
+    "materials": 21
+  },
+  {
+    "asset": "SM_TechFront",
+    "vertices": 3880,
+    "triangles": 5820,
+    "materials": 21
+  },
+  {
+    "asset": "SM_TechInterior",
+    "vertices": 39112,
+    "triangles": 58668,
+    "materials": 21
+  },
+  {
+    "asset": "SM_ComponentsFront",
+    "vertices": 3880,
+    "triangles": 5820,
+    "materials": 21
+  },
+  {
+    "asset": "SM_ComponentsInterior",
+    "vertices": 62024,
+    "triangles": 93036,
+    "materials": 21
+  },
+  {
+    "asset": "SM_PharmacyFront",
+    "vertices": 3768,
+    "triangles": 5652,
+    "materials": 21
+  },
+  {
+    "asset": "SM_PharmacyInterior",
+    "vertices": 91640,
+    "triangles": 137460,
+    "materials": 21
+  },
+  {
+    "asset": "SM_FloristFront",
+    "vertices": 17728,
+    "triangles": 26592,
+    "materials": 21
+  },
+  {
+    "asset": "SM_FloristInterior",
+    "vertices": 170984,
+    "triangles": 256476,
+    "materials": 21
+  },
+  {
+    "asset": "SM_BakeryFront",
+    "vertices": 17728,
+    "triangles": 26592,
+    "materials": 21
+  },
+  {
+    "asset": "SM_BakeryInterior",
+    "vertices": 13552,
+    "triangles": 20328,
+    "materials": 21
+  },
+  {
+    "asset": "SM_CafeFront",
+    "vertices": 17728,
+    "triangles": 26592,
+    "materials": 21
+  },
+  {
+    "asset": "SM_CafeInterior",
+    "vertices": 37328,
+    "triangles": 55992,
+    "materials": 21
+  },
+  {
+    "asset": "SM_HardwareFront",
+    "vertices": 3752,
+    "triangles": 5628,
+    "materials": 21
+  },
+  {
+    "asset": "SM_HardwareInterior",
+    "vertices": 95016,
+    "triangles": 142524,
+    "materials": 21
+  },
+  {
+    "asset": "SM_PetShopFront",
+    "vertices": 3528,
+    "triangles": 5292,
+    "materials": 21
+  },
+  {
+    "asset": "SM_PetShopInterior",
+    "vertices": 63040,
+    "triangles": 94560,
+    "materials": 21
+  }
+]

@@ -1,0 +1,464 @@
+[
+  {
+    "name": "BP_TaxiPassenger00_C_0",
+    "cls": "BP_TaxiPassenger00_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 6882.721802112933
+  },
+  {
+    "name": "BP_TaxiPassenger01_C_0",
+    "cls": "BP_TaxiPassenger01_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 9702.248281854327
+  },
+  {
+    "name": "BP_TaxiPassenger02_C_0",
+    "cls": "BP_TaxiPassenger02_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 9525.51344899941
+  },
+  {
+    "name": "BP_TaxiPassenger03_C_0",
+    "cls": "BP_TaxiPassenger03_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 8938.150541278006
+  },
+  {
+    "name": "BP_TaxiPassenger04_C_0",
+    "cls": "BP_TaxiPassenger04_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 8096.372665666049
+  },
+  {
+    "name": "BP_TaxiPassenger05_C_0",
+    "cls": "BP_TaxiPassenger05_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 6110.733742417993
+  },
+  {
+    "name": "BP_TaxiPassenger06_C_0",
+    "cls": "BP_TaxiPassenger06_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 9278.486286361649
+  },
+  {
+    "name": "BP_TaxiPassenger07_C_0",
+    "cls": "BP_TaxiPassenger07_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 9261.831668619892
+  },
+  {
+    "name": "BP_TaxiPassenger08_C_0",
+    "cls": "BP_TaxiPassenger08_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 10812.365448341652
+  },
+  {
+    "name": "BP_TaxiPassenger09_C_0",
+    "cls": "BP_TaxiPassenger09_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 9493.55626110859
+  },
+  {
+    "name": "BP_TaxiPassenger10_C_0",
+    "cls": "BP_TaxiPassenger10_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 5214.934351464324
+  },
+  {
+    "name": "BP_TaxiPassenger11_C_0",
+    "cls": "BP_TaxiPassenger11_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 10002.724452885564
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_49",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.782830136431441,
+    "off_sidewalk": 0.7340499277658236,
+    "length": 6615.522516148485
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_50",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7988424297733968,
+    "off_sidewalk": 0.7460575012676868,
+    "length": 6613.356964738854
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_51",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7988424297733968,
+    "off_sidewalk": 0.7460575012676868,
+    "length": 6613.356964738854
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_24",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7765199814429852,
+    "off_sidewalk": 0.7281658160085948,
+    "length": 6619.080876379741
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_25",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7765199814429852,
+    "off_sidewalk": 0.7281658160085948,
+    "length": 6619.080876379741
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_26",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7774003300463946,
+    "off_sidewalk": 0.7289694084351972,
+    "length": 6620.010606099923
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_27",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7774003300463946,
+    "off_sidewalk": 0.7289694084351972,
+    "length": 6620.010606099923
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_28",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7783689371302364,
+    "off_sidewalk": 0.7297995025353147,
+    "length": 6619.966005324426
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_29",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7783689371302364,
+    "off_sidewalk": 0.7297995025353147,
+    "length": 6619.966005324426
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_30",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7763538764530387,
+    "off_sidewalk": 0.728000751218584,
+    "length": 6618.014058007753
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_31",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7763538764530387,
+    "off_sidewalk": 0.728000751218584,
+    "length": 6618.014058007753
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_32",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.9836267559599798,
+    "off_sidewalk": 0.9131606210068434,
+    "length": 6674.846217250909
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_33",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.9836267559599798,
+    "off_sidewalk": 0.9131606210068434,
+    "length": 6674.846217250909
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_34",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 1.0,
+    "off_sidewalk": 0.9383452976810012,
+    "length": 6661.4487360984585
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_35",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 1.0,
+    "off_sidewalk": 0.9383452976810012,
+    "length": 6661.4487360984585
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_36",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.8824813489818809,
+    "off_sidewalk": 0.8339030196948709,
+    "length": 6614.148649820854
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_37",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.8824813489818809,
+    "off_sidewalk": 0.8339030196948709,
+    "length": 6614.148649820854
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_38",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7772037311575761,
+    "off_sidewalk": 0.7287638550304717,
+    "length": 6614.672180823121
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_39",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7772037311575761,
+    "off_sidewalk": 0.7287638550304717,
+    "length": 6614.672180823121
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_40",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.8251551525124531,
+    "off_sidewalk": 0.7592230498318338,
+    "length": 6619.841781815643
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_41",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.8251551525124531,
+    "off_sidewalk": 0.7592230498318338,
+    "length": 6619.841781815643
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_42",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7812945701871593,
+    "off_sidewalk": 0.7327454592872984,
+    "length": 6631.975050151286
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_43",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7812945701871593,
+    "off_sidewalk": 0.7327454592872984,
+    "length": 6631.975050151286
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_44",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7775316606780652,
+    "off_sidewalk": 0.7293913391016379,
+    "length": 6648.79994131832
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_45",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7775316606780652,
+    "off_sidewalk": 0.7293913391016379,
+    "length": 6648.79994131832
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_46",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7775621626629509,
+    "off_sidewalk": 0.7294505472559494,
+    "length": 6652.2987444045
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_47",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7775621626629509,
+    "off_sidewalk": 0.7294505472559494,
+    "length": 6652.2987444045
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_48",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.782830136431441,
+    "off_sidewalk": 0.7340499277658236,
+    "length": 6615.522516148485
+  },
+  {
+    "name": "BP_CrosswalkCitizen00_C_0",
+    "cls": "BP_CrosswalkCitizen00_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 9627.135909771394
+  },
+  {
+    "name": "BP_CrosswalkCitizen01_C_0",
+    "cls": "BP_CrosswalkCitizen01_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 7988.601937577434
+  },
+  {
+    "name": "BP_CrosswalkCitizen02_C_0",
+    "cls": "BP_CrosswalkCitizen02_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 7351.843436034215
+  },
+  {
+    "name": "BP_CrosswalkCitizen03_C_0",
+    "cls": "BP_CrosswalkCitizen03_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 9513.772568120452
+  },
+  {
+    "name": "BP_CrosswalkCitizen04_C_0",
+    "cls": "BP_CrosswalkCitizen04_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 8999.503060407178
+  },
+  {
+    "name": "BP_CrosswalkCitizen05_C_0",
+    "cls": "BP_CrosswalkCitizen05_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 9914.992596099259
+  },
+  {
+    "name": "BP_CrosswalkCitizen06_C_0",
+    "cls": "BP_CrosswalkCitizen06_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 11112.372955005769
+  },
+  {
+    "name": "BP_CrosswalkCitizen07_C_0",
+    "cls": "BP_CrosswalkCitizen07_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 11711.586437151755
+  },
+  {
+    "name": "BP_CrosswalkCitizen08_C_0",
+    "cls": "BP_CrosswalkCitizen08_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 9464.953941080053
+  },
+  {
+    "name": "BP_CrosswalkCitizen09_C_0",
+    "cls": "BP_CrosswalkCitizen09_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 9362.398446853358
+  },
+  {
+    "name": "BP_CrosswalkCitizen10_C_0",
+    "cls": "BP_CrosswalkCitizen10_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 8926.877570107306
+  },
+  {
+    "name": "BP_CrosswalkCitizen11_C_0",
+    "cls": "BP_CrosswalkCitizen11_C",
+    "road_fraction": 0.0,
+    "off_sidewalk": 0.0,
+    "length": 9382.802364378216
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_52",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.805101275426895,
+    "off_sidewalk": 0.781787122782524,
+    "length": 6864.045061571447
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_53",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.806957705595619,
+    "off_sidewalk": 0.7833506301193194,
+    "length": 6797.342925808055
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_54",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.80180294951508,
+    "off_sidewalk": 0.7783667194783562,
+    "length": 6834.498493335603
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_55",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.8042646846605215,
+    "off_sidewalk": 0.780894013777753,
+    "length": 6846.223490837481
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_56",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.8773199948718262,
+    "off_sidewalk": 0.838045614661853,
+    "length": 7501.027114282202
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_57",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.6965228521544619,
+    "off_sidewalk": 0.6469091137866403,
+    "length": 4709.682579391641
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_58",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.8075112285323638,
+    "off_sidewalk": 0.784498544403955,
+    "length": 6955.606581505045
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_59",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.8064843475896889,
+    "off_sidewalk": 0.7833172595442766,
+    "length": 6914.939722977363
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_60",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.8761755164005467,
+    "off_sidewalk": 0.8326834470739028,
+    "length": 6863.663580356034
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_61",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7957219086681457,
+    "off_sidewalk": 0.7715717595690901,
+    "length": 6650.08189784164
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_62",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.8052594742970902,
+    "off_sidewalk": 0.7819941416618327,
+    "length": 6878.794439715635
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_63",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.8050921150073361,
+    "off_sidewalk": 0.7818133161955488,
+    "length": 6874.343566469577
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_64",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.8170935357384332,
+    "off_sidewalk": 0.7946723347291367,
+    "length": 7201.16620947699
+  },
+  {
+    "name": "BP_CrosswalkCitizen_C_65",
+    "cls": "BP_CrosswalkCitizen_C",
+    "road_fraction": 0.7989374493850862,
+    "off_sidewalk": 0.7741263944788803,
+    "length": 6550.417023057295
+  }
+]

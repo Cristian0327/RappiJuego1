@@ -1,0 +1,4 @@
+from pathlib import Path
+root=Path(__file__).resolve().parent
+exec(compile((root/'import_colombia_traffic.py').read_text(),str(root/'import_colombia_traffic.py'),'exec'))
+exec(compile((root/'validate_colombia_traffic.py').read_text(),str(root/'validate_colombia_traffic.py'),'exec'))

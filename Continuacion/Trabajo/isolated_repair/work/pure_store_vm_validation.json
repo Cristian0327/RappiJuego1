@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "count": 47080,
+  "themes": [
+    {
+      "theme": "MarketLocal",
+      "customers": 2,
+      "cane_customers": 0,
+      "movement_samples": 1380,
+      "worst_step_cm": 1.0833333898335695,
+      "lights": 8
+    },
+    {
+      "theme": "MarketFresh",
+      "customers": 2,
+      "cane_customers": 1,
+      "movement_samples": 1380,
+      "worst_step_cm": 1.0833333898335695,
+      "lights": 8
+    },
+    {
+      "theme": "BurgerGrill",
+      "customers": 2,
+      "cane_customers": 1,
+      "movement_samples": 1380,
+      "worst_step_cm": 1.0833333898335695,
+      "lights": 8
+    },
+    {
+      "theme": "QuickMeals",
+      "customers": 2,
+      "cane_customers": 0,
+      "movement_samples": 1380,
+      "worst_step_cm": 1.0833333898335695,
+      "lights": 8
+    },
+    {
+      "theme": "TechRetail",
+      "customers": 2,
+      "cane_customers": 0,
+      "movement_samples": 1380,
+      "worst_step_cm": 1.0833333898335695,
+      "lights": 8
+    },
+    {
+      "theme": "TechComponents",
+      "customers": 2,
+      "cane_customers": 0,
+      "movement_samples": 1380,
+      "worst_step_cm": 1.0833333898335695,
+      "lights": 8
+    },
+    {
+      "theme": "Pharmacy",
+      "customers": 2,
+      "cane_customers": 0,
+      "movement_samples": 1380,
+      "worst_step_cm": 1.0833333898335695,
+      "lights": 8
+    },
+    {
+      "theme": "Florist",
+      "customers": 2,
+      "cane_customers": 0,
+      "movement_samples": 1380,
+      "worst_step_cm": 1.0833333898335695,
+      "lights": 8
+    },
+    {
+      "theme": "Bakery",
+      "customers": 2,
+      "cane_customers": 1,
+      "movement_samples": 1308,
+      "worst_step_cm": 1.0833333898335695,
+      "lights": 8
+    },
+    {
+      "theme": "Cafe",
+      "customers": 2,
+      "cane_customers": 0,
+      "movement_samples": 1067,
+      "worst_step_cm": 1.0833333898335695,
+      "lights": 8
+    },
+    {
+      "theme": "Hardware",
+      "customers": 2,
+      "cane_customers": 1,
+      "movement_samples": 1380,
+      "worst_step_cm": 1.0833333898335695,
+      "lights": 8
+    },
+    {
+      "theme": "PetShop",
+      "customers": 2,
+      "cane_customers": 0,
+      "movement_samples": 1380,
+      "worst_step_cm": 1.0833333898335695,
+      "lights": 8
+    },
+    {
+      "theme": "Pizza",
+      "customers": 2,
+      "cane_customers": 0,
+      "movement_samples": 1380,
+      "worst_step_cm": 1.0833333898335695,
+      "lights": 8
+    }
+  ],
+  "native_dependencies": [],
+  "staging_not_promoted": true
+}

@@ -1,0 +1,866 @@
+{
+  "SK_Citizen00": {
+    "upper_surface_levels_cm": [
+      157.5,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen01": {
+    "upper_surface_levels_cm": [
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25,
+      175.5,
+      177.75
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen02": {
+    "upper_surface_levels_cm": [
+      159.75,
+      166.5,
+      168.75,
+      171.0,
+      173.25,
+      175.5
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen03": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen04": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen05": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen06": {
+    "upper_surface_levels_cm": [
+      148.05,
+      148.5,
+      150.75,
+      153.0,
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen07": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen08": {
+    "upper_surface_levels_cm": [
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen09": {
+    "upper_surface_levels_cm": [
+      153.0,
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen10": {
+    "upper_surface_levels_cm": [
+      144.113,
+      146.25,
+      148.05,
+      148.5,
+      150.75,
+      153.0,
+      155.25,
+      157.5,
+      159.75,
+      162.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen11": {
+    "upper_surface_levels_cm": [
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen12": {
+    "upper_surface_levels_cm": [
+      153.0,
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen13": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen14": {
+    "upper_surface_levels_cm": [
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen15": {
+    "upper_surface_levels_cm": [
+      153.0,
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen16": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen17": {
+    "upper_surface_levels_cm": [
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25,
+      175.5,
+      177.75
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen18": {
+    "upper_surface_levels_cm": [
+      153.0,
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen19": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen20": {
+    "upper_surface_levels_cm": [
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen21": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen22": {
+    "upper_surface_levels_cm": [
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25,
+      175.5
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen23": {
+    "upper_surface_levels_cm": [
+      157.5,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen24": {
+    "upper_surface_levels_cm": [
+      153.0,
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen25": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen26": {
+    "upper_surface_levels_cm": [
+      157.5,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen27": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen28": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen29": {
+    "upper_surface_levels_cm": [
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen30": {
+    "upper_surface_levels_cm": [
+      153.0,
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen31": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen32": {
+    "upper_surface_levels_cm": [
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen33": {
+    "upper_surface_levels_cm": [
+      153.0,
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen34": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen35": {
+    "upper_surface_levels_cm": [
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen36": {
+    "upper_surface_levels_cm": [
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25,
+      175.5
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen37": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen38": {
+    "upper_surface_levels_cm": [
+      157.5,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen39": {
+    "upper_surface_levels_cm": [
+      148.05,
+      148.5,
+      150.75,
+      153.0,
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen40": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen41": {
+    "upper_surface_levels_cm": [
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen42": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen43": {
+    "upper_surface_levels_cm": [
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25,
+      175.5,
+      177.75
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen44": {
+    "upper_surface_levels_cm": [
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen45": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen46": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen47": {
+    "upper_surface_levels_cm": [
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen48": {
+    "upper_surface_levels_cm": [
+      153.0,
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen49": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen50": {
+    "upper_surface_levels_cm": [
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen51": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen52": {
+    "upper_surface_levels_cm": [
+      159.75,
+      166.5,
+      168.75,
+      171.0,
+      173.25,
+      175.5
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen53": {
+    "upper_surface_levels_cm": [
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen54": {
+    "upper_surface_levels_cm": [
+      153.0,
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen55": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen56": {
+    "upper_surface_levels_cm": [
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen57": {
+    "upper_surface_levels_cm": [
+      157.5,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen58": {
+    "upper_surface_levels_cm": [
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25,
+      175.5
+    ],
+    "volumetric_top": true
+  },
+  "SK_Citizen59": {
+    "upper_surface_levels_cm": [
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Cashier": {
+    "upper_surface_levels_cm": [
+      150.75,
+      153.0,
+      157.5,
+      159.75,
+      162.0,
+      164.25,
+      166.5,
+      168.75
+    ],
+    "volumetric_top": true
+  },
+  "SK_Chef": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      162.0,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_CustomerNeighbor": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      162.0,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_CustomerOffice": {
+    "upper_surface_levels_cm": [
+      157.5,
+      162.0,
+      171.0,
+      173.25,
+      175.5
+    ],
+    "volumetric_top": true
+  },
+  "SK_CustomerStudent": {
+    "upper_surface_levels_cm": [
+      164.25,
+      168.75,
+      171.0,
+      173.25,
+      175.5,
+      177.75,
+      180.0,
+      182.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Florist": {
+    "upper_surface_levels_cm": [
+      155.25,
+      157.5,
+      162.0,
+      164.25,
+      166.5,
+      168.75,
+      171.0,
+      173.25
+    ],
+    "volumetric_top": true
+  },
+  "SK_Pharmacist": {
+    "upper_surface_levels_cm": [
+      157.5,
+      162.0,
+      171.0,
+      173.25,
+      175.5
+    ],
+    "volumetric_top": true
+  },
+  "SK_TechClerk": {
+    "upper_surface_levels_cm": [
+      164.25,
+      168.75,
+      171.0,
+      173.25,
+      175.5,
+      177.75,
+      180.0,
+      182.25
+    ],
+    "volumetric_top": true
+  },
+  "VoxelExplorer_GameRig": {
+    "upper_surface_levels_cm": [
+      171.0,
+      173.25,
+      175.5,
+      177.75,
+      180.0
+    ],
+    "volumetric_top": true
+  },
+  "status": "PASS"
+}

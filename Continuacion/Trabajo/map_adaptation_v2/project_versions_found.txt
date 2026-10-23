@@ -1,0 +1,6 @@
+C:\Users\CRISTIAN\Documents\Codex\2026-09-12\ho\isolated_repair\ModulelessRuntime\BogotaVoxel.uproject
+C:\Users\CRISTIAN\OneDrive\Desktop\BogotaVoxel_JuegoCompleto\BlueprintAuthoring\BogotaVoxel.uproject
+C:\Users\CRISTIAN\Documents\Codex\2026-09-12\ho\isolated_repair\BlueprintAuthoring\BogotaVoxel.uproject
+C:\Users\CRISTIAN\OneDrive\Desktop\BogotaVoxel_JuegoCompleto\Recuperacion_Migracion_Blueprints\2026-10-19_native_retirement\BogotaVoxel.uproject
+C:\Users\CRISTIAN\OneDrive\Desktop\BogotaVoxel_JuegoCompleto\work\BlueprintOnlyProbe\BlueprintOnlyProbe.uproject
+C:\Users\CRISTIAN\OneDrive\Desktop\BogotaVoxel_JuegoCompleto\RappiJuego1\BogotaVoxel.uproject

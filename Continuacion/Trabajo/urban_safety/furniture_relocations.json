@@ -1,0 +1,542 @@
+[
+  {
+    "component": "UrbanPart0",
+    "index": 0,
+    "old": [
+      13201.945409226917,
+      5971.961504298687,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "yaw": 37.94757080078125,
+    "hx": 23,
+    "hy": 23,
+    "new": [
+      12391.633661299908,
+      5271.197188022483,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart0",
+    "index": 1,
+    "old": [
+      8892.305902128779,
+      4981.87737467522,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "yaw": -121.37564086914062,
+    "hx": 23,
+    "hy": 23,
+    "new": [
+      9470.922581785228,
+      5587.853402265223,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart0",
+    "index": 3,
+    "old": [
+      8625.852162757781,
+      -60.69218078902031,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "yaw": 30.306869506835938,
+    "hx": 23,
+    "hy": 23,
+    "new": [
+      7940.675478389936,
+      -234.83559052463315,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart0",
+    "index": 6,
+    "old": [
+      -536.9216455628015,
+      -6662.75113943346,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "yaw": 0.33922168612480164,
+    "hx": 23,
+    "hy": 23,
+    "new": [
+      144.6619124887119,
+      -6378.310935305271,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart0",
+    "index": 7,
+    "old": [
+      -5319.626051699233,
+      -4428.509194983634,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "yaw": -128.5891571044922,
+    "hx": 23,
+    "hy": 23,
+    "new": [
+      -5792.782028768449,
+      -4868.778781157118,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart0",
+    "index": 8,
+    "old": [
+      -2785.58711358397,
+      -6450.620596276131,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "yaw": 51.41084671020508,
+    "hx": 23,
+    "hy": 23,
+    "new": [
+      -3254.7734194151917,
+      -7022.9048765185535,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart0",
+    "index": 13,
+    "old": [
+      -14350.653980658379,
+      -13318.821908881313,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "yaw": 166.5919189453125,
+    "hx": 23,
+    "hy": 23,
+    "new": [
+      -14186.94185916221,
+      -13435.302388034757,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart0",
+    "index": 23,
+    "old": [
+      -21082.900743336988,
+      5800.812156470588,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "yaw": 64.86752319335938,
+    "hx": 23,
+    "hy": 23,
+    "new": [
+      -21027.43513179517,
+      5944.741372908492,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart0",
+    "index": 31,
+    "old": [
+      -8707.922755645943,
+      14948.225605142965,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "yaw": -166.3697509765625,
+    "hx": 23,
+    "hy": 23,
+    "new": [
+      -8117.430324552906,
+      14899.013429099352,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart0",
+    "index": 35,
+    "old": [
+      10307.288228908863,
+      3234.376666612954,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "yaw": 106.85486602783203,
+    "hx": 23,
+    "hy": 23,
+    "new": [
+      10914.385072398898,
+      2727.0214662077274,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart0",
+    "index": 50,
+    "old": [
+      -519.5359445932706,
+      -9770.615418014333,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "yaw": -46.20050048828125,
+    "hx": 23,
+    "hy": 23,
+    "new": [
+      -516.3093080733198,
+      -9773.169098571221,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart0",
+    "index": 51,
+    "old": [
+      -1105.7672724177728,
+      -4963.44201324923,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "yaw": 140.54067993164062,
+    "hx": 23,
+    "hy": 23,
+    "new": [
+      -1144.8818477428304,
+      -3676.4917538475984,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart0",
+    "index": 57,
+    "old": [
+      -7990.710484783297,
+      13897.415375169321,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "yaw": 80.84439086914062,
+    "hx": 23,
+    "hy": 23,
+    "new": [
+      -8095.867777359759,
+      14781.962135263466,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart0",
+    "index": 58,
+    "old": [
+      -11175.997889240141,
+      14410.787749830679,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "yaw": -99.15560913085938,
+    "hx": 23,
+    "hy": 23,
+    "new": [
+      -11176.175030562395,
+      14434.739393696562,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart0",
+    "index": 75,
+    "old": [
+      11415.463254143377,
+      7051.929692927365,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "yaw": -84.1085205078125,
+    "hx": 23,
+    "hy": 23,
+    "new": [
+      10734.24657722811,
+      7614.840995891846,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart2",
+    "index": 0,
+    "old": [
+      12972.607513615558,
+      5615.5851167018745,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Banca.SM_Bogota_Banca",
+    "yaw": 37.94757080078125,
+    "hx": 100,
+    "hy": 32,
+    "new": [
+      12378.69270904478,
+      5119.493479336937,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart2",
+    "index": 1,
+    "old": [
+      -5678.5481052901705,
+      -4653.8421917818505,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Banca.SM_Bogota_Banca",
+    "yaw": -128.5891571044922,
+    "hx": 100,
+    "hy": 32,
+    "new": [
+      -5936.036783007508,
+      -4854.5209936756955,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart2",
+    "index": 2,
+    "old": [
+      -2925.650369055949,
+      -6850.598451246367,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Banca.SM_Bogota_Banca",
+    "yaw": 51.41084671020508,
+    "hx": 100,
+    "hy": 32,
+    "new": [
+      -3142.6278975772557,
+      -7214.918375586273,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart2",
+    "index": 16,
+    "old": [
+      -897.4379403608448,
+      -9578.808010454342,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Banca.SM_Bogota_Banca",
+    "yaw": -46.20050048828125,
+    "hx": 100,
+    "hy": 32,
+    "new": [
+      -328.9326692422279,
+      -9700.053740228272,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart2",
+    "index": 20,
+    "old": [
+      11317.260529620948,
+      6639.672218893998,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Banca.SM_Bogota_Banca",
+    "yaw": -84.1085205078125,
+    "hx": 100,
+    "hy": 32,
+    "new": [
+      10361.4576028695,
+      7195.876217212836,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart3",
+    "index": 0,
+    "old": [
+      13487.71275735988,
+      6093.357644027487,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Caneca.SM_Bogota_Caneca",
+    "yaw": -142.05242919921875,
+    "hx": 30,
+    "hy": 30,
+    "new": [
+      14645.122258461352,
+      6724.195678283993,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart3",
+    "index": 1,
+    "old": [
+      8925.223169310451,
+      21.63035826099349,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Caneca.SM_Bogota_Caneca",
+    "yaw": -149.69313049316406,
+    "hx": 30,
+    "hy": 30,
+    "new": [
+      7940.544971090144,
+      -334.11529003387363,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart3",
+    "index": 3,
+    "old": [
+      -5195.037645977484,
+      -4144.119094664174,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Caneca.SM_Bogota_Caneca",
+    "yaw": 51.41084671020508,
+    "hx": 30,
+    "hy": 30,
+    "new": [
+      -5725.624419190397,
+      -4941.842248765034,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart3",
+    "index": 4,
+    "old": [
+      -2535.9365375085317,
+      -6266.027557769253,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Caneca.SM_Bogota_Caneca",
+    "yaw": -128.5891571044922,
+    "hx": 30,
+    "hy": 30,
+    "new": [
+      -3161.132765703685,
+      -7106.060420207067,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart3",
+    "index": 11,
+    "old": [
+      -21137.88831762739,
+      5495.23668842111,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Caneca.SM_Bogota_Caneca",
+    "yaw": -115.13247680664062,
+    "hx": 30,
+    "hy": 30,
+    "new": [
+      -20899.046372101362,
+      5853.95354115222,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart3",
+    "index": 12,
+    "old": [
+      -19371.68087292042,
+      10778.724494208576,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Caneca.SM_Bogota_Caneca",
+    "yaw": -166.3513641357422,
+    "hx": 30,
+    "hy": 30,
+    "new": [
+      -19309.43725310072,
+      10806.617511191704,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart3",
+    "index": 20,
+    "old": [
+      -823.302022589711,
+      -5092.334924767166,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Caneca.SM_Bogota_Caneca",
+    "yaw": -39.459320068359375,
+    "hx": 30,
+    "hy": 30,
+    "new": [
+      -865.7461461716496,
+      -3666.1907802907403,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart3",
+    "index": 22,
+    "old": [
+      -7959.464662299418,
+      13588.50810983342,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Caneca.SM_Bogota_Caneca",
+    "yaw": -99.15560913085938,
+    "hx": 30,
+    "hy": 30,
+    "new": [
+      -7950.9789034164,
+      14820.784992028843,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart3",
+    "index": 23,
+    "old": [
+      -11302.713635884033,
+      14127.339130937446,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Caneca.SM_Bogota_Caneca",
+    "yaw": 80.84437561035156,
+    "hx": 30,
+    "hy": 30,
+    "new": [
+      -11256.683766943215,
+      14446.727731047811,
+      20
+    ]
+  },
+  {
+    "component": "UrbanPart3",
+    "index": 30,
+    "old": [
+      11305.092448740097,
+      7342.133561465727,
+      0.0
+    ],
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Caneca.SM_Bogota_Caneca",
+    "yaw": 95.89147186279297,
+    "hx": 30,
+    "hy": 30,
+    "new": [
+      10793.454269457341,
+      7707.251211313825,
+      20
+    ]
+  }
+]

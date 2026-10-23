@@ -1,0 +1,695 @@
+{
+  "status": "IN_PROGRESS",
+  "native_bases_remaining": [
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "parent": "/Script/BogotaVoxel.DeliveryComponent"
+    },
+    {
+      "asset": "/Game/Delivery/Orders/BP_DeliveryBuilding.BP_DeliveryBuilding",
+      "parent": "/Script/BogotaVoxel.DeliveryPoint"
+    },
+    {
+      "asset": "/Game/Delivery/Orders/BP_VoxelCustomer.BP_VoxelCustomer",
+      "parent": "/Script/BogotaVoxel.DeliveryRecipient"
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "parent": "/Script/BogotaVoxel.DeliveryPhoneWidget"
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_DeliveryRider.BP_DeliveryRider",
+      "parent": "/Script/BogotaVoxel.BogotaPlayer"
+    },
+    {
+      "asset": "/Game/World/BP_BogotaCity.BP_BogotaCity",
+      "parent": "/Script/BogotaVoxel.BogotaCity"
+    }
+  ],
+  "direct_native_dependencies": [
+    {
+      "asset": "/Game/Delivery/Animation/BP_RiderAnimationCoordinator",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BP_DeliveryGameMode",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Data/DT_StoreThemes",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Data/DT_Upgrades",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Data/DT_Vehicles",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Developer/BP_DeveloperVehicleDoors",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Orders/BP_DeliveryBuilding",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Orders/BP_VoxelCustomer",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_AnimatedVehicleInput",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_DeliveryRider",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_RiderMotionCoordinator",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_RiderWorldSafety",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_VehicleInteractionTransition",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    },
+    {
+      "asset": "/Game/World/BP_BogotaCity",
+      "dependencies": [
+        "/Script/BogotaVoxel"
+      ]
+    }
+  ],
+  "custom_native_calls": [
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "SelectOffer",
+      "calls": [
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "IgnoreOffer",
+      "calls": [
+        "FindOffer",
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "CollectOrder",
+      "calls": [
+        "IsAtTarget",
+        "SpawnOrderRecipient",
+        "RemovePickupMarker",
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "ClearWaypoint",
+      "calls": [
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "RebuildStats",
+      "calls": [
+        "GetUpgradeSpec",
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "PurchaseUpgrade",
+      "calls": [
+        "GetUpgradeSpec",
+        "Changed",
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "AdvanceHeldAction",
+      "calls": [
+        "GetSelectedOffer",
+        "IsAtTarget"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "StoreFocusedOrder",
+      "calls": [
+        "FindActiveOrderIndex"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "SelectActiveOrder",
+      "calls": [
+        "DestroyMarkers",
+        "RestoreOrderMarkers",
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "CompleteOrder",
+      "calls": [
+        "IsAtTarget",
+        "FindActiveOrderIndex",
+        "DestroyMarkers",
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "AcceptOffer",
+      "calls": [
+        "FindOffer",
+        "GetRider",
+        "PlaceDeliveryVehicle",
+        "DestroyMarkers",
+        "RestoreOrderMarkers",
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "CullExpiredOffers",
+      "calls": [
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "SwitchVehicle",
+      "calls": [
+        "GetRider",
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "SetWaypoint",
+      "calls": [
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "ShopCollect",
+      "calls": [
+        "GetRider",
+        "OrderStore",
+        "IsRiding",
+        "ItemCount",
+        "ProductPosition",
+        "HideStoreProduct",
+        "ShoppingInstruction",
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "ShopReady",
+      "calls": [
+        "ShopReady",
+        "GetRider",
+        "OrderStore",
+        "IsRiding",
+        "ItemCount",
+        "CheckoutPosition"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "SaveProfile",
+      "calls": [
+        "ProfileSlot"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "LoadProfile",
+      "calls": [
+        "ProfileSlot",
+        "GetUpgradeSpec"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "BuyVehicle",
+      "calls": [
+        "GetVehicleSpec",
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "EquipVehicle",
+      "calls": [
+        "GetVehicleSpec",
+        "GetRider",
+        "GetModelColor",
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "PaintVehicle",
+      "calls": [
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "TogglePhone",
+      "calls": [
+        "GetRider",
+        "StopForPhone",
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "BeginAction",
+      "calls": [
+        "GetSelectedOffer",
+        "IsAtTarget",
+        "ReceiveDelivery",
+        "StoreDoorAction"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "EnterIdle",
+      "calls": [
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "GenerateOffer",
+      "calls": [
+        "GetAvailableResidentialRoutes",
+        "RouteAlreadyOffered",
+        "Changed"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Core/BPC_DeliveryGameplay.BPC_DeliveryGameplay",
+      "graph": "DeveloperKey",
+      "calls": [
+        "GetRider",
+        "ToggleDeveloperMode",
+        "BogRain",
+        "BogRain",
+        "BogRain",
+        "BogRain",
+        "BogRain",
+        "SpawnPurpleBus",
+        "SpawnPurpleBus",
+        "BogCar"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Orders/BP_VoxelCustomer.BP_VoxelCustomer",
+      "graph": "CanDeliver",
+      "calls": [
+        "IsAtTarget"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Orders/BP_VoxelCustomer.BP_VoxelCustomer",
+      "graph": "ReceiveDelivery",
+      "calls": [
+        "CanDeliver",
+        "CompleteOrder"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "OpenHome",
+      "calls": [
+        "BuildPage"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "OpenMap",
+      "calls": [
+        "BuildPage"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "OpenOrders",
+      "calls": [
+        "BuildPage"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "OpenShop",
+      "calls": [
+        "BuildPage"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "OpenCatalog",
+      "calls": [
+        "BuildPage"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "OpenActiveOrders",
+      "calls": [
+        "BuildPage"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "OpenCargo",
+      "calls": [
+        "BuildPage"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "AcceptPressed",
+      "calls": [
+        "BeginAction"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "AcceptReleased",
+      "calls": [
+        "EndAction"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "IgnorePressed",
+      "calls": [
+        "IgnoreOffer"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "ClearPoint",
+      "calls": [
+        "ClearWaypoint"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "ClosePressed",
+      "calls": [
+        "TogglePhone"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "NextColor",
+      "calls": [
+        "RefreshText"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "GarageBike",
+      "calls": [
+        "BuildPage"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "GarageMoto",
+      "calls": [
+        "BuildPage"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "BuySelected",
+      "calls": [
+        "RefreshText",
+        "PurchaseUpgrade"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "BuyModel",
+      "calls": [
+        "RefreshText",
+        "BuyVehicle"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "EquipModel",
+      "calls": [
+        "RefreshText",
+        "EquipVehicle"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "PaintSelected",
+      "calls": [
+        "RefreshText",
+        "PaintVehicle"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "SwitchPressed",
+      "calls": [
+        "RefreshText",
+        "EquipVehicle"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/UI/WBP_VoxelPhone.WBP_VoxelPhone",
+      "graph": "SelectEntry",
+      "calls": [
+        "RefreshText",
+        "SelectOffer",
+        "SelectActiveOrder"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_DeliveryRider.BP_DeliveryRider",
+      "graph": "ActionReleased",
+      "calls": [
+        "EndAction"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_DeliveryRider.BP_DeliveryRider",
+      "graph": "PickupReleased",
+      "calls": [
+        "EndAction"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_DeliveryRider.BP_DeliveryRider",
+      "graph": "PickupPressed",
+      "calls": [
+        "BeginAction"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_DeliveryRider.BP_DeliveryRider",
+      "graph": "PhonePressed",
+      "calls": [
+        "TogglePhone"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_DeliveryRider.BP_DeliveryRider",
+      "graph": "VehiclePressed",
+      "calls": [
+        "SwitchVehicle"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_DeliveryRider.BP_DeliveryRider",
+      "graph": "KeyboardActionPressed",
+      "calls": [
+        "BeginAction",
+        "StoreDoorAction"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_DeliveryRider.BP_DeliveryRider",
+      "graph": "SkipTime",
+      "calls": [
+        "AdvanceTime"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_DeliveryRider.BP_DeliveryRider",
+      "graph": "TogglePause",
+      "calls": [
+        "EndAction"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_DeliveryRider.BP_DeliveryRider",
+      "graph": "ToggleQuality",
+      "calls": [
+        "SetDetail"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_DeliveryRider.BP_DeliveryRider",
+      "graph": "ActionPressed",
+      "calls": [
+        "BeginAction"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_DeliveryRider.BP_DeliveryRider",
+      "graph": "SteeringAngle",
+      "calls": [
+        "SteeringAngle"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_DeliveryRider.BP_DeliveryRider",
+      "graph": "DeveloperDriveInput",
+      "calls": [
+        "DeveloperDriveInput"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_VehicleInteractionTransition.BP_VehicleInteractionTransition",
+      "graph": "ReceiveBeginPlay",
+      "calls": [
+        "StopForPhone",
+        "Interact"
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/Vehicles/BP_VehicleInteractionTransition.BP_VehicleInteractionTransition",
+      "graph": "ReceiveTick",
+      "calls": [
+        "StopForPhone"
+      ]
+    },
+    {
+      "asset": "/Game/World/BP_BogotaCity.BP_BogotaCity",
+      "graph": "AdvanceTime",
+      "calls": [
+        "RefreshWorldLighting"
+      ]
+    },
+    {
+      "asset": "/Game/World/BP_BogotaCity.BP_BogotaCity",
+      "graph": "TrafficPaintFor",
+      "calls": [
+        "TrafficPaintFor"
+      ]
+    },
+    {
+      "asset": "/Game/World/BP_BogotaCity.BP_BogotaCity",
+      "graph": "TrafficNSGreen",
+      "calls": [
+        "TrafficNSGreen"
+      ]
+    },
+    {
+      "asset": "/Game/World/BP_BogotaCity.BP_BogotaCity",
+      "graph": "TrafficEWGreen",
+      "calls": [
+        "TrafficEWGreen"
+      ]
+    },
+    {
+      "asset": "/Game/World/BP_BogotaCity.BP_BogotaCity",
+      "graph": "HourForCycle",
+      "calls": [
+        "HourForCycle"
+      ]
+    },
+    {
+      "asset": "/Game/World/BP_BogotaCity.BP_BogotaCity",
+      "graph": "DistrictAt",
+      "calls": [
+        "DistrictAt"
+      ]
+    },
+    {
+      "asset": "/Game/World/BP_BogotaCity.BP_BogotaCity",
+      "graph": "NextWeatherState",
+      "calls": [
+        "NextWeatherState"
+      ]
+    },
+    {
+      "asset": "/Game/World/BP_BogotaCity.BP_BogotaCity",
+      "graph": "WeatherStateForIntensity",
+      "calls": [
+        "WeatherStateForIntensity"
+      ]
+    },
+    {
+      "asset": "/Game/World/BP_BogotaCity.BP_BogotaCity",
+      "graph": "WeatherIntensityForState",
+      "calls": [
+        "WeatherIntensityForState"
+      ]
+    }
+  ]
+}

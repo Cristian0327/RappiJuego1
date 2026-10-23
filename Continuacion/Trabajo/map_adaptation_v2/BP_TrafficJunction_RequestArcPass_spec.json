@@ -1,0 +1,481 @@
+{
+  "nodes": [
+    {
+      "id": "Owners",
+      "kind": "get",
+      "var": "Owners"
+    },
+    {
+      "id": "Compatible",
+      "kind": "get",
+      "var": "Compatible"
+    },
+    {
+      "id": "Owned",
+      "kind": "call",
+      "fn": "Array_Contains",
+      "owner": "/Script/Engine.KismetArrayLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "AlreadyAdmitted",
+      "kind": "branch"
+    },
+    {
+      "id": "Free",
+      "kind": "return",
+      "defaults": {
+        "ReturnValue": "100000000"
+      }
+    },
+    {
+      "id": "Reset",
+      "kind": "set",
+      "var": "Compatible",
+      "defaults": {
+        "Compatible": "true"
+      }
+    },
+    {
+      "id": "EachOwner",
+      "kind": "foreach"
+    },
+    {
+      "id": "OwnerMovement",
+      "kind": "getfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "ArcMovement"
+    },
+    {
+      "id": "CompatiblePath",
+      "kind": "call",
+      "fn": "ArcCompatibleMovements",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficJunction.BP_TrafficJunction_C",
+      "defaults": {}
+    },
+    {
+      "id": "NotCompatible",
+      "kind": "call",
+      "fn": "Not_PreBool",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Conflict",
+      "kind": "branch"
+    },
+    {
+      "id": "DenyConflict",
+      "kind": "set",
+      "var": "Compatible",
+      "defaults": {
+        "Compatible": "false"
+      }
+    },
+    {
+      "id": "AtLine",
+      "kind": "call",
+      "fn": "LessEqual_DoubleDouble",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "25"
+      }
+    },
+    {
+      "id": "PhaseClear",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "PathsClear",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "CanAdmit",
+      "kind": "call",
+      "fn": "BooleanAND",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Admit",
+      "kind": "branch"
+    },
+    {
+      "id": "RememberArcJunctionRef",
+      "kind": "setfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "ArcJunctionRef"
+    },
+    {
+      "id": "RememberArcEntry",
+      "kind": "setfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "ArcEntry"
+    },
+    {
+      "id": "RememberArcExit",
+      "kind": "setfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "ArcExit"
+    },
+    {
+      "id": "RememberArcLength",
+      "kind": "setfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "ArcLength"
+    },
+    {
+      "id": "RememberArcMovement",
+      "kind": "setfield",
+      "owner": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C",
+      "var": "ArcMovement"
+    },
+    {
+      "id": "KeepOwner",
+      "kind": "call",
+      "fn": "Array_AddUnique",
+      "owner": "/Script/Engine.KismetArrayLibrary",
+      "defaults": {}
+    },
+    {
+      "id": "Stop",
+      "kind": "call",
+      "fn": "FMax",
+      "owner": "/Script/Engine.KismetMathLibrary",
+      "defaults": {
+        "B": "0"
+      }
+    }
+  ],
+  "links": [
+    [
+      "Owners",
+      "Owners",
+      "Owned",
+      "TargetArray"
+    ],
+    [
+      "entry",
+      "Visitor",
+      "Owned",
+      "ItemToFind"
+    ],
+    [
+      "Owned",
+      "ReturnValue",
+      "AlreadyAdmitted",
+      "Condition"
+    ],
+    [
+      "entry",
+      "then",
+      "AlreadyAdmitted",
+      "execute"
+    ],
+    [
+      "AlreadyAdmitted",
+      "then",
+      "Free",
+      "execute"
+    ],
+    [
+      "AlreadyAdmitted",
+      "else",
+      "Reset",
+      "execute"
+    ],
+    [
+      "Owners",
+      "Owners",
+      "EachOwner",
+      "Array"
+    ],
+    [
+      "Reset",
+      "then",
+      "EachOwner",
+      "Exec"
+    ],
+    [
+      "EachOwner",
+      "Array Element",
+      "OwnerMovement",
+      "self"
+    ],
+    [
+      "OwnerMovement",
+      "ArcMovement",
+      "CompatiblePath",
+      "First"
+    ],
+    [
+      "entry",
+      "Movement",
+      "CompatiblePath",
+      "Second"
+    ],
+    [
+      "CompatiblePath",
+      "ReturnValue",
+      "NotCompatible",
+      "A"
+    ],
+    [
+      "NotCompatible",
+      "ReturnValue",
+      "Conflict",
+      "Condition"
+    ],
+    [
+      "EachOwner",
+      "LoopBody",
+      "Conflict",
+      "execute"
+    ],
+    [
+      "Conflict",
+      "then",
+      "DenyConflict",
+      "execute"
+    ],
+    [
+      "entry",
+      "StopAhead",
+      "AtLine",
+      "A"
+    ],
+    [
+      "entry",
+      "Green",
+      "PhaseClear",
+      "A"
+    ],
+    [
+      "entry",
+      "ExitClear",
+      "PhaseClear",
+      "B"
+    ],
+    [
+      "Compatible",
+      "Compatible",
+      "PathsClear",
+      "A"
+    ],
+    [
+      "AtLine",
+      "ReturnValue",
+      "PathsClear",
+      "B"
+    ],
+    [
+      "PhaseClear",
+      "ReturnValue",
+      "CanAdmit",
+      "A"
+    ],
+    [
+      "PathsClear",
+      "ReturnValue",
+      "CanAdmit",
+      "B"
+    ],
+    [
+      "CanAdmit",
+      "ReturnValue",
+      "Admit",
+      "Condition"
+    ],
+    [
+      "EachOwner",
+      "Completed",
+      "Admit",
+      "execute"
+    ],
+    [
+      "entry",
+      "Visitor",
+      "RememberArcJunctionRef",
+      "self"
+    ],
+    [
+      "entry",
+      "Junction",
+      "RememberArcJunctionRef",
+      "ArcJunctionRef"
+    ],
+    [
+      "Admit",
+      "then",
+      "RememberArcJunctionRef",
+      "execute"
+    ],
+    [
+      "entry",
+      "Visitor",
+      "RememberArcEntry",
+      "self"
+    ],
+    [
+      "entry",
+      "EntryDistance",
+      "RememberArcEntry",
+      "ArcEntry"
+    ],
+    [
+      "RememberArcJunctionRef",
+      "then",
+      "RememberArcEntry",
+      "execute"
+    ],
+    [
+      "entry",
+      "Visitor",
+      "RememberArcExit",
+      "self"
+    ],
+    [
+      "entry",
+      "ExitDistance",
+      "RememberArcExit",
+      "ArcExit"
+    ],
+    [
+      "RememberArcEntry",
+      "then",
+      "RememberArcExit",
+      "execute"
+    ],
+    [
+      "entry",
+      "Visitor",
+      "RememberArcLength",
+      "self"
+    ],
+    [
+      "entry",
+      "RouteLength",
+      "RememberArcLength",
+      "ArcLength"
+    ],
+    [
+      "RememberArcExit",
+      "then",
+      "RememberArcLength",
+      "execute"
+    ],
+    [
+      "entry",
+      "Visitor",
+      "RememberArcMovement",
+      "self"
+    ],
+    [
+      "entry",
+      "Movement",
+      "RememberArcMovement",
+      "ArcMovement"
+    ],
+    [
+      "RememberArcLength",
+      "then",
+      "RememberArcMovement",
+      "execute"
+    ],
+    [
+      "Owners",
+      "Owners",
+      "KeepOwner",
+      "TargetArray"
+    ],
+    [
+      "entry",
+      "Visitor",
+      "KeepOwner",
+      "NewItem"
+    ],
+    [
+      "RememberArcMovement",
+      "then",
+      "KeepOwner",
+      "execute"
+    ],
+    [
+      "KeepOwner",
+      "then",
+      "Free",
+      "execute"
+    ],
+    [
+      "entry",
+      "StopAhead",
+      "Stop",
+      "A"
+    ],
+    [
+      "Stop",
+      "ReturnValue",
+      "result",
+      "ReturnValue"
+    ],
+    [
+      "Admit",
+      "else",
+      "result",
+      "execute"
+    ]
+  ],
+  "parameters": [
+    {
+      "name": "Visitor",
+      "category": "object",
+      "object": "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle.BP_TrafficVehicle_C"
+    },
+    {
+      "name": "Junction",
+      "category": "object",
+      "object": "/Game/World/BlueprintWorld/Traffic/BP_TrafficJunction.BP_TrafficJunction_C"
+    },
+    {
+      "name": "StopAhead",
+      "category": "real"
+    },
+    {
+      "name": "EntryDistance",
+      "category": "real"
+    },
+    {
+      "name": "ExitDistance",
+      "category": "real"
+    },
+    {
+      "name": "RouteLength",
+      "category": "real"
+    },
+    {
+      "name": "Movement",
+      "category": "int"
+    },
+    {
+      "name": "Green",
+      "category": "bool"
+    },
+    {
+      "name": "ExitClear",
+      "category": "bool"
+    },
+    {
+      "name": "ReturnValue",
+      "category": "real",
+      "out": true
+    }
+  ],
+  "pure": false,
+  "const": false
+}

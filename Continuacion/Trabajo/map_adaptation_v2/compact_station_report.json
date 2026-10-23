@@ -1,0 +1,7 @@
+{
+  "actor": "BP_BogotaTransmiStation_C_2",
+  "id": 2,
+  "shell_bounds": "<Struct 'BoxSphereBounds' (0x000002903E51C500) {origin: {x: 0.000000, y: 0.000000, z: 209.999985}, box_extent: {x: 1212.500000, y: 180.750015, z: 209.999985}, sphere_radius: 1234.007278}>",
+  "doors_unchanged": true,
+  "queue_unchanged": true
+}

@@ -1,0 +1,45 @@
+{
+  "checks": {
+    "BP_BlueprintRider_runtime_only_blueprints": true,
+    "WBP_BlueprintPhone_runtime_only_blueprints": true,
+    "WBP_NavigationOverlay_runtime_only_blueprints": true,
+    "BP_MapNavigation_runtime_only_blueprints": true,
+    "BP_RoadNavigation_runtime_only_blueprints": true,
+    "BP_TrafficVehicle_runtime_only_blueprints": true,
+    "patrol_nose_matches_travel_axis": true,
+    "map_click_inverse_matches_paint": true,
+    "road_network_table_complete": true
+  },
+  "details": {
+    "patrol_front_minus_rear_projection_cm": 303.99999618530273,
+    "patrol_visual_yaw": 0.0,
+    "map_inverse_error_cm": 0.0,
+    "road_nodes": 784
+  },
+  "assets": {
+    "/Game/Delivery/BlueprintGameplay/Player/BP_BlueprintRider": {
+      "graphs": 46,
+      "project_native_calls": []
+    },
+    "/Game/Delivery/BlueprintGameplay/UI/WBP_BlueprintPhone": {
+      "graphs": 57,
+      "project_native_calls": []
+    },
+    "/Game/Delivery/BlueprintGameplay/UI/WBP_NavigationOverlay": {
+      "graphs": 2,
+      "project_native_calls": []
+    },
+    "/Game/World/BogotaUrban/BP_MapNavigation": {
+      "graphs": 3,
+      "project_native_calls": []
+    },
+    "/Game/World/BogotaUrban/BP_RoadNavigation": {
+      "graphs": 4,
+      "project_native_calls": []
+    },
+    "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle": {
+      "graphs": 29,
+      "project_native_calls": []
+    }
+  }
+}

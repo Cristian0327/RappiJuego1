@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-20",
+  "status": "FUNCTIONAL_PASS_PERFORMANCE_TARGET_NOT_MET",
+  "vm_checks": 14,
+  "runtime_checks": 30,
+  "runtime_failures": [],
+  "dismount": "Both sides use a .85s smoothstep transition across its whole duration; entry stays .68s",
+  "animation": "Hero pose updates every frame without update-rate skipping",
+  "camera": "Post-physics boom, road movement prerequisite, 650cm arm and170cm height",
+  "taxi": "20s hail timeout plus12s idle cooldown; approaching taxi progresses before braking near pickup;20s pickup recovery",
+  "road_motorcycles": "4 road riders constrained by lane-direction guard, zero curb step and no RVO sidewalk push;4 checks passed including rider orientation; no teleport",
+  "parked_bike": "Pawn-channel query body enabled only when parked; actual traffic detection/release passed",
+  "stations": "16 waiting slots spaced160cm; one doorway owner per bus; original collision restored after proxy; no reboarding same bus",
+  "rendering": "FXAA,60FPS adaptive GPU target,70-100percent primary resolution; original translucency and postprocess quality retained; full-resolution UI",
+  "profiling_windowed_1080p": {
+    "map": "/Game/Maps/Bogota_Blueprint_Integration",
+    "sample_frames": 600,
+    "FrameTime": 21.8937,
+    "FrameTime_p95": 42.0899,
+    "GameThreadTime": 20.3189,
+    "GPUTime": 4.633,
+    "DynamicResolutionPercentage": 100,
+    "average_fps_equivalent": 45.68,
+    "F1_25_running": false,
+    "valid_as_project_only_benchmark": true,
+    "remaining_bottleneck": "CPU actor ticks; Exclusive/GameThread/TickActors mean10.60ms; CharacterMovement2.82ms",
+    "csv": "work/RequestedFixesIsolated6/Saved/Profiling/CSV/Profile(20261020_133406).csv"
+  },
+  "fps_scope": "Measured local city at1920x1080 after F1 closure;60FPS stable target not met. No guarantee for arbitrary hardware.",
+  "runtime_cpp_added": false,
+  "github_changed": false,
+  "evidence": [
+    "work/vehicle_usability_vm.json",
+    "work/VehicleUsabilityFinalWindowed.log",
+    "work\\RequestedFixesIsolated6\\Saved\\Profiling\\CSV\\Profile(20261020_124239).csv",
+    "work/motorcycle_road_guard_validation.json",
+    "work/CityUncontended.log"
+  ],
+  "profiling_contaminated_by_external_game": {
+    "process": "F1_25.exe",
+    "pid": 37388,
+    "external_gpu_utilization_percent": 58,
+    "measured_with_unreal_closed": true
+  },
+  "functional_checks_total": 44
+}

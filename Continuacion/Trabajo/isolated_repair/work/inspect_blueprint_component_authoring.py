@@ -1,0 +1,3 @@
+import unreal,json
+from pathlib import Path
+r=Path(unreal.Paths.project_dir()).parent;types=[unreal.SubobjectDataSubsystem,unreal.SubobjectDataBlueprintFunctionLibrary,unreal.AddNewSubobjectParams];out={str(t):[x for x in dir(t) if any(k in x for k in ['subobject','object','data','parent','class','blueprint'])] for t in types};out['add_new_subobject_doc']=unreal.SubobjectDataSubsystem.add_new_subobject.__doc__;out['get_object_doc']=unreal.SubobjectDataBlueprintFunctionLibrary.get_object.__doc__;(r/'work/blueprint_component_authoring_api.json').write_text(json.dumps(out,indent=2));unreal.log('BLUEPRINT_COMPONENT_AUTHORING_INSPECT_PASS')

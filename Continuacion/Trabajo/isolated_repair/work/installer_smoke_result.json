@@ -1,0 +1,8 @@
+{
+  "startup": "PASS",
+  "status": "PASS",
+  "filesMatchBuild": true,
+  "uninstallation": "PASS",
+  "installation": "PASS",
+  "prerequisites": "Included with verified Microsoft signatures; skipped during smoke test on configured development PC"
+}

@@ -1,0 +1,990 @@
+[
+  {
+    "name": "BP_DeliveryStore_C_0",
+    "point_id": "Shop_0_0",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 0.0,
+    "built_after": true,
+    "kind": 0,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Milk.SM_Milk",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -16050.0,
+          -18300.0,
+          125.0
+        ],
+        "expected": [
+          -16050.0,
+          -18300.0,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426FB4240) {x: -8.000001, y: -8.500000, z: 0.000000}>, <Struct 'Vector' (0x000001B402312450) {x: 8.000001, y: 9.000000, z: 43.250000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Rice.SM_Rice",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -15100.0,
+          -16900.0,
+          125.0
+        ],
+        "expected": [
+          -15100.0,
+          -16900.0,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426FB4330) {x: -11.476589, y: -7.000001, z: 1.250000}>, <Struct 'Vector' (0x000001B402312450) {x: 11.476589, y: 9.000001, z: 34.250000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Apples.SM_Apples",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -14150.0,
+          -18300.0,
+          125.0
+        ],
+        "expected": [
+          -14150.0,
+          -18300.0,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426FB4240) {x: -18.000002, y: -16.000002, z: 0.000000}>, <Struct 'Vector' (0x000001B402312450) {x: 18.000002, y: 16.000002, z: 21.750000}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_1",
+    "point_id": "Shop_0_1",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 89.99999999999999,
+    "built_after": true,
+    "kind": 0,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Bread.SM_Bread",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -8800.000000000002,
+          -26750.0,
+          125.0
+        ],
+        "expected": [
+          -8800.0,
+          -26750.0,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426FB4330) {x: -17.500000, y: -11.000002, z: 0.550000}>, <Struct 'Vector' (0x000001B402311230) {x: 17.500000, y: 11.000002, z: 21.699999}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Carrots.SM_Carrots",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -10200.000000000002,
+          -27700.0,
+          125.0
+        ],
+        "expected": [
+          -10200.0,
+          -27700.0,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B402312450) {x: -9.950001, y: -2.950001, z: 0.750000}>, <Struct 'Vector' (0x000001B402311230) {x: 9.950001, y: 2.950001, z: 32.000000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Bananas.SM_Bananas",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -8800.000000000002,
+          -28650.0,
+          125.0
+        ],
+        "expected": [
+          -8800.0,
+          -28650.0,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426FB4330) {x: -12.600000, y: -3.700001, z: 2.750000}>, <Struct 'Vector' (0x000001B402311230) {x: 11.300000, y: 5.100001, z: 11.250000}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_2",
+    "point_id": "Shop_0_2",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 45.00000000000003,
+    "built_after": true,
+    "kind": 1,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Burger.SM_Burger",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -31309.60155108391,
+          7229.159992311072,
+          130.0
+        ],
+        "expected": [
+          -31309.601551083913,
+          7164.159992311072,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B402312450) {x: -23.000002, y: -20.000002, z: 0.750000}>, <Struct 'Vector' (0x000001B402312CC0) {x: 23.000002, y: 20.000002, z: 30.350000}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_3",
+    "point_id": "Shop_0_3",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 89.99999999999999,
+    "built_after": true,
+    "kind": 1,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Nuggets.SM_Nuggets",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -14234.999999999998,
+          -21555.000000000004,
+          130.0
+        ],
+        "expected": [
+          -14235.0,
+          -21620.0,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B402311230) {x: -16.000000, y: -12.000001, z: 0.300000}>, <Struct 'Vector' (0x000001B40237C7E0) {x: 16.000000, y: 12.000001, z: 8.400000}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_4",
+    "point_id": "Shop_1_0",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 134.99999999999997,
+    "built_after": true,
+    "kind": 2,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Headphones.SM_Headphones",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -11748.528137423858,
+          -25448.528137423855,
+          125.0
+        ],
+        "expected": [
+          -11748.528137423858,
+          -25448.52813742386,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B402312CC0) {x: -17.749998, y: -6.000001, z: 9.000000}>, <Struct 'Vector' (0x000001B40237CDD0) {x: 17.750000, y: 7.800002, z: 41.000000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Keyboard.SM_Keyboard",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -10157.537879754127,
+          -25201.04076400857,
+          125.0
+        ],
+        "expected": [
+          -10157.537879754127,
+          -25201.04076400857,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B40237C7E0) {x: -24.500002, y: -9.500002, z: 0.050000}>, <Struct 'Vector' (0x000001B40237CDD0) {x: 24.500002, y: 9.500002, z: 8.100000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_PhoneBox.SM_PhoneBox",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -11501.040764008567,
+          -23857.537879754127,
+          125.0
+        ],
+        "expected": [
+          -11501.040764008567,
+          -23857.537879754127,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B402312CC0) {x: -10.250002, y: -18.250002, z: 0.000000}>, <Struct 'Vector' (0x000001B40237CDD0) {x: 10.250002, y: 18.250002, z: 13.249999}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_5",
+    "point_id": "Shop_1_1",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 134.99999999999997,
+    "built_after": true,
+    "kind": 2,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_GPU.SM_GPU",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -17457.537879754123,
+          22398.959235991435,
+          125.0
+        ],
+        "expected": [
+          -17457.537879754123,
+          22398.95923599143,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B40237C7E0) {x: -20.250000, y: -9.550001, z: 2.500000}>, <Struct 'Vector' (0x000001B40237CD80) {x: 20.250000, y: 10.550001, z: 14.250000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_RAM.SM_RAM",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -18801.04076400856,
+          23742.462120245873,
+          125.0
+        ],
+        "expected": [
+          -18801.04076400856,
+          23742.462120245873,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B40237CDD0) {x: -15.200000, y: -3.500001, z: 2.900000}>, <Struct 'Vector' (0x000001B40237CD80) {x: 15.200000, y: 5.050001, z: 7.100000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_CircuitBoard.SM_CircuitBoard",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -19048.528137423855,
+          22151.47186257614,
+          125.0
+        ],
+        "expected": [
+          -19048.528137423855,
+          22151.47186257614,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B40237C7E0) {x: -12.000001, y: -11.150001, z: 1.750000}>, <Struct 'Vector' (0x000001B40237CD80) {x: 12.000001, y: 9.500001, z: 9.099999}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_6",
+    "point_id": "Shop_1_2",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 45.00000000000003,
+    "built_after": true,
+    "kind": 3,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_FirstAid.SM_FirstAid",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -33001.04076400856,
+          2657.5378797541225,
+          125.0
+        ],
+        "expected": [
+          -33001.04076400856,
+          2657.5378797541225,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B40237CDD0) {x: -18.250000, y: -10.000002, z: 0.050000}>, <Struct 'Vector' (0x000001B40237CD30) {x: 18.250002, y: 11.650001, z: 35.750000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Medicine.SM_Medicine",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -33248.528137423855,
+          4248.528137423855,
+          125.0
+        ],
+        "expected": [
+          -33248.528137423855,
+          4248.528137423855,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B40237CD80) {x: -13.750001, y: -6.200001, z: 0.000000}>, <Struct 'Vector' (0x000001B40237CD30) {x: 13.750001, y: 7.000001, z: 25.000000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Medicine.SM_Medicine",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -31657.537879754123,
+          4001.040764008563,
+          125.0
+        ],
+        "expected": [
+          -31657.537879754123,
+          4001.040764008563,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B40237CDD0) {x: -13.750001, y: -6.200001, z: 0.000000}>, <Struct 'Vector' (0x000001B40237CD30) {x: 13.750001, y: 7.000001, z: 25.000000}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_7",
+    "point_id": "Shop_1_3",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 45.00000000000003,
+    "built_after": true,
+    "kind": 4,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Bouquet.SM_Bouquet",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          29475.735931288073,
+          -38275.73593128807,
+          125.0
+        ],
+        "expected": [
+          29475.735931288073,
+          -38275.73593128807,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B40237CD80) {x: -18.377502, y: -19.961475, z: 3.000000}>, <Struct 'Vector' (0x000001B40237CCE0) {x: 21.126064, y: 19.893127, z: 65.640930}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Bouquet.SM_Bouquet",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          29511.091270347402,
+          -39654.59415460185,
+          125.0
+        ],
+        "expected": [
+          29511.091270347402,
+          -39654.594154601844,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B40237CD30) {x: -18.377502, y: -19.961475, z: 3.000000}>, <Struct 'Vector' (0x000001B40237CCE0) {x: 21.126064, y: 19.893127, z: 65.640930}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Bouquet.SM_Bouquet",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          30854.594154601837,
+          -38311.0912703474,
+          125.0
+        ],
+        "expected": [
+          30854.59415460184,
+          -38311.0912703474,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B40237CD80) {x: -18.377502, y: -19.961475, z: 3.000000}>, <Struct 'Vector' (0x000001B40237CCE0) {x: 21.126064, y: 19.893127, z: 65.640930}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_8",
+    "point_id": "Shop_2_0",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 0.0,
+    "built_after": true,
+    "kind": 1,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Bread.SM_Bread",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          9080.0,
+          26800.0,
+          130.0
+        ],
+        "expected": [
+          9080.0,
+          26735.0,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B40237CD30) {x: -17.500000, y: -11.000002, z: 0.550000}>, <Struct 'Vector' (0x000001B426F7BFD0) {x: 17.500000, y: 11.000002, z: 21.699999}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_9",
+    "point_id": "Shop_2_1",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 134.99999999999997,
+    "built_after": true,
+    "kind": 1,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Coffee.SM_Coffee",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -12781.317279836452,
+          37938.24116139071,
+          130.0
+        ],
+        "expected": [
+          -12781.317279836454,
+          37873.24116139071,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B40237CCE0) {x: -7.200000, y: -7.800001, z: 1.300000}>, <Struct 'Vector' (0x000001B426F7BBC0) {x: 7.200000, y: 7.800001, z: 27.599998}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_10",
+    "point_id": "Shop_2_2",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 134.99999999999997,
+    "built_after": true,
+    "kind": 2,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_ToolKit.SM_ToolKit",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -14057.53787975413,
+          33598.959235991446,
+          125.0
+        ],
+        "expected": [
+          -14057.537879754127,
+          33598.95923599144,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7BFD0) {x: -17.000002, y: -12.000001, z: 1.500000}>, <Struct 'Vector' (0x000001B426F7BDF0) {x: 17.000002, y: 21.000000, z: 10.200000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Drill.SM_Drill",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -15401.040764008565,
+          34942.46212024588,
+          125.0
+        ],
+        "expected": [
+          -15401.040764008567,
+          34942.46212024588,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7BBC0) {x: -10.499999, y: -8.000001, z: 0.000000}>, <Struct 'Vector' (0x000001B426F7BDF0) {x: 22.500000, y: 8.000001, z: 32.500000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_PaintCan.SM_PaintCan",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -15648.528137423866,
+          33351.47186257615,
+          125.0
+        ],
+        "expected": [
+          -15648.528137423858,
+          33351.471862576145,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7BFD0) {x: -18.400000, y: -17.500000, z: 0.000000}>, <Struct 'Vector' (0x000001B426F7BDF0) {x: 18.400000, y: 17.500000, z: 39.000000}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_11",
+    "point_id": "Shop_3_0",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 89.99999999999999,
+    "built_after": true,
+    "kind": 0,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_PetFood.SM_PetFood",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          21200.0,
+          -40150.00000000001,
+          125.0
+        ],
+        "expected": [
+          21200.0,
+          -40150.0,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7BBC0) {x: -15.000001, y: -9.000002, z: 2.000000}>, <Struct 'Vector' (0x000001B426F7BD50) {x: 15.000001, y: 11.950001, z: 50.500000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_PetBowl.SM_PetBowl",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          21200.000000000004,
+          -42050.00000000001,
+          125.0
+        ],
+        "expected": [
+          21200.0,
+          -42050.0,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7BDF0) {x: -20.250000, y: -20.250000, z: 0.000000}>, <Struct 'Vector' (0x000001B426F7BD50) {x: 20.250000, y: 20.250000, z: 13.500001}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_PetToy.SM_PetToy",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          20100.000000000004,
+          -41100.00000000001,
+          125.0
+        ],
+        "expected": [
+          20100.0,
+          -41100.0,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7BBC0) {x: -19.000000, y: -7.750002, z: 3.500000}>, <Struct 'Vector' (0x000001B426F7BD50) {x: 19.000000, y: 7.750002, z: 11.500000}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_12",
+    "point_id": "Shop_3_2",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 45.00000000000003,
+    "built_after": true,
+    "kind": 0,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Milk.SM_Milk",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -2371.751442127217,
+          -36271.75144212722,
+          125.0
+        ],
+        "expected": [
+          -2371.7514421272217,
+          -36271.75144212722,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7BDF0) {x: -8.000001, y: -8.500000, z: 0.000000}>, <Struct 'Vector' (0x000001B426F7A400) {x: 8.000001, y: 9.000000, z: 43.250000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Rice.SM_Rice",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -1028.2485578727797,
+          -34928.24855787278,
+          125.0
+        ],
+        "expected": [
+          -1028.2485578727822,
+          -34928.24855787278,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7BD50) {x: -11.476589, y: -7.000001, z: 1.250000}>, <Struct 'Vector' (0x000001B426F7A400) {x: 11.476589, y: 9.000001, z: 34.250000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Apples.SM_Apples",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -2689.949493661164,
+          -34610.050506338834,
+          125.0
+        ],
+        "expected": [
+          -2689.949493661169,
+          -34610.050506338834,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7BDF0) {x: -18.000002, y: -16.000002, z: 0.000000}>, <Struct 'Vector' (0x000001B426F7A400) {x: 18.000002, y: 16.000002, z: 21.750000}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_13",
+    "point_id": "Shop_3_3",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 45.00000000000003,
+    "built_after": true,
+    "kind": 0,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Bread.SM_Bread",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -1889.9494936611668,
+          1589.949493661165,
+          125.0
+        ],
+        "expected": [
+          -1889.9494936611673,
+          1589.9494936611654,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7BD50) {x: -17.500000, y: -11.000002, z: 0.550000}>, <Struct 'Vector' (0x000001B426F790F0) {x: 17.500000, y: 11.000002, z: 21.699999}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Carrots.SM_Carrots",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -1571.7514421272194,
+          -71.75144212722125,
+          125.0
+        ],
+        "expected": [
+          -1571.75144212722,
+          -71.75144212722091,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7A400) {x: -9.950001, y: -2.950001, z: 0.750000}>, <Struct 'Vector' (0x000001B426F790F0) {x: 9.950001, y: 2.950001, z: 32.000000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Bananas.SM_Bananas",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -228.24855787278034,
+          1271.7514421272194,
+          125.0
+        ],
+        "expected": [
+          -228.2485578727804,
+          1271.75144212722,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7BD50) {x: -12.600000, y: -3.700001, z: 2.750000}>, <Struct 'Vector' (0x000001B426F790F0) {x: 11.300000, y: 5.100001, z: 11.250000}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_14",
+    "point_id": "Shop_4_0",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 89.99999999999999,
+    "built_after": true,
+    "kind": 1,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Burger.SM_Burger",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          964.9999999999995,
+          32845.0,
+          130.0
+        ],
+        "expected": [
+          964.9999999999998,
+          32780.0,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7A400) {x: -23.000002, y: -20.000002, z: 0.750000}>, <Struct 'Vector' (0x000001B426F7B120) {x: 23.000002, y: 20.000002, z: 30.350000}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_15",
+    "point_id": "Shop_4_1",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 0.0,
+    "built_after": true,
+    "kind": 1,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Pizza.SM_Pizza",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -17320.0,
+          30099.999999999996,
+          130.0
+        ],
+        "expected": [
+          -17320.0,
+          30034.999999999996,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F790F0) {x: -23.300001, y: -23.300001, z: 0.000000}>, <Struct 'Vector' (0x000001B426F7B0D0) {x: 23.300001, y: 23.300001, z: 7.750000}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_16",
+    "point_id": "Shop_4_2",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 134.99999999999997,
+    "built_after": true,
+    "kind": 2,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Headphones.SM_Headphones",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -25348.52813742385,
+          9651.471862576145,
+          125.0
+        ],
+        "expected": [
+          -25348.528137423855,
+          9651.471862576145,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7B120) {x: -17.749998, y: -6.000001, z: 9.000000}>, <Struct 'Vector' (0x000001B426F7BDA0) {x: 17.750000, y: 7.800002, z: 41.000000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Keyboard.SM_Keyboard",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -25101.04076400856,
+          11242.462120245875,
+          125.0
+        ],
+        "expected": [
+          -25101.04076400856,
+          11242.462120245877,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7B0D0) {x: -24.500002, y: -9.500002, z: 0.050000}>, <Struct 'Vector' (0x000001B426F7BDA0) {x: 24.500002, y: 9.500002, z: 8.100000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_PhoneBox.SM_PhoneBox",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -23757.53787975412,
+          9898.959235991435,
+          125.0
+        ],
+        "expected": [
+          -23757.537879754123,
+          9898.959235991437,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7B120) {x: -10.250002, y: -18.250002, z: 0.000000}>, <Struct 'Vector' (0x000001B426F7BDA0) {x: 10.250002, y: 18.250002, z: 13.249999}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_17",
+    "point_id": "Shop_5_0",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 134.99999999999997,
+    "built_after": true,
+    "kind": 2,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_GPU.SM_GPU",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -1757.53787975413,
+          34098.95923599143,
+          125.0
+        ],
+        "expected": [
+          -1757.537879754127,
+          34098.95923599144,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7B0D0) {x: -20.250000, y: -9.550001, z: 2.500000}>, <Struct 'Vector' (0x000001B426F9BF30) {x: 20.250000, y: 10.550001, z: 14.250000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_RAM.SM_RAM",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -3348.5281374238593,
+          33851.47186257614,
+          125.0
+        ],
+        "expected": [
+          -3348.528137423859,
+          33851.471862576145,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7BDA0) {x: -15.200000, y: -3.500001, z: 2.900000}>, <Struct 'Vector' (0x000001B426F9BF30) {x: 15.200000, y: 5.050001, z: 7.100000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_CircuitBoard.SM_CircuitBoard",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -3101.040764008564,
+          35442.46212024588,
+          125.0
+        ],
+        "expected": [
+          -3101.040764008567,
+          35442.46212024588,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7B0D0) {x: -12.000001, y: -11.150001, z: 1.750000}>, <Struct 'Vector' (0x000001B426F9BF30) {x: 12.000001, y: 9.500001, z: 9.099999}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_18",
+    "point_id": "Shop_5_1",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 0.0,
+    "built_after": true,
+    "kind": 3,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_FirstAid.SM_FirstAid",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -18550.0,
+          18700.0,
+          125.0
+        ],
+        "expected": [
+          -18550.0,
+          18700.0,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7BDA0) {x: -18.250000, y: -10.000002, z: 0.050000}>, <Struct 'Vector' (0x000001B426F9B080) {x: 18.250002, y: 11.650001, z: 35.750000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Medicine.SM_Medicine",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -19500.0,
+          20000.0,
+          125.0
+        ],
+        "expected": [
+          -19500.0,
+          20000.0,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F9BF30) {x: -13.750001, y: -6.200001, z: 0.000000}>, <Struct 'Vector' (0x000001B426F9B080) {x: 13.750001, y: 7.000001, z: 25.000000}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Medicine.SM_Medicine",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          -20450.0,
+          18700.0,
+          125.0
+        ],
+        "expected": [
+          -20450.0,
+          18700.0,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F7BDA0) {x: -13.750001, y: -6.200001, z: 0.000000}>, <Struct 'Vector' (0x000001B426F9B080) {x: 13.750001, y: 7.000001, z: 25.000000}>)"
+      }
+    ]
+  },
+  {
+    "name": "BP_DeliveryStore_C_19",
+    "point_id": "Shop_5_2",
+    "built_before": false,
+    "products_before": 0,
+    "yaw": 45.00000000000003,
+    "built_after": true,
+    "kind": 4,
+    "products": [
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Bouquet.SM_Bouquet",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          1754.5941546018405,
+          16888.908729652598,
+          125.0
+        ],
+        "expected": [
+          1754.5941546018403,
+          16888.908729652598,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F9BF30) {x: -18.377502, y: -19.961475, z: 3.000000}>, <Struct 'Vector' (0x000001B426F9B030) {x: 21.126064, y: 19.893127, z: 65.640930}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Bouquet.SM_Bouquet",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          375.73593128807283,
+          16924.264068711927,
+          125.0
+        ],
+        "expected": [
+          375.73593128807283,
+          16924.264068711927,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F9B080) {x: -18.377502, y: -19.961475, z: 3.000000}>, <Struct 'Vector' (0x000001B426F9B030) {x: 21.126064, y: 19.893127, z: 65.640930}>)"
+      },
+      {
+        "mesh": "/Game/Delivery/Stores/SM_Bouquet.SM_Bouquet",
+        "visible": true,
+        "hidden": false,
+        "world": [
+          411.0912703474007,
+          15545.405845398156,
+          125.0
+        ],
+        "expected": [
+          411.0912703474005,
+          15545.405845398158,
+          125.0
+        ],
+        "bounds": "(<Struct 'Vector' (0x000001B426F9BF30) {x: -18.377502, y: -19.961475, z: 3.000000}>, <Struct 'Vector' (0x000001B426F9B030) {x: 21.126064, y: 19.893127, z: 65.640930}>)"
+      }
+    ]
+  }
+]

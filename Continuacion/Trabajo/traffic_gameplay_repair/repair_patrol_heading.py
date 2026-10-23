@@ -1,0 +1,12 @@
+exec(compile(__import__('pathlib').Path('C:/Users/CRISTIAN/Documents/Codex/2026-09-12/ho/traffic_gameplay_repair/implement.py').read_text().split('# Recovery never')[0],'helpers','exec'))
+assert 'isolated_repair' in root.parts
+source=(P/'road_agents.py').read_text();start=source.index('# Remove inherited');end=source.index("build(b,g,'ReceiveTick');save(b)",start);exec(compile(source[start:end],'ExistingServiceRoadMotion','exec'),globals());addvar(b,'LockTravelHeading',E.get_basic_type_by_name('bool'));assert E.compile_blueprint(b);g.get('LockTravelHeading');g.branch('FaceTravel','LockTravelHeading','LockTravelHeading')
+incoming=[l for l in g.links if l[2:] == ['Drive','execute']]
+assert incoming
+for link in incoming:g.links.remove(link);g.link(link[0],link[1],'FaceTravel','execute')
+g.call('ActualVelocity','GetVelocity',A);op(g,'ActualSpeed','VSizeXY',('ActualVelocity','ReturnValue'));op(g,'HasMotion','Greater_DoubleDouble',('ActualSpeed','ReturnValue'),B='20');g.call('MotionDirection','Normal2D',M);g.link('ActualVelocity','ReturnValue','MotionDirection','A');g.call('FacingDirection','SelectVector',M);g.link('MotionDirection','ReturnValue','FacingDirection','A');g.link('Direction','ReturnValue','FacingDirection','B');g.link('HasMotion','ReturnValue','FacingDirection','bPickA');g.call('TravelRotation','Conv_VectorToRotator',M);g.link('FacingDirection','ReturnValue','TravelRotation','InVec');g.call('AlignNose','K2_SetActorRotation',A,bTeleportPhysics='true');g.link('TravelRotation','ReturnValue','AlignNose','NewRotation');g.exec('FaceTravel','AlignNose');g.exec('AlignNose','Drive');g.exec('FaceTravel','Drive','else');build(b,g,'ReceiveTick');save(b)
+b=use('/Game/Traffic/Services/BP_PoliceRoadPatrol');c=unreal.get_default_object(b.generated_class());c.set_editor_property('VisualYaw',0.);c.set_editor_property('LockTravelHeading',True);c.get_editor_property('character_movement').set_editor_property('orient_rotation_to_movement',False);save(b)
+unreal.EditorLoadingAndSavingUtils.load_map('/Game/Maps/MapaCompleto_Integration');aa=unreal.get_editor_subsystem(unreal.EditorActorSubsystem)
+for a in aa.get_all_level_actors():
+ if a.get_class().get_name()=='BP_PoliceRoadPatrol_C':a.get_editor_property('character_movement').set_editor_property('orient_rotation_to_movement',False)
+assert unreal.EditorLoadingAndSavingUtils.save_current_level();unreal.EditorLoadingAndSavingUtils.new_blank_map(False);unreal.log('PATROL_TRAVEL_HEADING_READY')

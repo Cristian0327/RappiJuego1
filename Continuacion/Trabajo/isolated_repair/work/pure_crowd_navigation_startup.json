@@ -1,0 +1,6 @@
+{
+  "status": "COMPILED_PENDING_GAME",
+  "unnecessary_duplicate_floor_components_removed": 304,
+  "runtime_rebuild": "Blueprint BeginPlay only if sidewalk navigation unavailable",
+  "no_custom_cpp": true
+}

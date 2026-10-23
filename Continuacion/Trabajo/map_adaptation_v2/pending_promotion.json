@@ -1,0 +1,998 @@
+[
+  {
+    "path": "Delivery/BlueprintGameplay/UI/WBP_BlueprintPhone.uasset",
+    "sha256": "d2a88a977ae53ed1c5fb3c60613310be86a9033c9594325975c1ac70602fad27",
+    "bytes": 7971296,
+    "existed": true
+  },
+  {
+    "path": "Delivery/BlueprintGameplay/World/BP_ResidentialRouteAssembler.uasset",
+    "sha256": "7b71e212fff478f7ee9a561113088729766184554bdf242a363d8994d1ce666d",
+    "bytes": 370140,
+    "existed": true
+  },
+  {
+    "path": "Maps/MapaCompleto_Integration.umap",
+    "sha256": "79d0528aa84f4bb91ed34e63e48228b87433ecb8cde218318a9176b1a48a412a",
+    "bytes": 2912781,
+    "existed": true
+  },
+  {
+    "path": "Maps/MapaCompleto/BP_MapaCompletoGeometry.uasset",
+    "sha256": "ec7c7b0666022e1032de6cffc18a583f30ee1ba79b8138f6764bdc977b70b1a7",
+    "bytes": 2203520,
+    "existed": true
+  },
+  {
+    "path": "Maps/MapaCompleto/Geometry/SM_Mapa_081.uasset",
+    "sha256": "6619ac35210e0c7ad91fccd66fcc49349ef817d4ac1fcc54812882738b67e1a8",
+    "bytes": 5362695,
+    "existed": true
+  },
+  {
+    "path": "Maps/MapaCompleto/Geometry/SM_Mapa_Road_0.uasset",
+    "sha256": "49570e52e5d222fcc0520771e5ef8592b8a1fd27ce9aee37261e97411007db0c",
+    "bytes": 281784,
+    "existed": true
+  },
+  {
+    "path": "Maps/MapaCompleto/Geometry/SM_Mapa_Road_1.uasset",
+    "sha256": "b41eacde6534b5c2bdc0a1394815f8b82375d50e82b4339b2705b6b775c08fe0",
+    "bytes": 23328,
+    "existed": true
+  },
+  {
+    "path": "Maps/MapaCompleto/Geometry/SM_Mapa_Road_2.uasset",
+    "sha256": "86426a99ef751646d211b842510dd3d46281ffb03649e203aa17970abe6e62b1",
+    "bytes": 17943,
+    "existed": true
+  },
+  {
+    "path": "Traffic/Services/BP_CivilMotorcycle.uasset",
+    "sha256": "1a7093ae541fe01aa301ea3ad66c897f66ef03b18b85ecc0d990bb52700dc603",
+    "bytes": 35280,
+    "existed": true
+  },
+  {
+    "path": "Traffic/Services/BP_PoliceMotorcycle.uasset",
+    "sha256": "bc578c3699bc0c80c8100978dbeab8b669616794cb006b3f026b22e8a8c6c00c",
+    "bytes": 35988,
+    "existed": true
+  },
+  {
+    "path": "Traffic/Services/BP_TwoWheelerCitizen.uasset",
+    "sha256": "2391b12cbd58683362068476bcf059f14e63870f813a969317fcb083a58fcb2a",
+    "bytes": 1656860,
+    "existed": true
+  },
+  {
+    "path": "Traffic/Services/BP_VoxelRoadVehicle.uasset",
+    "sha256": "0012e8d7a2ad50443138cd2c8a5a63f4f0e56e004955919a135b634f2468175e",
+    "bytes": 659645,
+    "existed": true
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_TrafficCell.uasset",
+    "sha256": "c9ff919901d77fcbb0ea7d2f8f28b47af98609db7f86410edca25f5c2be8ffef",
+    "bytes": 76216,
+    "existed": true
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_TrafficJunction.uasset",
+    "sha256": "3733a267303621610a8354f1d1ade46d9655db56905e69e3172ee497f858f499",
+    "bytes": 468546,
+    "existed": true
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_TrafficLane.uasset",
+    "sha256": "bcae5c5c6b252e39becf50797dd680ef8dd92c9cc28a02b4c9b59778e29f4fa6",
+    "bytes": 258936,
+    "existed": true
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_TrafficLane_0.uasset",
+    "sha256": "9aedf29812a2f0e562f99bb96407d412aa7c5370a4ca3e1518952dca2fe8fd1f",
+    "bytes": 2444373,
+    "existed": true
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_TrafficLane_1.uasset",
+    "sha256": "b349545e0e924bc89e4b48a9336dd4a90b0ab4628ba9e454cc6fdfa27a5b0395",
+    "bytes": 2444500,
+    "existed": true
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_TrafficLane_2.uasset",
+    "sha256": "af9154a0f46b62a247eddd2b2d317428faab0cc0ae0f9a947954c636027fa156",
+    "bytes": 1562546,
+    "existed": true
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_TrafficLane_3.uasset",
+    "sha256": "8a807c91229fb5f82bdbeedc0d24eb4d321f73d31c2160e445fcbc9f9f9ab414",
+    "bytes": 1562546,
+    "existed": true
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_TrafficLane_4.uasset",
+    "sha256": "0f0fdc91dbe940745bcc52b3b4f02e6f953f4a302a9fc3a4fd6279ff81f6607b",
+    "bytes": 2444436,
+    "existed": true
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_TrafficLane_5.uasset",
+    "sha256": "df2eb96703b908ac094a724f399c80da0466b2e9bfca962c17ba26f0cd5292df",
+    "bytes": 2444500,
+    "existed": true
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_TrafficLane_6.uasset",
+    "sha256": "ce84bac00b1c3a3f5749850e3ee02dac8188f3f63f0ce8a8559cdc8b5dc2b594",
+    "bytes": 3969903,
+    "existed": true
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_TrafficManager.uasset",
+    "sha256": "5c8206f25b3f402920e60af5cb6ab2e40d366f57a0ca1af6d6a257477d6d5254",
+    "bytes": 1708941,
+    "existed": true
+  },
+  {
+    "path": "World/BlueprintWorld/Traffic/BP_TrafficVehicle.uasset",
+    "sha256": "fc9d26ad3536e06cb17334e4b6825992874afa4f9c52b111cfaeac084e02fdc0",
+    "bytes": 2654954,
+    "existed": true
+  },
+  {
+    "path": "World/BogotaUrban/BP_BogotaServiceSignals.uasset",
+    "sha256": "9d548b40dc5aacd1f7781d3983f36fe24d9a2b2eb422fff2f518f0a856356907",
+    "bytes": 257941,
+    "existed": true
+  },
+  {
+    "path": "World/BogotaUrban/BP_BogotaUrbanDressing.uasset",
+    "sha256": "5e8f66034204ea30e3f9da8898e156924ddfbbc76d2520dd2f8aa5832d1d430e",
+    "bytes": 389374,
+    "existed": true
+  },
+  {
+    "path": "World/BogotaUrban/BP_RoadNavigation.uasset",
+    "sha256": "d3a665a49739abd5754536988d69108a5182f0de82951f923766c6f6f9948d37",
+    "bytes": 70577779,
+    "existed": true
+  },
+  {
+    "path": "World/BogotaUrban/T_UrbanGroundPriority.uasset",
+    "sha256": "8c90e30135aabf7034df7ac1d50e815e9040bca8c64ef87cd19ab3bcd54d0347",
+    "bytes": 94572,
+    "existed": true
+  },
+  {
+    "path": "World/BogotaUrban/Geometry/SM_Bogota_AccesosEstaciones.uasset",
+    "sha256": "5ccba586f4148821bb3235f4b1ac654b7ac2aee5c3d82a970e18bf4e291296c4",
+    "bytes": 14867,
+    "existed": true
+  },
+  {
+    "path": "World/BogotaUrban/Geometry/SM_Bogota_CallesSecundarias.uasset",
+    "sha256": "ae82376cf38001efeb3bcc26e1eb0014f4d81962e0fc7ce11fc222309af1b1ad",
+    "bytes": 1107594,
+    "existed": true
+  },
+  {
+    "path": "World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi_Compacta.uasset",
+    "sha256": "0a982ff10422398168a913fc16be5a5d0ed16b9cb6a66b9e4f2b74b2b6adc5fe",
+    "bytes": 98749,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/Geometry/SM_Bogota_MarcasInterseccion.uasset",
+    "sha256": "ced057f23c5794efaf4cfa24a2d84cdca124ee9e3f202b02d75df865ad3e07c3",
+    "bytes": 45346,
+    "existed": true
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_000.uasset",
+    "sha256": "acb615ef1232f236e96b88b45bc65ed728e94ef526490eef4c38550e9625923a",
+    "bytes": 64021,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_001.uasset",
+    "sha256": "4a59537b3ee015018f3b45053b3afc8058da68934549910e84703ec2a8b866af",
+    "bytes": 63839,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_002.uasset",
+    "sha256": "c5f4114fb4645190cc1bee841658f843dae1d05e803c136abf71212ac1bc8f2f",
+    "bytes": 78730,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_003.uasset",
+    "sha256": "3acde3296ed77095ca8b97becb2ddf5d2bf38944b8af7bc858e122ad244084ca",
+    "bytes": 118840,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_004.uasset",
+    "sha256": "e9011954e84f0e57f801ae7c2afdaf53d04bb179393791c51fa37302e2dc40cd",
+    "bytes": 117058,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_005.uasset",
+    "sha256": "739239369c6894838092e917d212e9a40ee5be53d480b32109834608fe81e97f",
+    "bytes": 41542,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_006.uasset",
+    "sha256": "f657e71ad23c5e449ac1a48d577c8901be2952e590a34fd4d70c542d1b620a29",
+    "bytes": 546378,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_007.uasset",
+    "sha256": "59c2c15ab260b2c9a46c2e0ae9036008f47989fcda1dcd99f9e74955c7f39e4a",
+    "bytes": 41588,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_008.uasset",
+    "sha256": "e2a3311d73c7d461f4576bf70d087c63f23c77704b5a8348a4cd1ba2212bdb6f",
+    "bytes": 90552,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_009.uasset",
+    "sha256": "4c023b2e916a062c83f7dd79af493115821c6623e7e40237e86ba61674ef0314",
+    "bytes": 55269,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_010.uasset",
+    "sha256": "8d0f37b16f4d8d2d8b4d76167ff3c5b7412d8a6f3c8b13a3f0d61ef1a5ffc73f",
+    "bytes": 41563,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_011.uasset",
+    "sha256": "4a1bae7c5778d77e809dac785581bec88db5ed989c8d6a15cce4e6186adca13b",
+    "bytes": 35298,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_012.uasset",
+    "sha256": "1e6b45434649eee4e71dea6bcbfbdc39fb75e480d92178b6fc2911c880c8ee97",
+    "bytes": 89921,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_013.uasset",
+    "sha256": "06659680df3ba7d7f42390b1e4d7c11bdd4dbdc9437e8f04b50b6196a5c4c3bb",
+    "bytes": 89875,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_014.uasset",
+    "sha256": "10d568f3cec7e6e2bf3b474b079381a3017fbc92cdbc37da0e7d3d7af91db955",
+    "bytes": 145666,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_015.uasset",
+    "sha256": "be0bfdf4143f7134f83a1a370215a83e5b8876f27e2bf95a12de3316dca59cca",
+    "bytes": 66107,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_016.uasset",
+    "sha256": "b21a60c38fae92df2bfcef3ec0f36457d21962f04f386de4b933f6cee75577a6",
+    "bytes": 104352,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_017.uasset",
+    "sha256": "c55207d580312ff8b0489ba6c6f878c56cbe4297ce7eabf12a08acb0cfe036a0",
+    "bytes": 198328,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_018.uasset",
+    "sha256": "d397438df8a31bc1f3b2952e23643ec1d12c3764df1beaa06ae955e3cc4780d4",
+    "bytes": 161841,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_019.uasset",
+    "sha256": "ea0234c2e79d86df30214a016ace3c921262767284c718b95b6d4f2026cadcf6",
+    "bytes": 342635,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_020.uasset",
+    "sha256": "867985298e8f681f3af033a163c5ba4f432c302933bab6d2d51b3180a9665f96",
+    "bytes": 86465,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_021.uasset",
+    "sha256": "6ee016402503e9d07691dcf66c78cd179224dc6c75654faae0bd367038f80494",
+    "bytes": 248408,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_022.uasset",
+    "sha256": "75ad4c0053dbc71f1c9e704eddd1b2e0f4e57d6cb71628cf3285f24b172086c9",
+    "bytes": 259292,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_023.uasset",
+    "sha256": "b7450b0d0f0a9474d31c6407c621fea4bf71e4eeca9c1aa5352e585acc43b427",
+    "bytes": 122709,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_024.uasset",
+    "sha256": "b68933a84319ca06159aa7e19ff8dbf46ac4d2891049f23bba6ccb7d36a906e9",
+    "bytes": 51479,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_025.uasset",
+    "sha256": "ae4aeb04a162a64292ab869102bcd09c5a1db459f2eff2f2d3b2c7f32cea22c4",
+    "bytes": 58943,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_026.uasset",
+    "sha256": "1d948e95951e7e0fd8cf72cb16ed8e1c02ff18de5e4a861a2df9175e2d31123c",
+    "bytes": 204666,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_027.uasset",
+    "sha256": "cf35754802b264ab56f550520ace6d10048d8072c520b367ea66061c514cada3",
+    "bytes": 54069,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_028.uasset",
+    "sha256": "2b8be8b329821331ea4a73cbc75f082aed0ffb9aae3636d8378e1df2438bc906",
+    "bytes": 50418,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_029.uasset",
+    "sha256": "3957dc0f40f55b417930945dac1f8a813fd55094fed66b4cc419de07651d587b",
+    "bytes": 468151,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_030.uasset",
+    "sha256": "d82d63906ddb7c856b836bb8a4f9d8b6971d0ac5a6034be289eb82131d43ede0",
+    "bytes": 247495,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_031.uasset",
+    "sha256": "65010797a8358b6bf434751adf51f132cf0921bd2283dc5b7449f88c0979bbe5",
+    "bytes": 242648,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_032.uasset",
+    "sha256": "a637f91fce80c395396eb339e5e62200e877f3d25639acc4204cf5e2c1d9eeb5",
+    "bytes": 278106,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_033.uasset",
+    "sha256": "7bafebe3e2b76a097434f0935875d1e831dc461bb85dbf04aaf7ee1159b0911d",
+    "bytes": 192899,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_034.uasset",
+    "sha256": "a734744da09d75d89716b49463801713eaace0e8c6af293e32eaa399a3120fe2",
+    "bytes": 270832,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_035.uasset",
+    "sha256": "3d53cb09e309aa07d62745e931b674971bab08ab524c50210b77ce09dfd8fb4e",
+    "bytes": 167425,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_036.uasset",
+    "sha256": "e0ddabc83f33ec40f67b581960872ed4126403c51e74cce4a3a10e0b3ad66f62",
+    "bytes": 264690,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_037.uasset",
+    "sha256": "c65fae7e0c3d53db56f345e31c8a8f482a5c5175114f073ea03488d6ad04ed0c",
+    "bytes": 248623,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_038.uasset",
+    "sha256": "358f68f45d3162799d99e46944cd1e62a6ac6b3e7b9a947386434573267800c8",
+    "bytes": 233164,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_039.uasset",
+    "sha256": "91e1cd989e6c1bb34fa2b2c4723c444c991ea8aab147b8d4e67ec8e90804bc34",
+    "bytes": 191160,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_040.uasset",
+    "sha256": "74d038618386d7a6abc31714940fe544c4bec10842effa282e040974389874f1",
+    "bytes": 180653,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_041.uasset",
+    "sha256": "7cebbc90b50dc41df648a4963474b5f62d841f24e57d40ba1b4915ee1b4870c0",
+    "bytes": 160451,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_042.uasset",
+    "sha256": "671cbfae64eb1b8834c04aa9252f71ccc57d9cde791e517c0c8a94b050a8d7a8",
+    "bytes": 239715,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_043.uasset",
+    "sha256": "338f0b636d1612e252817145baade02e2c5454be8aa9a7bae78ac845491016e1",
+    "bytes": 178567,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_044.uasset",
+    "sha256": "399598db01e06cd0ae40f18964f01c67c6b8ffa0905117d08c7a2663480d2ac1",
+    "bytes": 179818,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_045.uasset",
+    "sha256": "6f08345ebe4417f17f2f80c7bfb565c13fb60ef315a3db2c96f384a0484a5062",
+    "bytes": 211374,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_046.uasset",
+    "sha256": "ce3127fe08e476c25125866fac634f26780709fa7da1688aa678afa555b1de22",
+    "bytes": 233240,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_047.uasset",
+    "sha256": "edbf19f222c7f260b81eece265ca00337e0aba1dc4f8631ed7388b1d30d8bc6f",
+    "bytes": 169732,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_048.uasset",
+    "sha256": "64045746704604c230c7153e7768e4278f0efc817b1304ef848d1c8305a957d1",
+    "bytes": 172925,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_049.uasset",
+    "sha256": "7e1eb4b32b994b7b8d7bfe74d3260a6386aab93b2495a4db73b11046b202483c",
+    "bytes": 246631,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_050.uasset",
+    "sha256": "50a1b9519ca1f88b4d73da873d26e8d71bced44e4a2dc2ac9ffb7b2ec46a46f5",
+    "bytes": 150961,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_051.uasset",
+    "sha256": "8f7814eaee55662309cdd52571242c318639467eacf53a9bda87e93c93205271",
+    "bytes": 263921,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_052.uasset",
+    "sha256": "ab9f25872b87edafa0b366bd9318b535a09dab9495468db72ca641f562b0b63d",
+    "bytes": 249343,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_053.uasset",
+    "sha256": "e39e601506baa828c19dec1ca183ff7fb468ea9ab0da764ee9f28fa68fdb9957",
+    "bytes": 180682,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_054.uasset",
+    "sha256": "b6ad6b0d8f088fa4fe38640abafd03e58229324434a4b8ab254b53bf74332810",
+    "bytes": 184833,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_055.uasset",
+    "sha256": "31a2cd1971dd184949b006d83c10557bdf660d6bf16460d3fe139c5cace434be",
+    "bytes": 247564,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_056.uasset",
+    "sha256": "f09329e9f18e798689e7f4828daeda3e37037765266341e4f9ac4a595ba11448",
+    "bytes": 239670,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_057.uasset",
+    "sha256": "11e5145c36d210da90748428d5c10c5449730ae39547f3b120c859bb3638ed4c",
+    "bytes": 281524,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_058.uasset",
+    "sha256": "1ff36660f00ad0e81f7ae29698a124f8dc17065bba39e82af38c2a611581bedd",
+    "bytes": 215840,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_059.uasset",
+    "sha256": "6cd7db11ab5385f65a30dd836b2426a41d3a1660838e3a3e5f008c1c439bda9b",
+    "bytes": 264942,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_060.uasset",
+    "sha256": "9f8f9aa4324e7350de0af77cf196f718e5cfc6ce517f82861e46596689db3383",
+    "bytes": 329424,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_061.uasset",
+    "sha256": "776ab7a6175fd116faa36a0b7a8059fd7d0b4c424c233d86bec92466e7fa27f5",
+    "bytes": 296512,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_062.uasset",
+    "sha256": "e7fc8e18f6716af27f1f365aa13fc682519cce27f06d8f5d50560b4ca567d274",
+    "bytes": 305254,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_063.uasset",
+    "sha256": "f1af3ca5a13c341cf2907dfcf34cca1f155761599a373bbaa85908fec5713ce0",
+    "bytes": 268072,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_064.uasset",
+    "sha256": "966a018562ffb207b2d28d1a9266a5d2bf1ec2d9a68539ddfcd505581de97b72",
+    "bytes": 292948,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_065.uasset",
+    "sha256": "ccbe9489edd6cf8b9c56b3fab33d0e6e268f83b34aa6d336c5f29d286865e5bf",
+    "bytes": 283720,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_066.uasset",
+    "sha256": "49c5872a36bf1735d208ff9534bad4829855367f6d7c87c4a33c2e3d3bccbd83",
+    "bytes": 307802,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_067.uasset",
+    "sha256": "3fab71fda01f37f2bdf7273ed7f67c3a862efc482cab920de2cb71c16cb9f0ae",
+    "bytes": 378307,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_068.uasset",
+    "sha256": "03cf94722a8ae7bbd165cec9ece359903521fcbb5e4575a9331b7711116a9553",
+    "bytes": 388821,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_069.uasset",
+    "sha256": "1b7b3df09cbf89e6a6b81a38f9b6a4fed35092ac98075f45adb6ad9d81cb79b0",
+    "bytes": 399152,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_070.uasset",
+    "sha256": "8860b43f9dc00af7b51cef4ca55d5c6750f157fbe21e726a65c6521b1efef300",
+    "bytes": 399152,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_071.uasset",
+    "sha256": "d1a6dda47a07c6ac19308e470904b29d915914608d2e88e387089628ec25b944",
+    "bytes": 388821,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_072.uasset",
+    "sha256": "1dfeb0cf16d4d8d8522b86bf2f2f80fc8e3dd189c780557ccac2803b24da46f3",
+    "bytes": 378307,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_073.uasset",
+    "sha256": "ed687532176f9a90f9d13b7efc7873304a38a35aee55eb5d1589c7260f0e4cd0",
+    "bytes": 407502,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_074.uasset",
+    "sha256": "8cf73383df351bf342ef267235d17e0b9e43c8b0fce10dfc48bb7d004938f425",
+    "bytes": 392976,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_075.uasset",
+    "sha256": "6bb592f1163601e400de72f051e42c3fcd1328e0b7cd3c0708e03633947fa8ea",
+    "bytes": 407502,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_076.uasset",
+    "sha256": "91d79a12ed8cdc01748e6d6c825f10a457b44038d8add2128ad5f65f409588f4",
+    "bytes": 392976,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_077.uasset",
+    "sha256": "d7de0ebe0f440be8cc6b45be120e5d0a62b5c04742a21173617bc5abc3d00095",
+    "bytes": 796254,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_078.uasset",
+    "sha256": "43485f1f7a1147d015e4647108eee017e3e90ca6e466876f96b9169e51681e69",
+    "bytes": 808057,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_079.uasset",
+    "sha256": "99d6cdc2dec47217c592080f7980694d12c6f7da313c9719c9114764006a40a5",
+    "bytes": 770440,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_080.uasset",
+    "sha256": "f6a5fab122e15be56d978b4a3fecd39b5b55b2e2c7c0c21bc7e3ba38c7a2f3ea",
+    "bytes": 293679,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_081.uasset",
+    "sha256": "18d6e93087483d054eb2fefb02e7617d8552a08f802917418891e23b710e8ad3",
+    "bytes": 291699,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_082.uasset",
+    "sha256": "b55e79e701b72f92eff76383caf4cfe951e7db4cc707a3d63cd365409af14f1d",
+    "bytes": 397731,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_083.uasset",
+    "sha256": "8418dc1be3818175959a51b9d86d7b8ba58bbd486be9e6a8b4e73674239d8cb7",
+    "bytes": 291001,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_084.uasset",
+    "sha256": "91ded43539acb06cbdf2699f88fdb0e7b08a5f5bcfe6b0cafd76c7de713bf700",
+    "bytes": 365525,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_085.uasset",
+    "sha256": "eaa9984469211d4e9c712437dd11f9b1c412d5964ad2f2c9c8cd3b827accc987",
+    "bytes": 371883,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_086.uasset",
+    "sha256": "7e5cf72dd8377ec51c0826f02e83ca36a6a87e6d58d4295e51d39a7950d32e94",
+    "bytes": 587482,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_087.uasset",
+    "sha256": "c7a84106a2f9e3700780a9e402a2d3d5e5f3ddfc00d6c692955f68bba26d8869",
+    "bytes": 398541,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_088.uasset",
+    "sha256": "2340aac1adee9adbac32721cb48fdd473fabb6fae7cc36fa2b7c3c3232e656a6",
+    "bytes": 256150,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_089.uasset",
+    "sha256": "50b784c3a9a6caf1a15d7c9e20da24a6050f30788c7eec5ad61ce8a73e5bf027",
+    "bytes": 592993,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_090.uasset",
+    "sha256": "03087789e13e625eb3359e9db5397f6bde7457924fe6c43d65673ce878c01f04",
+    "bytes": 85342,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_091.uasset",
+    "sha256": "adc94cf983a48c4f1464eece345763c6c5c38e9c13c2f8d39aa56a5b595eaad5",
+    "bytes": 110593,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_092.uasset",
+    "sha256": "80dddfbe0a2e13cd4abdb968816957eb654eff8e741f8e11b8f6439df0193e6e",
+    "bytes": 108422,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_093.uasset",
+    "sha256": "276e29704f8b828fb1a351ad6a7305f2e6b598793efe0ebfd5111012257370d2",
+    "bytes": 2265337,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_094.uasset",
+    "sha256": "ab57dc79fde432880e91217f6a6a0077232ec8f7e357146406b6153de583bc61",
+    "bytes": 110230,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_095.uasset",
+    "sha256": "c2d747aae4cf9c993668a25802247a58b4a4082b4d4abcf5aac2297f75052f2a",
+    "bytes": 90217,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_096.uasset",
+    "sha256": "da797c4c258b1b3a79bd2012d7c144154c7cddad0115058f168bb8ab9f754a9a",
+    "bytes": 1296963,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_097.uasset",
+    "sha256": "c1e280cf3976b762faba7bf8aae886ddd595b77602564c862080df6a8752b931",
+    "bytes": 109007,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_098.uasset",
+    "sha256": "fafb57e044f4cd48ec51a8543d1c1592f830f1807bbc42386717c781aff0ca52",
+    "bytes": 104552,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_099.uasset",
+    "sha256": "89e6178491664f295bf583f4daebc4bd367f4152a50e2c59e4fa493381e680f8",
+    "bytes": 116224,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_100.uasset",
+    "sha256": "a8f45a5b0cdbf7d4cdffb90489cc0f00a2b19223c7bcdccb3b5f7256a5595493",
+    "bytes": 85013,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_101.uasset",
+    "sha256": "395d1b6ba8d6dc848399411a0a5c1c4c13741eac228cec28ea8ae5db707b6c04",
+    "bytes": 129441,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_102.uasset",
+    "sha256": "fd8c77ba61b726daa330e75a6e0f3b6937f0bb3ff337382cc365073fd5731d1f",
+    "bytes": 87482,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_103.uasset",
+    "sha256": "3244cbe08641426e3567680965483ed5a14e4a5fb955c30e180302c9006c67f4",
+    "bytes": 125541,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_104.uasset",
+    "sha256": "aed83da8017e38cbc12c09a4516c1e34b4d7754f35c0bed3bbf5811ebc0bce25",
+    "bytes": 127064,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_105.uasset",
+    "sha256": "8b6c69f2c140abeb751a907919011c3507a87bf01afacee8175162f0824c12be",
+    "bytes": 137557,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_106.uasset",
+    "sha256": "b053b567c05c247890e715675164d0c35b0e1c15b0df12e209b2d3ec61498620",
+    "bytes": 113858,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_107.uasset",
+    "sha256": "2737fa3ea171fb259f178aa72b258db4720fff9e203eb74e64908340aa3aecdb",
+    "bytes": 113611,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_108.uasset",
+    "sha256": "cad61ee2928be835e1b77f4d62df562c91579cbb6d4409b2bd205729ebf30eaa",
+    "bytes": 107924,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_109.uasset",
+    "sha256": "60847e4c73408f208567e5309f8e23e4451d23aecc0d7423e75d335febedceea",
+    "bytes": 132067,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_110.uasset",
+    "sha256": "69800d365fecb50e7cdc68428f2530aa8a2b3c073ac6458f6de6fe18d63bd9ef",
+    "bytes": 86355,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_111.uasset",
+    "sha256": "7df6d1edfbbc60e17a40645a6cce0b6b47be9b6fce4bd144fc71b0ef9e9ddc0d",
+    "bytes": 216575,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_112.uasset",
+    "sha256": "fa01a4be3f644e82c9a4c97d4bfd51874cbd387d26aed4781241dcb456197ceb",
+    "bytes": 759881,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_113.uasset",
+    "sha256": "cace661e14b1b0735c5bcb9e1025cce329bb6d557f7361258e93eee6f2b8d74e",
+    "bytes": 663583,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_114.uasset",
+    "sha256": "182e1475325575481138260167ca1cdd35f8a132a85601bdd03b319b19f2977d",
+    "bytes": 724512,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_115.uasset",
+    "sha256": "7ada26d8905569f8ca1cd9345e4c08f1d6e2539749c19421722c8d28cf9f48f7",
+    "bytes": 585340,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_116.uasset",
+    "sha256": "05c99d7ba5b0878cd5a360c7ade922341547e2ab6b11ef406b20a4560ff53957",
+    "bytes": 901806,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_117.uasset",
+    "sha256": "f05cfe16cf7072a0b1826182e191c4dcbdfc72b9856a1fef3ae83da206fdd6c0",
+    "bytes": 415950,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_118.uasset",
+    "sha256": "89737ef8fb659c972de39cbe64facd5bab7555eac0f0eb7a1be8b638654cde46",
+    "bytes": 904160,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_119.uasset",
+    "sha256": "b8be2792392e92f79edf1502bf794e436b2ad7ca52138ca802df5b421f0a8cc4",
+    "bytes": 316424,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_120.uasset",
+    "sha256": "45db53d9a67f6637b4c94342c8cbed0b6447d7e5582832640a0542686cfd297b",
+    "bytes": 895693,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_121.uasset",
+    "sha256": "a2674395d9cf8ea7e18863b8aa8df367d11ad80d0e8b6a2e7fc461a60d909613",
+    "bytes": 908727,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_122.uasset",
+    "sha256": "6253bf09a5446f8feb6461ebb6f3e98b260c71a5e414ecd9df449595ce55f597",
+    "bytes": 883957,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_123.uasset",
+    "sha256": "a4088075eceb994909594e5a00a4e59a93227b3510d78d15b03e1a7706a10e12",
+    "bytes": 358505,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_124.uasset",
+    "sha256": "e01b1ca752b8d46a12bb01f661edc32f4746b7da7c8ebe7c83d3c46260a34c74",
+    "bytes": 369140,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_125.uasset",
+    "sha256": "04b529c05eb5266e0179b7ffd4df0b21314a8be5b00a0cbc192f5c32d938599a",
+    "bytes": 338131,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_126.uasset",
+    "sha256": "37667ec039df39ed29ecd977b7801c3a644d3a83ea352e5742e7f6fce87044ef",
+    "bytes": 325990,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_127.uasset",
+    "sha256": "4492266184db678d8fd214d3b8f6f61f96509720d93a23908de3253185ceefdb",
+    "bytes": 322313,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_128.uasset",
+    "sha256": "d3530721c5052991308bf743ff5a47ae091bbab810664c19607a4f969db3f7d5",
+    "bytes": 303656,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_129.uasset",
+    "sha256": "1ceb5ac255c21a51209035bcbdb8511f061414fbca786a317f3edf4e68e6ee3f",
+    "bytes": 363604,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_130.uasset",
+    "sha256": "b2799b461bd16e8698b370d9aa4fbfe26ae84ae4aafc4e8f753ca681ff43ddcf",
+    "bytes": 278513,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_131.uasset",
+    "sha256": "d972a522eb3d45b64382dc0aed3e7c6c9d5a135530b6ed0618d1d5406148f20b",
+    "bytes": 287657,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_132.uasset",
+    "sha256": "d26597f7b1313f4544afbde1e07a2d54e8783bd524ade42afb64a4e533707ab3",
+    "bytes": 330437,
+    "existed": false
+  },
+  {
+    "path": "World/BogotaUrban/StreetFrontages/SM_StreetFrontage_133.uasset",
+    "sha256": "bf786d1928b5840d84e1582ccd422becc813458d3beb93f77a8eb3d3505478cd",
+    "bytes": 342762,
+    "existed": false
+  }
+]

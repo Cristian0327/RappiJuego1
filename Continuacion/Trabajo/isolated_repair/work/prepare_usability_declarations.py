@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('outputs/BogotaVoxel/Source/BogotaVoxel/DeliverySystem.h');s=p.read_text().replace(' void UpdateUsabilityValidation(float Dt);',' void UpdateUsabilityValidation(float Dt);\n void HandleInputSuspended();').replace(' UPROPERTY() UButton* ModelBuyButton=nullptr;',' UPROPERTY() UButton* ModelBuyButton=nullptr;\n UPROPERTY() UButton* ModelEquipButton=nullptr;');p.write_text(s)

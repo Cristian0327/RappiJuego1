@@ -1,0 +1,20 @@
+{
+  "status": "STAGING_LAYOUT_COMPILED",
+  "functions": [],
+  "open_logical_size": [
+    420,
+    680
+  ],
+  "closed_logical_size": [
+    300,
+    180
+  ],
+  "uniform_dpi_scale": true,
+  "pending": [
+    "UI initialization/creation",
+    "Persistent HUD close behavior",
+    "Map/preview rendering",
+    "Button/key events",
+    "Data detail/highlight polish"
+  ]
+}

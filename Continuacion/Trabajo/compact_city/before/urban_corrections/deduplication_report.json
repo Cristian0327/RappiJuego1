@@ -1,0 +1,72 @@
+[
+  {
+    "source": "B\u00e9zierCurve_0",
+    "retained_segments": 2,
+    "retained_length_m": 305.3095219399997
+  },
+  {
+    "source": "B\u00e9zierCurve_1",
+    "retained_segments": 1,
+    "retained_length_m": 303.78407531277213
+  },
+  {
+    "source": "B\u00e9zierCurve_2",
+    "retained_segments": 1,
+    "retained_length_m": 172.09855502809037
+  },
+  {
+    "source": "B\u00e9zierCurve_3",
+    "retained_segments": 1,
+    "retained_length_m": 186.48496354415923
+  },
+  {
+    "source": "B\u00e9zierCurve_4",
+    "retained_segments": 1,
+    "retained_length_m": 137.8570528036726
+  },
+  {
+    "source": "B\u00e9zierCurve_5",
+    "retained_segments": 1,
+    "retained_length_m": 102.15586945479846
+  },
+  {
+    "source": "B\u00e9zierCurve.006_1",
+    "retained_segments": 2,
+    "retained_length_m": 108.0347411229377
+  },
+  {
+    "source": "B\u00e9zierCurve.008_0",
+    "retained_segments": 2,
+    "retained_length_m": 253.78233387778718
+  },
+  {
+    "source": "B\u00e9zierCurve.009_0",
+    "retained_segments": 2,
+    "retained_length_m": 581.5912274590872
+  },
+  {
+    "source": "B\u00e9zierCurve.010_0",
+    "retained_segments": 2,
+    "retained_length_m": 261.51389755541567
+  },
+  {
+    "source": "B\u00e9zierCurve.011_0",
+    "retained_segments": 1,
+    "retained_length_m": 77.00901386482302
+  },
+  {
+    "source": "B\u00e9zierCurve.012_0",
+    "retained_segments": 2,
+    "retained_length_m": 156.12977021973728
+  },
+  {
+    "source": "B\u00e9zierCurve.013_0",
+    "retained_segments": 0,
+    "retained_length_m": 0.0
+  },
+  {
+    "source": "B\u00e9zierCurve.014_0",
+    "retained_segments": 2,
+    "retained_length_m": 203.1398501675356
+  }
+]

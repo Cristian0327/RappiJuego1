@@ -1,0 +1,182 @@
+[
+  {
+    "source": "M005_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 06",
+    "copy": "M005_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 06 | complemento",
+    "position": [
+      14573.988547753908,
+      42866.69969448242,
+      0
+    ]
+  },
+  {
+    "source": "M005_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 06.001",
+    "copy": "M005_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 06.001 | complemento",
+    "position": [
+      10054.805930566408,
+      43450.99867519531,
+      0
+    ]
+  },
+  {
+    "source": "M009_LOD0 | Centro | centro | 02 \u00b7 Casas intermedias \u00b7 04.005",
+    "copy": "M009_LOD0 | Centro | centro | 02 \u00b7 Casas intermedias \u00b7 04.005 | complemento",
+    "position": [
+      17154.593284082035,
+      36459.10469326172,
+      0
+    ]
+  },
+  {
+    "source": "M016_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 04.002",
+    "copy": "M016_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 04.002 | complemento",
+    "position": [
+      38024.67800087891,
+      -48196.21513095703,
+      0
+    ]
+  },
+  {
+    "source": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.001",
+    "copy": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.001 | complemento",
+    "position": [
+      -26242.25071005859,
+      56345.33906826172,
+      0
+    ]
+  },
+  {
+    "source": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.005",
+    "copy": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.005 | complemento",
+    "position": [
+      -282.0094008926378,
+      47927.23173793945,
+      0
+    ]
+  },
+  {
+    "source": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.006",
+    "copy": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.006 | complemento",
+    "position": [
+      -1587.385588217162,
+      61490.622790185545,
+      0
+    ]
+  },
+  {
+    "source": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.014",
+    "copy": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.014 | complemento",
+    "position": [
+      49955.80068154297,
+      -69990.1132022461,
+      0
+    ]
+  },
+  {
+    "source": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.015",
+    "copy": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.015 | complemento",
+    "position": [
+      13029.233054589844,
+      -67082.87968173828,
+      0
+    ]
+  },
+  {
+    "source": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.016",
+    "copy": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde.016 | complemento",
+    "position": [
+      50991.338584375,
+      -61944.8862125,
+      0
+    ]
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.005",
+    "copy": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.005 | complemento",
+    "position": [
+      3690.4680733200084,
+      46535.04982265625,
+      0
+    ]
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.006",
+    "copy": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.006 | complemento",
+    "position": [
+      -5962.683968115233,
+      60706.601305810545,
+      0
+    ]
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.009",
+    "copy": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.009 | complemento",
+    "position": [
+      51014.968589257805,
+      -60820.58628574218,
+      0
+    ]
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.014",
+    "copy": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.014 | complemento",
+    "position": [
+      -8092.345985937499,
+      47096.05147060547,
+      0
+    ]
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.018",
+    "copy": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.018 | complemento",
+    "position": [
+      49755.9104227539,
+      -47973.57999912109,
+      0
+    ]
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.019",
+    "copy": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.019 | complemento",
+    "position": [
+      51493.39235634766,
+      -63876.70683017578,
+      0
+    ]
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.030",
+    "copy": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.030 | complemento",
+    "position": [
+      27583.744101953125,
+      -70708.80033603516,
+      0
+    ]
+  },
+  {
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.032",
+    "copy": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris.032 | complemento",
+    "position": [
+      34800.374473046875,
+      -66030.3895694336,
+      0
+    ]
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.002",
+    "copy": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.002 | complemento",
+    "position": [
+      -27570.531837988277,
+      44179.70863613281,
+      0
+    ]
+  },
+  {
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.006",
+    "copy": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa.006 | complemento",
+    "position": [
+      -2884.172432470702,
+      59878.121966210936,
+      0
+    ]
+  }
+]

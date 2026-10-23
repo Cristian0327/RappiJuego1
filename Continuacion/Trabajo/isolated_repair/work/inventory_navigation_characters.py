@@ -1,0 +1,6 @@
+import unreal,json,hashlib
+from pathlib import Path
+r=Path(unreal.Paths.project_dir()).parent;reg=unreal.AssetRegistryHelpers.get_asset_registry();reg.search_all_assets(True);paths=[str(x.package_name) for x in reg.get_assets_by_path('/Game/Crowd',recursive=True) if str(x.asset_name).startswith(('AN_','SK_'))];report={'crowd_assets':paths,'prototype':'ENGINE_NAVIGATION_PATH_AROUND_WALL=true in work/PureNavigationPrototypeQA.log','rider_initial_orientation':{}}
+for name in ['BP_BlueprintRider','BP_PureRiderVehicleFixture']:
+ path='/Game/Delivery/BlueprintGameplay/Player/'+name if name=='BP_BlueprintRider' else '/Game/QA/'+name;bp=unreal.load_asset(path);c=unreal.get_default_object(bp.generated_class());rot=c.get_editor_property('mesh').get_editor_property('relative_rotation');assert abs(rot.pitch)<.001 and abs(rot.roll)<.001 and abs(rot.yaw+90)<.001,(path,rot);report['rider_initial_orientation'][path]={'pitch':rot.pitch,'yaw':rot.yaw,'roll':rot.roll}
+report['cane_sha256']=hashlib.sha256((r/'RappiJuego1/Content/Crowd/AN_CrowdCane.uasset').read_bytes()).hexdigest();assert report['cane_sha256']=='1742c809c0799c7abc0b7167d415febafb2dd6290787335d39536e9bccfc461e';(r/'work/navigation_and_character_inventory.json').write_text(json.dumps(report,indent=2));unreal.log('NAVIGATION_CHARACTER_INVENTORY_AND_ROTATION_PASS')

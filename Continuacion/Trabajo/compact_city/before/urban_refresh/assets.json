@@ -1,0 +1,58 @@
+[
+  {
+    "name": "SM_Bogota_Banca",
+    "polygons": 84
+  },
+  {
+    "name": "SM_Bogota_Caneca",
+    "polygons": 126
+  },
+  {
+    "name": "SM_Bogota_Bolardo",
+    "polygons": 18
+  },
+  {
+    "name": "SM_Bogota_Farola",
+    "polygons": 24
+  },
+  {
+    "name": "SM_Bogota_FarolaLuz",
+    "polygons": 6
+  },
+  {
+    "name": "SM_Bogota_SemaforoPoste",
+    "polygons": 48
+  },
+  {
+    "name": "SM_Bogota_SemaforoRojo",
+    "polygons": 6
+  },
+  {
+    "name": "SM_Bogota_SemaforoAmarillo",
+    "polygons": 6
+  },
+  {
+    "name": "SM_Bogota_SemaforoVerde",
+    "polygons": 6
+  },
+  {
+    "name": "SM_Bogota_SemaforoPeaton",
+    "polygons": 36
+  },
+  {
+    "name": "SM_Bogota_SemaforoPeatonRojo",
+    "polygons": 36
+  },
+  {
+    "name": "SM_Bogota_CruceAccesible",
+    "polygons": 396
+  },
+  {
+    "name": "SM_Bogota_EstacionTransmi",
+    "polygons": 4206
+  },
+  {
+    "name": "SM_Bogota_PuertaEstacion",
+    "polygons": 36
+  }
+]

@@ -1,3 +1,5 @@
+> Estado de desarrollo pausado (test / Michaelxd). Las calles y los pedidos tienen pruebas aprobadas; el trafico sigue pendiente. Leer [el informe de continuacion](Continuacion/CONTINUAR_EN_OTRO_PC.md).
+
 # Bogotá Voxel — proyecto editable de Unreal
 
 Abre **BogotaVoxel.uproject** con Unreal Engine **5.8.3** y pulsa **Play**. El mapa inicial es `/Game/Maps/Bogota_Blueprint_Integration`.

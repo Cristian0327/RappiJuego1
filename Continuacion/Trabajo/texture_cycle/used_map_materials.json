@@ -1,0 +1,755 @@
+[
+  {
+    "actor": "BP_CallesSecundarias_C",
+    "component": "RoadNetwork",
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_CallesSecundarias.SM_Bogota_CallesSecundarias",
+    "materials": [
+      "/Game/World/BogotaUrban/M_BogotaUrban.M_BogotaUrban"
+    ]
+  },
+  {
+    "actor": "BP_CallesSecundarias_C",
+    "component": "StationAccess",
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_AccesosEstaciones.SM_Bogota_AccesosEstaciones",
+    "materials": [
+      "/Game/World/BogotaUrban/M_BogotaUrban.M_BogotaUrban"
+    ]
+  },
+  {
+    "actor": "BP_CallesSecundarias_C",
+    "component": "JunctionMarkings",
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_MarcasInterseccion.SM_Bogota_MarcasInterseccion",
+    "materials": [
+      "/Game/World/BogotaUrban/M_BogotaUrban.M_BogotaUrban"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part000",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_000.SM_Mapa_000",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part001",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_001.SM_Mapa_001",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part002",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_002.SM_Mapa_002",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part003",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_003.SM_Mapa_003",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part004",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_004.SM_Mapa_004",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part005",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_005.SM_Mapa_005",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part006",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_006.SM_Mapa_006",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part007",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_007.SM_Mapa_007",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part008",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_008.SM_Mapa_008",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part009",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_009.SM_Mapa_009",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part010",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_010.SM_Mapa_010",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part011",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_011.SM_Mapa_011",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part012",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_012.SM_Mapa_012",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part013",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_013.SM_Mapa_013",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part014",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_014.SM_Mapa_014",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part015",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_015.SM_Mapa_015",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part016",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_016.SM_Mapa_016",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part017",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_017.SM_Mapa_017",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part018",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_018.SM_Mapa_018",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part019",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_019.SM_Mapa_019",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part020",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_020.SM_Mapa_020",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part021",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_021.SM_Mapa_021",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part022",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_022.SM_Mapa_022",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part023",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_023.SM_Mapa_023",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part024",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_024.SM_Mapa_024",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part025",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_025.SM_Mapa_025",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part026",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_026.SM_Mapa_026",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part027",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_027.SM_Mapa_027",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part028",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_028.SM_Mapa_028",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part029",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_029.SM_Mapa_029",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part030",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_030.SM_Mapa_030",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part031",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_031.SM_Mapa_031",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part032",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_032.SM_Mapa_032",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part033",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_033.SM_Mapa_033",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part034",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_034.SM_Mapa_034",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part035",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_035.SM_Mapa_035",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part036",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_036.SM_Mapa_036",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part037",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_037.SM_Mapa_037",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part038",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_038.SM_Mapa_038",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part039",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_039.SM_Mapa_039",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part040",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_040.SM_Mapa_040",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part041",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_041.SM_Mapa_041",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part042",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_042.SM_Mapa_042",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part043",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_043.SM_Mapa_043",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part044",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_044.SM_Mapa_044",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part045",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_045.SM_Mapa_045",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part046",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_046.SM_Mapa_046",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part047",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_047.SM_Mapa_047",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part048",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_048.SM_Mapa_048",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part049",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_049.SM_Mapa_049",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part050",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_050.SM_Mapa_050",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part051",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_051.SM_Mapa_051",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part052",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_052.SM_Mapa_052",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part053",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_053.SM_Mapa_053",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part054",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_054.SM_Mapa_054",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part055",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_055.SM_Mapa_055",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part056",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_056.SM_Mapa_056",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part057",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_057.SM_Mapa_057",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part058",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_058.SM_Mapa_058",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part059",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_059.SM_Mapa_059",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part060",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_060.SM_Mapa_060",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part061",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_061.SM_Mapa_061",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part062",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_062.SM_Mapa_062",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part063",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_063.SM_Mapa_063",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part064",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_064.SM_Mapa_064",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part065",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_065.SM_Mapa_065",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part066",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_066.SM_Mapa_066",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part067",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_067.SM_Mapa_067",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part068",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_068.SM_Mapa_068",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part069",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_069.SM_Mapa_069",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part070",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_070.SM_Mapa_070",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part071",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_071.SM_Mapa_071",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part072",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_072.SM_Mapa_072",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part073",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_073.SM_Mapa_073",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part074",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_074.SM_Mapa_074",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part075",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_075.SM_Mapa_075",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part076",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_076.SM_Mapa_076",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part077",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_077.SM_Mapa_077",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part078",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_078.SM_Mapa_078",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part079",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_079.SM_Mapa_079",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part080",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_080.SM_Mapa_080",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_MapaVoxel.M_MapaVoxel"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part081",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_081.SM_Mapa_081",
+    "materials": [
+      "/Game/Maps/MapaCompleto/M_AndenesBogota.M_AndenesBogota",
+      "/Game/Maps/MapaCompleto/M_AndenesBogota.M_AndenesBogota"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part082",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_Road_0.SM_Mapa_Road_0",
+    "materials": [
+      "/Game/World/BogotaUrban/M_BogotaUrban.M_BogotaUrban"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part083",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_Road_1.SM_Mapa_Road_1",
+    "materials": [
+      "/Game/World/BogotaUrban/M_BogotaUrban.M_BogotaUrban"
+    ]
+  },
+  {
+    "actor": "BP_MapaCompletoGeometry_C",
+    "component": "Part084",
+    "mesh": "/Game/Maps/MapaCompleto/Geometry/SM_Mapa_Road_2.SM_Mapa_Road_2",
+    "materials": [
+      "/Game/World/BogotaUrban/M_BogotaUrban.M_BogotaUrban"
+    ]
+  },
+  {
+    "actor": "BP_BogotaUrbanDressing_C",
+    "component": "UrbanPart0",
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola.SM_Bogota_Farola",
+    "materials": [
+      "/Game/World/BogotaUrban/M_BogotaUrban.M_BogotaUrban"
+    ]
+  },
+  {
+    "actor": "BP_BogotaUrbanDressing_C",
+    "component": "UrbanPart1",
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_FarolaLuz.SM_Bogota_FarolaLuz",
+    "materials": [
+      "/Game/World/BogotaUrban/M_BogotaSignalEmission.M_BogotaSignalEmission"
+    ]
+  },
+  {
+    "actor": "BP_BogotaUrbanDressing_C",
+    "component": "UrbanPart2",
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Banca.SM_Bogota_Banca",
+    "materials": [
+      "/Game/World/BogotaUrban/M_BogotaUrban.M_BogotaUrban"
+    ]
+  },
+  {
+    "actor": "BP_BogotaUrbanDressing_C",
+    "component": "UrbanPart3",
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Caneca.SM_Bogota_Caneca",
+    "materials": [
+      "/Game/World/BogotaUrban/M_BogotaUrban.M_BogotaUrban"
+    ]
+  },
+  {
+    "actor": "BP_BogotaUrbanDressing_C",
+    "component": "UrbanPart4",
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Bolardo.SM_Bogota_Bolardo",
+    "materials": [
+      "/Game/World/BogotaUrban/M_BogotaUrban.M_BogotaUrban"
+    ]
+  },
+  {
+    "actor": "BP_BogotaUrbanDressing_C",
+    "component": "UrbanPart5",
+    "mesh": "/Game/World/BogotaUrban/Geometry/SM_Bogota_CruceAccesible.SM_Bogota_CruceAccesible",
+    "materials": [
+      "/Game/World/BogotaUrban/M_BogotaUrban.M_BogotaUrban"
+    ]
+  }
+]

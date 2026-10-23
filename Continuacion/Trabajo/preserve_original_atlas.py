@@ -1,0 +1,2 @@
+import unreal
+m=unreal.load_asset('/Game/Traffic/Detailed/M_TrafficVoxelVertex');m.set_editor_property('blend_mode',unreal.BlendMode.BLEND_OPAQUE);m.set_editor_property('two_sided',True);m.set_editor_property('dithered_lod_transition',False);unreal.MaterialEditingLibrary.recompile_material(m);assert unreal.EditorAssetLibrary.save_loaded_asset(m,only_if_is_dirty=False);unreal.log('ORIGINAL_ATLAS_SOLID_PASS')

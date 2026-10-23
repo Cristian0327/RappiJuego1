@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "severity_values": [
+    0.0,
+    0.25,
+    0.7,
+    1.0
+  ],
+  "samples": 1440
+}

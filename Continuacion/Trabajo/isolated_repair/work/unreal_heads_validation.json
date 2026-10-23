@@ -1,0 +1,363 @@
+{
+  "0": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "1": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "2": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "3": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "4": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "5": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "6": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "7": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "8": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "9": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "10": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "11": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "12": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "13": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "14": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "15": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "16": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "17": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "18": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "19": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "20": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "21": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "22": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "23": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "24": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "25": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "26": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "27": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "28": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "29": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "30": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "31": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "32": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "33": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "34": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "35": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "36": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "37": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "38": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "39": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "40": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "41": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "42": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "43": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "44": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "45": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "46": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "47": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "48": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "49": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "50": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "51": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "52": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "53": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "54": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "55": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "56": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "57": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "58": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "59": {
+    "bones": 24,
+    "head": true,
+    "cane": true,
+    "material": true
+  },
+  "status": "PASS"
+}

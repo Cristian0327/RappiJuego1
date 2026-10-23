@@ -1,0 +1,922 @@
+[
+  {
+    "path": "Content/Delivery/BlueprintGameplay/UI/WBP_BlueprintPhone.uasset",
+    "before": "62493d32c307c56a4d3b78477b22e1a9cea388fae1bbeb36c8aa92353f7673de",
+    "after": "d2a88a977ae53ed1c5fb3c60613310be86a9033c9594325975c1ac70602fad27"
+  },
+  {
+    "path": "Content/Delivery/BlueprintGameplay/World/BP_ResidentialRouteAssembler.uasset",
+    "before": "8b7985141ce9b4496de897eb02b027e1d1e5aab0a5acf4ff37ad589e2a3130a5",
+    "after": "7b71e212fff478f7ee9a561113088729766184554bdf242a363d8994d1ce666d"
+  },
+  {
+    "path": "Content/Maps/MapaCompleto_Integration.umap",
+    "before": "8a8731e1f0c093df1266e01393c04ce89b48972ea5036a6f328317987432bd9e",
+    "after": "239c0929006da949c682b8b1ed6ff7b7cf28ab4ce85dc784bd90b699c3a2e315"
+  },
+  {
+    "path": "Content/Maps/MapaCompleto/BP_MapaCompletoGeometry.uasset",
+    "before": "4af59102f0f5055488ea323de0ee4c97d21ec42183725a5f83fc768e5b452803",
+    "after": "ec7c7b0666022e1032de6cffc18a583f30ee1ba79b8138f6764bdc977b70b1a7"
+  },
+  {
+    "path": "Content/Maps/MapaCompleto/Geometry/SM_Mapa_081.uasset",
+    "before": "dcf34e0dda7d5db8f6a3c29bf485506a3c405a8f6790ed607e77fd53bef626c5",
+    "after": "6619ac35210e0c7ad91fccd66fcc49349ef817d4ac1fcc54812882738b67e1a8"
+  },
+  {
+    "path": "Content/Maps/MapaCompleto/Geometry/SM_Mapa_Road_0.uasset",
+    "before": "f7288fe4ae39f61a0eb6fd5600f96277daef09119ea6c6992999edc3173a71e2",
+    "after": "49570e52e5d222fcc0520771e5ef8592b8a1fd27ce9aee37261e97411007db0c"
+  },
+  {
+    "path": "Content/Maps/MapaCompleto/Geometry/SM_Mapa_Road_1.uasset",
+    "before": "15460ea3077bb572b44811e722e29a51eb9859fbe1150602f081679fe8c94261",
+    "after": "b41eacde6534b5c2bdc0a1394815f8b82375d50e82b4339b2705b6b775c08fe0"
+  },
+  {
+    "path": "Content/Maps/MapaCompleto/Geometry/SM_Mapa_Road_2.uasset",
+    "before": "1f7e640596152ad2ef78e73e30e14599181f47dd05d6fc0bdf5cd92003b5d31e",
+    "after": "86426a99ef751646d211b842510dd3d46281ffb03649e203aa17970abe6e62b1"
+  },
+  {
+    "path": "Content/QA/AdaptationTraffic.umap",
+    "before": null,
+    "after": "26dbba70b6883235b3cb04417cad485b6de7303ec33639a46222a6978154d90a"
+  },
+  {
+    "path": "Content/QA/BP_AdaptationTrafficProbe.uasset",
+    "before": null,
+    "after": "fa3d2e271cf79b23a7d201cd27ac763ab2ad846649680d7ce26a4b6a50000751"
+  },
+  {
+    "path": "Content/QA/BP_FoodAcceptanceProbe.uasset",
+    "before": null,
+    "after": "dc4537dbec0b1cb7ec476c8a97b3930bb6a9d83ae814aa415061e4c480509890"
+  },
+  {
+    "path": "Content/QA/BP_GameplayAcceptanceProbe.uasset",
+    "before": "873a5b968fc2a678d1a6b284ab3a697899e89421783adf789c2b055c05808960",
+    "after": "eaa2f84cd36c3e55b77a740a8cb4473532dc9610932e71204f3e2db05db039ae"
+  },
+  {
+    "path": "Content/QA/BP_MapOverviewProbe.uasset",
+    "before": null,
+    "after": "68021789e7cc1f2e86c3a66c6dfbe307b6a0ac54fa83aace75f99997484456bb"
+  },
+  {
+    "path": "Content/QA/BP_PatrolHeadingProbe.uasset",
+    "before": null,
+    "after": "d43ad8764682070dfcb70ca939adbdf5a6052e35e3a7141a6e3c086412c2039e"
+  },
+  {
+    "path": "Content/QA/BP_PhoneActionsProbe.uasset",
+    "before": null,
+    "after": "f2411753039ab8f4515ba704f4f64ec0f79868bf6a2e592a0fe7e9d064ce09dd"
+  },
+  {
+    "path": "Content/QA/BP_PhysicalStreetAudit.uasset",
+    "before": null,
+    "after": "35d6702df00642b180e1f84638fd4874b5b0d7638c908850114dbde52487bfe3"
+  },
+  {
+    "path": "Content/QA/BP_PhysicsRegressionProbe.uasset",
+    "before": null,
+    "after": "b22c62e3d66332f541222de04cab1ead3f516a1ee03ae64a216d91986012b56b"
+  },
+  {
+    "path": "Content/QA/BP_TestStationPassenger.uasset",
+    "before": "70f3bb17445c3cc5603ddd1ba335810f397d332a7d9e60f0c5009b90f4824cfc",
+    "after": "5961bb1d974078c93ec86ffd9c0e818dfafeddead20d9554dbb5e489e1772c96"
+  },
+  {
+    "path": "Content/QA/FoodAcceptance.umap",
+    "before": null,
+    "after": "88206f1d5172209c4c794679cd952e3152ae635c4cfd4f979ab820b37d23eff3"
+  },
+  {
+    "path": "Content/QA/GameplayAcceptance.umap",
+    "before": "e271f8e9ed1cfb8cf217b652f83f25a2cb137f02eae625e7959426738bc9c926",
+    "after": "39c27e87225233fc065e35eac3e95e3b23725db9f4959bfa0a81ee77e9a5855e"
+  },
+  {
+    "path": "Content/QA/MapOverview.umap",
+    "before": null,
+    "after": "d5ad87ef2ff373b1e43b88c22ceefe783ab9ae254a30049d30fbd4b1fb91eb60"
+  },
+  {
+    "path": "Content/QA/NewMapTransit.umap",
+    "before": "a5bc8f5c7004171b706bc3ea68a29841211389cb3ffc2badfa5269884cffb2fc",
+    "after": "7c4c55d29683e11884a61c8c38711bfa561d03a43627920a125a5e08b8188cbe"
+  },
+  {
+    "path": "Content/QA/PatrolHeading.umap",
+    "before": null,
+    "after": "75fac0c5137a282c7072895668e144e8de5a6d4524c77408199bcec751efc2bc"
+  },
+  {
+    "path": "Content/QA/PhoneActions.umap",
+    "before": null,
+    "after": "0403f15567b79e559937d973547c8d52d68a9c84e0ea8793dbd1200d4907b31b"
+  },
+  {
+    "path": "Content/QA/PhysicsRegression.umap",
+    "before": null,
+    "after": "ad5604ecb9ad7d2b21c2ec87d69bc9769e7dc6d7b0019e84375c6850e987763c"
+  },
+  {
+    "path": "Content/Traffic/Services/BP_CivilMotorcycle.uasset",
+    "before": "e729cf2372881643f193fc6ebb3740d5ebf7d0a5a771141ae606ed300f62a8c9",
+    "after": "1ce21d7977a8ce481474be3a7e4577ed1fd7deacc3b5c80d95f20caab57c2b21"
+  },
+  {
+    "path": "Content/Traffic/Services/BP_PoliceMotorcycle.uasset",
+    "before": "a48dcce73a11ac2c25f18c04efe1f408f7d260f26c664790a6947ff343bd90ab",
+    "after": "24eceae1d740eb41ae7a441b9538ec19e31f51eeb794e8888b3838462c81eb6e"
+  },
+  {
+    "path": "Content/Traffic/Services/BP_PoliceRoadPatrol.uasset",
+    "before": "7802a6b318302c15dbfcdeb1bbdeb3bae7a657fc8ae5f3d1d71031cb6e37fa4c",
+    "after": "c1c215ea546d0516a452ef0be4ca9719fc20f3a4a47dc37d8866586e7d3c6d7f"
+  },
+  {
+    "path": "Content/Traffic/Services/BP_TwoWheelerCitizen.uasset",
+    "before": "5bf7a4deeea639e831e1ebf77e5331397038c4b1144514eb580d48a20accb303",
+    "after": "76b782058e2dba3de7672d9f99e790cd654610b45b65ea9b81352ff47c048983"
+  },
+  {
+    "path": "Content/Traffic/Services/BP_VoxelRoadVehicle.uasset",
+    "before": "1e667da8bfb1a13c15351fc531c581d1ed54066ee9fe6963381569c702780b0f",
+    "after": "42b8c460a89263ada9bc95b522c2ac9d80a59b43c96af17823547e52ee226c61"
+  },
+  {
+    "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficCell.uasset",
+    "before": "9d468c35d1328da2e9faa68d776a5d7c17f190d3490f259d9ce2ddfbf13a3bbb",
+    "after": "a4ff7e5f2b824b9679477c58758fd9e89748e5fa38d3a9ad9a00bcf022fb007f"
+  },
+  {
+    "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficJunction.uasset",
+    "before": "97809c8805d87001a111e9ce84f66ac5317f89b72d7ba30d612f8ff81fcfd2fa",
+    "after": "98847d9dddeb333403296b3eae8974abcab6960b58bf00c95ff76c270422bf9e"
+  },
+  {
+    "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficLane.uasset",
+    "before": "d93a6e37a423c2cb2198a5a4b1b827a9f318a20b565bde16790aeaf1ab1f61c9",
+    "after": "bcae5c5c6b252e39becf50797dd680ef8dd92c9cc28a02b4c9b59778e29f4fa6"
+  },
+  {
+    "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficLane_0.uasset",
+    "before": "12003ec8c52811e358cfedd24ad717a398dd4c00f079bd3dbb1324111ec8cce8",
+    "after": "0407ec4b066dd4a55cb112a18ab26619ea6516e385e59c19e62228315737f180"
+  },
+  {
+    "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficLane_1.uasset",
+    "before": "5f55a191f477c3684fec0998593f157a497de9809449ed2fb0259984604d9bce",
+    "after": "dec673bc60344037f4985709cf6a7a294815baab0242d9a3788a676b9d4d2a62"
+  },
+  {
+    "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficLane_2.uasset",
+    "before": "7092ac3b67269ab4a5c0870ffdeb7a10861caee12dba1fb3e31bafa030c729d7",
+    "after": "a3aa840829f96132dde34efd59e456d0a24a986b2c4f46256494c1561fa5e42e"
+  },
+  {
+    "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficLane_3.uasset",
+    "before": "d780e7b2a2b8473573ec4dfc386c2f81d0239bc59a872ba85e617c8237920a86",
+    "after": "fc8c7fb89e06c5e141fe3c56495a8f807f407cacd6ab5cf4c636e6b9916efb69"
+  },
+  {
+    "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficLane_4.uasset",
+    "before": "2e55ffa2866dd3a5e79478b969105b62950ff5bbf0cfe89aac966a007d9bf396",
+    "after": "463bd875b227e9073d5cb3373363fdb269abde88d32f7318c3bf3d6953c789e8"
+  },
+  {
+    "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficLane_5.uasset",
+    "before": "82275b22c0bf3305365a5e58394bd36be15e7630eaff22d7d79487fe747bd2ba",
+    "after": "e587a0cca572bb67acd65f0d90258b8491fcf1b56746189368965bf462b0ad8e"
+  },
+  {
+    "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficLane_6.uasset",
+    "before": "092cdb71f0e21ec6c6f312b58d581ba0fc941e5b2f4fb8af3f9277f47d7c1a9f",
+    "after": "2636e0c29de089c85f4c4723d4b09b5d8a2a50b196ce5f3d4777a4ca9a6d0803"
+  },
+  {
+    "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficManager.uasset",
+    "before": "51d6aea358eabef15cac4584559fdb3d6051dc745ed46fb14f10de387278bda6",
+    "after": "05da5996ebc0b1bc401be33df1610a255af7314279cb7ad6753aeda1603c0769"
+  },
+  {
+    "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficVehicle.uasset",
+    "before": "ace0889d52aae0d98fc9f5edbe364978553946c2ac55c7401c19d1be8957112b",
+    "after": "51993377dc91fd9faf9b055bfe17aeb80e57c9a9541905fe36258fdbe29f1518"
+  },
+  {
+    "path": "Content/World/BogotaUrban/BP_BogotaServiceSignals.uasset",
+    "before": "01b7e9341096493b71ee1921c598f340afc4a920ec2be34a293b7cc1b0073f80",
+    "after": "929193cbe9e43f395bd6b4ca94018e9e3164d6deb43f76d63c77114b6cc97b48"
+  },
+  {
+    "path": "Content/World/BogotaUrban/BP_BogotaUrbanDressing.uasset",
+    "before": "86166e268de2f40ede97c299b44d936144fe9d07488cb4e54bc69a3a8a9f58df",
+    "after": "5e8f66034204ea30e3f9da8898e156924ddfbbc76d2520dd2f8aa5832d1d430e"
+  },
+  {
+    "path": "Content/World/BogotaUrban/BP_RoadNavigation.uasset",
+    "before": "355808507537f152367f060314b69ddf784f152835bb59f5d7c875d1d68a13cf",
+    "after": "d3a665a49739abd5754536988d69108a5182f0de82951f923766c6f6f9948d37"
+  },
+  {
+    "path": "Content/World/BogotaUrban/T_UrbanGroundPriority.uasset",
+    "before": "9e5fb7e753d0fd02ff0153825117090fe886661869493bbfe8c111e29708d4ae",
+    "after": "a03502307e55fa63fe3f5a2a1aa84468ae803afc66f6ba0674f8962101e1dc8c"
+  },
+  {
+    "path": "Content/World/BogotaUrban/Geometry/SM_Bogota_AccesosEstaciones.uasset",
+    "before": "6c45726101759866cf492105b9416885a0edec4d0a04faf672cfe7481c30d05b",
+    "after": "5ccba586f4148821bb3235f4b1ac654b7ac2aee5c3d82a970e18bf4e291296c4"
+  },
+  {
+    "path": "Content/World/BogotaUrban/Geometry/SM_Bogota_CallesSecundarias.uasset",
+    "before": "c6b60ec346b6b31ee81881872947c52b90dc38e24f380c2da537a87c3dc9376a",
+    "after": "ae82376cf38001efeb3bcc26e1eb0014f4d81962e0fc7ce11fc222309af1b1ad"
+  },
+  {
+    "path": "Content/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi_Compacta.uasset",
+    "before": null,
+    "after": "0a982ff10422398168a913fc16be5a5d0ed16b9cb6a66b9e4f2b74b2b6adc5fe"
+  },
+  {
+    "path": "Content/World/BogotaUrban/Geometry/SM_Bogota_MarcasInterseccion.uasset",
+    "before": "e378973036e5823f7c4502726fc4741d022cd2e107636df62662bccfaa5bde31",
+    "after": "ced057f23c5794efaf4cfa24a2d84cdca124ee9e3f202b02d75df865ad3e07c3"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_000.uasset",
+    "before": null,
+    "after": "acb615ef1232f236e96b88b45bc65ed728e94ef526490eef4c38550e9625923a"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_001.uasset",
+    "before": null,
+    "after": "4a59537b3ee015018f3b45053b3afc8058da68934549910e84703ec2a8b866af"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_002.uasset",
+    "before": null,
+    "after": "c5f4114fb4645190cc1bee841658f843dae1d05e803c136abf71212ac1bc8f2f"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_003.uasset",
+    "before": null,
+    "after": "3acde3296ed77095ca8b97becb2ddf5d2bf38944b8af7bc858e122ad244084ca"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_004.uasset",
+    "before": null,
+    "after": "e9011954e84f0e57f801ae7c2afdaf53d04bb179393791c51fa37302e2dc40cd"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_005.uasset",
+    "before": null,
+    "after": "739239369c6894838092e917d212e9a40ee5be53d480b32109834608fe81e97f"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_006.uasset",
+    "before": null,
+    "after": "f657e71ad23c5e449ac1a48d577c8901be2952e590a34fd4d70c542d1b620a29"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_007.uasset",
+    "before": null,
+    "after": "59c2c15ab260b2c9a46c2e0ae9036008f47989fcda1dcd99f9e74955c7f39e4a"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_008.uasset",
+    "before": null,
+    "after": "e2a3311d73c7d461f4576bf70d087c63f23c77704b5a8348a4cd1ba2212bdb6f"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_009.uasset",
+    "before": null,
+    "after": "4c023b2e916a062c83f7dd79af493115821c6623e7e40237e86ba61674ef0314"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_010.uasset",
+    "before": null,
+    "after": "8d0f37b16f4d8d2d8b4d76167ff3c5b7412d8a6f3c8b13a3f0d61ef1a5ffc73f"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_011.uasset",
+    "before": null,
+    "after": "4a1bae7c5778d77e809dac785581bec88db5ed989c8d6a15cce4e6186adca13b"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_012.uasset",
+    "before": null,
+    "after": "1e6b45434649eee4e71dea6bcbfbdc39fb75e480d92178b6fc2911c880c8ee97"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_013.uasset",
+    "before": null,
+    "after": "06659680df3ba7d7f42390b1e4d7c11bdd4dbdc9437e8f04b50b6196a5c4c3bb"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_014.uasset",
+    "before": null,
+    "after": "10d568f3cec7e6e2bf3b474b079381a3017fbc92cdbc37da0e7d3d7af91db955"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_015.uasset",
+    "before": null,
+    "after": "be0bfdf4143f7134f83a1a370215a83e5b8876f27e2bf95a12de3316dca59cca"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_016.uasset",
+    "before": null,
+    "after": "b21a60c38fae92df2bfcef3ec0f36457d21962f04f386de4b933f6cee75577a6"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_017.uasset",
+    "before": null,
+    "after": "c55207d580312ff8b0489ba6c6f878c56cbe4297ce7eabf12a08acb0cfe036a0"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_018.uasset",
+    "before": null,
+    "after": "d397438df8a31bc1f3b2952e23643ec1d12c3764df1beaa06ae955e3cc4780d4"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_019.uasset",
+    "before": null,
+    "after": "ea0234c2e79d86df30214a016ace3c921262767284c718b95b6d4f2026cadcf6"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_020.uasset",
+    "before": null,
+    "after": "867985298e8f681f3af033a163c5ba4f432c302933bab6d2d51b3180a9665f96"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_021.uasset",
+    "before": null,
+    "after": "6ee016402503e9d07691dcf66c78cd179224dc6c75654faae0bd367038f80494"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_022.uasset",
+    "before": null,
+    "after": "75ad4c0053dbc71f1c9e704eddd1b2e0f4e57d6cb71628cf3285f24b172086c9"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_023.uasset",
+    "before": null,
+    "after": "b7450b0d0f0a9474d31c6407c621fea4bf71e4eeca9c1aa5352e585acc43b427"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_024.uasset",
+    "before": null,
+    "after": "b68933a84319ca06159aa7e19ff8dbf46ac4d2891049f23bba6ccb7d36a906e9"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_025.uasset",
+    "before": null,
+    "after": "ae4aeb04a162a64292ab869102bcd09c5a1db459f2eff2f2d3b2c7f32cea22c4"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_026.uasset",
+    "before": null,
+    "after": "1d948e95951e7e0fd8cf72cb16ed8e1c02ff18de5e4a861a2df9175e2d31123c"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_027.uasset",
+    "before": null,
+    "after": "cf35754802b264ab56f550520ace6d10048d8072c520b367ea66061c514cada3"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_028.uasset",
+    "before": null,
+    "after": "2b8be8b329821331ea4a73cbc75f082aed0ffb9aae3636d8378e1df2438bc906"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_029.uasset",
+    "before": null,
+    "after": "3957dc0f40f55b417930945dac1f8a813fd55094fed66b4cc419de07651d587b"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_030.uasset",
+    "before": null,
+    "after": "d82d63906ddb7c856b836bb8a4f9d8b6971d0ac5a6034be289eb82131d43ede0"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_031.uasset",
+    "before": null,
+    "after": "65010797a8358b6bf434751adf51f132cf0921bd2283dc5b7449f88c0979bbe5"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_032.uasset",
+    "before": null,
+    "after": "a637f91fce80c395396eb339e5e62200e877f3d25639acc4204cf5e2c1d9eeb5"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_033.uasset",
+    "before": null,
+    "after": "7bafebe3e2b76a097434f0935875d1e831dc461bb85dbf04aaf7ee1159b0911d"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_034.uasset",
+    "before": null,
+    "after": "a734744da09d75d89716b49463801713eaace0e8c6af293e32eaa399a3120fe2"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_035.uasset",
+    "before": null,
+    "after": "3d53cb09e309aa07d62745e931b674971bab08ab524c50210b77ce09dfd8fb4e"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_036.uasset",
+    "before": null,
+    "after": "e0ddabc83f33ec40f67b581960872ed4126403c51e74cce4a3a10e0b3ad66f62"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_037.uasset",
+    "before": null,
+    "after": "c65fae7e0c3d53db56f345e31c8a8f482a5c5175114f073ea03488d6ad04ed0c"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_038.uasset",
+    "before": null,
+    "after": "358f68f45d3162799d99e46944cd1e62a6ac6b3e7b9a947386434573267800c8"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_039.uasset",
+    "before": null,
+    "after": "91e1cd989e6c1bb34fa2b2c4723c444c991ea8aab147b8d4e67ec8e90804bc34"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_040.uasset",
+    "before": null,
+    "after": "74d038618386d7a6abc31714940fe544c4bec10842effa282e040974389874f1"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_041.uasset",
+    "before": null,
+    "after": "7cebbc90b50dc41df648a4963474b5f62d841f24e57d40ba1b4915ee1b4870c0"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_042.uasset",
+    "before": null,
+    "after": "671cbfae64eb1b8834c04aa9252f71ccc57d9cde791e517c0c8a94b050a8d7a8"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_043.uasset",
+    "before": null,
+    "after": "338f0b636d1612e252817145baade02e2c5454be8aa9a7bae78ac845491016e1"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_044.uasset",
+    "before": null,
+    "after": "399598db01e06cd0ae40f18964f01c67c6b8ffa0905117d08c7a2663480d2ac1"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_045.uasset",
+    "before": null,
+    "after": "6f08345ebe4417f17f2f80c7bfb565c13fb60ef315a3db2c96f384a0484a5062"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_046.uasset",
+    "before": null,
+    "after": "ce3127fe08e476c25125866fac634f26780709fa7da1688aa678afa555b1de22"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_047.uasset",
+    "before": null,
+    "after": "edbf19f222c7f260b81eece265ca00337e0aba1dc4f8631ed7388b1d30d8bc6f"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_048.uasset",
+    "before": null,
+    "after": "64045746704604c230c7153e7768e4278f0efc817b1304ef848d1c8305a957d1"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_049.uasset",
+    "before": null,
+    "after": "7e1eb4b32b994b7b8d7bfe74d3260a6386aab93b2495a4db73b11046b202483c"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_050.uasset",
+    "before": null,
+    "after": "50a1b9519ca1f88b4d73da873d26e8d71bced44e4a2dc2ac9ffb7b2ec46a46f5"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_051.uasset",
+    "before": null,
+    "after": "8f7814eaee55662309cdd52571242c318639467eacf53a9bda87e93c93205271"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_052.uasset",
+    "before": null,
+    "after": "ab9f25872b87edafa0b366bd9318b535a09dab9495468db72ca641f562b0b63d"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_053.uasset",
+    "before": null,
+    "after": "e39e601506baa828c19dec1ca183ff7fb468ea9ab0da764ee9f28fa68fdb9957"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_054.uasset",
+    "before": null,
+    "after": "b6ad6b0d8f088fa4fe38640abafd03e58229324434a4b8ab254b53bf74332810"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_055.uasset",
+    "before": null,
+    "after": "31a2cd1971dd184949b006d83c10557bdf660d6bf16460d3fe139c5cace434be"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_056.uasset",
+    "before": null,
+    "after": "f09329e9f18e798689e7f4828daeda3e37037765266341e4f9ac4a595ba11448"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_057.uasset",
+    "before": null,
+    "after": "11e5145c36d210da90748428d5c10c5449730ae39547f3b120c859bb3638ed4c"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_058.uasset",
+    "before": null,
+    "after": "1ff36660f00ad0e81f7ae29698a124f8dc17065bba39e82af38c2a611581bedd"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_059.uasset",
+    "before": null,
+    "after": "6cd7db11ab5385f65a30dd836b2426a41d3a1660838e3a3e5f008c1c439bda9b"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_060.uasset",
+    "before": null,
+    "after": "9f8f9aa4324e7350de0af77cf196f718e5cfc6ce517f82861e46596689db3383"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_061.uasset",
+    "before": null,
+    "after": "776ab7a6175fd116faa36a0b7a8059fd7d0b4c424c233d86bec92466e7fa27f5"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_062.uasset",
+    "before": null,
+    "after": "e7fc8e18f6716af27f1f365aa13fc682519cce27f06d8f5d50560b4ca567d274"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_063.uasset",
+    "before": null,
+    "after": "f1af3ca5a13c341cf2907dfcf34cca1f155761599a373bbaa85908fec5713ce0"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_064.uasset",
+    "before": null,
+    "after": "966a018562ffb207b2d28d1a9266a5d2bf1ec2d9a68539ddfcd505581de97b72"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_065.uasset",
+    "before": null,
+    "after": "ccbe9489edd6cf8b9c56b3fab33d0e6e268f83b34aa6d336c5f29d286865e5bf"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_066.uasset",
+    "before": null,
+    "after": "49c5872a36bf1735d208ff9534bad4829855367f6d7c87c4a33c2e3d3bccbd83"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_067.uasset",
+    "before": null,
+    "after": "3fab71fda01f37f2bdf7273ed7f67c3a862efc482cab920de2cb71c16cb9f0ae"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_068.uasset",
+    "before": null,
+    "after": "03cf94722a8ae7bbd165cec9ece359903521fcbb5e4575a9331b7711116a9553"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_069.uasset",
+    "before": null,
+    "after": "1b7b3df09cbf89e6a6b81a38f9b6a4fed35092ac98075f45adb6ad9d81cb79b0"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_070.uasset",
+    "before": null,
+    "after": "8860b43f9dc00af7b51cef4ca55d5c6750f157fbe21e726a65c6521b1efef300"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_071.uasset",
+    "before": null,
+    "after": "d1a6dda47a07c6ac19308e470904b29d915914608d2e88e387089628ec25b944"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_072.uasset",
+    "before": null,
+    "after": "1dfeb0cf16d4d8d8522b86bf2f2f80fc8e3dd189c780557ccac2803b24da46f3"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_073.uasset",
+    "before": null,
+    "after": "ed687532176f9a90f9d13b7efc7873304a38a35aee55eb5d1589c7260f0e4cd0"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_074.uasset",
+    "before": null,
+    "after": "8cf73383df351bf342ef267235d17e0b9e43c8b0fce10dfc48bb7d004938f425"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_075.uasset",
+    "before": null,
+    "after": "6bb592f1163601e400de72f051e42c3fcd1328e0b7cd3c0708e03633947fa8ea"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_076.uasset",
+    "before": null,
+    "after": "91d79a12ed8cdc01748e6d6c825f10a457b44038d8add2128ad5f65f409588f4"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_077.uasset",
+    "before": null,
+    "after": "d7de0ebe0f440be8cc6b45be120e5d0a62b5c04742a21173617bc5abc3d00095"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_078.uasset",
+    "before": null,
+    "after": "43485f1f7a1147d015e4647108eee017e3e90ca6e466876f96b9169e51681e69"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_079.uasset",
+    "before": null,
+    "after": "99d6cdc2dec47217c592080f7980694d12c6f7da313c9719c9114764006a40a5"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_080.uasset",
+    "before": null,
+    "after": "f6a5fab122e15be56d978b4a3fecd39b5b55b2e2c7c0c21bc7e3ba38c7a2f3ea"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_081.uasset",
+    "before": null,
+    "after": "18d6e93087483d054eb2fefb02e7617d8552a08f802917418891e23b710e8ad3"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_082.uasset",
+    "before": null,
+    "after": "b55e79e701b72f92eff76383caf4cfe951e7db4cc707a3d63cd365409af14f1d"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_083.uasset",
+    "before": null,
+    "after": "8418dc1be3818175959a51b9d86d7b8ba58bbd486be9e6a8b4e73674239d8cb7"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_084.uasset",
+    "before": null,
+    "after": "91ded43539acb06cbdf2699f88fdb0e7b08a5f5bcfe6b0cafd76c7de713bf700"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_085.uasset",
+    "before": null,
+    "after": "eaa9984469211d4e9c712437dd11f9b1c412d5964ad2f2c9c8cd3b827accc987"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_086.uasset",
+    "before": null,
+    "after": "7e5cf72dd8377ec51c0826f02e83ca36a6a87e6d58d4295e51d39a7950d32e94"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_087.uasset",
+    "before": null,
+    "after": "c7a84106a2f9e3700780a9e402a2d3d5e5f3ddfc00d6c692955f68bba26d8869"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_088.uasset",
+    "before": null,
+    "after": "2340aac1adee9adbac32721cb48fdd473fabb6fae7cc36fa2b7c3c3232e656a6"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_089.uasset",
+    "before": null,
+    "after": "50b784c3a9a6caf1a15d7c9e20da24a6050f30788c7eec5ad61ce8a73e5bf027"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_090.uasset",
+    "before": null,
+    "after": "03087789e13e625eb3359e9db5397f6bde7457924fe6c43d65673ce878c01f04"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_091.uasset",
+    "before": null,
+    "after": "adc94cf983a48c4f1464eece345763c6c5c38e9c13c2f8d39aa56a5b595eaad5"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_092.uasset",
+    "before": null,
+    "after": "80dddfbe0a2e13cd4abdb968816957eb654eff8e741f8e11b8f6439df0193e6e"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_093.uasset",
+    "before": null,
+    "after": "276e29704f8b828fb1a351ad6a7305f2e6b598793efe0ebfd5111012257370d2"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_094.uasset",
+    "before": null,
+    "after": "ab57dc79fde432880e91217f6a6a0077232ec8f7e357146406b6153de583bc61"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_095.uasset",
+    "before": null,
+    "after": "c2d747aae4cf9c993668a25802247a58b4a4082b4d4abcf5aac2297f75052f2a"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_096.uasset",
+    "before": null,
+    "after": "da797c4c258b1b3a79bd2012d7c144154c7cddad0115058f168bb8ab9f754a9a"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_097.uasset",
+    "before": null,
+    "after": "c1e280cf3976b762faba7bf8aae886ddd595b77602564c862080df6a8752b931"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_098.uasset",
+    "before": null,
+    "after": "fafb57e044f4cd48ec51a8543d1c1592f830f1807bbc42386717c781aff0ca52"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_099.uasset",
+    "before": null,
+    "after": "89e6178491664f295bf583f4daebc4bd367f4152a50e2c59e4fa493381e680f8"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_100.uasset",
+    "before": null,
+    "after": "a8f45a5b0cdbf7d4cdffb90489cc0f00a2b19223c7bcdccb3b5f7256a5595493"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_101.uasset",
+    "before": null,
+    "after": "395d1b6ba8d6dc848399411a0a5c1c4c13741eac228cec28ea8ae5db707b6c04"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_102.uasset",
+    "before": null,
+    "after": "fd8c77ba61b726daa330e75a6e0f3b6937f0bb3ff337382cc365073fd5731d1f"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_103.uasset",
+    "before": null,
+    "after": "3244cbe08641426e3567680965483ed5a14e4a5fb955c30e180302c9006c67f4"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_104.uasset",
+    "before": null,
+    "after": "aed83da8017e38cbc12c09a4516c1e34b4d7754f35c0bed3bbf5811ebc0bce25"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_105.uasset",
+    "before": null,
+    "after": "8b6c69f2c140abeb751a907919011c3507a87bf01afacee8175162f0824c12be"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_106.uasset",
+    "before": null,
+    "after": "b053b567c05c247890e715675164d0c35b0e1c15b0df12e209b2d3ec61498620"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_107.uasset",
+    "before": null,
+    "after": "2737fa3ea171fb259f178aa72b258db4720fff9e203eb74e64908340aa3aecdb"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_108.uasset",
+    "before": null,
+    "after": "cad61ee2928be835e1b77f4d62df562c91579cbb6d4409b2bd205729ebf30eaa"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_109.uasset",
+    "before": null,
+    "after": "60847e4c73408f208567e5309f8e23e4451d23aecc0d7423e75d335febedceea"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_110.uasset",
+    "before": null,
+    "after": "69800d365fecb50e7cdc68428f2530aa8a2b3c073ac6458f6de6fe18d63bd9ef"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_111.uasset",
+    "before": null,
+    "after": "7df6d1edfbbc60e17a40645a6cce0b6b47be9b6fce4bd144fc71b0ef9e9ddc0d"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_112.uasset",
+    "before": null,
+    "after": "fa01a4be3f644e82c9a4c97d4bfd51874cbd387d26aed4781241dcb456197ceb"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_113.uasset",
+    "before": null,
+    "after": "cace661e14b1b0735c5bcb9e1025cce329bb6d557f7361258e93eee6f2b8d74e"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_114.uasset",
+    "before": null,
+    "after": "182e1475325575481138260167ca1cdd35f8a132a85601bdd03b319b19f2977d"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_115.uasset",
+    "before": null,
+    "after": "7ada26d8905569f8ca1cd9345e4c08f1d6e2539749c19421722c8d28cf9f48f7"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_116.uasset",
+    "before": null,
+    "after": "05c99d7ba5b0878cd5a360c7ade922341547e2ab6b11ef406b20a4560ff53957"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_117.uasset",
+    "before": null,
+    "after": "f05cfe16cf7072a0b1826182e191c4dcbdfc72b9856a1fef3ae83da206fdd6c0"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_118.uasset",
+    "before": null,
+    "after": "89737ef8fb659c972de39cbe64facd5bab7555eac0f0eb7a1be8b638654cde46"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_119.uasset",
+    "before": null,
+    "after": "b8be2792392e92f79edf1502bf794e436b2ad7ca52138ca802df5b421f0a8cc4"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_120.uasset",
+    "before": null,
+    "after": "45db53d9a67f6637b4c94342c8cbed0b6447d7e5582832640a0542686cfd297b"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_121.uasset",
+    "before": null,
+    "after": "a2674395d9cf8ea7e18863b8aa8df367d11ad80d0e8b6a2e7fc461a60d909613"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_122.uasset",
+    "before": null,
+    "after": "6253bf09a5446f8feb6461ebb6f3e98b260c71a5e414ecd9df449595ce55f597"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_123.uasset",
+    "before": null,
+    "after": "a4088075eceb994909594e5a00a4e59a93227b3510d78d15b03e1a7706a10e12"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_124.uasset",
+    "before": null,
+    "after": "e01b1ca752b8d46a12bb01f661edc32f4746b7da7c8ebe7c83d3c46260a34c74"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_125.uasset",
+    "before": null,
+    "after": "04b529c05eb5266e0179b7ffd4df0b21314a8be5b00a0cbc192f5c32d938599a"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_126.uasset",
+    "before": null,
+    "after": "37667ec039df39ed29ecd977b7801c3a644d3a83ea352e5742e7f6fce87044ef"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_127.uasset",
+    "before": null,
+    "after": "4492266184db678d8fd214d3b8f6f61f96509720d93a23908de3253185ceefdb"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_128.uasset",
+    "before": null,
+    "after": "d3530721c5052991308bf743ff5a47ae091bbab810664c19607a4f969db3f7d5"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_129.uasset",
+    "before": null,
+    "after": "1ceb5ac255c21a51209035bcbdb8511f061414fbca786a317f3edf4e68e6ee3f"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_130.uasset",
+    "before": null,
+    "after": "b2799b461bd16e8698b370d9aa4fbfe26ae84ae4aafc4e8f753ca681ff43ddcf"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_131.uasset",
+    "before": null,
+    "after": "d972a522eb3d45b64382dc0aed3e7c6c9d5a135530b6ed0618d1d5406148f20b"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_132.uasset",
+    "before": null,
+    "after": "d26597f7b1313f4544afbde1e07a2d54e8783bd524ade42afb64a4e533707ab3"
+  },
+  {
+    "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_133.uasset",
+    "before": null,
+    "after": "bf786d1928b5840d84e1582ccd422becc813458d3beb93f77a8eb3d3505478cd"
+  }
+]
