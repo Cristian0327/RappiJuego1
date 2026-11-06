@@ -1,0 +1,1753 @@
+[
+  {
+    "mesh": "SM_Original_000",
+    "source": "M002_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 03",
+    "datum_local": 0.106,
+    "lowering_cm": 8.625471675395966,
+    "instances": 10,
+    "candidates": [
+      [
+        0.106,
+        32.56022198498249
+      ],
+      [
+        0.057,
+        40.03422546386719
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_001",
+    "source": "M004_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 05",
+    "datum_local": 0.112,
+    "lowering_cm": 9.492268323898315,
+    "instances": 7,
+    "candidates": [
+      [
+        0.061,
+        45.2899169921875
+      ],
+      [
+        0.112,
+        37.64983358979225
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_002",
+    "source": "M005_LOD0 | Centro | centro | 01 \u00b7 Casas superiores \u00b7 06",
+    "datum_local": 0.114,
+    "lowering_cm": 10.29687649011612,
+    "instances": 3,
+    "candidates": [
+      [
+        0.114,
+        37.03229992091656
+      ],
+      [
+        0.062,
+        46.161407470703125
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_003",
+    "source": "M006_LOD0 | Centro | centro | 02 \u00b7 Casas intermedias \u00b7 01",
+    "datum_local": 0.124,
+    "lowering_cm": 12.872196149826049,
+    "instances": 2,
+    "candidates": [
+      [
+        0.124,
+        38.184795677661896
+      ],
+      [
+        0.067,
+        46.65089797973633
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_004",
+    "source": "M007_LOD0 | Centro | centro | 02 \u00b7 Casas intermedias \u00b7 02",
+    "datum_local": 0.121,
+    "lowering_cm": 10.226870262622834,
+    "instances": 5,
+    "candidates": [
+      [
+        0.121,
+        36.7031342536211
+      ],
+      [
+        0.066,
+        44.8406982421875
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_005",
+    "source": "M009_LOD0 | Centro | centro | 02 \u00b7 Casas intermedias \u00b7 04.001",
+    "datum_local": 0.122,
+    "lowering_cm": 10.249815076589584,
+    "instances": 5,
+    "candidates": [
+      [
+        0.067,
+        45.38102722167969
+      ],
+      [
+        0.122,
+        36.2707454264164
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_006",
+    "source": "M013_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 01",
+    "datum_local": 0.32,
+    "lowering_cm": 34.006919860839844,
+    "instances": 1,
+    "candidates": [
+      [
+        0.02,
+        58.70401573181152
+      ],
+      [
+        0.54,
+        58.70401573181152
+      ],
+      [
+        0.32,
+        94.42562392354012
+      ],
+      [
+        0.13,
+        174.75845336914062
+      ],
+      [
+        0.51,
+        40.5919771194458
+      ],
+      [
+        0.69,
+        40.5919771194458
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_007",
+    "source": "M016_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 04.001",
+    "datum_local": 0,
+    "lowering_cm": 0.0,
+    "instances": 7,
+    "candidates": []
+  },
+  {
+    "mesh": "SM_Original_008",
+    "source": "M017_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 05",
+    "datum_local": 0.325,
+    "lowering_cm": 27.906707078218464,
+    "instances": 1,
+    "candidates": [
+      [
+        0.02,
+        58.622968673706055
+      ],
+      [
+        0.548,
+        58.68144202232361
+      ],
+      [
+        0.325,
+        93.39331835508347
+      ],
+      [
+        0.132,
+        171.75875854492188
+      ],
+      [
+        0.517,
+        40.47618865966797
+      ],
+      [
+        0.7,
+        40.47618865966797
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_009",
+    "source": "M020_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 08",
+    "datum_local": 0.355,
+    "lowering_cm": 31.95000126957893,
+    "instances": 5,
+    "candidates": [
+      [
+        0.022,
+        64.90864562988281
+      ],
+      [
+        0.6,
+        64.90864562988281
+      ],
+      [
+        0.355,
+        92.53929209709167
+      ],
+      [
+        0.144,
+        181.30172729492188
+      ],
+      [
+        0.566,
+        44.72098159790039
+      ],
+      [
+        0.766,
+        44.72098159790039
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_010",
+    "source": "M021_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 09",
+    "datum_local": 0.291,
+    "lowering_cm": 26.190001040697098,
+    "instances": 2,
+    "candidates": [
+      [
+        0.218,
+        53.092560440301895
+      ],
+      [
+        0.463,
+        36.41656494140625
+      ],
+      [
+        0.627,
+        36.41656494140625
+      ],
+      [
+        0.018,
+        52.57517433166504
+      ],
+      [
+        0.491,
+        52.669856905937195
+      ],
+      [
+        0.291,
+        92.56195831298828
+      ],
+      [
+        0.118,
+        164.47463989257812
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_011",
+    "source": "M022_LOD0 | Centro | centro | 03 \u00b7 Skyline \u00b7 10",
+    "datum_local": 0.306,
+    "lowering_cm": 34.78216016292572,
+    "instances": 1,
+    "candidates": [
+      [
+        0.489,
+        37.51542854309082
+      ],
+      [
+        0.661,
+        37.51542854309082
+      ],
+      [
+        0.019,
+        54.31654930114746
+      ],
+      [
+        0.517,
+        54.31654930114746
+      ],
+      [
+        0.124,
+        162.8083953857422
+      ],
+      [
+        0.306,
+        66.40734861046076
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_012",
+    "source": "M023_LOD0 | Centro | centro | 04 \u00b7 Plaza de Bol\u00edvar",
+    "datum_local": 1.823,
+    "lowering_cm": 75.11678451150655,
+    "instances": 1,
+    "candidates": [
+      [
+        1.282,
+        10503.673828125
+      ],
+      [
+        1.923,
+        1998.437385737896
+      ],
+      [
+        1.63,
+        9675.789470911026
+      ],
+      [
+        1.823,
+        9675.95034813881
+      ],
+      [
+        1.175,
+        10347.453125
+      ],
+      [
+        1.645,
+        10347.453125
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_013",
+    "source": "M026_LOD0 | Centro | centro | 05 \u00b7 Monumentos \u00b7 03",
+    "datum_local": 0.262,
+    "lowering_cm": 18.73121357560158,
+    "instances": 2,
+    "candidates": [
+      [
+        0.262,
+        336.3132800459862
+      ],
+      [
+        0.142,
+        422.352783203125
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_014",
+    "source": "M027_LOD0 | Centro | centro | 05 \u00b7 Monumentos \u00b7 04.002",
+    "datum_local": 1.191,
+    "lowering_cm": 74.54041471928359,
+    "instances": 1,
+    "candidates": [
+      [
+        1.038,
+        421.8123779296875
+      ],
+      [
+        1.191,
+        421.8123779296875
+      ],
+      [
+        1.049,
+        453.1007995605469
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_015",
+    "source": "M030_LOD0 | Norte | Norte | Casa_01_Marco_Madera",
+    "datum_local": 0.358,
+    "lowering_cm": 39.03099535703659,
+    "instances": 7,
+    "candidates": [
+      [
+        0.01,
+        15.89033842086792
+      ],
+      [
+        0.119,
+        10.101806640625
+      ],
+      [
+        0.358,
+        18.923661053180695
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_016",
+    "source": "M031_LOD0 | Norte | Norte | Casa_02_Ladrillo_Tejado",
+    "datum_local": 0.358,
+    "lowering_cm": 33.53407076597213,
+    "instances": 12,
+    "candidates": [
+      [
+        0.01,
+        15.82379925251007
+      ],
+      [
+        0.119,
+        10.059507369995117
+      ],
+      [
+        0.358,
+        18.84441840648651
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_017",
+    "source": "M033_LOD0 | Norte | Norte | Casa_04_Terrazas_Arena.001",
+    "datum_local": 0.356,
+    "lowering_cm": 31.08109896183014,
+    "instances": 8,
+    "candidates": [
+      [
+        0.01,
+        15.643195271492004
+      ],
+      [
+        0.119,
+        9.944694519042969
+      ],
+      [
+        0.356,
+        18.629337549209595
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_018",
+    "source": "M034_LOD0 | Norte | Norte | Casa_05_Villa_Tejas",
+    "datum_local": 0.36,
+    "lowering_cm": 28.669121503829953,
+    "instances": 10,
+    "candidates": [
+      [
+        0.01,
+        15.977873682975769
+      ],
+      [
+        0.12,
+        10.157454490661621
+      ],
+      [
+        0.36,
+        19.234040826559067
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_019",
+    "source": "M035_LOD0 | Norte | Norte | Casa_06_Garaje_Listones",
+    "datum_local": 0.356,
+    "lowering_cm": 28.80390490293503,
+    "instances": 7,
+    "candidates": [
+      [
+        0.009,
+        15.76996636390686
+      ],
+      [
+        0.118,
+        10.025282859802246
+      ],
+      [
+        0.356,
+        18.78030824661255
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_020",
+    "source": "M037_LOD0 | Norte | Norte | Casa_08_Chalet_Pizarra.001",
+    "datum_local": 0.353,
+    "lowering_cm": 33.47122495472431,
+    "instances": 10,
+    "candidates": [
+      [
+        0.009,
+        15.44270646572113
+      ],
+      [
+        0.117,
+        9.817238807678223
+      ],
+      [
+        0.353,
+        18.390578031539917
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_021",
+    "source": "M038_LOD0 | Norte | Norte | Casa_09_Blanca_Balcones.001",
+    "datum_local": 0.356,
+    "lowering_cm": 39.112057006359095,
+    "instances": 7,
+    "candidates": [
+      [
+        0.01,
+        15.648226141929626
+      ],
+      [
+        0.119,
+        9.947893142700195
+      ],
+      [
+        0.356,
+        18.63533067703247
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_022",
+    "source": "M039_LOD0 | Norte | Norte | Casa_10_Adosados.001",
+    "datum_local": 0.354,
+    "lowering_cm": 28.837597167491914,
+    "instances": 10,
+    "candidates": [
+      [
+        0.009,
+        15.556854844093323
+      ],
+      [
+        0.118,
+        9.88980484008789
+      ],
+      [
+        0.354,
+        18.823214173316956
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_023",
+    "source": "M040_LOD0 | Norte | Norte | Comercial_25_Unicentro.001",
+    "datum_local": 0.039,
+    "lowering_cm": 2.338342899084091,
+    "instances": 2,
+    "candidates": [
+      [
+        0.039,
+        1040.4835872650146
+      ],
+      [
+        0.801,
+        1233.3684558868408
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_024",
+    "source": "M043_LOD0 | Norte | Norte | Conjunto_16_Mixto",
+    "datum_local": 0.29,
+    "lowering_cm": 23.925000518560406,
+    "instances": 3,
+    "candidates": [
+      [
+        0.026,
+        165.97702980041504
+      ],
+      [
+        0.29,
+        132.57512760162354
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_025",
+    "source": "M048_LOD0 | Norte | Norte | Oficinas_27_Torres_Cristal.001",
+    "datum_local": 0.18,
+    "lowering_cm": 24.905479073524475,
+    "instances": 4,
+    "candidates": [
+      [
+        0.008,
+        22.049121379852295
+      ],
+      [
+        0.18,
+        37.44563426077366
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_026",
+    "source": "M049_LOD0 | Norte | Norte | Parque_21_Estanque_Pergolas_Juegos.001",
+    "datum_local": 1.52,
+    "lowering_cm": 36.742032051086426,
+    "instances": 13,
+    "candidates": [
+      [
+        0.8,
+        5440.0
+      ],
+      [
+        1.2,
+        5380.9599609375
+      ],
+      [
+        1.52,
+        1004.0384168624878
+      ],
+      [
+        2.08,
+        1314.8798723220825
+      ],
+      [
+        2.4,
+        1073.5199584960938
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_027",
+    "source": "M050_LOD0 | Norte | Norte | Residencial_22_Cuatro_Torres_Ladrillo.001",
+    "datum_local": 0.205,
+    "lowering_cm": 18.378726974129673,
+    "instances": 5,
+    "candidates": [
+      [
+        0.019,
+        121.34927940368652
+      ],
+      [
+        0.205,
+        184.7580337524414
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_028",
+    "source": "M055_LOD0 | Norte | Norte | Torre_13_Cristal.001",
+    "datum_local": 0.207,
+    "lowering_cm": 17.723682582378387,
+    "instances": 4,
+    "candidates": [
+      [
+        0.017,
+        47.80749034881592
+      ],
+      [
+        0.207,
+        30.392181396484375
+      ],
+      [
+        0.189,
+        54.27688217163086
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_029",
+    "source": "M065_LOD0 | Occidente | occidente | 01 \u00b7 Viviendas \u00b7 F2-03",
+    "datum_local": 0.084,
+    "lowering_cm": 10.344838571548461,
+    "instances": 1,
+    "candidates": [
+      [
+        0.084,
+        40.19156403839588
+      ],
+      [
+        0.046,
+        45.79487609863281
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_030",
+    "source": "M066_LOD0 | Occidente | occidente | 01 \u00b7 Viviendas \u00b7 F2-04",
+    "datum_local": 0.083,
+    "lowering_cm": 9.500391277670861,
+    "instances": 1,
+    "candidates": [
+      [
+        0.083,
+        40.07805813103914
+      ],
+      [
+        0.045,
+        45.10414123535156
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_031",
+    "source": "M068_LOD0 | Occidente | occidente | 01 \u00b7 Viviendas \u00b7 F2-06",
+    "datum_local": 0.084,
+    "lowering_cm": 8.970382297039032,
+    "instances": 1,
+    "candidates": [
+      [
+        0.084,
+        39.94413452595472
+      ],
+      [
+        0.046,
+        45.51295471191406
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_032",
+    "source": "M069_LOD0 | Occidente | occidente | 01 \u00b7 Viviendas \u00b7 F3-01.001",
+    "datum_local": 0.092,
+    "lowering_cm": 9.484148132801055,
+    "instances": 1,
+    "candidates": [
+      [
+        0.092,
+        40.394177213311195
+      ],
+      [
+        0.05,
+        46.62543487548828
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_033",
+    "source": "M074_LOD0 | Occidente | occidente | 01 \u00b7 Viviendas \u00b7 F3-06.001",
+    "datum_local": 0.093,
+    "lowering_cm": 9.480142289400101,
+    "instances": 4,
+    "candidates": [
+      [
+        0.093,
+        41.89343659579754
+      ],
+      [
+        0.05,
+        47.684776306152344
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_034",
+    "source": "M075_LOD0 | Occidente | occidente | 01 \u00b7 Viviendas \u00b7 F3-07.001",
+    "datum_local": 0.093,
+    "lowering_cm": 8.508211398124695,
+    "instances": 2,
+    "candidates": [
+      [
+        0.093,
+        41.46845953166485
+      ],
+      [
+        0.05,
+        47.2010498046875
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_035",
+    "source": "M082_LOD0 | Occidente | occidente | 02 \u00b7 Aeropuerto El Dorado \u00b7 Terminal y plataforma",
+    "datum_local": 0,
+    "lowering_cm": 0.0,
+    "instances": 1,
+    "candidates": []
+  },
+  {
+    "mesh": "SM_Original_036",
+    "source": "M084_LOD0 | Occidente | occidente | 04 \u00b7 Hangares de mantenimiento.001",
+    "datum_local": 1.492,
+    "lowering_cm": 57.33917756080628,
+    "instances": 4,
+    "candidates": [
+      [
+        1.266,
+        1180.0391845703125
+      ],
+      [
+        1.452,
+        1180.0391845703125
+      ],
+      [
+        1.279,
+        1244.8736572265625
+      ],
+      [
+        1.492,
+        1041.0509033203125
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_037",
+    "source": "M085_LOD0 | Occidente | occidente | 05 \u00b7 Equipamiento \u00b7 Centro cultural.001",
+    "datum_local": 0,
+    "lowering_cm": 0.0,
+    "instances": 3,
+    "candidates": []
+  },
+  {
+    "mesh": "SM_Original_038",
+    "source": "M087_LOD0 | Occidente | occidente | 05 \u00b7 Equipamiento \u00b7 Pabell\u00f3n acristalado",
+    "datum_local": 0,
+    "lowering_cm": 0.0,
+    "instances": 3,
+    "candidates": []
+  },
+  {
+    "mesh": "SM_Original_039",
+    "source": "M088_LOD0 | Occidente | occidente | 06 \u00b7 Iglesia de occidente",
+    "datum_local": 1.901,
+    "lowering_cm": 49.77585496008396,
+    "instances": 1,
+    "candidates": [
+      [
+        2.163,
+        800.4302749633789
+      ],
+      [
+        1.657,
+        1400.00830078125
+      ],
+      [
+        1.901,
+        1400.00830078125
+      ],
+      [
+        1.674,
+        1491.27880859375
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_040",
+    "source": "M089_LOD0 | Occidente | occidente | 07 \u00b7 Viviendas inferiores \u00b7 01",
+    "datum_local": 0.083,
+    "lowering_cm": 9.55299346446991,
+    "instances": 1,
+    "candidates": [
+      [
+        0.045,
+        44.60877990722656
+      ],
+      [
+        0.083,
+        39.637918032705784
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_041",
+    "source": "M091_LOD0 | Occidente | occidente | 07 \u00b7 Viviendas inferiores \u00b7 03",
+    "datum_local": 0.083,
+    "lowering_cm": 9.473805597424507,
+    "instances": 1,
+    "candidates": [
+      [
+        0.083,
+        39.80780640989542
+      ],
+      [
+        0.045,
+        45.357627868652344
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_042",
+    "source": "M093_LOD0 | Occidente | occidente | 07 \u00b7 Viviendas inferiores \u00b7 05",
+    "datum_local": 0.083,
+    "lowering_cm": 10.365608757734298,
+    "instances": 1,
+    "candidates": [
+      [
+        0.083,
+        39.5096560716629
+      ],
+      [
+        0.045,
+        45.017887115478516
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_043",
+    "source": "M097_LOD0 | Occidente | occidente | 10 \u00b7 Parque del lago \u00b7 Referencia primera imagen",
+    "datum_local": 0,
+    "lowering_cm": 0.0,
+    "instances": 2,
+    "candidates": []
+  },
+  {
+    "mesh": "SM_Original_044",
+    "source": "M100_LOD0 | Oriente | Oriente | 01 \u2022 Ladrillo con balc\u00f3n verde",
+    "datum_local": 0.708,
+    "lowering_cm": 69.96306674480438,
+    "instances": 18,
+    "candidates": [
+      [
+        0.456,
+        44.765419006347656
+      ],
+      [
+        0.708,
+        44.765419006347656
+      ],
+      [
+        0.466,
+        42.67776298522949
+      ],
+      [
+        0.407,
+        54.648006439208984
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_045",
+    "source": "M103_LOD0 | Oriente | Oriente | 04 \u2022 Casa turquesa y blanca.001",
+    "datum_local": 0.708,
+    "lowering_cm": 69.66630306243896,
+    "instances": 4,
+    "candidates": [
+      [
+        0.456,
+        44.765419006347656
+      ],
+      [
+        0.708,
+        44.765419006347656
+      ],
+      [
+        0.466,
+        42.67776298522949
+      ],
+      [
+        0.407,
+        54.648006439208984
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_046",
+    "source": "M104_LOD0 | Oriente | Oriente | 05 \u2022 Casa amarilla con azotea.001",
+    "datum_local": 0.708,
+    "lowering_cm": 69.81436840295791,
+    "instances": 2,
+    "candidates": [
+      [
+        0.407,
+        54.648006439208984
+      ],
+      [
+        0.456,
+        44.765419006347656
+      ],
+      [
+        0.708,
+        44.765419006347656
+      ],
+      [
+        0.466,
+        42.67776298522949
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_047",
+    "source": "M105_LOD0 | Oriente | Oriente | 06 \u2022 Casa roja con cubierta gris",
+    "datum_local": 0.708,
+    "lowering_cm": 58.41000126600265,
+    "instances": 5,
+    "candidates": [
+      [
+        0.407,
+        54.648006439208984
+      ],
+      [
+        0.466,
+        42.67776298522949
+      ],
+      [
+        0.456,
+        44.765419006347656
+      ],
+      [
+        0.708,
+        44.765419006347656
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_048",
+    "source": "M106_LOD0 | Oriente | Oriente | 07 \u2022 Casa ladrillo y tejado gris",
+    "datum_local": 0.466,
+    "lowering_cm": 53.21863414049148,
+    "instances": 33,
+    "candidates": [
+      [
+        0.466,
+        42.67776298522949
+      ],
+      [
+        0.407,
+        54.648006439208984
+      ],
+      [
+        0.456,
+        44.765419006347656
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_049",
+    "source": "M107_LOD0 | Oriente | Oriente | 08 \u2022 Casa amarilla y turquesa",
+    "datum_local": 0.466,
+    "lowering_cm": 53.21863414049148,
+    "instances": 22,
+    "candidates": [
+      [
+        0.466,
+        42.67776298522949
+      ],
+      [
+        0.407,
+        54.648006439208984
+      ],
+      [
+        0.456,
+        44.765419006347656
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_050",
+    "source": "M108_LOD0 | Oriente | Oriente | 09 \u2022 Casa naranja con terraza",
+    "datum_local": 0.708,
+    "lowering_cm": 58.41000126600265,
+    "instances": 27,
+    "candidates": [
+      [
+        0.456,
+        44.765419006347656
+      ],
+      [
+        0.708,
+        44.765419006347656
+      ],
+      [
+        0.466,
+        42.67776298522949
+      ],
+      [
+        0.407,
+        54.648006439208984
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_051",
+    "source": "M109_LOD0 | Oriente | Oriente | 10 \u2022 Casa verde y ladrillo.004",
+    "datum_local": 0.708,
+    "lowering_cm": 58.41000126600265,
+    "instances": 29,
+    "candidates": [
+      [
+        0.466,
+        42.67776298522949
+      ],
+      [
+        0.407,
+        54.648006439208984
+      ],
+      [
+        0.456,
+        44.765419006347656
+      ],
+      [
+        0.708,
+        44.765419006347656
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_052",
+    "source": "M110_LOD0 | Oriente | Oriente | 11 \u2022 Casa azul blanca y ladrillo",
+    "datum_local": 0.708,
+    "lowering_cm": 58.41000126600265,
+    "instances": 39,
+    "candidates": [
+      [
+        0.456,
+        44.765419006347656
+      ],
+      [
+        0.708,
+        44.765419006347656
+      ],
+      [
+        0.466,
+        42.67776298522949
+      ],
+      [
+        0.407,
+        54.64800262451172
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_053",
+    "source": "M111_LOD0 | Oriente | Oriente | 12 \u2022 Casa amarilla y gris",
+    "datum_local": 0.708,
+    "lowering_cm": 58.41000126600265,
+    "instances": 40,
+    "candidates": [
+      [
+        0.466,
+        42.67776298522949
+      ],
+      [
+        0.456,
+        44.765419006347656
+      ],
+      [
+        0.708,
+        44.765419006347656
+      ],
+      [
+        0.407,
+        54.648006439208984
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_054",
+    "source": "M114_LOD0 | Oriente | Oriente | 15 \u2022 Torre crema y n\u00facleo oscuro.002",
+    "datum_local": 0.896,
+    "lowering_cm": 65.75714721679688,
+    "instances": 10,
+    "candidates": [
+      [
+        0.64,
+        164.63307189941406
+      ],
+      [
+        0.896,
+        164.63307189941406
+      ],
+      [
+        0.96,
+        105.50460815429688
+      ],
+      [
+        0.672,
+        183.63824462890625
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_055",
+    "source": "M115_LOD0 | Oriente | Oriente | 16 \u2022 Torre naranja de balcones amarillos",
+    "datum_local": 0.773,
+    "lowering_cm": 77.00094956159592,
+    "instances": 15,
+    "candidates": [
+      [
+        0.579,
+        158.5003204345703
+      ],
+      [
+        0.552,
+        143.17823791503906
+      ],
+      [
+        0.773,
+        143.17823791503906
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_056",
+    "source": "M117_LOD0 | Oriente | Oriente | 18 \u2022 Torre blanca con galer\u00eda vertical",
+    "datum_local": 0.857,
+    "lowering_cm": 67.18481901884078,
+    "instances": 26,
+    "candidates": [
+      [
+        0.918,
+        102.35382080078125
+      ],
+      [
+        0.612,
+        157.87661743164062
+      ],
+      [
+        0.857,
+        157.87661743164062
+      ],
+      [
+        0.643,
+        175.6776885986328
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_057",
+    "source": "M119_LOD0 | Oriente | Oriente | 20 \u2022 Conjunto residencial de cinco torres.001",
+    "datum_local": 0.636,
+    "lowering_cm": 60.89827251434327,
+    "instances": 5,
+    "candidates": [
+      [
+        0.605,
+        591.091064453125
+      ],
+      [
+        0.636,
+        625.6995239257812
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_058",
+    "source": "M120_LOD0 | Oriente | Oriente | 21 \u2022 Porter\u00eda residencial de ladrillo.001",
+    "datum_local": 0.196,
+    "lowering_cm": 15.231416952610017,
+    "instances": 2,
+    "candidates": [
+      [
+        0.196,
+        431.1220703125
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_059",
+    "source": "M122_LOD0 | Oriente | Oriente | 23 \u2022 Estaci\u00f3n de telef\u00e9rico y tres cabinas",
+    "datum_local": 0,
+    "lowering_cm": 0.0,
+    "instances": 1,
+    "candidates": []
+  },
+  {
+    "mesh": "SM_Original_060",
+    "source": "M124_LOD0 | Oriente | Oriente | 25 \u2022 Centro institucional blanco acristalado",
+    "datum_local": 0.695,
+    "lowering_cm": 70.06008151173592,
+    "instances": 1,
+    "candidates": [
+      [
+        0.565,
+        189.3936653137207
+      ],
+      [
+        0.57,
+        292.0987270474434
+      ],
+      [
+        0.695,
+        297.059084713459
+      ],
+      [
+        0.633,
+        349.7780284881592
+      ],
+      [
+        0.452,
+        341.5377197265625
+      ],
+      [
+        0.474,
+        361.10931396484375
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_061",
+    "source": "M126_LOD0 | Oriente | Oriente | 27 \u2022 Centro cultural con mural voxel",
+    "datum_local": 0.633,
+    "lowering_cm": 49.26539313197136,
+    "instances": 5,
+    "candidates": [
+      [
+        0.565,
+        249.57393646240234
+      ],
+      [
+        0.474,
+        361.10931396484375
+      ],
+      [
+        0.452,
+        341.5377197265625
+      ],
+      [
+        0.633,
+        341.5377197265625
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_062",
+    "source": "M127_LOD0 | Oriente | Oriente | 28 \u2022 Parque con monumento cancha y pabell\u00f3n.001",
+    "datum_local": 0.178,
+    "lowering_cm": 9.82204632461071,
+    "instances": 6,
+    "candidates": [
+      [
+        0.009,
+        2339.5140571296215
+      ],
+      [
+        0.178,
+        2339.5140571296215
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_063",
+    "source": "M129_LOD0 | Sur | Sur | 01_Casa_amarilla_taller.001",
+    "datum_local": 0.378,
+    "lowering_cm": 34.09576823115349,
+    "instances": 35,
+    "candidates": [
+      [
+        0.244,
+        53.99506378173828
+      ],
+      [
+        0.089,
+        9.521378338336945
+      ],
+      [
+        0.356,
+        9.521378338336945
+      ],
+      [
+        0.289,
+        43.1266223192215
+      ],
+      [
+        0.378,
+        38.706770196557045
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_064",
+    "source": "M130_LOD0 | Sur | Sur | 02_Azul_escalera_terraza",
+    "datum_local": 0.36,
+    "lowering_cm": 38.85532736778259,
+    "instances": 45,
+    "candidates": [
+      [
+        0.233,
+        45.1096076965332
+      ],
+      [
+        0.085,
+        8.097960114479065
+      ],
+      [
+        0.339,
+        8.097960114479065
+      ],
+      [
+        0.275,
+        36.273876905441284
+      ],
+      [
+        0.36,
+        28.891999900341034
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_065",
+    "source": "M131_LOD0 | Sur | Sur | 03_Torres_ladrillo_y_verde.001",
+    "datum_local": 0.364,
+    "lowering_cm": 33.40912013053894,
+    "instances": 2,
+    "candidates": [
+      [
+        0.236,
+        49.02157974243164
+      ],
+      [
+        0.086,
+        8.650938913226128
+      ],
+      [
+        0.343,
+        8.650938913226128
+      ],
+      [
+        0.278,
+        40.953521847724915
+      ],
+      [
+        0.364,
+        34.04599125683308
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_066",
+    "source": "M132_LOD0 | Sur | Sur | 04_Patio_ladrillo.001",
+    "datum_local": 0.361,
+    "lowering_cm": 37.95807386934757,
+    "instances": 2,
+    "candidates": [
+      [
+        0.234,
+        50.375732421875
+      ],
+      [
+        0.085,
+        8.737430781126022
+      ],
+      [
+        0.34,
+        8.737430781126022
+      ],
+      [
+        0.276,
+        40.44087731838226
+      ],
+      [
+        0.361,
+        32.48612022399902
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_067",
+    "source": "M133_LOD0 | Sur | Sur | 05 \u2022 Centro comercial \u2014 reconstrucci\u00f3n detallada",
+    "datum_local": 0.142,
+    "lowering_cm": 16.658076632022855,
+    "instances": 1,
+    "candidates": [
+      [
+        0.142,
+        1770.1724482364953
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_068",
+    "source": "M134_LOD0 | Sur | Sur | 05_Coral_balcon.001",
+    "datum_local": 0.423,
+    "lowering_cm": 37.60932269990444,
+    "instances": 8,
+    "candidates": [
+      [
+        0.274,
+        52.27499771118164
+      ],
+      [
+        0.099,
+        10.319162786006927
+      ],
+      [
+        0.398,
+        10.319162786006927
+      ],
+      [
+        0.323,
+        41.33261251449585
+      ],
+      [
+        0.423,
+        39.89946937561035
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_069",
+    "source": "M135_LOD0 | Sur | Sur | 06 \u2022 Iglesia \u2014 referencia voxel",
+    "datum_local": 0.179,
+    "lowering_cm": 11.23701083511114,
+    "instances": 1,
+    "candidates": [
+      [
+        0.143,
+        1270.4843737483025
+      ],
+      [
+        0.179,
+        219.89060974121094
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_070",
+    "source": "M142_LOD0 | Sur | Sur | 12_Crema_verde.001",
+    "datum_local": 0.423,
+    "lowering_cm": 37.60932269990444,
+    "instances": 59,
+    "candidates": [
+      [
+        0.274,
+        52.27499771118164
+      ],
+      [
+        0.099,
+        10.319163203239441
+      ],
+      [
+        0.398,
+        10.319163203239441
+      ],
+      [
+        0.323,
+        41.332616329193115
+      ],
+      [
+        0.423,
+        39.89947319030762
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_071",
+    "source": "M143_LOD0 | Sur | Sur | 13_Rosa_escalera",
+    "datum_local": 0.36,
+    "lowering_cm": 37.61424779891968,
+    "instances": 68,
+    "candidates": [
+      [
+        0.233,
+        45.10960388183594
+      ],
+      [
+        0.085,
+        8.097961157560349
+      ],
+      [
+        0.339,
+        8.097961157560349
+      ],
+      [
+        0.275,
+        36.273880898952484
+      ],
+      [
+        0.36,
+        28.89200370013714
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_072",
+    "source": "M144_LOD0 | Sur | Sur | 14_Duplex_terrazas",
+    "datum_local": 0.396,
+    "lowering_cm": 30.80493482351303,
+    "instances": 14,
+    "candidates": [
+      [
+        0.256,
+        54.098228454589844
+      ],
+      [
+        0.093,
+        9.971891850233078
+      ],
+      [
+        0.372,
+        9.971891850233078
+      ],
+      [
+        0.303,
+        46.16774410009384
+      ],
+      [
+        0.396,
+        39.17388392984867
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_073",
+    "source": "M145_LOD0 | Sur | Sur | 15_Naranja_cubierta_mixta",
+    "datum_local": 0.423,
+    "lowering_cm": 36.973416432738304,
+    "instances": 49,
+    "candidates": [
+      [
+        0.274,
+        52.27499771118164
+      ],
+      [
+        0.099,
+        10.319163203239441
+      ],
+      [
+        0.398,
+        10.319163203239441
+      ],
+      [
+        0.323,
+        51.95215177536011
+      ],
+      [
+        0.423,
+        50.51900863647461
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_074",
+    "source": "M148_LOD0 | Sur | Sur | 18_Hilera_ladrillo.001",
+    "datum_local": 0.296,
+    "lowering_cm": 36.271750044822696,
+    "instances": 60,
+    "candidates": [
+      [
+        0.191,
+        39.89018249511719
+      ],
+      [
+        0.226,
+        29.884244918823242
+      ],
+      [
+        0.296,
+        28.837356630712748
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_075",
+    "source": "M150_LOD0 | Sur | Sur | 20_Crema_jardinera.003",
+    "datum_local": 0.423,
+    "lowering_cm": 37.60932269990444,
+    "instances": 1,
+    "candidates": [
+      [
+        0.274,
+        52.27499771118164
+      ],
+      [
+        0.099,
+        10.319162786006927
+      ],
+      [
+        0.398,
+        10.319162786006927
+      ],
+      [
+        0.323,
+        41.33261251449585
+      ],
+      [
+        0.423,
+        39.89946937561035
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_076",
+    "source": "M152_LOD0 | Sur | Sur | 22_Mural_azul",
+    "datum_local": 0.423,
+    "lowering_cm": 41.5612155675888,
+    "instances": 40,
+    "candidates": [
+      [
+        0.274,
+        52.27499771118164
+      ],
+      [
+        0.099,
+        10.319163203239441
+      ],
+      [
+        0.398,
+        10.319163203239441
+      ],
+      [
+        0.323,
+        41.332616329193115
+      ],
+      [
+        0.423,
+        39.89947319030762
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_077",
+    "source": "M153_LOD0 | Sur | Sur | 23_Conjunto_escalonado.001",
+    "datum_local": 0.322,
+    "lowering_cm": 28.511839485168455,
+    "instances": 6,
+    "candidates": [
+      [
+        0.208,
+        47.939422607421875
+      ],
+      [
+        0.246,
+        37.785137705504894
+      ],
+      [
+        0.322,
+        32.29981833323836
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_078",
+    "source": "M154_LOD0 | Sur | Sur | 24_Parque_plaza_canchas_y_juegos",
+    "datum_local": 1.264,
+    "lowering_cm": 36.206118643283844,
+    "instances": 15,
+    "candidates": [
+      [
+        0.88,
+        4372.42822265625
+      ],
+      [
+        1.19,
+        4163.57177734375
+      ],
+      [
+        1.264,
+        1752.2371456623077
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_079",
+    "source": "M155_LOD0 | Sur | Sur | 25_Apartamentos_marfil_y_ladrillo.001",
+    "datum_local": 0.969,
+    "lowering_cm": 64.7703905582428,
+    "instances": 18,
+    "candidates": [
+      [
+        0.518,
+        692.0968627929688
+      ],
+      [
+        0.687,
+        580.2784423828125
+      ],
+      [
+        0.969,
+        580.2784423828125
+      ]
+    ]
+  },
+  {
+    "mesh": "SM_Original_080",
+    "source": "M157_LOD0 | Sur | Sur | 27_Apartamentos_ladrillo_y_grafito",
+    "datum_local": 0.969,
+    "lowering_cm": 61.10541197955608,
+    "instances": 13,
+    "candidates": [
+      [
+        0.518,
+        692.0968627929688
+      ],
+      [
+        0.687,
+        580.2784423828125
+      ],
+      [
+        0.969,
+        580.2784423828125
+      ]
+    ]
+  }
+]

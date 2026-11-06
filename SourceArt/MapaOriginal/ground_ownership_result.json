@@ -1,0 +1,9 @@
+{
+  "parks": 37,
+  "ground_faces": 152160,
+  "border_rectangles_clipped": 7933,
+  "park_area_m2": 26107.786939885096,
+  "asphalt_sidewalk_overlap_m2": 2.555126294809992e-12,
+  "terrain_mask_cells": 377964,
+  "ground_area_m2": 37729.81807641377
+}

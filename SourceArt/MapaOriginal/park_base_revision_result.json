@@ -1,0 +1,27 @@
+[
+  {
+    "mesh": "SM_Original_012",
+    "instances": 1,
+    "lowering_cm": 4.124624316841364
+  },
+  {
+    "mesh": "SM_Original_026",
+    "instances": 13,
+    "lowering_cm": 21.274120005369188
+  },
+  {
+    "mesh": "SM_Original_043",
+    "instances": 2,
+    "lowering_cm": 97.8646455860138
+  },
+  {
+    "mesh": "SM_Original_062",
+    "instances": 6,
+    "lowering_cm": 15.345567881315947
+  },
+  {
+    "mesh": "SM_Original_078",
+    "instances": 15,
+    "lowering_cm": 9.140326312556862
+  }
+]

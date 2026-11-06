@@ -1,0 +1,429 @@
+{
+  "cars": 90,
+  "snapshots": 5760,
+  "static_errors": 0,
+  "unmoved": [],
+  "final_stopped": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    11,
+    12,
+    15,
+    16,
+    17,
+    22,
+    23,
+    24,
+    25,
+    26,
+    31,
+    34,
+    36,
+    37,
+    40,
+    42,
+    45,
+    46,
+    50,
+    51,
+    54,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    66,
+    67,
+    68,
+    70,
+    71,
+    73,
+    74,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89
+  ],
+  "runtime_script_errors": 0,
+  "player_spawned": true,
+  "vehicle_flags": {
+    "0": {
+      "parked": false,
+      "controlled": false
+    },
+    "1": {
+      "parked": false,
+      "controlled": false
+    },
+    "2": {
+      "parked": false,
+      "controlled": false
+    },
+    "3": {
+      "parked": false,
+      "controlled": false
+    },
+    "4": {
+      "parked": false,
+      "controlled": false
+    },
+    "5": {
+      "parked": false,
+      "controlled": false
+    },
+    "6": {
+      "parked": false,
+      "controlled": false
+    },
+    "7": {
+      "parked": false,
+      "controlled": false
+    },
+    "8": {
+      "parked": false,
+      "controlled": false
+    },
+    "9": {
+      "parked": false,
+      "controlled": false
+    },
+    "10": {
+      "parked": false,
+      "controlled": false
+    },
+    "11": {
+      "parked": false,
+      "controlled": false
+    },
+    "12": {
+      "parked": false,
+      "controlled": false
+    },
+    "13": {
+      "parked": false,
+      "controlled": false
+    },
+    "14": {
+      "parked": false,
+      "controlled": false
+    },
+    "15": {
+      "parked": false,
+      "controlled": false
+    },
+    "16": {
+      "parked": false,
+      "controlled": false
+    },
+    "17": {
+      "parked": false,
+      "controlled": false
+    },
+    "18": {
+      "parked": false,
+      "controlled": false
+    },
+    "19": {
+      "parked": false,
+      "controlled": false
+    },
+    "20": {
+      "parked": false,
+      "controlled": false
+    },
+    "21": {
+      "parked": false,
+      "controlled": false
+    },
+    "22": {
+      "parked": false,
+      "controlled": false
+    },
+    "23": {
+      "parked": false,
+      "controlled": false
+    },
+    "24": {
+      "parked": false,
+      "controlled": false
+    },
+    "25": {
+      "parked": false,
+      "controlled": false
+    },
+    "26": {
+      "parked": false,
+      "controlled": false
+    },
+    "27": {
+      "parked": false,
+      "controlled": false
+    },
+    "28": {
+      "parked": false,
+      "controlled": false
+    },
+    "29": {
+      "parked": false,
+      "controlled": false
+    },
+    "30": {
+      "parked": false,
+      "controlled": false
+    },
+    "31": {
+      "parked": false,
+      "controlled": false
+    },
+    "32": {
+      "parked": false,
+      "controlled": false
+    },
+    "33": {
+      "parked": false,
+      "controlled": false
+    },
+    "34": {
+      "parked": false,
+      "controlled": false
+    },
+    "35": {
+      "parked": false,
+      "controlled": false
+    },
+    "36": {
+      "parked": false,
+      "controlled": false
+    },
+    "37": {
+      "parked": false,
+      "controlled": false
+    },
+    "38": {
+      "parked": false,
+      "controlled": false
+    },
+    "39": {
+      "parked": false,
+      "controlled": false
+    },
+    "40": {
+      "parked": false,
+      "controlled": false
+    },
+    "41": {
+      "parked": false,
+      "controlled": false
+    },
+    "42": {
+      "parked": false,
+      "controlled": false
+    },
+    "43": {
+      "parked": false,
+      "controlled": false
+    },
+    "44": {
+      "parked": false,
+      "controlled": false
+    },
+    "45": {
+      "parked": false,
+      "controlled": false
+    },
+    "46": {
+      "parked": false,
+      "controlled": false
+    },
+    "47": {
+      "parked": false,
+      "controlled": false
+    },
+    "48": {
+      "parked": false,
+      "controlled": false
+    },
+    "49": {
+      "parked": false,
+      "controlled": false
+    },
+    "50": {
+      "parked": false,
+      "controlled": false
+    },
+    "51": {
+      "parked": false,
+      "controlled": false
+    },
+    "52": {
+      "parked": false,
+      "controlled": false
+    },
+    "53": {
+      "parked": false,
+      "controlled": false
+    },
+    "54": {
+      "parked": false,
+      "controlled": false
+    },
+    "55": {
+      "parked": false,
+      "controlled": false
+    },
+    "56": {
+      "parked": false,
+      "controlled": false
+    },
+    "57": {
+      "parked": false,
+      "controlled": false
+    },
+    "58": {
+      "parked": false,
+      "controlled": false
+    },
+    "59": {
+      "parked": false,
+      "controlled": false
+    },
+    "60": {
+      "parked": false,
+      "controlled": false
+    },
+    "61": {
+      "parked": false,
+      "controlled": false
+    },
+    "62": {
+      "parked": false,
+      "controlled": false
+    },
+    "63": {
+      "parked": false,
+      "controlled": false
+    },
+    "64": {
+      "parked": false,
+      "controlled": false
+    },
+    "65": {
+      "parked": false,
+      "controlled": false
+    },
+    "66": {
+      "parked": false,
+      "controlled": false
+    },
+    "67": {
+      "parked": false,
+      "controlled": false
+    },
+    "68": {
+      "parked": false,
+      "controlled": false
+    },
+    "69": {
+      "parked": false,
+      "controlled": false
+    },
+    "70": {
+      "parked": false,
+      "controlled": false
+    },
+    "71": {
+      "parked": false,
+      "controlled": false
+    },
+    "72": {
+      "parked": false,
+      "controlled": false
+    },
+    "73": {
+      "parked": false,
+      "controlled": false
+    },
+    "74": {
+      "parked": false,
+      "controlled": false
+    },
+    "75": {
+      "parked": false,
+      "controlled": false
+    },
+    "76": {
+      "parked": false,
+      "controlled": false
+    },
+    "77": {
+      "parked": false,
+      "controlled": false
+    },
+    "78": {
+      "parked": false,
+      "controlled": false
+    },
+    "79": {
+      "parked": false,
+      "controlled": false
+    },
+    "80": {
+      "parked": false,
+      "controlled": false
+    },
+    "81": {
+      "parked": false,
+      "controlled": false
+    },
+    "82": {
+      "parked": false,
+      "controlled": false
+    },
+    "83": {
+      "parked": false,
+      "controlled": false
+    },
+    "84": {
+      "parked": false,
+      "controlled": false
+    },
+    "85": {
+      "parked": false,
+      "controlled": false
+    },
+    "86": {
+      "parked": false,
+      "controlled": false
+    },
+    "87": {
+      "parked": false,
+      "controlled": false
+    },
+    "88": {
+      "parked": false,
+      "controlled": false
+    },
+    "89": {
+      "parked": false,
+      "controlled": false
+    }
+  },
+  "intentionally_stopped": [],
+  "unexpectedly_stopped": [],
+  "pedestrians_sampled": 253,
+  "pedestrians_moved": 176
+}
