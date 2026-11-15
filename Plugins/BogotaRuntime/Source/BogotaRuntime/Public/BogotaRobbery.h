@@ -58,6 +58,8 @@ private:
     enum class EPhase : uint8 { Approach, Prompt, Retreat, ForcedDismount, VehicleApproach, VehicleMount, VehicleEscape };
     bool SpawnEncounter(bool bRayas);
     void AdvancePrompt();
+    bool BeginFirstRobberyLesson(APlayerController& Controller);
+    bool bFirstRobberyLesson = false;
     void ReadDeveloperCode();
     FString DeveloperCode;
     double LastDeveloperKey = 0.;

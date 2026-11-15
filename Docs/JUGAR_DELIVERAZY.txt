@@ -1,0 +1,10 @@
+DELIVERAZY para Windows de 64 bits
+
+1. Extrae el ZIP completo.
+2. Abre DELIVERAZY.exe desde la carpeta extraída.
+3. Si Windows pide componentes de Visual C++, instala Instaladores\vc_redist.x64.exe.
+4. Si el juego pide GameInput, instala Instaladores\GameInputRedist.msi.
+
+Comparte la carpeta DELIVERAZY_Windows completa. El ejecutable usa las
+carpetas BogotaVoxel y Engine que están a su lado. Para jugar no hace falta
+abrir el proyecto en Unreal Engine.

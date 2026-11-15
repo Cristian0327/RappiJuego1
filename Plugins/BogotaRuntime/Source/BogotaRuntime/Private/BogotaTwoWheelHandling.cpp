@@ -522,11 +522,11 @@ void UBogotaTwoWheelHandling::OnMovement(float DeltaTime, FVector, FVector OldVe
     }
 
     const float Speed = Movement->Velocity.Size2D();
-    const float Keyboard = FMath::Clamp(RiderAxis(*Character, TEXT("SideInput")), -1.f, 1.f);
-    const float Steering = FMath::Abs(Keyboard) > .05f ? Keyboard : MouseSteer;
+    const float KeyboardSteering = FMath::Clamp(RiderAxis(*Character, TEXT("SideInput")), -1.f, 1.f);
+    const float Steering = FMath::Abs(KeyboardSteering) > .05f ? KeyboardSteering : MouseSteer;
     if (Speed > 95.f)
     {
-        const float MouseTurn = FMath::Abs(Keyboard) <= .05f ? 65.f * Steering : 0.f;
+        const float MouseTurn = FMath::Abs(KeyboardSteering) <= .05f ? 65.f * Steering : 0.f;
         const float DriftTurn = bDrifting && DriftHeld(Controller) ? 20.f * Steering : 0.f;
         const float Turn = (MouseTurn + DriftTurn) * FMath::SmoothStep(95.f, 550.f, Speed) * DeltaTime;
         Character->AddActorWorldRotation(FRotator(0.f, Turn, 0.f));

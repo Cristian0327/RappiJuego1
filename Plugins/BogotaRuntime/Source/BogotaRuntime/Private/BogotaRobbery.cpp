@@ -724,11 +724,27 @@ void UBogotaRobbery::Show(const FString& Message)
     }
 }
 
+bool UBogotaRobbery::BeginFirstRobberyLesson(APlayerController& Controller)
+{
+    if (!bGameplayEncounter || IsDeveloperMode(GetWorld())) return false;
+    auto* Core = FindDeliveryCore(Controller.GetPawn());
+    const auto* Field = Core ? FindFProperty<FMapProperty>(Core->GetClass(), TEXT("ModelColors")) : nullptr;
+    if (!Field || !CastField<FNameProperty>(Field->KeyProp) || !CastField<FIntProperty>(Field->ValueProp)) return false;
+    FScriptMapHelper Progress(Field, Field->ContainerPtrToValuePtr<void>(Core));
+    const FName Key(TEXT("FirstRobberyLesson"));
+    if (Progress.FindValueFromHash(&Key)) return false;
+    const int32 Seen = 1;
+    Progress.AddPair(&Key, &Seen);
+    SaveRescueBalance(*Core);
+    return true;
+}
+
 void UBogotaRobbery::AdvancePrompt()
 {
     const int32 Offset = FMath::RandRange(1, 3);
     Prompt = Prompt == INDEX_NONE ? FMath::RandRange(0, 3) : (Prompt + Offset) % 4;
-    TimeLeft = FMath::Clamp(PromptSeconds.GetValueOnGameThread(), 1.25f, 5.f) * (1.f - .20f * FMath::Clamp(Step, 0, 2));
+    TimeLeft = bFirstRobberyLesson ? 7.f : FMath::Clamp(PromptSeconds.GetValueOnGameThread(), 1.25f, 5.f)
+        * (1.f - .20f * FMath::Clamp(Step, 0, 2));
 }
 
 void UBogotaRobbery::FinishPrompt(bool bEscaped)
@@ -756,6 +772,7 @@ void UBogotaRobbery::FinishPrompt(bool bEscaped)
     ReleaseMovement();
     StartRetreat();
     Show(bEscaped ? TEXT("Lograste zafarte.") : TEXT("QTE fallido."));
+    if (bFirstRobberyLesson && bEscaped) UBogotaAudioLibrary::PlayMissionFinish(GetWorld());
     if (bGameplayEncounter)
     {
         bGameplayEncounter = false;
@@ -1192,6 +1209,14 @@ void UBogotaRobbery::Tick(float DeltaTime)
             PlayClip(TEXT("Prompt"), true);
             Thief->GetSkeletalMeshComponent()->SetPlayRate(1.f);
             PlayRobberySound(*Thief.Get());
+            bFirstRobberyLesson = BeginFirstRobberyLesson(*Controller);
+            if (bFirstRobberyLesson)
+            {
+                // Frame the grab from the side so the instructor prompt and the thief are visible.
+                FRotator ViewRotation = Controller->GetControlRotation();
+                ViewRotation.Yaw = Player->GetActorRotation().Yaw + 90.f;
+                Controller->SetControlRotation(ViewRotation);
+            }
             AdvancePrompt();
         }
         return;
@@ -1265,13 +1290,14 @@ void UBogotaRobbery::Tick(float DeltaTime)
             break;
         }
     }
+    const TCHAR* Lesson = bFirstRobberyLesson ? TEXT("\nPulsa las tres teclas a tiempo\npara impedir el robo.") : TEXT("");
     if (ShowPromptIcon(Controller))
     {
-        Show(FString::Printf(TEXT("ZÁFATE   %d / 3    %.1f s"), Step + 1, TimeLeft));
+        Show(FString::Printf(TEXT("ZÁFATE   %d / 3    %.1f s%s"), Step + 1, TimeLeft, Lesson));
         return;
     }
-    Show(FString::Printf(TEXT("ZÁFATE   %d / 3\nPulsa %s\nMando: %s    %.1f s"),
-        Step + 1, *Keyboard[Prompt].GetFName().ToString(), PadLabels[Prompt], TimeLeft));
+    Show(FString::Printf(TEXT("ZÁFATE   %d / 3\nPulsa %s\nMando: %s    %.1f s%s"),
+        Step + 1, *Keyboard[Prompt].GetFName().ToString(), PadLabels[Prompt], TimeLeft, Lesson));
 }
 
 void UBogotaRobbery::LockMovement(APlayerController& Controller)

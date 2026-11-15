@@ -24,6 +24,7 @@ public:
     virtual void Tick(float DeltaTime) override;
     virtual TStatId GetStatId() const override;
 
+    UFUNCTION(BlueprintPure, Category="Bogota|Vehicle")
     bool IsDrifting() const;
     uint32 GetDriftBoostCount() const { return DriftBoostCount; }
     int32 GetDriftTier() const;
