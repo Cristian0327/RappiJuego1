@@ -8,3 +8,11 @@ DELIVERAZY para Windows de 64 bits
 Comparte la carpeta DELIVERAZY_Windows completa. El ejecutable usa las
 carpetas BogotaVoxel y Engine que están a su lado. Para jugar no hace falta
 abrir el proyecto en Unreal Engine.
+
+En Pedidos, el celular muestra las entregas activas y cuántas caben.
+Toca un pedido activo para seguir su ruta. La cicla admite hasta tres con
+las mejoras de carga y la moto admite hasta cinco con las alforjas.
+
+Guardar desde pausa conserva la posición y la hora del juego. Al cargar,
+el personaje vuelve a pie al punto guardado. Los plazos de Servicios
+avanzan con los días de la ciudad.

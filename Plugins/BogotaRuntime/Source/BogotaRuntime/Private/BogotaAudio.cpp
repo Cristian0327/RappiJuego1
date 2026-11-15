@@ -1103,11 +1103,6 @@ void UBogotaAudioSubsystem::UpdateDelivery(UWorld& World, UObject* Delivery, con
     const int32 Basket = static_cast<int32>(Number(Delivery, TEXT("BasketCount")));
     const int32 State = static_cast<int32>(Number(Delivery, TEXT("State")));
     const bool CheckedOut = SameDelivery && LastDeliveryState == 2 && State == 3;
-    if (UBogotaRobbery* Robbery = World.GetSubsystem<UBogotaRobbery>())
-    {
-        Robbery->ObservePickup(Delivery, CheckedOut, !IsValid(Shop) && PreviousPawn.IsValid() &&
-            !Flag(Delivery, TEXT("PhoneOpen")), Number(Weather.Get(), TEXT("Hour"), 12.));
-    }
     const bool SameShop = IsValid(Shop) && LastShop.Get() == Shop;
     if (SameDelivery && ((SameShop && State == 2 && Basket > LastBasket) || CheckedOut))
     {

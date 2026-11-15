@@ -38,6 +38,7 @@
 #include "Animation/SkeletalMeshActor.h"
 #include "Engine/SkeletalMesh.h"
 #include "Engine/World.h"
+#include "EngineUtils.h"
 #include "GameFramework/Pawn.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/PawnMovementComponent.h"
@@ -61,6 +62,7 @@ const TCHAR* PadLabels[] = {TEXT("A / ×"), TEXT("B / ○"),
     TEXT("X / □"), TEXT("Y / △")};
 constexpr float BikeProtectionSeconds = 5.f * 60.f;
 constexpr int32 BikeRescueCost = 50000;
+constexpr int32 MinimumBikeRescueFunds = 3000;
 constexpr int32 MotoRescueCost = 80000;
 constexpr float ApproachSeconds = 6.f;
 constexpr float ForcedDismountSeconds = 3.f;
@@ -264,7 +266,8 @@ AActor* ParkedTwoWheeler(APawn* Pawn)
     {
         return nullptr;
     }
-    return PlayerTwoWheeler(Pawn);
+    auto* Vehicle = PlayerTwoWheeler(Pawn);
+    return IsValid(Vehicle) && !Vehicle->IsHidden() ? Vehicle : nullptr;
 }
 
 FVector PickVehiclePickup(UWorld* World, const FVector& Start, const FRotator& Facing,
@@ -507,6 +510,8 @@ void UBogotaRobbery::ObservePickup(UObject* Delivery, bool bCheckedOut, bool bOu
     {
         EncounterDelivery = Delivery;
         ProtectedPickups = 2;
+        UE_LOG(LogTemp, Display, TEXT("Robbery: automatic encounter %s (%.1f active seconds)"),
+            bRayas ? TEXT("Abelardo") : TEXT("Nero"), ActivePlaySeconds);
     }
 }
 
@@ -874,7 +879,7 @@ bool UBogotaRobbery::CanStealVehicle(const UObject* Delivery) const
     }
     const FIntProperty* Balance = FindFProperty<FIntProperty>(Delivery->GetClass(), TEXT("Balance"));
     return ActivePlaySeconds >= BikeProtectionSeconds && Balance &&
-        Balance->GetPropertyValue_InContainer(Delivery) >= BikeRescueCost;
+        Balance->GetPropertyValue_InContainer(Delivery) >= MinimumBikeRescueFunds;
 }
 
 void UBogotaRobbery::PlanEscape(APlayerController& Controller, const FVector& Start, const FCollisionQueryParams& Params)
@@ -1105,17 +1110,44 @@ bool UBogotaRobbery::TrackGrabPosition(float DeltaTime)
     return bAtPlayer;
 }
 
+void UBogotaRobbery::ObserveStreet(float DeltaTime)
+{
+    UWorld* World = GetWorld();
+    if (World->IsPaused() || IsConsoleOpen(World)) return;
+
+    auto* Controller = World->GetFirstPlayerController();
+    auto* Rider = Controller ? Controller->GetPawn().Get() : nullptr;
+    auto* Delivery = FindDeliveryCore(Rider);
+    if (!Delivery) return;
+    const auto* State = FindFProperty<FByteProperty>(Delivery->GetClass(), TEXT("State"));
+    if (!State) return;
+    const int32 Current = State->GetPropertyValue_InContainer(Delivery);
+    const bool bCheckedOut = ObservedDelivery.Get() == Delivery && ObservedOrderState == 2 && Current == 3;
+    ObservedDelivery = Delivery;
+    ObservedOrderState = Current;
+
+    if (!RobberyClock.IsValid())
+        for (TActorIterator<AActor> It(World); It; ++It)
+            if (It->GetClass()->GetFName() == TEXT("BP_WorldState_C"))
+            {
+                RobberyClock = *It;
+                break;
+            }
+    auto* Clock = RobberyClock.Get();
+    const auto* HourField = Clock ? FindFProperty<FNumericProperty>(Clock->GetClass(), TEXT("Hour")) : nullptr;
+    const double Hour = HourField && HourField->IsFloatingPoint()
+        ? HourField->GetFloatingPointPropertyValue(HourField->ContainerPtrToValuePtr<void>(Clock)) : 12.;
+    const auto* Shop = FindFProperty<FObjectPropertyBase>(Delivery->GetClass(), TEXT("InsideStore"));
+    const bool bPhoneOpen = ReadFlag(Delivery, TEXT("PhoneOpen"));
+    if (!bPhoneOpen) ActivePlaySeconds += DeltaTime;
+    ObservePickup(Delivery, bCheckedOut, !bPhoneOpen &&
+        (!Shop || !IsValid(Shop->GetObjectPropertyValue_InContainer(Delivery))), Hour);
+}
+
 void UBogotaRobbery::Tick(float DeltaTime)
 {
     UpdateRescuePanel();
-    if (!GetWorld()->IsPaused() && !IsConsoleOpen(GetWorld()))
-    {
-        const APlayerController* Controller = GetWorld()->GetFirstPlayerController();
-        if (Controller && Controller->GetPawn())
-        {
-            ActivePlaySeconds += DeltaTime;
-        }
-    }
+    ObserveStreet(DeltaTime);
 #if !UE_BUILD_SHIPPING
     if (!Thief.IsValid())
     {
@@ -1223,6 +1255,12 @@ void UBogotaRobbery::Tick(float DeltaTime)
     }
     if (Phase == EPhase::VehicleApproach || Phase == EPhase::VehicleMount || Phase == EPhase::VehicleEscape)
     {
+        // A second mount must never replace the parked bike currently used by the thief.
+        if (ReadFlag(Player.Get(), TEXT("Riding")) || PlayerTwoWheeler(Player.Get()) != RetainedVehicle.Get())
+        {
+            CancelPreview();
+            return;
+        }
         TickVehicleEscape(DeltaTime);
         return;
     }
@@ -1263,11 +1301,6 @@ void UBogotaRobbery::Tick(float DeltaTime)
         FinishPrompt(true);
         return;
     }
-    if (TimeLeft <= 0.f)
-    {
-        FinishPrompt(false);
-        return;
-    }
     for (int32 Index = 0; Index < UE_ARRAY_COUNT(Keyboard); ++Index)
     {
         if (Controller->WasInputKeyJustPressed(Keyboard[Index]) ||
@@ -1289,6 +1322,11 @@ void UBogotaRobbery::Tick(float DeltaTime)
             }
             break;
         }
+    }
+    if (TimeLeft <= 0.f)
+    {
+        FinishPrompt(false);
+        return;
     }
     const TCHAR* Lesson = bFirstRobberyLesson ? TEXT("\nPulsa las tres teclas a tiempo\npara impedir el robo.") : TEXT("");
     if (ShowPromptIcon(Controller))
@@ -1318,15 +1356,32 @@ void UBogotaRobbery::LockMovement(APlayerController& Controller)
         }
     }
 
-    // The mount action shares F and the left face button with the QTE.
-    // Consume the action while keeping raw key presses available to the QTE.
+    GuardMountInput(Controller);
+}
+
+void UBogotaRobbery::GuardMountInput(APlayerController& Controller)
+{
+    if (MountInputGuard.IsValid()) return;
+    // Consume the gameplay action. The QTE still reads the controller's raw key state.
     UInputComponent* Input = NewObject<UInputComponent>(&Controller);
     FInputActionBinding Mount(TEXT("AnimatedMount"), IE_Pressed);
+    Mount.bConsumeInput = true;
     Mount.ActionDelegate.GetDelegateForManualSet().BindLambda([] {});
     Input->AddActionBinding(MoveTemp(Mount));
     Controller.AddInstanceComponent(Input);
     Controller.PushInputComponent(Input);
     MountInputGuard = Input;
+}
+
+void UBogotaRobbery::ReleaseMountInput()
+{
+    if (auto* Input = MountInputGuard.Get())
+    {
+        if (auto* Controller = Cast<APlayerController>(Input->GetOwner()))
+            Controller->PopInputComponent(Input);
+        Input->DestroyComponent();
+    }
+    MountInputGuard.Reset();
 }
 
 void UBogotaRobbery::ReleaseMovement()
@@ -1342,22 +1397,14 @@ void UBogotaRobbery::ReleaseMovement()
     if (bMovementLocked)
     {
         if (APlayerController* Controller = GetWorld()->GetFirstPlayerController())
-        {
-            if (UInputComponent* Input = MountInputGuard.Get())
-            {
-                Controller->PopInputComponent(Input);
-                Input->DestroyComponent();
-            }
             Controller->SetIgnoreMoveInput(false);
-        }
-        MountInputGuard.Reset();
         bMovementLocked = false;
     }
+    if (!RetainedVehicle.IsValid() || bRescuePaid) ReleaseMountInput();
 }
 
 void UBogotaRobbery::CancelPreview()
 {
-    ReleaseMovement();
     if (Phase == EPhase::VehicleApproach || Phase == EPhase::VehicleMount || Phase == EPhase::VehicleEscape)
     {
         if (AActor* Vehicle = RetainedVehicle.Get())
@@ -1368,6 +1415,7 @@ void UBogotaRobbery::CancelPreview()
         RetainedVehicle.Reset();
         RescueDelivery.Reset();
     }
+    ReleaseMovement();
     Phase = EPhase::Approach;
     EscapeRoute.Reset();
     EscapeBuilding.Reset();
@@ -1467,7 +1515,10 @@ bool UBogotaRobbery::BeginVehicleEscape()
     RescueDelivery = Delivery;
     bVehicleWasHidden = Vehicle->IsHidden();
     bVehicleHadCollision = Vehicle->GetActorEnableCollision();
-    RescueCost = bMoto ? MotoRescueCost : BikeRescueCost;
+    const auto* Balance = FindFProperty<FIntProperty>(Delivery->GetClass(), TEXT("Balance"));
+    const int32 Funds = Balance ? Balance->GetPropertyValue_InContainer(Delivery) : BikeRescueCost;
+    RescueCost = bMoto ? MotoRescueCost
+        : bGameplayEncounter ? FMath::Clamp(Funds, MinimumBikeRescueFunds, BikeRescueCost) : BikeRescueCost;
     bRescuePaid = false;
     RescueStatus = FText::GetEmpty();
     MountTo = Start;
@@ -1646,6 +1697,7 @@ FReply UBogotaRobbery::PayRescue()
         return FReply::Handled();
     }
     bRescuePaid = true;
+    ReleaseMountInput();
     Vehicle->SetActorLocationAndRotation(RescuePoint, RescueHeading);
     Vehicle->SetActorHiddenInGame(bVehicleWasHidden);
     Vehicle->SetActorEnableCollision(bVehicleHadCollision);

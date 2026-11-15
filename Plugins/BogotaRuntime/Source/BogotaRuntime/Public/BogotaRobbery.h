@@ -49,8 +49,6 @@ public:
     UFUNCTION(BlueprintCallable, Category="Bogota|Robbery")
     void PayServiceRescue();
 
-    void ObservePickup(UObject* Delivery, bool bCheckedOut, bool bOutside, double Hour);
-
     void StartPreview(const FString& Variant);
     void CancelPreview();
 
@@ -113,6 +111,11 @@ private:
     bool bVehicleHadCollision = false;
 
 
+    void ObserveStreet(float DeltaTime);
+    void ObservePickup(UObject* Delivery, bool bCheckedOut, bool bOutside, double Hour);
+    TWeakObjectPtr<UObject> ObservedDelivery;
+    TWeakObjectPtr<AActor> RobberyClock;
+    int32 ObservedOrderState = INDEX_NONE;
     TWeakObjectPtr<UObject> PickupCandidate;
     TWeakObjectPtr<UObject> EncounterDelivery;
     int32 ProtectedPickups = 0;
@@ -134,6 +137,8 @@ private:
     bool bPreviousWaypoint = false;
     FVector PreviousWaypoint = FVector::ZeroVector;
     TWeakObjectPtr<class UInputComponent> MountInputGuard;
+    void GuardMountInput(APlayerController& Controller);
+    void ReleaseMountInput();
     void LockMovement(APlayerController& Controller);
     void ReleaseMovement();
 

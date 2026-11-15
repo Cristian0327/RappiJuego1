@@ -118,6 +118,7 @@ public:
         const auto* Open = Core ? FindFProperty<FBoolProperty>(Core->GetClass(), TEXT("PhoneOpen")) : nullptr;
         RefreshVehiclePaint(PC, Core);
         ApplyWorkshopDriveMultiplier(PC, Core);
+        RefreshCargoModels(PC, Core);
         RefreshMotorcycleLamp(PC, Core);
         TrackParkedMapVehicle(PC);
         BlockMountedStoreEntry(PC);
@@ -143,15 +144,17 @@ public:
             if (!PauseMenu) bStartupShown = bAtStartup = false;
             else UE_LOG(LogTemp, Display, TEXT("Bogota UI: menu principal listo"));
         }
-        if (bAtStartup && bStartupVideo && !World->IsPaused())
+        if (bStartupShown) FindStartupPreparation(World, View);
+        if (bAtStartup && bStartupVideo && (!VideoMenu.IsValid() || !VideoMenu->IsInViewport()))
         {
             bStartupVideo = false;
             OpenPause(View, PC);
             if (PauseMenu) ShowPausePage(EPausePage::Settings);
         }
-        if (bStartupShown && !bAtStartup && PC && !StartupPreparationFinished(World, PC, View)) return;
-        UpdateTutorial(PC, Core);
-        TrackServiceClock(Core, World);
+        if (bStartupShown && !bAtStartup && PC && !StartupPreparationFinished(PC, View)) return;
+        UpdateTutorial(PC, Core, bPhoneOpen);
+        UpdateValeriaPortrait();
+        TrackSession(PC, Core);
         TrackSpecialTimers(Core, World);
         ApplySpecialOfferPremium(Core);
         TrackDeliveries(Core);
@@ -572,7 +575,7 @@ public:
             PauseStatus = FText::FromString(bLoading ? TEXT("Pulsa otra vez para cargar y reiniciar") : TEXT("Pulsa otra vez para sobrescribir"));
             return;
         }
-        if (!bLoading && !QueryBool(Core, TEXT("SaveProfile")))
+        if (!bLoading && !SaveCurrentSession(PC, Core))
         {
             PauseStatus = FText::FromString(TEXT("El juego no pudo guardar"));
             return;
@@ -592,8 +595,19 @@ public:
             bAtStartup = false;
             TutorialStep = INDEX_NONE;
             ClosePause();
-            UGameplayStatics::OpenLevel(World, FName(*UGameplayStatics::GetCurrentLevelName(World)));
+            ReloadCity(World);
         }
+    }
+
+    static void ReloadCity(UWorld* World)
+    {
+        // Slate callbacks must finish before destroying the current world.
+        FTSTicker::GetCoreTicker().AddTicker(FTickerDelegate::CreateLambda([Level = TWeakObjectPtr<UWorld>(World)](float)
+        {
+            if (Level.IsValid())
+                UGameplayStatics::OpenLevel(Level.Get(), FName(TEXT("/Game/Maps/Bogota_Juego_Final")));
+            return false;
+        }));
     }
 
     void EnterDeveloperGame(UWorld* World)
@@ -656,13 +670,7 @@ public:
         ClosePause();
         if (bHasProfile)
         {
-            // Travel outside the Slate button event and use the full cooked package name.
-            FTSTicker::GetCoreTicker().AddTicker(FTickerDelegate::CreateLambda([World](float)
-            {
-                if (World.IsValid())
-                    UGameplayStatics::OpenLevel(World.Get(), FName(TEXT("/Game/Maps/Bogota_Juego_Final")));
-                return false;
-            }));
+            ReloadCity(World.Get());
         }
         UE_LOG(LogTemp, Display, TEXT("Bogota UI: tutorial de nueva partida iniciado"));
     }
@@ -675,11 +683,15 @@ public:
         return Pawn && Target && FVector::DistSquared2D(Pawn->GetActorLocation(), *Target) <= FMath::Square(450.);
     }
 
-    void UpdateTutorial(APlayerController* PC, UObject* Core)
+    void UpdateTutorial(APlayerController* PC, UObject* Core, bool bPhoneOpen)
     {
         if (TutorialStep == INDEX_NONE || !PC || !Core || bAtStartup || PC->GetWorld()->IsPaused()) return;
-        if (TutorialStep == 7 && FPlatformTime::Seconds() >= TutorialFinishedUntil)
-            TutorialStep = INDEX_NONE;
+        if (TutorialStep == 7 && !bPhoneOpen)
+        {
+            const double Now = FPlatformTime::Seconds();
+            if (TutorialFinishedUntil == 0.) TutorialFinishedUntil = Now + 12.;
+            if (Now >= TutorialFinishedUntil) TutorialStep = INDEX_NONE;
+        }
         auto* Pawn = PC->GetPawn().Get();
         const auto* Riding = Pawn ? FindFProperty<FBoolProperty>(Pawn->GetClass(), TEXT("Riding")) : nullptr;
         const bool Mounted = Riding && Riding->GetPropertyValue_InContainer(Pawn);
@@ -749,13 +761,16 @@ public:
             }
             if (TutorialStep == 2) return FText::FromString(TEXT("Sigue la ruta al local."));
         }
+        if (TutorialStep == 5)
+            return FText::FromString(CanDeliver(DeliveryFor(RouteController.Get()))
+                ? TEXT("Cuando estés cerca, mantén E para entregar.") : TEXT("Sigue la ruta al cliente."));
         static const TCHAR* Tips[] = {
             TEXT("Soy Valeria. Busca la cicla en el minimapa y pulsa F para montar."),
             TEXT("Abre el celular con Tab. En Pedidos, mantén pulsada la oferta más cercana."),
             TEXT("Sigue la ruta al local. Baja de la cicla con F y entra a pie."),
             TEXT("Acércate al producto señalado y mantén E para recogerlo."),
             TEXT("Ve a la caja señalada y mantén E para pagar."),
-            TEXT("Sigue la ruta al cliente. Cuando estés cerca, mantén E para entregar."),
+            TEXT(""),
             TEXT("Abre Servicios en el celular para pagar tu primera factura."),
             TEXT("Terminaste el tutorial. Sigue jugando para mejorar el vehículo y tu bolsa."), TEXT(""),
             TEXT("En una curva, mantén Espacio mientras giras con A o D. Suéltalo para ganar impulso si cargaste el derrape.")
@@ -764,7 +779,7 @@ public:
             ? FText::FromString(Tips[TutorialStep]) : FText::GetEmpty();
     }
 
-    bool StartupPreparationFinished(UWorld* World, APlayerController* PC, UGameViewportClient* View)
+    void FindStartupPreparation(UWorld* World, UGameViewportClient* View)
     {
         if (StartupWorld.Get() != World)
         {
@@ -772,7 +787,7 @@ public:
             LoadingCover.Reset();
             StartupWorld = World;
             StartupPreparation.Reset();
-            StartupWaitStarted = FPlatformTime::Seconds();
+            StartupWaitStarted = 0.;
             auto* PrepClass = FindObject<UClass>(nullptr,
                 TEXT("/Game/Reconstruction/Optimization/BP_StartupPreparation.BP_StartupPreparation_C"));
             if (PrepClass)
@@ -783,6 +798,13 @@ public:
                 }
         }
 
+        // The Blueprint creates its own cover at a higher Z-order than the graphics menu.
+        if (auto* Loading = Cast<UUserWidget>(ReadObject(StartupPreparation.Get(), TEXT("LoadingScreen"))))
+            Loading->SetVisibility(ESlateVisibility::Collapsed);
+    }
+
+    bool StartupPreparationFinished(APlayerController* PC, UGameViewportClient* View)
+    {
         auto* Preparation = StartupPreparation.Get();
         if (!Preparation || !Preparation->IsActorTickEnabled())
         {
@@ -802,6 +824,7 @@ public:
                      .Text(FText::FromString(TEXT("Preparando sombreadores y ciudad…")))];
             View->AddViewportWidgetContent(LoadingCover.ToSharedRef(), 10050);
         }
+        if (StartupWaitStarted == 0.) StartupWaitStarted = FPlatformTime::Seconds();
         const auto Elapsed = FPlatformTime::Seconds() - StartupWaitStarted;
         if (Elapsed < 30.) return false;
 
@@ -931,7 +954,7 @@ public:
         else if (Page == EPausePage::MainMenu)
         {
             Fixed(TEXT("GUARDAR Y VOLVER"), FOnClicked::CreateLambda([this] {
-                if (!QueryBool(DeliveryFor(PauseController.Get()), TEXT("SaveProfile")))
+                if (!SaveCurrentSession(PauseController.Get(), DeliveryFor(PauseController.Get())))
                 {
                     PauseStatus = FText::FromString(TEXT("No se pudo guardar la partida."));
                     return FReply::Handled();
@@ -951,10 +974,22 @@ public:
             Fixed(TEXT("CONFIRMAR"), FOnClicked::CreateLambda([this]
             {
                 if (auto* Controller = PauseController.Get())
+                {
+                    auto* Core = DeliveryFor(Controller);
+                    const auto* Dev = Core ? FindFProperty<FBoolProperty>(Core->GetClass(), TEXT("DeveloperMode")) : nullptr;
+                    if (!bAtStartup && Core && !(Dev && Dev->GetPropertyValue_InContainer(Core)) &&
+                        !SaveCurrentSession(Controller, Core))
+                    {
+                        PauseStatus = FText::FromString(TEXT("No se pudo guardar la partida."));
+                        return FReply::Handled();
+                    }
                     UKismetSystemLibrary::QuitGame(Controller->GetWorld(), Controller, EQuitPreference::Quit, false);
+                }
                 return FReply::Handled();
             }));
             Fixed(TEXT("VOLVER"), FOnClicked::CreateLambda([this] { ShowPausePage(EPausePage::Main); return FReply::Handled(); }));
+            Actions->AddSlot().AutoHeight().Padding(0,8)
+                [SNew(STextBlock).Font(SecondaryFont(12)).Text_Lambda([this] { return PauseStatus; })];
         }
         else
         {
@@ -1037,6 +1072,7 @@ public:
             if (It->GetClass()->GetName().StartsWith(TEXT("BP_GraphicsSettings")))
             {
                 Invoke(*It, TEXT("ToggleGraphics"));
+                VideoMenu = Cast<UUserWidget>(ReadObject(*It, TEXT("Menu")));
                 return;
             }
     }
@@ -1071,6 +1107,9 @@ public:
         bGarageMoto = false;
         Orders.Reset();
         OrderSnapshot.Reset();
+        ActiveOrderSnapshot.Reset();
+        OrderCapacitySnapshot = 0;
+        HoldingOrder = INDEX_NONE;
         GarageImage.Reset();
         GarageBrush.SetResourceObject(nullptr);
         Clock.Reset();
@@ -1218,7 +1257,8 @@ private:
         ArtWidget->SetRenderScale(FVector2D(MinimapScale,MinimapScale));
         Frame->SetRenderTransformPivot(FVector2D(0,1));
         Frame->SetRenderScale(Base * MinimapScale);
-        if (auto* Notice = Phone->GetWidgetFromName(TEXT("Notice"))) Notice->SetRenderOpacity(0.f);
+        for (const TCHAR* Name : {TEXT("Notice"), TEXT("EnergyBar"), TEXT("HoldBar")})
+            if (auto* Widget = Phone->GetWidgetFromName(Name)) Widget->SetRenderOpacity(0.f);
 
         MinimapPanel = Phone->GetWidgetFromName(TEXT("MiniMap"));
     }
@@ -1382,14 +1422,24 @@ private:
         bPreviousDeveloper = bDeveloper;
     }
 
-    static TOptional<FVector> OrderTarget(UObject* Core)
+    static bool CanDeliver(UObject* Core)
     {
-        auto* Query = Core ? Core->FindFunction(TEXT("GetOrderTarget")) : nullptr;
+        return ReadNumber(Core, TEXT("State"), 0) == 3 && QueryBool(Core, TEXT("IsAtTarget"));
+    }
+
+    static TOptional<FVector> QueryPosition(UObject* Object, FName Function)
+    {
+        auto* Query = Object ? Object->FindFunction(Function) : nullptr;
         const auto* Result = Query ? CastField<FStructProperty>(Query->GetReturnProperty()) : nullptr;
         if (!Result || Query->NumParms != 1 || Result->Struct != TBaseStructure<FVector>::Get()) return {};
         FStructOnScope Args(Query);
-        Core->ProcessEvent(Query, Args.GetStructMemory());
+        Object->ProcessEvent(Query, Args.GetStructMemory());
         return *Result->ContainerPtrToValuePtr<FVector>(Args.GetStructMemory());
+    }
+
+    static TOptional<FVector> OrderTarget(UObject* Core)
+    {
+        return QueryPosition(Core, TEXT("GetOrderTarget"));
     }
 
     static void UpdatePickupMarker(UObject* Core)
@@ -1491,7 +1541,7 @@ private:
         auto* Rider = PC->GetPawn().Get();
         auto* Parked = Cast<AActor>(ReadObject(Rider, TEXT("ParkedVehicle")));
         const auto* Riding = Rider ? FindFProperty<FBoolProperty>(Rider->GetClass(), TEXT("Riding")) : nullptr;
-        const auto* CurrentStore = ReadObject(Core, TEXT("InsideStore"));
+        auto* CurrentStore = ReadObject(Core, TEXT("InsideStore"));
         if (IsValid(Parked) && !Parked->IsHidden() && !CurrentStore &&
             (!Riding || !Riding->GetPropertyValue_InContainer(Rider)))
             BikePosition = Project(Parked->GetActorLocation() + FVector(0,0,105));
@@ -1507,10 +1557,17 @@ private:
                 Core->ProcessEvent(Query, Args.GetStructMemory());
                 if (Result->GetObjectPropertyValue_InContainer(Args.GetStructMemory()) != CurrentStore) return;
             }
-            if (const auto Target = OrderTarget(Core))
+            if (QueryBool(Core, TEXT("ShopReady")))
+            {
+                if (const auto* Counter = Cast<UPrimitiveComponent>(ReadObject(CurrentStore, TEXT("Counter"))))
+                    ActionPosition = Project(Counter->Bounds.Origin + FVector(0,0,Counter->Bounds.BoxExtent.Z + 60.));
+                else if (const auto Checkout = QueryPosition(CurrentStore, TEXT("CheckoutPosition")))
+                    ActionPosition = Project(*Checkout + FVector(0,0,170));
+            }
+            else if (const auto Target = OrderTarget(Core))
                 ActionPosition = Project(*Target + FVector(0,0,100));
         }
-        else if (RouteAction == 3)
+        else if (CanDeliver(Core))
         {
             auto* Recipient = Cast<AActor>(ReadObject(Core, TEXT("Recipient")));
             if (IsValid(Recipient))
@@ -1662,7 +1719,8 @@ private:
         PositionAction(PC, Core);
         if (RouteHUD) return;
         RouteViewport = View;
-        static const FSlateColorBrush ActionCaption(FLinearColor(.012f,.035f,.052f,.65f));
+        static const FSlateColorBrush ActionCaption(FLinearColor(.012f,.035f,.052f,.82f));
+        static const FSlateColorBrush ActionFill(FLinearColor(.10f,.58f,.53f,.96f));
         RouteHUD = SNew(SOverlay).Visibility(EVisibility::HitTestInvisible)
           + SOverlay::Slot().HAlign(HAlign_Fill).VAlign(VAlign_Bottom).Padding(24,0,24,22)
           [SNew(SScaleBox).Stretch(EStretch::ScaleToFit).StretchDirection(EStretchDirection::DownOnly)
@@ -1685,7 +1743,8 @@ private:
                 .Text_Lambda([this] { return TutorialText(); })]]
               + SHorizontalBox::Slot().AutoWidth().VAlign(VAlign_Center).Padding(0,0,14,0)
               [SNew(SBox).WidthOverride(98).HeightOverride(43)
-               .Visibility_Lambda([this] { return (TutorialStep >= 0 && TutorialStep <= 6 && (TutorialStep != 2 || NearTutorialStore())) || TutorialStep == 9
+               .Visibility_Lambda([this] { return ((TutorialStep >= 0 && TutorialStep <= 6 && (TutorialStep != 2 || NearTutorialStore())) || TutorialStep == 9)
+                   && (TutorialStep != 5 || CanDeliver(DeliveryFor(RouteController.Get())))
                    ? EVisibility::HitTestInvisible : EVisibility::Collapsed; })
                [SNew(SOverlay)
                 + SOverlay::Slot()[SNew(SImage).Image(Art(TEXT("TeclaTutorial")))]
@@ -1698,9 +1757,7 @@ private:
                         ? FText::FromString(Keys[TutorialStep]) : FText::GetEmpty();
                 })]]]
               + SHorizontalBox::Slot().AutoWidth()
-              [SNew(SBox).WidthOverride(105).HeightOverride(118)
-               [SNew(SScaleBox).Stretch(EStretch::ScaleToFit)
-                [SNew(SImage).Image(Art(TEXT("RetratoValeria")))]]]]]]]
+              [ValeriaPortrait(155)]]]]]
           + SOverlay::Slot().HAlign(HAlign_Right).VAlign(VAlign_Top).Padding(0,14,16,0)
           [SNew(SVerticalBox).Visibility_Lambda([this] { return bRouteVisible ? EVisibility::HitTestInvisible : EVisibility::Collapsed; })
            + SVerticalBox::Slot().AutoHeight()
@@ -1750,7 +1807,16 @@ private:
            [SNew(SVerticalBox)
             .Visibility_Lambda([this] { return ActionPosition && !Overlay ? EVisibility::HitTestInvisible : EVisibility::Collapsed; })
             + SVerticalBox::Slot().AutoHeight().HAlign(HAlign_Center).Padding(0,0,0,3)
-            [SNew(SBorder).BorderImage(&ActionCaption).Padding(7,3)
+            [SNew(SOverlay)
+             + SOverlay::Slot()[SNew(SImage).Image(&ActionCaption)]
+             + SOverlay::Slot()
+             [SNew(SProgressBar).BackgroundImage(FCoreStyle::Get().GetBrush("NoBrush"))
+              .FillImage(&ActionFill).FillColorAndOpacity(FLinearColor::White)
+              .BorderPadding(FVector2D::ZeroVector)
+              .Percent_Lambda([this]() -> TOptional<float> {
+                  return FMath::Clamp(ReadNumber(DeliveryFor(RouteController.Get()), TEXT("HoldProgress"), 0.), 0., 1.);
+              })]
+             + SOverlay::Slot().Padding(7,3)
              [SNew(STextBlock).Font(SecondaryFont(15)).ColorAndOpacity(FLinearColor::White)
               .Text_Lambda([this] {
                   if (RouteAction == 3) return FText::FromString(TEXT("Mantén para entregar"));
@@ -1765,6 +1831,38 @@ private:
              [SNew(SImage).Image(Art(TEXT("JugadorMapa"))).ColorAndOpacity(FLinearColor(.35f,.87f,1.f))
               .RenderTransformPivot(FVector2D(.5,.5)).RenderTransform(FSlateRenderTransform(FQuat2D(PI)))]]]];
         View->AddViewportWidgetContent(RouteHUD.ToSharedRef(), 1100);
+    }
+
+    TSharedRef<SWidget> ValeriaPortrait(float Width)
+    {
+        const auto* Portrait = Art(TEXT("RetratoValeria"));
+        const float Height = Portrait ? Width * Portrait->ImageSize.Y / Portrait->ImageSize.X : Width;
+        static const FSlateColorBrush Mouth(FLinearColor(.21f,.076f,.049f));
+        return SNew(SBox).WidthOverride(Width).HeightOverride(Height)
+            [SNew(SOverlay).RenderTransformPivot(FVector2D(.5, .85))
+             .RenderTransform_Lambda([this]() -> TOptional<FSlateRenderTransform> {
+                 const double Age = FPlatformTime::Seconds() - ValeriaLineStarted;
+                 const float Nod = Age < 6. ? .016f * FMath::Sin(Age * 7.) : 0.f;
+                 return FSlateRenderTransform(FQuat2D(Nod));
+             })
+             + SOverlay::Slot()[SNew(SImage).Image(Portrait)]
+             + SOverlay::Slot().HAlign(HAlign_Left).VAlign(VAlign_Top).Padding(Width*.402f, Height*.585f, 0, 0)
+             [SNew(SBox).WidthOverride(Width*.075f).HeightOverride_Lambda([this, Height]() -> FOptionalSize {
+                 const double Age = FPlatformTime::Seconds() - ValeriaLineStarted;
+                 return Age < 6. ? Height * .019f * FMath::Square(FMath::Sin(Age * 12.)) : 0.f;
+             })[SNew(SImage).Image(&Mouth)]]];
+    }
+
+    void UpdateValeriaPortrait()
+    {
+        const FText Line = Overlay && bGarageTutorialVisible
+            ? FText::FromString(TEXT("Taller")) : TutorialText();
+        const FString Text = Line.ToString();
+        if (LastValeriaLine != Text)
+        {
+            LastValeriaLine = Text;
+            ValeriaLineStarted = FPlatformTime::Seconds();
+        }
     }
 
     struct FArt
@@ -1868,6 +1966,76 @@ private:
         }
     }
 
+    template <typename TComponent>
+    static TComponent* AttachCargo(AActor& Owner, USceneComponent* Parent, FName Name)
+    {
+        auto* Component = NewObject<TComponent>(&Owner, Name);
+        Owner.AddInstanceComponent(Component);
+        Component->SetupAttachment(Parent);
+        Component->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+        Component->RegisterComponent();
+        return Component;
+    }
+
+    static void ShowWearableCargo(UObject* Core, ACharacter& Rider, FName Upgrade,
+        const TCHAR* AssetPath, TWeakObjectPtr<USkeletalMeshComponent>& Cargo)
+    {
+        const bool bOwned = OwnsUpgrade(Core, Upgrade);
+        if (bOwned && !Cargo.IsValid())
+        {
+            auto* Mesh = LoadObject<USkeletalMesh>(nullptr, AssetPath);
+            if (!Mesh) return;
+            Cargo = AttachCargo<USkeletalMeshComponent>(Rider, Rider.GetMesh(), Upgrade);
+            Cargo->SetSkeletalMeshAsset(Mesh);
+            Cargo->SetLeaderPoseComponent(Rider.GetMesh());
+        }
+        if (auto* Component = Cargo.Get()) Component->SetHiddenInGame(!bOwned);
+    }
+
+    void RefreshCargoModels(APlayerController* PC, UObject* Core)
+    {
+        auto* Rider = PC ? Cast<ACharacter>(PC->GetPawn()) : nullptr;
+        if (!Rider || !Core) return;
+        if (CargoRider.Get() != Rider)
+        {
+            CargoRider = Rider;
+            Backpack.Reset();
+            WaistPack.Reset();
+            RiderPanniers.Reset();
+        }
+        ShowWearableCargo(Core, *Rider, TEXT("CargoBackpack"),
+            TEXT("/Game/Delivery/Art/SK_CargoBackpack.SK_CargoBackpack"), Backpack);
+        ShowWearableCargo(Core, *Rider, TEXT("CargoWaist"),
+            TEXT("/Game/Delivery/Art/SK_CargoWaist.SK_CargoWaist"), WaistPack);
+
+        const bool bOwned = OwnsUpgrade(Core, TEXT("CargoPanniers"));
+        const bool bMoto = ReadNumber(Core, TEXT("Vehicle"), 0) == 1;
+        const auto* Riding = FindFProperty<FBoolProperty>(Rider->GetClass(), TEXT("Riding"));
+        const bool bRiding = Riding && Riding->GetPropertyValue_InContainer(Rider);
+        auto* Parked = Cast<AActor>(ReadObject(Rider, TEXT("ParkedVehicle")));
+        if (PannierVehicle.Get() != Parked)
+        {
+            if (auto* Component = ParkedPanniers.Get()) Component->DestroyComponent();
+            ParkedPanniers.Reset();
+            PannierVehicle = Parked;
+        }
+        if (bOwned && bMoto && !RiderPanniers.IsValid())
+        {
+            auto* Mesh = LoadObject<UStaticMesh>(nullptr, TEXT("/Game/Delivery/Art/SM_CargoPanniers.SM_CargoPanniers"));
+            if (!Mesh) return;
+            RiderPanniers = AttachCargo<UStaticMeshComponent>(*Rider, Rider->GetRootComponent(), TEXT("CargoPanniers"));
+            RiderPanniers->SetStaticMesh(Mesh);
+            RiderPanniers->SetRelativeLocation(FVector(0, 0, -90));
+        }
+        if (bOwned && bMoto && Parked && !ParkedPanniers.IsValid() && RiderPanniers.IsValid())
+        {
+            ParkedPanniers = AttachCargo<UStaticMeshComponent>(*Parked, Parked->GetRootComponent(), TEXT("CargoPanniers"));
+            ParkedPanniers->SetStaticMesh(RiderPanniers->GetStaticMesh());
+        }
+        if (RiderPanniers.IsValid()) RiderPanniers->SetHiddenInGame(!bOwned || !bMoto || !bRiding);
+        if (ParkedPanniers.IsValid()) ParkedPanniers->SetHiddenInGame(!bOwned || !bMoto || bRiding);
+    }
+
     static UObject* ReadObject(UObject* Object, FName Name)
     {
         const auto* Field = Object ? FindFProperty<FObjectPropertyBase>(Object->GetClass(), Name) : nullptr;
@@ -1916,47 +2084,150 @@ private:
         return Value ? *Value : 0;
     }
 
-    void TrackServiceClock(UObject* Core, UWorld* World)
+    static AActor* FindCityClock(UWorld* World)
     {
-        const double Now = World->GetTimeSeconds();
-        if (ServiceCore.Get() != Core || ServiceWorld.Get() != World)
+        for (TActorIterator<AActor> It(World); It; ++It)
+            if (It->GetClass()->GetFName() == TEXT("BP_WorldState_C")) return *It;
+        return nullptr;
+    }
+
+    static void WriteClockNumber(UObject* Clock, FName Name, double Value)
+    {
+        if (const auto* Field = Clock ? FindFProperty<FNumericProperty>(Clock->GetClass(), Name) : nullptr)
         {
-            ServiceCore = Core;
-            ServiceWorld = World;
-            ServiceClockSource.Reset();
-            ServiceLastTick = Now;
-            ServiceSeconds = 0.;
-            NextServiceClockScan = Now;
-            return;
+            void* Address = Field->ContainerPtrToValuePtr<void>(Clock);
+            if (Field->IsFloatingPoint()) Field->SetFloatingPointPropertyValue(Address, Value);
+            else Field->SetIntPropertyValue(Address, static_cast<int64>(Value));
         }
-        const double Delta = FMath::Max(0., Now - ServiceLastTick);
-        ServiceLastTick = Now;
-        if (!Core || World->IsPaused()) return;
-        const auto* Dev = FindFProperty<FBoolProperty>(Core->GetClass(), TEXT("DeveloperMode"));
-        if (Dev && Dev->GetPropertyValue_InContainer(Core)) return;
-        if (!ServiceClockSource.IsValid() && Now >= NextServiceClockScan)
+    }
+
+    // Session fields live in the profile's existing persisted map so backups and manual slots
+    // copy a complete snapshot together. Older profiles have no SessionVersion key.
+    static void StoreSession(FScriptMapHelper& Map, APlayerController* PC, AActor* Clock)
+    {
+        auto* Pawn = PC->GetPawn().Get();
+        const FVector Point = Pawn->GetActorLocation();
+        const FRotator View = PC->GetControlRotation();
+        const int32 Day = static_cast<int32>(ReadNumber(Clock, TEXT("GameDay"), 1));
+        const double Phase = ReadNumber(Clock, TEXT("CycleSeconds"), 0.);
+        const TPair<FName, int32> Snapshot[] = {
+            {TEXT("SessionVersion"), 1}, {TEXT("SessionDay"), Day},
+            {TEXT("SessionPhase"), FMath::RoundToInt(Phase * 100000.)},
+            {TEXT("SessionHour"), FMath::RoundToInt(ReadNumber(Clock, TEXT("Hour"), 9.) * 1000000.)},
+            {TEXT("SessionX"), FMath::RoundToInt(Point.X * 100.)},
+            {TEXT("SessionY"), FMath::RoundToInt(Point.Y * 100.)},
+            {TEXT("SessionZ"), FMath::RoundToInt(Point.Z * 100.)},
+            {TEXT("SessionYaw"), FMath::RoundToInt(View.Yaw * 1000.)},
+            {TEXT("SessionPitch"), FMath::RoundToInt(View.Pitch * 1000.)},
+        };
+        for (const auto& Field : Snapshot) Map.AddPair(&Field.Key, &Field.Value);
+
+        const auto* Parked = Cast<AActor>(ReadObject(Pawn, TEXT("ParkedVehicle")));
+        const auto* Riding = FindFProperty<FBoolProperty>(Pawn->GetClass(), TEXT("Riding"));
+        const bool bMounted = Riding && Riding->GetPropertyValue_InContainer(Pawn);
+        FVector ParkedPoint = Parked ? Parked->GetActorLocation() : FVector::ZeroVector;
+        double ParkedYaw = Parked ? Parked->GetActorRotation().Yaw : 0.;
+        bool bHasParked = IsValid(Parked) && !Parked->IsHidden();
+        if (bMounted)
         {
-            NextServiceClockScan = Now + 3.;
-            for (TActorIterator<AActor> It(World); It; ++It)
-                if (It->GetClass()->GetFName() == TEXT("BP_WorldState_C"))
+            FCollisionQueryParams Query(SCENE_QUERY_STAT(SaveParkedVehicle), false, Pawn);
+            if (Parked) Query.AddIgnoredActor(Parked);
+            const FVector Side = Pawn->GetActorRightVector();
+            for (const double Offset : {130., -130.})
+            {
+                FHitResult Wall, Ground;
+                const FVector Candidate = Point + Side * Offset;
+                if (!Pawn->GetWorld()->LineTraceSingleByChannel(Wall, Point, Candidate, ECC_Visibility, Query) &&
+                    Pawn->GetWorld()->LineTraceSingleByChannel(Ground, Candidate, Candidate - FVector(0, 0, 350),
+                        ECC_Visibility, Query))
                 {
-                    ServiceClockSource = *It;
+                    ParkedPoint = Ground.ImpactPoint;
+                    ParkedYaw = Pawn->GetActorRotation().Yaw;
+                    bHasParked = true;
                     break;
                 }
+            }
         }
-        const double DaySeconds = ReadNumber(ServiceClockSource.Get(), TEXT("CycleMinutes"), 0.) * 60.;
-        if (DaySeconds <= 0.) return;
-        ServiceSeconds += Delta;
-        const int32 Minutes = FMath::FloorToInt(ServiceSeconds * 1440. / DaySeconds);
-        if (Minutes <= 0) return;
-        if (auto Map = PaintMap(Core))
+        const TPair<FName, int32> Vehicle[] = {
+            {TEXT("SessionHasParked"), bHasParked ? 1 : 0},
+            {TEXT("SessionParkedX"), FMath::RoundToInt(ParkedPoint.X * 100.)},
+            {TEXT("SessionParkedY"), FMath::RoundToInt(ParkedPoint.Y * 100.)},
+            {TEXT("SessionParkedZ"), FMath::RoundToInt(ParkedPoint.Z * 100.)},
+            {TEXT("SessionParkedYaw"), FMath::RoundToInt(ParkedYaw * 1000.)},
+        };
+        for (const auto& Field : Vehicle) Map.AddPair(&Field.Key, &Field.Value);
+    }
+
+    void RestoreSession(FScriptMapHelper& Map, APlayerController* PC, AActor* ClockActor)
+    {
+        if (ServiceValue(Map, TEXT("SessionVersion")) != 1) return;
+        const FVector Point(ServiceValue(Map, TEXT("SessionX")) / 100.,
+            ServiceValue(Map, TEXT("SessionY")) / 100., ServiceValue(Map, TEXT("SessionZ")) / 100.);
+        const FRotator View(ServiceValue(Map, TEXT("SessionPitch")) / 1000.,
+            ServiceValue(Map, TEXT("SessionYaw")) / 1000., 0.);
+        auto* Pawn = PC->GetPawn().Get();
+        Pawn->SetActorLocationAndRotation(Point, FRotator(0., View.Yaw, 0.), false, nullptr, ETeleportType::ResetPhysics);
+        if (auto* Character = Cast<ACharacter>(Pawn)) Character->GetCharacterMovement()->StopMovementImmediately();
+        PC->SetControlRotation(View);
+        if (ServiceValue(Map, TEXT("SessionHasParked")) == 1)
+            if (auto* Parked = Cast<AActor>(ReadObject(Pawn, TEXT("ParkedVehicle"))))
+            {
+                const FVector ParkedPoint(ServiceValue(Map, TEXT("SessionParkedX")) / 100.,
+                    ServiceValue(Map, TEXT("SessionParkedY")) / 100., ServiceValue(Map, TEXT("SessionParkedZ")) / 100.);
+                Parked->SetActorLocationAndRotation(ParkedPoint,
+                    FRotator(0., ServiceValue(Map, TEXT("SessionParkedYaw")) / 1000., 0.), false, nullptr, ETeleportType::ResetPhysics);
+                ParkedMapVehicle.Reset();
+            }
+        WriteClockNumber(ClockActor, TEXT("GameDay"), FMath::Max(1, ServiceValue(Map, TEXT("SessionDay"))));
+        const double Phase = FMath::Clamp(ServiceValue(Map, TEXT("SessionPhase")) / 100000., 0., 1439.99999);
+        WriteClockNumber(ClockActor, TEXT("CycleSeconds"), Phase);
+        const double Hour = ServiceValue(Map, TEXT("SessionHour")) / 1000000.;
+        WriteClockNumber(ClockActor, TEXT("Hour"), Hour);
+        UE_LOG(LogTemp, Display, TEXT("Bogota save: restored %s, day %d at %.4f"), *Point.ToString(),
+            ServiceValue(Map, TEXT("SessionDay")), Hour);
+    }
+
+    bool SaveCurrentSession(APlayerController* PC, UObject* Core)
+    {
+        const auto* Dev = Core ? FindFProperty<FBoolProperty>(Core->GetClass(), TEXT("DeveloperMode")) : nullptr;
+        if (Dev && Dev->GetPropertyValue_InContainer(Core)) return false;
+        if (PC && PC->GetPawn() && SessionCore.Get() == Core && CityClock.IsValid())
+            if (auto Map = PaintMap(Core)) StoreSession(*Map, PC, CityClock.Get());
+        return QueryBool(Core, TEXT("SaveProfile"));
+    }
+
+    void TrackSession(APlayerController* PC, UObject* Core)
+    {
+        UWorld* World = PC ? PC->GetWorld() : nullptr;
+        if (!World || !PC->GetPawn() || !Core || bAtStartup || World->IsPaused()) return;
+        if (SessionCore.Get() != Core)
+        {
+            SessionCore = Core;
+            CityClock = FindCityClock(World);
+            LastServiceDay = INDEX_NONE;
+            NextSessionSnapshot = 0.;
+        }
+        if (!CityClock.IsValid()) return;
+        const auto* Dev = FindFProperty<FBoolProperty>(Core->GetClass(), TEXT("DeveloperMode"));
+        if (Dev && Dev->GetPropertyValue_InContainer(Core)) return;
+        auto Map = PaintMap(Core);
+        if (!Map) return;
+        if (LastServiceDay == INDEX_NONE) RestoreSession(*Map, PC, CityClock.Get());
+        const int32 Day = static_cast<int32>(ReadNumber(CityClock.Get(), TEXT("GameDay"), 1));
+        const int32 ElapsedDays = LastServiceDay == INDEX_NONE ? 0 : FMath::Max(0, Day - LastServiceDay);
+        LastServiceDay = Day;
+        if (ElapsedDays > 0)
         {
             const FName Key(TEXT("ServiceClockMinutes"));
-            const int32 OldMinutes = ServiceValue(*Map, Key);
-            const int32 Updated = static_cast<int32>(FMath::Min<int64>(MAX_int32, int64(OldMinutes) + Minutes));
+            const int32 Updated = static_cast<int32>(FMath::Min<int64>(MAX_int32,
+                ServiceValue(*Map, Key) + int64(ElapsedDays) * 1440));
             Map->AddPair(&Key, &Updated);
-            ServiceSeconds -= Minutes * DaySeconds / 1440.;
-            if (OldMinutes / 1440 != Updated / 1440) QueryBool(Core, TEXT("SaveProfile"));
+            SaveCurrentSession(PC, Core);
+        }
+        if (World->GetTimeSeconds() >= NextSessionSnapshot)
+        {
+            NextSessionSnapshot = World->GetTimeSeconds() + 1.;
+            StoreSession(*Map, PC, CityClock.Get());
         }
     }
 
@@ -2071,7 +2342,7 @@ private:
         if (bTutorialPayment)
         {
             TutorialStep = 7;
-            TutorialFinishedUntil = FPlatformTime::Seconds() + 12.;
+            TutorialFinishedUntil = 0.;
             PlayTutorialSuccess(Core->GetWorld());
         }
         ServiceStatus = FText::FromString(TEXT("Pago guardado"));
@@ -2537,6 +2808,77 @@ private:
             + SHorizontalBox::Slot().FillWidth(1)[Details];
     }
 
+    static int32 OrderCapacity(UObject* Core)
+    {
+        auto* Capacity = Core ? Core->FindFunction(TEXT("CargoCapacity")) : nullptr;
+        const auto* Moto = Capacity ? FindFProperty<FBoolProperty>(Capacity, TEXT("Motorcycle")) : nullptr;
+        const auto* Result = Capacity ? CastField<FIntProperty>(Capacity->GetReturnProperty()) : nullptr;
+        if (!Moto || !Result || Capacity->NumParms != 2) return 1;
+        FStructOnScope Args(Capacity);
+        Moto->SetPropertyValue_InContainer(Args.GetStructMemory(), ReadNumber(Core, TEXT("Vehicle"), 0) == 1);
+        Core->ProcessEvent(Capacity, Args.GetStructMemory());
+        return Result->GetPropertyValue_InContainer(Args.GetStructMemory());
+    }
+
+    static bool SelectOrder(UObject* Core, FName Method, int32 Index)
+    {
+        auto* Function = Core ? Core->FindFunction(Method) : nullptr;
+        const auto* Entry = Function ? FindFProperty<FIntProperty>(Function, TEXT("Index")) : nullptr;
+        const auto* Result = Function ? CastField<FBoolProperty>(Function->GetReturnProperty()) : nullptr;
+        if (!Entry || !Result || Function->NumParms != 2) return false;
+        FStructOnScope Args(Function);
+        Entry->SetPropertyValue_InContainer(Args.GetStructMemory(), Index);
+        Core->ProcessEvent(Function, Args.GetStructMemory());
+        return Result->GetPropertyValue_InContainer(Args.GetStructMemory());
+    }
+
+    static constexpr const TCHAR* CargoUpgrades[] = {TEXT("CargoBackpack"), TEXT("CargoWaist"), TEXT("CargoPanniers")};
+
+    void PurchaseCargo(int32 Index)
+    {
+        if (Index < 0 || Index >= UE_ARRAY_COUNT(CargoUpgrades)) return;
+        auto* Core = DeliveryFor(Controller.Get());
+        auto* Purchase = Core ? Core->FindFunction(TEXT("PurchaseUpgrade")) : nullptr;
+        const auto* ID = Purchase ? FindFProperty<FNameProperty>(Purchase, TEXT("ID")) : nullptr;
+        if (!ID || Purchase->NumParms != 2) return;
+        FStructOnScope Args(Purchase);
+        ID->SetPropertyValue_InContainer(Args.GetStructMemory(), FName(CargoUpgrades[Index]));
+        Core->ProcessEvent(Purchase, Args.GetStructMemory());
+    }
+
+    TArray<FString> ActiveOrderLabels(UObject* Core) const
+    {
+        TArray<FString> Labels;
+        const auto* Active = Core ? FindFProperty<FArrayProperty>(Core->GetClass(), TEXT("ActiveOrders")) : nullptr;
+        const auto* Type = Active ? CastField<FStructProperty>(Active->Inner) : nullptr;
+        const auto* Focus = Core ? FindFProperty<FStructProperty>(Core->GetClass(), TEXT("Order")) : nullptr;
+        if (!Type || !Focus) return Labels;
+        const FGuid Selected = OrderID(Focus->Struct, Focus->ContainerPtrToValuePtr<void>(Core));
+        const FStructProperty* Nested = nullptr;
+        for (TFieldIterator<FStructProperty> It(Type->Struct); It; ++It)
+            if (It->Struct == Focus->Struct) { Nested = *It; break; }
+        if (!Nested) return Labels;
+
+        const FTextProperty* Pickup = nullptr;
+        const FTextProperty* Destination = nullptr;
+        for (TFieldIterator<FTextProperty> It(Nested->Struct); It; ++It)
+        {
+            if (It->GetName().StartsWith(TEXT("PickupName"))) Pickup = *It;
+            if (It->GetName().StartsWith(TEXT("DropoffName"))) Destination = *It;
+        }
+        FScriptArrayHelper Entries(Active, Active->ContainerPtrToValuePtr<void>(Core));
+        for (int32 Index = 0; Index < Entries.Num(); ++Index)
+        {
+            const void* Data = Nested->ContainerPtrToValuePtr<void>(Entries.GetRawPtr(Index));
+            const bool bSelected = OrderID(Nested->Struct, Data) == Selected;
+            Labels.Add(FString::Printf(TEXT("%d. %s%s\n%s"), Index + 1,
+                Pickup ? *Pickup->GetPropertyValue_InContainer(Data).ToString() : TEXT("Pedido"),
+                bSelected ? TEXT(" · EN RUTA") : TEXT(""),
+                Destination ? *Destination->GetPropertyValue_InContainer(Data).ToString() : TEXT("")));
+        }
+        return Labels;
+    }
+
     void RefreshOrders()
     {
         if (!Orders) return;
@@ -2583,9 +2925,34 @@ private:
             }
         }
         if (Rows.IsEmpty()) Rows.Add(Delivery ? TEXT("No hay pedidos disponibles") : TEXT("Esperando datos de pedidos"));
-        if (Rows == OrderSnapshot) return;
+        auto ActiveRows = ActiveOrderLabels(Delivery);
+        const int32 Capacity = OrderCapacity(Delivery);
+        if (Rows == OrderSnapshot && ActiveRows == ActiveOrderSnapshot && Capacity == OrderCapacitySnapshot) return;
+        if (HoldingOrder != INDEX_NONE) return;
         OrderSnapshot = MoveTemp(Rows);
+        ActiveOrderSnapshot = MoveTemp(ActiveRows);
+        OrderCapacitySnapshot = Capacity;
         Orders->ClearChildren();
+        const bool bHasSpace = ActiveOrderSnapshot.Num() < Capacity;
+        Orders->AddSlot().Padding(5,3,5,7)
+            [SNew(STextBlock).Font(SecondaryFont(12)).Text(FText::FromString(FString::Printf(
+                TEXT("ENTREGAS ACTIVAS   %d / %d"), ActiveOrderSnapshot.Num(), Capacity)))];
+        for (int32 Index = 0; Index < ActiveOrderSnapshot.Num(); ++Index)
+            Orders->AddSlot().Padding(0,0,0,5)
+            [SNew(SButton).HAlign(HAlign_Fill).ContentPadding(FMargin(8,4))
+             .OnClicked_Lambda([this, Index] {
+                 if (SelectOrder(DeliveryFor(Controller.Get()), TEXT("SelectActiveOrder"), Index)) RefreshOrders();
+                 return FReply::Handled();
+             })
+             [SNew(STextBlock).Font(SecondaryFont(11)).AutoWrapText(true)
+              .Text(FText::FromString(ActiveOrderSnapshot[Index]))]];
+        if (!bHasSpace)
+        {
+            Orders->AddSlot().Padding(5,8)
+                [SNew(STextBlock).Font(SecondaryFont(11)).AutoWrapText(true)
+                 .Text(FText::FromString(TEXT("Completa una entrega para aceptar otro pedido.")))];
+            return;
+        }
         for (int32 Index = 0; Index < OrderSnapshot.Num(); ++Index)
         {
             static const FSlateColorBrush Tile(FLinearColor(.015f, .065f, .095f));
@@ -2600,7 +2967,13 @@ private:
                     [
                         SNew(SButton).ButtonStyle(FCoreStyle::Get(), "NoBorder").ContentPadding(0).Visibility(OrderType && FScriptArrayHelper(Offers, Offers->ContainerPtrToValuePtr<void>(Delivery)).IsValidIndex(Index)
                             ? EVisibility::Visible : EVisibility::Collapsed)
-                        .OnPressed_Lambda([this, Index]() { HoldingOrder = Index; SelectEntry(Index); PhoneAction(TEXT("AcceptPressed")); })
+                        .OnPressed_Lambda([this, Index]() {
+                            if (SelectOrder(DeliveryFor(Controller.Get()), TEXT("SelectOffer"), Index))
+                            {
+                                HoldingOrder = Index;
+                                PhoneAction(TEXT("AcceptPressed"));
+                            }
+                        })
                         .OnReleased_Lambda([this]() { HoldingOrder = INDEX_NONE; PhoneAction(TEXT("AcceptReleased")); })
                         [
                          SNew(SBox).HeightOverride(25)
@@ -2703,6 +3076,9 @@ private:
         if (Overlay) Viewport->RemoveViewportWidgetContent(Overlay.ToSharedRef());
         Orders.Reset();
         OrderSnapshot.Reset();
+        ActiveOrderSnapshot.Reset();
+        OrderCapacitySnapshot = 0;
+        HoldingOrder = INDEX_NONE;
         GarageImage.Reset();
         GarageBrush.SetResourceObject(nullptr);
         Clock.Reset();
@@ -2796,7 +3172,9 @@ private:
                         {
                             if (Entry >= 10 && Entry <= 12) CargoSelection = Entry - 10;
                             if (Entry >= 0) SelectEntry(Entry);
-                            if (!Method.IsNone()) PhoneAction(Method);
+                            if (Method == TEXT("BuySelected") && Entry >= 10 && Entry <= 12)
+                                PurchaseCargo(Entry - 10);
+                            else if (!Method.IsNone()) PhoneAction(Method);
                             return FReply::Handled();
                         })
                     ];
@@ -3050,7 +3428,8 @@ private:
             for (int32 I=0; I<7; ++I)
                 Canvas->AddSlot().Alignment(FVector2D::ZeroVector).Offset(FMargin(231+12*I, HeaderY+4, 10, 10)).ZOrder(2)
                 [SNew(SImage).Image(&Occupied).Visibility_Lambda([this,I]() {
-                    return I < CountItems(DeliveryFor(Controller.Get()),TEXT("ActiveOrders")) ? EVisibility::HitTestInvisible : EVisibility::Hidden;
+                    return I < CountItems(DeliveryFor(Controller.Get()),TEXT("ActiveOrders"))
+                        ? EVisibility::HitTestInvisible : EVisibility::Hidden;
                 })];
         }
 
@@ -3306,15 +3685,17 @@ private:
           + SHorizontalBox::Slot().AutoWidth()
           [SNew(SBox).WidthOverride(Width).HeightOverride(Height)[Canvas]]
           + SHorizontalBox::Slot().AutoWidth().VAlign(VAlign_Center).Padding(18,0,0,0)
-          [SNew(SBox).WidthOverride(270)
+          [SNew(SBox).WidthOverride(386)
            .Visibility_Lambda([this] {
-               return bGarageTutorialVisible || TutorialStep == 1 || TutorialStep == 6 || TutorialStep == 7
+               return bGarageTutorialVisible || TutorialStep == 1 || TutorialStep == 6
                    ? EVisibility::Visible : EVisibility::Collapsed;
            })
            [SNew(SOverlay)
             + SOverlay::Slot()[SNew(SImage).Image(Art(TEXT("PanelTutorial")))]
             + SOverlay::Slot().Padding(18,16)
-            [SNew(SVerticalBox)
+            [SNew(SHorizontalBox)
+             + SHorizontalBox::Slot().FillWidth(1).Padding(0,0,6,0)
+             [SNew(SVerticalBox)
              + SVerticalBox::Slot().AutoHeight().Padding(0,0,0,8)
              [SNew(STextBlock).Font(SecondaryFont(16)).ColorAndOpacity(FLinearColor(.35f,.86f,.83f))
               .Text_Lambda([this] { return FText::FromString(bGarageTutorialVisible ? TEXT("VALERIA · TALLER") : TEXT("VALERIA")); })]
@@ -3336,7 +3717,9 @@ private:
              + SVerticalBox::Slot().AutoHeight().Padding(0,8,0,0)
              [SNew(SButton).HAlign(HAlign_Center).Text(FText::FromString(TEXT("ENTENDIDO")))
               .Visibility_Lambda([this] { return bGarageTutorialVisible ? EVisibility::Visible : EVisibility::Collapsed; })
-              .OnClicked_Lambda([this] { bGarageTutorialVisible = false; return FReply::Handled(); })]]]]]];
+              .OnClicked_Lambda([this] { bGarageTutorialVisible = false; return FReply::Handled(); })]]
+             + SHorizontalBox::Slot().AutoWidth().VAlign(VAlign_Center)
+             [ValeriaPortrait(112)]]]]]];
         Viewport->AddViewportWidgetContent(Overlay.ToSharedRef(), 1200);
         if (const auto Focus = FirstFocusableControl(Canvas))
             FSlateApplication::Get().SetAllUserFocus(Focus, EFocusCause::Navigation);
@@ -3383,12 +3766,16 @@ private:
     TWeakObjectPtr<UGameViewportClient> Viewport;
     TWeakObjectPtr<APlayerController> Controller;
     TWeakObjectPtr<AActor> WorldState;
-    TWeakObjectPtr<UObject> ServiceCore;
-    TWeakObjectPtr<UWorld> ServiceWorld;
-    TWeakObjectPtr<AActor> ServiceClockSource;
-    double ServiceLastTick = 0.;
-    double ServiceSeconds = 0.;
-    double NextServiceClockScan = 0.;
+    TWeakObjectPtr<UObject> SessionCore;
+    TWeakObjectPtr<AActor> CityClock;
+    int32 LastServiceDay = INDEX_NONE;
+    double NextSessionSnapshot = 0.;
+    TWeakObjectPtr<ACharacter> CargoRider;
+    TWeakObjectPtr<USkeletalMeshComponent> Backpack;
+    TWeakObjectPtr<USkeletalMeshComponent> WaistPack;
+    TWeakObjectPtr<UStaticMeshComponent> RiderPanniers;
+    TWeakObjectPtr<AActor> PannierVehicle;
+    TWeakObjectPtr<UStaticMeshComponent> ParkedPanniers;
     FText ServiceStatus;
     TMap<FString, TUniquePtr<FArt>> Images;
     TSharedPtr<SWidget> Overlay;
@@ -3418,9 +3805,12 @@ private:
     bool bStartupShown = false;
     bool bAtStartup = false;
     bool bStartupVideo = false;
+    TWeakObjectPtr<UUserWidget> VideoMenu;
     bool bConfirmNew = false;
     FString StartupCode;
     bool bGarageTutorialVisible = false;
+    FString LastValeriaLine;
+    double ValeriaLineStarted = -10.;
     double TutorialFinishedUntil = 0.;
     int32 TutorialDeliveries = 0;
     bool bTutorialDrifted = false;
@@ -3437,6 +3827,8 @@ private:
     FSlateBrush GarageBrush;
     TSharedPtr<SScrollBox> Orders;
     TArray<FString> OrderSnapshot;
+    TArray<FString> ActiveOrderSnapshot;
+    int32 OrderCapacitySnapshot = 0;
     float RefreshElapsed = 0.f;
     TWeakObjectPtr<UUserWidget> LegacyPhone;
     bool bMapPage = false;
