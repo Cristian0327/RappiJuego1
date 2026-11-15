@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": {
+    "parked_bike_query_collision": true,
+    "traffic_probe_sees_bike_object_channel": true,
+    "ridden_bike_no_duplicate_blocker": true,
+    "taxi_hail_has_timeout": true,
+    "taxi_cooldown_retries": true,
+    "hero_full_frame_animation": true,
+    "hero_pose_refresh_visible_or_hidden": true,
+    "car_camera_distance": true,
+    "car_camera_above_roof": true,
+    "camera_after_physics": true
+  },
+  "count": 10
+}

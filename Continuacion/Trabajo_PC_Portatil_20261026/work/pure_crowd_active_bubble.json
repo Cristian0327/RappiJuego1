@@ -1,0 +1,8 @@
+{
+  "world_population": 864,
+  "near_radius_cm": 10000,
+  "near": "Detour + continuous native NavWalking + full animation",
+  "far": "No AI controller, no character physics, hidden; .5s nav-ray/project-validated steps",
+  "busy_interactions_preserved": true,
+  "status": "COMPILED_PENDING_RENDER"
+}

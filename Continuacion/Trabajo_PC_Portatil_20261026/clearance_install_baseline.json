@@ -1,0 +1,116 @@
+{
+  "indices": {
+    "BP_CivilMotorcycle_C_0": 72,
+    "BP_CivilMotorcycle_C_1": 155,
+    "BP_PoliceMotorcycle_C_0": 252,
+    "BP_PoliceRoadPatrol_C_0": 412,
+    "BP_CivilMotorcycle_C_2": 404,
+    "BP_CivilMotorcycle_C_3": 487,
+    "BP_PoliceMotorcycle_C_1": 34,
+    "BP_PoliceRoadPatrol_C_1": 103,
+    "BP_CivilMotorcycle_C_4": 743,
+    "BP_CivilMotorcycle_C_5": 22,
+    "BP_PoliceMotorcycle_C_2": 97,
+    "BP_PoliceRoadPatrol_C_2": 117,
+    "BP_CivilMotorcycle_C_6": 518,
+    "BP_CivilMotorcycle_C_7": 51,
+    "BP_PoliceMotorcycle_C_3": 408,
+    "BP_PoliceRoadPatrol_C_3": 449,
+    "BP_CivilMotorcycle_C_8": 553,
+    "BP_CivilMotorcycle_C_9": 629,
+    "BP_PoliceMotorcycle_C_4": 726,
+    "BP_PoliceRoadPatrol_C_4": 53,
+    "BP_CivilMotorcycle_C_10": 94,
+    "BP_CivilMotorcycle_C_11": 149,
+    "BP_PoliceMotorcycle_C_5": 183,
+    "BP_CivilMotorcycle_C_12": 408,
+    "BP_TwoWheelerCitizen_C_0": 421,
+    "BP_TwoWheelerCitizen_C_1": 504,
+    "BP_TwoWheelerCitizen_C_2": 550,
+    "BP_TwoWheelerCitizen_C_3": 605,
+    "BP_TwoWheelerCitizen_C_4": 674,
+    "BP_TwoWheelerCitizen_C_5": 764,
+    "BP_TwoWheelerCitizen_C_6": 418,
+    "BP_TwoWheelerCitizen_C_7": 445,
+    "BP_TwoWheelerCitizen_C_8": 145,
+    "BP_TwoWheelerCitizen_C_9": 214,
+    "BP_TwoWheelerCitizen_C_10": 311,
+    "BP_TwoWheelerCitizen_C_11": 415
+  },
+  "stops": {
+    "/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle": [
+      [
+        16286.306181421249,
+        -251.6668734439629,
+        4.5
+      ],
+      [
+        -7479.553727947604,
+        525.1849828667674,
+        4.5
+      ],
+      [
+        -19316.68855955386,
+        2917.881504022766,
+        4.5
+      ],
+      [
+        -8886.70877244386,
+        21012.90727044286,
+        4.5
+      ],
+      [
+        13010.124554000362,
+        -33207.27218694231,
+        4.5
+      ],
+      [
+        10859.827115295477,
+        14305.824379016067,
+        4.5
+      ],
+      [
+        26314.679577719802,
+        -24131.442638686618,
+        4.5
+      ]
+    ],
+    "/Game/World/BlueprintWorld/Traffic/BP_Traffic_TransMilenio": [
+      [
+        16286.306181421249,
+        -251.6668734439629,
+        4.5
+      ],
+      [
+        -7479.553727947604,
+        525.1849828667674,
+        4.5
+      ],
+      [
+        -19316.68855955386,
+        2917.881504022766,
+        4.5
+      ],
+      [
+        -8886.70877244386,
+        21012.90727044286,
+        4.5
+      ],
+      [
+        13010.124554000362,
+        -33207.27218694231,
+        4.5
+      ],
+      [
+        10859.827115295477,
+        14305.824379016067,
+        4.5
+      ],
+      [
+        26314.679577719802,
+        -24131.442638686618,
+        4.5
+      ]
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+import unreal,json
+from pathlib import Path
+root=Path(unreal.Paths.project_dir()).parents[1]
+exec((root/'work/migrate_delivery_blueprints.py').read_text(encoding='utf-8-sig').split('reports=[]')[0])
+bp=unreal.load_asset('/Game/Delivery/Orders/BP_DeliveryBuilding');reports=[]
+g=Graph();g.get('StoreKind');g.call('Food','EqualEqual_IntInt',M,B='1');g.link('StoreKind','StoreKind','Food','A');g.call('Count','SelectInt',M,A='1',B='3');g.link('Food','ReturnValue','Count','bPickA');g.link('Count','ReturnValue','result','ReturnValue');g.exec('entry','result');reports.append(g.build('ItemCount'))
+g=Graph();g.get('HalfDepth');g.call('Origin','K2_GetActorLocation','/Script/Engine.Actor');g.call('Offset','MakeVector',M);g.link('HalfDepth','HalfDepth','Offset','Y');g.call('Centre','Add_VectorVector',M);g.link('Origin','ReturnValue','Centre','A');g.link('Offset','ReturnValue','Centre','B');g.call('Position','Add_VectorVector',M);g.link('Centre','ReturnValue','Position','A');g.link('entry','Local','Position','B');g.link('Position','ReturnValue','result','ReturnValue');g.exec('entry','result');reports.append(g.build('InteriorPosition'))
+g=Graph();g.get('CounterDistanceMeters');g.call('Centimetres','Multiply_DoubleDouble',M,B='100');g.link('CounterDistanceMeters','CounterDistanceMeters','Centimetres','A');g.call('StandingRoom','Subtract_DoubleDouble',M,B='105');g.link('Centimetres','ReturnValue','StandingRoom','A');g.call('Offset','MakeVector',M,X='150',Z='5');g.link('StandingRoom','ReturnValue','Offset','Y');g.call('Origin','K2_GetActorLocation','/Script/Engine.Actor');g.call('Position','Add_VectorVector',M);g.link('Origin','ReturnValue','Position','A');g.link('Offset','ReturnValue','Position','B');g.link('Position','ReturnValue','result','ReturnValue');g.exec('entry','result');reports.append(g.build('CheckoutPosition'))
+g=Graph();g.get('HalfWidth');g.get('HalfDepth');g.call('Centre','InteriorPosition',Local='0,0,0');g.call('Relative','Subtract_VectorVector',M);g.link('entry','Position','Relative','A');g.link('Centre','ReturnValue','Relative','B');g.call('Axes','BreakVector',M);g.link('Relative','ReturnValue','Axes','InVec');g.call('AbsX','Abs',M);g.link('Axes','X','AbsX','A');g.call('WidthLimit','Subtract_DoubleDouble',M,B='15');g.link('HalfWidth','HalfWidth','WidthLimit','A');g.call('WithinWidth','Less_DoubleDouble',M);g.link('AbsX','ReturnValue','WithinWidth','A');g.link('WidthLimit','ReturnValue','WithinWidth','B');g.call('Front','Multiply_DoubleDouble',M,B='-1');g.link('HalfDepth','HalfDepth','Front','A');g.call('FrontLimit','Add_DoubleDouble',M,B='20');g.link('Front','ReturnValue','FrontLimit','A');g.call('BackLimit','Subtract_DoubleDouble',M,B='10');g.link('HalfDepth','HalfDepth','BackLimit','A')
+for name,axis,fn,value,node in [('InsideDoor','Y','Greater_DoubleDouble',None,'FrontLimit'),('BeforeBack','Y','Less_DoubleDouble',None,'BackLimit'),('AboveFloor','Z','Greater_DoubleDouble','0',None),('BelowCeiling','Z','Less_DoubleDouble','470',None)]:
+ g.call(name,fn,M,**({'B':value} if value is not None else {}));g.link('Axes',axis,name,'A')
+ if node:g.link(node,'ReturnValue',name,'B')
+previous='WithinWidth'
+for name in ['InsideDoor','BeforeBack','AboveFloor','BelowCeiling']:
+ combined='And'+name;g.call(combined,'BooleanAND',M);g.link(previous,'ReturnValue',combined,'A');g.link(name,'ReturnValue',combined,'B');previous=combined
+g.link(previous,'ReturnValue','result','ReturnValue');g.exec('entry','result');reports.append(g.build('ContainsVisitor'))
+assert unreal.EditorAssetLibrary.save_loaded_asset(bp,only_if_is_dirty=False)
+p=Path(unreal.Paths.project_saved_dir(),'blueprint_migration.json');data=json.loads(p.read_text());data['store_geometry_graphs']=reports;p.write_text(json.dumps(data,indent=2))
+unreal.log('STORE_GEOMETRY_BLUEPRINTS_SAVED '+json.dumps(reports))

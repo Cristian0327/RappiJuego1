@@ -1,0 +1,4 @@
+from pathlib import Path
+p=Path('outputs/BogotaVoxel/Source/BogotaVoxel/BogotaGame.h');s=p.read_text(encoding='utf-8').replace(' ABogotaPlayer();',' friend class UDeliveryComponent;\n ABogotaPlayer();');p.write_text(s,encoding='utf-8')
+p=Path('outputs/BogotaVoxel/Source/BogotaVoxel/DeliverySystem.cpp');s=p.read_text(encoding='utf-8');a=s.index('void UDeliveryComponent::IgnoreOffer()');b=s.index('bool UDeliveryComponent::AcceptOffer',a);s=s[:a]+'''void UDeliveryComponent::IgnoreOffer(){if(const auto* Incoming=SelectedIncoming()){FGuid ID=Incoming->ID;Offers.RemoveAll([&](const FDeliveryOrder& O){return O.ID==ID;});SelectedOffer.Invalidate();EndAction();if(ActiveOrders.IsEmpty())EnterIdle();StatusMessage=FText::FromString(TEXT("Oferta ignorada; tus entregas continúan."));Changed();}}
+'''+s[b:];p.write_text(s,encoding='utf-8')

@@ -1,0 +1,15 @@
+import unreal
+p='/Game/Traffic/Detailed/M_TransMilenioPurple';m=unreal.load_asset(p) or unreal.EditorAssetLibrary.duplicate_asset('/Game/Traffic/Detailed/M_TrafficVoxelVertex',p);mel=unreal.MaterialEditingLibrary;base=mel.get_material_property_input_node(m,unreal.MaterialProperty.MP_BASE_COLOR)
+def node(cls,x,y,**props):
+ n=mel.create_material_expression(m,cls,x,y)
+ for k,v in props.items():n.set_editor_property(k,v)
+ return n
+def link(a,ap,b,bp):
+ choices={'GT':['AGreaterThanB','A > B','A>B'],'EQ':['AEqualsB','A == B','A==B'],'LT':['ALessThanB','A < B','A<B']}.get(bp,['Input',''] if bp=='Input' else [bp])
+ for output in ([ap,''] if ap=='RGB' else [ap]):
+  for pin in choices:
+   if mel.connect_material_expressions(a,output,b,pin):return
+ raise AssertionError((ap,bp))
+pixel=node(unreal.MaterialExpressionTextureSample,-1600,-1700,texture=unreal.load_asset('/Game/Traffic/Detailed/T_TrafficPixelAtlas'));pr=node(unreal.MaterialExpressionComponentMask,-1400,-1800,r=True,g=False,b=False,a=False);pg=node(unreal.MaterialExpressionComponentMask,-1400,-1700,r=False,g=True,b=False,a=False);pb=node(unreal.MaterialExpressionComponentMask,-1400,-1600,r=False,g=False,b=True,a=False);link(pixel,'RGB',pr,'Input');link(pixel,'RGB',pg,'Input');link(pixel,'RGB',pb,'Input');v=node(unreal.MaterialExpressionVertexColor,-1300,-1400);maximum=node(unreal.MaterialExpressionMax,-1100,-1400);link(pg,'',maximum,'A');link(pb,'',maximum,'B');ratio=node(unreal.MaterialExpressionMultiply,-900,-1400,const_b=1.7);link(maximum,'',ratio,'A');red=node(unreal.MaterialExpressionSubtract,-700,-1400);link(pr,'',red,'A');link(ratio,'',red,'B');one=node(unreal.MaterialExpressionConstant,-1100,-1200,r=1);zero=node(unreal.MaterialExpressionConstant,-1100,-1100,r=0);mask=node(unreal.MaterialExpressionIf,-450,-1300,const_b=.06);link(red,'',mask,'A');link(one,'',mask,'GT');link(zero,'',mask,'EQ');link(zero,'',mask,'LT');opaque=node(unreal.MaterialExpressionIf,-450,-1000,const_b=.1);link(v,'A',opaque,'A');link(one,'',opaque,'GT');link(zero,'',opaque,'EQ');link(zero,'',opaque,'LT');alpha=node(unreal.MaterialExpressionMultiply,-200,-1200);link(mask,'',alpha,'A');link(opaque,'',alpha,'B');paint=node(unreal.MaterialExpressionVectorParameter,-700,-700,parameter_name='PurpleLivery',default_value=unreal.LinearColor(.32,.035,.62,1));lum=node(unreal.MaterialExpressionDesaturation,-700,-500);link(base,'',lum,'Input');vl=node(unreal.MaterialExpressionDesaturation,-1000,-400);link(v,'RGB',vl,'Input');safe=node(unreal.MaterialExpressionMax,-700,-300,const_b=.02);link(vl,'',safe,'A');shade=node(unreal.MaterialExpressionDivide,-450,-400);link(lum,'',shade,'A');link(safe,'',shade,'B');tinted=node(unreal.MaterialExpressionMultiply,-200,-650);link(paint,'RGB',tinted,'A');link(shade,'',tinted,'B');result=node(unreal.MaterialExpressionLinearInterpolate,100,-1000);link(base,'',result,'A');link(tinted,'',result,'B');link(alpha,'',result,'Alpha');assert mel.connect_material_property(result,'',unreal.MaterialProperty.MP_BASE_COLOR);mel.recompile_material(m);unreal.EditorAssetLibrary.save_loaded_asset(m,only_if_is_dirty=False)
+
+unreal.log('PURPLE_ALL_BODY_FACES_PASS')

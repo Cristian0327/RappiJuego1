@@ -1,0 +1,1 @@
+Copiar Content/QA sobre una COPIA de pruebas del proyecto principal para reproducir los escenarios. PurePhoneRuntime comprueba widgets; CPUIsolation desactiva grupos solo para diagnostico. No reemplazan el nivel del juego. Consultar scripts y registros; adaptar rutas absolutas antes de ejecutar scripts.

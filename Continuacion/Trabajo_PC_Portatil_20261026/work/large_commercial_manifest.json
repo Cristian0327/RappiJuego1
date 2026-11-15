@@ -1,0 +1,146 @@
+[
+  {
+    "asset": "SM_MarketInterior",
+    "dimensions": [
+      20,
+      18,
+      4.8
+    ],
+    "faces": 66918
+  },
+  {
+    "asset": "SM_MarketFront",
+    "dimensions": [
+      20,
+      18,
+      4.8
+    ],
+    "faces": 5874
+  },
+  {
+    "asset": "SM_FreshMarketInterior",
+    "dimensions": [
+      20,
+      18,
+      4.8
+    ],
+    "faces": 67758
+  },
+  {
+    "asset": "SM_FreshMarketFront",
+    "dimensions": [
+      20,
+      18,
+      4.8
+    ],
+    "faces": 6186
+  },
+  {
+    "asset": "SM_RestaurantInterior",
+    "dimensions": [
+      20,
+      16,
+      4.8
+    ],
+    "faces": 17064
+  },
+  {
+    "asset": "SM_RestaurantFront",
+    "dimensions": [
+      20,
+      16,
+      4.8
+    ],
+    "faces": 17910
+  },
+  {
+    "asset": "SM_FastFoodInterior",
+    "dimensions": [
+      20,
+      16,
+      4.8
+    ],
+    "faces": 20016
+  },
+  {
+    "asset": "SM_FastFoodFront",
+    "dimensions": [
+      20,
+      16,
+      4.8
+    ],
+    "faces": 17910
+  },
+  {
+    "asset": "SM_TechInterior",
+    "dimensions": [
+      20,
+      16,
+      4.8
+    ],
+    "faces": 29388
+  },
+  {
+    "asset": "SM_TechFront",
+    "dimensions": [
+      20,
+      16,
+      4.8
+    ],
+    "faces": 5520
+  },
+  {
+    "asset": "SM_ComponentsInterior",
+    "dimensions": [
+      20,
+      16,
+      4.8
+    ],
+    "faces": 30306
+  },
+  {
+    "asset": "SM_ComponentsFront",
+    "dimensions": [
+      20,
+      16,
+      4.8
+    ],
+    "faces": 5520
+  },
+  {
+    "asset": "SM_PharmacyInterior",
+    "dimensions": [
+      20,
+      18,
+      4.8
+    ],
+    "faces": 17568
+  },
+  {
+    "asset": "SM_PharmacyFront",
+    "dimensions": [
+      20,
+      18,
+      4.8
+    ],
+    "faces": 5904
+  },
+  {
+    "asset": "SM_FloristInterior",
+    "dimensions": [
+      14,
+      12,
+      4.8
+    ],
+    "faces": 98682
+  },
+  {
+    "asset": "SM_FloristFront",
+    "dimensions": [
+      14,
+      12,
+      4.8
+    ],
+    "faces": 4650
+  }
+]

@@ -1,0 +1,1622 @@
+[
+  {
+    "slot": "Store_cream",
+    "material": "/Game/Delivery/Stores/Store_cream.Store_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C44AC8) {r: 0.830000, g: 0.760000, b: 0.560000, a: 1.000000}>"
+  },
+  {
+    "slot": "Store_white",
+    "material": "/Game/Delivery/Stores/Store_white.Store_white",
+    "color": "<Struct 'LinearColor' (0x000001DB12C434C8) {r: 0.900000, g: 0.920000, b: 0.850000, a: 1.000000}>"
+  },
+  {
+    "slot": "Store_green",
+    "material": "/Game/Delivery/Stores/Store_green.Store_green",
+    "color": "<Struct 'LinearColor' (0x000001DB12C442C8) {r: 0.080000, g: 0.380000, b: 0.180000, a: 1.000000}>"
+  },
+  {
+    "slot": "Store_wood",
+    "material": "/Game/Delivery/Stores/Store_wood.Store_wood",
+    "color": "<Struct 'LinearColor' (0x000001DB12C432C8) {r: 0.330000, g: 0.160000, b: 0.060000, a: 1.000000}>"
+  },
+  {
+    "slot": "Store_dark",
+    "material": "/Game/Delivery/Stores/Store_dark.Store_dark",
+    "color": "<Struct 'LinearColor' (0x000001DB12C446C8) {r: 0.035000, g: 0.055000, b: 0.060000, a: 1.000000}>"
+  },
+  {
+    "slot": "Store_steel",
+    "material": "/Game/Delivery/Stores/Store_steel.Store_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C438C8) {r: 0.300000, g: 0.370000, b: 0.390000, a: 1.000000}>"
+  },
+  {
+    "slot": "Store_red",
+    "material": "/Game/Delivery/Stores/Store_red.Store_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C43FC8) {r: 0.650000, g: 0.035000, b: 0.020000, a: 1.000000}>"
+  },
+  {
+    "slot": "Detail_wood",
+    "material": "/Game/Delivery/Stores/Detail_wood.Detail_wood",
+    "color": "<Struct 'LinearColor' (0x000001DB12C486C8) {r: 0.300000, g: 0.130000, b: 0.045000, a: 1.000000}>"
+  },
+  {
+    "slot": "Detail_white",
+    "material": "/Game/Delivery/Stores/Detail_white.Detail_white",
+    "color": "<Struct 'LinearColor' (0x000001DB12C48EC8) {r: 0.880000, g: 0.880000, b: 0.800000, a: 1.000000}>"
+  },
+  {
+    "slot": "Detail_black",
+    "material": "/Game/Delivery/Stores/Detail_black.Detail_black",
+    "color": "<Struct 'LinearColor' (0x000001DB12C496C8) {r: 0.028000, g: 0.033000, b: 0.040000, a: 1.000000}>"
+  },
+  {
+    "slot": "Detail_mint",
+    "material": "/Game/Delivery/Stores/Detail_mint.Detail_mint",
+    "color": "<Struct 'LinearColor' (0x000001DB12C49CC8) {r: 0.350000, g: 0.640000, b: 0.530000, a: 1.000000}>"
+  },
+  {
+    "slot": "Detail_red",
+    "material": "/Game/Delivery/Stores/Detail_red.Detail_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C491C8) {r: 0.720000, g: 0.045000, b: 0.025000, a: 1.000000}>"
+  },
+  {
+    "slot": "Detail_metal",
+    "material": "/Game/Delivery/Stores/Detail_metal.Detail_metal",
+    "color": "<Struct 'LinearColor' (0x000001DB12C499C8) {r: 0.350000, g: 0.400000, b: 0.420000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ink",
+    "material": "/Game/Delivery/Stores/ENV_ink.ENV_ink",
+    "color": "<Struct 'LinearColor' (0x000001DB12C46CC8) {r: 0.035000, g: 0.055000, b: 0.075000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_oak",
+    "material": "/Game/Delivery/Stores/ENV_oak.ENV_oak",
+    "color": "<Struct 'LinearColor' (0x000001DB12C45CC8) {r: 0.320000, g: 0.150000, b: 0.065000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_honey",
+    "material": "/Game/Delivery/Stores/ENV_honey.ENV_honey",
+    "color": "<Struct 'LinearColor' (0x000001DB12C471C8) {r: 0.650000, g: 0.360000, b: 0.120000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_gold",
+    "material": "/Game/Delivery/Stores/ENV_gold.ENV_gold",
+    "color": "<Struct 'LinearColor' (0x000001DB12C479C8) {r: 0.940000, g: 0.580000, b: 0.080000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_002",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_002",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_leaf_002",
+    "material": "/Game/Delivery/Stores/ENV_leaf.ENV_leaf",
+    "color": "<Struct 'LinearColor' (0x000001DB12C464C8) {r: 0.140000, g: 0.340000, b: 0.070000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_001",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_001",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_001",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_001",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_003",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_003",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_004",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_004",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_004",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_004",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_004",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_005",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_005",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_005",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_005",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_005",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_006",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_006",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_006",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_007",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_red_007",
+    "material": "/Game/Delivery/Stores/ENV_red.ENV_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C458C8) {r: 0.630000, g: 0.090000, b: 0.050000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_007",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_007",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_008",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_008",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_008",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_008",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_008",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_009",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_009",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_009",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_009",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_009",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_010",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_010",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_010",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_010",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_010",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_011",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_011",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_011",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_011",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_011",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_012",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_012",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_012",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_012",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_012",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_013",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_013",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_013",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_013",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_013",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_014",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_red_014",
+    "material": "/Game/Delivery/Stores/ENV_red.ENV_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C458C8) {r: 0.630000, g: 0.090000, b: 0.050000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_014",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_014",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_015",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_red_015",
+    "material": "/Game/Delivery/Stores/ENV_red.ENV_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C458C8) {r: 0.630000, g: 0.090000, b: 0.050000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_015",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_015",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_016",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_016",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_016",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_016",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_016",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_017",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_017",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_017",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_017",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_017",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_018",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_018",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_018",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_018",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_018",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_019",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_019",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_019",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_019",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_019",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_020",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_020",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_020",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_020",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_020",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_021",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_021",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_021",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_021",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_021",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_022",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_red_022",
+    "material": "/Game/Delivery/Stores/ENV_red.ENV_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C458C8) {r: 0.630000, g: 0.090000, b: 0.050000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_022",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_022",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_023",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_red_023",
+    "material": "/Game/Delivery/Stores/ENV_red.ENV_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C458C8) {r: 0.630000, g: 0.090000, b: 0.050000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_023",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_023",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_024",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_024",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_024",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_024",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_024",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_025",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_025",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_025",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_025",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_025",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_026",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_026",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_026",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_026",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_026",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_027",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_027",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_027",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_027",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_027",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_028",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_028",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_028",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_028",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_028",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_029",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_029",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_029",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_029",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_029",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_030",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_red_030",
+    "material": "/Game/Delivery/Stores/ENV_red.ENV_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C458C8) {r: 0.630000, g: 0.090000, b: 0.050000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_030",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_030",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_031",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_red_031",
+    "material": "/Game/Delivery/Stores/ENV_red.ENV_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C458C8) {r: 0.630000, g: 0.090000, b: 0.050000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_031",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_031",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_032",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_032",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_032",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_032",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_032",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_033",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_033",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_033",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_033",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_033",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_034",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_034",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_034",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_034",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_034",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_035",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_035",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_035",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_035",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_035",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_036",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_036",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_036",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_036",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_036",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_037",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_037",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_037",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_037",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_037",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_038",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_red_038",
+    "material": "/Game/Delivery/Stores/ENV_red.ENV_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C458C8) {r: 0.630000, g: 0.090000, b: 0.050000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_038",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_038",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_039",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_red_039",
+    "material": "/Game/Delivery/Stores/ENV_red.ENV_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C458C8) {r: 0.630000, g: 0.090000, b: 0.050000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_039",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_039",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_040",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_040",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_040",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_040",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_040",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_041",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_041",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_041",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_041",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_041",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_042",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_042",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_042",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_042",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_042",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_043",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_043",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_043",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_043",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_043",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_044",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_044",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_044",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_044",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_044",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_045",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_045",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_045",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_045",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_045",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_046",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_red_046",
+    "material": "/Game/Delivery/Stores/ENV_red.ENV_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C458C8) {r: 0.630000, g: 0.090000, b: 0.050000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_046",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_046",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_047",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_red_047",
+    "material": "/Game/Delivery/Stores/ENV_red.ENV_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C458C8) {r: 0.630000, g: 0.090000, b: 0.050000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_047",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_047",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_048",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_048",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_048",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_048",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_048",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_049",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_049",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_049",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_049",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_049",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_050",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_050",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_050",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_050",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_050",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_051",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_051",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_051",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_051",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_051",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_052",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_052",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_052",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_052",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_052",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_053",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_053",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_053",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_053",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_053",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_054",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_red_054",
+    "material": "/Game/Delivery/Stores/ENV_red.ENV_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C458C8) {r: 0.630000, g: 0.090000, b: 0.050000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_054",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_054",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_055",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_red_055",
+    "material": "/Game/Delivery/Stores/ENV_red.ENV_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C458C8) {r: 0.630000, g: 0.090000, b: 0.050000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_055",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_055",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_056",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_056",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_056",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_056",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_056",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_057",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_057",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_057",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_057",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_057",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_058",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_058",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_058",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_058",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_058",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_059",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_059",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_059",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_059",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_059",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_060",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_060",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_060",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_060",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_060",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_061",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_061",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_061",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_061",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_061",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_062",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_red_062",
+    "material": "/Game/Delivery/Stores/ENV_red.ENV_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C458C8) {r: 0.630000, g: 0.090000, b: 0.050000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_062",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_062",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_063",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_red_063",
+    "material": "/Game/Delivery/Stores/ENV_red.ENV_red",
+    "color": "<Struct 'LinearColor' (0x000001DB12C458C8) {r: 0.630000, g: 0.090000, b: 0.050000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_063",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_063",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_064",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_064",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_064",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_064",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_064",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_sage_065",
+    "material": "/Game/Delivery/Stores/ENV_sage.ENV_sage",
+    "color": "<Struct 'LinearColor' (0x000001DB12C454C8) {r: 0.200000, g: 0.370000, b: 0.240000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_cream_065",
+    "material": "/Game/Delivery/Stores/ENV_cream.ENV_cream",
+    "color": "<Struct 'LinearColor' (0x000001DB12C47CC8) {r: 0.840000, g: 0.780000, b: 0.610000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_ivory_065",
+    "material": "/Game/Delivery/Stores/ENV_ivory.ENV_ivory",
+    "color": "<Struct 'LinearColor' (0x000001DB12C467C8) {r: 0.910000, g: 0.900000, b: 0.790000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_blue_065",
+    "material": "/Game/Delivery/Stores/ENV_blue.ENV_blue",
+    "color": "<Struct 'LinearColor' (0x000001DB12C481C8) {r: 0.045000, g: 0.290000, b: 0.380000, a: 1.000000}>"
+  },
+  {
+    "slot": "ENV_steel_065",
+    "material": "/Game/Delivery/Stores/ENV_steel.ENV_steel",
+    "color": "<Struct 'LinearColor' (0x000001DB12C451C8) {r: 0.400000, g: 0.450000, b: 0.460000, a: 1.000000}>"
+  }
+]

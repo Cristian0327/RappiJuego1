@@ -1,0 +1,615 @@
+{
+  "contact_count": 236,
+  "obstacles": [
+    [
+      "BP_Traffic_PrivateSprint_C_0 / VehicleCollision",
+      72
+    ],
+    [
+      "BP_TwoWheelerCitizen_C_2 / CollisionCylinder",
+      48
+    ],
+    [
+      "BP_PoliceMotorcycle_C_5 / CollisionCylinder",
+      14
+    ],
+    [
+      "BP_CivilMotorcycle_C_11 / CollisionCylinder",
+      14
+    ],
+    [
+      "BP_CivilMotorcycle_C_10 / CollisionCylinder",
+      12
+    ],
+    [
+      "BP_PoliceRoadPatrol_C_4 / CollisionCylinder",
+      10
+    ],
+    [
+      "BP_TwoWheelerCitizen_C_11 / CollisionCylinder",
+      9
+    ],
+    [
+      "BP_BogotaUrbanDressing_C_0 / UrbanPart5",
+      6
+    ],
+    [
+      "BP_PoliceMotorcycle_C_1 / CollisionCylinder",
+      5
+    ],
+    [
+      "BP_TwoWheelerCitizen_C_8 / CollisionCylinder",
+      4
+    ],
+    [
+      "BP_MapaCompletoGeometry_C_1 / Part082",
+      4
+    ],
+    [
+      "BP_PoliceRoadPatrol_C_2 / CollisionCylinder",
+      4
+    ],
+    [
+      "BP_Traffic_PrivateChevette_C_2 / VehicleCollision",
+      4
+    ],
+    [
+      "BP_PoliceMotorcycle_C_2 / CollisionCylinder",
+      3
+    ],
+    [
+      "BP_CivilMotorcycle_C_7 / CollisionCylinder",
+      3
+    ],
+    [
+      "BP_CivilMotorcycle_C_8 / CollisionCylinder",
+      2
+    ],
+    [
+      "BP_PoliceOfficer_C_8 / CollisionCylinder",
+      2
+    ],
+    [
+      "StaticMeshActor_123 / StaticMeshComponent0",
+      2
+    ],
+    [
+      "BP_Traffic_PrivateBeetle_C_3 / VehicleCollision",
+      2
+    ],
+    [
+      "BP_Traffic_PrivateRenault9_C_2 / VehicleCollision",
+      2
+    ]
+  ],
+  "examples": [
+    {
+      "time": 37.984623,
+      "actor": "BP_CivilMotorcycle_C_8",
+      "other": "BP_CivilMotorcycle_C_0",
+      "component": "CollisionCylinder",
+      "position": "X=1248.738 Y=-10943.811 Z=190.150",
+      "normal": "X=0.529 Y=-0.849 Z=0.000"
+    },
+    {
+      "time": 37.984623,
+      "actor": "BP_CivilMotorcycle_C_0",
+      "other": "BP_CivilMotorcycle_C_8",
+      "component": "CollisionCylinder",
+      "position": "X=1248.738 Y=-10943.811 Z=190.150",
+      "normal": "X=-0.529 Y=0.849 Z=-0.000"
+    },
+    {
+      "time": 38.332538,
+      "actor": "BP_PoliceRoadPatrol_C_2",
+      "other": "BP_TwoWheelerCitizen_C_8",
+      "component": "CollisionCylinder",
+      "position": "X=-16946.887 Y=732.293 Z=227.930",
+      "normal": "X=0.389 Y=-0.632 Z=0.670"
+    },
+    {
+      "time": 38.573027,
+      "actor": "BP_CivilMotorcycle_C_8",
+      "other": "BP_Traffic_TaxiCompact_C_7",
+      "component": "VehicleCollision",
+      "position": "X=1226.234 Y=-10898.939 Z=113.115",
+      "normal": "X=-0.491 Y=0.871 Z=0.000"
+    },
+    {
+      "time": 38.573027,
+      "actor": "BP_CivilMotorcycle_C_0",
+      "other": "BP_CivilMotorcycle_C_8",
+      "component": "CollisionCylinder",
+      "position": "X=1248.738 Y=-10943.811 Z=126.570",
+      "normal": "X=-0.529 Y=0.849 Z=-0.000"
+    },
+    {
+      "time": 38.928213,
+      "actor": "BP_PoliceRoadPatrol_C_2",
+      "other": "BP_TwoWheelerCitizen_C_8",
+      "component": "CollisionCylinder",
+      "position": "X=-17105.686 Y=901.939 Z=333.410",
+      "normal": "X=0.767 Y=-0.642 Z=0.000"
+    },
+    {
+      "time": 39.519547,
+      "actor": "BP_PoliceRoadPatrol_C_2",
+      "other": "BP_TwoWheelerCitizen_C_8",
+      "component": "CollisionCylinder",
+      "position": "X=-17105.686 Y=901.939 Z=309.031",
+      "normal": "X=0.767 Y=-0.642 Z=0.000"
+    },
+    {
+      "time": 61.511256,
+      "actor": "BP_CivilMotorcycle_C_1",
+      "other": "BP_CivilMotorcycle_C_5",
+      "component": "CollisionCylinder",
+      "position": "X=6303.459 Y=17612.781 Z=190.150",
+      "normal": "X=-0.514 Y=-0.858 Z=0.000"
+    },
+    {
+      "time": 61.511256,
+      "actor": "BP_CivilMotorcycle_C_5",
+      "other": "BP_CivilMotorcycle_C_1",
+      "component": "CollisionCylinder",
+      "position": "X=6303.459 Y=17612.781 Z=190.150",
+      "normal": "X=0.514 Y=0.858 Z=-0.000"
+    },
+    {
+      "time": 65.759364,
+      "actor": "BP_PoliceMotorcycle_C_3",
+      "other": "BP_TwoWheelerCitizen_C_11",
+      "component": "CollisionCylinder",
+      "position": "X=8747.928 Y=-3030.722 Z=126.212",
+      "normal": "X=0.089 Y=-0.996 Z=0.000"
+    },
+    {
+      "time": 66.425958,
+      "actor": "BP_PoliceMotorcycle_C_3",
+      "other": "BP_TwoWheelerCitizen_C_11",
+      "component": "CollisionCylinder",
+      "position": "X=8747.928 Y=-3030.722 Z=126.212",
+      "normal": "X=0.089 Y=-0.996 Z=0.000"
+    },
+    {
+      "time": 66.984669,
+      "actor": "BP_PoliceMotorcycle_C_3",
+      "other": "BP_TwoWheelerCitizen_C_11",
+      "component": "CollisionCylinder",
+      "position": "X=8747.928 Y=-3030.722 Z=126.212",
+      "normal": "X=0.089 Y=-0.996 Z=0.000"
+    },
+    {
+      "time": 67.555309,
+      "actor": "BP_PoliceMotorcycle_C_3",
+      "other": "BP_TwoWheelerCitizen_C_11",
+      "component": "CollisionCylinder",
+      "position": "X=8747.928 Y=-3030.722 Z=126.212",
+      "normal": "X=0.089 Y=-0.996 Z=0.000"
+    },
+    {
+      "time": 68.064724,
+      "actor": "BP_PoliceMotorcycle_C_3",
+      "other": "BP_TwoWheelerCitizen_C_11",
+      "component": "CollisionCylinder",
+      "position": "X=8747.928 Y=-3030.722 Z=126.212",
+      "normal": "X=0.089 Y=-0.996 Z=0.000"
+    },
+    {
+      "time": 68.693556,
+      "actor": "BP_PoliceMotorcycle_C_3",
+      "other": "BP_TwoWheelerCitizen_C_11",
+      "component": "CollisionCylinder",
+      "position": "X=8747.928 Y=-3030.722 Z=126.212",
+      "normal": "X=0.089 Y=-0.996 Z=0.000"
+    }
+  ],
+  "guard_stops": 5368,
+  "guard_obstacles": [
+    [
+      "BP_BogotaUrbanDressing_C_0 / UrbanPart5",
+      674
+    ],
+    [
+      "BP_PoliceRoadPatrol_C_2 / CollisionCylinder",
+      368
+    ],
+    [
+      "BP_PoliceRoadPatrol_C_0 / CollisionCylinder",
+      265
+    ],
+    [
+      "BP_Traffic_PrivateBeetle_C_1 / VehicleCollision",
+      257
+    ],
+    [
+      "BP_TwoWheelerCitizen_C_0 / CollisionCylinder",
+      243
+    ],
+    [
+      "BP_TwoWheelerCitizen_C_6 / CollisionCylinder",
+      242
+    ],
+    [
+      "BP_CivilMotorcycle_C_2 / CollisionCylinder",
+      215
+    ],
+    [
+      "BP_MapaCompletoGeometry_C_1 / Part082",
+      206
+    ],
+    [
+      "BP_CivilMotorcycle_C_6 / CollisionCylinder",
+      185
+    ],
+    [
+      "BP_TwoWheelerCitizen_C_8 / CollisionCylinder",
+      176
+    ],
+    [
+      "BP_PoliceRoadPatrol_C_4 / CollisionCylinder",
+      171
+    ],
+    [
+      "BP_CivilMotorcycle_C_10 / CollisionCylinder",
+      163
+    ],
+    [
+      "BP_CivilMotorcycle_C_7 / CollisionCylinder",
+      158
+    ],
+    [
+      "BP_PoliceMotorcycle_C_2 / CollisionCylinder",
+      156
+    ],
+    [
+      "BP_Traffic_PrivateHatch_C_3 / VehicleCollision",
+      149
+    ],
+    [
+      "BP_PoliceRoadPatrol_C_1 / CollisionCylinder",
+      146
+    ],
+    [
+      "BP_PoliceMotorcycle_C_5 / CollisionCylinder",
+      107
+    ],
+    [
+      "BP_Traffic_PrivatePickup_C_3 / VehicleCollision",
+      101
+    ],
+    [
+      "BP_Traffic_PrivateMazda323_C_0 / VehicleCollision",
+      95
+    ],
+    [
+      "StaticMeshActor_123 / StaticMeshComponent0",
+      94
+    ]
+  ],
+  "guard_examples": [
+    {
+      "time": 1.148437,
+      "actor": "BP_CivilMotorcycle_C_4",
+      "other": "BP_Traffic_PrivateVan_C_2",
+      "component": "VehicleCollision",
+      "position": "X=10910.406 Y=14908.452 Z=150.469"
+    },
+    {
+      "time": 1.148437,
+      "actor": "BP_CivilMotorcycle_C_3",
+      "other": "BP_Traffic_PrivateHatch_C_0",
+      "component": "VehicleCollision",
+      "position": "X=5186.310 Y=7972.524 Z=151.656"
+    },
+    {
+      "time": 1.148437,
+      "actor": "BP_PoliceRoadPatrol_C_0",
+      "other": "BP_Traffic_PrivateSandero_C_2",
+      "component": "VehicleCollision",
+      "position": "X=18197.808 Y=-4141.253 Z=149.174"
+    },
+    {
+      "time": 1.148437,
+      "actor": "BP_CivilMotorcycle_C_1",
+      "other": "BP_Traffic_PrivateWagon_C_3",
+      "component": "VehicleCollision",
+      "position": "X=8866.622 Y=14460.496 Z=128.992"
+    },
+    {
+      "time": 1.148437,
+      "actor": "BP_CivilMotorcycle_C_0",
+      "other": "BP_Traffic_PrivateBeetle_C_2",
+      "component": "VehicleCollision",
+      "position": "X=4038.883 Y=-16689.696 Z=115.860"
+    },
+    {
+      "time": 1.148437,
+      "actor": "BP_PoliceMotorcycle_C_5",
+      "other": "BP_Traffic_PrivateMazda323_C_2",
+      "component": "VehicleCollision",
+      "position": "X=-7509.032 Y=5586.093 Z=150.946"
+    },
+    {
+      "time": 1.148437,
+      "actor": "BP_CivilMotorcycle_C_11",
+      "other": "BP_Traffic_PrivateSingleCab_C_2",
+      "component": "VehicleCollision",
+      "position": "X=-7856.204 Y=7238.566 Z=115.860"
+    },
+    {
+      "time": 1.148437,
+      "actor": "BP_TwoWheelerCitizen_C_9",
+      "other": "BP_Traffic_PrivateMazda323_C_0",
+      "component": "VehicleCollision",
+      "position": "X=1975.887 Y=-8828.584 Z=115.937"
+    },
+    {
+      "time": 2.297683,
+      "actor": "BP_PoliceRoadPatrol_C_0",
+      "other": "BP_Traffic_PrivateSandero_C_2",
+      "component": "VehicleCollision",
+      "position": "X=18216.964 Y=-4179.967 Z=149.225"
+    },
+    {
+      "time": 2.297683,
+      "actor": "BP_TwoWheelerCitizen_C_9",
+      "other": "BP_Traffic_PrivateMazda323_C_0",
+      "component": "VehicleCollision",
+      "position": "X=1998.471 Y=-8863.345 Z=115.937"
+    },
+    {
+      "time": 3.093395,
+      "actor": "BP_CivilMotorcycle_C_12",
+      "other": "BP_PoliceRoadPatrol_C_0",
+      "component": "CollisionCylinder",
+      "position": "X=18037.696 Y=-3810.078 Z=142.558"
+    },
+    {
+      "time": 3.342404,
+      "actor": "BP_TwoWheelerCitizen_C_10",
+      "other": "BP_Traffic_PrivatePrado_C_2",
+      "component": "VehicleCollision",
+      "position": "X=3919.777 Y=11497.525 Z=128.438"
+    },
+    {
+      "time": 3.342404,
+      "actor": "BP_TwoWheelerCitizen_C_9",
+      "other": "BP_Traffic_PrivateMazda323_C_0",
+      "component": "VehicleCollision",
+      "position": "X=2028.942 Y=-8902.566 Z=115.937"
+    },
+    {
+      "time": 4.644162,
+      "actor": "BP_CivilMotorcycle_C_12",
+      "other": "BP_PoliceRoadPatrol_C_0",
+      "component": "CollisionCylinder",
+      "position": "X=18089.033 Y=-3917.326 Z=142.558"
+    },
+    {
+      "time": 4.644162,
+      "actor": "BP_TwoWheelerCitizen_C_10",
+      "other": "BP_Traffic_PrivatePrado_C_2",
+      "component": "VehicleCollision",
+      "position": "X=4041.041 Y=11399.389 Z=116.014"
+    }
+  ],
+  "runtime_settings": [
+    {
+      "time": 365.185485,
+      "actor": "BP_CivilMotorcycle_C_0",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_24",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_CivilMotorcycle_C_1",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_25",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_PoliceMotorcycle_C_0",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_26",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_PoliceRoadPatrol_C_0",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_27",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_CivilMotorcycle_C_2",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_28",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_CivilMotorcycle_C_3",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_29",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_PoliceMotorcycle_C_1",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_30",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_PoliceRoadPatrol_C_1",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_31",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_CivilMotorcycle_C_4",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_32",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_CivilMotorcycle_C_5",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_33",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_PoliceMotorcycle_C_2",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_34",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_PoliceRoadPatrol_C_2",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_35",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_CivilMotorcycle_C_6",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_36",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_CivilMotorcycle_C_7",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_37",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_PoliceMotorcycle_C_3",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_38",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_PoliceRoadPatrol_C_3",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_39",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_CivilMotorcycle_C_8",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_40",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_CivilMotorcycle_C_9",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_41",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_PoliceMotorcycle_C_4",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_42",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_PoliceRoadPatrol_C_4",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_43",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_CivilMotorcycle_C_10",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_44",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_CivilMotorcycle_C_11",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_45",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_PoliceMotorcycle_C_5",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_46",
+      "ai_status": "0",
+      "root_motion": "false"
+    },
+    {
+      "time": 365.185485,
+      "actor": "BP_CivilMotorcycle_C_12",
+      "rvo": "false",
+      "friction": "12.0",
+      "controller": "AIController_47",
+      "ai_status": "0",
+      "root_motion": "false"
+    }
+  ]
+}

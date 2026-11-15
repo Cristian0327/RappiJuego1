@@ -1,0 +1,10 @@
+{
+  "status": "GEOMETRY_STAGING",
+  "static_mesh_components": 116,
+  "parent": "/Script/Engine.Actor",
+  "pending": [
+    "Render target and model selection Blueprint functions",
+    "Phone image integration",
+    "Runtime visual verification"
+  ]
+}

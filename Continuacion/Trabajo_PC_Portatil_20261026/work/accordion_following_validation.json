@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "hinge_import_basis_preserved": true,
+    "rear_follows_turn_without_steering_input": true,
+    "hinge_stays_within_safe_limit": true,
+    "rear_straightens_after_turn": true
+  },
+  "maximum_hinge_degrees": 42.00000000000004,
+  "final_hinge_degrees": 0.0
+}

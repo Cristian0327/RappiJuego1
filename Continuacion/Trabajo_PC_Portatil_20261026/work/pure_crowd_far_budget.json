@@ -1,0 +1,8 @@
+{
+  "agents_per_frame": 8,
+  "far_actor_ticks_disabled": true,
+  "far_physics_and_ai_disabled": true,
+  "far_motion_nav_validated": true,
+  "near_continuous": true,
+  "status": "COMPILED_PENDING_RENDER"
+}

@@ -1,0 +1,460 @@
+{
+  "windows": [
+    {
+      "time": 0.265022,
+      "count": 90,
+      "moving": 90
+    },
+    {
+      "time": 30.257099,
+      "count": 90,
+      "moving": 62
+    },
+    {
+      "time": 60.113677,
+      "count": 90,
+      "moving": 62
+    },
+    {
+      "time": 90.164192,
+      "count": 90,
+      "moving": 42
+    },
+    {
+      "time": 120.124629,
+      "count": 90,
+      "moving": 64
+    },
+    {
+      "time": 150.422463,
+      "count": 90,
+      "moving": 64
+    },
+    {
+      "time": 180.326404,
+      "count": 90,
+      "moving": 59
+    },
+    {
+      "time": 210.293761,
+      "count": 90,
+      "moving": 21
+    },
+    {
+      "time": 240.317951,
+      "count": 90,
+      "moving": 61
+    },
+    {
+      "time": 270.25311,
+      "count": 90,
+      "moving": 35
+    },
+    {
+      "time": 300.110607,
+      "count": 90,
+      "moving": 32
+    },
+    {
+      "time": 330.146349,
+      "count": 90,
+      "moving": 32
+    },
+    {
+      "time": 360.274574,
+      "count": 90,
+      "moving": 33
+    }
+  ],
+  "last_window": [
+    {
+      "time": 365.185485,
+      "count": 90,
+      "moving": 32
+    }
+  ],
+  "stalled_over_110_seconds": [
+    6,
+    7,
+    11,
+    15,
+    16,
+    18,
+    19,
+    20,
+    24,
+    30,
+    33,
+    37,
+    38,
+    40,
+    45,
+    46,
+    49,
+    54,
+    61,
+    62,
+    65,
+    70,
+    72,
+    74,
+    79,
+    80,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89
+  ],
+  "last_cycle_details": {
+    "BP_TwoWheelerCitizen_C_0": {
+      "state": "0.0",
+      "index": "549",
+      "goal": [
+        20432.528,
+        -37843.033,
+        4.5
+      ],
+      "limit": 420.0,
+      "max_speed": 420.0,
+      "mode": "1",
+      "position": [
+        20858.017,
+        -37818.236,
+        126.15
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hit_actor": "None",
+      "hit_component": "None",
+      "hit_point": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "BP_TwoWheelerCitizen_C_1": {
+      "state": "0.0",
+      "index": "258",
+      "goal": [
+        -1619.011,
+        24437.649,
+        4.5
+      ],
+      "limit": 0.0,
+      "max_speed": 0.0,
+      "mode": "1",
+      "position": [
+        -1349.668,
+        24282.54,
+        126.15
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hit_actor": "None",
+      "hit_component": "None",
+      "hit_point": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "BP_TwoWheelerCitizen_C_2": {
+      "state": "0.0",
+      "index": "738",
+      "goal": [
+        -8614.131,
+        25508.69,
+        4.5
+      ],
+      "limit": 420.0,
+      "max_speed": 420.0,
+      "mode": "1",
+      "position": [
+        -8648.085,
+        25369.017,
+        126.15
+      ],
+      "velocity": [
+        99.192,
+        408.119,
+        0.0
+      ],
+      "hit_actor": "None",
+      "hit_component": "None",
+      "hit_point": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "BP_TwoWheelerCitizen_C_3": {
+      "state": "0.0",
+      "index": "662",
+      "goal": [
+        -17276.915,
+        3849.225,
+        7.0
+      ],
+      "limit": 420.0,
+      "max_speed": 420.0,
+      "mode": "1",
+      "position": [
+        -17605.883,
+        3994.001,
+        130.838
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hit_actor": "None",
+      "hit_component": "None",
+      "hit_point": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "BP_TwoWheelerCitizen_C_4": {
+      "state": "0.0",
+      "index": "839",
+      "goal": [
+        10130.69,
+        15744.359,
+        4.5
+      ],
+      "limit": 420.0,
+      "max_speed": 420.0,
+      "mode": "1",
+      "position": [
+        9944.602,
+        15946.241,
+        126.15
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hit_actor": "None",
+      "hit_component": "None",
+      "hit_point": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "BP_TwoWheelerCitizen_C_5": {
+      "state": "0.0",
+      "index": "152",
+      "goal": [
+        -8116.199,
+        17400.736,
+        4.5
+      ],
+      "limit": 420.0,
+      "max_speed": 420.0,
+      "mode": "1",
+      "position": [
+        -8064.562,
+        17693.226,
+        126.15
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hit_actor": "None",
+      "hit_component": "None",
+      "hit_point": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "BP_TwoWheelerCitizen_C_6": {
+      "state": "0.0",
+      "index": "548",
+      "goal": [
+        20784.044,
+        -37819.913,
+        4.5
+      ],
+      "limit": 420.0,
+      "max_speed": 420.0,
+      "mode": "1",
+      "position": [
+        21052.354,
+        -37813.262,
+        126.15
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hit_actor": "None",
+      "hit_component": "None",
+      "hit_point": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "BP_TwoWheelerCitizen_C_7": {
+      "state": "0.0",
+      "index": "257",
+      "goal": [
+        -1343.419,
+        24278.445,
+        4.5
+      ],
+      "limit": 420.0,
+      "max_speed": 420.0,
+      "mode": "1",
+      "position": [
+        -1162.784,
+        24177.009,
+        126.15
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hit_actor": "None",
+      "hit_component": "None",
+      "hit_point": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "BP_TwoWheelerCitizen_C_8": {
+      "state": "0.0",
+      "index": "212",
+      "goal": [
+        -21604.89,
+        3267.569,
+        4.5
+      ],
+      "limit": 420.0,
+      "max_speed": 420.0,
+      "mode": "1",
+      "position": [
+        -21477.679,
+        2941.433,
+        132.994
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hit_actor": "None",
+      "hit_component": "None",
+      "hit_point": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "BP_TwoWheelerCitizen_C_9": {
+      "state": "0.0",
+      "index": "513",
+      "goal": [
+        7671.894,
+        3851.059,
+        4.5
+      ],
+      "limit": 420.0,
+      "max_speed": 420.0,
+      "mode": "1",
+      "position": [
+        7699.899,
+        3689.745,
+        126.275
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hit_actor": "None",
+      "hit_component": "None",
+      "hit_point": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "BP_TwoWheelerCitizen_C_10": {
+      "state": "0.0",
+      "index": "477",
+      "goal": [
+        19629.366,
+        -33093.716,
+        4.5
+      ],
+      "limit": 420.0,
+      "max_speed": 420.0,
+      "mode": "1",
+      "position": [
+        19573.327,
+        -32692.611,
+        126.4
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hit_actor": "None",
+      "hit_component": "None",
+      "hit_point": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "BP_TwoWheelerCitizen_C_11": {
+      "state": "0.0",
+      "index": "723",
+      "goal": [
+        -13761.437,
+        -11792.782,
+        4.5
+      ],
+      "limit": 420.0,
+      "max_speed": 420.0,
+      "mode": "3",
+      "position": [
+        -13608.556,
+        -11564.594,
+        124.029
+      ],
+      "velocity": [
+        -16.328,
+        -24.371,
+        0.0
+      ],
+      "hit_actor": "None",
+      "hit_component": "None",
+      "hit_point": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

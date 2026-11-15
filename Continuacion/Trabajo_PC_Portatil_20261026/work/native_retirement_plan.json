@@ -1,0 +1,33 @@
+{
+  "status": "PLAN_ONLY",
+  "reachable_packages": 553,
+  "native_dependent_packages": [
+    "/Game/Delivery/Animation/BP_RiderAnimationCoordinator",
+    "/Game/Delivery/Core/BPC_DeliveryGameplay",
+    "/Game/Delivery/Core/BP_DeliveryGameMode",
+    "/Game/Delivery/Data/DT_StoreThemes",
+    "/Game/Delivery/Data/DT_Upgrades",
+    "/Game/Delivery/Data/DT_Vehicles",
+    "/Game/Delivery/Developer/BP_DeveloperVehicleDoors",
+    "/Game/Delivery/Orders/BP_DeliveryBuilding",
+    "/Game/Delivery/Orders/BP_VoxelCustomer",
+    "/Game/Delivery/UI/WBP_VoxelPhone",
+    "/Game/Delivery/Vehicles/BP_AnimatedVehicleInput",
+    "/Game/Delivery/Vehicles/BP_DeliveryRider",
+    "/Game/Delivery/Vehicles/BP_RiderMotionCoordinator",
+    "/Game/Delivery/Vehicles/BP_RiderWorldSafety",
+    "/Game/Delivery/Vehicles/BP_VehicleInteractionTransition",
+    "/Game/Maps/Bogota",
+    "/Game/QA/AnimatedInteractionRuntimeTest",
+    "/Game/QA/BP_TestAnimatedInteraction",
+    "/Game/QA/BP_TestPureCityGeometry",
+    "/Game/QA/BP_TestRiderSafety",
+    "/Game/QA/PreciseNpcAnimationTest",
+    "/Game/QA/PureCityGeometryTest",
+    "/Game/QA/RiderWorldSafety_20261017",
+    "/Game/QA/StandingIdleAndInteractionRegression",
+    "/Game/QA/TransitContinuity_20261017",
+    "/Game/World/BP_BogotaCity"
+  ],
+  "safe_shipping_root": "/Game/Maps/Bogota_Blueprint_Integration"
+}

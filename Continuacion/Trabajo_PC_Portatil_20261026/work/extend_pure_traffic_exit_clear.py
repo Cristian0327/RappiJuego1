@@ -1,0 +1,17 @@
+import unreal,json,sys
+from pathlib import Path
+r=Path(unreal.Paths.project_dir()).parent;sys.path.insert(0,str(r/'Herramientas'));import blueprint_graph as d
+bp=unreal.load_asset('/Game/World/BlueprintWorld/Traffic/BP_TrafficVehicle');d.bp=bp;E=unreal.BlueprintEditorLibrary;M=d.M;P=bp.generated_class().get_path_name();K='/Script/Engine.KismetSystemLibrary';g=d.Graph()
+for n in ['Leader','NextPosition','NextYaw','HalfLength','HalfWidth']:g.get(n)
+def op(n,fn,a,b=None,**kw):
+ g.call(n,fn,M,**kw);g.link(*a,n,'A')
+ if b:g.link(*b,n,'B')
+ return (n,'ReturnValue')
+g.call('Valid','IsValid',K);g.link('Leader','Leader','Valid','Object');g.branch('HaveLeader','Valid');g.exec('entry','HaveLeader');g.node('ClearRoad','return',defaults={'ReturnValue':'true'});g.exec('HaveLeader','ClearRoad','else')
+for var in ['Speed','NextPosition','NextYaw','HalfWidth']:
+ g.node('Leader'+var,'getfield',owner=P,var=var);g.link('Leader','Leader','Leader'+var,'self')
+for tag,var in [('Own','NextYaw'),('Leader','LeaderNextYaw')]:
+ g.call(tag+'Rotation','MakeRotator',M);g.link(var,'NextYaw',tag+'Rotation','Yaw');g.call(tag+'Direction','GetForwardVector',M);g.link(tag+'Rotation','ReturnValue',tag+'Direction','InRot')
+op('OffsetFromCentre','Subtract_VectorVector',('LeaderNextPosition','NextPosition'),('entry','Centre'));op('Forward','Dot_VectorVector',('OffsetFromCentre','ReturnValue'),('OwnDirection','ReturnValue'));op('Ahead','Greater_DoubleDouble',('Forward','ReturnValue'),B='0');op('DoubleLength','Multiply_DoubleDouble',('HalfLength','HalfLength'),B='2');op('Limit1','Add_DoubleDouble',('DoubleLength','ReturnValue'),('entry','Band'));op('Limit','Add_DoubleDouble',('Limit1','ReturnValue'),B='300');op('BeforeExitClears','Less_DoubleDouble',('Forward','ReturnValue'),('Limit','ReturnValue'));op('Stopped','Less_DoubleDouble',('LeaderSpeed','Speed'),B='100');op('Alignment','Dot_VectorVector',('LeaderDirection','ReturnValue'),('OwnDirection','ReturnValue'));op('SameDirection','Greater_DoubleDouble',('Alignment','ReturnValue'),B='.7');op('BetweenCars','Subtract_VectorVector',('LeaderNextPosition','NextPosition'),('NextPosition','NextPosition'));op('Cross','Cross_VectorVector',('BetweenCars','ReturnValue'),('OwnDirection','ReturnValue'));g.call('CrossAxes','BreakVector',M);g.link('Cross','ReturnValue','CrossAxes','InVec');op('Lateral','Abs',('CrossAxes','Z'));op('Widths','Add_DoubleDouble',('HalfWidth','HalfWidth'),('LeaderHalfWidth','HalfWidth'));op('WidthLimit','Add_DoubleDouble',('Widths','ReturnValue'),B='80');op('SameCorridor','Less_DoubleDouble',('Lateral','ReturnValue'),('WidthLimit','ReturnValue'));last='Ahead'
+for i,n in enumerate(['BeforeExitClears','Stopped','SameDirection','SameCorridor']):op('Blocked'+str(i),'BooleanAND',(last,'ReturnValue'),(n,'ReturnValue'));last='Blocked'+str(i)
+g.call('Clear','Not_PreBool',M);g.link(last,'ReturnValue','Clear','A');g.link('Clear','ReturnValue','result','ReturnValue');g.exec('HaveLeader','result');assert unreal.DeliveryEditorLibrary.build_logic_graph(bp,'ExitLaneClear',json.dumps({'nodes':g.nodes,'links':g.links,'parameters':[{'name':'Centre','category':'struct','object':'/Script/CoreUObject.Vector'},{'name':'Band','category':'real'},{'name':'ReturnValue','category':'bool','out':True}],'pure':True,'const':True}));assert E.compile_blueprint(bp);assert unreal.EditorAssetLibrary.save_loaded_asset(bp,only_if_is_dirty=False);unreal.log('PURE_TRAFFIC_EXIT_LANE_CLEAR_PASS')

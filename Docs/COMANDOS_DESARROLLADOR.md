@@ -5,9 +5,9 @@ Durante Play, con el celular cerrado y el juego enfocado, escribe las letras seg
 | Código escrito | Resultado |
 |---|---|
 | **ESOYAM** | Activa o desactiva el modo desarrollador. |
-| **LLOVIZNA** | Lluvia leve. |
-| **LLUVIA** | Lluvia normal. |
-| **GRANIZO** | Lluvia fuerte con granizo, relámpagos y truenos. |
+| **LLUVIZNA** | Lluvia suave. Escribe el código con U. |
+| **LLUVIA** | Lluvia sostenida, con más cuerpo y sin rayos. |
+| **TORMENTA** o **GRANIZO** | Lluvia intensa con granizo, relámpagos y truenos. Espera a que se forme la tormenta y caiga el primer rayo. |
 | **SOLEADO** | Quita la lluvia inmediatamente. |
 | **CICLO** | Restaura el clima automático. |
 | **MORADO** | Hace aparecer el TransMilenio morado en una vía libre cercana. |
@@ -17,7 +17,7 @@ Para tomar un carro también puedes acercarte y pulsar F. LLUVIA, SOLEADO y CARR
 
 ## Consola alternativa
 
-También se conservan los comandos anteriores. Durante Play, pulsa **F10**, escribe el comando y pulsa Enter. F10 vuelve a cerrar la consola. Se conservan también las teclas de consola anteriores.
+También se conservan los comandos anteriores. Durante Play, usa la tecla de consola configurada en `DefaultInput.ini` (`Tilde` o `|`), escribe el comando y pulsa Enter. En la build actual F10 abre el panel de gráficos.
 
 | Comando | Resultado |
 |---|---|
@@ -52,3 +52,9 @@ Este modo de pruebas reinicia los pedidos activos al alternarlo, como ya hacía 
 **MORADO** requiere ESOYAM activo y estar fuera de un vehículo. Genera el modelo G66 morado, estacionado para que puedas acercarte y subir con F. Si repites la clave, recoloca el mismo bus; si no encuentra espacio seguro, muestra un aviso. No altera el horario de aparición natural del G66.
 
 La clave anterior PURPURA se conserva como alias. El reconocimiento de letras se ejecuta en BPC_DeliveryGameplay > DeveloperKey; la entrada de dirección se calcula en BP_DeliveryRider > DeveloperDriveInput. Los sistemas de vehículo y aparición que reciben esas órdenes todavía tienen soporte nativo pendiente de migración. F2 abre el celular como atajo alternativo a TAB; F3 adelanta la hora. Las letras M y N ya no disparan esos atajos mientras se escribe una clave.
+
+## Vista previa de Mecánica Robo
+
+Activa **ESOYAM**, cierra el celular y escribe **Abelardo** o **Nero** directamente en el juego. El reto muestra la tecla y el tiempo restante en el centro de la pantalla.
+
+En una compilacion Development puedes abrir la consola de Unreal y enviar `Abelardo` o `Nero` con Enter. Cierra la consola para que avance la vista previa. Los comandos `BogRobPreview Rayas`, `BogRobPreview Hornets` y `BogRobPreview Cancel` siguen disponibles con ESOYAM activo.

@@ -1,0 +1,11 @@
+{
+  "private_models": 20,
+  "private_colors": 12,
+  "minimum_colors_per_model": 4,
+  "invalid_paint_masks": 0,
+  "invalid_material_parents": 0,
+  "preserved_taxis_and_buses": 20,
+  "colored_parked_cars": 12,
+  "blueprint_city": true,
+  "status": "PASS"
+}

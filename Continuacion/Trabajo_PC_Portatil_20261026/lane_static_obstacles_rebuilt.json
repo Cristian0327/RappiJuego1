@@ -1,0 +1,1938 @@
+[
+  {
+    "lane": 0,
+    "segment": 433,
+    "actor": "StaticMeshActor_7",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_007",
+    "component": "StaticMeshComponent0",
+    "start": [
+      17744.34992312246,
+      -19446.15502055173,
+      124.5
+    ],
+    "end": [
+      17782.07801732307,
+      -19763.397804843225,
+      124.5
+    ],
+    "impact": [
+      17775.347791090386,
+      -19682.429294064663,
+      67.16487121582031
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 434,
+    "actor": "StaticMeshActor_7",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_007",
+    "component": "StaticMeshComponent0",
+    "start": [
+      17782.07801732307,
+      -19763.397804843225,
+      124.5
+    ],
+    "end": [
+      17818.386745452157,
+      -20078.976918707285,
+      124.5
+    ],
+    "impact": [
+      17782.582600103833,
+      -19766.01972142677,
+      124.5
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 435,
+    "actor": "StaticMeshActor_7",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_007",
+    "component": "StaticMeshComponent0",
+    "start": [
+      17818.386745452157,
+      -20078.976918707285,
+      124.5
+    ],
+    "end": [
+      17853.724120858293,
+      -20393.502091686914,
+      124.5
+    ],
+    "impact": [
+      17804.205241742286,
+      -20073.92603761964,
+      124.5
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 436,
+    "actor": "StaticMeshActor_7",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_007",
+    "component": "StaticMeshComponent0",
+    "start": [
+      17853.724120858293,
+      -20393.502091686914,
+      124.5
+    ],
+    "end": [
+      17888.36858643974,
+      -20707.200545654534,
+      124.5
+    ],
+    "impact": [
+      17858.55807215637,
+      -20392.571862867862,
+      124.5
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 437,
+    "actor": "StaticMeshActor_7",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_007",
+    "component": "StaticMeshComponent0",
+    "start": [
+      17888.36858643974,
+      -20707.200545654534,
+      124.5
+    ],
+    "end": [
+      17922.532553843987,
+      -21019.957643704296,
+      124.5
+    ],
+    "impact": [
+      17897.856115616854,
+      -20705.374765457596,
+      124.5
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 438,
+    "actor": "StaticMeshActor_7",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_007",
+    "component": "StaticMeshComponent0",
+    "start": [
+      17922.532553843987,
+      -21019.957643704296,
+      124.5
+    ],
+    "end": [
+      17956.44364104296,
+      -21331.110780354524,
+      124.5
+    ],
+    "impact": [
+      17974.833100239248,
+      -20996.79810242438,
+      124.50000762939453
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 552,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      10086.894736919581,
+      -26194.47112603558,
+      124.5
+    ],
+    "end": [
+      9901.806684319843,
+      -25934.28279030657,
+      124.5
+    ],
+    "impact": [
+      9841.15990667925,
+      -25912.699080506172,
+      123.49574279785156
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 553,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9901.806684319843,
+      -25934.28279030657,
+      124.5
+    ],
+    "end": [
+      9717.728360728406,
+      -25672.11824747906,
+      124.5
+    ],
+    "impact": [
+      9841.159933307375,
+      -25912.699135426414,
+      123.49574279785156
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 554,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9717.728360728406,
+      -25672.11824747906,
+      124.5
+    ],
+    "end": [
+      9534.811717216295,
+      -25407.682706731255,
+      124.5
+    ],
+    "impact": [
+      9719.060891539304,
+      -25692.67435986594,
+      124.5
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 556,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9353.203480136042,
+      -25140.5549378456,
+      124.5
+    ],
+    "end": [
+      9173.123745597457,
+      -24870.229100522803,
+      124.5
+    ],
+    "impact": [
+      9325.663775506115,
+      -25085.698744519555,
+      81.4358024597168
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 558,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8995.105655960388,
+      -24596.42586650866,
+      124.5
+    ],
+    "end": [
+      8820.239957704058,
+      -24319.448201870528,
+      124.5
+    ],
+    "impact": [
+      8998.946025265257,
+      -24508.779459031575,
+      124.50005752402406
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 559,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8820.239957704058,
+      -24319.448201870528,
+      124.5
+    ],
+    "end": [
+      8649.908284866044,
+      -24039.652113015076,
+      127.0
+    ],
+    "impact": [
+      8824.422869683269,
+      -24317.011201844627,
+      124.49999956090328
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 560,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8649.908284866044,
+      -24039.652113015076,
+      127.0
+    ],
+    "end": [
+      8484.928545747362,
+      -23755.722278650934,
+      124.5
+    ],
+    "impact": [
+      8659.558194896319,
+      -24034.030068044416,
+      126.99999742714037
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 563,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8171.931705444868,
+      -23156.909731704196,
+      127.0
+    ],
+    "end": [
+      8028.685603321873,
+      -22833.58780555634,
+      124.5
+    ],
+    "impact": [
+      8182.773204427824,
+      -23052.44864523191,
+      126.68540648291318
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 564,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8028.685603321873,
+      -22833.58780555634,
+      124.5
+    ],
+    "end": [
+      7901.547342299461,
+      -22497.34705296966,
+      124.5
+    ],
+    "impact": [
+      8048.529542863749,
+      -22822.02674471099,
+      124.49999878110727
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 565,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      7901.547342299461,
+      -22497.34705296966,
+      124.5
+    ],
+    "end": [
+      7794.3600699233275,
+      -22156.97910859245,
+      124.5
+    ],
+    "impact": [
+      7894.469683744677,
+      -22485.19859705041,
+      124.50001758805733
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 569,
+    "actor": "StaticMeshActor_43",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_043",
+    "component": "StaticMeshComponent0",
+    "start": [
+      7569.2400234773,
+      -21159.77566285369,
+      124.5
+    ],
+    "end": [
+      7512.819806870878,
+      -20833.178283443776,
+      124.5
+    ],
+    "impact": [
+      7458.986297406959,
+      -20791.967963382816,
+      124.49996044920064
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 570,
+    "actor": "StaticMeshActor_43",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_043",
+    "component": "StaticMeshComponent0",
+    "start": [
+      7512.819806870878,
+      -20833.178283443776,
+      124.5
+    ],
+    "end": [
+      7461.734227286925,
+      -20509.158891460364,
+      124.5
+    ],
+    "impact": [
+      7458.98625685346,
+      -20791.96794861598,
+      124.49996807855484
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 72,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "label": "BP_MapaCompletoGeometry",
+    "component": "Part073",
+    "start": [
+      2675.9797592025266,
+      22914.948667460558,
+      124.5
+    ],
+    "end": [
+      2209.810782667077,
+      22821.344443811195,
+      124.5
+    ],
+    "impact": [
+      2626.9833146231963,
+      22850.750439698757,
+      124.5
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 326,
+    "actor": "BP_BogotaTransmiStation_C_4",
+    "label": "Estaci\u00f3n TransMilenio 5",
+    "component": "StationShell",
+    "start": [
+      13572.906773316603,
+      -28988.914701701713,
+      124.5
+    ],
+    "end": [
+      13635.041921535816,
+      -29302.180015958,
+      124.5
+    ],
+    "impact": [
+      13560.160614642042,
+      -29252.438370268836,
+      124.5
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 327,
+    "actor": "BP_BogotaTransmiStation_C_4",
+    "label": "Estaci\u00f3n TransMilenio 5",
+    "component": "StationShell",
+    "start": [
+      13635.041921535816,
+      -29302.180015958,
+      124.5
+    ],
+    "end": [
+      13694.37334763762,
+      -29614.61114716895,
+      124.5
+    ],
+    "impact": [
+      13610.541507531063,
+      -29320.31080300738,
+      124.5
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 328,
+    "actor": "BP_BogotaTransmiStation_C_4",
+    "label": "Estaci\u00f3n TransMilenio 5",
+    "component": "StationShell",
+    "start": [
+      13694.37334763762,
+      -29614.61114716895,
+      124.5
+    ],
+    "end": [
+      13751.496094310944,
+      -29926.760736143802,
+      124.5
+    ],
+    "impact": [
+      13694.373320904675,
+      -29614.6111145237,
+      90.0
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 329,
+    "actor": "BP_BogotaTransmiStation_C_4",
+    "label": "Estaci\u00f3n TransMilenio 5",
+    "component": "StationShell",
+    "start": [
+      13751.496094310944,
+      -29926.760736143802,
+      124.5
+    ],
+    "end": [
+      13806.745857880218,
+      -30238.802135019498,
+      124.5
+    ],
+    "impact": [
+      13751.496057136861,
+      -29926.760668874744,
+      90.0
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 339,
+    "actor": "BP_BogotaSignal_C_17",
+    "label": "Sem\u00e1foro peatonal y vehicular",
+    "component": "Pole",
+    "start": [
+      14232.351792918009,
+      -33061.462503568604,
+      124.5
+    ],
+    "end": [
+      14268.919473574197,
+      -33382.51632271926,
+      124.5
+    ],
+    "impact": [
+      14275.14863654678,
+      -33136.65260378458,
+      124.5
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 462,
+    "actor": "StaticMeshActor_44",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_044",
+    "component": "StaticMeshComponent0",
+    "start": [
+      12796.332210702842,
+      -11176.176961410492,
+      124.5
+    ],
+    "end": [
+      12559.918772629133,
+      -10978.06052395544,
+      124.5
+    ],
+    "impact": [
+      12746.57193769621,
+      -11084.778111043477,
+      124.5
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 463,
+    "actor": "StaticMeshActor_44",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_044",
+    "component": "StaticMeshComponent0",
+    "start": [
+      12559.918772629133,
+      -10978.06052395544,
+      124.5
+    ],
+    "end": [
+      12321.675648682995,
+      -10779.410658217204,
+      124.5
+    ],
+    "impact": [
+      12604.755702011622,
+      -10936.095416160842,
+      124.5
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 464,
+    "actor": "StaticMeshActor_41",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_041",
+    "component": "StaticMeshComponent0",
+    "start": [
+      12321.675648682995,
+      -10779.410658217204,
+      124.5
+    ],
+    "end": [
+      12082.723978462376,
+      -10580.699377138077,
+      124.5
+    ],
+    "impact": [
+      12274.898413455274,
+      -10823.20393871547,
+      132.35558871447262
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 465,
+    "actor": "StaticMeshActor_50",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_050",
+    "component": "StaticMeshComponent0",
+    "start": [
+      12082.723978462376,
+      -10580.699377138077,
+      124.5
+    ],
+    "end": [
+      11843.30247650229,
+      -10381.823821556347,
+      124.5
+    ],
+    "impact": [
+      12043.198932946858,
+      -10618.526496619923,
+      124.5
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 466,
+    "actor": "StaticMeshActor_50",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_050",
+    "component": "StaticMeshComponent0",
+    "start": [
+      11843.30247650229,
+      -10381.823821556347,
+      124.5
+    ],
+    "end": [
+      11603.028325327728,
+      -10182.147601106808,
+      124.5
+    ],
+    "impact": [
+      11835.642646178007,
+      -10389.154598705505,
+      124.5
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 471,
+    "actor": "StaticMeshActor_23",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_023",
+    "component": "StaticMeshComponent0",
+    "start": [
+      10580.784329563912,
+      -9227.369592594283,
+      124.5
+    ],
+    "end": [
+      10348.032307882993,
+      -8908.50329432377,
+      124.5
+    ],
+    "impact": [
+      10544.268868825986,
+      -9175.093909998252,
+      77.60219192504883
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 474,
+    "actor": "StaticMeshActor_23",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_023",
+    "component": "StaticMeshComponent0",
+    "start": [
+      10001.127771288031,
+      -8274.69073566833,
+      124.5
+    ],
+    "end": [
+      9862.54882024358,
+      -7976.822589971037,
+      124.5
+    ],
+    "impact": [
+      9969.836889195456,
+      -8228.221291499045,
+      77.60173034667969
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 63,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      10086.894736919581,
+      -26194.47112603558,
+      124.5
+    ],
+    "end": [
+      9901.806684319843,
+      -25934.28279030657,
+      124.5
+    ],
+    "impact": [
+      9841.15990667925,
+      -25912.699080506172,
+      123.49574279785156
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 64,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9901.806684319843,
+      -25934.28279030657,
+      124.5
+    ],
+    "end": [
+      9717.728360728406,
+      -25672.11824747906,
+      124.5
+    ],
+    "impact": [
+      9841.159933307375,
+      -25912.699135426414,
+      123.49574279785156
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 65,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9717.728360728406,
+      -25672.11824747906,
+      124.5
+    ],
+    "end": [
+      9534.811717216295,
+      -25407.682706731255,
+      124.5
+    ],
+    "impact": [
+      9719.060891539304,
+      -25692.67435986594,
+      124.5
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 67,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9353.203480136042,
+      -25140.5549378456,
+      124.5
+    ],
+    "end": [
+      9173.123745597457,
+      -24870.229100522803,
+      124.5
+    ],
+    "impact": [
+      9325.663775506115,
+      -25085.698744519555,
+      81.4358024597168
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 69,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8995.105655960388,
+      -24596.42586650866,
+      124.5
+    ],
+    "end": [
+      8820.239957704058,
+      -24319.448201870528,
+      124.5
+    ],
+    "impact": [
+      8998.946025265257,
+      -24508.779459031575,
+      124.50005752402406
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 70,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8820.239957704058,
+      -24319.448201870528,
+      124.5
+    ],
+    "end": [
+      8649.908284866044,
+      -24039.652113015076,
+      127.0
+    ],
+    "impact": [
+      8824.422869683269,
+      -24317.011201844627,
+      124.49999956090328
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 71,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8649.908284866044,
+      -24039.652113015076,
+      127.0
+    ],
+    "end": [
+      8484.928545747362,
+      -23755.722278650934,
+      124.5
+    ],
+    "impact": [
+      8659.558194896319,
+      -24034.030068044416,
+      126.99999742714037
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 74,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8171.931705444868,
+      -23156.909731704196,
+      127.0
+    ],
+    "end": [
+      8028.685603321873,
+      -22833.58780555634,
+      124.5
+    ],
+    "impact": [
+      8182.773204427824,
+      -23052.44864523191,
+      126.68540648291318
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 75,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8028.685603321873,
+      -22833.58780555634,
+      124.5
+    ],
+    "end": [
+      7901.547342299461,
+      -22497.34705296966,
+      124.5
+    ],
+    "impact": [
+      8048.529542863749,
+      -22822.02674471099,
+      124.49999878110727
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 76,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      7901.547342299461,
+      -22497.34705296966,
+      124.5
+    ],
+    "end": [
+      7794.3600699233275,
+      -22156.97910859245,
+      124.5
+    ],
+    "impact": [
+      7894.469683744677,
+      -22485.19859705041,
+      124.50001758805733
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 80,
+    "actor": "StaticMeshActor_43",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_043",
+    "component": "StaticMeshComponent0",
+    "start": [
+      7569.2400234773,
+      -21159.77566285369,
+      124.5
+    ],
+    "end": [
+      7512.819806870878,
+      -20833.178283443776,
+      124.5
+    ],
+    "impact": [
+      7458.986297406959,
+      -20791.967963382816,
+      124.49996044920064
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 81,
+    "actor": "StaticMeshActor_43",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_043",
+    "component": "StaticMeshComponent0",
+    "start": [
+      7512.819806870878,
+      -20833.178283443776,
+      124.5
+    ],
+    "end": [
+      7461.734227286925,
+      -20509.158891460364,
+      124.5
+    ],
+    "impact": [
+      7458.98625685346,
+      -20791.96794861598,
+      124.49996807855484
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 401,
+    "actor": "BP_MonserrateAccess_C_0",
+    "label": "Monserrate \u00b7 acceso del jugador a pie, cicla y moto",
+    "component": "HillPath",
+    "start": [
+      16124.712361505563,
+      1667.8928545007038,
+      124.5
+    ],
+    "end": [
+      16221.305048612716,
+      1372.8458762071143,
+      124.5
+    ],
+    "impact": [
+      16201.8046875,
+      1405.367919921875,
+      140.99993896484375
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 402,
+    "actor": "BP_MonserrateAccess_C_0",
+    "label": "Monserrate \u00b7 acceso del jugador a pie, cicla y moto",
+    "component": "HillPath",
+    "start": [
+      16221.305048612716,
+      1372.8458762071143,
+      124.5
+    ],
+    "end": [
+      16318.753991253345,
+      1077.172947761238,
+      124.5
+    ],
+    "impact": [
+      16221.3046875,
+      1389.367919921875,
+      141.0
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 429,
+    "actor": "StaticMeshActor_47",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_047",
+    "component": "StaticMeshComponent0",
+    "start": [
+      19281.658436512073,
+      -6321.400565963126,
+      124.5
+    ],
+    "end": [
+      19422.112662997937,
+      -6602.6160503393085,
+      124.5
+    ],
+    "impact": [
+      19451.66683319632,
+      -6507.69692805151,
+      124.4999881208745
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 430,
+    "actor": "StaticMeshActor_47",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_047",
+    "component": "StaticMeshComponent0",
+    "start": [
+      19422.112662997937,
+      -6602.6160503393085,
+      124.5
+    ],
+    "end": [
+      19562.642825448416,
+      -6885.028393689927,
+      124.5
+    ],
+    "impact": [
+      19479.352540106418,
+      -6575.248725954417,
+      124.50001728268795
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 431,
+    "actor": "StaticMeshActor_47",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_047",
+    "component": "StaticMeshComponent0",
+    "start": [
+      19562.642825448416,
+      -6885.028393689927,
+      124.5
+    ],
+    "end": [
+      19703.283601030587,
+      -7169.5106380464695,
+      124.5
+    ],
+    "impact": [
+      19612.587173091375,
+      -6861.149170589895,
+      132.35530179846967
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 72,
+    "actor": "StaticMeshActor_128",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_128",
+    "component": "StaticMeshComponent0",
+    "start": [
+      23969.99884108999,
+      -20226.61728523072,
+      124.5
+    ],
+    "end": [
+      23914.359722492005,
+      -19909.407090451426,
+      124.5
+    ],
+    "impact": [
+      23915.27830462666,
+      -20015.42100866489,
+      96.50944519042969
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 73,
+    "actor": "StaticMeshActor_128",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_128",
+    "component": "StaticMeshComponent0",
+    "start": [
+      23914.359722492005,
+      -19909.407090451426,
+      124.5
+    ],
+    "end": [
+      23863.039503087897,
+      -19587.27630618691,
+      124.5
+    ],
+    "impact": [
+      23945.02981484277,
+      -19967.360240739763,
+      124.5
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 76,
+    "actor": "StaticMeshActor_128",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_128",
+    "component": "StaticMeshComponent0",
+    "start": [
+      23780.74657680061,
+      -18958.52964798765,
+      124.5
+    ],
+    "end": [
+      23743.733209565817,
+      -18692.957706102065,
+      124.5
+    ],
+    "impact": [
+      23764.64530009398,
+      -18871.070978274813,
+      144.39341735839844
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 77,
+    "actor": "StaticMeshActor_128",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_128",
+    "component": "StaticMeshComponent0",
+    "start": [
+      23743.733209565817,
+      -18692.957706102065,
+      124.5
+    ],
+    "end": [
+      23697.559006530002,
+      -18475.275455434912,
+      124.5
+    ],
+    "impact": [
+      23745.625717518833,
+      -18705.495736948324,
+      124.5
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 245,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "label": "BP_MapaCompletoGeometry",
+    "component": "Part073",
+    "start": [
+      2675.9797592025266,
+      22914.948667460558,
+      124.5
+    ],
+    "end": [
+      2209.810782667077,
+      22821.344443811195,
+      124.5
+    ],
+    "impact": [
+      2626.9833146231963,
+      22850.750439698757,
+      124.5
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 499,
+    "actor": "BP_BogotaTransmiStation_C_4",
+    "label": "Estaci\u00f3n TransMilenio 5",
+    "component": "StationShell",
+    "start": [
+      13572.906773316603,
+      -28988.914701701713,
+      124.5
+    ],
+    "end": [
+      13635.041921535816,
+      -29302.180015958,
+      124.5
+    ],
+    "impact": [
+      13560.160614642042,
+      -29252.438370268836,
+      124.5
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 500,
+    "actor": "BP_BogotaTransmiStation_C_4",
+    "label": "Estaci\u00f3n TransMilenio 5",
+    "component": "StationShell",
+    "start": [
+      13635.041921535816,
+      -29302.180015958,
+      124.5
+    ],
+    "end": [
+      13694.37334763762,
+      -29614.61114716895,
+      124.5
+    ],
+    "impact": [
+      13610.541507531063,
+      -29320.31080300738,
+      124.5
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 501,
+    "actor": "BP_BogotaTransmiStation_C_4",
+    "label": "Estaci\u00f3n TransMilenio 5",
+    "component": "StationShell",
+    "start": [
+      13694.37334763762,
+      -29614.61114716895,
+      124.5
+    ],
+    "end": [
+      13751.496094310944,
+      -29926.760736143802,
+      124.5
+    ],
+    "impact": [
+      13694.373320904675,
+      -29614.6111145237,
+      90.0
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 502,
+    "actor": "BP_BogotaTransmiStation_C_4",
+    "label": "Estaci\u00f3n TransMilenio 5",
+    "component": "StationShell",
+    "start": [
+      13751.496094310944,
+      -29926.760736143802,
+      124.5
+    ],
+    "end": [
+      13806.745857880218,
+      -30238.802135019498,
+      124.5
+    ],
+    "impact": [
+      13751.496057136861,
+      -29926.760668874744,
+      90.0
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 512,
+    "actor": "BP_BogotaSignal_C_17",
+    "label": "Sem\u00e1foro peatonal y vehicular",
+    "component": "Pole",
+    "start": [
+      14232.351792918009,
+      -33061.462503568604,
+      124.5
+    ],
+    "end": [
+      14268.919473574197,
+      -33382.51632271926,
+      124.5
+    ],
+    "impact": [
+      14275.14863654678,
+      -33136.65260378458,
+      124.5
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 552,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      10453.13181159032,
+      -25932.269089787795,
+      124.5
+    ],
+    "end": [
+      10269.5901469364,
+      -25674.148177388604,
+      124.5
+    ],
+    "impact": [
+      10237.356466250658,
+      -25678.192117890016,
+      113.82678985595703
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 553,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      10269.5901469364,
+      -25674.148177388604,
+      124.5
+    ],
+    "end": [
+      10087.25665991965,
+      -25414.347720011898,
+      124.5
+    ],
+    "impact": [
+      10237.356492878782,
+      -25678.19217281026,
+      113.8267822265625
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 554,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      10087.25665991965,
+      -25414.347720011898,
+      124.5
+    ],
+    "end": [
+      9906.318046562357,
+      -25152.62311246995,
+      124.5
+    ],
+    "impact": [
+      10105.210665357361,
+      -25405.642716513972,
+      113.8267822265625
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 555,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9906.318046562357,
+      -25152.62311246995,
+      124.5
+    ],
+    "end": [
+      9726.992052350406,
+      -24888.65936352587,
+      124.5
+    ],
+    "impact": [
+      9859.373193359346,
+      -25156.89976387148,
+      124.49999237060547
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 556,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9726.992052350406,
+      -24888.65936352587,
+      124.5
+    ],
+    "end": [
+      9549.628635951343,
+      -24622.163168195522,
+      124.5
+    ],
+    "impact": [
+      9643.577734995632,
+      -24746.22532864348,
+      124.5
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 557,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9549.628635951343,
+      -24622.163168195522,
+      124.5
+    ],
+    "end": [
+      9374.910911486315,
+      -24353.12681703687,
+      124.5
+    ],
+    "impact": [
+      9519.63033127932,
+      -24561.907896521854,
+      123.49574279785156
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 558,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9374.910911486315,
+      -24353.12681703687,
+      124.5
+    ],
+    "end": [
+      9203.984929922059,
+      -24081.98917755913,
+      124.5
+    ],
+    "impact": [
+      9268.983800855098,
+      -24180.509655534694,
+      124.50007754158796
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 559,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9203.984929922059,
+      -24081.98917755913,
+      124.5
+    ],
+    "end": [
+      9038.198858544354,
+      -23809.100655006292,
+      127.0
+    ],
+    "impact": [
+      9244.31394481322,
+      -24058.4934796871,
+      124.49999708659662
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 560,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9038.198858544354,
+      -23809.100655006292,
+      127.0
+    ],
+    "end": [
+      8878.571901255747,
+      -23533.514583122214,
+      124.5
+    ],
+    "impact": [
+      9083.60571224727,
+      -23782.64665155771,
+      127.00000141597387
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 561,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8878.571901255747,
+      -23533.514583122214,
+      124.5
+    ],
+    "end": [
+      8725.83033290078,
+      -23252.332892885497,
+      124.5
+    ],
+    "impact": [
+      8879.912557331092,
+      -23535.81577575081,
+      124.49999457842551
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 562,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8725.83033290078,
+      -23252.332892885497,
+      124.5
+    ],
+    "end": [
+      8581.464193407632,
+      -22961.872589306986,
+      124.5
+    ],
+    "impact": [
+      8582.308172307718,
+      -22973.98426725182,
+      124.5000762125762
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 563,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8581.464193407632,
+      -22961.872589306986,
+      124.5
+    ],
+    "end": [
+      8448.606006721315,
+      -22660.22134275141,
+      124.5
+    ],
+    "impact": [
+      8586.946206226017,
+      -22971.282186653058,
+      124.49998465981159
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 564,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8448.606006721315,
+      -22660.22134275141,
+      124.5
+    ],
+    "end": [
+      8336.255642570291,
+      -22347.195570163552,
+      124.5
+    ],
+    "impact": [
+      8505.46574935832,
+      -22627.094933467175,
+      124.50000183717094
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 565,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8336.255642570291,
+      -22347.195570163552,
+      124.5
+    ],
+    "end": [
+      8250.433283578004,
+      -22026.782152645363,
+      124.5
+    ],
+    "impact": [
+      8340.840332870925,
+      -22344.524534071363,
+      124.49999925673069
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 566,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8250.433283578004,
+      -22026.782152645363,
+      124.5
+    ],
+    "end": [
+      8180.894243430661,
+      -21706.255847147364,
+      124.5
+    ],
+    "impact": [
+      8245.524505092604,
+      -22018.356512809205,
+      85.03472958428573
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 1102,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      10453.13181159032,
+      -25932.269089787795,
+      124.5
+    ],
+    "end": [
+      10269.5901469364,
+      -25674.148177388604,
+      124.5
+    ],
+    "impact": [
+      10237.356466250658,
+      -25678.192117890016,
+      113.82678985595703
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 1103,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      10269.5901469364,
+      -25674.148177388604,
+      124.5
+    ],
+    "end": [
+      10087.25665991965,
+      -25414.347720011898,
+      124.5
+    ],
+    "impact": [
+      10237.356492878782,
+      -25678.19217281026,
+      113.8267822265625
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 1104,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      10087.25665991965,
+      -25414.347720011898,
+      124.5
+    ],
+    "end": [
+      9906.318046562357,
+      -25152.62311246995,
+      124.5
+    ],
+    "impact": [
+      10105.210665357361,
+      -25405.642716513972,
+      113.8267822265625
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 1105,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9906.318046562357,
+      -25152.62311246995,
+      124.5
+    ],
+    "end": [
+      9726.992052350406,
+      -24888.65936352587,
+      124.5
+    ],
+    "impact": [
+      9859.373193359346,
+      -25156.89976387148,
+      124.49999237060547
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 1106,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9726.992052350406,
+      -24888.65936352587,
+      124.5
+    ],
+    "end": [
+      9549.628635951343,
+      -24622.163168195522,
+      124.5
+    ],
+    "impact": [
+      9643.577734995632,
+      -24746.22532864348,
+      124.5
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 1107,
+    "actor": "StaticMeshActor_18",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_018",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9549.628635951343,
+      -24622.163168195522,
+      124.5
+    ],
+    "end": [
+      9374.910911486315,
+      -24353.12681703687,
+      124.5
+    ],
+    "impact": [
+      9519.63033127932,
+      -24561.907896521854,
+      123.49574279785156
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 1108,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9374.910911486315,
+      -24353.12681703687,
+      124.5
+    ],
+    "end": [
+      9203.984929922059,
+      -24081.98917755913,
+      124.5
+    ],
+    "impact": [
+      9268.983800855098,
+      -24180.509655534694,
+      124.50007754158796
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 1109,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9203.984929922059,
+      -24081.98917755913,
+      124.5
+    ],
+    "end": [
+      9038.198858544354,
+      -23809.100655006292,
+      127.0
+    ],
+    "impact": [
+      9244.31394481322,
+      -24058.4934796871,
+      124.49999708659662
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 1110,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      9038.198858544354,
+      -23809.100655006292,
+      127.0
+    ],
+    "end": [
+      8878.571901255747,
+      -23533.514583122214,
+      124.5
+    ],
+    "impact": [
+      9083.60571224727,
+      -23782.64665155771,
+      127.00000141597387
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 1111,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8878.571901255747,
+      -23533.514583122214,
+      124.5
+    ],
+    "end": [
+      8725.83033290078,
+      -23252.332892885497,
+      124.5
+    ],
+    "impact": [
+      8879.912557331092,
+      -23535.81577575081,
+      124.49999457842551
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 1112,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8725.83033290078,
+      -23252.332892885497,
+      124.5
+    ],
+    "end": [
+      8581.464193407632,
+      -22961.872589306986,
+      124.5
+    ],
+    "impact": [
+      8582.308172307718,
+      -22973.98426725182,
+      124.5000762125762
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 1113,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8581.464193407632,
+      -22961.872589306986,
+      124.5
+    ],
+    "end": [
+      8448.606006721315,
+      -22660.22134275141,
+      124.5
+    ],
+    "impact": [
+      8586.946206226017,
+      -22971.282186653058,
+      124.49998465981159
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 1114,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8448.606006721315,
+      -22660.22134275141,
+      124.5
+    ],
+    "end": [
+      8336.255642570291,
+      -22347.195570163552,
+      124.5
+    ],
+    "impact": [
+      8505.46574935832,
+      -22627.094933467175,
+      124.50000183717094
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 1115,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8336.255642570291,
+      -22347.195570163552,
+      124.5
+    ],
+    "end": [
+      8250.433283578004,
+      -22026.782152645363,
+      124.5
+    ],
+    "impact": [
+      8340.840332870925,
+      -22344.524534071363,
+      124.49999925673069
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 1116,
+    "actor": "StaticMeshActor_22",
+    "label": "Calle original - fachada despejada SM_StreetFrontage_022",
+    "component": "StaticMeshComponent0",
+    "start": [
+      8250.433283578004,
+      -22026.782152645363,
+      124.5
+    ],
+    "end": [
+      8180.894243430661,
+      -21706.255847147364,
+      124.5
+    ],
+    "impact": [
+      8245.524505092604,
+      -22018.356512809205,
+      85.03472958428573
+    ]
+  }
+]

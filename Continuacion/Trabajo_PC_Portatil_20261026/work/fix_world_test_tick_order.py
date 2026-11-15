@@ -1,0 +1,5 @@
+from pathlib import Path
+p=Path('work/build_pure_world_runtime_test.py');s=p.read_text(encoding='utf-8-sig')
+needle="d.bp=bp;FP=fixture.generated_class().get_path_name();g=d.Graph();g.variables="
+replace="d.bp=bp;FP=fixture.generated_class().get_path_name();setup=d.Graph();setup.call('FindEnvironment','GetActorOfClass',G,ActorClass=FP);setup.exec('entry','FindEnvironment');setup.call('ValidEnvironment','IsValid',K);setup.link('FindEnvironment','ReturnValue','ValidEnvironment','Object');setup.branch('FoundEnvironment','ValidEnvironment');setup.exec('FindEnvironment','FoundEnvironment');setup.exec('FoundEnvironment','result','else');setup.call('ReadAfterEnvironment','AddTickPrerequisiteActor',A);setup.link('FindEnvironment','ReturnValue','ReadAfterEnvironment','PrerequisiteActor');setup.exec('FoundEnvironment','ReadAfterEnvironment');setup.exec('ReadAfterEnvironment','result');setup.build('ReceiveBeginPlay');g=d.Graph();g.variables="
+assert needle in s;s=s.replace(needle,replace);p.write_text(s,encoding='utf-8')

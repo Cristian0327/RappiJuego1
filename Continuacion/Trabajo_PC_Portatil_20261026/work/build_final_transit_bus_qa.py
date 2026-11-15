@@ -1,0 +1,25 @@
+import unreal,json,math
+from pathlib import Path
+r=Path(unreal.Paths.project_dir()).parent;actors=unreal.get_editor_subsystem(unreal.EditorActorSubsystem);checks={}
+bus=actors.spawn_actor_from_class(unreal.load_class(None,'/Game/World/BlueprintWorld/Traffic/BP_Traffic_TransMilenio.BP_Traffic_TransMilenio_C'),unreal.Vector());bus.call_method('CacheReferencePose');bus.call_method('CacheArticulation');body=bus.get_editor_property('Body');rest=bus.get_editor_property('ArticulationRest');checks['hinge_import_basis_preserved']=abs(rest.translation.x)>100 and abs(rest.translation.y)<10;angles=[]
+for i in range(91):
+ a=math.radians(i);bus.set_actor_location(unreal.Vector(1800*math.sin(a),1800*(1-math.cos(a)),0),False,True);bus.set_actor_rotation(unreal.Rotator(0,i,0),True);bus.call_method('UpdateWheelPose');t=body.call_method('GetBoneTransformByName',(unreal.Name('articulation'),unreal.BoneSpaces.COMPONENT_SPACE));angles.append(unreal.MathLibrary.normalized_delta_rotator(t.rotation.rotator(),rest.rotation.rotator()).yaw)
+checks['rear_follows_turn_without_steering_input']=max(abs(x) for x in angles)>5;checks['hinge_stays_within_safe_limit']=max(abs(x) for x in angles)<42.1
+for i in range(1,81):
+ bus.set_actor_location(unreal.Vector(1800,1800+i*50,0),False,True);bus.call_method('UpdateWheelPose')
+t=body.call_method('GetBoneTransformByName',(unreal.Name('articulation'),unreal.BoneSpaces.COMPONENT_SPACE));last=unreal.MathLibrary.normalized_delta_rotator(t.rotation.rotator(),rest.rotation.rotator()).yaw;checks['rear_straightens_after_turn']=abs(last)<2;actors.destroy_actor(bus);(r/'work/accordion_following_validation.json').write_text(json.dumps({'checks':checks,'maximum_hinge_degrees':max(abs(x) for x in angles),'final_hinge_degrees':last},indent=2));assert all(checks.values()),checks;unreal.log('ACCORDION_FOLLOWING_QA_PASS')
+# Rebuild the corrected combined passenger and both-side fixture.
+exec(compile(Path('C:/Users/CRISTIAN/Documents/Codex/2026-09-12/ho/build_transit_mount_sides_qa.py').read_text(encoding='utf-8-sig'),'TransitSidesQA','exec'))
+# Add an actual F/ESOYAM test for the bus, from its opposite side and away from the old fixed boarding point.
+s=(r/'work/build_car_entry_yield_qa.py').read_text(encoding='utf-8-sig');s=s.replace('BP_TestCarEntryYield','BP_TestBusRoadEntry').replace('CAR_ENTRY_YIELD ','BUS_ROAD_ENTRY ').replace("/Game/QA/CarEntryYield'","/Game/QA/BusRoadEntry'")
+extra="""
+p0=phase('PlaceDeveloperBus',7.3);g.call('BusSpawnTransform','MakeTransform',M,Location='(X=83000,Y=80000,Z=0)');g.call('SpawnDeveloperBus','BeginDeferredActorSpawnFromClass',G,ActorClass='/Game/World/BlueprintWorld/Traffic/BP_Traffic_TransMilenio.BP_Traffic_TransMilenio_C',CollisionHandlingOverride='AlwaysSpawn');g.link('BusSpawnTransform','ReturnValue','SpawnDeveloperBus','SpawnTransform');g.exec(p0,'SpawnDeveloperBus');g.node('DeveloperBusType','cast',type=TV);g.link('SpawnDeveloperBus','ReturnValue','DeveloperBusType','Object');g.node('HoldDeveloperBus','setfield',owner=TV,var='Parked',defaults={'Parked':'true'});g.link('DeveloperBusType','AsBP Traffic Vehicle','HoldDeveloperBus','self');g.exec('SpawnDeveloperBus','HoldDeveloperBus');g.call('FinishDeveloperBus','FinishSpawningActor',G);g.link('SpawnDeveloperBus','ReturnValue','FinishDeveloperBus','Actor');g.link('BusSpawnTransform','ReturnValue','FinishDeveloperBus','SpawnTransform');g.exec('HoldDeveloperBus','FinishDeveloperBus');g.setter('KeepDeveloperBus','FixtureCar','DeveloperBusType','AsBP Traffic Vehicle');g.exec('FinishDeveloperBus','KeepDeveloperBus');g.call('BusWidthMargin','Add_DoubleDouble',M,B='70');g.link('CarWidth','HalfWidth','BusWidthMargin','A');g.call('BusDoorY','Add_DoubleDouble',M,A='80000');g.link('BusWidthMargin','ReturnValue','BusDoorY','B');g.call('BusPlayerPoint','MakeVector',M,X='83500',Z='90');g.link('BusDoorY','ReturnValue','BusPlayerPoint','Y');g.call('PlaceAtBus','K2_SetActorLocation',A,bSweep='false',bTeleport='true');g.link('Pawn','ReturnValue','PlaceAtBus','self');g.link('BusPlayerPoint','ReturnValue','PlaceAtBus','NewLocation');g.exec('KeepDeveloperBus','PlaceAtBus');advance('PlaceAtBus')
+p0=phase('FDeveloperBus',7.7);advance(ridercall('PressBusF','MountPressed',p0))
+p0=phase('DeveloperBusDriving',9.3);field('IsDrivingBus','RoadActive');report('ESOYAM_F_BOARDS_BUS_FROM_RIGHT',p0,'IsDrivingBus','RoadActive')
+p0=phase('BusSeatHidden',9.4);g.call('SeatedVisible','IsVisible',SC);g.link('Mesh','Mesh','SeatedVisible','self');g.call('BusDriverHidden','Not_PreBool',M);g.link('SeatedVisible','ReturnValue','BusDriverHidden','A');report('BUS_OCCUPANT_STAYS_INSIDE_CABIN',p0,'BusDriverHidden')
+p0=phase('FExitDeveloperBus',9.5);advance(ridercall('ExitBusF','MountPressed',p0))
+p0=phase('DeveloperBusExited',11.2);field('StillDrivingBus','RoadActive');g.call('BusExitOkay','Not_PreBool',M);g.link('StillDrivingBus','RoadActive','BusExitOkay','A');report('F_EXITS_BUS',p0,'BusExitOkay')
+p0=phase('Finish',11.5)
+"""
+s=s.replace("p0=phase('Finish',7.3)",extra.rstrip());exec(compile(s,'ActualDeveloperBusFQA','exec'));unreal.log('FINAL_TRANSIT_SIDES_AND_BUS_QA_READY')
+

@@ -1,0 +1,29 @@
+{
+  "status": "INTEGRATED_COMPATIBILITY_SHELL_REMAINS",
+  "functions": [
+    {
+      "function": "TrafficPaintFor",
+      "active_pure_blueprint": "/Game/World/BlueprintWorld/BP_WorldState.BP_WorldState_C"
+    },
+    {
+      "function": "TrafficNSGreen",
+      "active_pure_blueprint": "/Game/World/BlueprintWorld/BP_WorldState.BP_WorldState_C"
+    },
+    {
+      "function": "TrafficEWGreen",
+      "active_pure_blueprint": "/Game/World/BlueprintWorld/BP_WorldState.BP_WorldState_C"
+    },
+    {
+      "function": "HourForCycle",
+      "active_pure_blueprint": "/Game/World/BlueprintWorld/BP_WorldState.BP_WorldState_C"
+    },
+    {
+      "function": "AdvanceClock",
+      "active_pure_blueprint": "/Game/World/BlueprintWorld/BP_WorldState.BP_WorldState_C"
+    },
+    {
+      "function": "DistrictAt",
+      "active_pure_blueprint": "/Game/World/BlueprintWorld/BP_WorldState.BP_WorldState_C"
+    }
+  ]
+}

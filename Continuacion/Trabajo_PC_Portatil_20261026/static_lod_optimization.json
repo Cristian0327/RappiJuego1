@@ -1,0 +1,2389 @@
+{
+  "status": "verified",
+  "assets": [
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_104",
+      "triangles": [
+        8076,
+        4038,
+        1454,
+        484
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        396.8150634765625,
+        285.87915802001953,
+        367.2279357910156
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_103",
+      "triangles": [
+        8150,
+        4075,
+        1467,
+        488
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        396.81507873535156,
+        285.87921142578125,
+        367.2279357910156
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi",
+      "triangles": [
+        8412,
+        4206,
+        1514,
+        504
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        2425.0,
+        182.36709594726562,
+        217.5295867919922
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi_Compacta_PhysicsFixed",
+      "triangles": [
+        8412,
+        4205,
+        1514,
+        504
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1212.5,
+        182.36709594726562,
+        210.10401916503906
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_101",
+      "triangles": [
+        8426,
+        4213,
+        1516,
+        505
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        408.85968017578125,
+        354.2798156738281,
+        514.8293609619141
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_091",
+      "triangles": [
+        8440,
+        4220,
+        1520,
+        507
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        402.7179870605469,
+        342.12279510498047,
+        490.2852783203125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_018_TrafficClearance",
+      "triangles": [
+        9490,
+        4744,
+        1709,
+        570
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        3901.797607421875,
+        3400.0,
+        1105.555908203125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_018",
+      "triangles": [
+        9746,
+        4872,
+        1755,
+        584
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4000.0,
+        3400.000244140625,
+        1105.555908203125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_023_TrafficClearance",
+      "triangles": [
+        10988,
+        5493,
+        1978,
+        660
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        701.2506256103516,
+        564.438117980957,
+        1411.9986572265625
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_023",
+      "triangles": [
+        11006,
+        5503,
+        1982,
+        660
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        701.2506256103516,
+        604.1558837890625,
+        1411.9986572265625
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_014",
+      "triangles": [
+        12092,
+        6045,
+        2176,
+        725
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        399.54052734375,
+        343.3702392578125,
+        316.39117431640625
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_CaminoMonserrate",
+      "triangles": [
+        12364,
+        6182,
+        2226,
+        742
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        7401.802978515625,
+        4794.54150390625,
+        3000.9912109375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_111",
+      "triangles": [
+        12400,
+        6200,
+        2231,
+        744
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        398.45044708251953,
+        351.7453308105469,
+        508.2099304199219
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_004",
+      "triangles": [
+        15466,
+        7732,
+        2784,
+        927
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        700.0000610351562,
+        642.4658203125,
+        2106.3291015625
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_003",
+      "triangles": [
+        15500,
+        7750,
+        2789,
+        930
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        700.0000610351562,
+        642.4658203125,
+        2106.3291015625
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_125",
+      "triangles": [
+        16894,
+        8446,
+        3041,
+        1014
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1600.0,
+        1097.6470947265625,
+        1815.8822021484375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_130",
+      "triangles": [
+        17412,
+        8706,
+        3135,
+        1045
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1600.0001220703125,
+        1050.35302734375,
+        1893.5294189453125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_127",
+      "triangles": [
+        18178,
+        9089,
+        3273,
+        1090
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1600.0001220703125,
+        1097.6470947265625,
+        1815.8822021484375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_BakeryInterior_Voxel",
+      "triangles": [
+        19044,
+        9522,
+        3428,
+        1142
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1223.9500732421875,
+        1223.9500732421875,
+        314.5
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_119",
+      "triangles": [
+        19120,
+        9560,
+        3442,
+        1148
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4000.000244140625,
+        2842.5927734375,
+        993.4830932617188
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_128_TrafficClearance",
+      "triangles": [
+        19622,
+        9810,
+        3532,
+        1178
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1612.6087646484375,
+        1110.7042236328125,
+        1826.1953125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_128",
+      "triangles": [
+        19652,
+        9825,
+        3537,
+        1180
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1612.6087646484375,
+        1110.7042236328125,
+        1826.1953125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_017",
+      "triangles": [
+        20018,
+        10008,
+        3604,
+        1202
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        3250.0003051757812,
+        2420.415771484375,
+        1486.5545654296875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_131",
+      "triangles": [
+        20430,
+        10215,
+        3678,
+        1226
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1625.217529296875,
+        1097.6470947265625,
+        1912.760009765625
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_026",
+      "triangles": [
+        20498,
+        10249,
+        3689,
+        1229
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        15056.5,
+        10257.337158203125,
+        4577.18603515625
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_123",
+      "triangles": [
+        20756,
+        10377,
+        3737,
+        1246
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1625.217529296875,
+        1097.6470947265625,
+        1826.1953125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_126",
+      "triangles": [
+        21152,
+        10575,
+        3808,
+        1270
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1625.21728515625,
+        1110.704345703125,
+        1825.4539794921875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_047_TrafficClearance",
+      "triangles": [
+        21718,
+        10858,
+        3910,
+        1304
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        384.41259765625,
+        353.6167907714844,
+        370.75653076171875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_047",
+      "triangles": [
+        21770,
+        10884,
+        3918,
+        1306
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        396.2172546386719,
+        353.6167907714844,
+        394.034912109375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_124",
+      "triangles": [
+        22006,
+        11003,
+        3961,
+        1321
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1612.6087341308594,
+        1110.7041320800781,
+        1827.927734375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_132",
+      "triangles": [
+        22544,
+        11272,
+        4058,
+        1353
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1625.21728515625,
+        1110.704345703125,
+        1913.7489013671875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_050_TrafficClearance",
+      "triangles": [
+        22874,
+        11436,
+        4118,
+        1373
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        397.6721496582031,
+        376.28515625,
+        459.5763244628906
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_041_TrafficClearance",
+      "triangles": [
+        22920,
+        11460,
+        4126,
+        1376
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0,
+        376.2851867675781,
+        458.1198425292969
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_044_TrafficClearance",
+      "triangles": [
+        22944,
+        11472,
+        4130,
+        1376
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0,
+        359.67887115478516,
+        458.3151550292969
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_022_TrafficClearance",
+      "triangles": [
+        22984,
+        11492,
+        4138,
+        1379
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1600.0,
+        1053.0257873535156,
+        838.76318359375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_022",
+      "triangles": [
+        23006,
+        11503,
+        4142,
+        1381
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1600.0,
+        1120.067626953125,
+        838.76318359375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_044",
+      "triangles": [
+        23042,
+        11520,
+        4148,
+        1382
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0,
+        376.2851867675781,
+        458.2241516113281
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_041",
+      "triangles": [
+        23156,
+        11578,
+        4169,
+        1390
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0,
+        376.2851867675781,
+        461.1711120605469
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_093",
+      "triangles": [
+        421118,
+        210559,
+        75801,
+        25267
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        3245.7828369140625,
+        1645.198974609375,
+        754.332275390625
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_FloristInterior_Voxel",
+      "triangles": [
+        257880,
+        128940,
+        46418,
+        15468
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1200.0001220703125,
+        1200.0001220703125,
+        314.5
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_096",
+      "triangles": [
+        241330,
+        120664,
+        43439,
+        14480
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        2266.45556640625,
+        1425.8851318359375,
+        1324.3353271484375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_FreshMarketInterior_Voxel",
+      "triangles": [
+        179880,
+        89940,
+        32378,
+        10792
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1223.9500732421875,
+        1623.9500732421875,
+        314.5
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_MarketInterior_Voxel",
+      "triangles": [
+        176760,
+        88380,
+        31816,
+        10606
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1223.9500732421875,
+        1623.9500732421875,
+        314.5
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_078",
+      "triangles": [
+        149196,
+        74597,
+        26856,
+        8952
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1605.879638671875,
+        993.0977783203125,
+        1206.6923828125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_079",
+      "triangles": [
+        146782,
+        73390,
+        26420,
+        8806
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1605.879638671875,
+        990.1369781494141,
+        1206.6923828125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_077",
+      "triangles": [
+        145110,
+        72554,
+        26120,
+        8706
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1605.8797607421875,
+        993.0977783203125,
+        1206.6923828125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_HardwareInterior_Voxel",
+      "triangles": [
+        143928,
+        71964,
+        25908,
+        8636
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1223.9501953125,
+        1523.9500732421875,
+        314.5
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_PharmacyInterior_Voxel",
+      "triangles": [
+        138864,
+        69432,
+        24996,
+        8332
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1223.9501953125,
+        1523.9500732421875,
+        314.5
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_PizzaInterior_Voxel",
+      "triangles": [
+        100728,
+        50357,
+        18132,
+        6044
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1223.9501953125,
+        1423.9500732421875,
+        314.5
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_089",
+      "triangles": [
+        98592,
+        49295,
+        17747,
+        5915
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4008.1611328125,
+        1591.950927734375,
+        327.77906036376953
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_086",
+      "triangles": [
+        96164,
+        48082,
+        17309,
+        5769
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4008.1611328125,
+        1591.950927734375,
+        327.77906036376953
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_PetShopInterior_Voxel",
+      "triangles": [
+        95964,
+        47982,
+        17274,
+        5758
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1223.9501953125,
+        1323.9500732421875,
+        314.5
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_ComponentsInterior_Voxel",
+      "triangles": [
+        94440,
+        47220,
+        17000,
+        5666
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1223.9501953125,
+        1523.9500732421875,
+        314.5
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_CallesSecundarias",
+      "triangles": [
+        87081,
+        43540,
+        15674,
+        5225
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        31270.7734375,
+        40131.5244140625,
+        171.10482788085938
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_006",
+      "triangles": [
+        75410,
+        37705,
+        13574,
+        4524
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        6023.9462890625,
+        4677.2901611328125,
+        2093.64599609375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_120",
+      "triangles": [
+        72708,
+        36354,
+        13088,
+        4363
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4031.4375,
+        2879.28564453125,
+        999.7376708984375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_116",
+      "triangles": [
+        72648,
+        36324,
+        13077,
+        4358
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4031.4375,
+        2873.5712890625,
+        999.2701416015625
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_118",
+      "triangles": [
+        72620,
+        36310,
+        13071,
+        4358
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4031.4375,
+        2873.5712890625,
+        999.5345458984375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_122",
+      "triangles": [
+        72182,
+        36090,
+        12993,
+        4330
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4031.4375,
+        2879.28564453125,
+        999.5609741210938
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_121",
+      "triangles": [
+        71938,
+        35969,
+        12949,
+        4316
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4031.4375,
+        2873.5712890625,
+        998.572998046875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_084",
+      "triangles": [
+        67926,
+        33962,
+        12226,
+        4076
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1200.0001220703125,
+        759.488037109375,
+        466.4597473144531
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_069",
+      "triangles": [
+        67638,
+        33818,
+        12174,
+        4058
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        700.0000610351562,
+        638.7844848632812,
+        1663.4974365234375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_070",
+      "triangles": [
+        67638,
+        33818,
+        12174,
+        4058
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        700.0000610351562,
+        638.7844848632812,
+        1663.4974365234375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_085",
+      "triangles": [
+        67332,
+        33666,
+        12120,
+        4040
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1200.0,
+        757.2855377197266,
+        466.4597473144531
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_087",
+      "triangles": [
+        66404,
+        33202,
+        11953,
+        3985
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        3994.4796142578125,
+        1591.950927734375,
+        327.77906036376953
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_074",
+      "triangles": [
+        64462,
+        32230,
+        11604,
+        3868
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        700.0,
+        638.7844848632812,
+        1663.4974365234375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_076",
+      "triangles": [
+        64462,
+        32230,
+        11604,
+        3868
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        700.0,
+        638.7844848632812,
+        1663.4974365234375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_073",
+      "triangles": [
+        64358,
+        32178,
+        11584,
+        3862
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        704.0055541992188,
+        638.784423828125,
+        1663.4974365234375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_075",
+      "triangles": [
+        64358,
+        32178,
+        11584,
+        3862
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        704.0055541992188,
+        638.784423828125,
+        1663.4974365234375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_067",
+      "triangles": [
+        62238,
+        31118,
+        11202,
+        3734
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        700.0000610351562,
+        638.7844848632812,
+        1663.4974365234375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_072",
+      "triangles": [
+        62238,
+        31118,
+        11202,
+        3734
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        700.0000610351562,
+        638.7844848632812,
+        1663.4974365234375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_068",
+      "triangles": [
+        62098,
+        31048,
+        11178,
+        3726
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        700.0,
+        638.784423828125,
+        1663.4974365234375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_071",
+      "triangles": [
+        62098,
+        31048,
+        11178,
+        3726
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        700.0,
+        638.784423828125,
+        1663.4974365234375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_TechInterior_Voxel",
+      "triangles": [
+        60072,
+        30036,
+        10812,
+        3604
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1223.9501953125,
+        1523.9500732421875,
+        314.5
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_082",
+      "triangles": [
+        59968,
+        29984,
+        10794,
+        3598
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1200.0001220703125,
+        760.3917236328125,
+        480.2022399902344
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_112",
+      "triangles": [
+        57680,
+        28839,
+        10382,
+        3461
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4031.4375,
+        2825.6748046875,
+        998.8190307617188
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_114",
+      "triangles": [
+        55132,
+        27566,
+        9924,
+        3307
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4031.4375,
+        2873.57080078125,
+        999.0768432617188
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_029",
+      "triangles": [
+        52908,
+        26454,
+        9524,
+        3174
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4000.0,
+        2849.16259765625,
+        354.271240234375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_081",
+      "triangles": [
+        50396,
+        25198,
+        9072,
+        3024
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1600.0,
+        952.8615112304688,
+        579.0662841796875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_060",
+      "triangles": [
+        49860,
+        24930,
+        8974,
+        2992
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        700.0000610351562,
+        667.99267578125,
+        1596.364990234375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_080",
+      "triangles": [
+        49694,
+        24846,
+        8944,
+        2982
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1600.0001220703125,
+        937.3494873046875,
+        579.0662841796875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_083",
+      "triangles": [
+        48178,
+        24088,
+        8672,
+        2890
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1200.0,
+        759.4880981445312,
+        466.4597473144531
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_113",
+      "triangles": [
+        47404,
+        23701,
+        8532,
+        2844
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4037.15185546875,
+        2879.28564453125,
+        999.0636596679688
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_CafeInterior_Voxel",
+      "triangles": [
+        47076,
+        23538,
+        8474,
+        2824
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1223.9500732421875,
+        1223.9500732421875,
+        314.5
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_066",
+      "triangles": [
+        46134,
+        23066,
+        8304,
+        2768
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        697.309814453125,
+        575.837646484375,
+        1147.7803955078125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_063",
+      "triangles": [
+        44438,
+        22218,
+        7998,
+        2666
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        700.0,
+        575.837646484375,
+        1147.7803955078125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_064",
+      "triangles": [
+        44158,
+        22078,
+        7948,
+        2650
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        700.0,
+        575.837646484375,
+        1147.7803955078125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_061",
+      "triangles": [
+        43706,
+        21852,
+        7868,
+        2622
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        700.0,
+        575.837646484375,
+        1147.7803955078125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_062",
+      "triangles": [
+        42236,
+        21118,
+        7602,
+        2534
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        700.0,
+        575.837646484375,
+        1147.3665771484375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_065",
+      "triangles": [
+        41574,
+        20786,
+        7484,
+        2494
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        697.309814453125,
+        573.1474761962891,
+        1147.7803955078125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_115",
+      "triangles": [
+        41338,
+        20668,
+        7440,
+        2480
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4015.7189331054688,
+        2873.5712890625,
+        998.7730102539062
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_036",
+      "triangles": [
+        35656,
+        17828,
+        6418,
+        2140
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0000305175781,
+        376.2851867675781,
+        394.034912109375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_RestaurantInterior_Voxel",
+      "triangles": [
+        35424,
+        17712,
+        6376,
+        2126
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1223.9501953125,
+        1423.9500732421875,
+        314.5
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_037",
+      "triangles": [
+        35406,
+        17702,
+        6374,
+        2124
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0000305175781,
+        376.2851867675781,
+        394.034912109375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_FastFoodInterior_Voxel",
+      "triangles": [
+        35352,
+        17676,
+        6364,
+        2122
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1223.9501953125,
+        1423.9500732421875,
+        315.3498840332031
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_088",
+      "triangles": [
+        35186,
+        17593,
+        6333,
+        2111
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        3995.4464721679688,
+        1583.4039611816406,
+        322.5617446899414
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_059",
+      "triangles": [
+        34798,
+        17398,
+        6264,
+        2087
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0000305175781,
+        376.2851867675781,
+        458.3415832519531
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_038",
+      "triangles": [
+        34548,
+        17274,
+        6218,
+        2072
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0000305175781,
+        376.2851867675781,
+        394.034912109375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_031",
+      "triangles": [
+        34476,
+        17238,
+        6206,
+        2068
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0000305175781,
+        348.5936279296875,
+        394.034912109375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_055",
+      "triangles": [
+        34422,
+        17210,
+        6196,
+        2066
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0000305175781,
+        376.2851867675781,
+        457.9393310546875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_052",
+      "triangles": [
+        34064,
+        17032,
+        6132,
+        2044
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0000305175781,
+        376.2851867675781,
+        458.60614013671875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_049",
+      "triangles": [
+        33946,
+        16972,
+        6110,
+        2036
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0,
+        370.2231140136719,
+        394.034912109375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_057",
+      "triangles": [
+        33472,
+        16736,
+        6024,
+        2008
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0000305175781,
+        376.28515625,
+        457.9393310546875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_051",
+      "triangles": [
+        33388,
+        16694,
+        6010,
+        2004
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0000305175781,
+        376.2851867675781,
+        458.51513671875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_042",
+      "triangles": [
+        33138,
+        16568,
+        5964,
+        1988
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0000305175781,
+        376.2851867675781,
+        458.51513671875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_056",
+      "triangles": [
+        33110,
+        16554,
+        5960,
+        1986
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0000305175781,
+        376.2851867675781,
+        458.51513671875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_032",
+      "triangles": [
+        32386,
+        16193,
+        5829,
+        1943
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0000305175781,
+        348.5936279296875,
+        394.034912109375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_PizzaFront_Voxel",
+      "triangles": [
+        32244,
+        16122,
+        5804,
+        1934
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1216.6514892578125,
+        1500.75,
+        351.95538330078125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_034",
+      "triangles": [
+        32040,
+        16020,
+        5768,
+        1922
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0,
+        374.39383697509766,
+        394.034912109375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_RestaurantFront_Voxel",
+      "triangles": [
+        30048,
+        15024,
+        5408,
+        1802
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1216.6514892578125,
+        1503.75,
+        351.95538330078125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_046",
+      "triangles": [
+        29534,
+        14766,
+        5316,
+        1773
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0,
+        374.39383697509766,
+        459.8673095703125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_054",
+      "triangles": [
+        28936,
+        14468,
+        5208,
+        1736
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        398.10865020751953,
+        376.28515625,
+        458.60614013671875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_039",
+      "triangles": [
+        28896,
+        14448,
+        5202,
+        1734
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0,
+        359.67887115478516,
+        458.51513671875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_033",
+      "triangles": [
+        28762,
+        14380,
+        5178,
+        1726
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0,
+        376.28515625,
+        394.034912109375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_035",
+      "triangles": [
+        27732,
+        13866,
+        4992,
+        1664
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        396.21728515625,
+        374.39383697509766,
+        394.034912109375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_030",
+      "triangles": [
+        26712,
+        13356,
+        4808,
+        1603
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0,
+        376.28515625,
+        459.5763244628906
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_BakeryFront_Voxel",
+      "triangles": [
+        26592,
+        13296,
+        4786,
+        1596
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1216.6513671875,
+        1300.75,
+        351.9553527832031
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_CafeFront_Voxel",
+      "triangles": [
+        26592,
+        13296,
+        4786,
+        1596
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1216.6513671875,
+        1300.75,
+        351.9553527832031
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_FloristFront_Voxel",
+      "triangles": [
+        26592,
+        13296,
+        4786,
+        1596
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1216.6513671875,
+        1300.75,
+        351.9553527832031
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_040",
+      "triangles": [
+        26268,
+        13134,
+        4728,
+        1576
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0,
+        376.2851867675781,
+        458.46026611328125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_053",
+      "triangles": [
+        26258,
+        13128,
+        4726,
+        1576
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0,
+        376.2851867675781,
+        458.60614013671875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_045",
+      "triangles": [
+        25938,
+        12968,
+        4668,
+        1557
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0000305175781,
+        376.2851867675781,
+        459.8673095703125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_048",
+      "triangles": [
+        25772,
+        12885,
+        4639,
+        1547
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0,
+        370.2231140136719,
+        394.034912109375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_058",
+      "triangles": [
+        25202,
+        12600,
+        4536,
+        1512
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        398.108642578125,
+        376.28515625,
+        457.9393310546875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_117",
+      "triangles": [
+        24996,
+        12497,
+        4499,
+        1500
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4000.0003051757812,
+        2842.5927734375,
+        999.7265014648438
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_021",
+      "triangles": [
+        24350,
+        12175,
+        4383,
+        1461
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1600.0,
+        1120.0676879882812,
+        838.76318359375
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_019",
+      "triangles": [
+        24166,
+        12083,
+        4349,
+        1450
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        4000.000244140625,
+        3400.000244140625,
+        1105.555908203125
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_129",
+      "triangles": [
+        23628,
+        11813,
+        4254,
+        1417
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1625.217529296875,
+        1110.704345703125,
+        1913.7489013671875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_043",
+      "triangles": [
+        23528,
+        11764,
+        4236,
+        1412
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        384.33226776123047,
+        376.2851867675781,
+        458.2241516113281
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_043_TrafficClearance",
+      "triangles": [
+        23508,
+        11754,
+        4232,
+        1410
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        384.33226776123047,
+        376.2851867675781,
+        458.2241516113281
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_133",
+      "triangles": [
+        23286,
+        11642,
+        4192,
+        1398
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        1625.217529296875,
+        1110.704345703125,
+        1913.7489013671875
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_050",
+      "triangles": [
+        23222,
+        11610,
+        4179,
+        1394
+      ],
+      "lod0_unchanged": true,
+      "collision_unchanged": true,
+      "lower_lod_build_scale_verified": true,
+      "bounds": [
+        400.0,
+        376.28515625,
+        461.1711120605469
+      ],
+      "streaming_policy": "enabled; up to 3 high LODs through the project LOD group"
+    }
+  ],
+  "errors": [],
+  "targets": 133,
+  "retained_original_assets": [
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi_Compacta",
+      "reason": "Unused legacy import has a stale scale of 100. The active normalized PhysicsFixed asset is optimized instead."
+    }
+  ]
+}

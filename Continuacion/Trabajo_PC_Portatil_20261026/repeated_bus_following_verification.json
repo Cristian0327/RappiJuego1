@@ -1,0 +1,44 @@
+[
+  {
+    "time": 145.328494,
+    "gap": 276556.9375,
+    "envelope": 100000000.0,
+    "aligned": true
+  },
+  {
+    "time": 150.128494,
+    "gap": 275536.9375,
+    "envelope": 100000000.0,
+    "aligned": false
+  },
+  {
+    "time": 155.299593,
+    "gap": 274346.9375,
+    "envelope": 100000000.0,
+    "aligned": false
+  },
+  {
+    "time": 160.187815,
+    "gap": 1568.1776123046875,
+    "envelope": 1568.1776123046875,
+    "aligned": true
+  },
+  {
+    "time": 165.35337,
+    "gap": 426.6969909667969,
+    "envelope": 426.6969909667969,
+    "aligned": true
+  },
+  {
+    "time": 170.037633,
+    "gap": 0.0,
+    "envelope": 0.0,
+    "aligned": true
+  },
+  {
+    "time": 175.269411,
+    "gap": 0.0,
+    "envelope": 0.0,
+    "aligned": true
+  }
+]

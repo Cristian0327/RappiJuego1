@@ -1,0 +1,1303 @@
+[
+  {
+    "delta": -12000,
+    "position": [
+      20416.99547174093,
+      -39091.82534573799,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -11750,
+    "position": [
+      20271.573838513454,
+      -38888.472085155685,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      1,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -11500,
+    "position": [
+      20126.152205285976,
+      -38685.11882457339,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -11250,
+    "position": [
+      19980.7305720585,
+      -38481.76556399108,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -11000,
+    "position": [
+      19835.308938831025,
+      -38278.41230340878,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -10750,
+    "position": [
+      19689.887305603548,
+      -38075.059042826484,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -10500,
+    "position": [
+      19544.46567237607,
+      -37871.70578224418,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -10250,
+    "position": [
+      19399.044039148597,
+      -37668.35252166188,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -10000,
+    "position": [
+      19253.62240592112,
+      -37464.999261079574,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -9750,
+    "position": [
+      19108.200772693643,
+      -37261.646000497276,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -9500,
+    "position": [
+      18962.77913946617,
+      -37058.29273991498,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -9250,
+    "position": [
+      18817.35750623869,
+      -36854.93947933267,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -9000,
+    "position": [
+      18671.935873011214,
+      -36651.58621875037,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -8750,
+    "position": [
+      18526.514239783737,
+      -36448.23295816807,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -8500,
+    "position": [
+      18381.09260655626,
+      -36244.87969758577,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -8250,
+    "position": [
+      18235.670973328786,
+      -36041.52643700347,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -8000,
+    "position": [
+      18090.24934010131,
+      -35838.173176421165,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -7750,
+    "position": [
+      17944.82770687383,
+      -35634.81991583887,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -7500,
+    "position": [
+      17799.406073646358,
+      -35431.46665525656,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -7250,
+    "position": [
+      17653.98444041888,
+      -35228.11339467426,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -7000,
+    "position": [
+      17508.562807191403,
+      -35024.760134091965,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -6750,
+    "position": [
+      17363.14117396393,
+      -34821.40687350966,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -6500,
+    "position": [
+      17217.719540736452,
+      -34618.05361292736,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -6250,
+    "position": [
+      17072.297907508975,
+      -34414.700352345055,
+      0
+    ],
+    "overlap_lanes": [
+      1
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -6000,
+    "position": [
+      16926.876274281498,
+      -34211.34709176276,
+      0
+    ],
+    "overlap_lanes": [
+      1
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -5750,
+    "position": [
+      16781.454641054024,
+      -34007.99383118046,
+      0
+    ],
+    "overlap_lanes": [
+      1
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -5500,
+    "position": [
+      16636.033007826547,
+      -33804.64057059815,
+      0
+    ],
+    "overlap_lanes": [
+      1
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -5250,
+    "position": [
+      16490.61137459907,
+      -33601.287310015854,
+      0
+    ],
+    "overlap_lanes": [
+      1
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -5000,
+    "position": [
+      16345.189741371594,
+      -33397.93404943355,
+      0
+    ],
+    "overlap_lanes": [],
+    "inside_pavement": false
+  },
+  {
+    "delta": -4750,
+    "position": [
+      16199.768108144119,
+      -33194.58078885125,
+      0
+    ],
+    "overlap_lanes": [],
+    "inside_pavement": false
+  },
+  {
+    "delta": -4500,
+    "position": [
+      16054.346474916641,
+      -32991.227528268944,
+      0
+    ],
+    "overlap_lanes": [],
+    "inside_pavement": false
+  },
+  {
+    "delta": -4250,
+    "position": [
+      15908.924841689164,
+      -32787.874267686646,
+      0
+    ],
+    "overlap_lanes": [],
+    "inside_pavement": false
+  },
+  {
+    "delta": -4000,
+    "position": [
+      15763.503208461689,
+      -32584.521007104344,
+      0
+    ],
+    "overlap_lanes": [],
+    "inside_pavement": false
+  },
+  {
+    "delta": -3750,
+    "position": [
+      15618.081575234213,
+      -32381.167746522042,
+      0
+    ],
+    "overlap_lanes": [],
+    "inside_pavement": false
+  },
+  {
+    "delta": -3500,
+    "position": [
+      15472.659942006736,
+      -32177.814485939743,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -3250,
+    "position": [
+      15327.23830877926,
+      -31974.46122535744,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -3000,
+    "position": [
+      15181.816675551783,
+      -31771.10796477514,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -2750,
+    "position": [
+      15036.395042324308,
+      -31567.754704192837,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -2500,
+    "position": [
+      14890.97340909683,
+      -31364.401443610535,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -2250,
+    "position": [
+      14745.551775869355,
+      -31161.048183028233,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -2000,
+    "position": [
+      14600.13014264188,
+      -30957.694922445935,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -1750,
+    "position": [
+      14454.708509414402,
+      -30754.341661863633,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -1500,
+    "position": [
+      14309.286876186927,
+      -30550.98840128133,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -1250,
+    "position": [
+      14163.86524295945,
+      -30347.63514069903,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -1000,
+    "position": [
+      14018.443609731974,
+      -30144.281880116727,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -750,
+    "position": [
+      13873.021976504497,
+      -29940.928619534425,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -500,
+    "position": [
+      13727.600343277021,
+      -29737.575358952126,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": -250,
+    "position": [
+      13582.178710049544,
+      -29534.222098369824,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 0,
+    "position": [
+      13436.757076822068,
+      -29330.868837787522,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 250,
+    "position": [
+      13291.335443594593,
+      -29127.51557720522,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 500,
+    "position": [
+      13145.913810367116,
+      -28924.16231662292,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 750,
+    "position": [
+      13000.49217713964,
+      -28720.80905604062,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 1000,
+    "position": [
+      12855.070543912163,
+      -28517.455795458318,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3,
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 1250,
+    "position": [
+      12709.648910684688,
+      -28314.102534876016,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3,
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 1500,
+    "position": [
+      12564.22727745721,
+      -28110.749274293714,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3,
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 1750,
+    "position": [
+      12418.805644229735,
+      -27907.39601371141,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3,
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 2000,
+    "position": [
+      12273.384011002257,
+      -27704.04275312911,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3,
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 2250,
+    "position": [
+      12127.962377774782,
+      -27500.68949254681,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3,
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 2500,
+    "position": [
+      11982.540744547307,
+      -27297.33623196451,
+      0
+    ],
+    "overlap_lanes": [
+      1,
+      3,
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 2750,
+    "position": [
+      11837.11911131983,
+      -27093.982971382207,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 3000,
+    "position": [
+      11691.697478092354,
+      -26890.629710799905,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 3250,
+    "position": [
+      11546.275844864876,
+      -26687.276450217603,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 3500,
+    "position": [
+      11400.854211637401,
+      -26483.9231896353,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 3750,
+    "position": [
+      11255.432578409924,
+      -26280.569929053003,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 4000,
+    "position": [
+      11110.010945182448,
+      -26077.2166684707,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 4250,
+    "position": [
+      10964.589311954973,
+      -25873.8634078884,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 4500,
+    "position": [
+      10819.167678727496,
+      -25670.510147306097,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 4750,
+    "position": [
+      10673.746045500018,
+      -25467.156886723795,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 5000,
+    "position": [
+      10528.324412272543,
+      -25263.803626141496,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 5250,
+    "position": [
+      10382.902779045067,
+      -25060.450365559194,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 5500,
+    "position": [
+      10237.48114581759,
+      -24857.097104976892,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 5750,
+    "position": [
+      10092.059512590115,
+      -24653.74384439459,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 6000,
+    "position": [
+      9946.637879362637,
+      -24450.39058381229,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 6250,
+    "position": [
+      9801.216246135162,
+      -24247.03732322999,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 6500,
+    "position": [
+      9655.794612907684,
+      -24043.684062647684,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 6750,
+    "position": [
+      9510.372979680209,
+      -23840.330802065386,
+      0
+    ],
+    "overlap_lanes": [
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 7000,
+    "position": [
+      9364.951346452734,
+      -23636.977541483084,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 7250,
+    "position": [
+      9219.529713225256,
+      -23433.62428090078,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 7500,
+    "position": [
+      9074.108079997779,
+      -23230.27102031848,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 7750,
+    "position": [
+      8928.686446770304,
+      -23026.917759736178,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 8000,
+    "position": [
+      8783.264813542828,
+      -22823.56449915388,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 8250,
+    "position": [
+      8637.84318031535,
+      -22620.211238571577,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 8500,
+    "position": [
+      8492.421547087875,
+      -22416.857977989275,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": true
+  },
+  {
+    "delta": 8750,
+    "position": [
+      8346.9999138604,
+      -22213.504717406973,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 9000,
+    "position": [
+      8201.578280632923,
+      -22010.15145682467,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 9250,
+    "position": [
+      8056.156647405446,
+      -21806.798196242373,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 9500,
+    "position": [
+      7910.73501417797,
+      -21603.44493566007,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 9750,
+    "position": [
+      7765.313380950493,
+      -21400.09167507777,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 10000,
+    "position": [
+      7619.891747723017,
+      -21196.738414495467,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 10250,
+    "position": [
+      7474.470114495541,
+      -20993.385153913165,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 10500,
+    "position": [
+      7329.048481268064,
+      -20790.031893330866,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 10750,
+    "position": [
+      7183.626848040588,
+      -20586.67863274856,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 11000,
+    "position": [
+      7038.205214813112,
+      -20383.325372166262,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 11250,
+    "position": [
+      6892.783581585636,
+      -20179.97211158396,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 11500,
+    "position": [
+      6747.36194835816,
+      -19976.61885100166,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 11750,
+    "position": [
+      6601.940315130683,
+      -19773.26559041936,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  },
+  {
+    "delta": 12000,
+    "position": [
+      6456.518681903207,
+      -19569.912329837054,
+      0
+    ],
+    "overlap_lanes": [
+      0,
+      2,
+      6
+    ],
+    "inside_pavement": false
+  }
+]

@@ -1,0 +1,3519 @@
+{
+  "static": [
+    {
+      "path": "/Game/World/SM_BicycleWheel",
+      "lods": 1,
+      "triangles": 2652,
+      "vertices": 5232
+    },
+    {
+      "path": "/Game/World/SM_BicycleFrame",
+      "lods": 1,
+      "triangles": 1500,
+      "vertices": 2808
+    },
+    {
+      "path": "/Game/World/SM_Bicycle",
+      "lods": 1,
+      "triangles": 6828,
+      "vertices": 13320
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_AccesosEstaciones",
+      "lods": 1,
+      "triangles": 168,
+      "vertices": 336
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Banca",
+      "lods": 1,
+      "triangles": 168,
+      "vertices": 336
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Bolardo",
+      "lods": 1,
+      "triangles": 36,
+      "vertices": 72
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_CallesSecundarias",
+      "lods": 1,
+      "triangles": 87081,
+      "vertices": 134216
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_CaminoMonserrate",
+      "lods": 1,
+      "triangles": 12364,
+      "vertices": 24394
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Caneca",
+      "lods": 1,
+      "triangles": 252,
+      "vertices": 504
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_CruceAccesible",
+      "lods": 1,
+      "triangles": 792,
+      "vertices": 1584
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi",
+      "lods": 1,
+      "triangles": 8412,
+      "vertices": 15560
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi_Compacta",
+      "lods": 1,
+      "triangles": 8412,
+      "vertices": 15560
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi_Compacta_PhysicsFixed",
+      "lods": 1,
+      "triangles": 8412,
+      "vertices": 15560
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_Farola",
+      "lods": 1,
+      "triangles": 48,
+      "vertices": 96
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_FarolaLuz",
+      "lods": 1,
+      "triangles": 12,
+      "vertices": 24
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_MarcasInterseccion",
+      "lods": 1,
+      "triangles": 1706,
+      "vertices": 3344
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_PuertaEstacion",
+      "lods": 1,
+      "triangles": 72,
+      "vertices": 144
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_SemaforoAmarillo",
+      "lods": 1,
+      "triangles": 12,
+      "vertices": 24
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_SemaforoPeaton",
+      "lods": 1,
+      "triangles": 72,
+      "vertices": 144
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_SemaforoPeatonRojo",
+      "lods": 1,
+      "triangles": 72,
+      "vertices": 144
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_SemaforoPoste",
+      "lods": 1,
+      "triangles": 96,
+      "vertices": 192
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_SemaforoRojo",
+      "lods": 1,
+      "triangles": 12,
+      "vertices": 24
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_SemaforoVerde",
+      "lods": 1,
+      "triangles": 12,
+      "vertices": 24
+    },
+    {
+      "path": "/Game/World/BogotaUrban/Geometry/SM_Bogota_UrbanSolidFloor",
+      "lods": 1,
+      "triangles": 1074,
+      "vertices": 1702
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_000",
+      "lods": 1,
+      "triangles": 4596,
+      "vertices": 9038
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_001",
+      "lods": 1,
+      "triangles": 4308,
+      "vertices": 8466
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_002",
+      "lods": 1,
+      "triangles": 5688,
+      "vertices": 11258
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_003",
+      "lods": 1,
+      "triangles": 15500,
+      "vertices": 30931
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_004",
+      "lods": 1,
+      "triangles": 15466,
+      "vertices": 30864
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_005",
+      "lods": 1,
+      "triangles": 2166,
+      "vertices": 4284
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_006",
+      "lods": 1,
+      "triangles": 75410,
+      "vertices": 148430
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_007",
+      "lods": 1,
+      "triangles": 2262,
+      "vertices": 4476
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_007_TrafficClearance",
+      "lods": 1,
+      "triangles": 2240,
+      "vertices": 4432
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_008",
+      "lods": 1,
+      "triangles": 4852,
+      "vertices": 9352
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_009",
+      "lods": 1,
+      "triangles": 3934,
+      "vertices": 7643
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_010",
+      "lods": 1,
+      "triangles": 1686,
+      "vertices": 3331
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_011",
+      "lods": 1,
+      "triangles": 1380,
+      "vertices": 2740
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_012",
+      "lods": 1,
+      "triangles": 5074,
+      "vertices": 9784
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_013",
+      "lods": 1,
+      "triangles": 5064,
+      "vertices": 9764
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_014",
+      "lods": 1,
+      "triangles": 12092,
+      "vertices": 23901
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_015",
+      "lods": 1,
+      "triangles": 3336,
+      "vertices": 6493
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_016",
+      "lods": 1,
+      "triangles": 6052,
+      "vertices": 11697
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_017",
+      "lods": 1,
+      "triangles": 20018,
+      "vertices": 39148
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_018",
+      "lods": 1,
+      "triangles": 9746,
+      "vertices": 18778
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_018_TrafficClearance",
+      "lods": 1,
+      "triangles": 9490,
+      "vertices": 18266
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_019",
+      "lods": 1,
+      "triangles": 24166,
+      "vertices": 47305
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_020",
+      "lods": 1,
+      "triangles": 4244,
+      "vertices": 7988
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_021",
+      "lods": 1,
+      "triangles": 24350,
+      "vertices": 47814
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_022",
+      "lods": 1,
+      "triangles": 23006,
+      "vertices": 45217
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_022_TrafficClearance",
+      "lods": 1,
+      "triangles": 22984,
+      "vertices": 45173
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_023",
+      "lods": 1,
+      "triangles": 11006,
+      "vertices": 21726
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_023_TrafficClearance",
+      "lods": 1,
+      "triangles": 10988,
+      "vertices": 21690
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_024",
+      "lods": 1,
+      "triangles": 3160,
+      "vertices": 6176
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_025",
+      "lods": 1,
+      "triangles": 3938,
+      "vertices": 7718
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_026",
+      "lods": 1,
+      "triangles": 20498,
+      "vertices": 40756
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_027",
+      "lods": 1,
+      "triangles": 3520,
+      "vertices": 6968
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_028",
+      "lods": 1,
+      "triangles": 3038,
+      "vertices": 6004
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_029",
+      "lods": 1,
+      "triangles": 52908,
+      "vertices": 105896
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_030",
+      "lods": 1,
+      "triangles": 26712,
+      "vertices": 53352
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_031",
+      "lods": 1,
+      "triangles": 34476,
+      "vertices": 68888
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_032",
+      "lods": 1,
+      "triangles": 32386,
+      "vertices": 64708
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_033",
+      "lods": 1,
+      "triangles": 28762,
+      "vertices": 57524
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_034",
+      "lods": 1,
+      "triangles": 32040,
+      "vertices": 64080
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_035",
+      "lods": 1,
+      "triangles": 27732,
+      "vertices": 55464
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_036",
+      "lods": 1,
+      "triangles": 35656,
+      "vertices": 71312
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_037",
+      "lods": 1,
+      "triangles": 35406,
+      "vertices": 70812
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_038",
+      "lods": 1,
+      "triangles": 34548,
+      "vertices": 69096
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_039",
+      "lods": 1,
+      "triangles": 28896,
+      "vertices": 57720
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_040",
+      "lods": 1,
+      "triangles": 26268,
+      "vertices": 52464
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_041",
+      "lods": 1,
+      "triangles": 23156,
+      "vertices": 46240
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_041_TrafficClearance",
+      "lods": 1,
+      "triangles": 22920,
+      "vertices": 45768
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_042",
+      "lods": 1,
+      "triangles": 33138,
+      "vertices": 66204
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_043",
+      "lods": 1,
+      "triangles": 23528,
+      "vertices": 46984
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_043_TrafficClearance",
+      "lods": 1,
+      "triangles": 23508,
+      "vertices": 46944
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_044",
+      "lods": 1,
+      "triangles": 23042,
+      "vertices": 46012
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_044_TrafficClearance",
+      "lods": 1,
+      "triangles": 22944,
+      "vertices": 45816
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_045",
+      "lods": 1,
+      "triangles": 25938,
+      "vertices": 51804
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_046",
+      "lods": 1,
+      "triangles": 29534,
+      "vertices": 58996
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_047",
+      "lods": 1,
+      "triangles": 21770,
+      "vertices": 43540
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_047_TrafficClearance",
+      "lods": 1,
+      "triangles": 21718,
+      "vertices": 43436
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_048",
+      "lods": 1,
+      "triangles": 25772,
+      "vertices": 51544
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_049",
+      "lods": 1,
+      "triangles": 33946,
+      "vertices": 67892
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_050",
+      "lods": 1,
+      "triangles": 23222,
+      "vertices": 46372
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_050_TrafficClearance",
+      "lods": 1,
+      "triangles": 22874,
+      "vertices": 45676
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_051",
+      "lods": 1,
+      "triangles": 33388,
+      "vertices": 66704
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_052",
+      "lods": 1,
+      "triangles": 34064,
+      "vertices": 68056
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_053",
+      "lods": 1,
+      "triangles": 26258,
+      "vertices": 52444
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_054",
+      "lods": 1,
+      "triangles": 28936,
+      "vertices": 57800
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_055",
+      "lods": 1,
+      "triangles": 34422,
+      "vertices": 68772
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_056",
+      "lods": 1,
+      "triangles": 33110,
+      "vertices": 66148
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_057",
+      "lods": 1,
+      "triangles": 33472,
+      "vertices": 66872
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_058",
+      "lods": 1,
+      "triangles": 25202,
+      "vertices": 50332
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_059",
+      "lods": 1,
+      "triangles": 34798,
+      "vertices": 69524
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_060",
+      "lods": 1,
+      "triangles": 49860,
+      "vertices": 99720
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_061",
+      "lods": 1,
+      "triangles": 43706,
+      "vertices": 87412
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_062",
+      "lods": 1,
+      "triangles": 42236,
+      "vertices": 84472
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_063",
+      "lods": 1,
+      "triangles": 44438,
+      "vertices": 88876
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_064",
+      "lods": 1,
+      "triangles": 44158,
+      "vertices": 88316
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_065",
+      "lods": 1,
+      "triangles": 41574,
+      "vertices": 83148
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_066",
+      "lods": 1,
+      "triangles": 46134,
+      "vertices": 92268
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_067",
+      "lods": 1,
+      "triangles": 62238,
+      "vertices": 124476
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_068",
+      "lods": 1,
+      "triangles": 62098,
+      "vertices": 124196
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_069",
+      "lods": 1,
+      "triangles": 67638,
+      "vertices": 135276
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_070",
+      "lods": 1,
+      "triangles": 67638,
+      "vertices": 135276
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_071",
+      "lods": 1,
+      "triangles": 62098,
+      "vertices": 124196
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_072",
+      "lods": 1,
+      "triangles": 62238,
+      "vertices": 124476
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_073",
+      "lods": 1,
+      "triangles": 64358,
+      "vertices": 128716
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_074",
+      "lods": 1,
+      "triangles": 64462,
+      "vertices": 128924
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_075",
+      "lods": 1,
+      "triangles": 64358,
+      "vertices": 128716
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_076",
+      "lods": 1,
+      "triangles": 64462,
+      "vertices": 128924
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_077",
+      "lods": 1,
+      "triangles": 145110,
+      "vertices": 290220
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_078",
+      "lods": 1,
+      "triangles": 149196,
+      "vertices": 298392
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_079",
+      "lods": 1,
+      "triangles": 146782,
+      "vertices": 293564
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_080",
+      "lods": 1,
+      "triangles": 49694,
+      "vertices": 99388
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_081",
+      "lods": 1,
+      "triangles": 50396,
+      "vertices": 100792
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_082",
+      "lods": 1,
+      "triangles": 59968,
+      "vertices": 119936
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_083",
+      "lods": 1,
+      "triangles": 48178,
+      "vertices": 96356
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_084",
+      "lods": 1,
+      "triangles": 67926,
+      "vertices": 135852
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_085",
+      "lods": 1,
+      "triangles": 67332,
+      "vertices": 134664
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_086",
+      "lods": 1,
+      "triangles": 96164,
+      "vertices": 192248
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_087",
+      "lods": 1,
+      "triangles": 66404,
+      "vertices": 132728
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_088",
+      "lods": 1,
+      "triangles": 35186,
+      "vertices": 70292
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_089",
+      "lods": 1,
+      "triangles": 98592,
+      "vertices": 197104
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_090",
+      "lods": 1,
+      "triangles": 4696,
+      "vertices": 9387
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_091",
+      "lods": 1,
+      "triangles": 8440,
+      "vertices": 16802
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_092",
+      "lods": 1,
+      "triangles": 7210,
+      "vertices": 14312
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_093",
+      "lods": 1,
+      "triangles": 421118,
+      "vertices": 842054
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_094",
+      "lods": 1,
+      "triangles": 6538,
+      "vertices": 12994
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_095",
+      "lods": 1,
+      "triangles": 4902,
+      "vertices": 9792
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_096",
+      "lods": 1,
+      "triangles": 241330,
+      "vertices": 482628
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_097",
+      "lods": 1,
+      "triangles": 5672,
+      "vertices": 11284
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_098",
+      "lods": 1,
+      "triangles": 5576,
+      "vertices": 11063
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_099",
+      "lods": 1,
+      "triangles": 5806,
+      "vertices": 11515
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_100",
+      "lods": 1,
+      "triangles": 6068,
+      "vertices": 12122
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_101",
+      "lods": 1,
+      "triangles": 8426,
+      "vertices": 16722
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_102",
+      "lods": 1,
+      "triangles": 5216,
+      "vertices": 10423
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_103",
+      "lods": 1,
+      "triangles": 8150,
+      "vertices": 16288
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_104",
+      "lods": 1,
+      "triangles": 8076,
+      "vertices": 16140
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_105",
+      "lods": 1,
+      "triangles": 7650,
+      "vertices": 15288
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_106",
+      "lods": 1,
+      "triangles": 7474,
+      "vertices": 14936
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_107",
+      "lods": 1,
+      "triangles": 7474,
+      "vertices": 14936
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_108",
+      "lods": 1,
+      "triangles": 5948,
+      "vertices": 11841
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_109",
+      "lods": 1,
+      "triangles": 7036,
+      "vertices": 13915
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_110",
+      "lods": 1,
+      "triangles": 4202,
+      "vertices": 8371
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_111",
+      "lods": 1,
+      "triangles": 12400,
+      "vertices": 24720
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_112",
+      "lods": 1,
+      "triangles": 57680,
+      "vertices": 101816
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_113",
+      "lods": 1,
+      "triangles": 47404,
+      "vertices": 83070
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_114",
+      "lods": 1,
+      "triangles": 55132,
+      "vertices": 96692
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_115",
+      "lods": 1,
+      "triangles": 41338,
+      "vertices": 71797
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_116",
+      "lods": 1,
+      "triangles": 72648,
+      "vertices": 128620
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_117",
+      "lods": 1,
+      "triangles": 24996,
+      "vertices": 43174
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_118",
+      "lods": 1,
+      "triangles": 72620,
+      "vertices": 128564
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_119",
+      "lods": 1,
+      "triangles": 19120,
+      "vertices": 31780
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_120",
+      "lods": 1,
+      "triangles": 72708,
+      "vertices": 128740
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_121",
+      "lods": 1,
+      "triangles": 71938,
+      "vertices": 127259
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_122",
+      "lods": 1,
+      "triangles": 72182,
+      "vertices": 127688
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_123",
+      "lods": 1,
+      "triangles": 20756,
+      "vertices": 39786
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_124",
+      "lods": 1,
+      "triangles": 22006,
+      "vertices": 42219
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_125",
+      "lods": 1,
+      "triangles": 16894,
+      "vertices": 32275
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_126",
+      "lods": 1,
+      "triangles": 21152,
+      "vertices": 40554
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_127",
+      "lods": 1,
+      "triangles": 18178,
+      "vertices": 34778
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_128",
+      "lods": 1,
+      "triangles": 19652,
+      "vertices": 37671
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_128_TrafficClearance",
+      "lods": 1,
+      "triangles": 19622,
+      "vertices": 37611
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_129",
+      "lods": 1,
+      "triangles": 23628,
+      "vertices": 45471
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_130",
+      "lods": 1,
+      "triangles": 17412,
+      "vertices": 33399
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_131",
+      "lods": 1,
+      "triangles": 20430,
+      "vertices": 39270
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_132",
+      "lods": 1,
+      "triangles": 22544,
+      "vertices": 43352
+    },
+    {
+      "path": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_133",
+      "lods": 1,
+      "triangles": 23286,
+      "vertices": 44810
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Apples",
+      "lods": 1,
+      "triangles": 1164,
+      "vertices": 1648
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Bananas",
+      "lods": 1,
+      "triangles": 480,
+      "vertices": 720
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Carrots",
+      "lods": 1,
+      "triangles": 360,
+      "vertices": 720
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_PetToy",
+      "lods": 1,
+      "triangles": 60,
+      "vertices": 120
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Bouquet",
+      "lods": 1,
+      "triangles": 2088,
+      "vertices": 3720
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_PetFood",
+      "lods": 1,
+      "triangles": 84,
+      "vertices": 168
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Bread",
+      "lods": 1,
+      "triangles": 132,
+      "vertices": 264
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Rice",
+      "lods": 1,
+      "triangles": 384,
+      "vertices": 760
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Burger",
+      "lods": 1,
+      "triangles": 1368,
+      "vertices": 2334
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Coffee",
+      "lods": 1,
+      "triangles": 1896,
+      "vertices": 2616
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_RAM",
+      "lods": 1,
+      "triangles": 372,
+      "vertices": 744
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_CircuitBoard",
+      "lods": 1,
+      "triangles": 852,
+      "vertices": 1704
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Drill",
+      "lods": 1,
+      "triangles": 108,
+      "vertices": 216
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_FirstAid",
+      "lods": 1,
+      "triangles": 108,
+      "vertices": 216
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_GPU",
+      "lods": 1,
+      "triangles": 1152,
+      "vertices": 2176
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Medicine",
+      "lods": 1,
+      "triangles": 108,
+      "vertices": 216
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Keyboard",
+      "lods": 1,
+      "triangles": 528,
+      "vertices": 1056
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Milk",
+      "lods": 1,
+      "triangles": 108,
+      "vertices": 216
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_PhoneBox",
+      "lods": 1,
+      "triangles": 168,
+      "vertices": 336
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Headphones",
+      "lods": 1,
+      "triangles": 228,
+      "vertices": 456
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Nuggets",
+      "lods": 1,
+      "triangles": 216,
+      "vertices": 432
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Pizza",
+      "lods": 1,
+      "triangles": 7812,
+      "vertices": 8108
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_ToolKit",
+      "lods": 1,
+      "triangles": 168,
+      "vertices": 332
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_PaintCan",
+      "lods": 1,
+      "triangles": 504,
+      "vertices": 814
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_PetBowl",
+      "lods": 1,
+      "triangles": 504,
+      "vertices": 928
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_HardwareFront_Voxel",
+      "lods": 1,
+      "triangles": 5628,
+      "vertices": 11256
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_MarketFront_Voxel",
+      "lods": 1,
+      "triangles": 5628,
+      "vertices": 11256
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_PetShopFront_Voxel",
+      "lods": 1,
+      "triangles": 5292,
+      "vertices": 10584
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_BakeryFront_Voxel",
+      "lods": 1,
+      "triangles": 26592,
+      "vertices": 53184
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_CafeFront_Voxel",
+      "lods": 1,
+      "triangles": 26592,
+      "vertices": 53184
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_FloristFront_Voxel",
+      "lods": 1,
+      "triangles": 26592,
+      "vertices": 53184
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_PizzaFront_Voxel",
+      "lods": 1,
+      "triangles": 32244,
+      "vertices": 64488
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_RestaurantFront_Voxel",
+      "lods": 1,
+      "triangles": 30048,
+      "vertices": 60096
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_TechFront_Voxel",
+      "lods": 1,
+      "triangles": 5820,
+      "vertices": 11640
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_ComponentsFront_Voxel",
+      "lods": 1,
+      "triangles": 5820,
+      "vertices": 11640
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_FastFoodFront_Voxel",
+      "lods": 1,
+      "triangles": 6048,
+      "vertices": 12096
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_FreshMarketFront_Voxel",
+      "lods": 1,
+      "triangles": 6144,
+      "vertices": 12288
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_FloristInterior_Voxel",
+      "lods": 1,
+      "triangles": 257880,
+      "vertices": 460584
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_FreshMarketInterior_Voxel",
+      "lods": 1,
+      "triangles": 179880,
+      "vertices": 344400
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_MarketInterior_Voxel",
+      "lods": 1,
+      "triangles": 176760,
+      "vertices": 338160
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_PetShopInterior_Voxel",
+      "lods": 1,
+      "triangles": 95964,
+      "vertices": 191928
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_TechInterior_Voxel",
+      "lods": 1,
+      "triangles": 60072,
+      "vertices": 120144
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_PharmacyFront_Voxel",
+      "lods": 1,
+      "triangles": 5652,
+      "vertices": 11304
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_ComponentsInterior_Voxel",
+      "lods": 1,
+      "triangles": 94440,
+      "vertices": 182736
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_HardwareInterior_Voxel",
+      "lods": 1,
+      "triangles": 143928,
+      "vertices": 285528
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_PharmacyInterior_Voxel",
+      "lods": 1,
+      "triangles": 138864,
+      "vertices": 277728
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_BakeryInterior_Voxel",
+      "lods": 1,
+      "triangles": 19044,
+      "vertices": 38088
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_CafeInterior_Voxel",
+      "lods": 1,
+      "triangles": 47076,
+      "vertices": 72984
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_RestaurantInterior_Voxel",
+      "lods": 1,
+      "triangles": 35424,
+      "vertices": 65600
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_FastFoodInterior_Voxel",
+      "lods": 1,
+      "triangles": 35352,
+      "vertices": 65456
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_PizzaInterior_Voxel",
+      "lods": 1,
+      "triangles": 100728,
+      "vertices": 139856
+    },
+    {
+      "path": "/Game/Delivery/Stores/SM_Salad",
+      "lods": 1,
+      "triangles": 2184,
+      "vertices": 3768
+    }
+  ],
+  "skeletal": [
+    {
+      "path": "/Game/Crowd/People/SK_Citizen00",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen01",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen02",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen03",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen04",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen05",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen06",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen07",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen08",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen09",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen10",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen11",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen12",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen13",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen14",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen15",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen16",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen17",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen18",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen19",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen20",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen21",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen22",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen23",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen24",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen25",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen26",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen27",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen28",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen29",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen30",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen31",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen32",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen33",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen34",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen35",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen36",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen37",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen38",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen39",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen40",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen41",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen42",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen43",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen44",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen45",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen46",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen47",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen48",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen49",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen50",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen51",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen52",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen53",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen54",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen55",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen56",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen57",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen58",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/People/SK_Citizen59",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen00",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen01",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen02",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen03",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen04",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen05",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen06",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen07",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen08",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen09",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen10",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen11",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen12",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen13",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen14",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen15",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen16",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen17",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen18",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen19",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen20",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen21",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen22",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_Citizen23",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Crowd/SK_CrowdRig",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Traffic/SK_Private",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Traffic/SK_SITP",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Traffic/SK_TaxiCompact",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Traffic/SK_TaxiSedan",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Traffic/SK_TransMilenio",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Traffic/Bicycles/SK_BicycleCivilBlue",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Traffic/Bicycles/SK_BicycleCivilRed",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Traffic/Bicycles/SK_BicycleCivilYellow",
+      "lods": 1
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_Private",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateAveo",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateBeetle",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateChevette",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateClio",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateHatch",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateMazda323",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivatePicanto",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivatePickup",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivatePrado",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateRenault12",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateRenault4",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateRenault9",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateSandero",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateSingleCab",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateSprint",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateSUV",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateVan",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateVitara",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_PrivateWagon",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_TaxiCompact",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_TaxiSedan",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_TransMilenio",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Detailed/SK_TransMilenioG66",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_BicycleCivilBlue",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_BicycleCivilRed",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_BicycleCivilYellow",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_MotoCivilBlue",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_MotoCivilPurple",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_MotoCivilRed",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_MotoCivilWhite",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_MotoCivilYellow",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_MotoCourier",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_MotoPolice",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_MotoPoliceGreen",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_PoliceOfficer",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_PoliceOfficerFemale01",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_PoliceOfficerFemale02",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_PoliceOfficerMale02",
+      "lods": 3
+    },
+    {
+      "path": "/Game/Traffic/Services/SK_PolicePatrol",
+      "lods": 3
+    }
+  ],
+  "textures": [
+    {
+      "path": "/Game/World/BogotaUrban/T_UrbanGroundPriority",
+      "never_stream": true
+    },
+    {
+      "path": "/Game/Delivery/Stores/Masonry",
+      "never_stream": false
+    },
+    {
+      "path": "/Game/Delivery/Stores/Metal",
+      "never_stream": false
+    },
+    {
+      "path": "/Game/Delivery/Stores/Paper",
+      "never_stream": false
+    },
+    {
+      "path": "/Game/Delivery/Stores/Timber",
+      "never_stream": false
+    },
+    {
+      "path": "/Game/Crowd/T_CrowdPixelAtlas",
+      "never_stream": true
+    },
+    {
+      "path": "/Game/Traffic/Detailed/T_TrafficPixelAtlas",
+      "never_stream": true
+    },
+    {
+      "path": "/Game/Traffic/Services/T_ServicePixelAtlas",
+      "never_stream": true
+    }
+  ],
+  "blueprints": {
+    "/Game/World/BlueprintWorld/Optimization/BP_ServiceDistanceBudget": {
+      "asset": "/Game/World/BlueprintWorld/Optimization/BP_ServiceDistanceBudget.BP_ServiceDistanceBudget",
+      "parent": "/Script/Engine.Actor",
+      "graphs": [
+        {
+          "name": "UserConstructionScript",
+          "nodes": 1,
+          "function_owner": "/Script/Engine.Actor",
+          "bytecode": 0,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:0"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "ReceiveBeginPlay",
+          "nodes": 13,
+          "function_owner": "/Game/World/BlueprintWorld/Optimization/BP_ServiceDistanceBudget.BP_ServiceDistanceBudget_C",
+          "bytecode": 1449,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:1",
+            "K2Node_FunctionResult.execute= links:1",
+            "K2Node_VariableGet.Actors= links:4",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_CallArrayFunction.execute= links:1",
+            "K2Node_CallArrayFunction.then= links:1",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.WorldContextObject= links:0",
+            "K2Node_CallFunction.ActorClass= links:0",
+            "K2Node_CallFunction.OutActors= links:1",
+            "K2Node_MacroInstance.Exec= links:1",
+            "K2Node_MacroInstance.Array= links:1",
+            "K2Node_MacroInstance.LoopBody= links:1",
+            "K2Node_MacroInstance.Array Element= links:1",
+            "K2Node_MacroInstance.Array Index= links:0",
+            "K2Node_MacroInstance.Completed= links:1",
+            "K2Node_CallArrayFunction.execute= links:1",
+            "K2Node_CallArrayFunction.then= links:0",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallArrayFunction.NewItem= links:1",
+            "K2Node_CallArrayFunction.ReturnValue=0 links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.WorldContextObject= links:0",
+            "K2Node_CallFunction.ActorClass= links:0",
+            "K2Node_CallFunction.OutActors= links:1",
+            "K2Node_MacroInstance.Exec= links:1",
+            "K2Node_MacroInstance.Array= links:1",
+            "K2Node_MacroInstance.LoopBody= links:1",
+            "K2Node_MacroInstance.Array Element= links:1",
+            "K2Node_MacroInstance.Array Index= links:0",
+            "K2Node_MacroInstance.Completed= links:1",
+            "K2Node_CallArrayFunction.execute= links:1",
+            "K2Node_CallArrayFunction.then= links:0",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallArrayFunction.NewItem= links:1",
+            "K2Node_CallArrayFunction.ReturnValue=0 links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.WorldContextObject= links:0",
+            "K2Node_CallFunction.ActorClass= links:0",
+            "K2Node_CallFunction.OutActors= links:1",
+            "K2Node_MacroInstance.Exec= links:1",
+            "K2Node_MacroInstance.Array= links:1",
+            "K2Node_MacroInstance.LoopBody= links:1",
+            "K2Node_MacroInstance.Array Element= links:1",
+            "K2Node_MacroInstance.Array Index= links:0",
+            "K2Node_MacroInstance.Completed= links:1",
+            "K2Node_CallArrayFunction.execute= links:1",
+            "K2Node_CallArrayFunction.then= links:0",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallArrayFunction.NewItem= links:1",
+            "K2Node_CallArrayFunction.ReturnValue=0 links:0"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "ReceiveTick",
+          "nodes": 23,
+          "function_owner": "/Game/World/BlueprintWorld/Optimization/BP_ServiceDistanceBudget.BP_ServiceDistanceBudget_C",
+          "bytecode": 2760,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:1",
+            "K2Node_FunctionEntry.DeltaSeconds=0.0 links:0",
+            "K2Node_FunctionResult.execute= links:2",
+            "K2Node_VariableGet.Actors= links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.WorldContextObject= links:0",
+            "K2Node_CallFunction.PlayerIndex=0 links:0",
+            "K2Node_CallFunction.ReturnValue= links:2",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Object= links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_MacroInstance.Exec= links:1",
+            "K2Node_MacroInstance.Array= links:1",
+            "K2Node_MacroInstance.LoopBody= links:1",
+            "K2Node_MacroInstance.Array Element= links:6",
+            "K2Node_MacroInstance.Array Index= links:0",
+            "K2Node_MacroInstance.Completed= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.V1=0, 0, 0 links:1",
+            "K2Node_CallFunction.V2=0, 0, 0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.B=49000000 links:0",
+            "K2Node_CallFunction.ReturnValue=false links:4",
+            "K2Node_VariableGet.bHidden=false links:1",
+            "K2Node_VariableGet.self= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=false links:1",
+            "K2Node_CallFunction.B=false links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.bNewHidden=false links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=.1 links:0",
+            "K2Node_CallFunction.B=0.0 links:0",
+            "K2Node_CallFunction.bPickA=false links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:2",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.TickInterval=0.0 links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.ComponentClass= links:0",
+            "K2Node_CallFunction.ReturnValue= links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.TickInterval=0.0 links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.ComponentClass= links:0",
+            "K2Node_CallFunction.ReturnValue= links:1",
+            "K2Node_MacroInstance.Exec= links:1",
+            "K2Node_MacroInstance.Array= links:1",
+            "K2Node_MacroInstance.LoopBody= links:1",
+            "K2Node_MacroInstance.Array Element= links:1",
+            "K2Node_MacroInstance.Array Index= links:0",
+            "K2Node_MacroInstance.Completed= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=false links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:0",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.bEnabled=false links:1"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "EventGraph",
+          "nodes": 3,
+          "pins": [
+            "K2Node_Event.OutputDelegate= links:0",
+            "K2Node_Event.then= links:0",
+            "K2Node_Event.OutputDelegate= links:0",
+            "K2Node_Event.then= links:0",
+            "K2Node_Event.OtherActor= links:0",
+            "K2Node_Event.OutputDelegate= links:0",
+            "K2Node_Event.then= links:0",
+            "K2Node_Event.DeltaSeconds=0.0 links:0"
+          ],
+          "native_calls": []
+        }
+      ],
+      "logic_nodes": 40,
+      "compiled": true
+    },
+    "/Game/World/BlueprintWorld/Optimization/BP_StoreDistanceBudget": {
+      "asset": "/Game/World/BlueprintWorld/Optimization/BP_StoreDistanceBudget.BP_StoreDistanceBudget",
+      "parent": "/Script/Engine.Actor",
+      "graphs": [
+        {
+          "name": "UserConstructionScript",
+          "nodes": 1,
+          "function_owner": "/Script/Engine.Actor",
+          "bytecode": 0,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:0"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "ReceiveBeginPlay",
+          "nodes": 7,
+          "function_owner": "/Game/World/BlueprintWorld/Optimization/BP_StoreDistanceBudget.BP_StoreDistanceBudget_C",
+          "bytecode": 523,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:1",
+            "K2Node_FunctionResult.execute= links:1",
+            "K2Node_VariableGet.Actors= links:2",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_CallArrayFunction.execute= links:1",
+            "K2Node_CallArrayFunction.then= links:1",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.WorldContextObject= links:0",
+            "K2Node_CallFunction.ActorClass= links:0",
+            "K2Node_CallFunction.OutActors= links:1",
+            "K2Node_MacroInstance.Exec= links:1",
+            "K2Node_MacroInstance.Array= links:1",
+            "K2Node_MacroInstance.LoopBody= links:1",
+            "K2Node_MacroInstance.Array Element= links:1",
+            "K2Node_MacroInstance.Array Index= links:0",
+            "K2Node_MacroInstance.Completed= links:1",
+            "K2Node_CallArrayFunction.execute= links:1",
+            "K2Node_CallArrayFunction.then= links:0",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallArrayFunction.NewItem= links:1",
+            "K2Node_CallArrayFunction.ReturnValue=0 links:0"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "ReceiveTick",
+          "nodes": 23,
+          "function_owner": "/Game/World/BlueprintWorld/Optimization/BP_StoreDistanceBudget.BP_StoreDistanceBudget_C",
+          "bytecode": 1655,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:1",
+            "K2Node_FunctionEntry.DeltaSeconds=0.0 links:0",
+            "K2Node_FunctionResult.execute= links:2",
+            "K2Node_VariableGet.Actors= links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.WorldContextObject= links:0",
+            "K2Node_CallFunction.PlayerIndex=0 links:0",
+            "K2Node_CallFunction.ReturnValue= links:2",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Object= links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_MacroInstance.Exec= links:1",
+            "K2Node_MacroInstance.Array= links:1",
+            "K2Node_MacroInstance.LoopBody= links:1",
+            "K2Node_MacroInstance.Array Element= links:6",
+            "K2Node_MacroInstance.Array Index= links:0",
+            "K2Node_MacroInstance.Completed= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.V1=0, 0, 0 links:1",
+            "K2Node_CallFunction.V2=0, 0, 0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.B=49000000 links:0",
+            "K2Node_CallFunction.ReturnValue=false links:4",
+            "K2Node_VariableGet.bHidden=false links:1",
+            "K2Node_VariableGet.self= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=false links:1",
+            "K2Node_CallFunction.B=false links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:0",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:0",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.bNewHidden=false links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=.1 links:0",
+            "K2Node_CallFunction.B=0.0 links:0",
+            "K2Node_CallFunction.bPickA=false links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:2",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.TickInterval=0.0 links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.ComponentClass= links:0",
+            "K2Node_CallFunction.ReturnValue= links:1",
+            "K2Node_CallFunction.execute= links:0",
+            "K2Node_CallFunction.then= links:0",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.TickInterval=0.0 links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.ComponentClass= links:0",
+            "K2Node_CallFunction.ReturnValue= links:1",
+            "K2Node_MacroInstance.Exec= links:1",
+            "K2Node_MacroInstance.Array= links:1",
+            "K2Node_MacroInstance.LoopBody= links:1",
+            "K2Node_MacroInstance.Array Element= links:1",
+            "K2Node_MacroInstance.Array Index= links:0",
+            "K2Node_MacroInstance.Completed= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=false links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:0",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.bEnabled=false links:1"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "EventGraph",
+          "nodes": 3,
+          "pins": [
+            "K2Node_Event.OutputDelegate= links:0",
+            "K2Node_Event.then= links:0",
+            "K2Node_Event.OutputDelegate= links:0",
+            "K2Node_Event.then= links:0",
+            "K2Node_Event.OtherActor= links:0",
+            "K2Node_Event.OutputDelegate= links:0",
+            "K2Node_Event.then= links:0",
+            "K2Node_Event.DeltaSeconds=0.0 links:0"
+          ],
+          "native_calls": []
+        }
+      ],
+      "logic_nodes": 34,
+      "compiled": true
+    },
+    "/Game/World/BlueprintWorld/Crowd/BP_StreetCitizen": {
+      "asset": "/Game/World/BlueprintWorld/Crowd/BP_StreetCitizen.BP_StreetCitizen",
+      "parent": "/Script/Engine.Character",
+      "graphs": [
+        {
+          "name": "UserConstructionScript",
+          "nodes": 1,
+          "function_owner": "/Script/Engine.Actor",
+          "bytecode": 0,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:0"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "ConfigureCitizen",
+          "nodes": 14,
+          "function_owner": "/Game/World/BlueprintWorld/Crowd/BP_StreetCitizen.BP_StreetCitizen_C",
+          "bytecode": 544,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:1",
+            "K2Node_FunctionEntry.Model= links:1",
+            "K2Node_FunctionEntry.Scale= links:4",
+            "K2Node_FunctionEntry.Speed= links:2",
+            "K2Node_FunctionEntry.UseCane= links:2",
+            "K2Node_FunctionResult.execute= links:2",
+            "K2Node_VariableGet.Mesh= links:4",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.CharacterMovement= links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.Cane=false links:1",
+            "K2Node_VariableSet.Output_Get=false links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.WalkingSpeed=0.0 links:1",
+            "K2Node_VariableSet.Output_Get=0.0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.ModelScale=0.0 links:1",
+            "K2Node_VariableSet.Output_Get=0.0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.NewMesh= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.X=0.0 links:1",
+            "K2Node_CallFunction.Y=0.0 links:1",
+            "K2Node_CallFunction.Z=0.0 links:1",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.NewScale3D=0, 0, 0 links:1",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.MaxWalkSpeed=0.0 links:1",
+            "K2Node_VariableSet.Output_Get=0.0 links:0",
+            "K2Node_VariableSet.self= links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.NewClass= links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.NewClass= links:0"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "ConfigureRoute",
+          "nodes": 7,
+          "function_owner": "/Game/World/BlueprintWorld/Crowd/BP_StreetCitizen.BP_StreetCitizen_C",
+          "bytecode": 82,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:1",
+            "K2Node_FunctionEntry.Points= links:1",
+            "K2Node_FunctionEntry.StartIndex= links:1",
+            "K2Node_FunctionResult.execute= links:1",
+            "K2Node_VariableGet.Route= links:0",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.RouteIndex=0 links:0",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.Route= links:1",
+            "K2Node_VariableSet.Output_Get= links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.RouteIndex=0 links:1",
+            "K2Node_VariableSet.Output_Get=0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.TickInterval=.35 links:0"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "MoveToGoal",
+          "nodes": 10,
+          "function_owner": "/Game/World/BlueprintWorld/Crowd/BP_StreetCitizen.BP_StreetCitizen_C",
+          "bytecode": 403,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:1",
+            "K2Node_FunctionEntry.Goal= links:1",
+            "K2Node_FunctionResult.execute= links:2",
+            "K2Node_FunctionResult.ReturnValue=false links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.ReturnValue= links:1",
+            "K2Node_DynamicCast.Object= links:1",
+            "K2Node_DynamicCast.AsAIController= links:2",
+            "K2Node_DynamicCast.bSuccess= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Object= links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.Dest=0, 0, 0 links:1",
+            "K2Node_CallFunction.AcceptanceRadius=35 links:0",
+            "K2Node_CallFunction.bStopOnOverlap=true links:0",
+            "K2Node_CallFunction.bUsePathfinding=true links:0",
+            "K2Node_CallFunction.bProjectDestinationToNavigation=true links:0",
+            "K2Node_CallFunction.bCanStrafe=false links:0",
+            "K2Node_CallFunction.FilterClass= links:0",
+            "K2Node_CallFunction.bAllowPartialPath=false links:0",
+            "K2Node_CallFunction.ReturnValue=Failed links:1",
+            "K2Node_VariableGet.CharacterMovement= links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.NewMovementMode=MOVE_NavWalking links:0",
+            "K2Node_CallFunction.NewCustomMode=0 links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=0 links:0",
+            "K2Node_CallFunction.ReturnValue=false links:1"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "UpdateFarRoute",
+          "nodes": 36,
+          "function_owner": "/Game/World/BlueprintWorld/Crowd/BP_StreetCitizen.BP_StreetCitizen_C",
+          "bytecode": 3322,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:1",
+            "K2Node_FunctionEntry.Dt= links:1",
+            "K2Node_FunctionResult.execute= links:3",
+            "K2Node_VariableGet.Route= links:2",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.RouteIndex=0 links:2",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.WalkingSpeed=0.0 links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.Travelled=0.0 links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallArrayFunction.ReturnValue=0 links:1",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallArrayFunction.Index=0 links:1",
+            "K2Node_CallArrayFunction.Item= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:2",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0, 0, 0 links:1",
+            "K2Node_CallFunction.B=0, 0, 0 links:1",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:2",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0, 0, 0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:2",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.B=90 links:0",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=1 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=1 links:1",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.RouteIndex=0 links:1",
+            "K2Node_VariableSet.Output_Get=0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A= links:1",
+            "K2Node_CallFunction.ReturnValue= links:2",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.B=0.0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.B=0.0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:2",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0, 0, 0 links:1",
+            "K2Node_CallFunction.B=0.0 links:1",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0, 0, 0 links:1",
+            "K2Node_CallFunction.B=(X=0,Y=0,Z=-88) links:0",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:2",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0, 0, 0 links:1",
+            "K2Node_CallFunction.B=0, 0, 0 links:1",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.X=60 links:0",
+            "K2Node_CallFunction.Y=60 links:0",
+            "K2Node_CallFunction.Z=160 links:0",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.WorldContextObject= links:0",
+            "K2Node_CallFunction.Point=0, 0, 0 links:1",
+            "K2Node_CallFunction.ProjectedLocation=0, 0, 0 links:2",
+            "K2Node_CallFunction.NavData= links:0",
+            "K2Node_CallFunction.FilterClass= links:0",
+            "K2Node_CallFunction.QueryExtent=0, 0, 0 links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:2",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.WorldContextObject= links:0",
+            "K2Node_CallFunction.RayStart=0, 0, 0 links:1",
+            "K2Node_CallFunction.RayEnd=0, 0, 0 links:1",
+            "K2Node_CallFunction.HitLocation=0, 0, 0 links:0",
+            "K2Node_CallFunction.FilterClass= links:0",
+            "K2Node_CallFunction.Querier= links:0",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0, 0, 0 links:1",
+            "K2Node_CallFunction.B=(X=0,Y=0,Z=88) links:0",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.NewLocation=0, 0, 0 links:1",
+            "K2Node_CallFunction.bSweep=false links:0",
+            "K2Node_CallFunction.SweepHitResult= links:0",
+            "K2Node_CallFunction.bTeleport=true links:0",
+            "K2Node_CallFunction.ReturnValue=false links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.X=0, 0, 0 links:1",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.NewRotation=0, 0, 0 links:1",
+            "K2Node_CallFunction.bTeleportPhysics=true links:0",
+            "K2Node_CallFunction.ReturnValue=false links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.B=1.000000 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.Travelled=0.0 links:1",
+            "K2Node_VariableSet.Output_Get=0.0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InVector=0, 0, 0 links:1",
+            "K2Node_CallFunction.ReturnValue= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InVector2D= links:1",
+            "K2Node_CallFunction.Z=0.000000 links:0",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InVector2D= links:1",
+            "K2Node_CallFunction.Z=0.000000 links:0",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:1"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "BudgetFarStep",
+          "nodes": 8,
+          "function_owner": "/Game/World/BlueprintWorld/Crowd/BP_StreetCitizen.BP_StreetCitizen_C",
+          "bytecode": 249,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:1",
+            "K2Node_FunctionResult.execute= links:1",
+            "K2Node_VariableGet.FarLastUpdate=0.0 links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.WorldContextObject= links:0",
+            "K2Node_CallFunction.ReturnValue=0.0 links:2",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.B=1.000000 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Value=0.0 links:1",
+            "K2Node_CallFunction.Min=0.0 links:0",
+            "K2Node_CallFunction.Max=6 links:0",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Dt=0.0 links:1",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.FarLastUpdate=0.0 links:1",
+            "K2Node_VariableSet.Output_Get=0.0 links:0",
+            "K2Node_VariableSet.self= links:0"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "ConfigureRectangleRoute",
+          "nodes": 10,
+          "function_owner": "/Game/World/BlueprintWorld/Crowd/BP_StreetCitizen.BP_StreetCitizen_C",
+          "bytecode": 376,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:1",
+            "K2Node_FunctionEntry.Point0= links:1",
+            "K2Node_FunctionEntry.Point1= links:1",
+            "K2Node_FunctionEntry.Point2= links:1",
+            "K2Node_FunctionEntry.Point3= links:1",
+            "K2Node_FunctionEntry.StartIndex= links:1",
+            "K2Node_FunctionResult.execute= links:1",
+            "K2Node_VariableGet.Route= links:5",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_CallArrayFunction.execute= links:1",
+            "K2Node_CallArrayFunction.then= links:1",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallArrayFunction.execute= links:1",
+            "K2Node_CallArrayFunction.then= links:1",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallArrayFunction.NewItem= links:1",
+            "K2Node_CallArrayFunction.ReturnValue=0 links:0",
+            "K2Node_CallArrayFunction.execute= links:1",
+            "K2Node_CallArrayFunction.then= links:1",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallArrayFunction.NewItem= links:1",
+            "K2Node_CallArrayFunction.ReturnValue=0 links:0",
+            "K2Node_CallArrayFunction.execute= links:1",
+            "K2Node_CallArrayFunction.then= links:1",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallArrayFunction.NewItem= links:1",
+            "K2Node_CallArrayFunction.ReturnValue=0 links:0",
+            "K2Node_CallArrayFunction.execute= links:1",
+            "K2Node_CallArrayFunction.then= links:1",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallArrayFunction.NewItem= links:1",
+            "K2Node_CallArrayFunction.ReturnValue=0 links:0",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.RouteIndex=0 links:1",
+            "K2Node_VariableSet.Output_Get=0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.NewFar=true links:0"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "SetFarMode",
+          "nodes": 37,
+          "function_owner": "/Game/World/BlueprintWorld/Crowd/BP_StreetCitizen.BP_StreetCitizen_C",
+          "bytecode": 902,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:1",
+            "K2Node_FunctionEntry.NewFar= links:4",
+            "K2Node_FunctionResult.execute= links:4",
+            "K2Node_VariableGet.FarMode=false links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.Busy=false links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.CharacterMovement= links:5",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.CapsuleComponent= links:2",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.Mesh= links:2",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=false links:1",
+            "K2Node_CallFunction.B=false links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.FarMode=false links:1",
+            "K2Node_VariableSet.Output_Get=false links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.bEnabled=false links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.NewType=NoCollision links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.bEnabled=false links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.TickInterval=.5 links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.WorldContextObject= links:0",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.FarLastUpdate=0.0 links:1",
+            "K2Node_VariableSet.Output_Get=0.0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.bEnabled=false links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.NewType=QueryAndPhysics links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.bEnabled=true links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.bEnabled=true links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.NewMovementMode=MOVE_NavWalking links:0",
+            "K2Node_CallFunction.NewCustomMode=0 links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.TickInterval=.35 links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.bEnabled=true links:0",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=false links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=false links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=false links:1",
+            "K2Node_CallFunction.B=false links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.ReturnValue= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Object= links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=false links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=false links:1",
+            "K2Node_CallFunction.B=false links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=false links:1",
+            "K2Node_CallFunction.B=false links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "RecoverRouteProgress",
+          "nodes": 37,
+          "function_owner": "/Game/World/BlueprintWorld/Crowd/BP_StreetCitizen.BP_StreetCitizen_C",
+          "bytecode": 1255,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:1",
+            "K2Node_FunctionResult.execute= links:5",
+            "K2Node_VariableGet.ProgressPoint=0, 0, 0 links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.ProgressTime=0.0 links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.RouteRetries=0 links:2",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.Route= links:2",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.RouteIndex=0 links:2",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.WorldContextObject= links:0",
+            "K2Node_CallFunction.ReturnValue=0.0 links:3",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:2",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.V1=0, 0, 0 links:1",
+            "K2Node_CallFunction.V2=0, 0, 0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.B=225 links:0",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.ProgressPoint=0, 0, 0 links:1",
+            "K2Node_VariableSet.Output_Get=0, 0, 0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.ProgressTime=0.0 links:1",
+            "K2Node_VariableSet.Output_Get=0.0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.RouteRetries=0 links:0",
+            "K2Node_VariableSet.Output_Get=0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.B=1.000000 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.B=4 links:0",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallArrayFunction.ReturnValue=0 links:2",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=1 links:0",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=1 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.RouteRetries=0 links:1",
+            "K2Node_VariableSet.Output_Get=0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=2 links:0",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=1 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=1 links:1",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.RouteIndex=0 links:1",
+            "K2Node_VariableSet.Output_Get=0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.RouteRetries=0 links:0",
+            "K2Node_VariableSet.Output_Get=0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.ReturnValue= links:1",
+            "K2Node_DynamicCast.Object= links:1",
+            "K2Node_DynamicCast.AsAIController= links:2",
+            "K2Node_DynamicCast.bSuccess= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Object= links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:2",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallArrayFunction.Index=0 links:1",
+            "K2Node_CallArrayFunction.Item= links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Goal=0, 0, 0 links:1",
+            "K2Node_CallFunction.ReturnValue=false links:0",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.ProgressTime=0.0 links:1",
+            "K2Node_VariableSet.Output_Get=0.0 links:0",
+            "K2Node_VariableSet.self= links:0"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "ReceiveTick",
+          "nodes": 29,
+          "function_owner": "/Game/World/BlueprintWorld/Crowd/BP_StreetCitizen.BP_StreetCitizen_C",
+          "bytecode": 907,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:1",
+            "K2Node_FunctionEntry.DeltaSeconds=0.0 links:1",
+            "K2Node_FunctionResult.execute= links:5",
+            "K2Node_VariableGet.Route= links:2",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.RouteIndex=0 links:2",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallArrayFunction.ReturnValue=0 links:2",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=1 links:0",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_VariableGet.Busy=false links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.FarMode=false links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallArrayFunction.self= links:0",
+            "K2Node_CallArrayFunction.TargetArray= links:1",
+            "K2Node_CallArrayFunction.Index=0 links:1",
+            "K2Node_CallArrayFunction.Item= links:2",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0, 0, 0 links:1",
+            "K2Node_CallFunction.B=0, 0, 0 links:1",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0, 0, 0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.B=90 links:0",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Dt=0.0 links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.NewFar=false links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=1 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=1 links:1",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.RouteIndex=0 links:1",
+            "K2Node_VariableSet.Output_Get=0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_CallFunction.execute= links:2",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Goal=0, 0, 0 links:1",
+            "K2Node_CallFunction.ReturnValue=false links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.ReturnValue= links:1",
+            "K2Node_DynamicCast.Object= links:1",
+            "K2Node_DynamicCast.AsAIController= links:1",
+            "K2Node_DynamicCast.bSuccess= links:0",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.ReturnValue=Idle links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=3 links:0",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "EventGraph",
+          "nodes": 3,
+          "pins": [
+            "K2Node_Event.OutputDelegate= links:0",
+            "K2Node_Event.then= links:0",
+            "K2Node_Event.OutputDelegate= links:0",
+            "K2Node_Event.then= links:0",
+            "K2Node_Event.OtherActor= links:0",
+            "K2Node_Event.OutputDelegate= links:0",
+            "K2Node_Event.then= links:0",
+            "K2Node_Event.DeltaSeconds=0.0 links:0"
+          ],
+          "native_calls": []
+        }
+      ],
+      "logic_nodes": 192,
+      "compiled": true
+    },
+    "/Game/Delivery/BlueprintGameplay/UI/BP_BlueprintHUD": {
+      "asset": "/Game/Delivery/BlueprintGameplay/UI/BP_BlueprintHUD.BP_BlueprintHUD",
+      "parent": "/Script/Engine.HUD",
+      "graphs": [
+        {
+          "name": "UserConstructionScript",
+          "nodes": 1,
+          "function_owner": "/Script/Engine.Actor",
+          "bytecode": 0,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:0"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "ReceiveTick",
+          "nodes": 15,
+          "function_owner": "/Game/Delivery/BlueprintGameplay/UI/BP_BlueprintHUD.BP_BlueprintHUD_C",
+          "bytecode": 524,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:1",
+            "K2Node_FunctionEntry.DeltaSeconds=0.0 links:1",
+            "K2Node_FunctionResult.execute= links:2",
+            "K2Node_VariableGet.HudPosition=0, 0, 0 links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_VariableGet.HudReady=false links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.WorldContextObject= links:0",
+            "K2Node_CallFunction.PlayerIndex=0 links:0",
+            "K2Node_CallFunction.ReturnValue= links:2",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Object= links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:2",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.V1=0, 0, 0 links:1",
+            "K2Node_CallFunction.V2=0, 0, 0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.B=.0001 links:0",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.B=1.000000 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.B=0.0 links:0",
+            "K2Node_CallFunction.bPickA=false links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.HudSpeed=0.0 links:1",
+            "K2Node_VariableSet.Output_Get=0.0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.HudPosition=0, 0, 0 links:1",
+            "K2Node_VariableSet.Output_Get=0, 0, 0 links:0",
+            "K2Node_VariableSet.self= links:0",
+            "K2Node_VariableSet.execute= links:1",
+            "K2Node_VariableSet.then= links:1",
+            "K2Node_VariableSet.HudReady=true links:0",
+            "K2Node_VariableSet.Output_Get=false links:0",
+            "K2Node_VariableSet.self= links:0"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "ReceiveDrawHUD",
+          "nodes": 83,
+          "function_owner": "/Game/Delivery/BlueprintGameplay/UI/BP_BlueprintHUD.BP_BlueprintHUD_C",
+          "bytecode": 5540,
+          "pins": [
+            "K2Node_FunctionEntry.then= links:1",
+            "K2Node_FunctionEntry.SizeX=0 links:2",
+            "K2Node_FunctionEntry.SizeY=0 links:2",
+            "K2Node_FunctionResult.execute= links:5",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.WorldContextObject= links:0",
+            "K2Node_CallFunction.PlayerIndex=0 links:0",
+            "K2Node_CallFunction.ReturnValue= links:1",
+            "K2Node_DynamicCast.Object= links:1",
+            "K2Node_DynamicCast.AsBP Blueprint Rider= links:3",
+            "K2Node_DynamicCast.bSuccess= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Object= links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_VariableGet.Delivery= links:3",
+            "K2Node_VariableGet.self= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Object= links:1",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.WorldContextObject= links:0",
+            "K2Node_CallFunction.ReturnValue=false links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=2 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:7",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=2 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:7",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=300 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:3",
+            "K2Node_VariableGet.PhoneOpen=false links:1",
+            "K2Node_VariableGet.self= links:1",
+            "K2Node_IfThenElse.execute= links:1",
+            "K2Node_IfThenElse.Condition=true links:1",
+            "K2Node_IfThenElse.then= links:1",
+            "K2Node_IfThenElse.else= links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.RectColor=(R=.035,G=.07,B=.085,A=.96) links:0",
+            "K2Node_CallFunction.ScreenX=0.0 links:1",
+            "K2Node_CallFunction.ScreenY=16 links:0",
+            "K2Node_CallFunction.ScreenW=284 links:0",
+            "K2Node_CallFunction.ScreenH=96 links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.RectColor=(R=.075,G=.15,B=.17,A=.98) links:0",
+            "K2Node_CallFunction.ScreenX=0.0 links:1",
+            "K2Node_CallFunction.ScreenY=20 links:0",
+            "K2Node_CallFunction.ScreenW=276 links:0",
+            "K2Node_CallFunction.ScreenH=88 links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=4 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Text=RUTA / BOGOTA links:0",
+            "K2Node_CallFunction.TextColor=(R=.19,G=.9,B=.83,A=1) links:0",
+            "K2Node_CallFunction.ScreenX=0.0 links:1",
+            "K2Node_CallFunction.ScreenY=27 links:0",
+            "K2Node_CallFunction.Font= links:0",
+            "K2Node_CallFunction.Scale=1.2 links:0",
+            "K2Node_CallFunction.bScalePosition=false links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=14 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:3",
+            "K2Node_VariableGet.Balance=0 links:1",
+            "K2Node_VariableGet.self= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=$  links:0",
+            "K2Node_CallFunction.B= links:1",
+            "K2Node_CallFunction.ReturnValue= links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Text= links:1",
+            "K2Node_CallFunction.TextColor=(R=.88,G=.96,B=.91,A=1) links:0",
+            "K2Node_CallFunction.ScreenX=0.0 links:1",
+            "K2Node_CallFunction.ScreenY=55 links:0",
+            "K2Node_CallFunction.Font= links:0",
+            "K2Node_CallFunction.Scale=1.2 links:0",
+            "K2Node_CallFunction.bScalePosition=false links:0",
+            "K2Node_CallFunction.self= links:1",
+            "K2Node_CallFunction.ReturnValue=0, 0, 0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0, 0, 0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.B=.036 links:0",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_VariableGet.HudSpeed=0.0 links:1",
+            "K2Node_VariableGet.self= links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0.0 links:1",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A= links:1",
+            "K2Node_CallFunction.B= km/h links:0",
+            "K2Node_CallFunction.ReturnValue= links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Text= links:1",
+            "K2Node_CallFunction.TextColor=(R=.88,G=.96,B=.91,A=1) links:0",
+            "K2Node_CallFunction.ScreenX=0.0 links:1",
+            "K2Node_CallFunction.ScreenY=80 links:0",
+            "K2Node_CallFunction.Font= links:0",
+            "K2Node_CallFunction.Scale=1.000000 links:0",
+            "K2Node_CallFunction.bScalePosition=false links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=90 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:3",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.RectColor=(R=.04,G=.10,B=.12,A=.94) links:0",
+            "K2Node_CallFunction.ScreenX=280 links:0",
+            "K2Node_CallFunction.ScreenY=0.0 links:1",
+            "K2Node_CallFunction.ScreenW=670 links:0",
+            "K2Node_CallFunction.ScreenH=68 links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Text=[TAB] Celular   [E] Accion   [F] Subir / bajar links:0",
+            "K2Node_CallFunction.TextColor=(R=.88,G=.96,B=.91,A=1) links:0",
+            "K2Node_CallFunction.ScreenX=296 links:0",
+            "K2Node_CallFunction.ScreenY=0.0 links:1",
+            "K2Node_CallFunction.Font= links:0",
+            "K2Node_CallFunction.Scale=1.1 links:0",
+            "K2Node_CallFunction.bScalePosition=false links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=12 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Text=[WASD] Mover   [MOUSE] Mirar / dirigir   [ESC] Pausa links:0",
+            "K2Node_CallFunction.TextColor=(R=.88,G=.96,B=.91,A=1) links:0",
+            "K2Node_CallFunction.ScreenX=296 links:0",
+            "K2Node_CallFunction.ScreenY=0.0 links:1",
+            "K2Node_CallFunction.Font= links:0",
+            "K2Node_CallFunction.Scale=1.000000 links:0",
+            "K2Node_CallFunction.bScalePosition=false links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=38 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.RectColor=(R=.005,G=.02,B=.025,A=.78) links:0",
+            "K2Node_CallFunction.ScreenX=0.0 links:0",
+            "K2Node_CallFunction.ScreenY=0.0 links:0",
+            "K2Node_CallFunction.ScreenW=10000 links:0",
+            "K2Node_CallFunction.ScreenH=10000 links:0",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.RectColor=(R=.025,G=.055,B=.07,A=1) links:0",
+            "K2Node_CallFunction.ScreenX=400 links:1",
+            "K2Node_CallFunction.ScreenY=180 links:1",
+            "K2Node_CallFunction.ScreenW=480 links:0",
+            "K2Node_CallFunction.ScreenH=350 links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=-240 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=-180 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.RectColor=(R=.075,G=.15,B=.17,A=1) links:0",
+            "K2Node_CallFunction.ScreenX=408 links:1",
+            "K2Node_CallFunction.ScreenY=188 links:1",
+            "K2Node_CallFunction.ScreenW=464 links:0",
+            "K2Node_CallFunction.ScreenH=334 links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=-232 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=-172 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Text=PAUSA links:0",
+            "K2Node_CallFunction.TextColor=(R=.2,G=.9,B=.84,A=1) links:0",
+            "K2Node_CallFunction.ScreenX=440 links:1",
+            "K2Node_CallFunction.ScreenY=218 links:1",
+            "K2Node_CallFunction.Font= links:0",
+            "K2Node_CallFunction.Scale=2 links:0",
+            "K2Node_CallFunction.bScalePosition=false links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=-200 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=-142 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Text=[ESC] Volver a la ciudad links:0",
+            "K2Node_CallFunction.TextColor=(R=.88,G=.96,B=.91,A=1) links:0",
+            "K2Node_CallFunction.ScreenX=440 links:1",
+            "K2Node_CallFunction.ScreenY=275 links:1",
+            "K2Node_CallFunction.Font= links:0",
+            "K2Node_CallFunction.Scale=1.3 links:0",
+            "K2Node_CallFunction.bScalePosition=false links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=-200 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=-85 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Text=Tu recorrido queda detenido. links:0",
+            "K2Node_CallFunction.TextColor=(R=.88,G=.96,B=.91,A=1) links:0",
+            "K2Node_CallFunction.ScreenX=440 links:1",
+            "K2Node_CallFunction.ScreenY=320 links:1",
+            "K2Node_CallFunction.Font= links:0",
+            "K2Node_CallFunction.Scale=1.1 links:0",
+            "K2Node_CallFunction.bScalePosition=false links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=-200 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=-40 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Text=El progreso se guarda al jugar. links:0",
+            "K2Node_CallFunction.TextColor=(R=.88,G=.96,B=.91,A=1) links:0",
+            "K2Node_CallFunction.ScreenX=440 links:1",
+            "K2Node_CallFunction.ScreenY=360 links:1",
+            "K2Node_CallFunction.Font= links:0",
+            "K2Node_CallFunction.Scale=1.1 links:0",
+            "K2Node_CallFunction.bScalePosition=false links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=-200 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=0 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.execute= links:1",
+            "K2Node_CallFunction.then= links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.Text=BOGOTA VOXEL links:0",
+            "K2Node_CallFunction.TextColor=(R=.9,G=.63,B=.25,A=1) links:0",
+            "K2Node_CallFunction.ScreenX=440 links:1",
+            "K2Node_CallFunction.ScreenY=460 links:1",
+            "K2Node_CallFunction.Font= links:0",
+            "K2Node_CallFunction.Scale=1.000000 links:0",
+            "K2Node_CallFunction.bScalePosition=false links:0",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=-200 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.A=0 links:1",
+            "K2Node_CallFunction.B=100 links:0",
+            "K2Node_CallFunction.ReturnValue=0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1",
+            "K2Node_CallFunction.self= links:0",
+            "K2Node_CallFunction.InInt=0 links:1",
+            "K2Node_CallFunction.ReturnValue=0.0 links:1"
+          ],
+          "native_calls": []
+        },
+        {
+          "name": "EventGraph",
+          "nodes": 3,
+          "pins": [
+            "K2Node_Event.OutputDelegate= links:0",
+            "K2Node_Event.then= links:0",
+            "K2Node_Event.OutputDelegate= links:0",
+            "K2Node_Event.then= links:0",
+            "K2Node_Event.OtherActor= links:0",
+            "K2Node_Event.OutputDelegate= links:0",
+            "K2Node_Event.then= links:0",
+            "K2Node_Event.DeltaSeconds=0.0 links:0"
+          ],
+          "native_calls": []
+        }
+      ],
+      "logic_nodes": 102,
+      "compiled": true
+    }
+  },
+  "api": {
+    "set_lods": "x.set_lods(static_mesh, reduction_options) -> int32\r\nSame as SetLodsWithNotification but changes are applied.\r\n\r\nArgs:\r\n    static_mesh (StaticMesh): \r\n    reduction_options (StaticMeshReductionOptions): \r\n\r\nReturns:\r\n    int32:",
+    "get_lod_screen_sizes": "x.get_lod_screen_sizes(static_mesh) -> Array[float]\r\nGet an array of LOD screen sizes for evaluation.\r\n\r\nArgs:\r\n    static_mesh (StaticMesh): Mesh to process.\r\n\r\nReturns:\r\n    Array[float]: array of LOD screen sizes.",
+    "create_new_streaming_level": "X.create_new_streaming_level(level_streaming_class, new_level_path=\"\", move_selected_actors_into_new_level=False) -> LevelStreaming\r\nCreates a new streaming level in the current world\r\n\r\nArgs:\r\n    level_streaming_class (type(Class)): The streaming class type instead to use for the level.\r\n    new_level_path (str): Optional path to the level package path format (\"e.g /Game/MyLevel\").  If empty, the user will be prompted during the save process.\r\n    move_selected_actors_into_new_level (bool): If true, move any selected actors into the new level.\r\n\r\nReturns:\r\n    LevelStreaming: Returns the newly created level, or NULL on failure",
+    "move_actors_to_level": "X.move_actors_to_level(actors_to_move, dest_streaming_level, warn_about_references=True, warn_about_renaming=True) -> int32\r\nMoves the specified list of actors to the specified streaming level. The new actors will be selected\r\n\r\nArgs:\r\n    actors_to_move (Array[Actor]): List of actors to move\r\n    dest_streaming_level (LevelStreaming): The destination streaming level of the current world to move the actors to\r\n    warn_about_references (bool): Whether or not to show a modal warning about referenced actors that may no longer function after being moved\r\n    warn_about_renaming (bool): \r\n\r\nReturns:\r\n    int32: The number of actors that were successfully moved to the new level"
+  }
+}

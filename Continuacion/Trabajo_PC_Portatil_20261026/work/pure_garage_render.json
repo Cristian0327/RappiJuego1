@@ -1,0 +1,14 @@
+{
+  "status": "COMPILED_STAGING",
+  "functions": [
+    "EnsurePreviewTexture",
+    "PaintPreview",
+    "DisplayModel"
+  ],
+  "native_calls": false,
+  "pending": [
+    "Paint material selection",
+    "Phone model selection integration",
+    "Runtime visual verification"
+  ]
+}

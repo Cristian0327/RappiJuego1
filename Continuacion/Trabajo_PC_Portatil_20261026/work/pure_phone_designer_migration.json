@@ -1,0 +1,23 @@
+{
+  "status": "STAGING_DESIGNER_ONLY",
+  "asset": "/Game/Delivery/BlueprintGameplay/UI/WBP_BlueprintPhone",
+  "parent": "/Script/UMG.UserWidget",
+  "widgets": 368,
+  "classes": {
+    "/Script/UMG.CanvasPanel": 6,
+    "/Script/UMG.Border": 4,
+    "/Script/UMG.Image": 26,
+    "/Script/UMG.TextBlock": 171,
+    "/Script/UMG.ProgressBar": 2,
+    "/Script/UMG.Button": 159
+  },
+  "layout_value_checks": 636,
+  "legacy_custom_widgets_replaced": 59,
+  "native_widget_classes": 0,
+  "pending": [
+    "All phone lifecycle and page logic",
+    "Map drawing and click targeting",
+    "Garage preview",
+    "Bindings and input integration"
+  ]
+}

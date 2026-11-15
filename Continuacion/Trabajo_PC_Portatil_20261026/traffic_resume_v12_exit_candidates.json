@@ -1,0 +1,64 @@
+{
+  "time": 365.170186,
+  "report": [
+    {
+      "index": 37,
+      "lane": 4,
+      "event": {
+        "junction": 1,
+        "entry": 259943.67696155165,
+        "exit": 267818.67696155165,
+        "direction": [
+          0.7775989418542724,
+          -0.6287605948428353
+        ],
+        "span": 7875.0,
+        "group": 1,
+        "movement": 10
+      },
+      "stop_ahead": -4.483387101572589e-07,
+      "downstream": [
+        {
+          "name": "car:22",
+          "ahead": 2311.2216698569246,
+          "free_gap": 1877.0616698569247,
+          "lateral": 0.0006838803675805805,
+          "alignment": 0.9999999999999994
+        },
+        {
+          "name": "car:56",
+          "ahead": 3778.7740565294516,
+          "free_gap": 3344.614056529452,
+          "lateral": 0.00012624959458698695,
+          "alignment": 0.9999999999999997
+        },
+        {
+          "name": "BP_CivilMotorcycle_C_4",
+          "ahead": 3045.391973784892,
+          "free_gap": 2695.391973784892,
+          "lateral": 0.6838771914246925,
+          "alignment": 0.999991754115131
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "lane": 2,
+      "event": {
+        "junction": 2,
+        "entry": 114750.91267136947,
+        "exit": 124650.91267136947,
+        "direction": [
+          0.693147779755261,
+          -0.7207955018036338
+        ],
+        "span": 9900.0,
+        "group": 0,
+        "movement": 29
+      },
+      "stop_ahead": 3.69476538253366e-07,
+      "downstream": []
+    }
+  ],
+  "note": "Geometric downstream candidates only; live reservation ownership still requires engine diagnostics."
+}

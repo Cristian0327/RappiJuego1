@@ -1,0 +1,392 @@
+{
+  "services": [
+    {
+      "name": "BP_CivilMotorcycle_C_0",
+      "samples": 74,
+      "travel_cm": 8959.630798850663,
+      "last_motion_time": 100.279105,
+      "longest_stationary_seconds": 265.02501,
+      "max_lateral_cm": 57.5072835426955,
+      "p95_lateral_cm": 57.5072835426955,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_CivilMotorcycle_C_1",
+      "samples": 74,
+      "travel_cm": 21395.842275841285,
+      "last_motion_time": 135.29947,
+      "longest_stationary_seconds": 230.004645,
+      "max_lateral_cm": 455.6492489908369,
+      "p95_lateral_cm": 455.6492489908369,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_CivilMotorcycle_C_10",
+      "samples": 74,
+      "travel_cm": 13699.717748511513,
+      "last_motion_time": 165.245618,
+      "longest_stationary_seconds": 200.05849700000002,
+      "max_lateral_cm": 316.49785446277156,
+      "p95_lateral_cm": 316.49785446277156,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_CivilMotorcycle_C_11",
+      "samples": 74,
+      "travel_cm": 64944.17738653421,
+      "last_motion_time": 365.304115,
+      "longest_stationary_seconds": 30.104192000000012,
+      "max_lateral_cm": 223.1325438094668,
+      "p95_lateral_cm": 69.09148577628953,
+      "last_speed": 637.4403270526583
+    },
+    {
+      "name": "BP_CivilMotorcycle_C_12",
+      "samples": 74,
+      "travel_cm": 3273.2067701651968,
+      "last_motion_time": 15.568405,
+      "longest_stationary_seconds": 349.73571000000004,
+      "max_lateral_cm": 52.82711282150854,
+      "p95_lateral_cm": 25.99762917089519,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_CivilMotorcycle_C_2",
+      "samples": 74,
+      "travel_cm": 14738.448623623024,
+      "last_motion_time": 95.302543,
+      "longest_stationary_seconds": 270.001572,
+      "max_lateral_cm": 393.7432811067468,
+      "p95_lateral_cm": 379.86377459476876,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_CivilMotorcycle_C_3",
+      "samples": 74,
+      "travel_cm": 64472.033075234714,
+      "last_motion_time": 365.304115,
+      "longest_stationary_seconds": 30.126811999999973,
+      "max_lateral_cm": 575.6226534573462,
+      "p95_lateral_cm": 452.24740037243373,
+      "last_speed": 457.8927133204895
+    },
+    {
+      "name": "BP_CivilMotorcycle_C_4",
+      "samples": 74,
+      "travel_cm": 19040.579153940605,
+      "last_motion_time": 110.414053,
+      "longest_stationary_seconds": 254.89006200000003,
+      "max_lateral_cm": 424.93375500669555,
+      "p95_lateral_cm": 317.4065302319794,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_CivilMotorcycle_C_5",
+      "samples": 74,
+      "travel_cm": 4107.246545791734,
+      "last_motion_time": 70.476229,
+      "longest_stationary_seconds": 294.82788600000003,
+      "max_lateral_cm": 568.5384350199532,
+      "p95_lateral_cm": 568.5384350199532,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_CivilMotorcycle_C_6",
+      "samples": 74,
+      "travel_cm": 23814.98501712623,
+      "last_motion_time": 190.203105,
+      "longest_stationary_seconds": 175.10101000000003,
+      "max_lateral_cm": 533.8844343959419,
+      "p95_lateral_cm": 381.28361614678556,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_CivilMotorcycle_C_7",
+      "samples": 74,
+      "travel_cm": 4317.391727303613,
+      "last_motion_time": 35.328617,
+      "longest_stationary_seconds": 329.975498,
+      "max_lateral_cm": 653.6803794485886,
+      "p95_lateral_cm": 653.6803794485886,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_CivilMotorcycle_C_8",
+      "samples": 74,
+      "travel_cm": 5737.126408714921,
+      "last_motion_time": 30.395176,
+      "longest_stationary_seconds": 334.90893900000003,
+      "max_lateral_cm": 251.3105048948809,
+      "p95_lateral_cm": 238.4885563245967,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_CivilMotorcycle_C_9",
+      "samples": 74,
+      "travel_cm": 44383.5632428933,
+      "last_motion_time": 365.304115,
+      "longest_stationary_seconds": 20.057699999999997,
+      "max_lateral_cm": 507.55098646105864,
+      "p95_lateral_cm": 371.7161108353089,
+      "last_speed": 101.4222171173555
+    },
+    {
+      "name": "BP_PoliceMotorcycle_C_0",
+      "samples": 74,
+      "travel_cm": 37555.31419825564,
+      "last_motion_time": 180.44252,
+      "longest_stationary_seconds": 184.86159500000002,
+      "max_lateral_cm": 773.2484731096285,
+      "p95_lateral_cm": 500.1718642192794,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_PoliceMotorcycle_C_1",
+      "samples": 74,
+      "travel_cm": 35383.70929792414,
+      "last_motion_time": 170.329969,
+      "longest_stationary_seconds": 194.97414600000002,
+      "max_lateral_cm": 391.4641007180893,
+      "p95_lateral_cm": 320.14618628057633,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_PoliceMotorcycle_C_2",
+      "samples": 74,
+      "travel_cm": 10785.519816176484,
+      "last_motion_time": 55.379122,
+      "longest_stationary_seconds": 309.92499300000003,
+      "max_lateral_cm": 375.43059894156585,
+      "p95_lateral_cm": 341.9637015145479,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_PoliceMotorcycle_C_3",
+      "samples": 74,
+      "travel_cm": 10010.776457884542,
+      "last_motion_time": 50.332331,
+      "longest_stationary_seconds": 314.971784,
+      "max_lateral_cm": 538.9780219419183,
+      "p95_lateral_cm": 538.9780219419183,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_PoliceMotorcycle_C_4",
+      "samples": 74,
+      "travel_cm": 40384.69039108042,
+      "last_motion_time": 365.304115,
+      "longest_stationary_seconds": 120.02021200000001,
+      "max_lateral_cm": 599.5542585568534,
+      "p95_lateral_cm": 454.67928560996603,
+      "last_speed": 323.0634833542782
+    },
+    {
+      "name": "BP_PoliceMotorcycle_C_5",
+      "samples": 74,
+      "travel_cm": 75979.89659005789,
+      "last_motion_time": 365.304115,
+      "longest_stationary_seconds": 30.104192000000012,
+      "max_lateral_cm": 1544.391306413522,
+      "p95_lateral_cm": 459.1672855871142,
+      "last_speed": 649.9999561999986
+    },
+    {
+      "name": "BP_PoliceRoadPatrol_C_0",
+      "samples": 74,
+      "travel_cm": 3103.3124383720956,
+      "last_motion_time": 15.568405,
+      "longest_stationary_seconds": 349.73571000000004,
+      "max_lateral_cm": 144.76792723065114,
+      "p95_lateral_cm": 144.76792723065114,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_PoliceRoadPatrol_C_1",
+      "samples": 74,
+      "travel_cm": 29679.604594939086,
+      "last_motion_time": 180.44252,
+      "longest_stationary_seconds": 184.86159500000002,
+      "max_lateral_cm": 421.1637905393834,
+      "p95_lateral_cm": 421.1637905393834,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_PoliceRoadPatrol_C_2",
+      "samples": 74,
+      "travel_cm": 46418.186783012454,
+      "last_motion_time": 340.524558,
+      "longest_stationary_seconds": 24.77955700000001,
+      "max_lateral_cm": 452.93338296077195,
+      "p95_lateral_cm": 414.8331035437975,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_PoliceRoadPatrol_C_3",
+      "samples": 74,
+      "travel_cm": 3547.6262645357424,
+      "last_motion_time": 35.328617,
+      "longest_stationary_seconds": 329.975498,
+      "max_lateral_cm": 292.802588234057,
+      "p95_lateral_cm": 292.802588234057,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_PoliceRoadPatrol_C_4",
+      "samples": 74,
+      "travel_cm": 15850.98123730344,
+      "last_motion_time": 190.203105,
+      "longest_stationary_seconds": 175.10101000000003,
+      "max_lateral_cm": 1106.1163850326952,
+      "p95_lateral_cm": 886.0236442259923,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_TwoWheelerCitizen_C_0",
+      "samples": 74,
+      "travel_cm": 34373.14939595734,
+      "last_motion_time": 85.299112,
+      "longest_stationary_seconds": 280.00500300000004,
+      "max_lateral_cm": 5.23000921728437,
+      "p95_lateral_cm": 1.0692860046909705,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_TwoWheelerCitizen_C_1",
+      "samples": 74,
+      "travel_cm": 61578.40423968677,
+      "last_motion_time": 365.304115,
+      "longest_stationary_seconds": 75.20640499999999,
+      "max_lateral_cm": 71.76465814544348,
+      "p95_lateral_cm": 7.527292353257433,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_TwoWheelerCitizen_C_10",
+      "samples": 74,
+      "travel_cm": 93267.34359152417,
+      "last_motion_time": 360.220756,
+      "longest_stationary_seconds": 59.889622,
+      "max_lateral_cm": 9.269301829621728,
+      "p95_lateral_cm": 3.7102068710097633,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_TwoWheelerCitizen_C_11",
+      "samples": 74,
+      "travel_cm": 59318.01369106535,
+      "last_motion_time": 330.576195,
+      "longest_stationary_seconds": 34.72792000000004,
+      "max_lateral_cm": 197.27550355129674,
+      "p95_lateral_cm": 144.6474590384906,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_TwoWheelerCitizen_C_2",
+      "samples": 74,
+      "travel_cm": 16051.051373580003,
+      "last_motion_time": 105.31853,
+      "longest_stationary_seconds": 259.985585,
+      "max_lateral_cm": 91.81662852233325,
+      "p95_lateral_cm": 55.578725982599785,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_TwoWheelerCitizen_C_3",
+      "samples": 74,
+      "travel_cm": 11285.908737855798,
+      "last_motion_time": 315.367569,
+      "longest_stationary_seconds": 124.63884600000002,
+      "max_lateral_cm": 176.9235954828971,
+      "p95_lateral_cm": 113.93565386680538,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_TwoWheelerCitizen_C_4",
+      "samples": 74,
+      "travel_cm": 50342.812640824515,
+      "last_motion_time": 345.242551,
+      "longest_stationary_seconds": 80.119968,
+      "max_lateral_cm": 188.69436770766544,
+      "p95_lateral_cm": 86.19049239519049,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_TwoWheelerCitizen_C_5",
+      "samples": 74,
+      "travel_cm": 67605.72148092692,
+      "last_motion_time": 360.220756,
+      "longest_stationary_seconds": 54.80131699999998,
+      "max_lateral_cm": 23.348966746131023,
+      "p95_lateral_cm": 7.184331820214864,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_TwoWheelerCitizen_C_6",
+      "samples": 74,
+      "travel_cm": 35078.311406071494,
+      "last_motion_time": 85.299112,
+      "longest_stationary_seconds": 280.00500300000004,
+      "max_lateral_cm": 4.223668825150271,
+      "p95_lateral_cm": 1.4159279879252515,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_TwoWheelerCitizen_C_7",
+      "samples": 74,
+      "travel_cm": 44261.3863819667,
+      "last_motion_time": 170.329969,
+      "longest_stationary_seconds": 194.97414600000002,
+      "max_lateral_cm": 3.3507098048120727,
+      "p95_lateral_cm": 1.670428820737875,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_TwoWheelerCitizen_C_8",
+      "samples": 74,
+      "travel_cm": 14731.6415284098,
+      "last_motion_time": 150.314297,
+      "longest_stationary_seconds": 214.989818,
+      "max_lateral_cm": 195.29596087575297,
+      "p95_lateral_cm": 120.80420650324686,
+      "last_speed": 0.0
+    },
+    {
+      "name": "BP_TwoWheelerCitizen_C_9",
+      "samples": 74,
+      "travel_cm": 80650.35608192766,
+      "last_motion_time": 365.304115,
+      "longest_stationary_seconds": 45.034931,
+      "max_lateral_cm": 24.39065063384126,
+      "p95_lateral_cm": 2.685370407786331,
+      "last_speed": 419.99993232023263
+    }
+  ],
+  "stalled_over_110": [
+    "BP_CivilMotorcycle_C_0",
+    "BP_CivilMotorcycle_C_1",
+    "BP_CivilMotorcycle_C_10",
+    "BP_CivilMotorcycle_C_12",
+    "BP_CivilMotorcycle_C_2",
+    "BP_CivilMotorcycle_C_4",
+    "BP_CivilMotorcycle_C_5",
+    "BP_CivilMotorcycle_C_6",
+    "BP_CivilMotorcycle_C_7",
+    "BP_CivilMotorcycle_C_8",
+    "BP_PoliceMotorcycle_C_0",
+    "BP_PoliceMotorcycle_C_1",
+    "BP_PoliceMotorcycle_C_2",
+    "BP_PoliceMotorcycle_C_3",
+    "BP_PoliceMotorcycle_C_4",
+    "BP_PoliceRoadPatrol_C_0",
+    "BP_PoliceRoadPatrol_C_1",
+    "BP_PoliceRoadPatrol_C_3",
+    "BP_PoliceRoadPatrol_C_4",
+    "BP_TwoWheelerCitizen_C_0",
+    "BP_TwoWheelerCitizen_C_2",
+    "BP_TwoWheelerCitizen_C_3",
+    "BP_TwoWheelerCitizen_C_6",
+    "BP_TwoWheelerCitizen_C_7",
+    "BP_TwoWheelerCitizen_C_8"
+  ],
+  "max_lateral_cm": 1544.391306413522
+}

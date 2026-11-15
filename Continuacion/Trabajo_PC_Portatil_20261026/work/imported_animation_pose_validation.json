@@ -1,0 +1,583 @@
+{
+  "status": "PASS",
+  "clips": [
+    {
+      "asset": "/Game/Delivery/People/A_Cashier_Work",
+      "idle": true,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.000012106613957,
+          "head_height_range_cm": [
+            125.22570510005865,
+            125.60188762995568
+          ],
+          "foot_joint_range_cm": [
+            25.57876962899305,
+            27.22024812587452
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.058352630412289,
+          "head_height_range_cm": [
+            125.42468309316337,
+            125.45862556963488
+          ],
+          "foot_joint_range_cm": [
+            25.41395964023289,
+            27.064291348300145
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Cashier_Walk",
+      "idle": false,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.53032110117378,
+          "head_height_range_cm": [
+            118.63217694264242,
+            124.5295106554707
+          ],
+          "foot_joint_range_cm": [
+            24.462792364807605,
+            36.92566703431416
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.52961825285786,
+          "head_height_range_cm": [
+            118.6240313328643,
+            124.55238563161797
+          ],
+          "foot_joint_range_cm": [
+            24.18721212966112,
+            36.83636863911039
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Chef_Work",
+      "idle": true,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.000016536039674,
+          "head_height_range_cm": [
+            134.1184951832759,
+            134.84215369942845
+          ],
+          "foot_joint_range_cm": [
+            25.516577816607217,
+            27.79535459137348
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.05835275631028,
+          "head_height_range_cm": [
+            134.17880847035556,
+            134.2127781626899
+          ],
+          "foot_joint_range_cm": [
+            24.85369474216448,
+            27.135944501185577
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Chef_Walk",
+      "idle": false,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.53032633702986,
+          "head_height_range_cm": [
+            126.95010143196822,
+            132.7082360719227
+          ],
+          "foot_joint_range_cm": [
+            24.43936060492277,
+            37.68660098990249
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.60776691254036,
+          "head_height_range_cm": [
+            126.94189844893602,
+            132.73055246612222
+          ],
+          "foot_joint_range_cm": [
+            24.198944281597996,
+            37.665218377076165
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/People/A_TechClerk_Work",
+      "idle": true,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.000010335849485,
+          "head_height_range_cm": [
+            136.21971520982248,
+            136.59835664091713
+          ],
+          "foot_joint_range_cm": [
+            25.5787755734495,
+            27.21542848622903
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.058349470356598,
+          "head_height_range_cm": [
+            136.4209039385958,
+            136.45488289419998
+          ],
+          "foot_joint_range_cm": [
+            25.41762408805978,
+            27.065369794825678
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/People/A_TechClerk_Walk",
+      "idle": false,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.53032184695596,
+          "head_height_range_cm": [
+            127.59122862616167,
+            133.99760180725278
+          ],
+          "foot_joint_range_cm": [
+            24.327337149491402,
+            37.31486513160864
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.60838257609342,
+          "head_height_range_cm": [
+            127.58302316029824,
+            134.02248232098702
+          ],
+          "foot_joint_range_cm": [
+            24.183865450079317,
+            36.98166183487628
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Pharmacist_Work",
+      "idle": true,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.000010900675612,
+          "head_height_range_cm": [
+            133.22113560901107,
+            133.59922697698005
+          ],
+          "foot_joint_range_cm": [
+            25.578770353600692,
+            27.216506468058206
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.058360039240496,
+          "head_height_range_cm": [
+            133.42182300052468,
+            133.45579942513388
+          ],
+          "foot_joint_range_cm": [
+            25.41684635659223,
+            27.065124771441347
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Pharmacist_Walk",
+      "idle": false,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.53032034630479,
+          "head_height_range_cm": [
+            125.04552870112846,
+            131.33877828141365
+          ],
+          "foot_joint_range_cm": [
+            24.4628003573358,
+            37.22837895902054
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.52962851914461,
+          "head_height_range_cm": [
+            125.0373284958479,
+            131.36319847226025
+          ],
+          "foot_joint_range_cm": [
+            24.104779464551164,
+            37.07190045576604
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Florist_Work",
+      "idle": true,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.000015144588813,
+          "head_height_range_cm": [
+            130.22254723936277,
+            130.60009583383513
+          ],
+          "foot_joint_range_cm": [
+            25.57877227770253,
+            27.21757013228996
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.058348187176708,
+          "head_height_range_cm": [
+            130.42275781389054,
+            130.45672250422237
+          ],
+          "foot_joint_range_cm": [
+            25.416088071267104,
+            27.064875964263322
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/People/A_Florist_Walk",
+      "idle": false,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.53031746753491,
+          "head_height_range_cm": [
+            122.49984640969487,
+            128.67997275880856
+          ],
+          "foot_joint_range_cm": [
+            24.462791289405665,
+            37.141886429397466
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.60776090522792,
+          "head_height_range_cm": [
+            122.49164680170614,
+            128.70396845754001
+          ],
+          "foot_joint_range_cm": [
+            24.246552122514785,
+            37.15423934653134
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerStudent_Work",
+      "idle": true,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.000010335849485,
+          "head_height_range_cm": [
+            136.21971520982248,
+            136.59835664091713
+          ],
+          "foot_joint_range_cm": [
+            25.5787755734495,
+            27.21542848622903
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.058349470356598,
+          "head_height_range_cm": [
+            136.4209039385958,
+            136.45488975278187
+          ],
+          "foot_joint_range_cm": [
+            25.41761763637026,
+            27.065369794825678
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerStudent_Walk",
+      "idle": false,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.53032184695596,
+          "head_height_range_cm": [
+            127.59122862616167,
+            133.99760180725278
+          ],
+          "foot_joint_range_cm": [
+            24.327337149491402,
+            37.31486513160864
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.60838257609342,
+          "head_height_range_cm": [
+            127.58302766616205,
+            134.0225899501741
+          ],
+          "foot_joint_range_cm": [
+            24.183865450079317,
+            36.98166183487628
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerOffice_Work",
+      "idle": true,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.000010900675612,
+          "head_height_range_cm": [
+            133.22113560901107,
+            133.59922697698005
+          ],
+          "foot_joint_range_cm": [
+            25.578770353600692,
+            27.216506468058206
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.058360039240496,
+          "head_height_range_cm": [
+            133.42182300052468,
+            133.45579347887045
+          ],
+          "foot_joint_range_cm": [
+            25.416693053196198,
+            27.065124771441347
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerOffice_Walk",
+      "idle": false,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.53032034630479,
+          "head_height_range_cm": [
+            125.04552870112846,
+            131.33877828141365
+          ],
+          "foot_joint_range_cm": [
+            24.4628003573358,
+            37.22837895902054
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.52962851914461,
+          "head_height_range_cm": [
+            125.0373284958479,
+            131.36319847226025
+          ],
+          "foot_joint_range_cm": [
+            24.104779464551164,
+            37.07190045576604
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerNeighbor_Work",
+      "idle": true,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.00001023737411,
+          "head_height_range_cm": [
+            134.22240689560985,
+            134.59969194096124
+          ],
+          "foot_joint_range_cm": [
+            25.57876643480239,
+            27.218104390563298
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.058348189870285,
+          "head_height_range_cm": [
+            134.4223721351901,
+            134.4563279287534
+          ],
+          "foot_joint_range_cm": [
+            25.4156982482273,
+            27.064752599787056
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/People/A_CustomerNeighbor_Walk",
+      "idle": false,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.53032490796899,
+          "head_height_range_cm": [
+            126.71945602285496,
+            132.84301930109314
+          ],
+          "foot_joint_range_cm": [
+            24.462787223603204,
+            37.098637035740595
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 42,
+          "max_knee_flexion_degrees": 94.6083857516426,
+          "head_height_range_cm": [
+            126.71125301772412,
+            132.8668886497222
+          ],
+          "foot_joint_range_cm": [
+            24.31748432236067,
+            37.197394687526355
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/VoxelExplorer/AN_Idle",
+      "idle": true,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.000005135094817,
+          "head_height_range_cm": [
+            132.54972723896717,
+            133.26927644364588
+          ],
+          "foot_joint_range_cm": [
+            22.263313797280087,
+            24.02366016405122
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.008312881111017,
+          "head_height_range_cm": [
+            132.54683588456277,
+            133.27222734613363
+          ],
+          "foot_joint_range_cm": [
+            22.257321577018065,
+            24.02579806844302
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Crowd/AN_CrowdIdle",
+      "idle": true,
+      "samples": [
+        {
+          "evaluation": "<AnimDataEvalType.RAW: 1>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.000005858259117,
+          "head_height_range_cm": [
+            132.53745823400374,
+            133.25703511421167
+          ],
+          "foot_joint_range_cm": [
+            22.25105315513533,
+            24.011387375717085
+          ]
+        },
+        {
+          "evaluation": "<AnimDataEvalType.COMPRESSED: 2>",
+          "frames": 236,
+          "max_knee_flexion_degrees": 10.007911744753507,
+          "head_height_range_cm": [
+            132.53456996392373,
+            133.25997072381918
+          ],
+          "foot_joint_range_cm": [
+            22.245058517401976,
+            24.013541446128567
+          ]
+        }
+      ]
+    }
+  ],
+  "count": 18,
+  "elderly_cane_sha256": "1742c809c0799c7abc0b7167d415febafb2dd6290787335d39536e9bccfc461e"
+}

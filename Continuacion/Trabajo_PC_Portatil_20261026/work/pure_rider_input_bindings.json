@@ -1,0 +1,103 @@
+{
+  "status": "STAGING_NOT_PROMOTED",
+  "inputs": [
+    {
+      "kind": "axis",
+      "name": "MoveForward",
+      "function": "MoveForward",
+      "parameter": "V"
+    },
+    {
+      "kind": "axis",
+      "name": "MoveRight",
+      "function": "MoveRight",
+      "parameter": "V"
+    },
+    {
+      "kind": "axis",
+      "name": "Turn",
+      "function": "Turn",
+      "parameter": "V"
+    },
+    {
+      "kind": "axis",
+      "name": "LookUp",
+      "function": "Look",
+      "parameter": "V"
+    },
+    {
+      "kind": "action",
+      "name": "KeyboardAction",
+      "pressed": "KeyboardActionPressed",
+      "released": "ActionReleased"
+    },
+    {
+      "kind": "action",
+      "name": "Interact",
+      "pressed": "ActionPressed",
+      "released": "ActionReleased"
+    },
+    {
+      "kind": "action",
+      "name": "Pickup",
+      "pressed": "PickupPressed",
+      "released": "PickupReleased"
+    },
+    {
+      "kind": "action",
+      "name": "Sprint",
+      "pressed": "StartSprint",
+      "released": "EndSprint"
+    },
+    {
+      "kind": "action",
+      "name": "Jump",
+      "pressed": "JumpOrBrake",
+      "released": "StopJump"
+    },
+    {
+      "kind": "action",
+      "name": "Vehicle",
+      "pressed": "VehiclePressed",
+      "released": ""
+    },
+    {
+      "kind": "action",
+      "name": "Phone",
+      "pressed": "PhonePressed",
+      "released": ""
+    },
+    {
+      "kind": "action",
+      "name": "AnimatedMount",
+      "pressed": "MountPressed",
+      "released": ""
+    },
+    {
+      "kind": "action",
+      "name": "Pause",
+      "pressed": "PausePressed",
+      "released": ""
+    }
+  ],
+  "bindings": [
+    {
+      "class": "/Script/Engine.InputActionDelegateBinding",
+      "InputActionDelegateBindings": 14
+    },
+    {
+      "class": "/Script/Engine.InputAxisDelegateBinding",
+      "InputAxisDelegateBindings": 4
+    }
+  ],
+  "functions_added": [
+    "ActionPressed",
+    "KeyboardActionPressed",
+    "PhonePressed"
+  ],
+  "runtime_cpp_bindings": false,
+  "pending": [
+    "Mount/vehicle simulation",
+    "Developer typed commands"
+  ]
+}

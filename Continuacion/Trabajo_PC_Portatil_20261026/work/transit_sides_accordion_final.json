@@ -1,0 +1,19 @@
+{
+  "status": "IMPLEMENTED_AND_TESTED",
+  "date": "2026-10-19",
+  "checks_passed": 43,
+  "runtime_checks": 39,
+  "articulation_editor_vm_checks": 4,
+  "mount_sides": "Player side detected before snapping; matching mirrored animation and55cm anchor compensation; left/right bicycle/motorcycle and rotated orientation tested",
+  "transit": "Optimized manager restored ExternalPawnClearance and TransitStopClearance;18second dwell;4passengers boarded visibly and alighted",
+  "articulation": "Blender accordion skin distributed between front/rear; trailer axle follows world hitch position, clamped42degrees, resets after teleport and straightens after curve",
+  "developer": "ESOYAM then F near bus; both sides and along-body approach, driving/exit/cabin tested",
+  "car_entry": "Two-sided Mixamo-derived entry, correct inward facing, smooth translation,1.3second transition, closed cabin retained",
+  "runtime_cpp": false,
+  "github_untouched": true,
+  "logs": [
+    "work/TransitMountSidesRuntime2.log",
+    "work/DeveloperBusRoadRuntime.log",
+    "work/accordion_following_validation.json"
+  ]
+}

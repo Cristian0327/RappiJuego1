@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "task": {
+    "action": "play",
+    "map": "/Game/Maps/MapaCompleto_Integration"
+  }
+}

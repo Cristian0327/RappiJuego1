@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('work/rig_store_people.py');s=p.read_text();s=s.replace("ROOT/'outputs/DeliveryArt/HighFidelity'", "ROOT/'outputs/DeliveryArt/People/Segments'");a=s.index(' # Split greedy');b=s.index(' # One palette',a);s=s[:a]+s[b:];a=s.index(' groups={');b=s.index(' mod=obj.modifiers',a);s=s[:a]+" # Rigid closed pieces keep their artist-defined bone groups.\n"+s[b:];Path('work/rig_segmented_people.py').write_text(s)

@@ -1,0 +1,113 @@
+{
+  "status": "STAGING_NOT_PROMOTED",
+  "tables": [
+    {
+      "asset": "/Game/Delivery/BlueprintSchema/Tables/DT_Upgrades",
+      "source": "/Game/Delivery/Data/DT_Upgrades.DT_Upgrades",
+      "rows": 13,
+      "struct": "/Game/Delivery/BlueprintSchema/ST_DeliveryUpgrade.ST_DeliveryUpgrade",
+      "source_sample": [
+        {
+          "Name": "BikePedals",
+          "Title": "NSLOCTEXT(\"DT_Upgrades [697C6BC86729E0A7C3A28C24D1474DA5]\", \"BikePedals_Title\", \"Pedales de lujo\")",
+          "Price": 15000,
+          "Prerequisite": "None",
+          "Effect": "BikeCapacity",
+          "Magnitude": 0.1,
+          "SortIndex": 0
+        }
+      ],
+      "converted_sample": [
+        {
+          "Name": "BikePedals",
+          "Title": "NSLOCTEXT(\"DT_Upgrades [F1EB72E7FBD9DC01E542534DF64CB1F2]\", \"279CE75C4371EAD4C8EDDFBC68400851\", \"Pedales de lujo\")",
+          "Price": 15000,
+          "Prerequisite": "None",
+          "Effect": "BikeCapacity",
+          "Magnitude": 0.1,
+          "SortIndex": 0
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintSchema/Tables/DT_StoreThemes",
+      "source": "/Game/Delivery/Data/DT_StoreThemes.DT_StoreThemes",
+      "rows": 13,
+      "struct": "/Game/Delivery/BlueprintSchema/ST_DeliveryShopTheme.ST_DeliveryShopTheme",
+      "source_sample": [
+        {
+          "Name": "MarketLocal",
+          "Category": 0,
+          "Title": "NSLOCTEXT(\"DT_StoreThemes [D87708678BA42946A048B902AAE4F395]\", \"MarketLocal_Title\", \"Mercado Don Lucho\")",
+          "FrontMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_MarketFront_Voxel.SM_MarketFront_Voxel'",
+          "InteriorMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_MarketInterior_Voxel.SM_MarketInterior_Voxel'",
+          "ProductMeshes": [
+            "SM_Milk",
+            "SM_Rice",
+            "SM_Apples"
+          ],
+          "ProductNames": [
+            "NSLOCTEXT(\"DT_StoreThemes [D87708678BA42946A048B902AAE4F395]\", \"MarketLocal_ProductNames_Index0\", \"leche\")",
+            "NSLOCTEXT(\"DT_StoreThemes [D87708678BA42946A048B902AAE4F395]\", \"MarketLocal_ProductNames_Index1\", \"arroz\")",
+            "NSLOCTEXT(\"DT_StoreThemes [D87708678BA42946A048B902AAE4F395]\", \"MarketLocal_ProductNames_Index2\", \"manzanas\")"
+          ],
+          "PurchaseBudget": 18500,
+          "WidthMeters": 24,
+          "DepthMeters": 32,
+          "CounterDistanceMeters": 6
+        }
+      ],
+      "converted_sample": [
+        {
+          "Name": "MarketLocal",
+          "Category": 0,
+          "Title": "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"BE520AED4EBDE5DB048E7E90803E4994\", \"Mercado Don Lucho\")",
+          "FrontMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_MarketFront_Voxel.SM_MarketFront_Voxel'",
+          "InteriorMesh": "/Script/Engine.StaticMesh'/Game/Delivery/Stores/SM_MarketInterior_Voxel.SM_MarketInterior_Voxel'",
+          "ProductMeshes": [
+            "SM_Milk",
+            "SM_Rice",
+            "SM_Apples"
+          ],
+          "ProductNames": [
+            "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"3368250D4F77C5AC03F974AEF6750554\", \"leche\")",
+            "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"748055E945C337DE811F8DA1C5010346\", \"arroz\")",
+            "NSLOCTEXT(\"DT_StoreThemes [07C343F87471053E373EA23D5636EB6F]\", \"C28D1C304CC039626AD428B5B34439E6\", \"manzanas\")"
+          ],
+          "PurchaseBudget": 18500,
+          "WidthMeters": 24,
+          "DepthMeters": 32,
+          "CounterDistanceMeters": 6
+        }
+      ]
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintSchema/Tables/DT_Vehicles",
+      "source": "/Game/Delivery/Data/DT_Vehicles.DT_Vehicles",
+      "rows": 6,
+      "struct": "/Game/Delivery/BlueprintSchema/ST_DeliveryVehicleSpec.ST_DeliveryVehicleSpec",
+      "source_sample": [
+        {
+          "Name": "BikeCity",
+          "Title": "NSLOCTEXT(\"DT_Vehicles [93F53970C3DC57E478A2D847E88269EB]\", \"BikeCity_Title\", \"Cicla de barrio\")",
+          "Description": "NSLOCTEXT(\"DT_Vehicles [93F53970C3DC57E478A2D847E88269EB]\", \"BikeCity_Description\", \"Tu primera companera de ruta. Ligera y directa.\")",
+          "Motorcycle": false,
+          "Price": 0,
+          "Prerequisite": "None",
+          "ModelIndex": 0
+        }
+      ],
+      "converted_sample": [
+        {
+          "Name": "BikeCity",
+          "Title": "NSLOCTEXT(\"DT_Vehicles [F6974543D745E80E4F7CA77BBA4347B1]\", \"125326974705E1BEE6E715BF602FF019\", \"Cicla de barrio\")",
+          "Description": "NSLOCTEXT(\"DT_Vehicles [F6974543D745E80E4F7CA77BBA4347B1]\", \"99C7C22541399CB47992FCA799569784\", \"Tu primera companera de ruta. Ligera y directa.\")",
+          "Motorcycle": false,
+          "Price": 0,
+          "Prerequisite": "None",
+          "ModelIndex": 0
+        }
+      ]
+    }
+  ]
+}

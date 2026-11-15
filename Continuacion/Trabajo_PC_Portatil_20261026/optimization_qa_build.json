@@ -1,0 +1,5 @@
+{
+  "status": "compiled",
+  "graphics_map": "/Game/QA/GraphicsSettingsQA",
+  "frame_probe": "/Game/QA/BP_OptimizationFrameProbe.BP_OptimizationFrameProbe"
+}

@@ -263,7 +263,35 @@ double UBogotaLaneLibrary::ClampRouteStep(AActor* Visitor,double RequestedStep){
  FVector Start=V(A.Next,Visitor),Forward=Axis(D(A.NextYaw,Visitor));double Horizon=2.*D(A.HalfLength,Visitor)+800.,Radius=D(A.HalfLength,Visitor)+D(A.HalfWidth,Visitor)+FMath::Max(RequestedStep,Horizon)+100.;
  TArray<AActor*,TInlineAllocator<24>> Near;
  for(AActor* Other:All){if(!IsValid(Other)||Other==Visitor)continue;auto& B=Fields(Other);if(B.Valid()&&FVector::DistSquaredXY(Start,V(B.Next,Other))<FMath::Square(Radius+D(B.HalfLength,Other)+D(B.HalfWidth,Other)))Near.Add(Other);}
- auto Compatible=[&](AActor* Other){UObject* OtherLane=Object(Other,TEXT("Lane"));if(!IsValid(OtherLane))return false;auto* Group=FindFProperty<FIntProperty>(Lane->GetClass(),TEXT("RouteGroup"));auto* OtherGroup=FindFProperty<FIntProperty>(OtherLane->GetClass(),TEXT("RouteGroup"));if(!Group||!OtherGroup)return false;bool SameGroup=Group->GetPropertyValue_InContainer(Lane)==OtherGroup->GetPropertyValue_InContainer(OtherLane);if(SameGroup)return true;auto& B=Fields(Other);FVector Delta=V(B.Next,Other)-Start;return (FVector::DotProduct(Delta,Forward)<-50.)&&FVector::DotProduct(Forward,Axis(D(B.NextYaw,Other)))>.95&&FMath::Abs(Delta.X*Forward.Y-Delta.Y*Forward.X)<100.;};
+ auto Compatible = [&](AActor* Other) {
+  UObject* OtherLane = Object(Other, TEXT("Lane"));
+  if (!IsValid(OtherLane)) return false;
+  auto* Group = FindFProperty<FIntProperty>(Lane->GetClass(), TEXT("RouteGroup"));
+  auto* OtherGroup = FindFProperty<FIntProperty>(OtherLane->GetClass(), TEXT("RouteGroup"));
+  if (!Group || !OtherGroup) return false;
+  if (Group->GetPropertyValue_InContainer(Lane) == OtherGroup->GetPropertyValue_InContainer(OtherLane)) return true;
+
+  auto& OtherFields = Fields(Other);
+  const FVector Position = V(OtherFields.Next, Other);
+  const FVector Heading = Axis(D(OtherFields.NextYaw, Other));
+  const FVector Delta = Position - Start;
+  const bool FollowingBehind = FVector::DotProduct(Delta, Forward) < -50.
+   && FVector::DotProduct(Forward, Heading) > .95
+   && FMath::Abs(Delta.X * Forward.Y - Delta.Y * Forward.X) < 100.;
+  if (FollowingBehind) return true;
+  if (OtherFields.Player->GetPropertyValue_InContainer(Other) || OtherFields.Parked->GetPropertyValue_InContainer(Other)) return false;
+  if (Delta.SizeSquared2D() > FMath::Square(Horizon + D(OtherFields.HalfLength, Other) + 100.)) return false;
+
+  // A different route can join the same physical lane. Treat its downstream
+  // traffic as a lead vehicle. The physical body still limits every movement.
+  const double Mapped = ClosestDistance(Route, Position);
+  const double Ahead = FMath::Fmod(Mapped - Distance + Length, Length);
+  if (Ahead <= 0. || Ahead > Horizon + D(OtherFields.HalfLength, Other)) return false;
+  const FVector RoutePosition = Route->GetLocationAtDistanceAlongSpline(Mapped, ESplineCoordinateSpace::World);
+  const FVector RouteHeading = Route->GetDirectionAtDistanceAlongSpline(Mapped, ESplineCoordinateSpace::World);
+  return FVector::DistSquaredXY(Position, RoutePosition) < FMath::Square(100.)
+   && FVector::DotProduct(RouteHeading, Heading) > .98;
+ };
  struct FObstacle {FBody Next,Previous;bool Compatible;};TArray<FObstacle,TInlineAllocator<24>> Obstacles;
  for(AActor* Other:Near){auto& B=Fields(Other);Obstacles.Add({{V(B.Next,Other),Axis(D(B.NextYaw,Other)),D(B.HalfLength,Other)+8.,D(B.HalfWidth,Other)+5.},{V(B.Previous,Other),Axis(D(B.Yaw,Other)),D(B.HalfLength,Other)+8.,D(B.HalfWidth,Other)+5.},Compatible(Other)});}
  TMap<TWeakObjectPtr<AActor>,bool> OwnerAllowed;
@@ -341,7 +369,18 @@ void UBogotaLaneLibrary::SimulateVehicleStep(AActor* Visitor,double DeltaTime,do
  static TMap<UClass*,TUniquePtr<FStepFields>> Cache;auto& Slot=Cache.FindOrAdd(Visitor->GetClass());if(!Slot)Slot=MakeUnique<FStepFields>(Visitor->GetClass());auto& S=*Slot;if(!S.Valid())return;
  UObject* Lane=S.Lane->GetObjectPropertyValue_InContainer(Visitor);if(!IsValid(Lane))return;auto* RouteProperty=FindFProperty<FObjectPropertyBase>(Lane->GetClass(),TEXT("Route"));USplineComponent* Route=RouteProperty?Cast<USplineComponent>(RouteProperty->GetObjectPropertyValue_InContainer(Lane)):nullptr;if(!Route||Route->GetSplineLength()<=0.)return;
  double Distance=D(S.Distance,Visitor),OldYaw=D(F.NextYaw,Visitor),Dt=FMath::Clamp(DeltaTime,0.,.25);S.PreviousDistance->SetPropertyValue_InContainer(Visitor,Distance);*F.Previous->ContainerPtrToValuePtr<FVector>(Visitor)=V(F.Next,Visitor);F.Yaw->SetPropertyValue_InContainer(Visitor,OldYaw);S.PreviousWheel->SetPropertyValue_InContainer(Visitor,D(S.Wheel,Visitor));
- double Room=FMath::Max(Clearance,0.),Desired=FMath::Min(FMath::Min(FMath::Max(DesiredSpeed,0.),D(S.Cruise,Visitor)),FMath::Sqrt(Room*1300.));if(D(S.Left,Visitor)>.001||D(S.Right,Visitor)>.001)Desired=0.;double Current=D(F.Speed,Visitor),Approach=FMath::FInterpConstantTo(Current,Desired,Dt,Desired>Current?240.:650.);double Move=ClampRouteStep(Visitor,FMath::Min(Approach*Dt,Room));S.Step->SetPropertyValue_InContainer(Visitor,Move);F.Speed->SetPropertyValue_InContainer(Visitor,Move/FMath::Max(Dt,.000001));
+ const auto* BusProperty = FindFProperty<FBoolProperty>(Visitor->GetClass(), TEXT("Bus"));
+ const bool Bus = BusProperty && BusProperty->GetPropertyValue_InContainer(Visitor);
+ const double SpeedScale = Bus ? 1. : 1.24;
+ const double Room = FMath::Max(Clearance, 0.);
+ const double Cruise = FMath::Min(FMath::Max(DesiredSpeed, 0.), D(S.Cruise, Visitor));
+ double Desired = FMath::Min(Cruise * SpeedScale, FMath::Sqrt(Room * 1300.));
+ if (D(S.Left, Visitor) > .001 || D(S.Right, Visitor) > .001) Desired = 0.;
+ const double Current = D(F.Speed, Visitor);
+ const double Approach = FMath::FInterpConstantTo(Current, Desired, Dt, Desired > Current ? (Bus ? 240. : 355.) : 650.);
+ const double Move = ClampRouteStep(Visitor, FMath::Min(Approach * Dt, Room));
+ S.Step->SetPropertyValue_InContainer(Visitor, Move);
+ F.Speed->SetPropertyValue_InContainer(Visitor, Move / FMath::Max(Dt, .000001));
  double NewDistance=FMath::Fmod(Distance+Move,Route->GetSplineLength());S.Distance->SetPropertyValue_InContainer(Visitor,NewDistance);*F.Next->ContainerPtrToValuePtr<FVector>(Visitor)=Route->GetLocationAtDistanceAlongSpline(NewDistance,ESplineCoordinateSpace::World);double Yaw=Route->GetDirectionAtDistanceAlongSpline(NewDistance,ESplineCoordinateSpace::World).Rotation().Yaw;F.NextYaw->SetPropertyValue_InContainer(Visitor,Yaw);S.Wheel->SetPropertyValue_InContainer(Visitor,FMath::Fmod(D(S.Wheel,Visitor)+Move/FMath::Max(D(S.Radius,Visitor),1.)*57.2957795,360.));S.Steer->SetPropertyValue_InContainer(Visitor,FMath::Clamp(FMath::FindDeltaAngleDegrees(OldYaw,Yaw)/FMath::Max(Dt,.000001)*.25,-25.,25.));
 }
 
@@ -368,6 +407,11 @@ struct FCrossFields {
 };
 TMap<TWeakObjectPtr<UClass>,FCrossFields> CrossFields;
 }
+bool UBogotaLaneLibrary::IsPedestrianCrossingWindow(double TimeSeconds) {
+ const double Phase=FMath::Fmod(TimeSeconds,264.);
+ return Phase>=224. && Phase<244.;
+}
+
 void UBogotaLaneLibrary::SimulateCrosswalk(AActor* Citizen,double TimeSeconds) {
  CSV_SCOPED_TIMING_STAT_EXCLUSIVE(BogotaCrosswalkStep);
  auto* Character=Cast<ACharacter>(Citizen);if(!IsValid(Character))return;
@@ -395,8 +439,7 @@ void UBogotaLaneLibrary::SimulateCrosswalk(AActor* Citizen,double TimeSeconds) {
   F->Index->SetPropertyValue_InContainer(Character,(Index+1)%Route.Num());return;
  }
  const bool CrossingLeg=Index==1||Index==5;
- const double Phase=FMath::Fmod(TimeSeconds,264.);
- const bool Window=Phase>=224. && Phase<244.;bool Clear=true;
+ const bool Window=IsPedestrianCrossingWindow(TimeSeconds);bool Clear=true;
  if(CrossingLeg&&!Crossing&&Window&&F->Manager) {
   auto* Manager=Cast<AActor>(F->Manager->GetObjectPropertyValue_InContainer(Character));
   if(IsValid(Manager)) {

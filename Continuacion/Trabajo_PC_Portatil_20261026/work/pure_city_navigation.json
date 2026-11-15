@@ -1,0 +1,6 @@
+{
+  "map": "/Game/QA/PureCityCrowd",
+  "building_exclusions": 86,
+  "road_areas": 12,
+  "status": "AUTHORED_PENDING_RUNTIME"
+}

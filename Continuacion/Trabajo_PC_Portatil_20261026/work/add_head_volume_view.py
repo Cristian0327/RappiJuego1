@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('outputs/BogotaVoxel/Source/BogotaVoxel/BogotaCity.cpp');s=p.read_text();a='FVector Eye=W.Position+FRotator(0,W.Heading,0).RotateVector(FVector(400,-350,170));Camera->SetActorLocationAndRotation';b='FVector Eye=W.Position+FRotator(0,W.Heading,0).RotateVector(FParse::Param(FCommandLine::Get(),TEXT("HeadVolumeVisualCheck"))?FVector(320,-300,330):FVector(400,-350,170));Camera->SetActorLocationAndRotation';assert a in s;p.write_text(s.replace(a,b))

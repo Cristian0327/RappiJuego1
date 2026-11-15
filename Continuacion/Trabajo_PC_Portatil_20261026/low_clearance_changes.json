@@ -1,0 +1,97 @@
+{
+  "frontages": [
+    {
+      "actor": "StaticMeshActor_7",
+      "source": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_007",
+      "triangles": 2262,
+      "removed_low_triangles": 22,
+      "preserved_tall_intersections": 166,
+      "asset": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_007_TrafficClearance"
+    },
+    {
+      "actor": "StaticMeshActor_18",
+      "source": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_018",
+      "triangles": 9746,
+      "removed_low_triangles": 256,
+      "preserved_tall_intersections": 262,
+      "asset": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_018_TrafficClearance"
+    },
+    {
+      "actor": "StaticMeshActor_22",
+      "source": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_022",
+      "triangles": 23006,
+      "removed_low_triangles": 22,
+      "preserved_tall_intersections": 372,
+      "asset": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_022_TrafficClearance"
+    },
+    {
+      "actor": "StaticMeshActor_23",
+      "source": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_023",
+      "triangles": 11006,
+      "removed_low_triangles": 18,
+      "preserved_tall_intersections": 342,
+      "asset": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_023_TrafficClearance"
+    },
+    {
+      "actor": "StaticMeshActor_41",
+      "source": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_041",
+      "triangles": 23156,
+      "removed_low_triangles": 236,
+      "preserved_tall_intersections": 498,
+      "asset": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_041_TrafficClearance"
+    },
+    {
+      "actor": "StaticMeshActor_43",
+      "source": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_043",
+      "triangles": 23528,
+      "removed_low_triangles": 20,
+      "preserved_tall_intersections": 490,
+      "asset": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_043_TrafficClearance"
+    },
+    {
+      "actor": "StaticMeshActor_44",
+      "source": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_044",
+      "triangles": 23042,
+      "removed_low_triangles": 98,
+      "preserved_tall_intersections": 218,
+      "asset": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_044_TrafficClearance"
+    },
+    {
+      "actor": "StaticMeshActor_47",
+      "source": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_047",
+      "triangles": 21770,
+      "removed_low_triangles": 52,
+      "preserved_tall_intersections": 650,
+      "asset": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_047_TrafficClearance"
+    },
+    {
+      "actor": "StaticMeshActor_50",
+      "source": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_050",
+      "triangles": 23222,
+      "removed_low_triangles": 348,
+      "preserved_tall_intersections": 530,
+      "asset": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_050_TrafficClearance"
+    },
+    {
+      "actor": "StaticMeshActor_128",
+      "source": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_128",
+      "triangles": 19652,
+      "removed_low_triangles": 30,
+      "preserved_tall_intersections": 368,
+      "asset": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_128_TrafficClearance"
+    }
+  ],
+  "pole": {
+    "actor": "BP_BogotaSignal_C_17",
+    "old": [
+      14283.562433498319,
+      -33139.241457828095,
+      20.0
+    ],
+    "new": [
+      14695.620110963668,
+      -33091.45943825004,
+      20.0
+    ]
+  }
+}

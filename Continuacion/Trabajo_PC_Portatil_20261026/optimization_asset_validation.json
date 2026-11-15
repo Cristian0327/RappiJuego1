@@ -1,0 +1,46 @@
+{
+  "blueprints": [
+    {
+      "path": "/Game/World/BlueprintWorld/Optimization/WBP_GraphicsSettings",
+      "nodes": 362,
+      "compiled": true
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Optimization/WBP_ShaderWarmup",
+      "nodes": 13,
+      "compiled": true
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Optimization/BP_GraphicsSettings",
+      "nodes": 50,
+      "compiled": true
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Optimization/BP_ServiceDistanceBudget",
+      "nodes": 46,
+      "compiled": true
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Optimization/BP_StoreDistanceBudget",
+      "nodes": 40,
+      "compiled": true
+    },
+    {
+      "path": "/Game/World/BlueprintWorld/Crowd/BP_CrowdVisibility",
+      "nodes": 43,
+      "compiled": true
+    },
+    {
+      "path": "/Game/QA/BP_GraphicsSettingsQA",
+      "nodes": 86,
+      "compiled": true
+    },
+    {
+      "path": "/Game/QA/BP_OptimizationFrameProbe",
+      "nodes": 87,
+      "compiled": true
+    }
+  ],
+  "native_project_dependencies": [],
+  "dependency_count": 839
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "label": "BP_DeveloperCodes",
+    "class": "/Game/Delivery/BlueprintGameplay/Developer/BP_DeveloperCodes.BP_DeveloperCodes_C"
+  },
+  {
+    "label": "BP_RoadInteraction",
+    "class": "/Game/Delivery/BlueprintGameplay/Player/BP_RoadInteraction.BP_RoadInteraction_C"
+  },
+  {
+    "label": "City_MountedFacingCorrection",
+    "class": "/Game/Traffic/Services/BP_NpcFacingCoordinator.BP_NpcFacingCoordinator_C"
+  },
+  {
+    "label": "Camera_NPC_Collision",
+    "class": "/Game/Delivery/BlueprintGameplay/Player/BP_CameraObstacleSetup.BP_CameraObstacleSetup_C"
+  }
+]

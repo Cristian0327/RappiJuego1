@@ -1,0 +1,591 @@
+{
+  "actors": [
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_BogotaServiceSignals_C_0",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>"
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_CivilMotorcycle_C_0",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_CivilMotorcycle_C_1",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_PoliceMotorcycle_C_0",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_PoliceRoadPatrol_C_0",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_CivilMotorcycle_C_2",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_CivilMotorcycle_C_3",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_PoliceMotorcycle_C_1",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_PoliceRoadPatrol_C_1",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_CivilMotorcycle_C_4",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_CivilMotorcycle_C_5",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_PoliceMotorcycle_C_2",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_PoliceRoadPatrol_C_2",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_CivilMotorcycle_C_6",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_CivilMotorcycle_C_7",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_PoliceMotorcycle_C_3",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_PoliceRoadPatrol_C_3",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_CivilMotorcycle_C_8",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_CivilMotorcycle_C_9",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_PoliceMotorcycle_C_4",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_PoliceRoadPatrol_C_4",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_CivilMotorcycle_C_10",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_CivilMotorcycle_C_11",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_PoliceMotorcycle_C_5",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_CivilMotorcycle_C_12",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_TwoWheelerCitizen_C_0",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_TwoWheelerCitizen_C_1",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_TwoWheelerCitizen_C_2",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_TwoWheelerCitizen_C_3",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_TwoWheelerCitizen_C_4",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_TwoWheelerCitizen_C_5",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_TwoWheelerCitizen_C_6",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_TwoWheelerCitizen_C_7",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_TwoWheelerCitizen_C_8",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_TwoWheelerCitizen_C_9",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_TwoWheelerCitizen_C_10",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/Maps/MapaCompleto_Integration",
+      "name": "BP_TwoWheelerCitizen_C_11",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_BogotaServiceSignals_C_0",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>"
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_CivilMotorcycle_C_0",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_CivilMotorcycle_C_1",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_PoliceMotorcycle_C_0",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_PoliceRoadPatrol_C_0",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_CivilMotorcycle_C_2",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_CivilMotorcycle_C_3",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_PoliceMotorcycle_C_1",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_PoliceRoadPatrol_C_1",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_CivilMotorcycle_C_4",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_CivilMotorcycle_C_5",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_PoliceMotorcycle_C_2",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_PoliceRoadPatrol_C_2",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_CivilMotorcycle_C_6",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_CivilMotorcycle_C_7",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_PoliceMotorcycle_C_3",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_PoliceRoadPatrol_C_3",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_CivilMotorcycle_C_8",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_CivilMotorcycle_C_9",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_PoliceMotorcycle_C_4",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_PoliceRoadPatrol_C_4",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_CivilMotorcycle_C_10",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_CivilMotorcycle_C_11",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_PoliceMotorcycle_C_5",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_CivilMotorcycle_C_12",
+      "actor_group": "<TickingGroup.TG_PRE_PHYSICS: 0>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_TwoWheelerCitizen_C_0",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_TwoWheelerCitizen_C_1",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_TwoWheelerCitizen_C_2",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_TwoWheelerCitizen_C_3",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_TwoWheelerCitizen_C_4",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_TwoWheelerCitizen_C_5",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_TwoWheelerCitizen_C_6",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_TwoWheelerCitizen_C_7",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_TwoWheelerCitizen_C_8",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_TwoWheelerCitizen_C_9",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_TwoWheelerCitizen_C_10",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    },
+    {
+      "map": "/Game/QA/AdaptationTraffic",
+      "name": "BP_TwoWheelerCitizen_C_11",
+      "actor_group": "<TickingGroup.TG_DURING_PHYSICS: 2>",
+      "movement_group": "<TickingGroup.TG_POST_PHYSICS: 4>",
+      "rvo": false,
+      "min_analog": 0.0
+    }
+  ],
+  "heading_group": "<TickingGroup.TG_POST_UPDATE_WORK: 5>"
+}

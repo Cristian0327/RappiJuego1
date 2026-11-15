@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Citizen00",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen00",
+    "scale": 1.004329,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen01",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen01",
+    "scale": 0.939522,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen02",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen02",
+    "scale": 1.014245,
+    "speed": 128.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen03",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen03",
+    "scale": 1.005848,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen04",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen04",
+    "scale": 0.97076,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen05",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen05",
+    "scale": 1.046784,
+    "speed": 128.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen06",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen06",
+    "scale": 1.004566,
+    "speed": 38.174,
+    "cane": true
+  },
+  {
+    "name": "Citizen07",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen07",
+    "scale": 0.923977,
+    "speed": 35.111,
+    "cane": true
+  },
+  {
+    "name": "Citizen08",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen08",
+    "scale": 0.963925,
+    "speed": 36.629,
+    "cane": true
+  },
+  {
+    "name": "Citizen09",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen09",
+    "scale": 0.954074,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen10",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen10",
+    "scale": 1.04321,
+    "speed": 39.642,
+    "cane": true
+  },
+  {
+    "name": "Citizen11",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen11",
+    "scale": 0.981241,
+    "speed": 37.287,
+    "cane": true
+  },
+  {
+    "name": "Citizen12",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen12",
+    "scale": 1.084444,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen13",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen13",
+    "scale": 1.064327,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen14",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen14",
+    "scale": 0.952381,
+    "speed": 128.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen15",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen15",
+    "scale": 0.965926,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen16",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen16",
+    "scale": 1.02924,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen17",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen17",
+    "scale": 0.950774,
+    "speed": 128.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen18",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen18",
+    "scale": 1.007407,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen19",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen19",
+    "scale": 1.005848,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen20",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen20",
+    "scale": 1.021645,
+    "speed": 128.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen21",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen21",
+    "scale": 1.017544,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen22",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen22",
+    "scale": 0.957265,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen23",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen23",
+    "scale": 1.038961,
+    "speed": 128.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen24",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen24",
+    "scale": 1.14963,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen25",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen25",
+    "scale": 0.918129,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen26",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen26",
+    "scale": 0.975469,
+    "speed": 128.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen27",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen27",
+    "scale": 0.894737,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen28",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen28",
+    "scale": 1.099415,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen29",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen29",
+    "scale": 0.998557,
+    "speed": 37.945,
+    "cane": true
+  },
+  {
+    "name": "Citizen30",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen30",
+    "scale": 0.948148,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen31",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen31",
+    "scale": 1.05848,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen32",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen32",
+    "scale": 0.894661,
+    "speed": 33.997,
+    "cane": true
+  },
+  {
+    "name": "Citizen33",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen33",
+    "scale": 0.983704,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen34",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen34",
+    "scale": 1.087719,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen35",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen35",
+    "scale": 0.987013,
+    "speed": 128.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen36",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen36",
+    "scale": 0.985755,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen37",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen37",
+    "scale": 0.947368,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen38",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen38",
+    "scale": 1.027417,
+    "speed": 128.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen39",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen39",
+    "scale": 0.968037,
+    "speed": 36.785,
+    "cane": true
+  },
+  {
+    "name": "Citizen40",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen40",
+    "scale": 1.035088,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen41",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen41",
+    "scale": 0.946609,
+    "speed": 128.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen42",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen42",
+    "scale": 1.064327,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen43",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen43",
+    "scale": 0.962025,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen44",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen44",
+    "scale": 0.969697,
+    "speed": 128.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen45",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen45",
+    "scale": 0.929825,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen46",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen46",
+    "scale": 1.046784,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen47",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen47",
+    "scale": 0.975469,
+    "speed": 128.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen48",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen48",
+    "scale": 1.09037,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen49",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen49",
+    "scale": 1.02924,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen50",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen50",
+    "scale": 0.992785,
+    "speed": 128.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen51",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen51",
+    "scale": 0.947368,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen52",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen52",
+    "scale": 1.031339,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen53",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen53",
+    "scale": 0.952381,
+    "speed": 128.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen54",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen54",
+    "scale": 1.031111,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen55",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen55",
+    "scale": 0.935673,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen56",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen56",
+    "scale": 1.027417,
+    "speed": 128.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen57",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen57",
+    "scale": 1.079365,
+    "speed": 112.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen58",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen58",
+    "scale": 0.951567,
+    "speed": 120.0,
+    "cane": false
+  },
+  {
+    "name": "Citizen59",
+    "asset": "/Game/World/BlueprintWorld/Crowd/Models/BP_Citizen59",
+    "scale": 0.981241,
+    "speed": 128.0,
+    "cane": false
+  }
+]

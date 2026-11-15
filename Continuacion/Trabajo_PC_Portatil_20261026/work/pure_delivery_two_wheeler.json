@@ -1,0 +1,14 @@
+{
+  "status": "COMPILED_STAGING",
+  "parent": "/Script/Engine.Actor",
+  "functions": [
+    "ConfigureVehicle",
+    "SetRidden",
+    "SeatLocation"
+  ],
+  "pending": [
+    "Player placement interface",
+    "Mount/dismount and motion",
+    "Runtime model/alignment tests"
+  ]
+}

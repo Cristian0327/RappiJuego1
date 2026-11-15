@@ -1,0 +1,16 @@
+BOGOTAVOXEL - TRASLADO AL PC PRINCIPAL - 26/10/2026
+
+Extraer TODO el RAR a una carpeta local.
+Instalar Unreal Engine 5.8 Windows 64 bits.
+Abrir BogotaVoxel.uproject de ESTA carpeta o Abrir_Proyecto.bat.
+Nivel: /Game/Maps/MapaCompleto_Integration. Esperar shaders y pulsar Play.
+F10: opciones graficas. Usar Abrir_Proyecto.bat en el PC principal.
+
+LEER Continuacion/CONTINUAR_PC_PRINCIPAL_2026-10-26.md.
+Ese documento reemplaza las instrucciones antiguas de estado.
+
+Es un proyecto editable, no un ejecutable empaquetado.
+Incluye recursos, fuentes, herramientas, respaldos y evidencias.
+Unreal Engine se instala por separado; las caches se regeneran.
+No estan logrados 60 FPS estables ni resueltos todos los problemas de trafico.
+Las correcciones de entregas sin pagar y telefono ya estan incorporadas.

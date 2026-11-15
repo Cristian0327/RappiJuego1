@@ -1,0 +1,471 @@
+{
+  "functions": 93,
+  "bytes": 25865,
+  "removed": [
+    {
+      "class": "ABogotaCity",
+      "function": "DistrictAt",
+      "bytes": 348
+    },
+    {
+      "class": "ABogotaCity",
+      "function": "AdvanceTime",
+      "bytes": 188
+    },
+    {
+      "class": "ABogotaCity",
+      "function": "HourForCycle",
+      "bytes": 78
+    },
+    {
+      "class": "ABogotaCity",
+      "function": "AdvanceClock",
+      "bytes": 58
+    },
+    {
+      "class": "ABogotaCity",
+      "function": "TrafficPaintFor",
+      "bytes": 111
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "MoveForward",
+      "bytes": 269
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "MoveRight",
+      "bytes": 261
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "Turn",
+      "bytes": 111
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "Look",
+      "bytes": 113
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "StopForPhone",
+      "bytes": 154
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "ActionReleased",
+      "bytes": 88
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "PickupPressed",
+      "bytes": 93
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "PickupReleased",
+      "bytes": 88
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "PhonePressed",
+      "bytes": 88
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "VehiclePressed",
+      "bytes": 92
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "StartSprint",
+      "bytes": 63
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "EndSprint",
+      "bytes": 62
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "JumpOrBrake",
+      "bytes": 85
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "StopJump",
+      "bytes": 62
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "UpdateCameraRig",
+      "bytes": 452
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "AdvanceDriveSpeed",
+      "bytes": 173
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "SteeringAngle",
+      "bytes": 165
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "WalkingSpeed",
+      "bytes": 84
+    },
+    {
+      "class": "ABogotaPlayer",
+      "function": "GetWalkPlayRate",
+      "bytes": 194
+    },
+    {
+      "class": "ABogotaCity",
+      "function": "TrafficNSGreen",
+      "bytes": 93
+    },
+    {
+      "class": "ABogotaCity",
+      "function": "TrafficEWGreen",
+      "bytes": 110
+    },
+    {
+      "class": "UDeliveryAnimInstance",
+      "function": "UpdateMotion",
+      "bytes": 809
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "CargoCapacity",
+      "bytes": 186
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "StoreFocusedOrder",
+      "bytes": 347
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "SelectActiveOrder",
+      "bytes": 398
+    },
+    {
+      "class": "ADeliveryPoint",
+      "function": "UpdateCustomer",
+      "bytes": 105
+    },
+    {
+      "class": "ADeliveryPoint",
+      "function": "InteriorPosition",
+      "bytes": 134
+    },
+    {
+      "class": "ADeliveryPoint",
+      "function": "CheckoutPosition",
+      "bytes": 136
+    },
+    {
+      "class": "ADeliveryPoint",
+      "function": "ContainsVisitor",
+      "bytes": 223
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "ExitStore",
+      "bytes": 86
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "ShopReady",
+      "bytes": 348
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "ShopCollect",
+      "bytes": 486
+    },
+    {
+      "class": "ADeliveryPoint",
+      "function": "ItemCount",
+      "bytes": 82
+    },
+    {
+      "class": "ADeliveryRecipient",
+      "function": "CanDeliver",
+      "bytes": 206
+    },
+    {
+      "class": "ADeliveryRecipient",
+      "function": "ReceiveDelivery",
+      "bytes": 180
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "Owns",
+      "bytes": 92
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "InitializeGameplay",
+      "bytes": 120
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "EnterIdle",
+      "bytes": 181
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "UpdateMarketplace",
+      "bytes": 258
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "CullExpiredOffers",
+      "bytes": 309
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "GenerateOffer",
+      "bytes": 704
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "SelectOffer",
+      "bytes": 318
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "PaintVehicle",
+      "bytes": 436
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "OwnsVehicle",
+      "bytes": 175
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "VisualStage",
+      "bytes": 445
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "BuyVehicle",
+      "bytes": 455
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "EquipVehicle",
+      "bytes": 760
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "IgnoreOffer",
+      "bytes": 356
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "AcceptOffer",
+      "bytes": 1315
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "BeginAction",
+      "bytes": 852
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "EndAction",
+      "bytes": 84
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "CollectOrder",
+      "bytes": 1085
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "CompleteOrder",
+      "bytes": 644
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "RebuildStats",
+      "bytes": 932
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "GetTopSpeed",
+      "bytes": 200
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "UpdateBoost",
+      "bytes": 875
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "PurchaseUpgrade",
+      "bytes": 684
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "SwitchVehicle",
+      "bytes": 682
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "TogglePhone",
+      "bytes": 505
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "SetWaypoint",
+      "bytes": 178
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "ClearWaypoint",
+      "bytes": 86
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "SaveProfile",
+      "bytes": 604
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "LoadProfile",
+      "bytes": 704
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "RewardForDistance",
+      "bytes": 131
+    },
+    {
+      "class": "UDeliveryComponent",
+      "function": "AdvanceHeldAction",
+      "bytes": 691
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "OpenActiveOrders",
+      "bytes": 76
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "OpenCargo",
+      "bytes": 82
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "OpenHome",
+      "bytes": 68
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "OpenMap",
+      "bytes": 66
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "OpenOrders",
+      "bytes": 69
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "OpenShop",
+      "bytes": 93
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "OpenCatalog",
+      "bytes": 103
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "GarageBike",
+      "bytes": 168
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "GarageMoto",
+      "bytes": 166
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "AcceptPressed",
+      "bytes": 101
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "AcceptReleased",
+      "bytes": 94
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "IgnorePressed",
+      "bytes": 95
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "BuySelected",
+      "bytes": 169
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "SelectPrevious",
+      "bytes": 332
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "SelectNext",
+      "bytes": 386
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "SelectEntry",
+      "bytes": 498
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "NextColor",
+      "bytes": 106
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "PaintSelected",
+      "bytes": 136
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "BuyModel",
+      "bytes": 171
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "EquipModel",
+      "bytes": 245
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "ClearPoint",
+      "bytes": 95
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "SwitchPressed",
+      "bytes": 161
+    },
+    {
+      "class": "UDeliveryPhoneWidget",
+      "function": "ClosePressed",
+      "bytes": 115
+    }
+  ]
+}

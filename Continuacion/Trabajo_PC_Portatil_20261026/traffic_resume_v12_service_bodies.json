@@ -1,0 +1,39 @@
+{
+  "service_samples": 2664,
+  "reverse_samples": 0,
+  "reverse_examples": [],
+  "estimated_body_overlap_samples": 6,
+  "overlap_examples": [
+    {
+      "time": 15.045641,
+      "a": "car:87",
+      "b": "BP_TwoWheelerCitizen_C_2"
+    },
+    {
+      "time": 20.296276,
+      "a": "car:87",
+      "b": "BP_TwoWheelerCitizen_C_2"
+    },
+    {
+      "time": 110.115775,
+      "a": "car:66",
+      "b": "BP_CivilMotorcycle_C_9"
+    },
+    {
+      "time": 110.115775,
+      "a": "BP_PoliceMotorcycle_C_2",
+      "b": "BP_CivilMotorcycle_C_10"
+    },
+    {
+      "time": 145.328494,
+      "a": "car:55",
+      "b": "BP_PoliceMotorcycle_C_2"
+    },
+    {
+      "time": 155.299593,
+      "a": "car:47",
+      "b": "BP_PoliceMotorcycle_C_2"
+    }
+  ],
+  "note": "Sampled conservative envelopes; parked/walking cyclists excluded. Not continuous collision certification."
+}

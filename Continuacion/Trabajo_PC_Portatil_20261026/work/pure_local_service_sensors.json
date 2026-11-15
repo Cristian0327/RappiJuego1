@@ -1,0 +1,6 @@
+{
+  "radius_cm": 1800,
+  "refresh_seconds": 0.15,
+  "global_legacy_map_unchanged": true,
+  "status": "COMPILED_PENDING_PROFILE"
+}

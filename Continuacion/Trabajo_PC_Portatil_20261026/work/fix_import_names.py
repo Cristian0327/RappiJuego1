@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('work/import_cargo_animation_surfaces.py');s=p.read_text();s=s.replace('def task(', 'def import_file(').replace(' in task(', ' in import_file(').replace('\n task(', '\n import_file(').replace('):task(', '):import_file(').replace('t=task(', 't=import_file(').replace("exec((root/'work/import_rigged_people.py').read_text(encoding='utf-8-sig'))", "# Closed meshes imported by previous successful stage.");p.write_text(s)

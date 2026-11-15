@@ -1,0 +1,1 @@
+{"FileVersion":3,"Version":1,"FriendlyName":"Bogota Phone Preview","CanContainContent":false,"Installed":true,"Plugins":[{"Name":"FMODStudio","Enabled":true}],"Modules":[{"Name":"BogotaPhonePreview","Type":"Runtime","LoadingPhase":"PostEngineInit"}]}

@@ -1,0 +1,149 @@
+{
+  "status": "compiled",
+  "widget": "/Game/World/BlueprintWorld/Optimization/WBP_GraphicsSettings.WBP_GraphicsSettings",
+  "actor": "/Game/World/BlueprintWorld/Optimization/BP_GraphicsSettings.BP_GraphicsSettings",
+  "functions": [
+    "RefreshLabels",
+    "ApplyGraphics",
+    "CloseGraphics",
+    "ApplyGraphics",
+    "ChoosePreset0",
+    "ChoosePreset1",
+    "ChoosePreset2",
+    "ChoosePreset3",
+    "ChoosePreset4",
+    "CycleView",
+    "CycleShadow",
+    "CycleTexture",
+    "CycleAA",
+    "CycleEffects",
+    "CyclePost",
+    "CycleFoliage",
+    "CycleShading",
+    "CycleReflection",
+    "CycleResolution",
+    "CycleFPS",
+    "CycleVSync",
+    "CycleOutput",
+    "CycleWindow",
+    "CycleDynamic",
+    "RefreshLabels",
+    "CloseGraphics",
+    "Construct",
+    "OnPreviewKeyDown",
+    "ReceiveBeginPlay",
+    "ToggleGraphics"
+  ],
+  "bindings": [
+    {
+      "widget": "Preset0",
+      "delegate": "OnClicked",
+      "function": "ChoosePreset0"
+    },
+    {
+      "widget": "Preset1",
+      "delegate": "OnClicked",
+      "function": "ChoosePreset1"
+    },
+    {
+      "widget": "Preset2",
+      "delegate": "OnClicked",
+      "function": "ChoosePreset2"
+    },
+    {
+      "widget": "Preset3",
+      "delegate": "OnClicked",
+      "function": "ChoosePreset3"
+    },
+    {
+      "widget": "Preset4",
+      "delegate": "OnClicked",
+      "function": "ChoosePreset4"
+    },
+    {
+      "widget": "View",
+      "delegate": "OnClicked",
+      "function": "CycleView"
+    },
+    {
+      "widget": "Shadow",
+      "delegate": "OnClicked",
+      "function": "CycleShadow"
+    },
+    {
+      "widget": "Texture",
+      "delegate": "OnClicked",
+      "function": "CycleTexture"
+    },
+    {
+      "widget": "AA",
+      "delegate": "OnClicked",
+      "function": "CycleAA"
+    },
+    {
+      "widget": "Effects",
+      "delegate": "OnClicked",
+      "function": "CycleEffects"
+    },
+    {
+      "widget": "Post",
+      "delegate": "OnClicked",
+      "function": "CyclePost"
+    },
+    {
+      "widget": "Foliage",
+      "delegate": "OnClicked",
+      "function": "CycleFoliage"
+    },
+    {
+      "widget": "Shading",
+      "delegate": "OnClicked",
+      "function": "CycleShading"
+    },
+    {
+      "widget": "Reflection",
+      "delegate": "OnClicked",
+      "function": "CycleReflection"
+    },
+    {
+      "widget": "Resolution",
+      "delegate": "OnClicked",
+      "function": "CycleResolution"
+    },
+    {
+      "widget": "FPS",
+      "delegate": "OnClicked",
+      "function": "CycleFPS"
+    },
+    {
+      "widget": "VSync",
+      "delegate": "OnClicked",
+      "function": "CycleVSync"
+    },
+    {
+      "widget": "Output",
+      "delegate": "OnClicked",
+      "function": "CycleOutput"
+    },
+    {
+      "widget": "Window",
+      "delegate": "OnClicked",
+      "function": "CycleWindow"
+    },
+    {
+      "widget": "Dynamic",
+      "delegate": "OnClicked",
+      "function": "CycleDynamic"
+    },
+    {
+      "widget": "Apply",
+      "delegate": "OnClicked",
+      "function": "ApplyGraphics"
+    },
+    {
+      "widget": "Close",
+      "delegate": "OnClicked",
+      "function": "CloseGraphics"
+    }
+  ]
+}

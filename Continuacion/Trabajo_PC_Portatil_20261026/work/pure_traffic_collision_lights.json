@@ -1,0 +1,7 @@
+{
+  "models": 23,
+  "headlight_lumens_each": 1800,
+  "collision_boxes": true,
+  "steering_signal_blink": ".8second period, >4degree steering",
+  "status": "COMPILED_PENDING_RENDER_REVIEW"
+}

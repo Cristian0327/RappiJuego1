@@ -1,0 +1,122 @@
+[
+  {
+    "label": "Policia_Sector_01",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficer.SK_PoliceOfficer",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_02",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerFemale01.SK_PoliceOfficerFemale01",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_03",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerMale02.SK_PoliceOfficerMale02",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_04",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerFemale02.SK_PoliceOfficerFemale02",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_05",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficer.SK_PoliceOfficer",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_06",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerFemale01.SK_PoliceOfficerFemale01",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_07",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerMale02.SK_PoliceOfficerMale02",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_08",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerFemale02.SK_PoliceOfficerFemale02",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_09",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficer.SK_PoliceOfficer",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_10",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerFemale01.SK_PoliceOfficerFemale01",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_11",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerMale02.SK_PoliceOfficerMale02",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_12",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerFemale02.SK_PoliceOfficerFemale02",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_13",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficer.SK_PoliceOfficer",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_14",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerFemale01.SK_PoliceOfficerFemale01",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_15",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerMale02.SK_PoliceOfficerMale02",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_16",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerFemale02.SK_PoliceOfficerFemale02",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_17",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficer.SK_PoliceOfficer",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_18",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerFemale01.SK_PoliceOfficerFemale01",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_19",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerMale02.SK_PoliceOfficerMale02",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_20",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerFemale02.SK_PoliceOfficerFemale02",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_21",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficer.SK_PoliceOfficer",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_22",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerFemale01.SK_PoliceOfficerFemale01",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_23",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerMale02.SK_PoliceOfficerMale02",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  },
+  {
+    "label": "Policia_Sector_24",
+    "mesh": "/Game/Traffic/Services/SK_PoliceOfficerFemale02.SK_PoliceOfficerFemale02",
+    "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+  }
+]

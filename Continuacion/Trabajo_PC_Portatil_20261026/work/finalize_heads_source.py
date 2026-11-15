@@ -1,0 +1,4 @@
+from pathlib import Path
+r=Path(__file__).resolve().parents[1]
+p=r/'work/import_street_crowd.py';s=p.read_text().replace("tex.set_editor_property('filter',unreal.TextureFilter.TF_NEAREST);", "tex.set_editor_property('filter',unreal.TextureFilter.TF_NEAREST);tex.set_editor_property('mip_gen_settings',unreal.TextureMipGenSettings.TMGS_NO_MIPMAPS);tex.set_editor_property('never_stream',True);");p.write_text(s)
+p=r/'work/build_street_crowd.py';s=p.read_text();s=s.replace("with bpy.data.libraries.load(str(root/'outputs/DeliveryArt/Animation/AN_MixamoWalk.blend'),link=False) as (a,b):b.actions=[n for n in a.actions if n=='AN_MixamoWalk']", "clip='AN_CrowdCane' if s['cane'] else 'AN_CrowdWalk'\n with bpy.data.libraries.load(str(out/(clip+'.blend')),link=False) as (a,b):b.actions=[n for n in a.actions if n==clip]");p.write_text(s)

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "BP_CivilMotorcycle_C_0",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_1",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_PoliceMotorcycle_C_0",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_PoliceRoadPatrol_C_0",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_2",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_3",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_PoliceMotorcycle_C_1",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_PoliceRoadPatrol_C_1",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_4",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_5",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_PoliceMotorcycle_C_2",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_PoliceRoadPatrol_C_2",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_6",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_7",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_PoliceMotorcycle_C_3",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_PoliceRoadPatrol_C_3",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_8",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_9",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_PoliceMotorcycle_C_4",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_PoliceRoadPatrol_C_4",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_10",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_11",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_PoliceMotorcycle_C_5",
+    "previous_acceleration": 6500.0
+  },
+  {
+    "name": "BP_CivilMotorcycle_C_12",
+    "previous_acceleration": 6500.0
+  }
+]

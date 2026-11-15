@@ -1,0 +1,14 @@
+{
+  "installedRAMGB": 8.0,
+  "cpu": {
+    "Name": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+    "NumberOfCores": 4,
+    "NumberOfLogicalProcessors": 8
+  },
+  "scope": "Only the connected local computer",
+  "usableRAMGB": 6.95,
+  "gpu": {
+    "Name": "AMD Radeon(TM) Vega 8 Mobile Graphics",
+    "ReportedDedicatedMemoryGB": 1.0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "COMPILED_STAGING",
+  "choice_buttons": 56,
+  "palette_colors": 6,
+  "selected": "orange",
+  "owned": "teal",
+  "pending": [
+    "Purchase action availability and requirement text",
+    "Visual verification"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "INTEGRATED_AND_PURE_CORE_IMPLEMENTED",
+  "interface": "/Game/Delivery/Interfaces/BPI_DeliveryRiderInput.BPI_DeliveryRiderInput_C",
+  "delta_clamped_nonnegative": true,
+  "native_input_calls_removed": 4,
+  "main_native_base_still_pending": true
+}

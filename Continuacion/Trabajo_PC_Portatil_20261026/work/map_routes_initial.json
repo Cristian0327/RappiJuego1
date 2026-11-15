@@ -1,0 +1,18 @@
+{
+  "seconds": 60,
+  "parked_vehicle_overlap_samples": 18,
+  "minimum_vehicle_travel_cm": 9097.640625,
+  "longest_vehicle_stop_seconds": 40.26673889160156,
+  "pedestrians": 864,
+  "vehicles": 100,
+  "wall_penetration_samples": 0,
+  "airborne_samples": 0,
+  "invalid_positions": 0,
+  "maximum_street_foot_height_cm": 26,
+  "injected_invalid_heights": 24,
+  "unplanned_stalls": 0,
+  "longest_unplanned_stop_seconds": 0.06666667014360428,
+  "static_vehicle_overlap_samples": 0,
+  "crossings_completed": 38,
+  "illegal_crossings": 0
+}

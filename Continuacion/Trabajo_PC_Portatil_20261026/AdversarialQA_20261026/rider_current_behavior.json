@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "checks": [
+    "PureCoreComponent",
+    "CoreFindsEngineCharacter",
+    "HeroMeshPresent",
+    "GenericAnimationClass",
+    "CapsuleRadius",
+    "CapsuleHalfHeight",
+    "CameraFOV",
+    "CameraBoomLength",
+    "BaseWalkingSpeed",
+    "SprintWalkingSpeed",
+    "EndSprintSpeed",
+    "PhoneBlocksSprint",
+    "PhoneBlocksForward",
+    "ForwardAxis",
+    "SideAxis",
+    "AcceleratesWithinTopSpeed",
+    "CoastsWithoutReversing",
+    "BrakeReducesSpeed",
+    "AnimationMounted",
+    "AnimationMotorcycle",
+    "BoostMounted",
+    "BoostWants",
+    "BoostHasThrottle",
+    "StopForward",
+    "StopSide",
+    "StopSpeed",
+    "StopSprint",
+    "NoProjectNativeDependencies"
+  ],
+  "frame_delta_cases": [
+    {
+      "dt": 0.0,
+      "accelerating_speed": 0.0
+    },
+    {
+      "dt": 0.016,
+      "accelerating_speed": 3.5200002193450928
+    },
+    {
+      "dt": 0.033,
+      "accelerating_speed": 7.259999752044678
+    },
+    {
+      "dt": 0.1,
+      "accelerating_speed": 22.0
+    },
+    {
+      "dt": 0.4,
+      "accelerating_speed": 88.0
+    }
+  ]
+}

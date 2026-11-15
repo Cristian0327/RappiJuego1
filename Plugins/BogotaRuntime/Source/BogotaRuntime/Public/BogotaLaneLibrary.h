@@ -16,6 +16,7 @@ public:
  static void SimulateVehicleStep(AActor* Visitor,double DeltaTime,double Clearance,double DesiredSpeed);
  UFUNCTION(BlueprintCallable,Category="Bogota|Navigation")
  static void SimulateCrosswalk(AActor* Citizen,double TimeSeconds);
+ static bool IsPedestrianCrossingWindow(double TimeSeconds);
  UFUNCTION(BlueprintCallable,Category="Bogota|Navigation")
  static FVector AdvanceFarRoute(const TArray<FVector>& Route,UPARAM(ref) int32& RouteIndex,FVector Position,double Speed,double Dt,double HalfHeight);
  UFUNCTION(BlueprintCallable,Category="Bogota|Navigation")

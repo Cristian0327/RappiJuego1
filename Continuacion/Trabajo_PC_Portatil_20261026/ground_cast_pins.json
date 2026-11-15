@@ -1,0 +1,14 @@
+[
+  "K2Node_DynamicCast.Object= links:1",
+  "K2Node_DynamicCast.AsBP Traffic Manager= links:1",
+  "K2Node_DynamicCast.bSuccess= links:0",
+  "K2Node_DynamicCast.Object= links:1",
+  "K2Node_DynamicCast.AsBP Traffic Vehicle= links:4",
+  "K2Node_DynamicCast.bSuccess= links:0",
+  "K2Node_DynamicCast.Object= links:1",
+  "K2Node_DynamicCast.AsBP Police Road Patrol= links:1",
+  "K2Node_DynamicCast.bSuccess= links:0",
+  "K2Node_DynamicCast.Object= links:1",
+  "K2Node_DynamicCast.AsCharacter Movement Component= links:0",
+  "K2Node_DynamicCast.bSuccess= links:0"
+]

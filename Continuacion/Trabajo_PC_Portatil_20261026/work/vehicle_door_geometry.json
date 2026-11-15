@@ -1,0 +1,266 @@
+[
+  {
+    "mesh": "SK_Private",
+    "door_faces": {
+      "door_L": 105,
+      "door_R": 105
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateAveo",
+    "door_faces": {
+      "door_L": 101,
+      "door_R": 101
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateBeetle",
+    "door_faces": {
+      "door_L": 109,
+      "door_R": 109
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateChevette",
+    "door_faces": {
+      "door_L": 110,
+      "door_R": 111
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateClio",
+    "door_faces": {
+      "door_L": 99,
+      "door_R": 100
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateHatch",
+    "door_faces": {
+      "door_L": 112,
+      "door_R": 115
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateMazda323",
+    "door_faces": {
+      "door_L": 89,
+      "door_R": 89
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivatePicanto",
+    "door_faces": {
+      "door_L": 93,
+      "door_R": 95
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivatePickup",
+    "door_faces": {
+      "door_L": 55,
+      "door_R": 55
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivatePrado",
+    "door_faces": {
+      "door_R": 55,
+      "door_L": 55
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateRenault12",
+    "door_faces": {
+      "door_L": 105,
+      "door_R": 105
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateRenault4",
+    "door_faces": {
+      "door_L": 73,
+      "door_R": 73
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateRenault9",
+    "door_faces": {
+      "door_L": 102,
+      "door_R": 102
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateSandero",
+    "door_faces": {
+      "door_L": 92,
+      "door_R": 94
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateSingleCab",
+    "door_faces": {
+      "door_L": 136,
+      "door_R": 141
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateSprint",
+    "door_faces": {
+      "door_L": 84,
+      "door_R": 86
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateSUV",
+    "door_faces": {
+      "door_R": 93,
+      "door_L": 90
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateVan",
+    "door_faces": {
+      "door_L": 44,
+      "door_R": 44
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateVitara",
+    "door_faces": {
+      "door_L": 86,
+      "door_R": 88
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_PrivateWagon",
+    "door_faces": {
+      "door_L": 70,
+      "door_R": 74
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_TaxiCompact",
+    "door_faces": {
+      "door_L": 119,
+      "door_R": 122
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_TaxiSedan",
+    "door_faces": {
+      "door_L": 103,
+      "door_R": 103
+    },
+    "bones": [
+      "door_L",
+      "door_R"
+    ]
+  },
+  {
+    "mesh": "SK_TransMilenio",
+    "door_faces": {
+      "bus_door_b": 56,
+      "bus_door_a": 49
+    },
+    "bones": [
+      "bus_door_a",
+      "bus_door_b"
+    ]
+  },
+  {
+    "mesh": "SK_TransMilenioG66",
+    "door_faces": {
+      "bus_door_b": 56,
+      "bus_door_a": 49
+    },
+    "bones": [
+      "bus_door_a",
+      "bus_door_b"
+    ]
+  }
+]

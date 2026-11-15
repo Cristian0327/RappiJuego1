@@ -1,0 +1,817 @@
+{
+  "cull_distances": [
+    {
+      "actor": "StaticMeshActor_0",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_000.SM_StreetFrontage_000",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_1",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_001.SM_StreetFrontage_001",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_2",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_002.SM_StreetFrontage_002",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_3",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_003.SM_StreetFrontage_003",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_4",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_004.SM_StreetFrontage_004",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_5",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_005.SM_StreetFrontage_005",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_6",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_006.SM_StreetFrontage_006",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_7",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_007_TrafficClearance.SM_StreetFrontage_007_TrafficClearance",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_8",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_008.SM_StreetFrontage_008",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_9",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_009.SM_StreetFrontage_009",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_10",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_010.SM_StreetFrontage_010",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_11",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_011.SM_StreetFrontage_011",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_12",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_012.SM_StreetFrontage_012",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_13",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_013.SM_StreetFrontage_013",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_14",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_014.SM_StreetFrontage_014",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_15",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_015.SM_StreetFrontage_015",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_16",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_016.SM_StreetFrontage_016",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_17",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_017.SM_StreetFrontage_017",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_18",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_018_TrafficClearance.SM_StreetFrontage_018_TrafficClearance",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_19",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_019.SM_StreetFrontage_019",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_20",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_020.SM_StreetFrontage_020",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_21",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_021.SM_StreetFrontage_021",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_22",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_022_TrafficClearance.SM_StreetFrontage_022_TrafficClearance",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_23",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_023_TrafficClearance.SM_StreetFrontage_023_TrafficClearance",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_24",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_024.SM_StreetFrontage_024",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_25",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_025.SM_StreetFrontage_025",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_26",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_026.SM_StreetFrontage_026",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_27",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_027.SM_StreetFrontage_027",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_28",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_028.SM_StreetFrontage_028",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_29",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_029.SM_StreetFrontage_029",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_30",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_030.SM_StreetFrontage_030",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_31",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_031.SM_StreetFrontage_031",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_32",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_032.SM_StreetFrontage_032",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_33",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_033.SM_StreetFrontage_033",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_34",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_034.SM_StreetFrontage_034",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_35",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_035.SM_StreetFrontage_035",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_36",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_036.SM_StreetFrontage_036",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_37",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_037.SM_StreetFrontage_037",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_38",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_038.SM_StreetFrontage_038",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_39",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_039.SM_StreetFrontage_039",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_40",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_040.SM_StreetFrontage_040",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_41",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_041_TrafficClearance.SM_StreetFrontage_041_TrafficClearance",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_42",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_042.SM_StreetFrontage_042",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_43",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_043_TrafficClearance.SM_StreetFrontage_043_TrafficClearance",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_44",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_044_TrafficClearance.SM_StreetFrontage_044_TrafficClearance",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_45",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_045.SM_StreetFrontage_045",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_46",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_046.SM_StreetFrontage_046",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_47",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_047_TrafficClearance.SM_StreetFrontage_047_TrafficClearance",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_48",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_048.SM_StreetFrontage_048",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_49",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_049.SM_StreetFrontage_049",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_50",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_050_TrafficClearance.SM_StreetFrontage_050_TrafficClearance",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_51",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_051.SM_StreetFrontage_051",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_52",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_052.SM_StreetFrontage_052",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_53",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_053.SM_StreetFrontage_053",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_54",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_054.SM_StreetFrontage_054",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_55",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_055.SM_StreetFrontage_055",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_56",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_056.SM_StreetFrontage_056",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_57",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_057.SM_StreetFrontage_057",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_58",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_058.SM_StreetFrontage_058",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_59",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_059.SM_StreetFrontage_059",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_60",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_060.SM_StreetFrontage_060",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_61",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_061.SM_StreetFrontage_061",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_62",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_062.SM_StreetFrontage_062",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_63",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_063.SM_StreetFrontage_063",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_64",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_064.SM_StreetFrontage_064",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_65",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_065.SM_StreetFrontage_065",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_66",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_066.SM_StreetFrontage_066",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_67",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_067.SM_StreetFrontage_067",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_68",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_068.SM_StreetFrontage_068",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_69",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_069.SM_StreetFrontage_069",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_70",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_070.SM_StreetFrontage_070",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_71",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_071.SM_StreetFrontage_071",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_72",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_072.SM_StreetFrontage_072",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_73",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_073.SM_StreetFrontage_073",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_74",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_074.SM_StreetFrontage_074",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_75",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_075.SM_StreetFrontage_075",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_76",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_076.SM_StreetFrontage_076",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_77",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_077.SM_StreetFrontage_077",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_78",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_078.SM_StreetFrontage_078",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_79",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_079.SM_StreetFrontage_079",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_80",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_080.SM_StreetFrontage_080",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_81",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_081.SM_StreetFrontage_081",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_82",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_082.SM_StreetFrontage_082",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_83",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_083.SM_StreetFrontage_083",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_84",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_084.SM_StreetFrontage_084",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_85",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_085.SM_StreetFrontage_085",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_86",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_086.SM_StreetFrontage_086",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_87",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_087.SM_StreetFrontage_087",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_88",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_088.SM_StreetFrontage_088",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_89",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_089.SM_StreetFrontage_089",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_90",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_090.SM_StreetFrontage_090",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_91",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_091.SM_StreetFrontage_091",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_92",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_092.SM_StreetFrontage_092",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_93",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_093.SM_StreetFrontage_093",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_94",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_094.SM_StreetFrontage_094",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_95",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_095.SM_StreetFrontage_095",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_96",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_096.SM_StreetFrontage_096",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_97",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_097.SM_StreetFrontage_097",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_98",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_098.SM_StreetFrontage_098",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_99",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_099.SM_StreetFrontage_099",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_100",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_100.SM_StreetFrontage_100",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_101",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_101.SM_StreetFrontage_101",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_102",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_102.SM_StreetFrontage_102",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_103",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_103.SM_StreetFrontage_103",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_104",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_104.SM_StreetFrontage_104",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_105",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_105.SM_StreetFrontage_105",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_106",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_106.SM_StreetFrontage_106",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_107",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_107.SM_StreetFrontage_107",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_108",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_108.SM_StreetFrontage_108",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_109",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_109.SM_StreetFrontage_109",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_110",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_110.SM_StreetFrontage_110",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_111",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_111.SM_StreetFrontage_111",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_112",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_112.SM_StreetFrontage_112",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_113",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_113.SM_StreetFrontage_113",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_114",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_114.SM_StreetFrontage_114",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_115",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_115.SM_StreetFrontage_115",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_116",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_116.SM_StreetFrontage_116",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_117",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_117.SM_StreetFrontage_117",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_118",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_118.SM_StreetFrontage_118",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_119",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_119.SM_StreetFrontage_119",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_120",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_120.SM_StreetFrontage_120",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_121",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_121.SM_StreetFrontage_121",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_122",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_122.SM_StreetFrontage_122",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_123",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_123.SM_StreetFrontage_123",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_124",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_124.SM_StreetFrontage_124",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_125",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_125.SM_StreetFrontage_125",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_126",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_126.SM_StreetFrontage_126",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_127",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_127.SM_StreetFrontage_127",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_128",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_128_TrafficClearance.SM_StreetFrontage_128_TrafficClearance",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_129",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_129.SM_StreetFrontage_129",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_130",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_130.SM_StreetFrontage_130",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_131",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_131.SM_StreetFrontage_131",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_132",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_132.SM_StreetFrontage_132",
+      "distance": 65000
+    },
+    {
+      "actor": "StaticMeshActor_133",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_133.SM_StreetFrontage_133",
+      "distance": 65000
+    }
+  ],
+  "navigation": [
+    {
+      "name": "RecastNavMesh-StreetCitizen",
+      "runtime": "<RuntimeGenerationType.DYNAMIC: 2>",
+      "force_rebuild": false
+    }
+  ],
+  "skeletal_components": 195,
+  "lights": 102
+}

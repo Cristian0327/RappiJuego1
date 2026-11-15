@@ -4,6 +4,7 @@
   "Category": "Games",
   "Description": "Bogota compacta voxel: peatones, bicicleta y transporte publico",
   "Plugins": [
+    { "Name": "BogotaPhonePreview", "Enabled": true, "PlatformAllowList": ["Win64"] },
     {
       "Name": "PythonScriptPlugin",
       "Enabled": true,
@@ -29,6 +30,16 @@
     {
       "Name": "BogotaRuntime",
       "Enabled": true
+    },
+    {
+      "Name": "ResonanceAudio",
+      "Enabled": true,
+      "PlatformAllowList": ["Win64"]
+    },
+    {
+      "Name": "FMODStudio",
+      "Enabled": true,
+      "PlatformAllowList": ["Win64"]
     }
   ]
 }

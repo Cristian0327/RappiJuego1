@@ -1,0 +1,868 @@
+{
+  "status": "FAIL",
+  "checks": {
+    "35_junctions": true,
+    "all_vehicles_make_progress": true,
+    "no_indefinite_stop": true,
+    "no_body_overlap": false
+  },
+  "simulated_seconds": 120,
+  "wall_seconds": 79.8895408999997,
+  "minimum_travel_cm": 39034.814437412366,
+  "max_idle_seconds": 26,
+  "body_overlap_samples": [
+    {
+      "second": 6.0,
+      "a": 30,
+      "b": 40
+    },
+    {
+      "second": 6.0,
+      "a": 78,
+      "b": 88
+    },
+    {
+      "second": 7.0,
+      "a": 85,
+      "b": 95
+    },
+    {
+      "second": 8.0,
+      "a": 85,
+      "b": 95
+    },
+    {
+      "second": 22.0,
+      "a": 31,
+      "b": 41
+    },
+    {
+      "second": 23.0,
+      "a": 31,
+      "b": 47
+    },
+    {
+      "second": 23.0,
+      "a": 79,
+      "b": 89
+    },
+    {
+      "second": 24.0,
+      "a": 30,
+      "b": 40
+    },
+    {
+      "second": 24.0,
+      "a": 31,
+      "b": 47
+    },
+    {
+      "second": 24.0,
+      "a": 78,
+      "b": 88
+    },
+    {
+      "second": 24.0,
+      "a": 79,
+      "b": 89
+    },
+    {
+      "second": 25.0,
+      "a": 30,
+      "b": 40
+    },
+    {
+      "second": 25.0,
+      "a": 31,
+      "b": 47
+    },
+    {
+      "second": 25.0,
+      "a": 78,
+      "b": 88
+    },
+    {
+      "second": 25.0,
+      "a": 79,
+      "b": 89
+    },
+    {
+      "second": 26.0,
+      "a": 30,
+      "b": 40
+    },
+    {
+      "second": 26.0,
+      "a": 31,
+      "b": 47
+    },
+    {
+      "second": 26.0,
+      "a": 78,
+      "b": 88
+    },
+    {
+      "second": 26.0,
+      "a": 79,
+      "b": 89
+    },
+    {
+      "second": 27.0,
+      "a": 30,
+      "b": 40
+    },
+    {
+      "second": 27.0,
+      "a": 31,
+      "b": 47
+    },
+    {
+      "second": 27.0,
+      "a": 78,
+      "b": 88
+    },
+    {
+      "second": 27.0,
+      "a": 79,
+      "b": 89
+    },
+    {
+      "second": 28.0,
+      "a": 30,
+      "b": 40
+    },
+    {
+      "second": 28.0,
+      "a": 31,
+      "b": 47
+    },
+    {
+      "second": 28.0,
+      "a": 78,
+      "b": 88
+    },
+    {
+      "second": 28.0,
+      "a": 79,
+      "b": 89
+    },
+    {
+      "second": 29.0,
+      "a": 30,
+      "b": 40
+    },
+    {
+      "second": 29.0,
+      "a": 31,
+      "b": 47
+    },
+    {
+      "second": 29.0,
+      "a": 78,
+      "b": 88
+    },
+    {
+      "second": 29.0,
+      "a": 79,
+      "b": 89
+    },
+    {
+      "second": 30.0,
+      "a": 30,
+      "b": 40
+    },
+    {
+      "second": 30.0,
+      "a": 31,
+      "b": 47
+    },
+    {
+      "second": 30.0,
+      "a": 78,
+      "b": 88
+    },
+    {
+      "second": 30.0,
+      "a": 79,
+      "b": 89
+    },
+    {
+      "second": 31.0,
+      "a": 30,
+      "b": 40
+    },
+    {
+      "second": 31.0,
+      "a": 31,
+      "b": 47
+    },
+    {
+      "second": 31.0,
+      "a": 78,
+      "b": 88
+    },
+    {
+      "second": 31.0,
+      "a": 79,
+      "b": 89
+    },
+    {
+      "second": 32.0,
+      "a": 24,
+      "b": 34
+    },
+    {
+      "second": 32.0,
+      "a": 25,
+      "b": 35
+    },
+    {
+      "second": 32.0,
+      "a": 30,
+      "b": 40
+    },
+    {
+      "second": 32.0,
+      "a": 31,
+      "b": 47
+    },
+    {
+      "second": 32.0,
+      "a": 72,
+      "b": 82
+    },
+    {
+      "second": 32.0,
+      "a": 73,
+      "b": 83
+    },
+    {
+      "second": 32.0,
+      "a": 78,
+      "b": 88
+    },
+    {
+      "second": 32.0,
+      "a": 79,
+      "b": 89
+    },
+    {
+      "second": 33.0,
+      "a": 24,
+      "b": 34
+    },
+    {
+      "second": 33.0,
+      "a": 25,
+      "b": 35
+    },
+    {
+      "second": 33.0,
+      "a": 30,
+      "b": 40
+    }
+  ],
+  "samples": [
+    {
+      "second": 1.0,
+      "moving": 100,
+      "reservations": 0
+    },
+    {
+      "second": 2.0,
+      "moving": 98,
+      "reservations": 9
+    },
+    {
+      "second": 3.0,
+      "moving": 90,
+      "reservations": 17
+    },
+    {
+      "second": 4.0,
+      "moving": 82,
+      "reservations": 19
+    },
+    {
+      "second": 5.0,
+      "moving": 74,
+      "reservations": 26
+    },
+    {
+      "second": 6.0,
+      "moving": 70,
+      "reservations": 26
+    },
+    {
+      "second": 7.0,
+      "moving": 70,
+      "reservations": 22
+    },
+    {
+      "second": 8.0,
+      "moving": 64,
+      "reservations": 25
+    },
+    {
+      "second": 9.0,
+      "moving": 62,
+      "reservations": 24
+    },
+    {
+      "second": 10.0,
+      "moving": 60,
+      "reservations": 22
+    },
+    {
+      "second": 11.0,
+      "moving": 60,
+      "reservations": 26
+    },
+    {
+      "second": 12.0,
+      "moving": 59,
+      "reservations": 21
+    },
+    {
+      "second": 13.0,
+      "moving": 63,
+      "reservations": 16
+    },
+    {
+      "second": 14.0,
+      "moving": 63,
+      "reservations": 16
+    },
+    {
+      "second": 15.0,
+      "moving": 63,
+      "reservations": 10
+    },
+    {
+      "second": 16.0,
+      "moving": 59,
+      "reservations": 36
+    },
+    {
+      "second": 17.0,
+      "moving": 86,
+      "reservations": 36
+    },
+    {
+      "second": 18.0,
+      "moving": 84,
+      "reservations": 36
+    },
+    {
+      "second": 19.0,
+      "moving": 85,
+      "reservations": 36
+    },
+    {
+      "second": 20.0,
+      "moving": 78,
+      "reservations": 43
+    },
+    {
+      "second": 21.0,
+      "moving": 78,
+      "reservations": 42
+    },
+    {
+      "second": 22.0,
+      "moving": 73,
+      "reservations": 26
+    },
+    {
+      "second": 23.0,
+      "moving": 66,
+      "reservations": 16
+    },
+    {
+      "second": 24.0,
+      "moving": 69,
+      "reservations": 16
+    },
+    {
+      "second": 25.0,
+      "moving": 64,
+      "reservations": 13
+    },
+    {
+      "second": 26.0,
+      "moving": 60,
+      "reservations": 10
+    },
+    {
+      "second": 27.0,
+      "moving": 60,
+      "reservations": 11
+    },
+    {
+      "second": 28.0,
+      "moving": 60,
+      "reservations": 11
+    },
+    {
+      "second": 29.0,
+      "moving": 59,
+      "reservations": 5
+    },
+    {
+      "second": 30.0,
+      "moving": 59,
+      "reservations": 3
+    },
+    {
+      "second": 31.0,
+      "moving": 39,
+      "reservations": 1
+    },
+    {
+      "second": 32.0,
+      "moving": 25,
+      "reservations": 40
+    },
+    {
+      "second": 33.0,
+      "moving": 67,
+      "reservations": 40
+    },
+    {
+      "second": 34.0,
+      "moving": 63,
+      "reservations": 40
+    },
+    {
+      "second": 35.0,
+      "moving": 63,
+      "reservations": 40
+    },
+    {
+      "second": 36.0,
+      "moving": 63,
+      "reservations": 44
+    },
+    {
+      "second": 37.0,
+      "moving": 63,
+      "reservations": 40
+    },
+    {
+      "second": 38.0,
+      "moving": 71,
+      "reservations": 20
+    },
+    {
+      "second": 39.0,
+      "moving": 69,
+      "reservations": 16
+    },
+    {
+      "second": 40.0,
+      "moving": 64,
+      "reservations": 12
+    },
+    {
+      "second": 41.0,
+      "moving": 64,
+      "reservations": 8
+    },
+    {
+      "second": 42.0,
+      "moving": 64,
+      "reservations": 12
+    },
+    {
+      "second": 43.0,
+      "moving": 59,
+      "reservations": 10
+    },
+    {
+      "second": 44.0,
+      "moving": 60,
+      "reservations": 5
+    },
+    {
+      "second": 45.0,
+      "moving": 58,
+      "reservations": 5
+    },
+    {
+      "second": 46.0,
+      "moving": 55,
+      "reservations": 5
+    },
+    {
+      "second": 47.0,
+      "moving": 51,
+      "reservations": 1
+    },
+    {
+      "second": 48.0,
+      "moving": 21,
+      "reservations": 36
+    },
+    {
+      "second": 49.0,
+      "moving": 71,
+      "reservations": 36
+    },
+    {
+      "second": 50.0,
+      "moving": 69,
+      "reservations": 36
+    },
+    {
+      "second": 51.0,
+      "moving": 69,
+      "reservations": 38
+    },
+    {
+      "second": 52.0,
+      "moving": 69,
+      "reservations": 44
+    },
+    {
+      "second": 53.0,
+      "moving": 67,
+      "reservations": 42
+    },
+    {
+      "second": 54.0,
+      "moving": 63,
+      "reservations": 29
+    },
+    {
+      "second": 55.0,
+      "moving": 65,
+      "reservations": 15
+    },
+    {
+      "second": 56.0,
+      "moving": 65,
+      "reservations": 13
+    },
+    {
+      "second": 57.0,
+      "moving": 61,
+      "reservations": 11
+    },
+    {
+      "second": 58.0,
+      "moving": 61,
+      "reservations": 8
+    },
+    {
+      "second": 59.0,
+      "moving": 58,
+      "reservations": 8
+    },
+    {
+      "second": 60.0,
+      "moving": 58,
+      "reservations": 8
+    },
+    {
+      "second": 61.0,
+      "moving": 60,
+      "reservations": 5
+    },
+    {
+      "second": 62.0,
+      "moving": 56,
+      "reservations": 5
+    },
+    {
+      "second": 63.0,
+      "moving": 44,
+      "reservations": 2
+    },
+    {
+      "second": 64.0,
+      "moving": 29,
+      "reservations": 40
+    },
+    {
+      "second": 65.0,
+      "moving": 58,
+      "reservations": 40
+    },
+    {
+      "second": 66.0,
+      "moving": 56,
+      "reservations": 40
+    },
+    {
+      "second": 67.0,
+      "moving": 60,
+      "reservations": 40
+    },
+    {
+      "second": 68.0,
+      "moving": 60,
+      "reservations": 42
+    },
+    {
+      "second": 69.0,
+      "moving": 58,
+      "reservations": 40
+    },
+    {
+      "second": 70.0,
+      "moving": 68,
+      "reservations": 21
+    },
+    {
+      "second": 71.0,
+      "moving": 70,
+      "reservations": 19
+    },
+    {
+      "second": 72.0,
+      "moving": 68,
+      "reservations": 18
+    },
+    {
+      "second": 73.0,
+      "moving": 68,
+      "reservations": 16
+    },
+    {
+      "second": 74.0,
+      "moving": 68,
+      "reservations": 16
+    },
+    {
+      "second": 75.0,
+      "moving": 63,
+      "reservations": 14
+    },
+    {
+      "second": 76.0,
+      "moving": 65,
+      "reservations": 12
+    },
+    {
+      "second": 77.0,
+      "moving": 65,
+      "reservations": 6
+    },
+    {
+      "second": 78.0,
+      "moving": 64,
+      "reservations": 6
+    },
+    {
+      "second": 79.0,
+      "moving": 60,
+      "reservations": 6
+    },
+    {
+      "second": 80.0,
+      "moving": 29,
+      "reservations": 36
+    },
+    {
+      "second": 81.0,
+      "moving": 69,
+      "reservations": 36
+    },
+    {
+      "second": 82.0,
+      "moving": 68,
+      "reservations": 36
+    },
+    {
+      "second": 83.0,
+      "moving": 68,
+      "reservations": 38
+    },
+    {
+      "second": 84.0,
+      "moving": 68,
+      "reservations": 49
+    },
+    {
+      "second": 85.0,
+      "moving": 68,
+      "reservations": 45
+    },
+    {
+      "second": 86.0,
+      "moving": 64,
+      "reservations": 35
+    },
+    {
+      "second": 87.0,
+      "moving": 64,
+      "reservations": 16
+    },
+    {
+      "second": 88.0,
+      "moving": 64,
+      "reservations": 16
+    },
+    {
+      "second": 89.0,
+      "moving": 62,
+      "reservations": 10
+    },
+    {
+      "second": 90.0,
+      "moving": 60,
+      "reservations": 7
+    },
+    {
+      "second": 91.0,
+      "moving": 60,
+      "reservations": 7
+    },
+    {
+      "second": 92.0,
+      "moving": 60,
+      "reservations": 4
+    },
+    {
+      "second": 93.0,
+      "moving": 58,
+      "reservations": 2
+    },
+    {
+      "second": 94.0,
+      "moving": 58,
+      "reservations": 2
+    },
+    {
+      "second": 95.0,
+      "moving": 48,
+      "reservations": 0
+    },
+    {
+      "second": 96.0,
+      "moving": 28,
+      "reservations": 44
+    },
+    {
+      "second": 97.0,
+      "moving": 70,
+      "reservations": 44
+    },
+    {
+      "second": 98.0,
+      "moving": 68,
+      "reservations": 44
+    },
+    {
+      "second": 99.0,
+      "moving": 68,
+      "reservations": 44
+    },
+    {
+      "second": 100.0,
+      "moving": 68,
+      "reservations": 48
+    },
+    {
+      "second": 101.0,
+      "moving": 68,
+      "reservations": 46
+    },
+    {
+      "second": 102.0,
+      "moving": 72,
+      "reservations": 16
+    },
+    {
+      "second": 103.0,
+      "moving": 72,
+      "reservations": 16
+    },
+    {
+      "second": 104.0,
+      "moving": 63,
+      "reservations": 12
+    },
+    {
+      "second": 105.0,
+      "moving": 63,
+      "reservations": 8
+    },
+    {
+      "second": 106.0,
+      "moving": 63,
+      "reservations": 8
+    },
+    {
+      "second": 107.0,
+      "moving": 58,
+      "reservations": 6
+    },
+    {
+      "second": 108.0,
+      "moving": 58,
+      "reservations": 0
+    },
+    {
+      "second": 109.0,
+      "moving": 58,
+      "reservations": 0
+    },
+    {
+      "second": 110.0,
+      "moving": 54,
+      "reservations": 0
+    },
+    {
+      "second": 111.0,
+      "moving": 50,
+      "reservations": 0
+    },
+    {
+      "second": 112.0,
+      "moving": 16,
+      "reservations": 36
+    },
+    {
+      "second": 113.0,
+      "moving": 68,
+      "reservations": 36
+    },
+    {
+      "second": 114.0,
+      "moving": 64,
+      "reservations": 36
+    },
+    {
+      "second": 115.0,
+      "moving": 64,
+      "reservations": 38
+    },
+    {
+      "second": 116.0,
+      "moving": 64,
+      "reservations": 45
+    },
+    {
+      "second": 117.0,
+      "moving": 58,
+      "reservations": 43
+    },
+    {
+      "second": 118.0,
+      "moving": 60,
+      "reservations": 31
+    },
+    {
+      "second": 119.0,
+      "moving": 64,
+      "reservations": 17
+    },
+    {
+      "second": 120.0,
+      "moving": 64,
+      "reservations": 15
+    }
+  ],
+  "scope": "Signal/queue deterministic Blueprint simulation; pedestrian avoidance, buses and controlled cars still pending"
+}

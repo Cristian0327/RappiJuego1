@@ -1,0 +1,260 @@
+{
+  "service_samples": 2664,
+  "reverse_samples": 23,
+  "reverse_examples": [
+    {
+      "time": 0.4,
+      "name": "BP_PoliceRoadPatrol_C_4",
+      "speed": -63.646348
+    },
+    {
+      "time": 5.178275,
+      "name": "BP_CivilMotorcycle_C_3",
+      "speed": -37.169517
+    },
+    {
+      "time": 10.206347,
+      "name": "BP_CivilMotorcycle_C_0",
+      "speed": -55.113474000000004
+    },
+    {
+      "time": 15.444693,
+      "name": "BP_PoliceRoadPatrol_C_4",
+      "speed": -15.370863999999997
+    },
+    {
+      "time": 15.444693,
+      "name": "BP_TwoWheelerCitizen_C_2",
+      "speed": -323.76907
+    },
+    {
+      "time": 35.239542,
+      "name": "BP_CivilMotorcycle_C_4",
+      "speed": -170.254845
+    },
+    {
+      "time": 55.378414,
+      "name": "BP_CivilMotorcycle_C_6",
+      "speed": -30.755648
+    },
+    {
+      "time": 60.285993,
+      "name": "BP_TwoWheelerCitizen_C_2",
+      "speed": -44.60365899999999
+    },
+    {
+      "time": 75.221552,
+      "name": "BP_TwoWheelerCitizen_C_2",
+      "speed": -65.26392900000002
+    },
+    {
+      "time": 90.309949,
+      "name": "BP_PoliceRoadPatrol_C_2",
+      "speed": -17.581824
+    }
+  ],
+  "estimated_body_overlap_samples": 1524,
+  "overlap_examples": [
+    {
+      "time": 0.4,
+      "a": "car:14",
+      "b": "BP_TwoWheelerCitizen_C_2"
+    },
+    {
+      "time": 0.4,
+      "a": "car:19",
+      "b": "BP_TwoWheelerCitizen_C_9"
+    },
+    {
+      "time": 0.4,
+      "a": "car:32",
+      "b": "BP_TwoWheelerCitizen_C_6"
+    },
+    {
+      "time": 0.4,
+      "a": "car:53",
+      "b": "BP_PoliceRoadPatrol_C_0"
+    },
+    {
+      "time": 0.4,
+      "a": "car:54",
+      "b": "BP_TwoWheelerCitizen_C_10"
+    },
+    {
+      "time": 0.4,
+      "a": "car:69",
+      "b": "BP_CivilMotorcycle_C_8"
+    },
+    {
+      "time": 0.4,
+      "a": "BP_PoliceRoadPatrol_C_0",
+      "b": "BP_CivilMotorcycle_C_12"
+    },
+    {
+      "time": 5.178275,
+      "a": "car:19",
+      "b": "BP_TwoWheelerCitizen_C_9"
+    },
+    {
+      "time": 5.178275,
+      "a": "car:54",
+      "b": "BP_TwoWheelerCitizen_C_10"
+    },
+    {
+      "time": 5.178275,
+      "a": "BP_PoliceRoadPatrol_C_0",
+      "b": "BP_CivilMotorcycle_C_12"
+    },
+    {
+      "time": 10.206347,
+      "a": "car:19",
+      "b": "BP_TwoWheelerCitizen_C_9"
+    },
+    {
+      "time": 10.206347,
+      "a": "car:53",
+      "b": "BP_CivilMotorcycle_C_12"
+    },
+    {
+      "time": 10.206347,
+      "a": "car:57",
+      "b": "BP_PoliceRoadPatrol_C_1"
+    },
+    {
+      "time": 10.206347,
+      "a": "car:68",
+      "b": "BP_CivilMotorcycle_C_5"
+    },
+    {
+      "time": 15.444693,
+      "a": "car:10",
+      "b": "BP_CivilMotorcycle_C_11"
+    },
+    {
+      "time": 15.444693,
+      "a": "car:19",
+      "b": "BP_TwoWheelerCitizen_C_9"
+    },
+    {
+      "time": 15.444693,
+      "a": "car:22",
+      "b": "BP_CivilMotorcycle_C_4"
+    },
+    {
+      "time": 15.444693,
+      "a": "car:42",
+      "b": "BP_CivilMotorcycle_C_1"
+    },
+    {
+      "time": 15.444693,
+      "a": "car:68",
+      "b": "BP_CivilMotorcycle_C_5"
+    },
+    {
+      "time": 15.444693,
+      "a": "car:81",
+      "b": "BP_PoliceMotorcycle_C_1"
+    },
+    {
+      "time": 15.444693,
+      "a": "BP_PoliceRoadPatrol_C_4",
+      "b": "BP_CivilMotorcycle_C_10"
+    },
+    {
+      "time": 20.347481,
+      "a": "car:31",
+      "b": "BP_PoliceRoadPatrol_C_2"
+    },
+    {
+      "time": 20.347481,
+      "a": "car:42",
+      "b": "BP_CivilMotorcycle_C_1"
+    },
+    {
+      "time": 20.347481,
+      "a": "car:51",
+      "b": "BP_PoliceRoadPatrol_C_3"
+    },
+    {
+      "time": 20.347481,
+      "a": "car:68",
+      "b": "BP_CivilMotorcycle_C_5"
+    },
+    {
+      "time": 20.347481,
+      "a": "car:81",
+      "b": "BP_PoliceMotorcycle_C_1"
+    },
+    {
+      "time": 25.263063,
+      "a": "car:4",
+      "b": "BP_PoliceMotorcycle_C_3"
+    },
+    {
+      "time": 25.263063,
+      "a": "car:41",
+      "b": "BP_TwoWheelerCitizen_C_7"
+    },
+    {
+      "time": 25.263063,
+      "a": "car:42",
+      "b": "BP_CivilMotorcycle_C_1"
+    },
+    {
+      "time": 25.263063,
+      "a": "car:68",
+      "b": "BP_CivilMotorcycle_C_5"
+    },
+    {
+      "time": 25.263063,
+      "a": "car:81",
+      "b": "BP_PoliceMotorcycle_C_1"
+    },
+    {
+      "time": 25.263063,
+      "a": "car:85",
+      "b": "BP_PoliceRoadPatrol_C_0"
+    },
+    {
+      "time": 25.263063,
+      "a": "BP_PoliceRoadPatrol_C_4",
+      "b": "BP_CivilMotorcycle_C_10"
+    },
+    {
+      "time": 30.310182,
+      "a": "car:27",
+      "b": "BP_TwoWheelerCitizen_C_3"
+    },
+    {
+      "time": 30.310182,
+      "a": "car:32",
+      "b": "BP_CivilMotorcycle_C_12"
+    },
+    {
+      "time": 30.310182,
+      "a": "car:42",
+      "b": "BP_CivilMotorcycle_C_1"
+    },
+    {
+      "time": 30.310182,
+      "a": "car:68",
+      "b": "BP_CivilMotorcycle_C_1"
+    },
+    {
+      "time": 30.310182,
+      "a": "car:68",
+      "b": "BP_CivilMotorcycle_C_5"
+    },
+    {
+      "time": 30.310182,
+      "a": "car:70",
+      "b": "BP_TwoWheelerCitizen_C_4"
+    },
+    {
+      "time": 35.239542,
+      "a": "car:14",
+      "b": "BP_CivilMotorcycle_C_0"
+    }
+  ],
+  "note": "Sampled conservative envelopes; parked/walking cyclists excluded. Not continuous collision certification."
+}

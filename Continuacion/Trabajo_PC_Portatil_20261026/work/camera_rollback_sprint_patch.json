@@ -1,0 +1,10 @@
+{
+  "camera": "Original arm430/530/interior240, offset45/70, smoothing3, camera lag and FOV75/78; original pitch/roll limits; no added body hiding or NPC camera blocker",
+  "sprint_cm_s": 650,
+  "walk_cm_s": 140,
+  "mixamo_source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\Upright\\AN_HeroRun_Rebuilt.fbx",
+  "previous_asset_rate": 3.0776193141937256,
+  "run_asset_rate": 1.5,
+  "run_rate_reference": 650,
+  "removed_camera_helpers": 1
+}

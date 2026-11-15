@@ -1,0 +1,156 @@
+{
+  "samples": 1776,
+  "last_time": 365.185485,
+  "modes": {
+    "1": 1529,
+    "3": 247
+  },
+  "grounded_fraction": 0.8609234234234234,
+  "unsafe_overspeed": [
+    {
+      "time": 180.326404,
+      "name": "BP_PoliceMotorcycle_C_3",
+      "mode": "3",
+      "default_mode": "1",
+      "maximum": 343.162598,
+      "step": 30.0,
+      "class_name": "CharacterMovementComponent",
+      "components": 1,
+      "speed": 548.7401714153976
+    },
+    {
+      "time": 265.25489,
+      "name": "BP_PoliceMotorcycle_C_3",
+      "mode": "3",
+      "default_mode": "1",
+      "maximum": 439.473541,
+      "step": 30.0,
+      "class_name": "CharacterMovementComponent",
+      "components": 1,
+      "speed": 613.429392563643
+    },
+    {
+      "time": 280.05554,
+      "name": "BP_CivilMotorcycle_C_0",
+      "mode": "3",
+      "default_mode": "1",
+      "maximum": 165.721954,
+      "step": 30.0,
+      "class_name": "CharacterMovementComponent",
+      "components": 1,
+      "speed": 456.3561407990474
+    },
+    {
+      "time": 290.131283,
+      "name": "BP_PoliceMotorcycle_C_3",
+      "mode": "3",
+      "default_mode": "1",
+      "maximum": 220.284058,
+      "step": 30.0,
+      "class_name": "CharacterMovementComponent",
+      "components": 1,
+      "speed": 498.1255682104664
+    },
+    {
+      "time": 345.182798,
+      "name": "BP_CivilMotorcycle_C_8",
+      "mode": "3",
+      "default_mode": "1",
+      "maximum": 312.426697,
+      "step": 30.0,
+      "class_name": "CharacterMovementComponent",
+      "components": 1,
+      "speed": 571.3142827910046
+    }
+  ],
+  "falling_examples": [
+    {
+      "time": 360.274574,
+      "name": "BP_PoliceRoadPatrol_C_3",
+      "mode": "3",
+      "default_mode": "1",
+      "maximum": 580.0,
+      "step": 30.0,
+      "class_name": "CharacterMovementComponent",
+      "components": 1,
+      "speed": 0.0
+    },
+    {
+      "time": 360.274574,
+      "name": "BP_CivilMotorcycle_C_8",
+      "mode": "3",
+      "default_mode": "1",
+      "maximum": 650.0,
+      "step": 30.0,
+      "class_name": "CharacterMovementComponent",
+      "components": 1,
+      "speed": 174.3778098038853
+    },
+    {
+      "time": 360.274574,
+      "name": "BP_CivilMotorcycle_C_10",
+      "mode": "3",
+      "default_mode": "1",
+      "maximum": 622.19397,
+      "step": 30.0,
+      "class_name": "CharacterMovementComponent",
+      "components": 1,
+      "speed": 0.0
+    },
+    {
+      "time": 365.185485,
+      "name": "BP_CivilMotorcycle_C_1",
+      "mode": "3",
+      "default_mode": "1",
+      "maximum": 650.0,
+      "step": 30.0,
+      "class_name": "CharacterMovementComponent",
+      "components": 1,
+      "speed": 0.0
+    },
+    {
+      "time": 365.185485,
+      "name": "BP_PoliceMotorcycle_C_3",
+      "mode": "3",
+      "default_mode": "1",
+      "maximum": 650.0,
+      "step": 30.0,
+      "class_name": "CharacterMovementComponent",
+      "components": 1,
+      "speed": 0.0
+    },
+    {
+      "time": 365.185485,
+      "name": "BP_PoliceRoadPatrol_C_3",
+      "mode": "3",
+      "default_mode": "1",
+      "maximum": 580.0,
+      "step": 30.0,
+      "class_name": "CharacterMovementComponent",
+      "components": 1,
+      "speed": 0.0
+    },
+    {
+      "time": 365.185485,
+      "name": "BP_CivilMotorcycle_C_8",
+      "mode": "3",
+      "default_mode": "1",
+      "maximum": 650.0,
+      "step": 30.0,
+      "class_name": "CharacterMovementComponent",
+      "components": 1,
+      "speed": 148.67568816050593
+    },
+    {
+      "time": 365.185485,
+      "name": "BP_CivilMotorcycle_C_10",
+      "mode": "3",
+      "default_mode": "1",
+      "maximum": 650.0,
+      "step": 30.0,
+      "class_name": "CharacterMovementComponent",
+      "components": 1,
+      "speed": 0.0
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "asset": "/Game/World/BogotaUrban/Geometry/SM_Bogota_CruceAccesible",
+  "backup": "/Game/QA/Backups/SM_Bogota_CruceAccesible_PreTrafficFix",
+  "visual_bounds_before": [
+    787.5001220703125,
+    1528.0,
+    10.0
+  ],
+  "visual_bounds_after": [
+    787.5001220703125,
+    1528.0,
+    10.0
+  ],
+  "source_limits": {
+    "min": [
+      -787.5001220703125,
+      -1528.0,
+      0.0
+    ],
+    "max": [
+      787.5001220703125,
+      1528.0,
+      20.0
+    ]
+  },
+  "removed_paint_collision_triangles": 780,
+  "remaining_ramp_triangles": 12,
+  "simple_shapes": 2,
+  "checks": [
+    {
+      "name": "paint_simple",
+      "blocked": false,
+      "expected": false,
+      "impact": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "paint_visual",
+      "blocked": true,
+      "expected": true,
+      "impact": [
+        -215.0,
+        0.5000190734863281,
+        6.5
+      ]
+    },
+    {
+      "name": "ramp_north",
+      "blocked": true,
+      "expected": true,
+      "impact": [
+        0.0,
+        1408.0,
+        12.000004016175268
+      ]
+    },
+    {
+      "name": "ramp_south",
+      "blocked": true,
+      "expected": true,
+      "impact": [
+        0.0,
+        -1408.0,
+        12.000004016175268
+      ]
+    }
+  ]
+}

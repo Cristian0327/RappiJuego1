@@ -1,0 +1,431 @@
+{
+  "time": 365.170186,
+  "blockers": {
+    "car:0": [
+      {
+        "other": "car:13",
+        "gap": 0.0014519999967887998,
+        "envelope": 42.27284240722656
+      }
+    ],
+    "car:2": [
+      {
+        "other": "car:36",
+        "gap": 3.410605131648481e-12,
+        "envelope": 43.49168395996094
+      }
+    ],
+    "car:3": [],
+    "car:4": [
+      {
+        "other": "BP_TwoWheelerCitizen_C_11",
+        "gap": 1.1368683772161603e-12,
+        "envelope": 44.10013961791992
+      }
+    ],
+    "car:7": [
+      {
+        "other": "car:62",
+        "gap": 0.0,
+        "envelope": 39.83342361450195
+      }
+    ],
+    "car:8": [],
+    "car:11": [],
+    "car:13": [
+      {
+        "other": "car:21",
+        "gap": 3.0000205697433557e-06,
+        "envelope": 31.843599319458008
+      }
+    ],
+    "car:15": [
+      {
+        "other": "car:40",
+        "gap": 4.999851626052987e-07,
+        "envelope": 40.46697235107422
+      }
+    ],
+    "car:16": [
+      {
+        "other": "car:37",
+        "gap": 0.0,
+        "envelope": 35.28512954711914
+      }
+    ],
+    "car:17": [
+      {
+        "other": "car:51",
+        "gap": 0.0,
+        "envelope": 44.739654541015625
+      }
+    ],
+    "car:19": [
+      {
+        "other": "car:49",
+        "gap": 0.0,
+        "envelope": 37.316810607910156
+      }
+    ],
+    "car:20": [
+      {
+        "other": "car:25",
+        "gap": 0.00016200001118704677,
+        "envelope": 41.421897888183594
+      }
+    ],
+    "car:21": [
+      {
+        "other": "car:47",
+        "gap": 0.0,
+        "envelope": 33.37652587890625
+      }
+    ],
+    "car:22": [],
+    "car:23": [
+      {
+        "other": "car:7",
+        "gap": 0.0,
+        "envelope": 40.11575698852539
+      }
+    ],
+    "car:24": [
+      {
+        "other": "car:46",
+        "gap": 2.319211489520967e-11,
+        "envelope": 38.68339157104492
+      }
+    ],
+    "car:25": [],
+    "car:26": [
+      {
+        "other": "car:60",
+        "gap": 1.1368683772161603e-12,
+        "envelope": 44.839317321777344
+      }
+    ],
+    "car:27": [
+      {
+        "other": "BP_TwoWheelerCitizen_C_3",
+        "gap": 1.1368683772161603e-12,
+        "envelope": 39.095394134521484
+      }
+    ],
+    "car:28": [
+      {
+        "other": "BP_TwoWheelerCitizen_C_7",
+        "gap": 0.0,
+        "envelope": 43.98642349243164
+      }
+    ],
+    "car:29": [
+      {
+        "other": "car:63",
+        "gap": 0.032846998423337936,
+        "envelope": 33.09086608886719
+      }
+    ],
+    "car:30": [
+      {
+        "other": "car:29",
+        "gap": 0.2274779975414276,
+        "envelope": 37.58180618286133
+      }
+    ],
+    "car:31": [
+      {
+        "other": "BP_PoliceRoadPatrol_C_2",
+        "gap": 0.0,
+        "envelope": 0.0
+      }
+    ],
+    "car:32": [],
+    "car:33": [],
+    "car:34": [],
+    "car:36": [],
+    "car:37": [],
+    "car:40": [
+      {
+        "other": "car:70",
+        "gap": 2.319211489520967e-11,
+        "envelope": 41.678916931152344
+      }
+    ],
+    "car:41": [
+      {
+        "other": "car:75",
+        "gap": 0.0008870000019669533,
+        "envelope": 34.07666015625
+      }
+    ],
+    "car:44": [],
+    "car:45": [
+      {
+        "other": "car:79",
+        "gap": 0.0,
+        "envelope": 40.89571762084961
+      }
+    ],
+    "car:46": [],
+    "car:47": [],
+    "car:49": [
+      {
+        "other": "car:74",
+        "gap": 9.322320693172514e-12,
+        "envelope": 42.38541793823242
+      }
+    ],
+    "car:50": [
+      {
+        "other": "BP_TwoWheelerCitizen_C_1",
+        "gap": 0.003906124969944358,
+        "envelope": 43.53302764892578
+      }
+    ],
+    "car:51": [
+      {
+        "other": "BP_PoliceRoadPatrol_C_3",
+        "gap": 0.0,
+        "envelope": 0.0
+      }
+    ],
+    "car:53": [
+      {
+        "other": "BP_TwoWheelerCitizen_C_6",
+        "gap": 1.999992036871845e-06,
+        "envelope": 44.33803176879883
+      }
+    ],
+    "car:54": [],
+    "car:55": [
+      {
+        "other": "car:71",
+        "gap": 1.6257217794191092e-11,
+        "envelope": 36.84159851074219
+      }
+    ],
+    "car:56": [],
+    "car:57": [
+      {
+        "other": "car:2",
+        "gap": 0.0,
+        "envelope": 42.07308578491211
+      }
+    ],
+    "car:59": [
+      {
+        "other": "car:4",
+        "gap": 0.0,
+        "envelope": 38.178497314453125
+      }
+    ],
+    "car:60": [],
+    "car:62": [
+      {
+        "other": "BP_TwoWheelerCitizen_C_10",
+        "gap": 5.000224518880714e-07,
+        "envelope": 38.47115707397461
+      }
+    ],
+    "car:63": [
+      {
+        "other": "car:8",
+        "gap": 0.002311999909579754,
+        "envelope": 34.38698959350586
+      }
+    ],
+    "car:65": [
+      {
+        "other": "BP_TwoWheelerCitizen_C_9",
+        "gap": 2.9999982871231623e-06,
+        "envelope": 30.663461685180664
+      }
+    ],
+    "car:66": [
+      {
+        "other": "car:11",
+        "gap": 0.0,
+        "envelope": 30.692928314208984
+      }
+    ],
+    "car:70": [
+      {
+        "other": "BP_TwoWheelerCitizen_C_4",
+        "gap": 5.000200644644792e-07,
+        "envelope": 42.92475891113281
+      }
+    ],
+    "car:71": [
+      {
+        "other": "BP_PoliceRoadPatrol_C_4",
+        "gap": 0.0,
+        "envelope": 0.0
+      }
+    ],
+    "car:74": [
+      {
+        "other": "car:83",
+        "gap": 1.0459189070388675e-11,
+        "envelope": 43.31413269042969
+      }
+    ],
+    "car:75": [
+      {
+        "other": "car:20",
+        "gap": 0.00022600000374950469,
+        "envelope": 42.40934371948242
+      }
+    ],
+    "car:77": [],
+    "car:78": [
+      {
+        "other": "car:23",
+        "gap": 0.0,
+        "envelope": 40.76698303222656
+      }
+    ],
+    "car:79": [
+      {
+        "other": "car:24",
+        "gap": 0.0,
+        "envelope": 40.17886734008789
+      }
+    ],
+    "car:80": [
+      {
+        "other": "car:16",
+        "gap": 0.0,
+        "envelope": 31.464956283569336
+      }
+    ],
+    "car:81": [],
+    "car:83": [
+      {
+        "other": "car:28",
+        "gap": 1.0459189070388675e-11,
+        "envelope": 43.61867904663086
+      }
+    ],
+    "car:84": [
+      {
+        "other": "BP_PoliceRoadPatrol_C_2",
+        "gap": 0.0,
+        "envelope": 0.0
+      }
+    ],
+    "car:85": [
+      {
+        "other": "BP_PoliceRoadPatrol_C_0",
+        "gap": 0.0,
+        "envelope": 0.0
+      }
+    ],
+    "car:86": [],
+    "car:87": [
+      {
+        "other": "car:88",
+        "gap": 0.0,
+        "envelope": 0.0
+      }
+    ],
+    "car:88": [],
+    "car:89": [],
+    "BP_CivilMotorcycle_C_1": [],
+    "BP_PoliceMotorcycle_C_0": [],
+    "BP_PoliceRoadPatrol_C_0": [
+      {
+        "other": "BP_TwoWheelerCitizen_C_1",
+        "gap": 0.0,
+        "envelope": 0.0
+      }
+    ],
+    "BP_CivilMotorcycle_C_2": [],
+    "BP_PoliceMotorcycle_C_1": [],
+    "BP_PoliceRoadPatrol_C_1": [
+      {
+        "other": "car:57",
+        "gap": 0.0,
+        "envelope": 42.90357208251953
+      }
+    ],
+    "BP_CivilMotorcycle_C_4": [],
+    "BP_CivilMotorcycle_C_5": [],
+    "BP_PoliceMotorcycle_C_2": [],
+    "BP_PoliceRoadPatrol_C_2": [
+      {
+        "other": "car:31",
+        "gap": 0.0,
+        "envelope": 0.0
+      }
+    ],
+    "BP_CivilMotorcycle_C_6": [],
+    "BP_CivilMotorcycle_C_7": [],
+    "BP_PoliceMotorcycle_C_3": [],
+    "BP_PoliceRoadPatrol_C_3": [],
+    "BP_CivilMotorcycle_C_9": [],
+    "BP_PoliceMotorcycle_C_4": [],
+    "BP_PoliceRoadPatrol_C_4": [],
+    "BP_CivilMotorcycle_C_10": [],
+    "BP_CivilMotorcycle_C_11": [],
+    "BP_PoliceMotorcycle_C_5": [],
+    "BP_CivilMotorcycle_C_12": [],
+    "BP_TwoWheelerCitizen_C_0": [],
+    "BP_TwoWheelerCitizen_C_1": [
+      {
+        "other": "BP_PoliceRoadPatrol_C_0",
+        "gap": 0.0,
+        "envelope": 0.0
+      }
+    ],
+    "BP_TwoWheelerCitizen_C_3": [
+      {
+        "other": "car:66",
+        "gap": 0.0,
+        "envelope": 28.081432342529297
+      }
+    ],
+    "BP_TwoWheelerCitizen_C_4": [
+      {
+        "other": "car:45",
+        "gap": 0.0,
+        "envelope": 0.0
+      }
+    ],
+    "BP_TwoWheelerCitizen_C_5": [
+      {
+        "other": "car:34",
+        "gap": 0.0,
+        "envelope": 26.641006469726562
+      }
+    ],
+    "BP_TwoWheelerCitizen_C_6": [
+      {
+        "other": "BP_TwoWheelerCitizen_C_0",
+        "gap": 0.0,
+        "envelope": 26.327102661132812
+      }
+    ],
+    "BP_TwoWheelerCitizen_C_7": [],
+    "BP_TwoWheelerCitizen_C_9": [
+      {
+        "other": "car:19",
+        "gap": 0.0,
+        "envelope": 28.29259490966797
+      }
+    ],
+    "BP_TwoWheelerCitizen_C_10": [
+      {
+        "other": "car:54",
+        "gap": 0.0,
+        "envelope": 31.4724063873291
+      }
+    ],
+    "BP_TwoWheelerCitizen_C_11": [
+      {
+        "other": "car:17",
+        "gap": 0.0,
+        "envelope": 43.18342971801758
+      }
+    ]
+  }
+}

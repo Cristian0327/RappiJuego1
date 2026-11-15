@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": {
+    "junction_preserves_authored_position": true,
+    "central_avenue_band_1925": true,
+    "approach_is_straight": true,
+    "red_stops_at_line": true,
+    "blocked_exit_prevents_entry": true,
+    "green_admits_and_reserves": true,
+    "admitted_vehicle_keeps_right_of_way_after_red": true,
+    "opposing_straight_lanes_can_pass_together": true,
+    "perpendicular_traffic_waits": true,
+    "rear_not_clear_retains_reservation": true,
+    "rear_clear_releases_reservation": true,
+    "all_cleared_releases_crossing": true,
+    "waiting_cross_traffic_can_then_enter": true
+  },
+  "scope": "Blueprint VM junction admission and rear clearance; city manager integration and congestion stress still pending"
+}

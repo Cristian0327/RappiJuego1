@@ -1,0 +1,6 @@
+{
+  "/Game/Traffic/Detailed/M_TrafficVoxelVertex": true,
+  "/Game/Traffic/Detailed/M_TrafficVoxel": true,
+  "/Game/Traffic/Services/M_ServiceVoxel": true,
+  "/Game/Traffic/Services/M_ServiceWindow": true
+}

@@ -1,0 +1,6 @@
+{
+  "status": "READY_FOR_RUNTIME_TEST",
+  "officer": "/Game/Traffic/Services/BP_PoliceOfficer",
+  "patrol": "/Game/Traffic/Services/BP_PolicePatrol",
+  "test_map": "/Game/QA/PolicePatrolTest"
+}

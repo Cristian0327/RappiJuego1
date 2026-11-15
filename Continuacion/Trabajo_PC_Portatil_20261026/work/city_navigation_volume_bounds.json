@@ -1,0 +1,1388 @@
+[
+  {
+    "label": "CitySidewalkNavigation",
+    "centre": [
+      0.0,
+      0.0,
+      80.0
+    ],
+    "extent": [
+      39000.0,
+      25000.0,
+      200.0
+    ],
+    "area": null
+  },
+  {
+    "label": "NoNavigationInsideBuilding_0",
+    "centre": [
+      8600.0,
+      -14300.0,
+      80.0
+    ],
+    "extent": [
+      1050.5,
+      991.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_1",
+    "centre": [
+      3400.0,
+      3300.0,
+      80.0
+    ],
+    "extent": [
+      1349.5,
+      1075.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_2",
+    "centre": [
+      8600.0,
+      7700.0,
+      80.0
+    ],
+    "extent": [
+      1168.0,
+      1135.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_3",
+    "centre": [
+      3400.0,
+      14300.0,
+      80.0
+    ],
+    "extent": [
+      1182.0,
+      1151.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_4",
+    "centre": [
+      3400.0,
+      18700.0,
+      80.0
+    ],
+    "extent": [
+      1083.5,
+      1279.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_5",
+    "centre": [
+      15400.0,
+      -18700.0,
+      80.0
+    ],
+    "extent": [
+      1236.5,
+      1232.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_6",
+    "centre": [
+      20600.0,
+      -18700.0,
+      80.0
+    ],
+    "extent": [
+      1248.5,
+      978.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_7",
+    "centre": [
+      20600.0,
+      -14300.0,
+      80.0
+    ],
+    "extent": [
+      1363.0,
+      1317.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_8",
+    "centre": [
+      15400.0,
+      -7700.0,
+      80.0
+    ],
+    "extent": [
+      1452.5,
+      1007.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_9",
+    "centre": [
+      15400.0,
+      -3300.0,
+      80.0
+    ],
+    "extent": [
+      1268.0,
+      1251.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_10",
+    "centre": [
+      20600.0,
+      3300.0,
+      80.0
+    ],
+    "extent": [
+      1347.0,
+      1124.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_11",
+    "centre": [
+      27400.0,
+      -18700.0,
+      80.0
+    ],
+    "extent": [
+      1094.5,
+      949.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_12",
+    "centre": [
+      32600.0,
+      -18700.0,
+      80.0
+    ],
+    "extent": [
+      1364.0,
+      980.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_13",
+    "centre": [
+      27400.0,
+      -3300.0,
+      80.0
+    ],
+    "extent": [
+      1450.5,
+      1107.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_14",
+    "centre": [
+      32600.0,
+      7700.0,
+      80.0
+    ],
+    "extent": [
+      1062.0,
+      1186.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_15",
+    "centre": [
+      3700.0,
+      7000.0,
+      80.0
+    ],
+    "extent": [
+      860.0,
+      860.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_16",
+    "centre": [
+      -32600.0,
+      -18700.0,
+      80.0
+    ],
+    "extent": [
+      1439.5,
+      913.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_17",
+    "centre": [
+      -32600.0,
+      -14300.0,
+      80.0
+    ],
+    "extent": [
+      1383.5,
+      998.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_18",
+    "centre": [
+      -27400.0,
+      -18700.0,
+      80.0
+    ],
+    "extent": [
+      1093.0,
+      961.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_19",
+    "centre": [
+      -27400.0,
+      -14300.0,
+      80.0
+    ],
+    "extent": [
+      1449.5,
+      1141.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_20",
+    "centre": [
+      -32600.0,
+      -7700.0,
+      80.0
+    ],
+    "extent": [
+      1178.0,
+      1178.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_21",
+    "centre": [
+      -32600.0,
+      -3300.0,
+      80.0
+    ],
+    "extent": [
+      1397.5,
+      930.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_22",
+    "centre": [
+      -27400.0,
+      -7700.0,
+      80.0
+    ],
+    "extent": [
+      1348.5,
+      1234.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_23",
+    "centre": [
+      -27400.0,
+      -3300.0,
+      80.0
+    ],
+    "extent": [
+      1398.0,
+      1166.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_24",
+    "centre": [
+      -32600.0,
+      3300.0,
+      80.0
+    ],
+    "extent": [
+      1360.5,
+      1046.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_25",
+    "centre": [
+      -32600.0,
+      7700.0,
+      80.0
+    ],
+    "extent": [
+      1047.5,
+      1285.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_26",
+    "centre": [
+      -27400.0,
+      3300.0,
+      80.0
+    ],
+    "extent": [
+      1474.0,
+      1107.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_27",
+    "centre": [
+      -27400.0,
+      7700.0,
+      80.0
+    ],
+    "extent": [
+      1499.5,
+      987.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_28",
+    "centre": [
+      -20600.0,
+      -18700.0,
+      80.0
+    ],
+    "extent": [
+      1491.5,
+      1223.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_29",
+    "centre": [
+      -20600.0,
+      -14300.0,
+      80.0
+    ],
+    "extent": [
+      1110.0,
+      1065.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_30",
+    "centre": [
+      -15400.0,
+      -18700.0,
+      80.0
+    ],
+    "extent": [
+      1121.0,
+      1328.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_31",
+    "centre": [
+      -15400.0,
+      -14300.0,
+      80.0
+    ],
+    "extent": [
+      1419.5,
+      1287.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_32",
+    "centre": [
+      -20600.0,
+      -7700.0,
+      80.0
+    ],
+    "extent": [
+      1360.5,
+      1013.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_33",
+    "centre": [
+      -20600.0,
+      -3300.0,
+      80.0
+    ],
+    "extent": [
+      1204.5,
+      1177.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_34",
+    "centre": [
+      -15400.0,
+      -7700.0,
+      80.0
+    ],
+    "extent": [
+      1063.5,
+      1268.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_35",
+    "centre": [
+      -15400.0,
+      -3300.0,
+      80.0
+    ],
+    "extent": [
+      1247.5,
+      987.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_36",
+    "centre": [
+      -20600.0,
+      3300.0,
+      80.0
+    ],
+    "extent": [
+      1213.0,
+      1253.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_37",
+    "centre": [
+      -20600.0,
+      7700.0,
+      80.0
+    ],
+    "extent": [
+      1152.0,
+      1090.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_38",
+    "centre": [
+      -15400.0,
+      3300.0,
+      80.0
+    ],
+    "extent": [
+      1180.0,
+      912.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_39",
+    "centre": [
+      -15400.0,
+      7700.0,
+      80.0
+    ],
+    "extent": [
+      1059.0,
+      1190.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_40",
+    "centre": [
+      -8600.0,
+      -18700.0,
+      80.0
+    ],
+    "extent": [
+      1224.0,
+      1261.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_41",
+    "centre": [
+      -8600.0,
+      -14300.0,
+      80.0
+    ],
+    "extent": [
+      1183.0,
+      981.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_42",
+    "centre": [
+      -3400.0,
+      -18700.0,
+      80.0
+    ],
+    "extent": [
+      1330.0,
+      1186.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_43",
+    "centre": [
+      -3400.0,
+      -14300.0,
+      80.0
+    ],
+    "extent": [
+      1129.0,
+      1093.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_44",
+    "centre": [
+      -8600.0,
+      -7700.0,
+      80.0
+    ],
+    "extent": [
+      1372.5,
+      948.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_45",
+    "centre": [
+      -8600.0,
+      -3300.0,
+      80.0
+    ],
+    "extent": [
+      1166.5,
+      944.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_46",
+    "centre": [
+      -3400.0,
+      -7700.0,
+      80.0
+    ],
+    "extent": [
+      1431.0,
+      1103.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_47",
+    "centre": [
+      -3400.0,
+      -3300.0,
+      80.0
+    ],
+    "extent": [
+      1405.5,
+      1069.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_48",
+    "centre": [
+      -8600.0,
+      3300.0,
+      80.0
+    ],
+    "extent": [
+      1121.0,
+      1330.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_49",
+    "centre": [
+      -8600.0,
+      7700.0,
+      80.0
+    ],
+    "extent": [
+      1106.5,
+      949.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_50",
+    "centre": [
+      -3400.0,
+      3300.0,
+      80.0
+    ],
+    "extent": [
+      1306.0,
+      1053.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_51",
+    "centre": [
+      -3400.0,
+      7700.0,
+      80.0
+    ],
+    "extent": [
+      1020.0,
+      1265.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_52",
+    "centre": [
+      15000.0,
+      5500.0,
+      80.0
+    ],
+    "extent": [
+      1060.0,
+      1310.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_53",
+    "centre": [
+      -32600.0,
+      18700.0,
+      80.0
+    ],
+    "extent": [
+      1144.0,
+      969.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_54",
+    "centre": [
+      -1500.0,
+      16500.0,
+      80.0
+    ],
+    "extent": [
+      710.0,
+      3010.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_55",
+    "centre": [
+      30000.0,
+      19700.0,
+      80.0
+    ],
+    "extent": [
+      1410.0,
+      760.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_56",
+    "centre": [
+      -32600.0,
+      14300.0,
+      80.0
+    ],
+    "extent": [
+      1440.0,
+      1026.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_57",
+    "centre": [
+      -27400.0,
+      14300.0,
+      80.0
+    ],
+    "extent": [
+      1056.0,
+      1290.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_58",
+    "centre": [
+      -27400.0,
+      18700.0,
+      80.0
+    ],
+    "extent": [
+      1032.5,
+      1136.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_59",
+    "centre": [
+      -20600.0,
+      14300.0,
+      80.0
+    ],
+    "extent": [
+      1421.0,
+      1100.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_60",
+    "centre": [
+      -20600.0,
+      18700.0,
+      80.0
+    ],
+    "extent": [
+      1121.0,
+      1096.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_61",
+    "centre": [
+      -15400.0,
+      14300.0,
+      80.0
+    ],
+    "extent": [
+      1436.0,
+      1353.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_62",
+    "centre": [
+      -15400.0,
+      18700.0,
+      80.0
+    ],
+    "extent": [
+      1213.0,
+      1047.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_63",
+    "centre": [
+      3400.0,
+      -18700.0,
+      80.0
+    ],
+    "extent": [
+      1393.5,
+      1095.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_64",
+    "centre": [
+      3400.0,
+      -14300.0,
+      80.0
+    ],
+    "extent": [
+      1412.0,
+      912.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_65",
+    "centre": [
+      8600.0,
+      -18700.0,
+      80.0
+    ],
+    "extent": [
+      1089.5,
+      1203.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_66",
+    "centre": [
+      3400.0,
+      7700.0,
+      80.0
+    ],
+    "extent": [
+      1291.5,
+      1184.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_67",
+    "centre": [
+      8600.0,
+      3300.0,
+      80.0
+    ],
+    "extent": [
+      1100.5,
+      1095.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_68",
+    "centre": [
+      8600.0,
+      14300.0,
+      80.0
+    ],
+    "extent": [
+      1025.5,
+      1002.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_69",
+    "centre": [
+      8600.0,
+      18700.0,
+      80.0
+    ],
+    "extent": [
+      1109.5,
+      1218.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_70",
+    "centre": [
+      15400.0,
+      -14300.0,
+      80.0
+    ],
+    "extent": [
+      1262.0,
+      999.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_71",
+    "centre": [
+      20600.0,
+      -7700.0,
+      80.0
+    ],
+    "extent": [
+      1197.5,
+      1231.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_72",
+    "centre": [
+      20600.0,
+      -3300.0,
+      80.0
+    ],
+    "extent": [
+      1332.0,
+      960.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_73",
+    "centre": [
+      15400.0,
+      3300.0,
+      80.0
+    ],
+    "extent": [
+      1129.5,
+      1301.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_74",
+    "centre": [
+      15400.0,
+      7700.0,
+      80.0
+    ],
+    "extent": [
+      1176.5,
+      1050.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_75",
+    "centre": [
+      20600.0,
+      7700.0,
+      80.0
+    ],
+    "extent": [
+      1115.0,
+      1103.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_76",
+    "centre": [
+      27400.0,
+      -14300.0,
+      80.0
+    ],
+    "extent": [
+      1326.0,
+      1142.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_77",
+    "centre": [
+      32600.0,
+      -14300.0,
+      80.0
+    ],
+    "extent": [
+      1014.5,
+      1121.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_78",
+    "centre": [
+      27400.0,
+      -7700.0,
+      80.0
+    ],
+    "extent": [
+      1102.5,
+      1115.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_79",
+    "centre": [
+      32600.0,
+      -7700.0,
+      80.0
+    ],
+    "extent": [
+      1440.0,
+      1151.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_80",
+    "centre": [
+      32600.0,
+      -3300.0,
+      80.0
+    ],
+    "extent": [
+      1266.0,
+      1115.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_81",
+    "centre": [
+      27400.0,
+      3300.0,
+      80.0
+    ],
+    "extent": [
+      1083.5,
+      1211.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_82",
+    "centre": [
+      27400.0,
+      7700.0,
+      80.0
+    ],
+    "extent": [
+      1290.5,
+      1229.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_83",
+    "centre": [
+      32600.0,
+      3300.0,
+      80.0
+    ],
+    "extent": [
+      1110.5,
+      1259.5,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_84",
+    "centre": [
+      -6000.0,
+      20200.0,
+      80.0
+    ],
+    "extent": [
+      1710.0,
+      660.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "NoNavigationInsideBuilding_85",
+    "centre": [
+      -10200.0,
+      16500.0,
+      80.0
+    ],
+    "extent": [
+      810.0,
+      3010.0,
+      200.0
+    ],
+    "area": "<Object '/Script/NavigationSystem.NavArea_Null' (0x00007FF382324BF0) Class 'Class'>"
+  },
+  {
+    "label": "RoadNS_0",
+    "centre": [
+      -36000.0,
+      0.0,
+      80.0
+    ],
+    "extent": [
+      1000.0,
+      25000.0,
+      200.0
+    ],
+    "area": "<Object '/Game/World/BlueprintWorld/Navigation/BP_NavArea_Road.BP_NavArea_Road_C' (0x000001BE2ACD0700) Class 'BlueprintGeneratedClass'>"
+  },
+  {
+    "label": "RoadNS_1",
+    "centre": [
+      -24000.0,
+      0.0,
+      80.0
+    ],
+    "extent": [
+      1000.0,
+      25000.0,
+      200.0
+    ],
+    "area": "<Object '/Game/World/BlueprintWorld/Navigation/BP_NavArea_Road.BP_NavArea_Road_C' (0x000001BE2ACD0700) Class 'BlueprintGeneratedClass'>"
+  },
+  {
+    "label": "RoadNS_2",
+    "centre": [
+      -12000.0,
+      0.0,
+      80.0
+    ],
+    "extent": [
+      1000.0,
+      25000.0,
+      200.0
+    ],
+    "area": "<Object '/Game/World/BlueprintWorld/Navigation/BP_NavArea_Road.BP_NavArea_Road_C' (0x000001BE2ACD0700) Class 'BlueprintGeneratedClass'>"
+  },
+  {
+    "label": "RoadNS_3",
+    "centre": [
+      0.0,
+      0.0,
+      80.0
+    ],
+    "extent": [
+      1000.0,
+      25000.0,
+      200.0
+    ],
+    "area": "<Object '/Game/World/BlueprintWorld/Navigation/BP_NavArea_Road.BP_NavArea_Road_C' (0x000001BE2ACD0700) Class 'BlueprintGeneratedClass'>"
+  },
+  {
+    "label": "RoadNS_4",
+    "centre": [
+      12000.0,
+      0.0,
+      80.0
+    ],
+    "extent": [
+      1000.0,
+      25000.0,
+      200.0
+    ],
+    "area": "<Object '/Game/World/BlueprintWorld/Navigation/BP_NavArea_Road.BP_NavArea_Road_C' (0x000001BE2ACD0700) Class 'BlueprintGeneratedClass'>"
+  },
+  {
+    "label": "RoadNS_5",
+    "centre": [
+      24000.0,
+      0.0,
+      80.0
+    ],
+    "extent": [
+      1000.0,
+      25000.0,
+      200.0
+    ],
+    "area": "<Object '/Game/World/BlueprintWorld/Navigation/BP_NavArea_Road.BP_NavArea_Road_C' (0x000001BE2ACD0700) Class 'BlueprintGeneratedClass'>"
+  },
+  {
+    "label": "RoadNS_6",
+    "centre": [
+      36000.0,
+      0.0,
+      80.0
+    ],
+    "extent": [
+      1000.0,
+      25000.0,
+      200.0
+    ],
+    "area": "<Object '/Game/World/BlueprintWorld/Navigation/BP_NavArea_Road.BP_NavArea_Road_C' (0x000001BE2ACD0700) Class 'BlueprintGeneratedClass'>"
+  },
+  {
+    "label": "RoadEW_0",
+    "centre": [
+      0.0,
+      -22000.0,
+      80.0
+    ],
+    "extent": [
+      39000.0,
+      1000.0,
+      200.0
+    ],
+    "area": "<Object '/Game/World/BlueprintWorld/Navigation/BP_NavArea_Road.BP_NavArea_Road_C' (0x000001BE2ACD0700) Class 'BlueprintGeneratedClass'>"
+  },
+  {
+    "label": "RoadEW_1",
+    "centre": [
+      0.0,
+      -11000.0,
+      80.0
+    ],
+    "extent": [
+      39000.0,
+      1000.0,
+      200.0
+    ],
+    "area": "<Object '/Game/World/BlueprintWorld/Navigation/BP_NavArea_Road.BP_NavArea_Road_C' (0x000001BE2ACD0700) Class 'BlueprintGeneratedClass'>"
+  },
+  {
+    "label": "RoadEW_2",
+    "centre": [
+      0.0,
+      0.0,
+      80.0
+    ],
+    "extent": [
+      39000.0,
+      1400.0,
+      200.0
+    ],
+    "area": "<Object '/Game/World/BlueprintWorld/Navigation/BP_NavArea_Road.BP_NavArea_Road_C' (0x000001BE2ACD0700) Class 'BlueprintGeneratedClass'>"
+  },
+  {
+    "label": "RoadEW_3",
+    "centre": [
+      0.0,
+      11000.0,
+      80.0
+    ],
+    "extent": [
+      39000.0,
+      1000.0,
+      200.0
+    ],
+    "area": "<Object '/Game/World/BlueprintWorld/Navigation/BP_NavArea_Road.BP_NavArea_Road_C' (0x000001BE2ACD0700) Class 'BlueprintGeneratedClass'>"
+  },
+  {
+    "label": "RoadEW_4",
+    "centre": [
+      0.0,
+      22000.0,
+      80.0
+    ],
+    "extent": [
+      39000.0,
+      1000.0,
+      200.0
+    ],
+    "area": "<Object '/Game/World/BlueprintWorld/Navigation/BP_NavArea_Road.BP_NavArea_Road_C' (0x000001BE2ACD0700) Class 'BlueprintGeneratedClass'>"
+  }
+]

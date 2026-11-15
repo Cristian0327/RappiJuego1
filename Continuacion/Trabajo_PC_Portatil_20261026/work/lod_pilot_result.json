@@ -1,0 +1,10 @@
+{
+  "before": 1,
+  "mesh_methods": [
+    "get_min_lod_for_quality_levels",
+    "lod_settings",
+    "regenerate_lod",
+    "set_min_lod_for_quality_levels"
+  ],
+  "error": "SkeletalMesh: Failed to find property 'lod_info' for attribute 'lod_info' on 'SkeletalMesh'"
+}

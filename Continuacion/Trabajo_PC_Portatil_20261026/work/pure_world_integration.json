@@ -1,0 +1,19 @@
+{
+  "map": "/Game/Maps/Bogota_Blueprint_Integration",
+  "main_promoted": false,
+  "near_movement_every_frame": true,
+  "far_hidden_distance_cm": 18000,
+  "far_movement_tick": 0.2,
+  "population": 864,
+  "service_characters": 60,
+  "traffic_vehicles": 100,
+  "phone_and_orders": true,
+  "status": "AUTHORED_PENDING_RUNTIME",
+  "remaining": [
+    "Road car entry/exit/control",
+    "Taxi hail integration",
+    "Bus passenger integration",
+    "Crosswalk reservations",
+    "Final native module removal"
+  ]
+}

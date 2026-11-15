@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-20",
+  "runtime_log": "work/SolidWorldRuntimeFinal.log",
+  "checks_passed": 15,
+  "seated_passengers": 4,
+  "alighting_orientation_restored": 4,
+  "npc_recovery_checks": 3,
+  "opaque_materials_checked": 4,
+  "runtime_cpp_added": false,
+  "github_changed": false,
+  "original_atlas_shader_preserved": true,
+  "visual_limitation": "Isolated open-door gallery shows apparent deformation; not certified visually. No claim of complete bug-free world."
+}

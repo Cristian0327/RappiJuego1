@@ -1,0 +1,12 @@
+[
+  {
+    "asset": "/Game/VoxelExplorer/AN_BikePedal",
+    "skeleton": "/Game/VoxelExplorer/SK_VoxelExplorer_Skeleton.SK_VoxelExplorer_Skeleton",
+    "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\AN_HeroBikePedal_Rebuilt.fbx"
+  },
+  {
+    "asset": "/Game/VoxelExplorer/AN_MotoRide",
+    "skeleton": "/Game/VoxelExplorer/SK_VoxelExplorer_Skeleton.SK_VoxelExplorer_Skeleton",
+    "source": "..\\..\\..\\..\\..\\..\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\outputs\\DeliveryArt\\AnimationRebuild\\AN_HeroMotoRide_Rebuilt.fbx"
+  }
+]

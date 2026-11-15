@@ -1,0 +1,57 @@
+{
+  "old": [
+    13436.757076822068,
+    -29330.868837787522,
+    0.0
+  ],
+  "new": [
+    15763.503208461689,
+    -32584.521007104344,
+    0.0
+  ],
+  "delta": [
+    2326.7461316396207,
+    -3253.652169316822,
+    -0.0
+  ],
+  "changes": [
+    {
+      "asset": "SM_Bogota_AccesosEstaciones",
+      "vertices": 48
+    },
+    {
+      "asset": "SM_Bogota_MarcasInterseccion",
+      "vertices": 0
+    },
+    {
+      "passenger": "BP_StationPassenger_C_32"
+    },
+    {
+      "passenger": "BP_StationPassenger_C_33"
+    },
+    {
+      "passenger": "BP_StationPassenger_C_34"
+    },
+    {
+      "passenger": "BP_StationPassenger_C_35"
+    },
+    {
+      "signal": "BP_BogotaSignal_C_16"
+    },
+    {
+      "signal": "BP_BogotaSignal_C_17"
+    },
+    {
+      "signal": "BP_BogotaSignal_C_18"
+    },
+    {
+      "signal": "BP_BogotaSignal_C_19"
+    },
+    {
+      "crosswalk": "BP_CrosswalkCitizen_C_60"
+    },
+    {
+      "crosswalk": "BP_CrosswalkCitizen_C_61"
+    }
+  ]
+}

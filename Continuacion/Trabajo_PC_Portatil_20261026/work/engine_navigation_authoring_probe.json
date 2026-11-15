@@ -1,0 +1,27 @@
+{
+  "initial_bounds": "(<Struct 'Vector' (0x0000025CD35D3940) {x: 0.000000, y: 0.000000, z: 150.000000}>, <Struct 'Vector' (0x0000025CD35B43D0) {x: 100.000000, y: 100.000000, z: 100.000000}>)",
+  "initial_builder": "<Object '/Temp/Untitled_1.Untitled:PersistentLevel.NavMeshBoundsVolume_0.CubeBuilder_1' (0x0000025CB0A59CC0) Class 'CubeBuilder'>",
+  "nav_system_api": [
+    "find_path_to_actor_synchronously",
+    "find_path_to_location_synchronously",
+    "get_navigation_system",
+    "get_path_cost",
+    "get_path_length",
+    "get_path_name",
+    "get_random_location_in_navigable_radius",
+    "get_random_point_in_navigable_radius",
+    "is_navigation_being_built",
+    "is_navigation_being_built_or_locked",
+    "navigation_raycast",
+    "on_navigation_bounds_updated",
+    "on_navigation_generation_finished_delegate",
+    "project_point_to_navigation",
+    "register_navigation_invoker",
+    "unregister_navigation_invoker"
+  ],
+  "ai_controller": "<Object '/Script/AIModule.DetourCrowdAIController' (0x00007FF3CEFC8EF0) Class 'Class'>",
+  "builder_api": [],
+  "after_builder_properties": "(<Struct 'Vector' (0x0000025CD35B42E0) {x: 0.000000, y: 0.000000, z: 150.000000}>, <Struct 'Vector' (0x0000025CD35B41F0) {x: 45000.000000, y: 30000.000000, z: 250.000000}>)",
+  "after_scale": "(<Struct 'Vector' (0x0000025CD35B42E0) {x: 0.000000, y: 0.000000, z: 150.000000}>, <Struct 'Vector' (0x0000025CD35B41F0) {x: 20250000.000000, y: 9000000.000000, z: 625.000000}>)",
+  "navigation_system": "<Object '/Temp/Untitled_1.Untitled:NavigationSystemV1_0' (0x0000025CBE7B0000) Class 'NavigationSystemV1'>"
+}

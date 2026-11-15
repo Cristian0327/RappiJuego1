@@ -1,0 +1,266 @@
+{
+  "world": {
+    "enable_navigation_system": "True",
+    "navigation_system_config": "<Object '/Game/QA/PureCityCrowd.PureCityCrowd:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0' (0x000002057C470700) Class 'NavigationSystemModuleConfig'>",
+    "navigation_system_config_override": "WorldSettings: Failed to find property 'navigation_system_config_override' for attribute 'navigation_system_config_override' on 'WorldSettings'"
+  },
+  "navactors": [
+    {
+      "class": "NavMeshBoundsVolume",
+      "name": "CitySidewalkNavigation"
+    },
+    {
+      "class": "RecastNavMesh",
+      "name": "RecastNavMesh-StreetCitizen"
+    }
+  ],
+  "geometry": [
+    {
+      "name": "Geometry_Solid_0",
+      "nav": true,
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "profile": "BlockAll",
+      "largest_ground": [
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 1.000000}, scale3d: {x: 840.000000, y: 23.000000, z: 0.120000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -36000.000000, y: -22000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -36000.000000, y: -11000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -36000.000000, y: 0.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 38.500000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -36000.000000, y: 11000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -36000.000000, y: 22000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -24000.000000, y: -22000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -24000.000000, y: -11000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -24000.000000, y: 0.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 38.500000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -24000.000000, y: 11000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -24000.000000, y: 22000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -12000.000000, y: -22000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -12000.000000, y: -11000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -12000.000000, y: 0.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 38.500000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -12000.000000, y: 11000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -12000.000000, y: 22000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: -22000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: -11000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 38.500000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 11000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 22000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 12000.000000, y: -22000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 12000.000000, y: -11000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 12000.000000, y: 0.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 38.500000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 12000.000000, y: 11000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 12000.000000, y: 22000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 24000.000000, y: -22000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 24000.000000, y: -11000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 24000.000000, y: 0.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 38.500000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 24000.000000, y: 11000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 24000.000000, y: 22000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 36000.000000, y: -22000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 36000.000000, y: -11000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 36000.000000, y: 0.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 38.500000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 36000.000000, y: 11000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 36000.000000, y: 22000.000000, z: 23.000000}, scale3d: {x: 31.000000, y: 31.000000, z: 0.080000}}>"
+      ]
+    },
+    {
+      "name": "Geometry_Solid_1",
+      "nav": true,
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "profile": "BlockAll",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Decor_1",
+      "nav": false,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "profile": "NoCollision",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Solid_2",
+      "nav": true,
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "profile": "BlockAll",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Solid_3",
+      "nav": true,
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "profile": "BlockAll",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Solid_4",
+      "nav": true,
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "profile": "BlockAll",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Decor_4",
+      "nav": false,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "profile": "NoCollision",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Solid_5",
+      "nav": true,
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "profile": "BlockAll",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Decor_5",
+      "nav": false,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "profile": "NoCollision",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Solid_6",
+      "nav": true,
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "profile": "BlockAll",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Decor_6",
+      "nav": false,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "profile": "NoCollision",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Decor_7",
+      "nav": false,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "profile": "NoCollision",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Solid_8",
+      "nav": true,
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "profile": "BlockAll",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Decor_8",
+      "nav": false,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "profile": "NoCollision",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Decor_9",
+      "nav": false,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "profile": "NoCollision",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Solid_10",
+      "nav": true,
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "profile": "BlockAll",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Decor_10",
+      "nav": false,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "profile": "NoCollision",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Decor_11",
+      "nav": false,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "profile": "NoCollision",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Decor_12",
+      "nav": false,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "profile": "NoCollision",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Decor_13",
+      "nav": false,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "profile": "NoCollision",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Decor_15",
+      "nav": false,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "profile": "NoCollision",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Solid_17",
+      "nav": true,
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "profile": "BlockAll",
+      "largest_ground": [
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -6000.000000, y: 16500.000000, z: 35.000000}, scale3d: {x: 85.000000, y: 78.000000, z: 0.400000}}>"
+      ]
+    },
+    {
+      "name": "Geometry_Decor_17",
+      "nav": false,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "profile": "NoCollision",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Solid_18",
+      "nav": true,
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "profile": "BlockAll",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Solid_19",
+      "nav": true,
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "profile": "BlockAll",
+      "largest_ground": [
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: -120.000000}, scale3d: {x: 960.000000, y: 760.000000, z: 2.400000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 18000.000000, y: 16500.000000, z: 20.000000}, scale3d: {x: 85.000000, y: 74.000000, z: 0.200000}}>",
+        "<Struct 'Transform' (0x000002056659AFA0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 30000.000000, y: 16500.000000, z: 20.000000}, scale3d: {x: 85.000000, y: 74.000000, z: 0.200000}}>",
+        "<Struct 'Transform' (0x000002056659ACD0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 6000.000000, y: -5500.000000, z: 20.000000}, scale3d: {x: 85.000000, y: 74.000000, z: 0.200000}}>"
+      ]
+    },
+    {
+      "name": "Geometry_Solid_20",
+      "nav": true,
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "profile": "BlockAll",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Decor_20",
+      "nav": false,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "profile": "NoCollision",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Solid_21",
+      "nav": true,
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "profile": "BlockAll",
+      "largest_ground": []
+    },
+    {
+      "name": "Geometry_Decor_21",
+      "nav": false,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "profile": "NoCollision",
+      "largest_ground": []
+    }
+  ]
+}

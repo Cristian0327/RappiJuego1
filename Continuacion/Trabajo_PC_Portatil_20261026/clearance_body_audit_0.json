@@ -1,0 +1,68 @@
+[
+  {
+    "lane": 6,
+    "segment": 207,
+    "actor": "BP_BogotaTransmiStation_C_2",
+    "component": "StationShell",
+    "impact": [
+      -20403.40071395873,
+      3413.5918292844717,
+      146.5
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 208,
+    "actor": "BP_BogotaTransmiStation_C_2",
+    "component": "StationShell",
+    "impact": [
+      -20505.73266734625,
+      3418.6921555740523,
+      114.0
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 209,
+    "actor": "BP_BogotaTransmiStation_C_2",
+    "component": "StationShell",
+    "impact": [
+      -20505.73266658668,
+      3418.692170813923,
+      105.99998474121094
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 210,
+    "actor": "BP_BogotaTransmiStation_C_2",
+    "component": "StationShell",
+    "impact": [
+      -20505.73266734625,
+      3418.6921555740523,
+      112.12577819824219
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 211,
+    "actor": "BP_BogotaTransmiStation_C_2",
+    "component": "StationShell",
+    "impact": [
+      -20505.73266734625,
+      3418.6921555740523,
+      105.99999237060547
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 212,
+    "actor": "BP_BogotaTransmiStation_C_2",
+    "component": "StationShell",
+    "impact": [
+      -20505.73266658668,
+      3418.692170813923,
+      112.68754577636719
+    ]
+  }
+]

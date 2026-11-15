@@ -1,0 +1,6 @@
+{
+  "checks": 4,
+  "status": "PASS",
+  "road_only": true,
+  "no_teleport": true
+}

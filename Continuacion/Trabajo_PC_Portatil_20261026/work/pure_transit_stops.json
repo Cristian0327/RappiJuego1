@@ -1,0 +1,15 @@
+{
+  "stations": [
+    -27000,
+    -7000,
+    17000,
+    32000
+  ],
+  "dwell_seconds": 10,
+  "doors_close_before_departure": true,
+  "blueprint_fixed_timestep": true,
+  "status": "COMPILED_PENDING_RUNTIME",
+  "pending": [
+    "Visible passenger boarding/seating/alighting"
+  ]
+}

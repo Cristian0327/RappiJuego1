@@ -1,0 +1,1774 @@
+{
+  "status": "INTEGRATED_VERIFIED",
+  "source": "E:\\BogotaVoxel_Proyecto_Completo_2026-10-26\\BogotaVoxel",
+  "principal": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\RappiJuego1",
+  "git_replaced": false,
+  "files": 294,
+  "backup": "E:\\BogotaVoxel_Proyecto_Completo_2026-10-26\\Respaldo_PC_Principal_20261026\\Archivos_reemplazados",
+  "changes": [
+    {
+      "path": "Abrir_Editor_PC_Ligero.bat",
+      "before": null,
+      "after": "9e4a0344fc8c5f4c3229eda5312c8cea1d9259f8b8d2174ca89338713cf6d67b",
+      "bytes": 571
+    },
+    {
+      "path": "LEEME_PRIMERO_2026-10-26.txt",
+      "before": null,
+      "after": "58874e69260f701caebab90c7507f14acb1d57eaf2adf8fcb1c4672ba12d0325",
+      "bytes": 802
+    },
+    {
+      "path": "LEEME_TRASLADO.txt",
+      "before": "6583b78b1a29d7176bcafecb75590d8fed23209163de3e142f20b54f031fe312",
+      "after": "1a0d44e078abdfbd96f6c8d5f39b95a728081a362bdc3ffb4d4a59f9191b3a17",
+      "bytes": 680
+    },
+    {
+      "path": "README.md",
+      "before": "509d24ee3d373182fbca0850d2c612729bfdc16b9d3e8895df2e95d95f9b09eb",
+      "after": "3e06eeb2cf9fdb499c878e2d4de1dc741707821dbf00fb82ce75a632b0af7233",
+      "bytes": 2247
+    },
+    {
+      "path": "Config/DefaultEngine.ini",
+      "before": "958c0a0e7fc5ab486b352ec3676f5f140502ad98dd47b7897c411134487b2cbf",
+      "after": "7760190a8e81f5298b6555c32c261738972d8ea889573e7affe3693d3ede9666",
+      "bytes": 3289
+    },
+    {
+      "path": "Config/DefaultEngine.ini.before_20261024",
+      "before": null,
+      "after": "958c0a0e7fc5ab486b352ec3676f5f140502ad98dd47b7897c411134487b2cbf",
+      "bytes": 2857
+    },
+    {
+      "path": "Config/DefaultGameUserSettings.ini",
+      "before": null,
+      "after": "e08b788434716a3b3aebf320c747113b5a8419589fa6753bf1ff3c58bcfb13c3",
+      "bytes": 669
+    },
+    {
+      "path": "Config/DefaultInput.ini",
+      "before": "ea706891c59dbc6ee8cb297879e6ce1c8ae120b1cdfb7f9c51fad309cb42ff6f",
+      "after": "d8074d5dcde08d82cd045401b5fb2c8a0033b78fbc468816f589f0b5622b590c",
+      "bytes": 14453
+    },
+    {
+      "path": "Config/DefaultScalability.ini",
+      "before": null,
+      "after": "cf27aafbe9ff4dc7c3cc27e7c1dee9b3987e7678f155047396a82cfbe8fef2ac",
+      "bytes": 3221
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen00.uasset",
+      "before": "4b6c740eb217c48eb3eb2934d299c1dcc38308f0982297e77d4fc81ef02d1493",
+      "after": "42ea41ec80f491d6f9e77ec1901d1177c7c3a58662cb8514bbd8f5213314bc60",
+      "bytes": 5429973
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen01.uasset",
+      "before": "0321c27d22830622d37250c3efb626002a1e38c15aa2d8b240d12a3ec5d06e5f",
+      "after": "797b7e5cd6b903523d60ba8b6280dd5fe4458625ae655c3ffde665f336bfbf8c",
+      "bytes": 4762239
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen02.uasset",
+      "before": "82b512c8b8601d08bb9e3879910b1e9a18a292216d487ecbb5df6283c0d616a5",
+      "after": "f99db9b3d6fce4f137ebc55260c5e53f954f4d78ccc6c656825be47b03c4398d",
+      "bytes": 4880596
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen03.uasset",
+      "before": "e2eb62404ab67ea2acef91b9e942c59b8737e956c2fc287b343a45a9f580b5a4",
+      "after": "5d75dcc4d1d143019b918141d276325bc5877da1f0ea7ae0f920be505e263b06",
+      "bytes": 5260839
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen04.uasset",
+      "before": "dfea4d6ff80a1976e8e3b33f6d5b5cd3813426e52addd9e5dbca994913f1c75b",
+      "after": "44c9cc51ae26c36b1558927cbe8cd60591b2cb08f503aea9b53ca23ce5dc0582",
+      "bytes": 4514873
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen05.uasset",
+      "before": "cffc467e0f6e813132f08808e02c110ad48cc89528dec5c3af8cb005408a13ce",
+      "after": "72ec0d2f400899f761be7ed6d94b6f802c9cdada45a094a88c483e1ddcee8fe7",
+      "bytes": 4667500
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen06.uasset",
+      "before": "67db856a547e3ffbc7c7bcac3235ddc92a0987fff99d952528da8f230fa695c7",
+      "after": "3fdfbcac25a60efc506d4158282f074eca8fc27dbafdf90cffa9d123cb2259aa",
+      "bytes": 4661090
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen07.uasset",
+      "before": "924b76dfa279d0b966f9b13275add09da9c9a78fc7ebbe15450edeff94d9fae5",
+      "after": "08ead6ce87a522f57b62acf773e965d1266e26c18cc59a5c703ab2af607b680f",
+      "bytes": 4868508
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen08.uasset",
+      "before": "4c93076d8c5b7a99e2c4568718ed7b379dacf341240fae9f03c23078c678cf09",
+      "after": "b720e6f6f02e7c79d9ee8663bb4a2dc3e620341e75b04d2791462685b41b4191",
+      "bytes": 4735249
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen09.uasset",
+      "before": "273a6b9c8f0531e95569ac9c2e33956fc4c43bf98bae138026b4787ab57776ce",
+      "after": "15e52e6273b75f540fba1d8c928c84f9dbb9f1d8dc20f4e8a40c4e4fd6072cbe",
+      "bytes": 4252506
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen10.uasset",
+      "before": "468bdac6e01dd5a3239f2774506469b5521e92e436309f0536d0fcfb7113e4e2",
+      "after": "9d9a2b424408729a95666cc78294ba22618ce935d7371bff738ab002ff15f74e",
+      "bytes": 4601853
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen11.uasset",
+      "before": "7199782e416c81396762600eeec37b1146131ebcd9afada082797c3e7e24a2ef",
+      "after": "4989efd11870423efcb158abcbdb8fd083ab90cae951f069a1ce408cc24d1eff",
+      "bytes": 4811458
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen12.uasset",
+      "before": "868faef2d4638b3432d75344e0443909da09b8eb30b1c3d67506b3cd51551b67",
+      "after": "c08c499c54f79a4bb9fdd98bc891ada35425c598f90914bfb026cea4cc9d5b1f",
+      "bytes": 4589170
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen13.uasset",
+      "before": "e3bbf2786cae6743efd3b7fc25be2325e6562df6511dc4fd5e34b8f9d56e2124",
+      "after": "5eac5ec2fa83f74c20cc4a3f7c014f0c041c2edb78b3974857b22ec4d8d339fd",
+      "bytes": 4476989
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen14.uasset",
+      "before": "9332bbe4948231dc19d5c8a7dd3b64f765cecfca103a2e216bcb450a61565561",
+      "after": "b5fe4cec6ce2cbe9b554565ae536aa03a279e8629519e037f93dd8a197e0f621",
+      "bytes": 4759139
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen15.uasset",
+      "before": "d6351e2ee58f5af377ee4672580affe51118a3660fc376806ec23b5b034e28f2",
+      "after": "cb15bb964f888f31992303f5e2ce4defd299229edb0820a25063d3c86295fb65",
+      "bytes": 5307234
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen16.uasset",
+      "before": "4bc5ea9673b4774d1e130e0e17f8b88e884a28d5fd295d748d07840532081487",
+      "after": "0acb0b45519c733a4833ebc0442a6754f26a5397ff4e02412c2ab40f66064310",
+      "bytes": 4732696
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen17.uasset",
+      "before": "2eaf52f6205aa669d6c2003f2061fc75d06e727542672c75223134c0ed3023c2",
+      "after": "264c21196742eb9dd537c26177ca9ccdbeb30494ead61236e96f60d5ac3821a5",
+      "bytes": 4633542
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen18.uasset",
+      "before": "6ace0c2bd442b3ca5e9a0e3ea21a380e5c2bebcd50f98f132d33ffe18910e8b5",
+      "after": "3c197ff13827e058298c587e43b75a41ffb16f366ed8b289100b458ae6b16fca",
+      "bytes": 4432458
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen19.uasset",
+      "before": "713b555894e8666b65cd43720cf4da4ae5aa3ef26fcd128c719cc9b4bfd3bb31",
+      "after": "7c70fb4c0517598781ebd4011321a37aa7aeaefaca30d5336888fa20e850ea94",
+      "bytes": 4517801
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen20.uasset",
+      "before": "6a16cc42fc8e16ba640f110f4a8ae2eaaee41d1aa74803ac7174ad161627c96b",
+      "after": "d8ea93fd7fd4e7e44812eac51cc7d2c0f8960e4f2a20fdd7f66e638577aca9dd",
+      "bytes": 4888517
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen21.uasset",
+      "before": "956358a651063cdc2a3fde458936c0955aa0c3d696d7eba21abba1902209adaf",
+      "after": "a9d3b9b45df63fa15ae353f92bca2bcf0e0f337082a697c4cdd6ca7a05b618f4",
+      "bytes": 4650644
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen22.uasset",
+      "before": "270fc94313016b187e088dea2d3747c2665cebc176c67962197b6f4b3455bf77",
+      "after": "0fec2389ea98a39a81fbffc63029f6c3d0b6e3c177eb1760349f28f11b292ee6",
+      "bytes": 4719225
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen23.uasset",
+      "before": "406bdf9f76ffeab0e68028280fc277435f381f54594fdcb2697303dfc91333c0",
+      "after": "239a52bfabc9086594992fd96e877be86049c9413f5f47437640683656b553e6",
+      "bytes": 4854792
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen24.uasset",
+      "before": "a1f0b182b8b5da439d8bc722e87b0cbd4e3957b1954e083428d640cce9ba4aef",
+      "after": "40f40152295144503d0b6ad0fc18397476063d739fe891945a5a9284fcc17253",
+      "bytes": 5291024
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen25.uasset",
+      "before": "1e1304d78b2f9b23330782bf98723125c5b09d57d26d68f16ba94a759aa00a00",
+      "after": "bcf400ba63e02675308240077b5086a923c19cd0371f254f4d674dcf372cebc1",
+      "bytes": 5129704
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen26.uasset",
+      "before": "616d1d0ca8ca759f72d41816281e20240c3b207be937247d152acdf70b5a81a6",
+      "after": "0fadb93c3dd0b3efce991a8faacd43c9465aafe14c1f96a93cde0fffd30d54f9",
+      "bytes": 4927601
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen27.uasset",
+      "before": "ad1378f4c3d109aaebadd0d486a193311425c8a0ba3503abf9b7c54e72c2c4fe",
+      "after": "f6af025d9fb8949e72b5b2c750ac5b1a5f1507a307c9fcbf90de46fba7a71d27",
+      "bytes": 5038291
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen28.uasset",
+      "before": "d2fad064528e609f8cfe0741b9ab5943038e2e8b48a61425d06d63a8224affe1",
+      "after": "3d0df60045a5a5aceb39e2d9383cf2037dd7a38360f509b83dbd315a0871f54d",
+      "bytes": 5270801
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen29.uasset",
+      "before": "d9fab474a3a8de791851f9b7de1bfff0b72efe564c8b279577189dab55f50f9f",
+      "after": "27566973bd053524ea18e2ce255153ef196f3041dbc23d00c562782a87e570e5",
+      "bytes": 5507525
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen30.uasset",
+      "before": "658db4238d042a4b4c6bf0c1af2f269efc657dce6f214e1a1c1daff843749d9f",
+      "after": "fb1a19e1e9d502b2aedcc819dce27ff7fdc7f98c46bc7470867d23f62b2c1287",
+      "bytes": 4709636
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen31.uasset",
+      "before": "67b56f0479bc703a54159c7f192f2cf7599924b88298ce3a115ef1654212ef4d",
+      "after": "b9528e86f742632cc30266451c2f793282a4bae0eaa3c6be2933201916a390e1",
+      "bytes": 4691017
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen32.uasset",
+      "before": "0773113cb93cc7d578104fa4535223d22b85a10c079c89d7d5825770eac94ba5",
+      "after": "cbef47f3a24d5db674553915bbe85d609e11f52a61a83479e5e3dcd0cc23fb7c",
+      "bytes": 4901038
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen33.uasset",
+      "before": "021a5f60739471868382cf52d6de5c665ece7ab5a5d4d990fb76d3d9e5a8980d",
+      "after": "e8db3534dc255a94d975fbe120fd81f57be1bcd22d6416bb27829b2398612c9c",
+      "bytes": 4877016
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen34.uasset",
+      "before": "33bc602f87ff6060f09dae21993cc291b7447990d81bc307add205d0a93ffa8d",
+      "after": "63087a45f96f7e63e33d8058e02ede893cf079a54c2acfa6b4bdfd3c2c56ede6",
+      "bytes": 5340579
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen35.uasset",
+      "before": "0d876a4f06473afa2eda1fb982ccc7d7f4154ab5ec9f90b481c79d3b848ecb5f",
+      "after": "5914fbed947634a6e8a161c76b723db3d2900510aad5368e98a4bdc197ae2d01",
+      "bytes": 5229521
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen36.uasset",
+      "before": "5b1d902fd97625175e14dcb599e30a50f840d55d8069a1c8b2995c642ed1cef7",
+      "after": "7e5657f24c7b58cfc36acc2b6b3356390fb9982df2b062904bf3e6efd5f37c55",
+      "bytes": 4726807
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen37.uasset",
+      "before": "8e72c25596027301ec99eb661476e6fe686b1bd0f808d039e6557643c439fc27",
+      "after": "98605da5c87517e2f4be8727d42b30a616b9c2bcc7ddbbd7bf85382da660ba34",
+      "bytes": 4814880
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen38.uasset",
+      "before": "c0311e392d1063397630584b3c6a21616168c42def05e73f64cc730f49902bfe",
+      "after": "33d6c598f4db8b52a718413dd582efc3ec13347a2a7ec4b21d29c9ca3907e8eb",
+      "bytes": 4924327
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen39.uasset",
+      "before": "e61fed1f346bb10d3da27c9730b2290d1b9c7f9b613c347e5a6c05d2dcb59bae",
+      "after": "aa1fdc1dd3ff15af76827551571c284734604e1d0880b98c6ceb06ea1f5107f4",
+      "bytes": 4649407
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen40.uasset",
+      "before": "4abb0b2118239cbbabaec5685f0c37e216ac79ac70948092a9c31c8678de7891",
+      "after": "6e7e1e8e379a91d385f179e41e06841a7c365b441d94c98f488baf9defb0cf8e",
+      "bytes": 5759839
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen41.uasset",
+      "before": "aa8e21d867b03ffbc54ff31e699291edbdad879ac47de63db5c74ca5d1eaff74",
+      "after": "354f1b1283136233c2e0ac81132dea2af3bbc2cf118334448f9cf683e72ba0b8",
+      "bytes": 5669505
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen42.uasset",
+      "before": "a4ecdef0fc82302a9fc779410476133f024c30ebcc708cbfb7f475fb526e2bfd",
+      "after": "8ab8642304a7161da5b79bc47a2ac513b71fff916c3335c0f959bda357832b14",
+      "bytes": 5687352
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen43.uasset",
+      "before": "6bbfd60b23e4a5e546a81a91a1c428fd9f0e2a848bc232bb1148bf2200701551",
+      "after": "b506ea09111224facd2d4608cbc7dbdfdcb75255d94106242a794b78d208a255",
+      "bytes": 5669106
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen44.uasset",
+      "before": "8d71380042901ad027d1af53b6f55fc687c0a22653da14a18c95046c0cfe155a",
+      "after": "6b2abe0cea7a5fcef2b201812b9847daa4b11fde315f06fd81c015d9fed29c29",
+      "bytes": 5770322
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen45.uasset",
+      "before": "c41eb6f82a1dfc0c373ff8c55bb59bf820408d7f38eb161928ffdb48805b3637",
+      "after": "7b74adb49656420daf921b76531ebd39daa30e87bbc768ee24cd8c54a5d9b0e0",
+      "bytes": 5557696
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen46.uasset",
+      "before": "31904698875a4c171d682b61ffa7e4a5bb7a0c76a9fa1a3df21d868dc463554b",
+      "after": "1462f2b0046b7b389ee6dec8b35949f4a5ec7dc1366a3b37689c1e6f5b57f269",
+      "bytes": 5347480
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen47.uasset",
+      "before": "21e7ab45812fda8c7f1855ee0f15f994abf76073b93b9610571cf0e4fd9a3ef2",
+      "after": "c14c8d2230953fe5ce76444368e40df81783e1b118054da2b2d9e34b9397d610",
+      "bytes": 5168440
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen48.uasset",
+      "before": "64e5a0a0c3ce62757c86697087f00fb84e57bd6477c377c55781eaacbbe64282",
+      "after": "b123a8c1a0f44737fad32da6b9c4316414fb9bd3558e5781778bc4306e7bc1f2",
+      "bytes": 5282704
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen49.uasset",
+      "before": "5b9ddf66115589d65d14552eef78320e912ad36a5eb716c3f9988955b10b2c18",
+      "after": "9b70d09483a2164d06da16d58254b1afb39e047188c27ded002e653f472a1803",
+      "bytes": 5152949
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen50.uasset",
+      "before": "ae6885fe81c61bc3f4a200ee55373197be187fba3a47e2e0e129cbdf4f4e8ea9",
+      "after": "77d27921cae4712428141bb3a131edfc0b654e3df644b8931f3870cae7cdc77e",
+      "bytes": 4918070
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen51.uasset",
+      "before": "ce22978e6128477186d10df512309b9675716426b5e5a2b32d12ad64b87baf69",
+      "after": "2f697ffa4eb67a43a98ae47549dfaafb77abca3d1ec0b5719eb58417f01b2290",
+      "bytes": 4696224
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen52.uasset",
+      "before": "8a34ac6560107d98c53a718de760fb2f2039ea62475c7edb5e3fe35802ef16b0",
+      "after": "38ce5cf5197fa6bae64fc477f59e47098fd18c1e9cedb1c8cc9dc9439485deac",
+      "bytes": 4881253
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen53.uasset",
+      "before": "d04d42b2aceb6b0fb846758a22d585d499ba35b0169233dbd0a44effea8fa737",
+      "after": "174214b32605f7cf90b4d4447b7b9936ce517f317f2818b0555754cb97ba0e22",
+      "bytes": 4575992
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen54.uasset",
+      "before": "139271f8295f077d59daf3cba051f54696be328849a56fedbc013a943b342cc5",
+      "after": "9183f8d79603a7ad19c40847679e6191eba549991f7e4ad545094169aa03671c",
+      "bytes": 4925326
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen55.uasset",
+      "before": "adec324a4c53a1bd9f25a868c66220dec7302935dae51bd05247d11db969517d",
+      "after": "174035f033c154fe78543581686a46c3f47fa7e94ce2ebd9df7be563aeaf57f8",
+      "bytes": 4841428
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen56.uasset",
+      "before": "870f9aa222329ebecb848ef38e97f0ea5272a9703408ddbbc60b645cd526835d",
+      "after": "85e146239916b5c852b6c7d3fd038e0e6bc93ea2c042d81990b418706e61bd4b",
+      "bytes": 4882426
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen57.uasset",
+      "before": "17666aa1a95675045d570b83feeae60a94b025f4f3a86434578b77a498423c50",
+      "after": "3fbc7dadcb79d6cbb4e8fe1326807586f185672b1d70600492a5974ee84f3c97",
+      "bytes": 5736404
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen58.uasset",
+      "before": "6f05309df09719fae7f9cc31fe2a4af5318be64162b111732d2dc416b086149f",
+      "after": "c086f7cee42014ee1fdc71477f0cd0b8071d84a61e4c645460ca4025a8a2bd59",
+      "bytes": 4857994
+    },
+    {
+      "path": "Content/Crowd/People/SK_Citizen59.uasset",
+      "before": "3ea578fee4e408c344869a651bd4e29087116d941a27267e311252b7bc609ced",
+      "after": "0b6fa0bf72ddd6fc9a8cefb14ab7061a7b88f66ede061aca8af2a6d206ecb04e",
+      "bytes": 4837582
+    },
+    {
+      "path": "Content/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.uasset",
+      "before": "d52673e1993a3aa8e27ebd4c7f9b0bc00b595e9443b688a0ec4e3840305b762b",
+      "after": "4c02274f6b0c557a3228a18bb0e062b7ab70fbb0ea25df675a80952da944d6f2",
+      "bytes": 3195144
+    },
+    {
+      "path": "Content/Delivery/BlueprintGameplay/People/BP_DeliveryRecipient.uasset",
+      "before": "c2438d86c6f20383a901809a05f54691359d096ee9890f705ddb480503fdbf5f",
+      "after": "9bb1df19a31c3b7ae4765a8a8f8cd0618f2f3ea3e29bb598468845fb989c0d39",
+      "bytes": 206942
+    },
+    {
+      "path": "Content/Delivery/BlueprintGameplay/UI/WBP_BlueprintPhone.uasset",
+      "before": "d2a88a977ae53ed1c5fb3c60613310be86a9033c9594325975c1ac70602fad27",
+      "after": "06fd3187fc52c60e244fd67900eb7776a9786cb8f2af2d7bd129a0b09bb3b7ad",
+      "bytes": 8041003
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_BakeryFront_Voxel.uasset",
+      "before": "f84173002497fcfff3b772ad50c9ef6f1e5796c67b84ba4bc666e860a102bb0c",
+      "after": "de89e2c0bbf56d3399f887ef3e8cfbbec209916c782183dede4517a3f3bc1862",
+      "bytes": 360555
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_BakeryInterior_Voxel.uasset",
+      "before": "c3c7f619c4bbae91ad1da0395d566ea115c5ff4c906e7dc491f3ab527be910f5",
+      "after": "83b6ad1d8acaa73700ef47a633bfbb33053a900dc1f4a0931ed92da67e248936",
+      "bytes": 264005
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_CafeFront_Voxel.uasset",
+      "before": "589a1d70d35e014e76863624e35ab31afbc2d328a383f84f2c66d61faf9a6bab",
+      "after": "4cb5d6e473fc8d62c5679df58b7e311553fcf2f6eaa52d83da2663390ecf8011",
+      "bytes": 362500
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_CafeInterior_Voxel.uasset",
+      "before": "33bb12d4de82df580d147712b478528a7b0576c968706929bf284a0ff9785256",
+      "after": "82656b4add2564150b9fff8d35c8f695e4af5caa67a6586bec8845f28be38ace",
+      "bytes": 601754
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_ComponentsInterior_Voxel.uasset",
+      "before": "a3a6e975649964f96d812af86ebb791bdc1a1ad6e482f59ef5bf630b50383604",
+      "after": "4188f3e9a86cea3ffc933aa128ebaac67f0c480fe9c68d647542fd3110e9517e",
+      "bytes": 1154143
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_FastFoodInterior_Voxel.uasset",
+      "before": "b33c44f7b000062404be7bcf199f5879454483988161f148684617882db373d4",
+      "after": "2b3b4ca96a669693df41e88c2224a14603ae173eb79bc90c85600bca4c9e3d37",
+      "bytes": 484289
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_FloristFront_Voxel.uasset",
+      "before": "cab594f061e01b54401cd1dac03fe1874175a1e5c4a62723dca1d25b0edbcce7",
+      "after": "277482f92e7bacc70a32dde1a7e8dac0bddfc4ee49d6b9020c745bbe81864999",
+      "bytes": 360903
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_FloristInterior_Voxel.uasset",
+      "before": "c6a2fe59c269baa763ddadc3516fb5de22514a79cb2a09a01422f6a10b2188f8",
+      "after": "46c70e79580188991590cb1c6b945e22a75e5b9eee45952f4e10ce468dbd2508",
+      "bytes": 3435595
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_FreshMarketInterior_Voxel.uasset",
+      "before": "8a8c38087b5e2f607d7442c8cc00f0cc1b7b4d04f9c0556c5ebede7816f23e8a",
+      "after": "6696a8adb5a476635d82772fb06a944e61ee1071167c59511df1b0c9305ddd1f",
+      "bytes": 2066521
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_HardwareInterior_Voxel.uasset",
+      "before": "fc05e0271628e743503716c5b0671abd7c71012660a3235d216629713449ebe7",
+      "after": "749ac157c230446dcfabfbdbd965930613452366c2f9c8db3dfc8027059119ac",
+      "bytes": 1616206
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_MarketInterior_Voxel.uasset",
+      "before": "f2874260354cc4c79b35198d19826fc7e1671385b982e077dfd5ce9b86e12031",
+      "after": "7775b316f460dab05135328e86f3603b9a8a1370ea5b158b34a41be33b3272c9",
+      "bytes": 2036925
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_PetShopInterior_Voxel.uasset",
+      "before": "356a6315e46ce9684d54eba97ef0f9bf07985f5f98199c3bd811057ea64948c0",
+      "after": "733df79135e2a3639e6a043b4d495bcf2e0cf61f85678f09875f0797e11bb878",
+      "bytes": 1101617
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_PharmacyInterior_Voxel.uasset",
+      "before": "9c03cca62f95462c2612faa2bb61aaceef81a1617f733a763a8b07ac704431ec",
+      "after": "0ecd24c1ce1a408a0aa204e8d8a2c29c791d39e1bfa2370e93dc235b27ca943b",
+      "bytes": 1602625
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_PizzaFront_Voxel.uasset",
+      "before": "5f074127f9333821b87913a436a5aa5ea3305af4d9d75d894a6ead6236443a51",
+      "after": "f5d7a47702e6ab2c951850eb3cc5e400f7722ce554ef84455f8003be947cb77c",
+      "bytes": 443530
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_PizzaInterior_Voxel.uasset",
+      "before": "bcc727381010cafb1134a10041557bbd73663de31015071aa5f09ae159a2d780",
+      "after": "9bca184cb7f206ee12e7e28b8cc9f208df5991a605147697956c3ad93fc19b92",
+      "bytes": 1186221
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_RestaurantFront_Voxel.uasset",
+      "before": "861abadf35f0ae074f71a4854ad68481cf14642e88446aeae14cfb105bea6818",
+      "after": "56e1788fda7072d5088f0666ec5e0b79dbc199c8a92d09f3bfb1914e68c81500",
+      "bytes": 423110
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_RestaurantInterior_Voxel.uasset",
+      "before": "44047b338c625adf5ae10935911818ab96e3d65b24e7b1454ddd408b30749fd8",
+      "after": "da6c416eaab70c2c8e1a6ec8a0b1d5ecf0f89976d5a653fa7ede37df8214be04",
+      "bytes": 520852
+    },
+    {
+      "path": "Content/Delivery/Stores/SM_TechInterior_Voxel.uasset",
+      "before": "b8a9d5c5491f32bba40f6c30e1360831baec61f376b85d591ea48355e090bb2a",
+      "after": "d3e4adc2cf931e9ae4125fe8f8f87e74d74ff2acd5e8212aa112131d4c6b2310",
+      "bytes": 743703
+    },
+    {
+      "path": "Content/Maps/MapaCompleto_Integration.umap",
+      "before": "239c0929006da949c682b8b1ed6ff7b7cf28ab4ce85dc784bd90b699c3a2e315",
+      "after": "ee40fa17cf8752d2b7c2c60a9fe5d73091646032a6aebc0115ab967eca1dce25",
+      "bytes": 2930604
+    },
+    {
+      "path": "Content/QA/AdaptationTraffic.umap",
+      "before": "26dbba70b6883235b3cb04417cad485b6de7303ec33639a46222a6978154d90a",
+      "after": "b96555ee14f605509a3230d07a5ff118b597576cead7ff9bccea7eae1ec62353",
+      "bytes": 2904733
+    },
+    {
+      "path": "Content/QA/BP_AdaptationTrafficProbe.uasset",
+      "before": "fa3d2e271cf79b23a7d201cd27ac763ab2ad846649680d7ce26a4b6a50000751",
+      "after": "1b9435b878c5b52eced83111b09c0b5ed58ef2c37d63dfdb24f5bd85614200f6",
+      "bytes": 871692
+    },
+    {
+      "path": "Content/QA/BP_CrosswalkCollisionProbe.uasset",
+      "before": null,
+      "after": "6ab50f1da207fe5925ab449f4d2c12745e3bcafe854d1fd5e89c9079c93d4fbf",
+      "bytes": 52929
+    },
+    {
+      "path": "Content/QA/BP_FoodAcceptanceProbe.uasset",
+      "before": "dc4537dbec0b1cb7ec476c8a97b3930bb6a9d83ae814aa415061e4c480509890",
+      "after": "a74a7385e7b221e56ef5f40c0349d4153b4f26480bf0f01be4b57292a92cb391",
+      "bytes": 1480210
+    },
+    {
+      "path": "Content/QA/BP_GameplayAcceptanceProbe.uasset",
+      "before": "eaa2f84cd36c3e55b77a740a8cb4473532dc9610932e71204f3e2db05db039ae",
+      "after": "bc8315d837ffdd3b65ad6d39203eb0b6ec9d25fffae748e27251cad7855cf2c9",
+      "bytes": 1480162
+    },
+    {
+      "path": "Content/QA/BP_GraphicsSettingsQA.uasset",
+      "before": null,
+      "after": "af4d6d29bdcb3a6bb2f921469be0f0b57e159c21c230ad59c61d494c7f55d576",
+      "bytes": 228145
+    },
+    {
+      "path": "Content/QA/BP_OptimizationFrameProbe.uasset",
+      "before": null,
+      "after": "41f7a84fccd025fe4b74618b73072024ebaaf56e8fdb4abec7efa76e442717ee",
+      "bytes": 243932
+    },
+    {
+      "path": "Content/QA/BP_PhysicsRegressionProbe.uasset",
+      "before": "b22c62e3d66332f541222de04cab1ead3f516a1ee03ae64a216d91986012b56b",
+      "after": "45f13a2a99e028878f2a35691e7f3efd345b0c6c689c1e950fe334a2edc71fa4",
+      "bytes": 877115
+    },
+    {
+      "path": "Content/QA/FoodAcceptance.umap",
+      "before": "88206f1d5172209c4c794679cd952e3152ae635c4cfd4f979ab820b37d23eff3",
+      "after": "efe6ade1da9c6afe66474a576af48b85c3c7dbdb80aee92a263c0a4322054262",
+      "bytes": 2902662
+    },
+    {
+      "path": "Content/QA/GameplayAcceptance.umap",
+      "before": "39c27e87225233fc065e35eac3e95e3b23725db9f4959bfa0a81ee77e9a5855e",
+      "after": "a4ba0888f60aebe17b26ec2c5cf37c76fbec1bf788ce00a4f16ebe8de86691b0",
+      "bytes": 2907718
+    },
+    {
+      "path": "Content/QA/GraphicsSettingsQA.umap",
+      "before": null,
+      "after": "3b4e9d5bf969aae527fe9b9849c4049c9230695f8c677bd587b50b87f1562db6",
+      "bytes": 10753
+    },
+    {
+      "path": "Content/QA/OptimizationBenchmark.umap",
+      "before": null,
+      "after": "c963c0e8f3a29a30bc40f24a42df9921cf6c512b4b436cfcfa2f1eaa41ba7af4",
+      "bytes": 2927335
+    },
+    {
+      "path": "Content/QA/PhysicsRegression.umap",
+      "before": "ad5604ecb9ad7d2b21c2ec87d69bc9769e7dc6d7b0019e84375c6850e987763c",
+      "after": "01d61ffec7dbfb28b2ecc809a9dacf5f060d42256750e0bf3bb4c5556747fa08",
+      "bytes": 2908229
+    },
+    {
+      "path": "Content/QA/Station4Baseline/SM_Bogota_AccesosEstaciones.uasset",
+      "before": null,
+      "after": "b06429192005090008d80434a0ccd275dfb518c3d8d6bb921e7dba33cccfac49",
+      "bytes": 14853
+    },
+    {
+      "path": "Content/QA/Station4Baseline/SM_Bogota_MarcasInterseccion.uasset",
+      "before": null,
+      "after": "0babe75825c3643bd04003a00c1cf0da799d9f895e8a7306798c437906310518",
+      "bytes": 45332
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_Private.uasset",
+      "before": "645000c166f024d89542d6d9b46723247945b46d61972a689827e0baeba1de4f",
+      "after": "c0b446e6effc8c64e0c629b019938928fda4d924c431b4e430af43a2eda8ad3b",
+      "bytes": 5503672
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateAveo.uasset",
+      "before": "a6e66632de2ff698eaa41bb12ef92c06fa61821fb6e6e8e0963bb6297335f92d",
+      "after": "ddd2ff816483b7f78d8817ffdabf5fb6c631f2eb8dbc869ab62927e5fb77128e",
+      "bytes": 5383345
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateBeetle.uasset",
+      "before": "69342adb272ce8fa6b8b8de9acfb8e396f583fe8b3e2332ffd204504badf8cf1",
+      "after": "fd5f11193d25ba720a400591af537e11262497563a9af5edf5c55d192bcd56ce",
+      "bytes": 7424183
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateChevette.uasset",
+      "before": "cfb614b2c517d8cff9c19212531c3b9cae20c8957d8b3f826eb2465d10ad53e7",
+      "after": "c7dc5e7ffe8fab39e99d49277c7007afca9e2bf3656c896b3898c13a7e5a5dd4",
+      "bytes": 5250677
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateClio.uasset",
+      "before": "de48ce2c4aa0329518a4b8401759fe1bc98b95ff79a89161beb635043f945df7",
+      "after": "2edfafabd60cd8a458780adc16d62828c79e98e0975ca120ddb59651a1bde302",
+      "bytes": 5356873
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateHatch.uasset",
+      "before": "aee0037a9db79edbfd92f7f6243c22ffcb99db8d2f07d4fea90135a99ad0ac28",
+      "after": "372738981fa89601bd48cc0e7b75569d1628eb3bf0c2e51faa6a7e27c883a843",
+      "bytes": 5328927
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateMazda323.uasset",
+      "before": "0a1a82c19c4b3716b349659fe9f93a4333fb7fe130c23c83fe5ce4c47387067a",
+      "after": "9fa3d1758566905dbcb85accb270cefc411328304cbacec81fbd31a090e04d84",
+      "bytes": 4880130
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivatePicanto.uasset",
+      "before": "519393d462a97f75ce47c8cd348a49bce7d9a0033f6d7083e5f5064ad3ebfa99",
+      "after": "a40d8333a166be9124dfad653297214f9d674f3e5d69c453c54cf77380fec17f",
+      "bytes": 5098966
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivatePickup.uasset",
+      "before": "8b97103dc5abb04716e43e1d1ee7908782ed9dae2212f6acaae5a689ea59b262",
+      "after": "49c23b048f3cd927856ffa0b8164f894856cbed77c980b292ad51587d2b4308d",
+      "bytes": 6869975
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivatePrado.uasset",
+      "before": "703ebc395c999211a428cbafd30861658672206a79d9a4e045f9be69f658e5de",
+      "after": "b450e626a0aa148894765093a5a5c56fb8cbd3f67fe3afdc800093827afb5b63",
+      "bytes": 7210856
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateRenault12.uasset",
+      "before": "cfb33773176528cb69d7622f08e7547d9e9a2af6e47dd6235bc7773b2521de49",
+      "after": "e82e2d811271452895f848d51d14d11e68df4047d5998e857030ad38aed72afb",
+      "bytes": 4918491
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateRenault4.uasset",
+      "before": "d57d432f314c17cf112ee872f31418deaae8414f7a0f3c211d785a7f480bda29",
+      "after": "953449bcb323ca5481fd91fdf4f393465cd00c33122da445ba8d738e6bc2d554",
+      "bytes": 4898017
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateRenault9.uasset",
+      "before": "e8a337965c53de61ac660cddfa088f17d53c8d42273a347062c1015e6f031591",
+      "after": "73259a3d5fe13b863b41edbe327df4b6da995158c2cc1756b64c70f210de9d2f",
+      "bytes": 4835373
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSandero.uasset",
+      "before": "d8cc5a2d5552a541d7df3feff7d18bc310f765e9bb792eff6c786db7af012737",
+      "after": "151f920211c6ce0108f712fe59e64f483f4e07201d903cea58cc3ff07dc74e5a",
+      "bytes": 5800925
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSingleCab.uasset",
+      "before": "aeae36181fab2410ee2c3d6272fe594d82722bc7e884af4f9eb58d6af74c07f5",
+      "after": "41d0eaf4e1f30f75fcf81d3fcef45b2406d2af6329beadc239cd119a0c05106f",
+      "bytes": 6509623
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSprint.uasset",
+      "before": "8975be3bbc56fa72ff9dcf6bbc410d4e7d1cc9dd1857d48ce2b57ffb3b66d88b",
+      "after": "25c079dc544f2d18dc6868469b9fb42ed5473f3fe06985d7c4cdd6fa7a1c291d",
+      "bytes": 5096465
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateSUV.uasset",
+      "before": "ef420369068c31ff3de8fc7a9e8f702e078815d066d778b4730099671504ebe2",
+      "after": "dcd2f8218cc18271363f14215602960a170d8dce94d4feb1ea40e5f9ac4cc00d",
+      "bytes": 6258539
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateVan.uasset",
+      "before": "8e4323619032fdcebb0800222e4c09aac489382e15f85e8648ec5afeeaa10a71",
+      "after": "dae30f5497d913b9f025bbcf10792f164a28dd84109bc08e8fa6ad6509cd338d",
+      "bytes": 4928785
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateVitara.uasset",
+      "before": "3a0a1a7a67e8526cbb3b340f0240410787fe0dcc9f40e408a6e161dab52411af",
+      "after": "9428db1377ba331ab4497ebcda23b1e43a416a0f9b5cf15db029e109d53695d3",
+      "bytes": 6586823
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_PrivateWagon.uasset",
+      "before": "0fed76826046579f647128ae6002555acc2e454ec7ef2ecd462c41e48f89843b",
+      "after": "61ceed3ce9d8158f62c4972cf2d54997615eec4c565494d188e964e471da7d4f",
+      "bytes": 5767948
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_TaxiCompact.uasset",
+      "before": "dbc3a6e06a1ea6cab47e78232bcbcf218344f568799f089a13263f2acfc12838",
+      "after": "869ad32e9432b4d592332ac6273b9e96ed1a49586645f1e7be2e7441d72f1ac1",
+      "bytes": 5233823
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_TaxiSedan.uasset",
+      "before": "969a22d9e642810a8de0e8aeabad6dc15d9b7bbac04e5d8859bc592fb4b90a46",
+      "after": "1d70347800b61a4178a02ee00915f967f73d96ece3efc4dbd89f69b9862638d5",
+      "bytes": 5471795
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_TransMilenio.uasset",
+      "before": "29ff2b937b88bb58245cd357c9e86b3f823c47b732310af1e643ec8016826d61",
+      "after": "7215c1d0b2dfd443c66b45c63be46cb857fcf00e0916f3b6f4beff5d7e078f46",
+      "bytes": 11422464
+    },
+    {
+      "path": "Content/Traffic/Detailed/SK_TransMilenioG66.uasset",
+      "before": "a224763a7d3de424463aab59df33aee173b6030cdf248510cf18021d088e06c6",
+      "after": "f900180f2d24c70bf50cbeeb7433284faa9934e782699969b96e5c1a84337c00",
+      "bytes": 11004483
+    },
+    {
+      "path": "Content/Traffic/Services/BP_CivilMotorcycle.uasset",
+      "before": "1ce21d7977a8ce481474be3a7e4577ed1fd7deacc3b5c80d95f20caab57c2b21",
+      "after": "8f6fd5d9e0d567fdb6eedba7914a63b6088fd35bfa29b09a3085d9bd7f3705a3",
+      "bytes": 35406
+    },
+    {
+      "path": "Content/Traffic/Services/BP_PoliceMotorcycle.uasset",
+      "before": "24eceae1d740eb41ae7a441b9538ec19e31f51eeb794e8888b3838462c81eb6e",
+      "after": "3deacf672fd829cc8e145e2dfb4ead4fadc049388cdbf77c62fb5deeae6aed3f",
+      "bytes": 36116
+    },
+    {
+      "path": "Content/Traffic/Services/BP_PoliceRoadPatrol.uasset",
+      "before": "c1c215ea546d0516a452ef0be4ca9719fc20f3a4a47dc37d8866586e7d3c6d7f",
+      "after": "7be1efd51ff26c79b5725b28641a351268513be86527ac620b0912b78a459c12",
+      "bytes": 36687
+    },
+    {
+      "path": "Content/Traffic/Services/BP_ServicePhysicalGuard.uasset",
+      "before": null,
+      "after": "1b4a882157a74f55c7d113946f9767762125a3c848aae8bb98cbbb5fb42c7db7",
+      "bytes": 237176
+    },
+    {
+      "path": "Content/Traffic/Services/BP_ServiceTravelHeading.uasset",
+      "before": null,
+      "after": "5d8c5a5002d8f166cd7ba9306a6b647825d2f0ebc5406bbb9fc068d297e91a67",
+      "bytes": 45748
+    },
+    {
+      "path": "Content/Traffic/Services/BP_TwoWheelerCitizen.uasset",
+      "before": "76b782058e2dba3de7672d9f99e790cd654610b45b65ea9b81352ff47c048983",
+      "after": "d0d2088b9de15e755c79f0257a082321e95c1ac52c2bc9f259beabf6aa7b1920",
+      "bytes": 1609351
+    },
+    {
+      "path": "Content/Traffic/Services/BP_VoxelRoadVehicle.uasset",
+      "before": "42b8c460a89263ada9bc95b522c2ac9d80a59b43c96af17823547e52ee226c61",
+      "after": "a5d7cd771b94f3faf10bd7626f705f932a417ec80d336797c3c43774727584e9",
+      "bytes": 846827
+    },
+    {
+      "path": "Content/Traffic/Services/SK_BicycleCivilBlue.uasset",
+      "before": "e1ac98fb2aff81143343ce825beafe559e779a1f27c98fb055db7891ce6f5a51",
+      "after": "f9b6a3f01420713d6c6e8a55b640c601f2a7c3cefb309dec216e2de1ba8c7864",
+      "bytes": 692212
+    },
+    {
+      "path": "Content/Traffic/Services/SK_BicycleCivilRed.uasset",
+      "before": "45683c77ad205b4d02a651ba8278f0c246cae130394fe58f0da5bf9b1eea949d",
+      "after": "9b48775bf6e5cd4aae005f050f31273d0c9b8f4f982432dde4d5ef41574c6ff9",
+      "bytes": 692261
+    },
+    {
+      "path": "Content/Traffic/Services/SK_BicycleCivilYellow.uasset",
+      "before": "3d4b0d8faec606911e00fea3f9a8af46e4d63f1563e12d2361050af9d2e3ea50",
+      "after": "c6574531e4e2f76109ea9040dc42bedb53d45390d495d67ae4547799dc0c697a",
+      "bytes": 692286
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCivilBlue.uasset",
+      "before": "911ecffa5a713a2db63869e79394a80ddd3007794646dfe08a40fc90b1061cd6",
+      "after": "3dff23099e711771ff9f089201e95a5dec247cab2d977c1c8f84ce7ae5376f20",
+      "bytes": 1010736
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCivilPurple.uasset",
+      "before": "0e7a9bc2c3fe7a52bd47db8fae4453208aa7b9485c025a20ba2d90b814c41528",
+      "after": "6efd9bed2443de50c1bb6c6259508214d8105368f9f7e27c0b2042b22bebd989",
+      "bytes": 1010341
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCivilRed.uasset",
+      "before": "5bbf05ac13f982be3a195f5fb9e2cc728df42aaee74353e8a5389dad934ea5f4",
+      "after": "c75c4d38bae5143221f3f178d0558f60b2e2643bf8bb0d57e2de69e2b7934d5d",
+      "bytes": 1010303
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCivilWhite.uasset",
+      "before": "5a8b25c76e1c9d0064a957e6656da91d7782be9f027bcccc263987eb91596b43",
+      "after": "c8345a394d10af3fe45f9c7ce36c37cca6d4447d66803175f202fb5fe29c95f4",
+      "bytes": 1035275
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCivilYellow.uasset",
+      "before": "7284ba0bc64ffae117795de281726093de2f622f7faec412d9966bbf656a5378",
+      "after": "706551ad64752931c88114235b9f289fd43244b29b7a7af6ebee82e63021d7bf",
+      "bytes": 1010341
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoCourier.uasset",
+      "before": "b8186e6ebac890ab5dff766604b7bf3aac3e8e1e84b1465873d2403cebe4c9cf",
+      "after": "ace56f136a44968738084cafc0d8768b83c3b05e0cc76306aba0d99a753d036a",
+      "bytes": 1035433
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoPolice.uasset",
+      "before": "47848529399cdbd74128ccf2c3de967e975cc6d052b6e73dee91839e9f5a0cf2",
+      "after": "9d87906ffd95c505ce38c4c2d3a0a8ac7d4dc21c5b9ca05aef318f6a4c369ada",
+      "bytes": 1102794
+    },
+    {
+      "path": "Content/Traffic/Services/SK_MotoPoliceGreen.uasset",
+      "before": "86ef6ab5f5ffc95b9a169abc68d65ca534958ad279218cc0acca09f265c78e40",
+      "after": "d5566046d90fc8a30d421f0562ed57786edd754f0af547f2a5e1b7f8f313d870",
+      "bytes": 1098636
+    },
+    {
+      "path": "Content/Traffic/Services/SK_PoliceOfficer.uasset",
+      "before": "2f99a8528e62709212268092fcf8208b6983e949079cd8c661bdefb9b214a7f9",
+      "after": "7030ff5f68fdcad1b09e6fc17c53eb14bcb749db39c267b1de5406ee22442b3e",
+      "bytes": 4643456
+    },
+    {
+      "path": "Content/Traffic/Services/SK_PoliceOfficerFemale01.uasset",
+      "before": "1031b0a12652e5e88ff90401e9617158268b4224e4f2787c982ebfc6173aeedf",
+      "after": "87cc366b2d3684cdaf052c13630265534906b371c2979d4bd5e1aecdcd622a4c",
+      "bytes": 4835201
+    },
+    {
+      "path": "Content/Traffic/Services/SK_PoliceOfficerFemale02.uasset",
+      "before": "fd70a9747018e96c85badc5bedf4768a1abd494311d78a6362925749a2dddcd2",
+      "after": "83f92216f27972c6d6d9e95937ff8ae24fa3f2dbf2d44f6fa2f61f9a6628e16e",
+      "bytes": 4975141
+    },
+    {
+      "path": "Content/Traffic/Services/SK_PoliceOfficerMale02.uasset",
+      "before": "0d9c715957f945bfce6bd4b083917757ab6ee3306852919c97fae4e86282e30f",
+      "after": "445f0c51fecf2cd076e75de5f15f6ee3269ae6fdae87f228d5d73d417277e4bd",
+      "bytes": 4927441
+    },
+    {
+      "path": "Content/Traffic/Services/SK_PolicePatrol.uasset",
+      "before": "65547d30cfda7b133188af690913004ee642a6a51729b3877963823adcb4c825",
+      "after": "7cd58e0d72b65cb4921ae14276f7d50a2cff961c1ef664219b51499a00fac52f",
+      "bytes": 5994219
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Crowd/BP_CrowdVisibility.uasset",
+      "before": "fd6b55d2c399072e8cf76828ac976aa361ce1533a21097f9444702be3b9b49f3",
+      "after": "c3cacbdb0643524477363659571c4292dec54a7a46ea34167e8e2c418c0159c8",
+      "bytes": 128958
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Optimization/BP_GraphicsSettings.uasset",
+      "before": null,
+      "after": "595b6cd67acc02b306d692450ea8640291da0ff9f8c978eaa22bc43d4a4f4f99",
+      "bytes": 138961
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Optimization/BP_ServiceDistanceBudget.uasset",
+      "before": "302fd8c75d63aa6fc74852f42cb3289242fd6f93e0ad9383eb8cd3ee24a4195c",
+      "after": "61079d4118ab2496c3cf78bb63467b77bb96fe6960bc1a4e873af6994f5b85f1",
+      "bytes": 139823
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Optimization/BP_StoreDistanceBudget.uasset",
+      "before": "545ea8d7b53688c7320d8406c2f0a109190db35c484d70551d91cc94cc87f620",
+      "after": "0eda12803ef91cebf2ad7a4309b205ff9d80d1d639f882fdac2759639c15f2cd",
+      "bytes": 118161
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Optimization/WBP_GraphicsSettings.uasset",
+      "before": null,
+      "after": "9276d249f202e3a7bb981e575953fd3701563c6dacc9b137f6f52358104355b1",
+      "bytes": 856542
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Optimization/WBP_ShaderWarmup.uasset",
+      "before": null,
+      "after": "9f3e80b97eb02fd5df5ecbeb05cea77e294d4414d88c2b85e0d1b04fb092b3fd",
+      "bytes": 60248
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficJunction.uasset",
+      "before": "98847d9dddeb333403296b3eae8974abcab6960b58bf00c95ff76c270422bf9e",
+      "after": "23248815b5b3a4f904b7b952d7df082962d3db0d66ae4aa1879affd24275a1de",
+      "bytes": 470395
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficLane_0.uasset",
+      "before": "0407ec4b066dd4a55cb112a18ab26619ea6516e385e59c19e62228315737f180",
+      "after": "d28bdebeb4d948b10c04414719d23847ac66f39b97f62450cd4d9ee4be2ad40e",
+      "bytes": 2441600
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficLane_1.uasset",
+      "before": "dec673bc60344037f4985709cf6a7a294815baab0242d9a3788a676b9d4d2a62",
+      "after": "494cfe8ca89cd6f60815bcdf7441f77f453e9062739b70aa93eb27c15784c2d8",
+      "bytes": 2422316
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficLane_2.uasset",
+      "before": "a3aa840829f96132dde34efd59e456d0a24a986b2c4f46256494c1561fa5e42e",
+      "after": "0d60e9bb80353f3cae9ece19be5d867e50f09a4984f37190280cca5edc2d3bca",
+      "bytes": 1562546
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficLane_3.uasset",
+      "before": "fc8c7fb89e06c5e141fe3c56495a8f807f407cacd6ab5cf4c636e6b9916efb69",
+      "after": "0eb753a02d68976ede99840cbe6cc04d0840243f1292cf1a893192bb2c773208",
+      "bytes": 1562546
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficLane_4.uasset",
+      "before": "463bd875b227e9073d5cb3373363fdb269abde88d32f7318c3bf3d6953c789e8",
+      "after": "e5564b4bc3013ebea096a2aec16094142b1f95d9068a142030d91dd79e23542b",
+      "bytes": 2441663
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficLane_5.uasset",
+      "before": "e587a0cca572bb67acd65f0d90258b8491fcf1b56746189368965bf462b0ad8e",
+      "after": "4a31e85cb136be0952781a494dc547a5708f3d99fa5db334f274e06b2f26d310",
+      "bytes": 2422316
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficLane_6.uasset",
+      "before": "2636e0c29de089c85f4c4723d4b09b5d8a2a50b196ce5f3d4777a4ca9a6d0803",
+      "after": "8883f1814521f8396b002c42b918c635ab85e294a84d029bec4f87a8c6e8c50e",
+      "bytes": 3969903
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficManager.uasset",
+      "before": "05da5996ebc0b1bc401be33df1610a255af7314279cb7ad6753aeda1603c0769",
+      "after": "be681ee5097639f69ce0a8d7d3ad645a56880ac351c825675e5945f78ec3cecb",
+      "bytes": 1713474
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Traffic/BP_TrafficVehicle.uasset",
+      "before": "51993377dc91fd9faf9b055bfe17aeb80e57c9a9541905fe36258fdbe29f1518",
+      "after": "f3ea4b81b8520dd61be25afc0dc06122e8bb24bc575657db129655df27a92b43",
+      "bytes": 2696863
+    },
+    {
+      "path": "Content/World/BlueprintWorld/Traffic/BP_Traffic_TransMilenio.uasset",
+      "before": "d163f421e77868189c646e20cb844876e27812470babd3aef28bc73ffd5a118a",
+      "after": "fd6271c63f9a88a58650c4a7a5f7a03e27f976c02909e888b15dea4e7755bda6",
+      "bytes": 56845
+    },
+    {
+      "path": "Content/World/BogotaUrban/BP_BogotaServiceSignals.uasset",
+      "before": "929193cbe9e43f395bd6b4ca94018e9e3164d6deb43f76d63c77114b6cc97b48",
+      "after": "8bc25fad7f9491ea2c1ffbcf43b091932eb0359d5c06a9bce2ea3b98a525e64a",
+      "bytes": 367445
+    },
+    {
+      "path": "Content/World/BogotaUrban/Geometry/SM_Bogota_AccesosEstaciones.uasset",
+      "before": "5ccba586f4148821bb3235f4b1ac654b7ac2aee5c3d82a970e18bf4e291296c4",
+      "after": "991ddefe36202c0ea25914e36deee0467c98c9f9f73225b74388e9231f2097a2",
+      "bytes": 14896
+    },
+    {
+      "path": "Content/World/BogotaUrban/Geometry/SM_Bogota_CallesSecundarias.uasset",
+      "before": "ae82376cf38001efeb3bcc26e1eb0014f4d81962e0fc7ce11fc222309af1b1ad",
+      "after": "d816bb9aa5f04250f8304fc70727a1b5e912e0afb15430a63660d3632915fef6",
+      "bytes": 1114304
+    },
+    {
+      "path": "Content/World/BogotaUrban/Geometry/SM_Bogota_CaminoMonserrate.uasset",
+      "before": "5ec5a3feb4e010ffd6a616d361179b1da10bea2a2cd1960d4b30f4904aee29b8",
+      "after": "694978c5b8a73bcaa752ae868bd174ce2013e0cd5e49d02779bf192594da7a1d",
+      "bytes": 241645
+    },
+    {
+      "path": "Content/World/BogotaUrban/Geometry/SM_Bogota_CruceAccesible.uasset",
+      "before": "c0faef37b46f0567d67ffdbe4106f8e21001b39eef7c8d350727bc66557ad50e",
+      "after": "7629958396f5c93c303ada6325fe74c0c52979691e928a5260ef05b2f52760d9",
+      "bytes": 24625
+    },
+    {
+      "path": "Content/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi.uasset",
+      "before": "eaa32cf3d1c774a45d20aaacb188515f3778e4ca6102e2f5e8630826638cfa3b",
+      "after": "3f5f330ff5d5f5e0aed9615b439fa278c691f34fa7ddc4fcaef017ba1916d03f",
+      "bytes": 105503
+    },
+    {
+      "path": "Content/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi_Compacta.uasset",
+      "before": "0a982ff10422398168a913fc16be5a5d0ed16b9cb6a66b9e4f2b74b2b6adc5fe",
+      "after": "c85a65ea8991e0afdb908fe52b39c838cdfc77f0512c82bd8cda6a519d0757db",
+      "bytes": 98749
+    },
+    {
+      "path": "Content/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi_Compacta_PhysicsFixed.uasset",
+      "before": null,
+      "after": "ba3870b9f4804d78d9c54b0292bfa610837babe1dcb661e70efd901befff990b",
+      "bytes": 111298
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_003.uasset",
+      "before": "3acde3296ed77095ca8b97becb2ddf5d2bf38944b8af7bc858e122ad244084ca",
+      "after": "87248a7021d377dd7fc25d512268b6f45cae61c5cc92157aec7fa0e367653915",
+      "bytes": 125543
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_004.uasset",
+      "before": "e9011954e84f0e57f801ae7c2afdaf53d04bb179393791c51fa37302e2dc40cd",
+      "after": "413d337fe25f5cbeb3eefdcedfd0b8fa8e887cf8329d7a989892eb5beec95687",
+      "bytes": 123761
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_006.uasset",
+      "before": "f657e71ad23c5e449ac1a48d577c8901be2952e590a34fd4d70c542d1b620a29",
+      "after": "aa870f9fe7d0e7e228f107e29d90c26f2a85009ef3ddb9f4584f38a8acb0f3d4",
+      "bytes": 553082
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_007_TrafficClearance.uasset",
+      "before": null,
+      "after": "c93073b996044c15c248a3ff5a97bdd552a2bcd5c737e065c405e3f80cc0bb88",
+      "bytes": 47368
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_014.uasset",
+      "before": "10d568f3cec7e6e2bf3b474b079381a3017fbc92cdbc37da0e7d3d7af91db955",
+      "after": "2c3b1aacbff5abdccf29dd7a1605b1bec1b0ed9505ee4074eef93d25900deb14",
+      "bytes": 152369
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_017.uasset",
+      "before": "c55207d580312ff8b0489ba6c6f878c56cbe4297ce7eabf12a08acb0cfe036a0",
+      "after": "d685cd12be1335346645243c43181f835fd8f98c116d29fb507f8d27afc5c326",
+      "bytes": 205031
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_018.uasset",
+      "before": "d397438df8a31bc1f3b2952e23643ec1d12c3764df1beaa06ae955e3cc4780d4",
+      "after": "98d77ac2bdee220c79cc81a88dc151b703c9b066243eeaa11a50e065105cc1d3",
+      "bytes": 168544
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_018_TrafficClearance.uasset",
+      "before": null,
+      "after": "f1d80b0fe39272dc46247a339d5a007c4b6a1e91d861a5b8336d1257608fda4b",
+      "bytes": 152323
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_019.uasset",
+      "before": "ea0234c2e79d86df30214a016ace3c921262767284c718b95b6d4f2026cadcf6",
+      "after": "38e2e2f4dbeacf8fc25ba39b2ffb1a0fc9f93d313368b83880458ad2053517b5",
+      "bytes": 349338
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_021.uasset",
+      "before": "6ee016402503e9d07691dcf66c78cd179224dc6c75654faae0bd367038f80494",
+      "after": "933fc60473cc7599957d60cc50eab6912538be5e2d3d62e4629917978cc1d722",
+      "bytes": 255111
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_022.uasset",
+      "before": "75ad4c0053dbc71f1c9e704eddd1b2e0f4e57d6cb71628cf3285f24b172086c9",
+      "after": "ac2f6992cdafb10739dbb11fc2833586ee0f4a48937277ce3eab8199343771bf",
+      "bytes": 265995
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_022_TrafficClearance.uasset",
+      "before": null,
+      "after": "4c72b8595fea65694c0ef2d6b3302467f924176656a65da369fce5b0230a1aed",
+      "bytes": 285231
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_023.uasset",
+      "before": "b7450b0d0f0a9474d31c6407c621fea4bf71e4eeca9c1aa5352e585acc43b427",
+      "after": "5b86e42f14cc247c022f9a35cd55793e63c2226bd6a02d56f0daf1abad569452",
+      "bytes": 129412
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_023_TrafficClearance.uasset",
+      "before": null,
+      "after": "c1589acb31271aa27fd1d8b37beea570528328ec3caded34b3256fffdf6f7a57",
+      "bytes": 126833
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_026.uasset",
+      "before": "1d948e95951e7e0fd8cf72cb16ed8e1c02ff18de5e4a861a2df9175e2d31123c",
+      "after": "ead98840cee92f7e493c97f843923e4dd97b3a3068300f4ac2aa015371c7f6e3",
+      "bytes": 211369
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_029.uasset",
+      "before": "3957dc0f40f55b417930945dac1f8a813fd55094fed66b4cc419de07651d587b",
+      "after": "dc786ac4a2f02476fa66863aee0adb1655cd030564f0e6c4b80f4794b312e489",
+      "bytes": 474855
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_030.uasset",
+      "before": "d82d63906ddb7c856b836bb8a4f9d8b6971d0ac5a6034be289eb82131d43ede0",
+      "after": "e5d4988ce22c2a704e14a2acc19eb8246a9affc22d34eb4b04be82ba0c62d8a3",
+      "bytes": 254198
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_031.uasset",
+      "before": "65010797a8358b6bf434751adf51f132cf0921bd2283dc5b7449f88c0979bbe5",
+      "after": "0c71b8af7afac2a80c6e013b724eebdc002001b6e1a8f302c59714b7195d315c",
+      "bytes": 249351
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_032.uasset",
+      "before": "a637f91fce80c395396eb339e5e62200e877f3d25639acc4204cf5e2c1d9eeb5",
+      "after": "91ae04d67fc52c5e0879d20306cc923f913ce2b4528bb94eb9fef18d7a3a9ae9",
+      "bytes": 284809
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_033.uasset",
+      "before": "7bafebe3e2b76a097434f0935875d1e831dc461bb85dbf04aaf7ee1159b0911d",
+      "after": "fdf80dbdcce189e09b32befcbc1a16e4ffd4ca6268eab3fabdd024a02088254e",
+      "bytes": 199602
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_034.uasset",
+      "before": "a734744da09d75d89716b49463801713eaace0e8c6af293e32eaa399a3120fe2",
+      "after": "c2d39ddb0cc0114e4b67a94525277738b9c14e6289b3a626fe64dc7d7635f600",
+      "bytes": 277535
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_035.uasset",
+      "before": "3d53cb09e309aa07d62745e931b674971bab08ab524c50210b77ce09dfd8fb4e",
+      "after": "3bca397076af861e29e7b5e8760d90607a1a47093bc90f5994306fda27b529e6",
+      "bytes": 174128
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_036.uasset",
+      "before": "e0ddabc83f33ec40f67b581960872ed4126403c51e74cce4a3a10e0b3ad66f62",
+      "after": "ba466b81845fd95e27530ee60279e02bdb3cad01dfba076a8e6720707cd7a0e6",
+      "bytes": 271393
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_037.uasset",
+      "before": "c65fae7e0c3d53db56f345e31c8a8f482a5c5175114f073ea03488d6ad04ed0c",
+      "after": "ca2085f98b1c5afa39437658feb15ec44bf5a3929dafab331dfe982a9228bbed",
+      "bytes": 255326
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_038.uasset",
+      "before": "358f68f45d3162799d99e46944cd1e62a6ac6b3e7b9a947386434573267800c8",
+      "after": "80781b8a325cb82ade45e1e38922f8a8d0774a77e3350df21820a4aebffabe96",
+      "bytes": 239867
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_039.uasset",
+      "before": "91e1cd989e6c1bb34fa2b2c4723c444c991ea8aab147b8d4e67ec8e90804bc34",
+      "after": "54fd19b0c072abc7db7fb50f7f4f5b6e9ab384fdd5163687f307521bbdc50344",
+      "bytes": 197863
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_040.uasset",
+      "before": "74d038618386d7a6abc31714940fe544c4bec10842effa282e040974389874f1",
+      "after": "7eaee2d1387ebae0593d2afc0c6abe5e636ae461055422492739b644deab47d4",
+      "bytes": 187356
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_041.uasset",
+      "before": "7cebbc90b50dc41df648a4963474b5f62d841f24e57d40ba1b4915ee1b4870c0",
+      "after": "a512691c53985cc601edd676707ee5be799601bd31b0621e44599e3216cee9cd",
+      "bytes": 167154
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_041_TrafficClearance.uasset",
+      "before": null,
+      "after": "33dcbfadc206b04e3ad0b959bf71c82c880c7b072e49ed4e8688aa8ca8441251",
+      "bytes": 242671
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_042.uasset",
+      "before": "671cbfae64eb1b8834c04aa9252f71ccc57d9cde791e517c0c8a94b050a8d7a8",
+      "after": "1632e868fa891fb64b69f6e51a96f851f93c2ab24023556a8bf5b9664e63688c",
+      "bytes": 246418
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_043.uasset",
+      "before": "338f0b636d1612e252817145baade02e2c5454be8aa9a7bae78ac845491016e1",
+      "after": "3f9faab54254ba219e00fc35beafb8b22df3b03d618570ed4d56c1fde575c196",
+      "bytes": 185270
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_043_TrafficClearance.uasset",
+      "before": null,
+      "after": "a6833bcf44f025dd14a8929a3ff2edab2c723cf1b2befdfc97427caa1c40a469",
+      "bytes": 277556
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_044.uasset",
+      "before": "399598db01e06cd0ae40f18964f01c67c6b8ffa0905117d08c7a2663480d2ac1",
+      "after": "73677eb8682d7ccc52dc4725effb15f2716ee3ae8b018138de83721bc35beeab",
+      "bytes": 186521
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_044_TrafficClearance.uasset",
+      "before": null,
+      "after": "c7b4801967860af2fbfb09e7e6fb14c1bc5abbdf1f119f70fce0eb8e300c389d",
+      "bytes": 238893
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_045.uasset",
+      "before": "6f08345ebe4417f17f2f80c7bfb565c13fb60ef315a3db2c96f384a0484a5062",
+      "after": "1d546cc517c1ea1412c1d18d6266cccfe1f8364ec4b8a1480a5d473c05427199",
+      "bytes": 218077
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_046.uasset",
+      "before": "ce3127fe08e476c25125866fac634f26780709fa7da1688aa678afa555b1de22",
+      "after": "df663437c932c795f7d9f6e5fc857c0b741da2afc1bde2529dccd135b76906c6",
+      "bytes": 239943
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_047.uasset",
+      "before": "edbf19f222c7f260b81eece265ca00337e0aba1dc4f8631ed7388b1d30d8bc6f",
+      "after": "76e90feee3320ce9039701629bf7841d636d63d968b0cf6bbb1b03c2384cbeaa",
+      "bytes": 176435
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_047_TrafficClearance.uasset",
+      "before": null,
+      "after": "d5369d987fea3bd2229a079efafec264f27b759e7556d389eda9f5b3d844731e",
+      "bytes": 229683
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_048.uasset",
+      "before": "64045746704604c230c7153e7768e4278f0efc817b1304ef848d1c8305a957d1",
+      "after": "c7f29500dd9695197d1c847a85c1d59318b5a2d7f688d1c5ab9e198925b4d171",
+      "bytes": 179628
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_049.uasset",
+      "before": "7e1eb4b32b994b7b8d7bfe74d3260a6386aab93b2495a4db73b11046b202483c",
+      "after": "5bd618027f8b827b05ae5efbe0500a887190de74638ed5786430ba8e32950dd4",
+      "bytes": 253334
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_050.uasset",
+      "before": "50a1b9519ca1f88b4d73da873d26e8d71bced44e4a2dc2ac9ffb7b2ec46a46f5",
+      "after": "a25eb6e1885a638f6efacb2f1e48dd15954b0339797c079267e26a0c6cbf9b57",
+      "bytes": 157664
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_050_TrafficClearance.uasset",
+      "before": null,
+      "after": "c46248aebf0458890343e1470690c52cf5850b4f2507d724ca4a580caf70f509",
+      "bytes": 231270
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_051.uasset",
+      "before": "8f7814eaee55662309cdd52571242c318639467eacf53a9bda87e93c93205271",
+      "after": "a2a4ff647530a3b5dc14e95fe140792a466edd2e8377a15cc58f8ee5a3e4016a",
+      "bytes": 270624
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_052.uasset",
+      "before": "ab9f25872b87edafa0b366bd9318b535a09dab9495468db72ca641f562b0b63d",
+      "after": "f2c2bd2982f537ffd45ca0d2a6f4b0602d1fb658622c417401bd1c4903a06caa",
+      "bytes": 256046
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_053.uasset",
+      "before": "e39e601506baa828c19dec1ca183ff7fb468ea9ab0da764ee9f28fa68fdb9957",
+      "after": "ba17ec780e18b49a83be997751e9e689c84650d5c5c7248413126b3e40d719ca",
+      "bytes": 187385
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_054.uasset",
+      "before": "b6ad6b0d8f088fa4fe38640abafd03e58229324434a4b8ab254b53bf74332810",
+      "after": "5080797900f0a532d12d12dbe0c7812b49d7ca23e6ca2c4dab3be4e575983a1a",
+      "bytes": 191536
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_055.uasset",
+      "before": "31a2cd1971dd184949b006d83c10557bdf660d6bf16460d3fe139c5cace434be",
+      "after": "00e077be4923197b8321608b1786d57a1219c7593b60fdf007968b078253f912",
+      "bytes": 254267
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_056.uasset",
+      "before": "f09329e9f18e798689e7f4828daeda3e37037765266341e4f9ac4a595ba11448",
+      "after": "f36993cefaabc828ce6992e2736d464dbdcb8df655d449381316eb706ab16a5d",
+      "bytes": 246373
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_057.uasset",
+      "before": "11e5145c36d210da90748428d5c10c5449730ae39547f3b120c859bb3638ed4c",
+      "after": "344766993844f10dbe4d030222d0028011f19019361a826d33b026ed1ac8bd3b",
+      "bytes": 288227
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_058.uasset",
+      "before": "1ff36660f00ad0e81f7ae29698a124f8dc17065bba39e82af38c2a611581bedd",
+      "after": "f6b409d3653c837c56465ad1477010ff8e83a1b40c2dec1a14a38485016a16ab",
+      "bytes": 222543
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_059.uasset",
+      "before": "6cd7db11ab5385f65a30dd836b2426a41d3a1660838e3a3e5f008c1c439bda9b",
+      "after": "f10dfb04a1bee63e2e4a565d6444d16a948b4611b0c7719b2de18f1363ba5046",
+      "bytes": 271645
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_060.uasset",
+      "before": "9f8f9aa4324e7350de0af77cf196f718e5cfc6ce517f82861e46596689db3383",
+      "after": "758d30c83974eb57d4af5dbfa9b2cb0c2ad1ce1707d4aec066ccce6b158fd334",
+      "bytes": 336127
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_061.uasset",
+      "before": "776ab7a6175fd116faa36a0b7a8059fd7d0b4c424c233d86bec92466e7fa27f5",
+      "after": "fcbcd9360e4ac49068e8e29b04d8cf0744bf78e84ed75159657cc6611d014e38",
+      "bytes": 303215
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_062.uasset",
+      "before": "e7fc8e18f6716af27f1f365aa13fc682519cce27f06d8f5d50560b4ca567d274",
+      "after": "8cce76d6294c97086089dd4b501f66242f6ad05e90df4b0bef3b81588a0d3627",
+      "bytes": 311957
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_063.uasset",
+      "before": "f1af3ca5a13c341cf2907dfcf34cca1f155761599a373bbaa85908fec5713ce0",
+      "after": "e567c421a32d4cc985a68f6aa6f9858e2faa1c75db22912b99c9ef90d45aa089",
+      "bytes": 274775
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_064.uasset",
+      "before": "966a018562ffb207b2d28d1a9266a5d2bf1ec2d9a68539ddfcd505581de97b72",
+      "after": "159233d093d4d81011c29fcd01cdb3435a4744aab1f08de4fe418c24433c49d4",
+      "bytes": 299651
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_065.uasset",
+      "before": "ccbe9489edd6cf8b9c56b3fab33d0e6e268f83b34aa6d336c5f29d286865e5bf",
+      "after": "520b7b19fac4acfb6c126f7f9aa7f2f7424588b00e5b42d88093fe03bb4fcde9",
+      "bytes": 290423
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_066.uasset",
+      "before": "49c5872a36bf1735d208ff9534bad4829855367f6d7c87c4a33c2e3d3bccbd83",
+      "after": "806e02070fb5589e326576d935885c1ec02ff2fe7c4a20cc316445dff4d7e2db",
+      "bytes": 314505
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_067.uasset",
+      "before": "3fab71fda01f37f2bdf7273ed7f67c3a862efc482cab920de2cb71c16cb9f0ae",
+      "after": "81ab6dc843d1eb204d6870b1d39a3b955dfa3ba538f7c5ceb9f1afce3b72170d",
+      "bytes": 385011
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_068.uasset",
+      "before": "03cf94722a8ae7bbd165cec9ece359903521fcbb5e4575a9331b7711116a9553",
+      "after": "ca1f5477d477b29f5650c12639cb465066c803f6122d26e6efb727885902241d",
+      "bytes": 395525
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_069.uasset",
+      "before": "1b7b3df09cbf89e6a6b81a38f9b6a4fed35092ac98075f45adb6ad9d81cb79b0",
+      "after": "15b94c1484ab2dda0b95bd1b7a949933c91a697172a108774470469ac9e34b44",
+      "bytes": 405856
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_070.uasset",
+      "before": "8860b43f9dc00af7b51cef4ca55d5c6750f157fbe21e726a65c6521b1efef300",
+      "after": "62b0509d8492127f47a718dc57ec65194a649dfcb606646be2c9d941ce7c4063",
+      "bytes": 405856
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_071.uasset",
+      "before": "d1a6dda47a07c6ac19308e470904b29d915914608d2e88e387089628ec25b944",
+      "after": "a64fc42f6d7b8a505847e369696588dc8e55c3132d896d2f06f63b0ebe8f74c4",
+      "bytes": 395525
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_072.uasset",
+      "before": "1dfeb0cf16d4d8d8522b86bf2f2f80fc8e3dd189c780557ccac2803b24da46f3",
+      "after": "267450f629d07e54d13a824abefa87bf1fbdb4b1e672de9d514bfd1f8becaa47",
+      "bytes": 385011
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_073.uasset",
+      "before": "ed687532176f9a90f9d13b7efc7873304a38a35aee55eb5d1589c7260f0e4cd0",
+      "after": "2a97f701ad7281c1e39af5512f6ec39f3d6c4af46abc756b832d660dc5e71650",
+      "bytes": 414206
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_074.uasset",
+      "before": "8cf73383df351bf342ef267235d17e0b9e43c8b0fce10dfc48bb7d004938f425",
+      "after": "e3befa1bc256ff6aed5a20c5837750a2eb40e9f1237ee8512d081e2b069883cc",
+      "bytes": 399680
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_075.uasset",
+      "before": "6bb592f1163601e400de72f051e42c3fcd1328e0b7cd3c0708e03633947fa8ea",
+      "after": "92b3140c62fd4246b84e9191f0f1a24dfa5c5d0ffde42c4f682ac2cdd9141489",
+      "bytes": 414206
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_076.uasset",
+      "before": "91d79a12ed8cdc01748e6d6c825f10a457b44038d8add2128ad5f65f409588f4",
+      "after": "a1919515baaba16fe22fb6ffb80ef1edbb0e1078db1930c0ffa1a501ab9376b9",
+      "bytes": 399680
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_077.uasset",
+      "before": "d7de0ebe0f440be8cc6b45be120e5d0a62b5c04742a21173617bc5abc3d00095",
+      "after": "043f9471013bd961d2b25b4c288d49ab0519b57a9f9a2579a755965c4dc37349",
+      "bytes": 802958
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_078.uasset",
+      "before": "43485f1f7a1147d015e4647108eee017e3e90ca6e466876f96b9169e51681e69",
+      "after": "9865aea1a85aaef5a90822afe0ac443583de55fab6fdecdcbae2da09ad3f90df",
+      "bytes": 814761
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_079.uasset",
+      "before": "99d6cdc2dec47217c592080f7980694d12c6f7da313c9719c9114764006a40a5",
+      "after": "7069814c3be7cfee02da14b971068c08eb017ccc55478119d0708f1e6b754af1",
+      "bytes": 777144
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_080.uasset",
+      "before": "f6a5fab122e15be56d978b4a3fecd39b5b55b2e2c7c0c21bc7e3ba38c7a2f3ea",
+      "after": "c4c8e5e9b246703244c41369ebd5f5000ea3cf136ed5763b8d4c85f1a82a830d",
+      "bytes": 300382
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_081.uasset",
+      "before": "18d6e93087483d054eb2fefb02e7617d8552a08f802917418891e23b710e8ad3",
+      "after": "ba0fe8b7f1316ef8ea1cad1d6d5efb46c91aac28e0851f9308ebd56350470e1d",
+      "bytes": 298402
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_082.uasset",
+      "before": "b55e79e701b72f92eff76383caf4cfe951e7db4cc707a3d63cd365409af14f1d",
+      "after": "387bfbd05a2a23834fc1c39a47240a7c204ff1991d663b9da555ddb9e3a9d3b0",
+      "bytes": 404435
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_083.uasset",
+      "before": "8418dc1be3818175959a51b9d86d7b8ba58bbd486be9e6a8b4e73674239d8cb7",
+      "after": "d9f56ab6f4118ea3791a9919cb3094c21d3bebb273374d497d35fb63ab18866f",
+      "bytes": 297704
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_084.uasset",
+      "before": "91ded43539acb06cbdf2699f88fdb0e7b08a5f5bcfe6b0cafd76c7de713bf700",
+      "after": "e0534dca16dccd52d0b0f5ca935392a717b02b76f0745d58774112ab43333c43",
+      "bytes": 372229
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_085.uasset",
+      "before": "eaa9984469211d4e9c712437dd11f9b1c412d5964ad2f2c9c8cd3b827accc987",
+      "after": "e8d5f4a46f75272f60cf18cd99b1bc3b07b2522a77f57af037899357833560aa",
+      "bytes": 378587
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_086.uasset",
+      "before": "7e5cf72dd8377ec51c0826f02e83ca36a6a87e6d58d4295e51d39a7950d32e94",
+      "after": "29b8af673acdbb3f09dbe048ea4dae0c6b8cfe3fff4919a2ef1d515230790974",
+      "bytes": 594186
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_087.uasset",
+      "before": "c7a84106a2f9e3700780a9e402a2d3d5e5f3ddfc00d6c692955f68bba26d8869",
+      "after": "a74f959a73167d1c423c057c37be319ef81f6fedfac3e2780c07be7ddac9d4b4",
+      "bytes": 405245
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_088.uasset",
+      "before": "2340aac1adee9adbac32721cb48fdd473fabb6fae7cc36fa2b7c3c3232e656a6",
+      "after": "d0e9fc5a35e25f717259ecb91c5433d709e915a843979fa5d4a7afccbdd1c767",
+      "bytes": 262853
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_089.uasset",
+      "before": "50b784c3a9a6caf1a15d7c9e20da24a6050f30788c7eec5ad61ce8a73e5bf027",
+      "after": "eaebccf8f3cb5b44074fae67b45da3ffa68a263c1d86bb11ed72d29a7351623d",
+      "bytes": 599697
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_091.uasset",
+      "before": "adc94cf983a48c4f1464eece345763c6c5c38e9c13c2f8d39aa56a5b595eaad5",
+      "after": "6d72678657bf95e21d8ea8929f7d16978921e8b1e3ab3a8f561340140e6d6ead",
+      "bytes": 117296
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_093.uasset",
+      "before": "276e29704f8b828fb1a351ad6a7305f2e6b598793efe0ebfd5111012257370d2",
+      "after": "1cbc758d74b7196ff9a67e5edc1978cdc5e1198079ab67ba37ed09a418ed875d",
+      "bytes": 2272040
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_096.uasset",
+      "before": "da797c4c258b1b3a79bd2012d7c144154c7cddad0115058f168bb8ab9f754a9a",
+      "after": "8f9fae0d1bf391361e0df60de185c53fbfa4f0a3a0ea2ecd605bc811e8507b5e",
+      "bytes": 1303666
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_101.uasset",
+      "before": "395d1b6ba8d6dc848399411a0a5c1c4c13741eac228cec28ea8ae5db707b6c04",
+      "after": "0cae4f6be7832b6934183dafa63e9b61f521c98d6c398da083cb92336654d2f8",
+      "bytes": 136144
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_103.uasset",
+      "before": "3244cbe08641426e3567680965483ed5a14e4a5fb955c30e180302c9006c67f4",
+      "after": "441b4e1709b81b04252dea6cfe13931c1d75df4ca3ea43da83ec0de83127f937",
+      "bytes": 132244
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_104.uasset",
+      "before": "aed83da8017e38cbc12c09a4516c1e34b4d7754f35c0bed3bbf5811ebc0bce25",
+      "after": "e7ec8d452894152bffe0601ac5fd80ef935255e838978818e06e691fd707da41",
+      "bytes": 133767
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_111.uasset",
+      "before": "7df6d1edfbbc60e17a40645a6cce0b6b47be9b6fce4bd144fc71b0ef9e9ddc0d",
+      "after": "53a1eb3fea67abf783a6dbc23d5df9909b35e91b029a4a4fafafa248a0b37b1b",
+      "bytes": 223278
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_112.uasset",
+      "before": "fa01a4be3f644e82c9a4c97d4bfd51874cbd387d26aed4781241dcb456197ceb",
+      "after": "ac23b10c0ef45a5a6eeb6b62a8ace70653735eb09e5798a1d8fd3fe4b7287749",
+      "bytes": 766585
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_113.uasset",
+      "before": "cace661e14b1b0735c5bcb9e1025cce329bb6d557f7361258e93eee6f2b8d74e",
+      "after": "194b533edbebdf51cdcf586f8613dd1456219aa32076583da7b11b4d945568ca",
+      "bytes": 670287
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_114.uasset",
+      "before": "182e1475325575481138260167ca1cdd35f8a132a85601bdd03b319b19f2977d",
+      "after": "a69618cd3687a596fb2d637e92fbbc4b83300cff687b8f7b7b301b446f8e61b7",
+      "bytes": 731216
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_115.uasset",
+      "before": "7ada26d8905569f8ca1cd9345e4c08f1d6e2539749c19421722c8d28cf9f48f7",
+      "after": "0909fbdad14465ce5ea97f1b726b7d7f1e8d20f17e5cf2ae65112f7d6c6f2378",
+      "bytes": 592044
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_116.uasset",
+      "before": "05c99d7ba5b0878cd5a360c7ade922341547e2ab6b11ef406b20a4560ff53957",
+      "after": "2ffa38df93dc7485e42ca7da14547cf3ddab6fdadd7af063a90e21baedc626cc",
+      "bytes": 908510
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_117.uasset",
+      "before": "f05cfe16cf7072a0b1826182e191c4dcbdfc72b9856a1fef3ae83da206fdd6c0",
+      "after": "5796e98ef5edb758d0084492718bdbc9c4c48a225c5e1f227433503b6a8a89e2",
+      "bytes": 422653
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_118.uasset",
+      "before": "89737ef8fb659c972de39cbe64facd5bab7555eac0f0eb7a1be8b638654cde46",
+      "after": "a8c33217591bd85b484c037b1f69ade889a6d2fa6040f1a66b36b1e732e1abd4",
+      "bytes": 910864
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_119.uasset",
+      "before": "b8be2792392e92f79edf1502bf794e436b2ad7ca52138ca802df5b421f0a8cc4",
+      "after": "540becf993560dc27507eb7565feec5482a4350a5363e00042a185339162f3ad",
+      "bytes": 323127
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_120.uasset",
+      "before": "45db53d9a67f6637b4c94342c8cbed0b6447d7e5582832640a0542686cfd297b",
+      "after": "d8a042a5a64596e1d0a7450b13f7abed35ea1b7ee7413f44b7a2d187a1fbef34",
+      "bytes": 902397
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_121.uasset",
+      "before": "a2674395d9cf8ea7e18863b8aa8df367d11ad80d0e8b6a2e7fc461a60d909613",
+      "after": "3b3279e4f3873c6d9232d88e09492eeadd27664b515919773a5c8afceaa13b29",
+      "bytes": 915431
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_122.uasset",
+      "before": "6253bf09a5446f8feb6461ebb6f3e98b260c71a5e414ecd9df449595ce55f597",
+      "after": "8f82227ff7d11795d3da89d100e06f7ccfa47f3de22692db816759d39bd691d0",
+      "bytes": 890661
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_123.uasset",
+      "before": "a4088075eceb994909594e5a00a4e59a93227b3510d78d15b03e1a7706a10e12",
+      "after": "49b80121c019a4c421d403fef8e78a0e6fd1a4ba6cc75f9c28196dcf3ff733f8",
+      "bytes": 365208
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_124.uasset",
+      "before": "e01b1ca752b8d46a12bb01f661edc32f4746b7da7c8ebe7c83d3c46260a34c74",
+      "after": "4204157bf032f3d42ebc9a617df29365cb5e7ccec913e7dfe7a1d9ff12ef4372",
+      "bytes": 375843
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_125.uasset",
+      "before": "04b529c05eb5266e0179b7ffd4df0b21314a8be5b00a0cbc192f5c32d938599a",
+      "after": "d4c8f21618f866a3cd0f3792c9e2b85ff55ae07ff056213fe86b95d3eae14fe8",
+      "bytes": 344834
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_126.uasset",
+      "before": "37667ec039df39ed29ecd977b7801c3a644d3a83ea352e5742e7f6fce87044ef",
+      "after": "ebe4d1eda0217710fbd28abbe8de96e775645c3ee8c145901009f85faf1392cf",
+      "bytes": 332693
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_127.uasset",
+      "before": "4492266184db678d8fd214d3b8f6f61f96509720d93a23908de3253185ceefdb",
+      "after": "b310e303a871039a1a4f431a4bd87cb9a84977b222f487b599e21939199feeb2",
+      "bytes": 329016
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_128.uasset",
+      "before": "d3530721c5052991308bf743ff5a47ae091bbab810664c19607a4f969db3f7d5",
+      "after": "0349fc16b428f9b24c4eea138af4982133376e662b524b66976a48365f5408cd",
+      "bytes": 310359
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_128_TrafficClearance.uasset",
+      "before": null,
+      "after": "fc5422700e553a334677173bc6ca0959b10f5c6475bb68eb1e1b4a825ae2daa5",
+      "bytes": 321183
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_129.uasset",
+      "before": "1ceb5ac255c21a51209035bcbdb8511f061414fbca786a317f3edf4e68e6ee3f",
+      "after": "a9f6dd1ca6d73a46bcae5504a9c060b44ee3518796429a93313c5111376f840f",
+      "bytes": 370307
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_130.uasset",
+      "before": "b2799b461bd16e8698b370d9aa4fbfe26ae84ae4aafc4e8f753ca681ff43ddcf",
+      "after": "7dc41a095d82edc312fee51164b171c6e139d98a4b006f71a1c1b3280aed8d58",
+      "bytes": 285216
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_131.uasset",
+      "before": "d972a522eb3d45b64382dc0aed3e7c6c9d5a135530b6ed0618d1d5406148f20b",
+      "after": "0235a17efec3555343dbc4a1df54bda2be472218630c603dccf6e7f42d5b5761",
+      "bytes": 294360
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_132.uasset",
+      "before": "d26597f7b1313f4544afbde1e07a2d54e8783bd524ade42afb64a4e533707ab3",
+      "after": "957dacaf0854bfa72aadb2442539bde565f2bc9251578cf0ab6135f6f24993af",
+      "bytes": 337140
+    },
+    {
+      "path": "Content/World/BogotaUrban/StreetFrontages/SM_StreetFrontage_133.uasset",
+      "before": "bf786d1928b5840d84e1582ccd422becc813458d3beb93f77a8eb3d3505478cd",
+      "after": "ab3e4c854f57a530334b147d52f5f90b8b4c7790cb1eb43adf43d63ebc0f0528",
+      "bytes": 349465
+    },
+    {
+      "path": "Continuacion/CONTINUAR_EN_OTRO_PC.md",
+      "before": "6ed8718e7c604830e15c09c5734b83334b0d5dc872e79e4c0a5e9ee56d4842cc",
+      "after": "c72ad4bc55adeca5aa796db077f421411096ee0a6f4d29ce7cc9e1dc44a3219e",
+      "bytes": 17577
+    },
+    {
+      "path": "Continuacion/CONTINUAR_PC_PRINCIPAL_2026-10-26.md",
+      "before": null,
+      "after": "241efd1e4e97bccef7be01588867b6150d931afbc4b385cb022a1a83727f384f",
+      "bytes": 9398
+    },
+    {
+      "path": "Continuacion/ESTADO_2026-10-24.md",
+      "before": null,
+      "after": "b8054898e669a3731352b51c0187e8b2c5a94c2f1ca82f313afab864990095c7",
+      "bytes": 1465
+    },
+    {
+      "path": "Continuacion/OPTIMIZACION_2026-10-25.md",
+      "before": null,
+      "after": "ab30e8483607716463f6eef962fc18798e3e62a519f402764313708cbf8bffcd",
+      "bytes": 6966
+    },
+    {
+      "path": "Continuacion/QA_2026-10-26.md",
+      "before": null,
+      "after": "e65a741e163db6f79e4e0d10e8bac5cb336a9011d8bfb2b089f5690858d1b9dd",
+      "bytes": 4431
+    }
+  ]
+}

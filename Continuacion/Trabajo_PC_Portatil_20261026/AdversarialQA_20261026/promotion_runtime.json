@@ -1,0 +1,30 @@
+[
+  {
+    "path": "C:\\Users\\Cristian\\Downloads\\BogotaVoxel_test_Michaelxd_2026-10-23\\isolated_repair\\ModulelessRuntime\\Content\\Delivery\\BlueprintGameplay\\BPC_DeliveryDataCore.uasset",
+    "sha256": "4c02274f6b0c557a3228a18bb0e062b7ab70fbb0ea25df675a80952da944d6f2"
+  },
+  {
+    "path": "C:\\Users\\Cristian\\Downloads\\BogotaVoxel_test_Michaelxd_2026-10-23\\isolated_repair\\ModulelessRuntime\\Content\\Delivery\\BlueprintGameplay\\People\\BP_DeliveryRecipient.uasset",
+    "sha256": "9bb1df19a31c3b7ae4765a8a8f8cd0618f2f3ea3e29bb598468845fb989c0d39"
+  },
+  {
+    "path": "C:\\Users\\Cristian\\Downloads\\BogotaVoxel_test_Michaelxd_2026-10-23\\isolated_repair\\ModulelessRuntime\\Content\\Delivery\\BlueprintGameplay\\UI\\WBP_BlueprintPhone.uasset",
+    "sha256": "06fd3187fc52c60e244fd67900eb7776a9786cb8f2af2d7bd129a0b09bb3b7ad"
+  },
+  {
+    "path": "C:\\Users\\Cristian\\Downloads\\BogotaVoxel_test_Michaelxd_2026-10-23\\isolated_repair\\ModulelessRuntime\\Content\\QA\\BP_CPUIsolation.uasset",
+    "sha256": "23bc4f16bab671c2c60fbd76f00ba6e7e1fd5ba8c840abe23236555bd8b27e21"
+  },
+  {
+    "path": "C:\\Users\\Cristian\\Downloads\\BogotaVoxel_test_Michaelxd_2026-10-23\\isolated_repair\\ModulelessRuntime\\Content\\QA\\CPUIsolation.umap",
+    "sha256": "f562a4f7992d1d742725f1c4fae7387081dfffd606ad15be6ee89b2aa7b484e8"
+  },
+  {
+    "path": "C:\\Users\\Cristian\\Downloads\\BogotaVoxel_test_Michaelxd_2026-10-23\\isolated_repair\\ModulelessRuntime\\Content\\QA\\BP_TestPurePhoneRuntime.uasset",
+    "sha256": "adbc9afd6c44265f37be564a087aa08055e29a788098eea3cbf0363e762732f6"
+  },
+  {
+    "path": "C:\\Users\\Cristian\\Downloads\\BogotaVoxel_test_Michaelxd_2026-10-23\\isolated_repair\\ModulelessRuntime\\Content\\QA\\PurePhoneRuntime.umap",
+    "sha256": "fb1dc173e6d78bbc6ad2c059c99cc9487d88aff8d6985428074eaf11d50bce66"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "function": "ActionPressed",
+    "nodes": 12,
+    "links": 17
+  },
+  {
+    "function": "KeyboardActionPressed",
+    "nodes": 17,
+    "links": 27
+  },
+  {
+    "function": "SkipTime",
+    "nodes": 6,
+    "links": 7
+  },
+  {
+    "function": "TogglePause",
+    "nodes": 11,
+    "links": 13
+  },
+  {
+    "function": "ToggleQuality",
+    "nodes": 13,
+    "links": 16
+  }
+]

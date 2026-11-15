@@ -1,14 +1,12 @@
-BOGOTA VOXEL - PROYECTO PARA OTRO PC
+BOGOTAVOXEL - TRASLADO AL PC PRINCIPAL - 26/10/2026
 
-1. Instala Unreal Engine 5.8 para Windows de 64 bits desde Epic Games Launcher.
-2. Extrae la carpeta BogotaVoxel completa del RAR a una carpeta local.
-3. Abre BogotaVoxel.uproject o Abrir_Proyecto.bat.
-4. Espera la preparaciÃ³n inicial de sombreadores y pulsa Play.
+Extraer TODO el RAR a una carpeta local. Instalar Unreal Engine 5.8.4 Windows64.
+Abrir BogotaVoxel.uproject o Abrir_Proyecto.bat. Esperar shaders y pulsar Play.
+Mapa: /Game/Maps/MapaCompleto_Integration. F10: opciones graficas.
 
-El mapa inicial es /Game/Maps/MapaCompleto_Integration.
-El proyecto usa Blueprints y no necesita compilar un mÃ³dulo C++ propio.
-Los recursos estÃ¡n dentro de Content; conserva toda esa carpeta.
-Fuentes_Blender contiene el mapa editable y los datos de las calles.
-No abras el proyecto directamente desde el RAR.
-
-ESTADO DE DESARROLLO PAUSADO: el tráfico aún acumula colas. Leer Continuacion/CONTINUAR_EN_OTRO_PC.md.
+LEER Continuacion/CONTINUAR_PC_PRINCIPAL_2026-10-26.md.
+Ese documento reemplaza las instrucciones antiguas de estado.
+Es un proyecto editable. Incluye recursos, fuentes, herramientas y evidencias.
+El motor se instala por separado; las caches se regeneran.
+Trafico y 60 FPS siguen pendientes; no es una version terminada.
+Conservar Content completo. No abrir el proyecto dentro del RAR.

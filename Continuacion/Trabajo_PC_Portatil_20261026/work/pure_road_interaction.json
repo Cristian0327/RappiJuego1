@@ -1,0 +1,1 @@
+{"status": "COMPILED_PENDING_RUNTIME", "map_scope": "STAGING_ONLY", "entry_exit_seconds": 1.8, "controls": "WASD + mouse", "developer_only_any_car": true, "capsule_exit_safety": true, "remaining": ["Runtime interaction validation", "Road traffic leader release", "Visible pose fit", "Final promotion"]}

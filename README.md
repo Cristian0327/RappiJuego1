@@ -1,8 +1,8 @@
-> Estado de desarrollo pausado (test / Michaelxd). Las calles y los pedidos tienen pruebas aprobadas; el trafico sigue pendiente. Leer [el informe de continuacion](Continuacion/CONTINUAR_EN_OTRO_PC.md).
+> Entrega actual: 26 de octubre de 2026. Leer [el estado vigente para el PC principal](Continuacion/CONTINUAR_PC_PRINCIPAL_2026-10-26.md). Los informes antiguos son históricos; el tráfico y los 60 FPS siguen pendientes.
 
 # Bogotá Voxel — proyecto editable de Unreal
 
-Abre **BogotaVoxel.uproject** con Unreal Engine **5.8.3** y pulsa **Play**. El mapa inicial es `/Game/Maps/Bogota_Blueprint_Integration`.
+Abre **BogotaVoxel.uproject** con Unreal Engine **5.8 para Windows de 64 bits** y pulsa **Play**. El mapa inicial es `/Game/Maps/MapaCompleto_Integration`.
 
 La lógica del proyecto funciona con Blueprints y componentes de Unreal. No requiere compilar módulos C++ ni instalar Visual Studio. Unreal prepara sus cachés y shaders al abrirlo por primera vez.
 

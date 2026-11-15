@@ -1,0 +1,35 @@
+{
+  "status": "IMPLEMENTED_AND_TESTED",
+  "date": "2026-10-19",
+  "request": "Rebuild WASD and camera as standard third-person controls",
+  "foot": "WASD relative to CURRENT camera yaw on every axis event; native normalized diagonal speed; body faces movement with540deg/s turn; mouse orbit does not turn idle body",
+  "vehicles": "W/S throttle/brake/reverse; A/D steering; mouse free look; camera softly recenters behind vehicle after1.5sec without look input while driving",
+  "camera_framing": "Previous restored composition retained; spring arm follows controller yaw/pitch, excludes roll and rotational lag",
+  "removed_behavior": "Cached input direction InputBasisYaw/InputBasisValid no longer used",
+  "walk_cm_s": 140,
+  "sprint_cm_s": 650,
+  "checks": {
+    "W_FOLLOWS_CAMERA_ZERO": true,
+    "BODY_FACES_MOVEMENT": true,
+    "HELD_W_FOLLOWS_NEW_CAMERA_YAW": true,
+    "LOOK_ALONE_DOES_NOT_TURN_BODY": true,
+    "S_BACKWARD_IGNORES_CAMERA_PITCH": true,
+    "A_IS_CAMERA_LEFT": true,
+    "D_IS_CAMERA_RIGHT": true,
+    "DIAGONAL_HAS_SAME_WALK_SPEED": true,
+    "SPRINT_650_MIXAMO_PRESERVED": true,
+    "MOUNTING_PRESERVED": true,
+    "VEHICLE_MOUSE_LOOK_DOES_NOT_STEER": true,
+    "VEHICLE_FREE_LOOK_HAS_DELAY": true,
+    "KEYBOARD_STEERS_VEHICLE": true,
+    "VEHICLE_CAMERA_SOFT_RECENTERS": true
+  },
+  "runtime_log": "work/StandardControlsRuntime.log",
+  "sources": [
+    "rebuild_standard_third_person_controls.py",
+    "build_standard_controls_qa.py"
+  ],
+  "runtime_cpp": false,
+  "github_untouched": true,
+  "validation_scope": "14 focused actual-game regressions; no new FPS benchmark or exhaustive world audit"
+}

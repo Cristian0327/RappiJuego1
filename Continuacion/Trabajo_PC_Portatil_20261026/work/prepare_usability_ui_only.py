@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('work/fix_confirmed_usability.py');s=p.read_text(encoding='utf-8-sig');s='from pathlib import Path\nr=Path("outputs/BogotaVoxel/Source/BogotaVoxel")\n'+s[s.index("p=r/'DeliveryUI.cpp'"):];s=s.replace('p.read_text()','p.read_text(encoding="utf-8-sig")').replace('p.write_text(s)','p.write_text(s,encoding="utf-8")');Path('work/fix_usability_ui_only.py').write_text(s,encoding='utf-8')

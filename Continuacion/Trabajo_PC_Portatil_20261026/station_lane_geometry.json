@@ -1,0 +1,368 @@
+[
+  {
+    "station": "BP_BogotaTransmiStation_C_0",
+    "compact": false,
+    "lanes": [
+      {
+        "lane": 0,
+        "distance_cm": 4293.45,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 1,
+        "distance_cm": 6093.12,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 2,
+        "distance_cm": 707.62,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 3,
+        "distance_cm": 710.19,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 4,
+        "distance_cm": 4293.45,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 5,
+        "distance_cm": 6093.12,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 6,
+        "distance_cm": 258.66,
+        "sphere70_near_segments": []
+      }
+    ]
+  },
+  {
+    "station": "BP_BogotaTransmiStation_C_1",
+    "compact": false,
+    "lanes": [
+      {
+        "lane": 0,
+        "distance_cm": 714.22,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 1,
+        "distance_cm": 719.23,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 2,
+        "distance_cm": 714.22,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 3,
+        "distance_cm": 719.23,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 4,
+        "distance_cm": 714.22,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 5,
+        "distance_cm": 719.23,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 6,
+        "distance_cm": 262.25,
+        "sphere70_near_segments": []
+      }
+    ]
+  },
+  {
+    "station": "BP_BogotaTransmiStation_C_2",
+    "compact": false,
+    "lanes": [
+      {
+        "lane": 0,
+        "distance_cm": 0.0,
+        "sphere70_near_segments": [
+          211,
+          212,
+          213
+        ]
+      },
+      {
+        "lane": 1,
+        "distance_cm": 0.0,
+        "sphere70_near_segments": [
+          662,
+          663,
+          664
+        ]
+      },
+      {
+        "lane": 2,
+        "distance_cm": 7758.17,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 3,
+        "distance_cm": 9558.1,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 4,
+        "distance_cm": 0.0,
+        "sphere70_near_segments": [
+          211,
+          212,
+          213
+        ]
+      },
+      {
+        "lane": 5,
+        "distance_cm": 0.0,
+        "sphere70_near_segments": [
+          662,
+          663,
+          664
+        ]
+      },
+      {
+        "lane": 6,
+        "distance_cm": 0.0,
+        "sphere70_near_segments": [
+          210,
+          211,
+          212
+        ]
+      }
+    ]
+  },
+  {
+    "station": "BP_BogotaTransmiStation_C_2",
+    "compact": true,
+    "lanes": [
+      {
+        "lane": 0,
+        "distance_cm": 519.73,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 1,
+        "distance_cm": 452.31,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 2,
+        "distance_cm": 8920.67,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 3,
+        "distance_cm": 10720.57,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 4,
+        "distance_cm": 519.73,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 5,
+        "distance_cm": 452.31,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 6,
+        "distance_cm": 189.87,
+        "sphere70_near_segments": []
+      }
+    ]
+  },
+  {
+    "station": "BP_BogotaTransmiStation_C_3",
+    "compact": false,
+    "lanes": [
+      {
+        "lane": 0,
+        "distance_cm": 718.3,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 1,
+        "distance_cm": 659.74,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 2,
+        "distance_cm": 718.3,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 3,
+        "distance_cm": 659.74,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 4,
+        "distance_cm": 718.3,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 5,
+        "distance_cm": 659.74,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 6,
+        "distance_cm": 269.25,
+        "sphere70_near_segments": []
+      }
+    ]
+  },
+  {
+    "station": "BP_BogotaTransmiStation_C_4",
+    "compact": false,
+    "lanes": [
+      {
+        "lane": 0,
+        "distance_cm": 706.67,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 1,
+        "distance_cm": 0.0,
+        "sphere70_near_segments": [
+          326,
+          327,
+          328,
+          329,
+          330
+        ]
+      },
+      {
+        "lane": 2,
+        "distance_cm": 706.67,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 3,
+        "distance_cm": 0.0,
+        "sphere70_near_segments": [
+          499,
+          500,
+          501,
+          502,
+          503
+        ]
+      },
+      {
+        "lane": 4,
+        "distance_cm": 706.67,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 5,
+        "distance_cm": 0.0,
+        "sphere70_near_segments": [
+          326,
+          327,
+          328,
+          329,
+          330
+        ]
+      },
+      {
+        "lane": 6,
+        "distance_cm": 261.06,
+        "sphere70_near_segments": []
+      }
+    ]
+  },
+  {
+    "station": "BP_BogotaTransmiStation_C_5",
+    "compact": false,
+    "lanes": [
+      {
+        "lane": 0,
+        "distance_cm": 719.1,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 1,
+        "distance_cm": 698.97,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 2,
+        "distance_cm": 719.1,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 3,
+        "distance_cm": 698.97,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 4,
+        "distance_cm": 719.1,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 5,
+        "distance_cm": 698.97,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 6,
+        "distance_cm": 269.25,
+        "sphere70_near_segments": []
+      }
+    ]
+  },
+  {
+    "station": "BP_BogotaTransmiStation_C_6",
+    "compact": false,
+    "lanes": [
+      {
+        "lane": 0,
+        "distance_cm": 6808.88,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 1,
+        "distance_cm": 8608.88,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 2,
+        "distance_cm": 622.7,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 3,
+        "distance_cm": 546.57,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 4,
+        "distance_cm": 6808.88,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 5,
+        "distance_cm": 8608.88,
+        "sphere70_near_segments": []
+      },
+      {
+        "lane": 6,
+        "distance_cm": 169.12,
+        "sphere70_near_segments": []
+      }
+    ]
+  }
+]

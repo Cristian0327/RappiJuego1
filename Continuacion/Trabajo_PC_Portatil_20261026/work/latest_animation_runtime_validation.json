@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "runtime": [
+    {
+      "log": "work/StandingAnimationRegressionQA.log",
+      "passed": 34
+    },
+    {
+      "log": "work/PureStoreRuntimeQA.log",
+      "passed": 5
+    }
+  ],
+  "boost_vm_checks": 37,
+  "imported_pose_clips_checked": 18,
+  "elderly_cane_sha256": "1742c809c0799c7abc0b7167d415febafb2dd6290787335d39536e9bccfc461e",
+  "full_blueprint_migration_complete": false
+}

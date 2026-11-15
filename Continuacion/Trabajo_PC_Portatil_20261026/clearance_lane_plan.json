@@ -1,0 +1,32 @@
+[
+  {
+    "lane": 0,
+    "changed_points": 82,
+    "max_offset_cm": 950,
+    "max_step_cm": 150
+  },
+  {
+    "lane": 1,
+    "changed_points": 88,
+    "max_offset_cm": 900,
+    "max_step_cm": 150
+  },
+  {
+    "lane": 2,
+    "changed_points": 54,
+    "max_offset_cm": 950,
+    "max_step_cm": 150
+  },
+  {
+    "lane": 3,
+    "changed_points": 78,
+    "max_offset_cm": 1050,
+    "max_step_cm": 150
+  },
+  {
+    "lane": 6,
+    "changed_points": 68,
+    "max_offset_cm": 650,
+    "max_step_cm": 150
+  }
+]

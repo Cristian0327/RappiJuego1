@@ -1,0 +1,73 @@
+[
+  {
+    "test": "full_pickup_checkout_delivery_lifecycle",
+    "status": "PASS",
+    "checks": [
+      "PickupMarkerVisible",
+      "PickupMarkerReplaced",
+      "WrongOrderNotCollected",
+      "PhoneBlocksCollect",
+      "MountedBlocksShopCollect",
+      "CollectProduct0",
+      "Basket0",
+      "StillPickup0",
+      "CollectProduct1",
+      "Basket1",
+      "StillPickup1",
+      "CollectProduct2",
+      "Basket2",
+      "StillPickup2",
+      "ReadyAtCheckout",
+      "CheckoutSuccess",
+      "StateDropoff",
+      "Paid",
+      "BudgetSpent",
+      "GoodsRecorded",
+      "PureRecipient",
+      "ClientMeshPresent",
+      "ClientWrongOrderRejected",
+      "ClientTooFarRejected",
+      "ClientAllowsDelivery",
+      "WrongIDNoPay",
+      "PaidRewardOnce",
+      "NoActiveOrders",
+      "IdleAfterDelivery",
+      "DoublePaymentBlocked",
+      "BalanceUnchangedAfterDuplicate",
+      "MarkersCleared",
+      "NoNative_BPC_DeliveryDataCore",
+      "NoNative_BP_DeliveryRecipient"
+    ]
+  },
+  {
+    "test": "deliver_before_pickup",
+    "status": "PASS",
+    "returned": false,
+    "balance_before": 7000,
+    "balance_after": 7000
+  },
+  {
+    "test": "recipient_rejects_unpaid_delivery",
+    "status": "PASS",
+    "returned": false
+  },
+  {
+    "test": "deliver_without_payment",
+    "status": "PASS",
+    "returned": false,
+    "balance_before": 7000,
+    "balance_after": 7000
+  },
+  {
+    "test": "deliver_wrong_location",
+    "status": "PASS",
+    "returned": false,
+    "balance_before": 7000,
+    "balance_after": 7000
+  },
+  {
+    "test": "100_invalid_id_sequences",
+    "status": "PASS",
+    "rejected": 100
+  }
+]

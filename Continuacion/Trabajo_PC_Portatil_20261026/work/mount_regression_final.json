@@ -1,0 +1,14 @@
+{
+  "status": "BLUEPRINT_COMPILED_RUNTIME_CHECKS_PASS",
+  "scope": "Hero bicycle/motorcycle transition regression",
+  "entry": "Restored original approach curve clamp(progress/.3); .68s duration; original animation and side selection preserved",
+  "exit": "Separate late smoothstep translation over normalized .35-.95; .85s duration; reverse clip and validated exit location preserved",
+  "runtime_checks": 22,
+  "runtime_errors": [],
+  "visual_scope": "Runtime state and side checks passed; these do not establish visual clearance for every camera/obstacle configuration",
+  "evidence": [
+    "work/MountRegressionPatch.log",
+    "work/MountRegressionRuntime.log"
+  ],
+  "runtime_cpp_added": false
+}

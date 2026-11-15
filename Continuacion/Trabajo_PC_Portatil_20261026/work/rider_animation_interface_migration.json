@@ -1,0 +1,19 @@
+{
+  "status": "INTEGRATED",
+  "interface": "/Game/Delivery/Animation/BPI_RiderAnimationState",
+  "animation_native_dependencies": [],
+  "dependencies": [
+    "/Script/AnimGraph",
+    "/Script/AnimGraphRuntime",
+    "/Game/VoxelExplorer/SK_VoxelExplorer_Skeleton",
+    "/Game/VoxelExplorer/AN_Idle",
+    "/Game/VoxelExplorer/AN_BikePedal",
+    "/Game/VoxelExplorer/AN_MixamoJump",
+    "/Game/VoxelExplorer/AN_MixamoWalk",
+    "/Game/VoxelExplorer/AN_MotoRide",
+    "/Game/Delivery/Animation/BPI_RiderAnimationState"
+  ],
+  "interface_vm_cases": 3,
+  "runtime_regression_passed": 18,
+  "rider_native_base_still_pending": true
+}

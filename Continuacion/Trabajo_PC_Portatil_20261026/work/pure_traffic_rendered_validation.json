@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": {
+    "100_VEHICLES": "true",
+    "CARS_MOVE_CONTINUOUSLY": "true",
+    "AVERAGE_30_FPS": "true"
+  },
+  "log": "work/PureTrafficStreetRenderedQA.log",
+  "reviewed_image": "work/PureTrafficVisualQA/TRAFFIC00001.png",
+  "scope": "100 vehicles running on city geometry with street-facing camera at1280x720; first sky-only camera run excluded. Pedestrians, signals and rain combined stress test not yet done."
+}

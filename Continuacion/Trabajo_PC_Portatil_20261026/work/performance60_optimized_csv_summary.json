@@ -1,0 +1,18 @@
+{
+  "csv": "C:\\Users\\CRISTIAN\\OneDrive\\Desktop\\BogotaVoxel_JuegoCompleto\\work\\Performance60User\\Saved\\Profiling\\CSV\\Profile(20261019_134438).csv",
+  "sample_frames": 496,
+  "mean_ms": 15.09784314516129,
+  "mean_fps": 66.23462638903426,
+  "p95_ms": 28.4332,
+  "p99_ms": 34.0433,
+  "worst_ms": 36.3014,
+  "frames_over_16_667ms": 129,
+  "stats": {
+    "FrameTime": 15.09784314516129,
+    "GameThreadTime": 15.09502943548388,
+    "GPUTime": 2.8300199596774185,
+    "RenderThreadTime": 4.6006312500000055,
+    "Exclusive/GameThread/TickActors": 7.4089012096774205,
+    "Ticks/CharacterMovementComponent": 52.09475806451613
+  }
+}

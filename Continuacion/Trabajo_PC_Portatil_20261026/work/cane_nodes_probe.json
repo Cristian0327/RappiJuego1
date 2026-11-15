@@ -1,0 +1,44 @@
+[
+  {
+    "path": "/Game/Delivery/Animation/ABP_StreetCane.ABP_StreetCane:AnimGraph.AnimGraphNode_SequencePlayer_0",
+    "node_pos_y": "AnimGraphNode_SequencePlayer: Failed to find property 'node_pos_y' for attribute 'node_pos_y' on 'AnimGraphNode_SequencePlayer'",
+    "node": "<Struct 'AnimNode_SequencePlayer' (0x0000020FBC1161D0) {blend_weight: 0.000000, internal_time_accumulator: 0.000000}>",
+    "play_rate": "1.0",
+    "sequence": "<Object '/Game/Crowd/AN_CrowdCane.AN_CrowdCane' (0x00000210123B6900) Class 'AnimSequence'>"
+  },
+  {
+    "path": "/Game/Delivery/Animation/ABP_StreetCane.ABP_StreetCane:AnimGraph.AnimGraphNode_SequencePlayer_1",
+    "node_pos_y": "AnimGraphNode_SequencePlayer: Failed to find property 'node_pos_y' for attribute 'node_pos_y' on 'AnimGraphNode_SequencePlayer'",
+    "node": "<Struct 'AnimNode_SequencePlayer' (0x0000020FBC1166D0) {blend_weight: 0.000000, internal_time_accumulator: 0.000000}>",
+    "play_rate": "1.0",
+    "sequence": "<Object '/Game/Crowd/AN_CrowdCane.AN_CrowdCane' (0x00000210123B6900) Class 'AnimSequence'>"
+  },
+  {
+    "path": "/Game/Delivery/Animation/ABP_StreetCane.ABP_StreetCane:AnimGraph.AnimGraphNode_SequencePlayer_2",
+    "node_pos_y": "AnimGraphNode_SequencePlayer: Failed to find property 'node_pos_y' for attribute 'node_pos_y' on 'AnimGraphNode_SequencePlayer'",
+    "node": "<Struct 'AnimNode_SequencePlayer' (0x0000020FBC116BD0) {blend_weight: 0.000000, internal_time_accumulator: 0.000000}>",
+    "play_rate": "1.0",
+    "sequence": "<Object '/Game/Crowd/AN_CrowdCane.AN_CrowdCane' (0x00000210123B6900) Class 'AnimSequence'>"
+  },
+  {
+    "path": "/Game/Delivery/Animation/ABP_StreetCane.ABP_StreetCane:ExecuteUbergraph_ABP_StreetCane.AnimGraphNode_SequencePlayer_0",
+    "node_pos_y": "AnimGraphNode_SequencePlayer: Failed to find property 'node_pos_y' for attribute 'node_pos_y' on 'AnimGraphNode_SequencePlayer'",
+    "node": "<Struct 'AnimNode_SequencePlayer' (0x00000210126AD4D0) {blend_weight: 0.000000, internal_time_accumulator: 0.000000}>",
+    "play_rate": "1.0",
+    "sequence": "<Object '/Game/Crowd/AN_CrowdCane.AN_CrowdCane' (0x00000210123B6900) Class 'AnimSequence'>"
+  },
+  {
+    "path": "/Game/Delivery/Animation/ABP_StreetCane.ABP_StreetCane:ExecuteUbergraph_ABP_StreetCane.AnimGraphNode_SequencePlayer_1",
+    "node_pos_y": "AnimGraphNode_SequencePlayer: Failed to find property 'node_pos_y' for attribute 'node_pos_y' on 'AnimGraphNode_SequencePlayer'",
+    "node": "<Struct 'AnimNode_SequencePlayer' (0x00000210126AE3D0) {blend_weight: 0.000000, internal_time_accumulator: 0.000000}>",
+    "play_rate": "1.0",
+    "sequence": "<Object '/Game/Crowd/AN_CrowdCane.AN_CrowdCane' (0x00000210123B6900) Class 'AnimSequence'>"
+  },
+  {
+    "path": "/Game/Delivery/Animation/ABP_StreetCane.ABP_StreetCane:ExecuteUbergraph_ABP_StreetCane.AnimGraphNode_SequencePlayer_2",
+    "node_pos_y": "AnimGraphNode_SequencePlayer: Failed to find property 'node_pos_y' for attribute 'node_pos_y' on 'AnimGraphNode_SequencePlayer'",
+    "node": "<Struct 'AnimNode_SequencePlayer' (0x00000210126AE8D0) {blend_weight: 0.000000, internal_time_accumulator: 0.000000}>",
+    "play_rate": "1.0",
+    "sequence": "<Object '/Game/Crowd/AN_CrowdCane.AN_CrowdCane' (0x00000210123B6900) Class 'AnimSequence'>"
+  }
+]

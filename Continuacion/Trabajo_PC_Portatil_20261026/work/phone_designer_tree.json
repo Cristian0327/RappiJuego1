@@ -1,0 +1,5363 @@
+{
+  "root": "Root",
+  "widgets": [
+    {
+      "name": "Root",
+      "class": "/Script/UMG.CanvasPanel",
+      "parent": null,
+      "depth": 0
+    },
+    {
+      "name": "PhoneShade",
+      "class": "/Script/UMG.Border",
+      "parent": "Root",
+      "depth": 1,
+      "slot": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "PhoneArt",
+      "class": "/Script/UMG.Image",
+      "parent": "Root",
+      "depth": 1,
+      "slot": {
+        "position": [
+          20.0,
+          20.0
+        ],
+        "size": [
+          420.0,
+          680.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Frame",
+      "class": "/Script/UMG.Border",
+      "parent": "Root",
+      "depth": 1,
+      "slot": {
+        "position": [
+          20.0,
+          20.0
+        ],
+        "size": [
+          420.0,
+          680.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Notice",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "Root",
+      "depth": 1,
+      "text": "",
+      "slot": {
+        "position": [
+          28.0,
+          28.0
+        ],
+        "size": [
+          620.0,
+          90.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "PhoneHints",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "Root",
+      "depth": 1,
+      "text": "E / A / X: aceptar · Cruceta: elegir · TAB: cerrar\n1 Mapa · 2 Pedidos · 3 Taller · 4 Maletas · 5 Garaje",
+      "slot": {
+        "position": [
+          12.0,
+          -62.0
+        ],
+        "size": [
+          12.0,
+          58.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "EnergyText",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "Root",
+      "depth": 1,
+      "text": "",
+      "slot": {
+        "position": [
+          28.0,
+          135.0
+        ],
+        "size": [
+          350.0,
+          26.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "EnergyBar",
+      "class": "/Script/UMG.ProgressBar",
+      "parent": "Root",
+      "depth": 1,
+      "slot": {
+        "position": [
+          28.0,
+          165.0
+        ],
+        "size": [
+          220.0,
+          8.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HoldBar",
+      "class": "/Script/UMG.ProgressBar",
+      "parent": "Root",
+      "depth": 1,
+      "slot": {
+        "position": [
+          28.0,
+          187.0
+        ],
+        "size": [
+          220.0,
+          8.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Screen",
+      "class": "/Script/UMG.CanvasPanel",
+      "parent": "Frame",
+      "depth": 2
+    },
+    {
+      "name": "Border_0",
+      "class": "/Script/UMG.Border",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "MiniMap",
+      "class": "/Script/BogotaVoxel.DeliveryMapWidget",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Header",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "Screen",
+      "depth": 3,
+      "text": "RUTA BOG",
+      "slot": {
+        "position": [
+          8.0,
+          6.0
+        ],
+        "size": [
+          322.0,
+          24.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Details",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "Screen",
+      "depth": 3,
+      "text": "",
+      "slot": {
+        "position": [
+          8.0,
+          84.0
+        ],
+        "size": [
+          356.0,
+          58.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "PageTitle",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "Screen",
+      "depth": 3,
+      "text": "",
+      "slot": {
+        "position": [
+          8.0,
+          36.0
+        ],
+        "size": [
+          350.0,
+          42.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "DesignerHome",
+      "class": "/Script/UMG.CanvasPanel",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          0.0,
+          35.0
+        ],
+        "size": [
+          372.0,
+          506.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App1_Bike_00",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          338.0,
+          0.0
+        ],
+        "size": [
+          32.0,
+          28.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App1_Bike_01",
+      "class": "/Script/BogotaVoxel.DeliveryMapWidget",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          136.0
+        ],
+        "size": [
+          356.0,
+          350.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App1_Bike_02",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          500.0
+        ],
+        "size": [
+          356.0,
+          34.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App1_Bike_03",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App1_Bike_04",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          99.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App1_Bike_05",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App1_Bike_06",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          281.0,
+          552.0
+        ],
+        "size": [
+          83.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_00",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          338.0,
+          0.0
+        ],
+        "size": [
+          32.0,
+          28.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_01",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          75.0
+        ],
+        "size": [
+          356.0,
+          23.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_02",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          102.0
+        ],
+        "size": [
+          356.0,
+          46.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_03",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          10.0,
+          105.0
+        ],
+        "size": [
+          35.0,
+          39.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_04",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          153.0
+        ],
+        "size": [
+          356.0,
+          46.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_05",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          10.0,
+          156.0
+        ],
+        "size": [
+          35.0,
+          39.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_06",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          204.0
+        ],
+        "size": [
+          356.0,
+          46.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_07",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          10.0,
+          207.0
+        ],
+        "size": [
+          35.0,
+          39.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_08",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          255.0
+        ],
+        "size": [
+          356.0,
+          46.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_09",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          10.0,
+          258.0
+        ],
+        "size": [
+          35.0,
+          39.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_10",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          306.0
+        ],
+        "size": [
+          356.0,
+          46.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_11",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          10.0,
+          309.0
+        ],
+        "size": [
+          35.0,
+          39.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_12",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          357.0
+        ],
+        "size": [
+          356.0,
+          46.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_13",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          10.0,
+          360.0
+        ],
+        "size": [
+          35.0,
+          39.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_14",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          483.0
+        ],
+        "size": [
+          356.0,
+          37.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_15",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          523.0
+        ],
+        "size": [
+          356.0,
+          22.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_16",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_17",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          99.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_18",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Bike_19",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          281.0,
+          552.0
+        ],
+        "size": [
+          83.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_00",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          338.0,
+          0.0
+        ],
+        "size": [
+          32.0,
+          28.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_01",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          178.0,
+          40.0
+        ],
+        "size": [
+          80.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_02",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          264.0,
+          40.0
+        ],
+        "size": [
+          100.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_03",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          79.0
+        ],
+        "size": [
+          174.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_04",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          79.0
+        ],
+        "size": [
+          174.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_05",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          112.0
+        ],
+        "size": [
+          356.0,
+          176.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_06",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "Screen",
+      "depth": 3,
+      "text": "",
+      "slot": {
+        "position": [
+          8.0,
+          290.0
+        ],
+        "size": [
+          356.0,
+          25.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_07",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          320.0
+        ],
+        "size": [
+          112.0,
+          36.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_08",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          128.0,
+          320.0
+        ],
+        "size": [
+          112.0,
+          36.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_09",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          248.0,
+          320.0
+        ],
+        "size": [
+          112.0,
+          36.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_10",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          363.0
+        ],
+        "size": [
+          112.0,
+          36.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_11",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          467.0
+        ],
+        "size": [
+          222.0,
+          32.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_12",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          238.0,
+          467.0
+        ],
+        "size": [
+          126.0,
+          32.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_13",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          510.0
+        ],
+        "size": [
+          29.0,
+          26.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_14",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          43.0,
+          510.0
+        ],
+        "size": [
+          29.0,
+          26.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_15",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          78.0,
+          510.0
+        ],
+        "size": [
+          29.0,
+          26.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_16",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          113.0,
+          510.0
+        ],
+        "size": [
+          29.0,
+          26.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_17",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          148.0,
+          510.0
+        ],
+        "size": [
+          29.0,
+          26.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_18",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          183.0,
+          510.0
+        ],
+        "size": [
+          29.0,
+          26.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_19",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          224.0,
+          510.0
+        ],
+        "size": [
+          140.0,
+          26.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_20",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_21",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          99.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_22",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Bike_23",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          281.0,
+          552.0
+        ],
+        "size": [
+          83.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_00",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          338.0,
+          0.0
+        ],
+        "size": [
+          32.0,
+          28.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_01",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          178.0,
+          40.0
+        ],
+        "size": [
+          80.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_02",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          264.0,
+          40.0
+        ],
+        "size": [
+          100.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_03",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          79.0
+        ],
+        "size": [
+          174.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_04",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          79.0
+        ],
+        "size": [
+          174.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_05",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          112.0
+        ],
+        "size": [
+          356.0,
+          176.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_06",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "Screen",
+      "depth": 3,
+      "text": "",
+      "slot": {
+        "position": [
+          8.0,
+          290.0
+        ],
+        "size": [
+          356.0,
+          25.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_07",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          320.0
+        ],
+        "size": [
+          356.0,
+          44.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_08",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          371.0
+        ],
+        "size": [
+          356.0,
+          44.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_09",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          422.0
+        ],
+        "size": [
+          356.0,
+          44.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_10",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          515.0
+        ],
+        "size": [
+          224.0,
+          30.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_11",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          240.0,
+          515.0
+        ],
+        "size": [
+          124.0,
+          30.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_12",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_13",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          99.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_14",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Bike_15",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          281.0,
+          552.0
+        ],
+        "size": [
+          83.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Bike_00",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          338.0,
+          0.0
+        ],
+        "size": [
+          32.0,
+          28.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Bike_01",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          160.0
+        ],
+        "size": [
+          356.0,
+          56.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Bike_02",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          224.0
+        ],
+        "size": [
+          356.0,
+          56.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Bike_03",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          288.0
+        ],
+        "size": [
+          356.0,
+          56.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Bike_04",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          352.0
+        ],
+        "size": [
+          356.0,
+          56.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Bike_05",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          416.0
+        ],
+        "size": [
+          356.0,
+          56.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Bike_06",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          495.0
+        ],
+        "size": [
+          356.0,
+          40.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Bike_07",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Bike_08",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          99.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Bike_09",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Bike_10",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          281.0,
+          552.0
+        ],
+        "size": [
+          83.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Bike_00",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          338.0,
+          0.0
+        ],
+        "size": [
+          32.0,
+          28.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Bike_01",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          80.0
+        ],
+        "size": [
+          356.0,
+          176.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Bike_02",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          266.0
+        ],
+        "size": [
+          172.0,
+          42.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Bike_03",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          192.0,
+          266.0
+        ],
+        "size": [
+          172.0,
+          42.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Bike_04",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          317.0
+        ],
+        "size": [
+          356.0,
+          42.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Bike_05",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          480.0
+        ],
+        "size": [
+          356.0,
+          45.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Bike_06",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Bike_07",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          99.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Bike_08",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Bike_09",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          281.0,
+          552.0
+        ],
+        "size": [
+          83.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App1_Moto_00",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          338.0,
+          0.0
+        ],
+        "size": [
+          32.0,
+          28.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App1_Moto_01",
+      "class": "/Script/BogotaVoxel.DeliveryMapWidget",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          136.0
+        ],
+        "size": [
+          356.0,
+          350.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App1_Moto_02",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          500.0
+        ],
+        "size": [
+          356.0,
+          34.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App1_Moto_03",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App1_Moto_04",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          99.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App1_Moto_05",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App1_Moto_06",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          281.0,
+          552.0
+        ],
+        "size": [
+          83.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_00",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          338.0,
+          0.0
+        ],
+        "size": [
+          32.0,
+          28.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_01",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          75.0
+        ],
+        "size": [
+          356.0,
+          23.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_02",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          102.0
+        ],
+        "size": [
+          356.0,
+          46.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_03",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          10.0,
+          105.0
+        ],
+        "size": [
+          35.0,
+          39.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_04",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          153.0
+        ],
+        "size": [
+          356.0,
+          46.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_05",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          10.0,
+          156.0
+        ],
+        "size": [
+          35.0,
+          39.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_06",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          204.0
+        ],
+        "size": [
+          356.0,
+          46.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_07",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          10.0,
+          207.0
+        ],
+        "size": [
+          35.0,
+          39.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_08",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          255.0
+        ],
+        "size": [
+          356.0,
+          46.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_09",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          10.0,
+          258.0
+        ],
+        "size": [
+          35.0,
+          39.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_10",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          306.0
+        ],
+        "size": [
+          356.0,
+          46.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_11",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          10.0,
+          309.0
+        ],
+        "size": [
+          35.0,
+          39.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_12",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          357.0
+        ],
+        "size": [
+          356.0,
+          46.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_13",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          10.0,
+          360.0
+        ],
+        "size": [
+          35.0,
+          39.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_14",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          483.0
+        ],
+        "size": [
+          356.0,
+          37.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_15",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          523.0
+        ],
+        "size": [
+          356.0,
+          22.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_16",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_17",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          99.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_18",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App2_Moto_19",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          281.0,
+          552.0
+        ],
+        "size": [
+          83.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_00",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          338.0,
+          0.0
+        ],
+        "size": [
+          32.0,
+          28.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_01",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          178.0,
+          40.0
+        ],
+        "size": [
+          80.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_02",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          264.0,
+          40.0
+        ],
+        "size": [
+          100.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_03",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          79.0
+        ],
+        "size": [
+          174.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_04",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          79.0
+        ],
+        "size": [
+          174.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_05",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          112.0
+        ],
+        "size": [
+          356.0,
+          176.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_06",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "Screen",
+      "depth": 3,
+      "text": "",
+      "slot": {
+        "position": [
+          8.0,
+          290.0
+        ],
+        "size": [
+          356.0,
+          25.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_07",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          320.0
+        ],
+        "size": [
+          112.0,
+          36.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_08",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          128.0,
+          320.0
+        ],
+        "size": [
+          112.0,
+          36.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_09",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          248.0,
+          320.0
+        ],
+        "size": [
+          112.0,
+          36.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_10",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          363.0
+        ],
+        "size": [
+          112.0,
+          36.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_11",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          128.0,
+          363.0
+        ],
+        "size": [
+          112.0,
+          36.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_12",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          248.0,
+          363.0
+        ],
+        "size": [
+          112.0,
+          36.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_13",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          467.0
+        ],
+        "size": [
+          222.0,
+          32.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_14",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          238.0,
+          467.0
+        ],
+        "size": [
+          126.0,
+          32.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_15",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          510.0
+        ],
+        "size": [
+          29.0,
+          26.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_16",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          43.0,
+          510.0
+        ],
+        "size": [
+          29.0,
+          26.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_17",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          78.0,
+          510.0
+        ],
+        "size": [
+          29.0,
+          26.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_18",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          113.0,
+          510.0
+        ],
+        "size": [
+          29.0,
+          26.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_19",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          148.0,
+          510.0
+        ],
+        "size": [
+          29.0,
+          26.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_20",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          183.0,
+          510.0
+        ],
+        "size": [
+          29.0,
+          26.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_21",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          224.0,
+          510.0
+        ],
+        "size": [
+          140.0,
+          26.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_22",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_23",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          99.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_24",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App3_Moto_25",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          281.0,
+          552.0
+        ],
+        "size": [
+          83.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_00",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          338.0,
+          0.0
+        ],
+        "size": [
+          32.0,
+          28.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_01",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          178.0,
+          40.0
+        ],
+        "size": [
+          80.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_02",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          264.0,
+          40.0
+        ],
+        "size": [
+          100.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_03",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          79.0
+        ],
+        "size": [
+          174.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_04",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          79.0
+        ],
+        "size": [
+          174.0,
+          29.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_05",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          112.0
+        ],
+        "size": [
+          356.0,
+          176.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_06",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "Screen",
+      "depth": 3,
+      "text": "",
+      "slot": {
+        "position": [
+          8.0,
+          290.0
+        ],
+        "size": [
+          356.0,
+          25.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_07",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          320.0
+        ],
+        "size": [
+          356.0,
+          44.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_08",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          371.0
+        ],
+        "size": [
+          356.0,
+          44.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_09",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          422.0
+        ],
+        "size": [
+          356.0,
+          44.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_10",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          515.0
+        ],
+        "size": [
+          224.0,
+          30.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_11",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          240.0,
+          515.0
+        ],
+        "size": [
+          124.0,
+          30.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_12",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_13",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          99.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_14",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App4_Moto_15",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          281.0,
+          552.0
+        ],
+        "size": [
+          83.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Moto_00",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          338.0,
+          0.0
+        ],
+        "size": [
+          32.0,
+          28.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Moto_01",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          160.0
+        ],
+        "size": [
+          356.0,
+          56.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Moto_02",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          224.0
+        ],
+        "size": [
+          356.0,
+          56.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Moto_03",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          288.0
+        ],
+        "size": [
+          356.0,
+          56.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Moto_04",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          352.0
+        ],
+        "size": [
+          356.0,
+          56.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Moto_05",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          416.0
+        ],
+        "size": [
+          356.0,
+          56.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Moto_06",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          495.0
+        ],
+        "size": [
+          356.0,
+          40.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Moto_07",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Moto_08",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          99.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Moto_09",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App5_Moto_10",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          281.0,
+          552.0
+        ],
+        "size": [
+          83.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Moto_00",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          338.0,
+          0.0
+        ],
+        "size": [
+          32.0,
+          28.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Moto_01",
+      "class": "/Script/UMG.Image",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          80.0
+        ],
+        "size": [
+          356.0,
+          176.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Moto_02",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          266.0
+        ],
+        "size": [
+          172.0,
+          42.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Moto_03",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          192.0,
+          266.0
+        ],
+        "size": [
+          172.0,
+          42.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Moto_04",
+      "class": "/Script/BogotaVoxel.DeliveryChoiceButton",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          317.0
+        ],
+        "size": [
+          356.0,
+          42.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Moto_05",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          480.0
+        ],
+        "size": [
+          356.0,
+          45.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Moto_06",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          8.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Moto_07",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          99.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Moto_08",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          190.0,
+          552.0
+        ],
+        "size": [
+          82.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App6_Moto_09",
+      "class": "/Script/UMG.Button",
+      "parent": "Screen",
+      "depth": 3,
+      "slot": {
+        "position": [
+          281.0,
+          552.0
+        ],
+        "size": [
+          83.0,
+          33.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeWallpaper",
+      "class": "/Script/UMG.Image",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "slot": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          372.0,
+          506.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeBrand",
+      "class": "/Script/UMG.Image",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "slot": {
+        "position": [
+          18.0,
+          18.0
+        ],
+        "size": [
+          184.0,
+          92.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeTagline",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "text": "TU BARRIO. TU RUTA.",
+      "slot": {
+        "position": [
+          20.0,
+          120.0
+        ],
+        "size": [
+          332.0,
+          24.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeStatusPanel",
+      "class": "/Script/UMG.Border",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "slot": {
+        "position": [
+          16.0,
+          160.0
+        ],
+        "size": [
+          340.0,
+          60.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeStatus",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "text": "Elige tu próxima ruta",
+      "slot": {
+        "position": [
+          28.0,
+          170.0
+        ],
+        "size": [
+          316.0,
+          40.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeMap",
+      "class": "/Script/UMG.Button",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "slot": {
+        "position": [
+          18.0,
+          244.0
+        ],
+        "size": [
+          104.0,
+          88.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeMapIcon",
+      "class": "/Script/UMG.Image",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "slot": {
+        "position": [
+          42.0,
+          256.0
+        ],
+        "size": [
+          56.0,
+          60.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeMapLabel",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "text": "Mapa",
+      "slot": {
+        "position": [
+          18.0,
+          336.0
+        ],
+        "size": [
+          104.0,
+          22.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeOrders",
+      "class": "/Script/UMG.Button",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "slot": {
+        "position": [
+          134.0,
+          244.0
+        ],
+        "size": [
+          104.0,
+          88.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeOrdersIcon",
+      "class": "/Script/UMG.Image",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "slot": {
+        "position": [
+          158.0,
+          256.0
+        ],
+        "size": [
+          56.0,
+          60.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeOrdersLabel",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "text": "Pedidos",
+      "slot": {
+        "position": [
+          134.0,
+          336.0
+        ],
+        "size": [
+          104.0,
+          22.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeWorkshop",
+      "class": "/Script/UMG.Button",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "slot": {
+        "position": [
+          250.0,
+          244.0
+        ],
+        "size": [
+          104.0,
+          88.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeWorkshopIcon",
+      "class": "/Script/UMG.Image",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "slot": {
+        "position": [
+          274.0,
+          256.0
+        ],
+        "size": [
+          56.0,
+          60.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeWorkshopLabel",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "text": "Taller",
+      "slot": {
+        "position": [
+          250.0,
+          336.0
+        ],
+        "size": [
+          104.0,
+          22.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeCargo",
+      "class": "/Script/UMG.Button",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "slot": {
+        "position": [
+          76.0,
+          370.0
+        ],
+        "size": [
+          104.0,
+          88.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeCargoIcon",
+      "class": "/Script/UMG.Image",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "slot": {
+        "position": [
+          100.0,
+          382.0
+        ],
+        "size": [
+          56.0,
+          60.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeCargoLabel",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "text": "Maletas",
+      "slot": {
+        "position": [
+          76.0,
+          462.0
+        ],
+        "size": [
+          104.0,
+          22.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeVehicles",
+      "class": "/Script/UMG.Button",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "slot": {
+        "position": [
+          192.0,
+          370.0
+        ],
+        "size": [
+          104.0,
+          88.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeVehiclesIcon",
+      "class": "/Script/UMG.Image",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "slot": {
+        "position": [
+          216.0,
+          382.0
+        ],
+        "size": [
+          56.0,
+          60.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HomeVehiclesLabel",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "DesignerHome",
+      "depth": 4,
+      "text": "Garaje",
+      "slot": {
+        "position": [
+          192.0,
+          462.0
+        ],
+        "size": [
+          104.0,
+          22.0
+        ],
+        "alignment": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "App1_Bike_00Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App1_Bike_00",
+      "depth": 4,
+      "text": "X"
+    },
+    {
+      "name": "App1_Bike_02Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App1_Bike_02",
+      "depth": 4,
+      "text": "QUITAR MI MARCA"
+    },
+    {
+      "name": "App1_Bike_03Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App1_Bike_03",
+      "depth": 4,
+      "text": "CASA"
+    },
+    {
+      "name": "App1_Bike_04Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App1_Bike_04",
+      "depth": 4,
+      "text": "MAPA"
+    },
+    {
+      "name": "App1_Bike_05Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App1_Bike_05",
+      "depth": 4,
+      "text": "PEDIDOS"
+    },
+    {
+      "name": "App1_Bike_06Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App1_Bike_06",
+      "depth": 4,
+      "text": "TALLER"
+    },
+    {
+      "name": "App2_Bike_00Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Bike_00",
+      "depth": 4,
+      "text": "X"
+    },
+    {
+      "name": "App2_Bike_01Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Bike_01",
+      "depth": 4,
+      "text": "MIS ENTREGAS / CAPACIDAD"
+    },
+    {
+      "name": "App2_Bike_02Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Bike_02",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App2_Bike_04Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Bike_04",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App2_Bike_06Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Bike_06",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App2_Bike_08Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Bike_08",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App2_Bike_10Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Bike_10",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App2_Bike_12Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Bike_12",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App2_Bike_14Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Bike_14",
+      "depth": 4,
+      "text": "MANTÉN PARA TOMAR LA RUTA"
+    },
+    {
+      "name": "App2_Bike_15Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Bike_15",
+      "depth": 4,
+      "text": "PASAR ESTA OFERTA"
+    },
+    {
+      "name": "App2_Bike_16Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Bike_16",
+      "depth": 4,
+      "text": "CASA"
+    },
+    {
+      "name": "App2_Bike_17Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Bike_17",
+      "depth": 4,
+      "text": "MAPA"
+    },
+    {
+      "name": "App2_Bike_18Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Bike_18",
+      "depth": 4,
+      "text": "PEDIDOS"
+    },
+    {
+      "name": "App2_Bike_19Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Bike_19",
+      "depth": 4,
+      "text": "TALLER"
+    },
+    {
+      "name": "App3_Bike_00Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_00",
+      "depth": 4,
+      "text": "X"
+    },
+    {
+      "name": "App3_Bike_01Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_01",
+      "depth": 4,
+      "text": "MALETAS"
+    },
+    {
+      "name": "App3_Bike_02Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_02",
+      "depth": 4,
+      "text": "VEHÍCULOS"
+    },
+    {
+      "name": "App3_Bike_03Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_03",
+      "depth": 4,
+      "text": "CICLAS"
+    },
+    {
+      "name": "App3_Bike_04Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_04",
+      "depth": 4,
+      "text": "MOTOS"
+    },
+    {
+      "name": "App3_Bike_07Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_07",
+      "depth": 4,
+      "text": "01 PEDALES"
+    },
+    {
+      "name": "App3_Bike_08Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_08",
+      "depth": 4,
+      "text": "02 MARCO"
+    },
+    {
+      "name": "App3_Bike_09Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_09",
+      "depth": 4,
+      "text": "03 DISCOS"
+    },
+    {
+      "name": "App3_Bike_10Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_10",
+      "depth": 4,
+      "text": "04 MOTOR"
+    },
+    {
+      "name": "App3_Bike_11Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_11",
+      "depth": 4,
+      "text": "INSTALAR PIEZA"
+    },
+    {
+      "name": "App3_Bike_12Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_12",
+      "depth": 4,
+      "text": "USAR"
+    },
+    {
+      "name": "App3_Bike_13Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_13",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App3_Bike_14Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_14",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App3_Bike_15Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_15",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App3_Bike_16Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_16",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App3_Bike_17Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_17",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App3_Bike_18Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_18",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App3_Bike_19Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_19",
+      "depth": 4,
+      "text": "PINTAR $2.000"
+    },
+    {
+      "name": "App3_Bike_20Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_20",
+      "depth": 4,
+      "text": "CASA"
+    },
+    {
+      "name": "App3_Bike_21Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_21",
+      "depth": 4,
+      "text": "MAPA"
+    },
+    {
+      "name": "App3_Bike_22Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_22",
+      "depth": 4,
+      "text": "PEDIDOS"
+    },
+    {
+      "name": "App3_Bike_23Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Bike_23",
+      "depth": 4,
+      "text": "TALLER"
+    },
+    {
+      "name": "App4_Bike_00Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Bike_00",
+      "depth": 4,
+      "text": "X"
+    },
+    {
+      "name": "App4_Bike_01Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Bike_01",
+      "depth": 4,
+      "text": "MALETAS"
+    },
+    {
+      "name": "App4_Bike_02Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Bike_02",
+      "depth": 4,
+      "text": "PIEZAS"
+    },
+    {
+      "name": "App4_Bike_03Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Bike_03",
+      "depth": 4,
+      "text": "CICLAS"
+    },
+    {
+      "name": "App4_Bike_04Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Bike_04",
+      "depth": 4,
+      "text": "MOTOS"
+    },
+    {
+      "name": "App4_Bike_07Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Bike_07",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App4_Bike_08Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Bike_08",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App4_Bike_09Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Bike_09",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App4_Bike_10Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Bike_10",
+      "depth": 4,
+      "text": "COMPRAR VEHÍCULO"
+    },
+    {
+      "name": "App4_Bike_11Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Bike_11",
+      "depth": 4,
+      "text": "EQUIPAR"
+    },
+    {
+      "name": "App4_Bike_12Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Bike_12",
+      "depth": 4,
+      "text": "CASA"
+    },
+    {
+      "name": "App4_Bike_13Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Bike_13",
+      "depth": 4,
+      "text": "MAPA"
+    },
+    {
+      "name": "App4_Bike_14Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Bike_14",
+      "depth": 4,
+      "text": "PEDIDOS"
+    },
+    {
+      "name": "App4_Bike_15Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Bike_15",
+      "depth": 4,
+      "text": "TALLER"
+    },
+    {
+      "name": "App5_Bike_00Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Bike_00",
+      "depth": 4,
+      "text": "X"
+    },
+    {
+      "name": "App5_Bike_01Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Bike_01",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App5_Bike_02Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Bike_02",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App5_Bike_03Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Bike_03",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App5_Bike_04Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Bike_04",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App5_Bike_05Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Bike_05",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App5_Bike_06Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Bike_06",
+      "depth": 4,
+      "text": "BUSCAR OTRO PEDIDO"
+    },
+    {
+      "name": "App5_Bike_07Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Bike_07",
+      "depth": 4,
+      "text": "CASA"
+    },
+    {
+      "name": "App5_Bike_08Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Bike_08",
+      "depth": 4,
+      "text": "MAPA"
+    },
+    {
+      "name": "App5_Bike_09Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Bike_09",
+      "depth": 4,
+      "text": "PEDIDOS"
+    },
+    {
+      "name": "App5_Bike_10Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Bike_10",
+      "depth": 4,
+      "text": "TALLER"
+    },
+    {
+      "name": "App6_Bike_00Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Bike_00",
+      "depth": 4,
+      "text": "X"
+    },
+    {
+      "name": "App6_Bike_02Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Bike_02",
+      "depth": 4,
+      "text": "MOCHILA +1"
+    },
+    {
+      "name": "App6_Bike_03Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Bike_03",
+      "depth": 4,
+      "text": "CANGURERA +1"
+    },
+    {
+      "name": "App6_Bike_04Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Bike_04",
+      "depth": 4,
+      "text": "MALETAS MOTO +2"
+    },
+    {
+      "name": "App6_Bike_05Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Bike_05",
+      "depth": 4,
+      "text": "COMPRAR Y EQUIPAR"
+    },
+    {
+      "name": "App6_Bike_06Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Bike_06",
+      "depth": 4,
+      "text": "CASA"
+    },
+    {
+      "name": "App6_Bike_07Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Bike_07",
+      "depth": 4,
+      "text": "MAPA"
+    },
+    {
+      "name": "App6_Bike_08Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Bike_08",
+      "depth": 4,
+      "text": "PEDIDOS"
+    },
+    {
+      "name": "App6_Bike_09Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Bike_09",
+      "depth": 4,
+      "text": "TALLER"
+    },
+    {
+      "name": "App1_Moto_00Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App1_Moto_00",
+      "depth": 4,
+      "text": "X"
+    },
+    {
+      "name": "App1_Moto_02Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App1_Moto_02",
+      "depth": 4,
+      "text": "QUITAR MI MARCA"
+    },
+    {
+      "name": "App1_Moto_03Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App1_Moto_03",
+      "depth": 4,
+      "text": "CASA"
+    },
+    {
+      "name": "App1_Moto_04Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App1_Moto_04",
+      "depth": 4,
+      "text": "MAPA"
+    },
+    {
+      "name": "App1_Moto_05Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App1_Moto_05",
+      "depth": 4,
+      "text": "PEDIDOS"
+    },
+    {
+      "name": "App1_Moto_06Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App1_Moto_06",
+      "depth": 4,
+      "text": "TALLER"
+    },
+    {
+      "name": "App2_Moto_00Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Moto_00",
+      "depth": 4,
+      "text": "X"
+    },
+    {
+      "name": "App2_Moto_01Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Moto_01",
+      "depth": 4,
+      "text": "MIS ENTREGAS / CAPACIDAD"
+    },
+    {
+      "name": "App2_Moto_02Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Moto_02",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App2_Moto_04Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Moto_04",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App2_Moto_06Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Moto_06",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App2_Moto_08Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Moto_08",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App2_Moto_10Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Moto_10",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App2_Moto_12Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Moto_12",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App2_Moto_14Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Moto_14",
+      "depth": 4,
+      "text": "MANTÉN PARA TOMAR LA RUTA"
+    },
+    {
+      "name": "App2_Moto_15Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Moto_15",
+      "depth": 4,
+      "text": "PASAR ESTA OFERTA"
+    },
+    {
+      "name": "App2_Moto_16Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Moto_16",
+      "depth": 4,
+      "text": "CASA"
+    },
+    {
+      "name": "App2_Moto_17Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Moto_17",
+      "depth": 4,
+      "text": "MAPA"
+    },
+    {
+      "name": "App2_Moto_18Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Moto_18",
+      "depth": 4,
+      "text": "PEDIDOS"
+    },
+    {
+      "name": "App2_Moto_19Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App2_Moto_19",
+      "depth": 4,
+      "text": "TALLER"
+    },
+    {
+      "name": "App3_Moto_00Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_00",
+      "depth": 4,
+      "text": "X"
+    },
+    {
+      "name": "App3_Moto_01Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_01",
+      "depth": 4,
+      "text": "MALETAS"
+    },
+    {
+      "name": "App3_Moto_02Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_02",
+      "depth": 4,
+      "text": "VEHÍCULOS"
+    },
+    {
+      "name": "App3_Moto_03Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_03",
+      "depth": 4,
+      "text": "CICLAS"
+    },
+    {
+      "name": "App3_Moto_04Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_04",
+      "depth": 4,
+      "text": "MOTOS"
+    },
+    {
+      "name": "App3_Moto_07Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_07",
+      "depth": 4,
+      "text": "01 VEHÍCULO"
+    },
+    {
+      "name": "App3_Moto_08Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_08",
+      "depth": 4,
+      "text": "02 TURBO"
+    },
+    {
+      "name": "App3_Moto_09Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_09",
+      "depth": 4,
+      "text": "03 AERO"
+    },
+    {
+      "name": "App3_Moto_10Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_10",
+      "depth": 4,
+      "text": "04 CILINDRAJE"
+    },
+    {
+      "name": "App3_Moto_11Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_11",
+      "depth": 4,
+      "text": "05 INYECCIÓN"
+    },
+    {
+      "name": "App3_Moto_12Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_12",
+      "depth": 4,
+      "text": "06 MOTOR"
+    },
+    {
+      "name": "App3_Moto_13Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_13",
+      "depth": 4,
+      "text": "INSTALAR PIEZA"
+    },
+    {
+      "name": "App3_Moto_14Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_14",
+      "depth": 4,
+      "text": "USAR"
+    },
+    {
+      "name": "App3_Moto_15Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_15",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App3_Moto_16Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_16",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App3_Moto_17Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_17",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App3_Moto_18Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_18",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App3_Moto_19Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_19",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App3_Moto_20Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_20",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App3_Moto_21Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_21",
+      "depth": 4,
+      "text": "PINTAR $2.000"
+    },
+    {
+      "name": "App3_Moto_22Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_22",
+      "depth": 4,
+      "text": "CASA"
+    },
+    {
+      "name": "App3_Moto_23Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_23",
+      "depth": 4,
+      "text": "MAPA"
+    },
+    {
+      "name": "App3_Moto_24Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_24",
+      "depth": 4,
+      "text": "PEDIDOS"
+    },
+    {
+      "name": "App3_Moto_25Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App3_Moto_25",
+      "depth": 4,
+      "text": "TALLER"
+    },
+    {
+      "name": "App4_Moto_00Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Moto_00",
+      "depth": 4,
+      "text": "X"
+    },
+    {
+      "name": "App4_Moto_01Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Moto_01",
+      "depth": 4,
+      "text": "MALETAS"
+    },
+    {
+      "name": "App4_Moto_02Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Moto_02",
+      "depth": 4,
+      "text": "PIEZAS"
+    },
+    {
+      "name": "App4_Moto_03Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Moto_03",
+      "depth": 4,
+      "text": "CICLAS"
+    },
+    {
+      "name": "App4_Moto_04Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Moto_04",
+      "depth": 4,
+      "text": "MOTOS"
+    },
+    {
+      "name": "App4_Moto_07Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Moto_07",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App4_Moto_08Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Moto_08",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App4_Moto_09Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Moto_09",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App4_Moto_10Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Moto_10",
+      "depth": 4,
+      "text": "COMPRAR VEHÍCULO"
+    },
+    {
+      "name": "App4_Moto_11Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Moto_11",
+      "depth": 4,
+      "text": "EQUIPAR"
+    },
+    {
+      "name": "App4_Moto_12Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Moto_12",
+      "depth": 4,
+      "text": "CASA"
+    },
+    {
+      "name": "App4_Moto_13Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Moto_13",
+      "depth": 4,
+      "text": "MAPA"
+    },
+    {
+      "name": "App4_Moto_14Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Moto_14",
+      "depth": 4,
+      "text": "PEDIDOS"
+    },
+    {
+      "name": "App4_Moto_15Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App4_Moto_15",
+      "depth": 4,
+      "text": "TALLER"
+    },
+    {
+      "name": "App5_Moto_00Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Moto_00",
+      "depth": 4,
+      "text": "X"
+    },
+    {
+      "name": "App5_Moto_01Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Moto_01",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App5_Moto_02Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Moto_02",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App5_Moto_03Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Moto_03",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App5_Moto_04Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Moto_04",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App5_Moto_05Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Moto_05",
+      "depth": 4,
+      "text": ""
+    },
+    {
+      "name": "App5_Moto_06Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Moto_06",
+      "depth": 4,
+      "text": "BUSCAR OTRO PEDIDO"
+    },
+    {
+      "name": "App5_Moto_07Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Moto_07",
+      "depth": 4,
+      "text": "CASA"
+    },
+    {
+      "name": "App5_Moto_08Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Moto_08",
+      "depth": 4,
+      "text": "MAPA"
+    },
+    {
+      "name": "App5_Moto_09Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Moto_09",
+      "depth": 4,
+      "text": "PEDIDOS"
+    },
+    {
+      "name": "App5_Moto_10Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App5_Moto_10",
+      "depth": 4,
+      "text": "TALLER"
+    },
+    {
+      "name": "App6_Moto_00Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Moto_00",
+      "depth": 4,
+      "text": "X"
+    },
+    {
+      "name": "App6_Moto_02Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Moto_02",
+      "depth": 4,
+      "text": "MOCHILA +1"
+    },
+    {
+      "name": "App6_Moto_03Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Moto_03",
+      "depth": 4,
+      "text": "CANGURERA +1"
+    },
+    {
+      "name": "App6_Moto_04Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Moto_04",
+      "depth": 4,
+      "text": "MALETAS MOTO +2"
+    },
+    {
+      "name": "App6_Moto_05Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Moto_05",
+      "depth": 4,
+      "text": "COMPRAR Y EQUIPAR"
+    },
+    {
+      "name": "App6_Moto_06Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Moto_06",
+      "depth": 4,
+      "text": "CASA"
+    },
+    {
+      "name": "App6_Moto_07Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Moto_07",
+      "depth": 4,
+      "text": "MAPA"
+    },
+    {
+      "name": "App6_Moto_08Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Moto_08",
+      "depth": 4,
+      "text": "PEDIDOS"
+    },
+    {
+      "name": "App6_Moto_09Label",
+      "class": "/Script/UMG.TextBlock",
+      "parent": "App6_Moto_09",
+      "depth": 4,
+      "text": "TALLER"
+    }
+  ],
+  "count": 368,
+  "classes": {
+    "/Script/UMG.CanvasPanel": 3,
+    "/Script/UMG.Border": 4,
+    "/Script/UMG.Image": 26,
+    "/Script/UMG.TextBlock": 171,
+    "/Script/UMG.ProgressBar": 2,
+    "/Script/BogotaVoxel.DeliveryMapWidget": 3,
+    "/Script/UMG.Button": 103,
+    "/Script/BogotaVoxel.DeliveryChoiceButton": 56
+  }
+}

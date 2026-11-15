@@ -1,0 +1,108 @@
+{
+  "BP_PoliceMotorcycle_C_0": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_PoliceRoadPatrol_C_0": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_CivilMotorcycle_C_3": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_PoliceMotorcycle_C_1": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_PoliceRoadPatrol_C_1": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_CivilMotorcycle_C_4": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_CivilMotorcycle_C_5": {
+    "limit": 164.905319,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_PoliceMotorcycle_C_2": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_PoliceRoadPatrol_C_2": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_CivilMotorcycle_C_6": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_CivilMotorcycle_C_7": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_PoliceMotorcycle_C_3": {
+    "limit": 650.0,
+    "static_obstacle": "Calle original - fachada despejada SM_StreetFrontage_023",
+    "possible_cache_blockers": []
+  },
+  "BP_PoliceRoadPatrol_C_3": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_CivilMotorcycle_C_8": {
+    "limit": 207.114288,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_CivilMotorcycle_C_9": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_PoliceMotorcycle_C_4": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_PoliceRoadPatrol_C_4": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": [
+      {
+        "name": "car:71",
+        "along": 559.7794657742934,
+        "side": 113.45158092528396
+      }
+    ]
+  },
+  "BP_CivilMotorcycle_C_10": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_CivilMotorcycle_C_11": {
+    "limit": 99.246552,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  },
+  "BP_CivilMotorcycle_C_12": {
+    "limit": 0.0,
+    "static_obstacle": "",
+    "possible_cache_blockers": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": {
+    "CREATED": "true",
+    "OPEN_STATE": "true",
+    "PRESENT_IN_VIEWPORT": "true",
+    "HOME": "true",
+    "MAP": "true",
+    "ORDERS": "true",
+    "UPGRADES": "true",
+    "GARAGE": "true",
+    "ACTIVE": "true",
+    "CARGO": "true",
+    "CLOSED_STATE": "true",
+    "HUD_PERSISTS_ON_CLOSE": "true"
+  },
+  "script_warnings": [],
+  "visual_review": [
+    "Phone proportions maintained",
+    "Upgrade labels now fit",
+    "Map background overlay issue found; source correction pending rebuild",
+    "Garage live preview integration in progress"
+  ],
+  "main_project_promoted": false
+}

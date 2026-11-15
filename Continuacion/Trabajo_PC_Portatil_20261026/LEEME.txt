@@ -1,0 +1,1 @@
+Evidencias y herramientas del portatil recibidas el 26 de octubre. No es otro proyecto activo. Los registros y rutas absolutas se conservan como historial. No ejecutar scripts en bloque. El proyecto principal es RappiJuego1/BogotaVoxel.uproject.

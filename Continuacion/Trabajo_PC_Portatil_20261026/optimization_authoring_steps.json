@@ -1,0 +1,42 @@
+[
+  {
+    "script": "verify_lod_scales.py",
+    "status": "success"
+  },
+  {
+    "script": "enable_skeletal_lod_streaming.py",
+    "status": "success"
+  },
+  {
+    "script": "build_graphics_settings.py",
+    "status": "success"
+  },
+  {
+    "script": "build_optimization_qa.py",
+    "status": "success"
+  },
+  {
+    "script": "build_shader_warmup.py",
+    "status": "success"
+  },
+  {
+    "script": "scale_service_significance.py",
+    "status": "success"
+  },
+  {
+    "script": "scale_store_significance.py",
+    "status": "success"
+  },
+  {
+    "script": "scale_crowd_significance.py",
+    "status": "success"
+  },
+  {
+    "script": "optimization_map_audit.py",
+    "status": "success"
+  },
+  {
+    "script": "integrate_optimization_map.py",
+    "status": "success"
+  }
+]

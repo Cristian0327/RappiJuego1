@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": {
+    "100_VEHICLES": "true",
+    "TRAFFIC_IS_ACTIVE": "true",
+    "AVERAGE_30_FPS": "true"
+  },
+  "log": "work/PureTrafficSignalsRenderedQA.log",
+  "reviewed_image": "work/PureTrafficVisualQA/TRAFFIC00002.png",
+  "visual_defect_found": "floating added rear lamp clusters on SUV; fixed in Blender7 models, review after import running",
+  "scope": "City with100vehicles,35signals and spatial neighbor detection at1280x720; no pedestrians yet"
+}

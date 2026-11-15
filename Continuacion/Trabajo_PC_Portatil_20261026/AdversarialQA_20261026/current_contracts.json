@@ -1,0 +1,529 @@
+{
+  "map": [
+    {
+      "case": "full_center",
+      "actual": [
+        0.5,
+        0.5
+      ],
+      "expected": [
+        0.5,
+        0.5
+      ],
+      "passed": true
+    },
+    {
+      "case": "full_northwest",
+      "actual": [
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "case": "full_southeast",
+      "actual": [
+        1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "case": "mini_center",
+      "actual": [
+        0.5,
+        0.5
+      ],
+      "expected": [
+        0.5,
+        0.5
+      ],
+      "passed": true
+    },
+    {
+      "case": "mini_northwest",
+      "actual": [
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "passed": true
+    }
+  ],
+  "doors": [
+    {
+      "model": "Private",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 92.79999732971196,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -92.79999732971193,
+          "yaw": 65.00000000000004,
+          "translation": 1.4210854715202004e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateHatch",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 89.60000872612002,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -89.60000872611998,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateSUV",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 95.99999785423282,
+          "yaw": 0.0,
+          "translation": 0.0
+        },
+        {
+          "bone": "door_R",
+          "side_y": -95.99999785423277,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivatePickup",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 95.99999785423282,
+          "yaw": 0.0,
+          "translation": 0.0
+        },
+        {
+          "bone": "door_R",
+          "side_y": -95.99999785423277,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateBeetle",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 70.3999996185303,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -70.39999961853026,
+          "yaw": 65.00000000000004,
+          "translation": 3.1776437161565096e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateRenault4",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 80.00000119209292,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -80.00000119209288,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateRenault12",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 86.40000224113467,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -86.40000224113463,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateSprint",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 83.19999575614932,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -83.19999575614928,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateChevette",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 83.19999575614932,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -83.19999575614928,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateClio",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 86.40000224113467,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -86.40000224113463,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivatePicanto",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 86.40000224113467,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -86.40000224113463,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateAveo",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 89.60000872612002,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -89.60000872611998,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateSandero",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 92.79999732971196,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -92.79999732971193,
+          "yaw": 65.00000000000004,
+          "translation": 1.4210854715202004e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateMazda323",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 89.60000872612002,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -89.60000872611998,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivatePrado",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 99.19999837875369,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -99.19999837875365,
+          "yaw": 65.00000000000004,
+          "translation": 4.4938668397781776e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateVitara",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 89.60000872612002,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -89.60000872611998,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateRenault9",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 86.40000224113467,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -86.40000224113463,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateSingleCab",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 92.79999732971196,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -92.79999732971193,
+          "yaw": 65.00000000000004,
+          "translation": 1.4210854715202004e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateVan",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 89.60000872612002,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -89.60000872611998,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "PrivateWagon",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 92.79999732971196,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -92.79999732971193,
+          "yaw": 65.00000000000004,
+          "translation": 1.4210854715202004e-14
+        }
+      ]
+    },
+    {
+      "model": "TaxiCompact",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 89.60000872612002,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -89.60000872611998,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_rear_L",
+          "side_y": 89.60000872612002,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_rear_R",
+          "side_y": -89.60000872611998,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "TaxiSedan",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "door_L",
+          "side_y": 89.60000872612002,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_R",
+          "side_y": -89.60000872611998,
+          "yaw": 65.00000000000004,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_rear_L",
+          "side_y": 89.60000872612002,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        },
+        {
+          "bone": "door_rear_R",
+          "side_y": -89.60000872611998,
+          "yaw": 0.0,
+          "translation": 4.0194366942304644e-14
+        }
+      ]
+    },
+    {
+      "model": "TransMilenio",
+      "initial_speed": 0.0,
+      "passed": true,
+      "bones": [
+        {
+          "bone": "bus_door_a",
+          "side_y": -129.99999523162845,
+          "yaw": 0.0,
+          "translation": 50.635955604688654
+        },
+        {
+          "bone": "bus_door_b",
+          "side_y": -129.99999523162845,
+          "yaw": 0.0,
+          "translation": 50.635955604688654
+        }
+      ]
+    }
+  ],
+  "rider": {},
+  "failures": []
+}

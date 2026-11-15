@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": {
+    "BIKE_PLACED": "true",
+    "BIKE_ENTERING": "true",
+    "BIKE_MOUNT_FINISHES": "true",
+    "BIKE_FACES_FORWARD": "true",
+    "BIKE_MOVES_FLUIDLY": "true",
+    "MOUSE_STEERS_WHILE_ACCELERATING": "true",
+    "KEYBOARD_AND_MOUSE_COEXIST": "true",
+    "BIKE_EXITING": "true",
+    "BIKE_DISMOUNT_FINISHES": "true",
+    "UPRIGHT_AFTER_DISMOUNT": "true",
+    "MOTO_EQUIPPED": "true",
+    "MOTO_ENTERING": "true",
+    "MOTO_MOUNT_FINISHES": "true",
+    "MOTO_FACES_FORWARD": "true",
+    "MOTO_DISMOUNT_FINISHES": "true"
+  },
+  "log": "work/PureRiderMountSpeedFixedQA.log",
+  "scope": "Isolated actual game runtime; main not promoted; visual review pending"
+}

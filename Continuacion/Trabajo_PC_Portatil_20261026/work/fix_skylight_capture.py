@@ -1,0 +1,5 @@
+from pathlib import Path
+r=Path(__file__).resolve().parents[1]
+p=r/'outputs/BogotaVoxel/Source/BogotaVoxel/BogotaCity.cpp';s=p.read_text().replace('Ambient->GetLightComponent()->SetIntensity(2.5f);','Ambient->GetLightComponent()->SkyDistanceThreshold=50000.f;Ambient->GetLightComponent()->bLowerHemisphereIsBlack=false;Ambient->GetLightComponent()->SetIntensity(2.5f);');p.write_text(s)
+p=r/'work/build_street_crowd.py';s=p.read_text().replace('[(.10,.065,.04),(.035,.035,.045),(.24,.14,.08)]','[(.16,.105,.065),(.12,.12,.15),(.24,.14,.08)]').replace("('hair_light',1.22)","('hair_light',1.35)").replace('factor=.988+(((x//4)*31+(y//4)*19+j*7)%41)/40*.024','factor=.94+(((x//4)*31+(y//4)*19+j*7)%41)/40*.14');p.write_text(s)
+p=r/'work/apply_heads_lighting.py';p.write_text("from pathlib import Path\n_task_root=Path(__file__).resolve().parents[1]\nfor _task_file in ['import_street_crowd.py','harmonize_crowd_material.py','import_crowd_all_animation.py','fix_map_lighting.py']:\n _task_path=_task_root/'work'/_task_file\n exec(compile(_task_path.read_text(),str(_task_path),'exec'),{'__file__':str(_task_path)})\n")

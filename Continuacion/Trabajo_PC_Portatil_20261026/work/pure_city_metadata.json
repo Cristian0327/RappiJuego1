@@ -1,0 +1,10 @@
+{
+  "status": "STAGING_NOT_PROMOTED",
+  "native_custom_struct_references": false,
+  "counts": {
+    "BuildingCenters": 113,
+    "BuildingExtents": 113,
+    "NorthRoads": 7,
+    "EastRoads": 5
+  }
+}

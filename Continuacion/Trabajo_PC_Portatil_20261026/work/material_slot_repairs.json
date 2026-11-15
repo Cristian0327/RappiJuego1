@@ -1,0 +1,6522 @@
+[
+  {
+    "asset": "/Game/Delivery/Stores/SM_BakeryInterior.SM_BakeryInterior",
+    "slot": 0,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_BakeryInterior.SM_BakeryInterior",
+    "slot": 1,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_BakeryInterior.SM_BakeryInterior",
+    "slot": 2,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_BakeryInterior.SM_BakeryInterior",
+    "slot": 3,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_BakeryInterior.SM_BakeryInterior",
+    "slot": 4,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_BakeryInterior.SM_BakeryInterior",
+    "slot": 5,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_BakeryInterior.SM_BakeryInterior",
+    "slot": 6,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_BakeryInterior.SM_BakeryInterior",
+    "slot": 7,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_BakeryInterior.SM_BakeryInterior",
+    "slot": 13,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_CafeInterior.SM_CafeInterior",
+    "slot": 0,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_CafeInterior.SM_CafeInterior",
+    "slot": 1,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_CafeInterior.SM_CafeInterior",
+    "slot": 2,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_CafeInterior.SM_CafeInterior",
+    "slot": 3,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_CafeInterior.SM_CafeInterior",
+    "slot": 4,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_CafeInterior.SM_CafeInterior",
+    "slot": 5,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_CafeInterior.SM_CafeInterior",
+    "slot": 6,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_CafeInterior.SM_CafeInterior",
+    "slot": 7,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_CafeInterior.SM_CafeInterior",
+    "slot": 13,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_CafeInterior.SM_CafeInterior",
+    "slot": 14,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 27,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 28,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 29,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 30,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 31,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 32,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 33,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 34,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 35,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 36,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 37,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 38,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 39,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 40,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 41,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 42,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 43,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 44,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 45,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 46,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 47,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 48,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 49,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 50,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 51,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 52,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 53,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 54,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 55,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 56,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 57,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 58,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 59,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 60,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 61,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 62,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 63,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 64,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 65,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 66,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 67,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 68,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 69,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 70,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 71,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 72,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 73,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 74,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 75,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 76,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 77,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 78,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 79,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 80,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 81,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 82,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 83,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 84,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 85,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 86,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 87,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 88,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 89,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 90,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 91,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 92,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 93,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 94,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 95,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 96,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 97,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 98,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 99,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 100,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 101,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 102,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 103,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 104,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 105,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 106,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 107,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 108,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 109,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 110,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 111,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 112,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 113,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 114,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 115,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 116,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 117,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 118,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 119,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 120,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 121,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 122,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 123,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 124,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 125,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 126,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 127,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 128,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 129,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 130,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 131,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 132,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 133,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 134,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 135,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 136,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 137,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 138,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 139,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 140,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 141,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 142,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 143,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 144,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 145,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 146,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 147,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 148,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 149,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 150,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 151,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 152,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 153,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 154,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 155,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 156,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 157,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 158,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 159,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 160,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 161,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 162,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 163,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 164,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 165,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 166,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 167,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 168,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 169,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 170,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 171,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 172,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 173,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 174,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 175,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 176,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 177,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 178,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 179,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 180,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 181,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 182,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 183,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 184,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 185,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 186,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 187,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 188,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 189,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 190,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 191,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 192,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 193,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 194,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 195,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 196,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 197,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 198,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 199,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 200,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 201,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 202,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 203,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 204,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 205,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 206,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 207,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 208,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 209,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 210,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 211,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 212,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 213,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 214,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 215,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 216,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 217,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 218,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 219,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 220,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 221,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 222,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 223,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 224,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 225,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 226,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 227,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 228,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 229,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 230,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 231,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 232,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 233,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 234,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 235,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 236,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 237,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 238,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 239,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 240,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 241,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 242,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 243,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 244,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 245,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 246,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 247,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 248,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 249,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 250,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 251,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 252,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 253,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 254,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 255,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 256,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 257,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 258,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 259,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 260,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 261,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 262,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 263,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_ComponentsInterior.SM_ComponentsInterior",
+    "slot": 264,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 23,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 24,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 25,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 26,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 27,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 28,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 29,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 30,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 31,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 32,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 33,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 34,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 35,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 36,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 37,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 38,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 39,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 40,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 41,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 42,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 43,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 44,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 45,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 46,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 47,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 48,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 49,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 50,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 51,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 52,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 53,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 54,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 55,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 56,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 57,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 58,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 59,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 60,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 61,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 62,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 63,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 64,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 65,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 66,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 67,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 68,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 69,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 70,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 71,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 72,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 73,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 74,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 75,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 76,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 77,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 78,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 79,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 80,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 81,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 82,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 83,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 84,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 85,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 86,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 87,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 88,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 89,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 90,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 91,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 92,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 93,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 94,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 95,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 96,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 97,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 98,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 99,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 100,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 101,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 102,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 103,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 104,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 105,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 106,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 107,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 108,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 109,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 110,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 111,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 112,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 113,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 114,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 115,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 116,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 117,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 118,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 119,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 120,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 121,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 122,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 123,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 124,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 125,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 126,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 127,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 128,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 129,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 130,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 131,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 132,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 133,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 134,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 135,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 136,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 137,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 138,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 139,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 140,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 141,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 142,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 143,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 144,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 145,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 146,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 147,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 148,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 149,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 150,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 151,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 152,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 153,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 154,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 155,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 156,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 157,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 158,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 159,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 160,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 161,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 162,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 163,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 164,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 165,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 166,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 167,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 168,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 169,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 170,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 171,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 172,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 173,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 174,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 175,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 176,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 177,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 178,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 179,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 180,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 181,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 182,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 183,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 184,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 185,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 186,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 187,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 188,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 189,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 190,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 191,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 192,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 193,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 194,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 195,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 196,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 197,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 198,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 199,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 200,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 201,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 202,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 203,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 204,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 205,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 206,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 207,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 208,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 209,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 210,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 211,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 212,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 213,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 214,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 215,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 216,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 217,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 218,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 219,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 220,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 221,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 222,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 223,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 224,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 225,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 226,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 227,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 228,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 229,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 230,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 231,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 232,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 233,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 234,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 235,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 236,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 237,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 238,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 239,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 240,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 241,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 242,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 243,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 244,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 245,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 246,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 247,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 248,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 249,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 250,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_FreshMarketInterior.SM_FreshMarketInterior",
+    "slot": 251,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_HardwareInterior.SM_HardwareInterior",
+    "slot": 0,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_HardwareInterior.SM_HardwareInterior",
+    "slot": 1,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_HardwareInterior.SM_HardwareInterior",
+    "slot": 2,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_HardwareInterior.SM_HardwareInterior",
+    "slot": 3,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_HardwareInterior.SM_HardwareInterior",
+    "slot": 4,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_HardwareInterior.SM_HardwareInterior",
+    "slot": 5,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_HardwareInterior.SM_HardwareInterior",
+    "slot": 6,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_HardwareInterior.SM_HardwareInterior",
+    "slot": 7,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_HardwareInterior.SM_HardwareInterior",
+    "slot": 8,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_HardwareInterior.SM_HardwareInterior",
+    "slot": 9,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_HardwareInterior.SM_HardwareInterior",
+    "slot": 10,
+    "material": "ENV_cobalt"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_HardwareInterior.SM_HardwareInterior",
+    "slot": 11,
+    "material": "ENV_cyan"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_HardwareInterior.SM_HardwareInterior",
+    "slot": 12,
+    "material": "ENV_graphite"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_HardwareInterior.SM_HardwareInterior",
+    "slot": 13,
+    "material": "ENV_tile"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 34,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 35,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 36,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 37,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 38,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 39,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 40,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 41,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 42,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 43,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 44,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 45,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 46,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 47,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 48,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 49,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 50,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 51,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 52,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 53,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 54,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 55,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 56,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 57,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 58,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 59,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 60,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 61,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 62,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 63,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 64,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 65,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 66,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 67,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 68,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 69,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 70,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 71,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 72,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 73,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 74,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 75,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 76,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 77,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 78,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 79,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 80,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 81,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 82,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 83,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 84,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 85,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 86,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 87,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 88,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 89,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 90,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 91,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 92,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 93,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 94,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 95,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 96,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 97,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 98,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 99,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 100,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 101,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 102,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 103,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 104,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 105,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 106,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 107,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 108,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 109,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 110,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 111,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 112,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 113,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 114,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 115,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 116,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 117,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 118,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 119,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 120,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 121,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 122,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 123,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 124,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 125,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 126,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 127,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 128,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 129,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 130,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 131,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 132,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 133,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 134,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 135,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 136,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 137,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 138,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 139,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 140,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 141,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 142,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 143,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 144,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 145,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 146,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 147,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 148,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 149,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 150,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 151,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 152,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 153,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 154,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 155,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 156,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 157,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 158,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 159,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 160,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 161,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 162,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 163,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 164,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 165,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 166,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 167,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 168,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 169,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 170,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 171,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 172,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 173,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 174,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 175,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 176,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 177,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 178,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 179,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 180,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 181,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 182,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 183,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 184,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 185,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 186,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 187,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 188,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 189,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 190,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 191,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 192,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 193,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 194,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 195,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 196,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 197,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 198,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 199,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 200,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 201,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 202,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 203,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 204,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 205,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 206,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 207,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 208,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 209,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 210,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 211,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 212,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 213,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 214,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 215,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 216,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 217,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 218,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 219,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 220,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 221,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 222,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 223,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 224,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 225,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 226,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 227,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 228,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 229,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 230,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 231,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 232,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 233,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 234,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 235,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 236,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 237,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 238,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 239,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 240,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 241,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 242,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 243,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 244,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 245,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 246,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 247,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 248,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 249,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 250,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 251,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 252,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 253,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 254,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 255,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 256,
+    "material": "ENV_honey"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 257,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 258,
+    "material": "ENV_leaf"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 259,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 260,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 261,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 262,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 263,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_MarketInterior.SM_MarketInterior",
+    "slot": 264,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PetShopInterior.SM_PetShopInterior",
+    "slot": 0,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PetShopInterior.SM_PetShopInterior",
+    "slot": 1,
+    "material": "ENV_oak"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PetShopInterior.SM_PetShopInterior",
+    "slot": 2,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PetShopInterior.SM_PetShopInterior",
+    "slot": 3,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PetShopInterior.SM_PetShopInterior",
+    "slot": 4,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PetShopInterior.SM_PetShopInterior",
+    "slot": 5,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PetShopInterior.SM_PetShopInterior",
+    "slot": 6,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PetShopInterior.SM_PetShopInterior",
+    "slot": 7,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PetShopInterior.SM_PetShopInterior",
+    "slot": 8,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PetShopInterior.SM_PetShopInterior",
+    "slot": 9,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PetShopInterior.SM_PetShopInterior",
+    "slot": 10,
+    "material": "ENV_cyan"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PetShopInterior.SM_PetShopInterior",
+    "slot": 11,
+    "material": "ENV_graphite"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PetShopInterior.SM_PetShopInterior",
+    "slot": 12,
+    "material": "ENV_tile"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 28,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 29,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 30,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 31,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 32,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 33,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 34,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 35,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 36,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 37,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 38,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 39,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 40,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 41,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 42,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 43,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 44,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 45,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 46,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 47,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 48,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 49,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 50,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 51,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 52,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 53,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 54,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 55,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 56,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 57,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 58,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 59,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 60,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 61,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 62,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 63,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 64,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 65,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 66,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 67,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 68,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 69,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 70,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 71,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 72,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 73,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 74,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 75,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 76,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 77,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 78,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 79,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 80,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 81,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 82,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 83,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 84,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 85,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 86,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 87,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 88,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 89,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 90,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 91,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 92,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 93,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 94,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 95,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 96,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 97,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 98,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 99,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 100,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 101,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 102,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 103,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 104,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 105,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 106,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 107,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 108,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 109,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 110,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 111,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 112,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 113,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 114,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 115,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 116,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 117,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 118,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 119,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 120,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 121,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 122,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 123,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 124,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 125,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 126,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 127,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 128,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 129,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 130,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 131,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 132,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 133,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 134,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 135,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 136,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 137,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 138,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 139,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 140,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 141,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 142,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 143,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 144,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 145,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 146,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 147,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 148,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 149,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 150,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 151,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 152,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 153,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 154,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 155,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 156,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 157,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 158,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 159,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 160,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 161,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 162,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 163,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 164,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 165,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 166,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 167,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 168,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 169,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 170,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 171,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 172,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 173,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 174,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 175,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 176,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 177,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 178,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 179,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 180,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 181,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 182,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 183,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 184,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 185,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 186,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 187,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 188,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 189,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 190,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 191,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 192,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 193,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 194,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 195,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 196,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 197,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 198,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 199,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 200,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 201,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 202,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 203,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 204,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 205,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 206,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 207,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 208,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 209,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 210,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 211,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 212,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 213,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 214,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 215,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 216,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 217,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 218,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 219,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 220,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 221,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 222,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 223,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 224,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 225,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 226,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 227,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 228,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 229,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 230,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 231,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 232,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 233,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 234,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 235,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 236,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 237,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 238,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 239,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 240,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 241,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 242,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 243,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 244,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 245,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 246,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 247,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 248,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 249,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 250,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 251,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 252,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 253,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 254,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 255,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 256,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 257,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 258,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 259,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 260,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 261,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 262,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 263,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 264,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 265,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 266,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 267,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 268,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 269,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 270,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 271,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 272,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 273,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 274,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 275,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 276,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 277,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 278,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 279,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 280,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 281,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 282,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 283,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 284,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 285,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 286,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 287,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 288,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 289,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 290,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 291,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 292,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 293,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 294,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 295,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 296,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 297,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 298,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 299,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 300,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 301,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 302,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 303,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 304,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 305,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 306,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 307,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 308,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 309,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 310,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 311,
+    "material": "ENV_red"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 312,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 313,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 314,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 315,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 316,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 317,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 318,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 319,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 320,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 321,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 322,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_PharmacyInterior.SM_PharmacyInterior",
+    "slot": 323,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 39,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 40,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 41,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 42,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 43,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 44,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 45,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 46,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 47,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 48,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 49,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 50,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 51,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 52,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 53,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 54,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 55,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 56,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 57,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 58,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 59,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 60,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 61,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 62,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 63,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 64,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 65,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 66,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 67,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 68,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 69,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 70,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 71,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 72,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 73,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 74,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 75,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 76,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 77,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 78,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 79,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 80,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 81,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 82,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 83,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 84,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 85,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 86,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 87,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 88,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 89,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 90,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 91,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 92,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 93,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 94,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 95,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 96,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 97,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 98,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 99,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 100,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 101,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 102,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 103,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 104,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 105,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 106,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 107,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 108,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 109,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 110,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 111,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 112,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 113,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 114,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 115,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 116,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 117,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 118,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 119,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 120,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 121,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 122,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 123,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 124,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 125,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 126,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 127,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 128,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 129,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 130,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 131,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 132,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 133,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 134,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 135,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 136,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 137,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 138,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 139,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 140,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 141,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 142,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 143,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 144,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 145,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 146,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 147,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 148,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 149,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 150,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 151,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 152,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 153,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 154,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 155,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 156,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 157,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 158,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 159,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 160,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 161,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 162,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 163,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 164,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 165,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 166,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 167,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 168,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 169,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 170,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 171,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 172,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 173,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 174,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 175,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 176,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 177,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 178,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 179,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 180,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 181,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 182,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 183,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 184,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 185,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 186,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 187,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 188,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 189,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 190,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 191,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 192,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 193,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 194,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 195,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 196,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 197,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 198,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 199,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 200,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 201,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 202,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 203,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 204,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 205,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 206,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 207,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 208,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 209,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 210,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 211,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 212,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 213,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 214,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 215,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 216,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 217,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 218,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 219,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 220,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 221,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 222,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 223,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 224,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 225,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 226,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 227,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 228,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 229,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 230,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 231,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 232,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 233,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 234,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 235,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 236,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 237,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 238,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 239,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 240,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 241,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 242,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 243,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 244,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 245,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 246,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 247,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 248,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 249,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 250,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 251,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 252,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 253,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 254,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 255,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 256,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 257,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 258,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 259,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 260,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 261,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 262,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 263,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 264,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 265,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 266,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 267,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 268,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 269,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 270,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 271,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 272,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 273,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 274,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 275,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 276,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 277,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 278,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 279,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 280,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 281,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 282,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 283,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 284,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 285,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 286,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 287,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 288,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 289,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 290,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 291,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 292,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 293,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 294,
+    "material": "ENV_gold"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 295,
+    "material": "ENV_ink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 296,
+    "material": "ENV_sage"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 297,
+    "material": "ENV_cream"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 298,
+    "material": "ENV_ivory"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 299,
+    "material": "ENV_blue"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 300,
+    "material": "ENV_steel"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 301,
+    "material": "ENV_pink"
+  },
+  {
+    "asset": "/Game/Delivery/Stores/SM_TechInterior.SM_TechInterior",
+    "slot": 302,
+    "material": "ENV_gold"
+  }
+]

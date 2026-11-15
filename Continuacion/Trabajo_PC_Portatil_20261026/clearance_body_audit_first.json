@@ -1,0 +1,750 @@
+[
+  {
+    "lane": 0,
+    "segment": 191,
+    "actor": "BP_BogotaSignal_C_9",
+    "component": "Pole",
+    "impact": [
+      -16514.03594031014,
+      775.1979037503055,
+      333.0
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 192,
+    "actor": "BP_BogotaSignal_C_9",
+    "component": "Pole",
+    "impact": [
+      -16546.3712233994,
+      779.3125989049543,
+      273.44667053222656
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 193,
+    "actor": "BP_BogotaSignal_C_9",
+    "component": "Pole",
+    "impact": [
+      -16546.37122244691,
+      779.312598857481,
+      322.5
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 194,
+    "actor": "BP_BogotaSignal_C_9",
+    "component": "Pole",
+    "impact": [
+      -16546.503606883227,
+      826.8781588937127,
+      333.0
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 208,
+    "actor": "BP_BogotaSignal_C_11",
+    "component": "Pole",
+    "impact": [
+      -20652.03295432328,
+      2879.4649272488987,
+      337.875
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 209,
+    "actor": "BP_BogotaSignal_C_11",
+    "component": "Pole",
+    "impact": [
+      -20666.07595365533,
+      2901.635209222816,
+      257.50001525878906
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 210,
+    "actor": "BP_BogotaSignal_C_11",
+    "component": "Pole",
+    "impact": [
+      -20654.405445245324,
+      2882.0862699711815,
+      257.49998474121094
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 543,
+    "actor": "StaticMeshActor_58",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11275.411333719636,
+      -28068.039569422017,
+      316.48004150390625
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 544,
+    "actor": "StaticMeshActor_58",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11226.32436244869,
+      -27935.135194223516,
+      279.591064453125
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 545,
+    "actor": "StaticMeshActor_58",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11226.324332903354,
+      -27935.135201865225,
+      265.1462097167969
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 546,
+    "actor": "StaticMeshActor_58",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11226.32436244869,
+      -27935.135194223516,
+      279.591064453125
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 759,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part071",
+    "impact": [
+      -3424.467447310744,
+      31040.17614081254,
+      62.12748718261719
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 760,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part071",
+    "impact": [
+      -3311.9125168063515,
+      30950.199168081926,
+      159.18556213378906
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 761,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part071",
+    "impact": [
+      -3392.3973536776953,
+      31014.53909216014,
+      94.17388153076172
+    ]
+  },
+  {
+    "lane": 0,
+    "segment": 762,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part071",
+    "impact": [
+      -3013.381117114639,
+      30749.146652186108,
+      47.44447135925293
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 32,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part000",
+    "impact": [
+      7090.701142741288,
+      16196.626753093686,
+      48.263397216796875
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 33,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part000",
+    "impact": [
+      7083.029555413123,
+      16279.805372304127,
+      240.05160522460938
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 34,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part000",
+    "impact": [
+      7083.02957206012,
+      16279.80538603507,
+      240.05157470703125
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 35,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part000",
+    "impact": [
+      7020.5494220786,
+      16297.753307446872,
+      321.59423828125
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 39,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part071",
+    "impact": [
+      5741.92483793159,
+      18614.638105615617,
+      62.692413330078125
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 41,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part071",
+    "impact": [
+      5762.619157557124,
+      18653.402983659613,
+      62.69240188598633
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 312,
+    "actor": "StaticMeshActor_11",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11775.612763513183,
+      -25214.775834400087,
+      152.09510803222656
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 313,
+    "actor": "StaticMeshActor_11",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11783.756675208115,
+      -25231.91890010155,
+      147.60250091552734
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 314,
+    "actor": "StaticMeshActor_11",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11783.756687386005,
+      -25231.918890907553,
+      147.90321350097656
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 315,
+    "actor": "StaticMeshActor_11",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11827.954125230051,
+      -25290.460494309762,
+      147.90321350097656
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 316,
+    "actor": "StaticMeshActor_11",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      12012.062361017259,
+      -25575.282189528563,
+      50.443321228027344
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 470,
+    "actor": "StaticMeshActor_23",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      10547.676797567146,
+      -9172.969480849173,
+      337.7238464355469
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 471,
+    "actor": "StaticMeshActor_23",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      10525.943669558244,
+      -9091.496865601503,
+      301.61956787109375
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 472,
+    "actor": "StaticMeshActor_23",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      10457.38811903359,
+      -9042.402396319323,
+      261.93348693847656
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 473,
+    "actor": "StaticMeshActor_23",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      9982.693667256244,
+      -8379.647928170454,
+      273.91961669921875
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 474,
+    "actor": "StaticMeshActor_23",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      9979.824394060608,
+      -8375.49870594834,
+      243.03790283203125
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 475,
+    "actor": "StaticMeshActor_23",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      9901.805152383704,
+      -8262.674592848709,
+      265.55384826660156
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 659,
+    "actor": "BP_BogotaSignal_C_8",
+    "component": "Pole",
+    "impact": [
+      -17987.843981634112,
+      4050.04592034138,
+      333.0
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 660,
+    "actor": "BP_BogotaSignal_C_8",
+    "component": "Pole",
+    "impact": [
+      -17975.149786478618,
+      4032.0698547000025,
+      257.5
+    ]
+  },
+  {
+    "lane": 1,
+    "segment": 661,
+    "actor": "BP_BogotaSignal_C_8",
+    "component": "Pole",
+    "impact": [
+      -17963.281769747555,
+      4001.262726883615,
+      322.5
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 54,
+    "actor": "StaticMeshActor_58",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11275.411333719636,
+      -28068.039569422017,
+      316.48004150390625
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 55,
+    "actor": "StaticMeshActor_58",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11226.32436244869,
+      -27935.135194223516,
+      279.591064453125
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 56,
+    "actor": "StaticMeshActor_58",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11226.324332903354,
+      -27935.135201865225,
+      265.1462097167969
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 57,
+    "actor": "StaticMeshActor_58",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11226.32436244869,
+      -27935.135194223516,
+      279.591064453125
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 270,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part071",
+    "impact": [
+      -3424.467447310744,
+      31040.17614081254,
+      62.12748718261719
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 271,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part071",
+    "impact": [
+      -3311.9125168063515,
+      30950.199168081926,
+      159.18556213378906
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 272,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part071",
+    "impact": [
+      -3392.3973536776953,
+      31014.53909216014,
+      94.17388153076172
+    ]
+  },
+  {
+    "lane": 2,
+    "segment": 273,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part071",
+    "impact": [
+      -3013.381117114639,
+      30749.146652186108,
+      47.44447135925293
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 205,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part000",
+    "impact": [
+      7090.701142741288,
+      16196.626753093686,
+      48.263397216796875
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 206,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part000",
+    "impact": [
+      7083.029555413123,
+      16279.805372304127,
+      240.05160522460938
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 207,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part000",
+    "impact": [
+      7083.02957206012,
+      16279.80538603507,
+      240.05157470703125
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 208,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part000",
+    "impact": [
+      7020.5494220786,
+      16297.753307446872,
+      321.59423828125
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 212,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part071",
+    "impact": [
+      5741.92483793159,
+      18614.638105615617,
+      62.692413330078125
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 214,
+    "actor": "BP_MapaCompletoGeometry_C_1",
+    "component": "Part071",
+    "impact": [
+      5762.619157557124,
+      18653.402983659613,
+      62.69240188598633
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 485,
+    "actor": "StaticMeshActor_11",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11775.612763513183,
+      -25214.775834400087,
+      152.09510803222656
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 486,
+    "actor": "StaticMeshActor_11",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11783.756675208115,
+      -25231.91890010155,
+      147.60250091552734
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 487,
+    "actor": "StaticMeshActor_11",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11783.756687386005,
+      -25231.918890907553,
+      147.90321350097656
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 488,
+    "actor": "StaticMeshActor_11",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      11827.954125230051,
+      -25290.460494309762,
+      147.90321350097656
+    ]
+  },
+  {
+    "lane": 3,
+    "segment": 489,
+    "actor": "StaticMeshActor_11",
+    "component": "StaticMeshComponent0",
+    "impact": [
+      12012.062361017259,
+      -25575.282189528563,
+      50.443321228027344
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 189,
+    "actor": "BP_BogotaSignal_C_9",
+    "component": "Pole",
+    "impact": [
+      -16505.82174048487,
+      889.7845436445465,
+      40.0
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 190,
+    "actor": "BP_BogotaSignal_C_9",
+    "component": "Pole",
+    "impact": [
+      -16519.445459586215,
+      877.5940931797339,
+      209.57534790039062
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 191,
+    "actor": "BP_BogotaSignal_C_9",
+    "component": "Pole",
+    "impact": [
+      -16519.445459586215,
+      877.5940931797339,
+      240.40890502929688
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 192,
+    "actor": "BP_BogotaSignal_C_9",
+    "component": "Pole",
+    "impact": [
+      -16519.98521340662,
+      879.2844537120715,
+      40.0
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 193,
+    "actor": "BP_BogotaSignal_C_9",
+    "component": "Pole",
+    "impact": [
+      -16526.273522628093,
+      883.9215065950159,
+      40.0
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 194,
+    "actor": "BP_BogotaSignal_C_9",
+    "component": "Pole",
+    "impact": [
+      -16532.49932902551,
+      888.7486979933725,
+      40.0
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 195,
+    "actor": "BP_BogotaSignal_C_9",
+    "component": "Pole",
+    "impact": [
+      -16505.919670550233,
+      887.8196555687458,
+      40.0
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 196,
+    "actor": "BP_BogotaSignal_C_9",
+    "component": "Pole",
+    "impact": [
+      -16523.63961117135,
+      890.8192702277271,
+      40.0
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 201,
+    "actor": "BP_BogotaTransmiStation_C_2",
+    "component": "StationShell",
+    "impact": [
+      -19099.55705934682,
+      3309.5583437835376,
+      342.9999694824219
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 202,
+    "actor": "BP_BogotaTransmiStation_C_2",
+    "component": "StationShell",
+    "impact": [
+      -19245.109463316556,
+      3316.812942519337,
+      349.5
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 203,
+    "actor": "BP_BogotaTransmiStation_C_2",
+    "component": "StationShell",
+    "impact": [
+      -19597.230366240554,
+      3334.363028935578,
+      349.5
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 207,
+    "actor": "BP_BogotaSignal_C_11",
+    "component": "Pole",
+    "impact": [
+      -20650.07844423133,
+      2918.681676269877,
+      337.875
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 211,
+    "actor": "BP_BogotaSignal_C_11",
+    "component": "Pole",
+    "impact": [
+      -20643.85048208336,
+      2993.415297579039,
+      40.0
+    ]
+  },
+  {
+    "lane": 6,
+    "segment": 212,
+    "actor": "BP_BogotaSignal_C_11",
+    "component": "Pole",
+    "impact": [
+      -20657.442488555902,
+      2981.8611327015046,
+      216.23202514648438
+    ]
+  }
+]

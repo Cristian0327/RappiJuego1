@@ -1,0 +1,16 @@
+[
+  {
+    "mesh": "SK_TaxiSedan",
+    "rear_door_faces": {
+      "door_rear_L": 420,
+      "door_rear_R": 429
+    }
+  },
+  {
+    "mesh": "SK_TaxiCompact",
+    "rear_door_faces": {
+      "door_rear_L": 417,
+      "door_rear_R": 426
+    }
+  }
+]

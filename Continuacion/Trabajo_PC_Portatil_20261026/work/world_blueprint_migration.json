@@ -1,0 +1,37 @@
+[
+  {
+    "function": "TrafficPaintFor",
+    "nodes": 6,
+    "links": 7
+  },
+  {
+    "function": "TrafficNSGreen",
+    "nodes": 5,
+    "links": 4
+  },
+  {
+    "function": "TrafficEWGreen",
+    "nodes": 7,
+    "links": 7
+  },
+  {
+    "function": "HourForCycle",
+    "nodes": 11,
+    "links": 13
+  },
+  {
+    "function": "AdvanceClock",
+    "nodes": 17,
+    "links": 20
+  },
+  {
+    "function": "AdvanceTime",
+    "nodes": 14,
+    "links": 16
+  },
+  {
+    "function": "DistrictAt",
+    "nodes": 22,
+    "links": 26
+  }
+]

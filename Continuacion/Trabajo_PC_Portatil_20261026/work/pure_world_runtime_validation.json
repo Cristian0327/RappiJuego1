@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "checks": {
+    "NOON_SUN": "true",
+    "NOON_AMBIENT": "true",
+    "NIGHT_SUN": "true",
+    "NIGHT_AMBIENT": "true",
+    "DRIZZLE_VISIBLE": "true",
+    "NO_HAIL_IN_DRIZZLE": "true",
+    "ROOF_TRACE_CACHED": "true",
+    "STORM_HAIL_VISIBLE": "true",
+    "RAIN_FOLLOWS_CAMERA": "true",
+    "LIGHTNING_EVENT": "true",
+    "THUNDER_EVENT": "true",
+    "STORM_AVERAGE_30_FPS": "true",
+    "RAIN_STOPS": "true",
+    "HAIL_STOPS": "true"
+  },
+  "count": 14,
+  "script_warnings": [],
+  "test_scene": "Isolated actual game world, roof and floor; rendered 1280x720",
+  "storm_mean_frame_budget_below_seconds": 0.0335,
+  "visual_review": [
+    "Night sky and stars",
+    "Dense storm clouds",
+    "Rain streaks and hail",
+    "Phone/garage visuals in separate city QA"
+  ],
+  "main_promoted": false,
+  "remaining": [
+    "Full-map traffic/NPC migration",
+    "Player mounting/vehicle integration",
+    "Final whole-project C++ removal and regression"
+  ]
+}

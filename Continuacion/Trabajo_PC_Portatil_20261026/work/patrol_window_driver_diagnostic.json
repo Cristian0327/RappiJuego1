@@ -1,0 +1,25 @@
+{
+  "slots": [
+    {
+      "slot": "ServiceVoxel",
+      "material": "/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel"
+    },
+    {
+      "slot": "ServiceWindow",
+      "material": "/Game/Traffic/Services/M_ServiceWindow.M_ServiceWindow"
+    }
+  ],
+  "child_defaults": {
+    "BP_VoxelRoadVehicle": {
+      "RiderModel": "<Object '/Game/Crowd/People/SK_Citizen12.SK_Citizen12' (0x000001A71B7D6E00) Class 'SkeletalMesh'>",
+      "RiderAnimation": "<Object '/Game/Traffic/Services/AN_MotorcycleRider.AN_MotorcycleRider' (0x000001A71C684600) Class 'AnimSequence'>",
+      "RiderMaterial": "<Object '/Game/Crowd/MI_Crowd.MI_Crowd' (0x000001A71ABE8000) Class 'MaterialInstanceConstant'>"
+    },
+    "BP_PoliceRoadPatrol": {
+      "RiderModel": "<Object '/Game/Traffic/Services/SK_PoliceOfficer.SK_PoliceOfficer' (0x000001A7157FC800) Class 'SkeletalMesh'>",
+      "RiderAnimation": "<Object '/Game/Traffic/Services/AN_PatrolDriver.AN_PatrolDriver' (0x000001A719F57700) Class 'AnimSequence'>",
+      "RiderMaterial": "<Object '/Game/Traffic/Services/M_ServiceVoxel.M_ServiceVoxel' (0x000001A70B5B6200) Class 'Material'>"
+    }
+  },
+  "window_blend": "<BlendMode.BLEND_TRANSLUCENT: 2>"
+}

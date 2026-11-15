@@ -1,0 +1,44 @@
+import unreal,json,sys,math
+from pathlib import Path
+r=Path(unreal.Paths.project_dir()).parent;sys.path.insert(0,str(r/'Herramientas'));import blueprint_graph as d
+E=unreal.BlueprintEditorLibrary;T=unreal.AssetToolsHelpers.get_asset_tools();folder='/Game/World/BlueprintWorld/Traffic';f=unreal.BlueprintFactory();f.set_editor_property('parent_class',unreal.Actor);bp=unreal.load_asset(folder+'/BP_TrafficManager') or T.create_asset('BP_TrafficManager',folder,unreal.Blueprint,f);d.bp=bp;P=bp.generated_class().get_path_name();V=folder+'/BP_TrafficVehicle.BP_TrafficVehicle_C';L=folder+'/BP_TrafficLane.BP_TrafficLane_C';M=d.M;G='/Script/Engine.GameplayStatics';AL='/Script/Engine.KismetArrayLibrary';A='/Script/Engine.Actor';I=E.get_basic_type_by_name('int');F=E.get_basic_type_by_name('real');known=[str(x) for x in E.list_member_variable_names(bp)]
+for n,t in {'Vehicles':E.get_array_type(E.get_object_reference_type(unreal.load_class(None,V))),'Lanes':E.get_array_type(E.get_object_reference_type(unreal.load_class(None,L))),'ModelIndices':E.get_array_type(I),'LaneIndices':E.get_array_type(I),'LeaderIndices':E.get_array_type(I),'InitialDistances':E.get_array_type(F),'PaintIndices':E.get_array_type(I),'Accumulator':F,'SimulationSteps':I,'FrameTime':F,'WorldState':E.get_object_reference_type(unreal.load_class(None,'/Game/World/BlueprintWorld/BP_WorldState.BP_WorldState_C'))}.items():
+ if n not in known:assert E.add_member_variable(bp,n,t)
+assert E.compile_blueprint(bp)
+def build(g,name,params=[]):assert unreal.DeliveryEditorLibrary.build_logic_graph(bp,name,json.dumps({'nodes':g.nodes,'links':g.links,'parameters':params}))
+models=json.loads((r/'work/pure_traffic_vehicle_foundation.json').read_text())['models'];lane_specs=json.loads((r/'work/pure_traffic_lane_foundation.json').read_text())['lanes'];actors=unreal.get_editor_subsystem(unreal.EditorActorSubsystem);laneActors=[actors.spawn_actor_from_class(unreal.load_asset(s['asset']).generated_class(),unreal.Vector()) for s in lane_specs];specs=[];ordinal=0
+try:
+ for i in range(100):
+  bus=i>=96;taxi=not bus and i%6==5;model=22 if bus else 20+(i//6)%2 if taxi else ordinal%20;paint=ordinal
+  if not bus and not taxi:ordinal+=1
+  lane=6 if bus else i%6;la=laneActors[lane];length=la.call_method('RouteLength');dist=length*((i-96 if bus else i//6)+.25)/(4 if bus else 16);spec=models[model]
+  for attempt in range(300):
+   pos=la.call_method('SamplePosition',(dist,));forward=la.call_method('SampleHeading',(dist,));inside=any(abs(pos.x-x)<1550+spec['half_length']+100 and abs(pos.y-y)<(1925 if y==0 else 1550)+spec['half_length']+100 for x in [-36000,-24000,-12000,0,12000,24000,36000] for y in [-22000,-11000,0,11000,22000])
+   for other in specs:
+    dx=other['position'][0]-pos.x;dy=other['position'][1]-pos.y
+    if abs(dx*forward.x+dy*forward.y)<spec['half_length']+other['half_length']+300 and abs(dx*forward.y-dy*forward.x)<spec['half_width']+other['half_width']+80:inside=True
+   if not inside:break
+   dist=(dist-400+length)%length
+  assert not inside,('unable safe spawn',i);specs.append({'index':i,'model':model,'lane':lane,'paint':paint,'distance':dist,'position':[pos.x,pos.y,pos.z],'half_length':spec['half_length'],'half_width':spec['half_width']})
+finally:
+ for actor in laneActors:actors.destroy_actor(actor)
+for lane in range(7):
+ group=sorted([s for s in specs if s['lane']==lane],key=lambda s:s['distance'])
+ for i,spec in enumerate(group):spec['leader']=group[(i+1)%len(group)]['index']
+cdo=unreal.get_default_object(bp.generated_class())
+for n,k in [('ModelIndices','model'),('LaneIndices','lane'),('LeaderIndices','leader'),('InitialDistances','distance'),('PaintIndices','paint')]:cdo.set_editor_property(n,[s[k] for s in specs])
+# Authored class selectors are Blueprint spawn nodes, not runtime loading or native catalog structs.
+g=d.Graph();last='entry';edge='then'
+for i,spec in enumerate(models):
+ tag='Model'+str(i);g.call(tag+'Matches','EqualEqual_IntInt',M,B=str(i));g.link('entry','Index',tag+'Matches','A');g.branch(tag,tag+'Matches');g.exec(last,tag,edge);g.call(tag+'Spawn','BeginDeferredActorSpawnFromClass',G,ActorClass=spec['asset']+'.'+spec['asset'].rsplit('/',1)[1]+'_C',CollisionHandlingOverride='AlwaysSpawn');g.link('entry','AtTransform',tag+'Spawn','SpawnTransform');g.exec(tag,tag+'Spawn');g.call(tag+'Finish','FinishSpawningActor',G);g.link(tag+'Spawn','ReturnValue',tag+'Finish','Actor');g.link('entry','AtTransform',tag+'Finish','SpawnTransform');g.exec(tag+'Spawn',tag+'Finish');g.node(tag+'Cast','cast',type=V);g.link(tag+'Finish','ReturnValue',tag+'Cast','Object');g.node(tag+'Return','return');g.link(tag+'Cast','AsBP Traffic Vehicle',tag+'Return','ReturnValue');g.exec(tag+'Finish',tag+'Return');last=tag;edge='else'
+g.exec(last,'result',edge);build(g,'SpawnVehicleModel',[{'name':'Index','category':'int'},{'name':'AtTransform','category':'struct','object':'/Script/CoreUObject.Transform'},{'name':'ReturnValue','category':'object','object':V,'out':True}])
+g=d.Graph()
+for n in ['Vehicles','Lanes','ModelIndices','LaneIndices','LeaderIndices','InitialDistances','PaintIndices']:g.get(n)
+g.call('Count','Array_Length',AL);g.link('Vehicles','Vehicles','Count','TargetArray');g.call('Existing','Greater_IntInt',M,B='0');g.link('Count','ReturnValue','Existing','A');g.branch('HaveTraffic','Existing');g.exec('entry','HaveTraffic');g.exec('HaveTraffic','result');last='HaveTraffic';edge='else'
+for i in range(7):
+ tag='Lane'+str(i);asset=folder+'/BP_TrafficLane_'+str(i);g.call(tag+'Transform','MakeTransform',M);g.call(tag+'Spawn','BeginDeferredActorSpawnFromClass',G,ActorClass=asset+'.BP_TrafficLane_'+str(i)+'_C',CollisionHandlingOverride='AlwaysSpawn');g.link(tag+'Transform','ReturnValue',tag+'Spawn','SpawnTransform');g.exec(last,tag+'Spawn',edge);g.call(tag+'Finish','FinishSpawningActor',G);g.link(tag+'Spawn','ReturnValue',tag+'Finish','Actor');g.link(tag+'Transform','ReturnValue',tag+'Finish','SpawnTransform');g.exec(tag+'Spawn',tag+'Finish');g.node(tag+'Cast','cast',type=L);g.link(tag+'Finish','ReturnValue',tag+'Cast','Object');g.call(tag+'Append','Array_Add',AL);g.link('Lanes','Lanes',tag+'Append','TargetArray');g.link(tag+'Cast','AsBP Traffic Lane',tag+'Append','NewItem');g.exec(tag+'Finish',tag+'Append');last=tag+'Append';edge='then'
+g.node('EachModel','foreach');g.link('ModelIndices','ModelIndices','EachModel','Array');g.link(last,'then','EachModel','Exec')
+for n in ['LaneIndices','InitialDistances','PaintIndices']:
+ g.call(n+'At','Array_Get',AL);g.link(n,n,n+'At','TargetArray');g.link('EachModel','Array Index',n+'At','Index')
+g.call('ChosenLane','Array_Get',AL);g.link('Lanes','Lanes','ChosenLane','TargetArray');g.link('LaneIndicesAt','Item','ChosenLane','Index');g.call('Point','SamplePosition',L);g.link('ChosenLane','Item','Point','self');g.link('InitialDistancesAt','Item','Point','Distance');g.call('At','MakeTransform',M);g.link('Point','ReturnValue','At','Location');g.call('Spawn','SpawnVehicleModel',P);g.link('EachModel','Array Element','Spawn','Index');g.link('At','ReturnValue','Spawn','AtTransform');g.link('EachModel','LoopBody','Spawn','execute');g.call('Append','Array_Add',AL);g.link('Vehicles','Vehicles','Append','TargetArray');g.link('Spawn','ReturnValue','Append','NewItem');g.exec('Spawn','Append');g.call('Place','InitializeRoute',V);g.link('Spawn','ReturnValue','Place','self');g.link('ChosenLane','Item','Place','Route');g.link('InitialDistancesAt','Item','Place','AtDistance');g.exec('Append','Place');g.call('Paint','ApplyPaintIndex',V);g.link('Spawn','ReturnValue','Paint','self');g.link('PaintIndicesAt','Item','Paint','Index');g.exec('Place','Paint');g.node('EachVehicle','foreach');g.link('Vehicles','Vehicles','EachVehicle','Array');g.link('EachModel','Completed','EachVehicle','Exec');g.call('LeaderIndex','Array_Get',AL);g.link('LeaderIndices','LeaderIndices','LeaderIndex','TargetArray');g.link('EachVehicle','Array Index','LeaderIndex','Index');g.call('Leader','Array_Get',AL);g.link('Vehicles','Vehicles','Leader','TargetArray');g.link('LeaderIndex','Item','Leader','Index');g.call('AssignLeader','AssignLeader',V);g.link('EachVehicle','Array Element','AssignLeader','self');g.link('Leader','Item','AssignLeader','Vehicle');g.link('EachVehicle','LoopBody','AssignLeader','execute');g.link('EachVehicle','Completed','result','execute');build(g,'CreateTraffic')
+assert E.compile_blueprint(bp);assert unreal.EditorAssetLibrary.save_loaded_asset(bp,only_if_is_dirty=False);(r/'work/pure_traffic_manager_foundation.json').write_text(json.dumps({'status':'STAGING','vehicles':100,'private_and_taxis':96,'buses':4,'spawn_specs':specs,'pending':['Fixed simulation lifecycle','Signals and cross-lane reservations','Player/pedestrian avoidance','Bus passengers','Runtime performance and main promotion']},indent=2));unreal.log('PURE_TRAFFIC_MANAGER_SPAWN_PASS vehicles=100')

@@ -1,0 +1,14 @@
+[
+  {
+    "asset": "SM_PizzaFront",
+    "vertices": 21496,
+    "triangles": 32244,
+    "materials": 21
+  },
+  {
+    "asset": "SM_PizzaInterior",
+    "vertices": 67152,
+    "triangles": 100728,
+    "materials": 21
+  }
+]

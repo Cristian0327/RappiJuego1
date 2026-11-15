@@ -1,0 +1,15 @@
+{
+  "before": "/Game/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi.SM_Bogota_EstacionTransmi",
+  "after_reload": "/Game/World/BogotaUrban/Geometry/SM_Bogota_EstacionTransmi_Compacta.SM_Bogota_EstacionTransmi_Compacta",
+  "position": [
+    -19287.816648259504,
+    3497.162448589572,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "persisted": true
+}

@@ -1,0 +1,117 @@
+{
+  "status": "STAGING_NOT_PROMOTED",
+  "functions": [
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "StoreFocusedOrder"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "SelectActiveOrder"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "CompleteOrder"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "DestroyMarkers"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "RestoreOrderMarkers"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "SpawnOrderRecipient"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "RemovePickupMarker"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "CollectOrder"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "ShopCollect"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "ShopReady"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "ShoppingInstruction"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/People/BP_DeliveryRecipient.BP_DeliveryRecipient",
+      "function": "EnsureComponents"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/People/BP_DeliveryRecipient.BP_DeliveryRecipient",
+      "function": "InitializeAppearance"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/People/BP_DeliveryRecipient.BP_DeliveryRecipient",
+      "function": "ReceiveBeginPlay"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "RemovePickupMarker"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "DestroyMarkers"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "SpawnOrderRecipient"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "RestoreOrderMarkers"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "ShopCollect"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "ShopReady"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "ShoppingInstruction"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "CollectOrder"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "StoreFocusedOrder"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "SelectActiveOrder"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/BPC_DeliveryDataCore.BPC_DeliveryDataCore",
+      "function": "CompleteOrder"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/People/BP_DeliveryRecipient.BP_DeliveryRecipient",
+      "function": "CanDeliver"
+    },
+    {
+      "asset": "/Game/Delivery/BlueprintGameplay/People/BP_DeliveryRecipient.BP_DeliveryRecipient",
+      "function": "ReceiveDelivery"
+    }
+  ],
+  "limitations": [
+    "AcceptOffer and player/input integration pending",
+    "Player and phone integration pending"
+  ]
+}

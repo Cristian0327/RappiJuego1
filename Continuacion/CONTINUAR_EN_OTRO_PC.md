@@ -1,4 +1,6 @@
-# Continuación de BogotaVoxel — pausa solicitada por el usuario
+# Continuación de BogotaVoxel — informe histórico del 22 de octubre
+
+> Para la entrega actual, leer CONTINUAR_PC_PRINCIPAL_2026-10-26.md. Este documento conserva el estado histórico y no debe usarse como punto de continuación vigente.
 
 Estado guardado el 22 de octubre de 2026. Rama de destino: `test` del repositorio https://github.com/Cristian0327/RappiJuego1. Mensaje de commit solicitado: `Michaelxd`.
 

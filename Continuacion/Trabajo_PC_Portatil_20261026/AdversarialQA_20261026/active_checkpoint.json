@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-26",
+  "goal": "More optimization and adversarial gameplay/usability QA with real screenshots; no packaging; open original Unreal project at end.",
+  "latest_user_resource_preference": "Continue with notepad and winwm.scr open. Windows denied closing them; do not retry or elevate.",
+  "running": {
+    "pid": 14980,
+    "project": "ModulelessRuntime",
+    "log": "AdversarialQA_20261026/runtime_light_cached.log",
+    "scenario": "7-page phone regression then CPUIsolation tier0 only; -BogotaSingle=1",
+    "watchdog": "Original own PowerShell watchdog was cancelled after 13 UI checks so main-map load could finish. No active watchdog."
+  },
+  "original_promoted": [
+    "BPC_DeliveryDataCore.uasset",
+    "BP_DeliveryRecipient.uasset"
+  ],
+  "original_unpromoted": [
+    "WBP_BlueprintPhone updated cache and 16pt PhoneHints"
+  ],
+  "original_descriptor": "UNCHANGED; moduleless engine5.8 with PythonScriptPlugin, EditorScriptingUtilities, IKRig",
+  "runtime_descriptor": "Conservative test profile: 64 plugins incl all previously mounted shader providers and actual dependencies of 870 packages; DisableEnginePluginsByDefault true. Not promoted.",
+  "verified": [
+    "278 data/shop/marketplace/progress checks",
+    "21 order acceptance checks",
+    "34 normal pickup/checkout/delivery lifecycle checks",
+    "Unpaid delivery rejected by core AND recipient; before balance7000->14000 bug; after unchanged",
+    "100 invalid ID sequences rejected",
+    "23 vehicle front/rear door tests, wheel isolation and movement auto-close",
+    "7 arc lane metadata integrity cases",
+    "28 current rider checks plus5 frame-delta cases",
+    "7 actual phone page screenshots before and after; after Map visible and hints larger; MAP_PANEL_HAS_SIZE=true"
+  ],
+  "screens": "AdversarialQA_20261026/screens and screens_after; after_MAP screenshot inspected and good; before blank map was missing BP_MapNavigation in QA map, NOT a game bug.",
+  "current_native_results": "final_native_checks.json has PASS doors23 and metadata7; legacy rider numeric test still fails acceleration old60. rider_current_behavior.json is current behavioral test PASS28+5; preserve historical failures.",
+  "profile_diagnostic": "cpu_isolation_results.json: phases0..4 FPS0.43,.73,.74,1.38,1.86; groups disabled intentionally only in QA, not playable optimization gain.",
+  "candidate_not_run": "scripts/cull_unseen_wheel_pose.py written but NOT executed: guard only wheel bone writes by Actor.WasRecentlyRendered(.25) OR ForceWheelPose preview; preserve bus joint and RearAxleWorld state every call. Back up author and canonical parent before changing; verify23 models. No collision or route rewrites.",
+  "possible_followup_not_implemented": "Graphics close restores GameOnly/cursorfalse even if phone is open. Reproduce programmatic menu interaction, fix restoring GameAndUI to PhoneWidget and cancel hold on opening, then add runtime checks. Do not claim bug until verified.",
+  "next": [
+    "Monitor current runtime for13 UI asserts then main tier0 and matrix complete; inspect city screenshot and analyze newCSV",
+    "Promote UI only after rendered regression, protected byte comparison via sync_adversarial_assets.py original-ui",
+    "If runtime profile valid, decide original plugin descriptor promotion with backup; preserve moduleless descriptor and shader providers",
+    "Candidate wheel culling needs author worker (none running now) and Native VM tests before promotion; tests belong in copies",
+    "Update QA report with honest scope/pending traffic and keyboard limits; open canonical project in visible Editor at end"
+  ],
+  "constraints": [
+    "No subagents authorized",
+    "No SDK available; use precompiled DeliveryEditorLibrary in BlueprintAuthoring only",
+    "One Unreal at a time on this laptop",
+    "Physical UI keyboard input NOT verified: sky.list_windows timed out3 times including reset; skill docs read",
+    "Cannot certify zero errors or60FPS; unresolved v23 traffic contacts/queues remain",
+    "Do not close other user apps; latest user explicitly kept them open"
+  ]
+}

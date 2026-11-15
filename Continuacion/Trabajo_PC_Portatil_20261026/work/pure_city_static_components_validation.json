@@ -1,0 +1,183 @@
+{
+  "status": "PASS",
+  "instances": 16480,
+  "labels": 13,
+  "before_beginplay": true,
+  "no_duplicate_on_beginplay": true,
+  "groups": [
+    {
+      "group": "Solid_0",
+      "instances": 47,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": true
+    },
+    {
+      "group": "Solid_1",
+      "instances": 64,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": true
+    },
+    {
+      "group": "Decor_1",
+      "instances": 24,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": false
+    },
+    {
+      "group": "Solid_2",
+      "instances": 51,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": true
+    },
+    {
+      "group": "Solid_3",
+      "instances": 21,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": true
+    },
+    {
+      "group": "Solid_4",
+      "instances": 44,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": true
+    },
+    {
+      "group": "Decor_4",
+      "instances": 5,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": false
+    },
+    {
+      "group": "Solid_5",
+      "instances": 11,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": true
+    },
+    {
+      "group": "Decor_5",
+      "instances": 1260,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": false
+    },
+    {
+      "group": "Solid_6",
+      "instances": 100,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": true
+    },
+    {
+      "group": "Decor_6",
+      "instances": 329,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": false
+    },
+    {
+      "group": "Decor_7",
+      "instances": 8283,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": false
+    },
+    {
+      "group": "Solid_8",
+      "instances": 123,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": true
+    },
+    {
+      "group": "Decor_8",
+      "instances": 346,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": false
+    },
+    {
+      "group": "Decor_9",
+      "instances": 173,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": false
+    },
+    {
+      "group": "Solid_10",
+      "instances": 173,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": true
+    },
+    {
+      "group": "Decor_10",
+      "instances": 5,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": false
+    },
+    {
+      "group": "Decor_11",
+      "instances": 308,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": false
+    },
+    {
+      "group": "Decor_12",
+      "instances": 1285,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": false
+    },
+    {
+      "group": "Decor_13",
+      "instances": 380,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": false
+    },
+    {
+      "group": "Decor_15",
+      "instances": 2711,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": false
+    },
+    {
+      "group": "Solid_17",
+      "instances": 5,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": true
+    },
+    {
+      "group": "Decor_17",
+      "instances": 190,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": false
+    },
+    {
+      "group": "Solid_18",
+      "instances": 193,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": true
+    },
+    {
+      "group": "Solid_19",
+      "instances": 4,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": true
+    },
+    {
+      "group": "Solid_20",
+      "instances": 15,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": true
+    },
+    {
+      "group": "Decor_20",
+      "instances": 44,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": false
+    },
+    {
+      "group": "Solid_21",
+      "instances": 258,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": true
+    },
+    {
+      "group": "Decor_21",
+      "instances": 28,
+      "maximum_coordinate_error_cm": 0,
+      "navigation": false
+    }
+  ]
+}

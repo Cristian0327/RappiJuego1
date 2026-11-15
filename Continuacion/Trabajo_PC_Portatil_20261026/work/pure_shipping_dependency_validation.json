@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "roots": [
+    {
+      "root": "/Game/Maps/Bogota_Blueprint_Integration",
+      "packages": 565,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/World/BlueprintWorld/BP_BlueprintGameMode",
+      "packages": 332,
+      "native_paths": []
+    },
+    {
+      "root": "/Game/World/BlueprintWorld/Traffic/BP_TaxiPassenger",
+      "packages": 41,
+      "native_paths": []
+    }
+  ],
+  "main_migration_still_incomplete": true
+}
